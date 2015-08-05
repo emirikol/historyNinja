@@ -1,0 +1,24 @@
+culture=aztek 
+religion=teotl_azt
+capital="Rivas" 
+trade_goods=sugar
+hre=no 
+base_tax=2 
+manpower=1 
+native_size=20 
+native_ferocity=1 
+native_hostileness=5
+discovered_by=MAY
+discovered_by=CAK
+
+1502.1.1={discovered_by=CAS} # Christopher Columbus. The Miskitos weren't affected too much by the Spanish conquest 
+1516.1.23={discovered_by=SPA}
+1523.1.1={owner=SPA	controller=SPA culture=castillian religion=catholic citysize=2995 fort1=yes} # First permanent Spanish settlement 
+1740.1.1={owner=GBR controller=GBR religion=protestant culture=english citysize=3000 trade_goods=fish} # Treaty of Friendship & Alliance, British protectorate 
+1750.1.1={citysize=4980} 
+1765.1.1={add_core=GBR}
+1800.1.1={citysize=6300}
+1808.2.1={add_core=CAM} # France invades Spain
+1823.1.1={add_core=NIC}
+1859.1.1={controller=HON owner=HON}
+1860.1.28={controller=NIC owner=NIC remove_core=CAM remove_core=GBR religion=catholic} 

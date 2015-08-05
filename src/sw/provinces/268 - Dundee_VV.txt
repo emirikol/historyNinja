@@ -1,0 +1,37 @@
+owner=CEL
+controller=CEL
+add_core=CEL
+culture=caledonii
+religion=droid
+hre=no
+base_tax=2
+trade_goods=fish
+manpower=1
+capital="Dundee"
+citysize=3500
+fort1=yes
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+600.6.1={owner=PIC controller=PIC add_core=PIC culture=scottish religion=early remove_core=CEL}
+843.1.1={owner=SCO controller=SCO remove_core=PIC add_core=SCO discovered_by=latin religion=catholic discovered_by=eastern discovered_by=muslim}
+1450.1.1={citysize=4000}
+1560.8.1={religion=reformed}
+1600.1.1={citysize=7000 marketplace=yes fort2=yes} # Marketplace Estimated
+1644.9.1={revolt={type=revolutionary_rebels size=3} controller=REB}
+1645.9.13={revolt={} controller=SCO} # Battle of Philiphaugh
+1651.8.2={controller=ENG}
+1652.4.21={controller=SCO} # Union of Scotland and the COmmonwealth
+1700.1.1={citysize=9000}
+1707.5.12={owner=GBR controller=GBR add_core=GBR}

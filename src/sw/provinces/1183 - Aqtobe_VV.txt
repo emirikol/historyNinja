@@ -1,0 +1,42 @@
+owner=KJU
+controller=KJU
+add_core=KJU
+culture=gokturkic
+religion=tangra
+hre=no
+capital="Agatan"
+fort1=yes
+trade_goods=grain
+base_tax=2
+manpower=1
+citysize=2000
+discovered_by=eastern
+discovered_by=PHT
+discovered_by=PER
+discovered_by=KJU
+discovered_by=AOS
+discovered_by=SRM
+discovered_by=PHU
+
+260.6.1={owner=HNU controller=HNU add_core=HNU culture=huns remove_core=KJU discovered_by=HNU}
+372.6.1={owner=XXX controller=XXX fort1=no remove_core=HNU} 
+610.6.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg religion=tangra fort1=yes discovered_by=PEC}
+630.6.1={discovered_by=BGK}
+950.6.1={discovered_by=muslim}
+1000.1.1={owner=CUM controller=CUM add_core=CUM culture=cumanian remove_core=PEC discovered_by=CUM}
+1050.1.1={owner=XXX controller=XXX remove_core=CUM fort1=no}
+1236.6.1={owner=KHA controller=KHA add_core=KHA culture=tartar discovered_by=KHA fort1=yes} 
+1242.6.1={owner=GOL controller=GOL add_core=GOL remove_core=KHA religion=sunni discovered_by=GOL}
+1299.6.1={owner=NOG controller=NOG add_core=NOG discovered_by=NOG remove_core=GOL}
+1361.1.1={owner=KZH controller=KZH add_core=KZH culture=khazak remove_core=NOG discovered_by=KZH}
+1450.1.1={citysize=2400}
+1500.1.1={citysize=2647}
+1550.1.1={citysize=3415}
+1600.1.1={citysize=4210}
+1650.1.1={citysize=5100}
+1700.1.1={citysize=5678}
+1730.1.1={owner=RUS	controller=RUS add_core=RUS} # What began as mere assistance resulted in permanent control
+1750.1.1={citysize=6210}
+1800.1.1={citysize=6857}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=KZH controller=KZH add_core=KZH remove_core=SOV remove_core=KOK} # independence from the SU

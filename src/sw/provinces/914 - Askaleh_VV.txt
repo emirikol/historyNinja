@@ -1,0 +1,43 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=CEO
+culture=old_phoenicians
+religion=groman
+capital="Batroun"
+trade_goods=wood
+hre=no
+base_tax=4
+manpower=3
+citysize=5100
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=latin
+discovered_by=AKS
+discovered_by=ITU
+discovered_by=CEO
+discovered_by=NHA
+discovered_by=PER
+discovered_by=PHT
+discovered_by=ODR
+discovered_by=AAR
+
+150.6.1={remove_core=CEO}
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=cophtic remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1060.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1098.2.1={owner=ABB controller=ABB remove_core=SEJ}
+1111.4.1={owner=JER controller=JER add_core=JER}
+1140.6.1={owner=ABB controller=ABB remove_core=JER add_core=ABB}
+1171.6.1={owner=SAL controller=SAL add_core=SAL remove_core=ABB}
+1250.1.1={owner=MAM controller=MAM remove_core=SAL add_core=MAM culture=al_suryah_arabic}
+1516.1.1={owner=TUR	controller=TUR add_core=TUR religion=sunni} # Part of the Ottoman empire
+1750.1.1={tax_assessor=yes}
+1920.1.1={owner=RFR controller=RFR remove_core=TUR add_core=SYR add_core=LEB}
+1940.6.22={owner=GBR controller=GBR}
+1943.1.1={owner=LEB controller=LEB remove_core=SYR}

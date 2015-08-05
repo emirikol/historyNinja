@@ -1,0 +1,58 @@
+owner=ODR
+controller=ODR
+add_core=ODR
+culture=odrysian
+religion=orfi
+capital="Vizii"
+trade_goods=cloth
+hre=no
+base_tax=1
+manpower=3
+citysize=1004
+fort1=yes
+discovered_by=PHT
+discovered_by=PER
+discovered_by=RME
+discovered_by=RMP
+discovered_by=ODR
+discovered_by=PNO
+
+46.5.1={owner=RME controller=RME add_core=RME}
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox remove_core=RME culture=roman}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP remove_core=ODR}
+413.6.1={base_tax=2}
+500.1.1={fort2=yes}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+913.1.1={owner=BUL controller=BUL}
+927.5.28={owner=BYZ controller=BYZ}
+1204.4.12={owner=LIC controller=LIC}
+1230.1.1={owner=BUL controller=BUL culture=bulgarian add_core=BUL}
+1246.1.1={owner=NII controller=NII}
+1261.12.23={owner=BIZ controller=BIZ add_core=BIZ remove_core=NII remove_core=BYZ}
+1450.1.1={citysize=7000}
+1453.1.1={owner=TUR controller=TUR add_core=TUR} # The fall of the Byzantine Empire
+1470.1.1={marketplace=yes}
+1481.6.1={revolt_risk=6} # Civil war, Bayezid & Jem
+1482.7.26={revolt_risk=0} # Jem escapes to Rhodes
+1500.1.1={citysize=7510}
+1502.1.1={remove_core=BIZ}
+1509.1.1={revolt_risk=7} # Civil war
+1513.1.1={revolt_risk=0}
+1515.6.1={shipyard=yes} # Great naval reform
+1550.1.1={citysize=7590 customs_house=yes}
+1560.1.1={constable=yes} # Reign of Suleyman the magnificent, organizes the state
+1600.1.1={citysize=7620}
+1621.1.1={revolt_risk=6} # Osman II's reforms against the Janissaries
+1622.5.20={revolt_risk=7} # Osman II is murdered
+1622.6.1={controller=TUR revolt_risk=0} # Mustafa I, estimated
+1623.1.1={revolt_risk=10} # The empire fell into anarchy, Janissaries stormed the palace
+1625.1.1={revolt_risk=0} # Murad tries to quell the corruption
+1651.1.1={revolt_risk=5} # The murder of K?sem Sultana
+1652.1.1={revolt_risk=0}
+1700.1.1={citysize=8000 tax_assessor=yes}
+1718.1.1={revolt_risk=3} # Lale Devri (the tulip age), not appreciated by everyone  
+1720.1.1={revolt_risk=0}
+1750.1.1={citysize=9000} # Earthquakes & fires
+1795.1.1={revolt_risk=6} # Reforms by Sultan Selim III, tried to replace th Janissary corps
+1923.10.29={owner=TRK controller=TRK add_core=TRK remove_core=TUR} # Republic of Turkey gets founded

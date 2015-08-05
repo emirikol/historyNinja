@@ -1,0 +1,97 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 23 114 143 }
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	military_drill
+	national_trade_policy
+	engineer_corps
+	national_bank
+	battlefield_commisions
+	merchant_adventures
+	cabinet
+	smithian_economics
+}
+
+historical_units={
+	native_clubmen	
+	zapotec_tribal_warfare
+	zapotec_plains_warfare
+	zapotec_gunpowder_warfare
+	westernized_zapotec
+	mexican_guerilla_warfare
+}
+
+monarch_names={
+	"Xicotencatl #0"=20
+	"Maxicatzin #0"=20
+	"Xochiyaoyotl #0"=20
+	"Culhuateantlicuanez #0"=20
+	"Atexacalihuehue #0"=20
+	"Patzinteuntli #0"=20
+	"Cocotzin #0"=20
+	"Teixtlacohuatzin #0"=20
+	"Umacatzin #0"=20
+	"Tlehuexolotzin #0"=20
+	"Cucuitacatl #0"=20
+	"Papatotl #0"=20
+	"Culhuateyohualminqui #0"=20
+	"Acantetehuatecuntli #0"=20
+	"Cuitlizcatecuhtotolin #0"=20
+	"Xohuatecuhtlimemelec #0"=20
+	"Tlacomihuatzin #0"=20
+	"Macatzin #0"=20
+	"Tianquitztlatohuatzin #0"=20
+	"Xayamachan #0"=20
+	"Tepolohuatecuhtli #0"=20
+	"Zozoe #0"=20
+	"Atlahua #0"=20
+	"Aztahuatlacaztalli #0"=20
+	"Huitlalotecuhtli #0"=20
+	"Xayacamachan #0"=20
+	"Axayacatzin #0"=20
+	"Mizquitl #0"=20
+	"Timatecutli #0"=20
+	"Taxcayohua #0"=20
+	"Coahuatzintecuhtli #0"=20
+	"Quuetzahuitzin #0"=20
+	"Zacancatzin #0"=20
+	"Iyactzin #0"=20
+	"Teohuatecuhtli #0"=20
+	"Ciitlalpopocatzin #0"=20
+	"Tlalentzin #0"=20
+	"Temilotzin #0"=20
+}
+
+leader_names={
+	Guacricaur
+	Tacaynamo
+	Tiso
+	Nancempinco
+	Chilche
+	Maras
+	Luyes
+	Maila
+	Illa
+	Rimac
+	Atlangatepec 
+	Hueyotlipan 
+	Tecoac 
+	Huamantla
+	Atlihuetzía 
+	Xaltocan 
+	Chicomoztoc 
+}
+
+ship_names={
+	Viracocha "Apo Inti" 
+	"Chiqui Illapa" Mamquilla Yakumama Mamacocha 
+	Pachakama Waca "Chan Chan" Chimor Chicama Moche 
+	Viru Sipan Huancaco
+	Poyauhtlán Popocatépetl Huexotzinco Tepeticpac Camaxtli Culhuatecuhtli Teyohuaymiqui Ocotelulco Tizatlán Quiahuiztlán  
+	Altepetl Ocotelolco Quiahuiztlan Tepeticpac Tizatlan Tizatlan Huehueteotl Cacaxtla Cuauhtinchan Totonihuacan 
+}

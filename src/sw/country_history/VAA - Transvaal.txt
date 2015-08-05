@@ -1,0 +1,62 @@
+government=republican_dictatorship
+aristocracy_plutocracy=-1
+centralization_decentralization=-1
+innovative_narrowminded=-2
+mercantilism_freetrade=4
+offensive_defensive=1
+land_naval=2
+quality_quantity=-2
+serfdom_freesubjects=5
+technology_group=latin
+primary_culture=hollandic
+religion=reformed
+capital=1377	# 
+
+1800.1.1={
+	monarch={
+		name="Marthinus Wessel Pretorius"
+		adm=5
+		dip=3
+		mil=5
+	}
+}
+1863.1.1={
+	monarch={
+		name="Willem Cornelis Janse van Rensburg"
+		adm=5
+		dip=3
+		mil=5
+	}
+}
+1864.1.1={
+	monarch={
+		name="Marthinus Wessel Pretorius"
+		adm=5
+		dip=3
+		mil=5
+	}
+}
+1871.1.1={
+	monarch={
+		name="Thomas Francois Burgers"
+		adm=5
+		dip=3
+		mil=5
+	}
+}
+1881.1.1={
+	monarch={
+		name="Triumvirat Pretorius-Krüger-Joubert"
+		adm=5
+		dip=3
+		mil=5
+	}
+}
+1883.1.1={
+	monarch={
+		name="Stephanus Johannes Paulus Krüger"
+		adm=5
+		dip=3
+		mil=5
+	}
+}

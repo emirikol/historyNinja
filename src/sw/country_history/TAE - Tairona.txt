@@ -1,0 +1,22 @@
+government=tribal_democracy
+aristocracy_plutocracy=5
+centralization_decentralization=5
+innovative_narrowminded=0
+mercantilism_freetrade=0
+offensive_defensive=5
+land_naval=-5
+quality_quantity=0
+serfdom_freesubjects=5
+primary_culture=tairona
+religion=ind_pagan
+technology_group=new_world
+capital=2255
+
+1399.1.1={
+	monarch={
+		name="Gayraca"
+		adm=5
+		dip=5
+		mil=7
+	}
+}

@@ -1,0 +1,24 @@
+#584 - Kyuakse
+
+owner = TAU
+controller = TAU
+culture = burmese
+religion = buddhism
+capital = "Kyaukse"
+trade_goods = grain
+hre = no
+base_tax = 1
+manpower = 3
+citysize = 4200
+add_core = TAU
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 4800 }
+1500.1.1 = { citysize = 5100 }
+1550.1.1 = { citysize = 5920 }
+1600.1.1 = { citysize = 6750 }
+1650.1.1 = { citysize = 8011 }
+1700.1.1 = { citysize = 8955 }
+1750.1.1 = { citysize = 9800 }
+1800.1.1 = { citysize = 10200 }

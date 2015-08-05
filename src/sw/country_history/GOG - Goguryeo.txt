@@ -1,0 +1,16 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-4
+centralization_decentralization=-2
+innovative_narrowminded=0
+mercantilism_freetrade=-2
+offensive_defensive=1
+land_naval=-1
+quality_quantity=0
+serfdom_freesubjects=-4
+primary_culture=korean
+religion=confucianism
+technology_group=chinese
+capital=1623
+
+
+1950.1.1={religion=religious_tolerance}

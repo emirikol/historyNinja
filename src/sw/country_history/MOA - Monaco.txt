@@ -1,0 +1,19 @@
+government=feudal_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=5
+innovative_narrowminded=-1
+mercantilism_freetrade=-2
+offensive_defensive=0
+land_naval=2
+quality_quantity=2
+serfdom_freesubjects=3
+primary_culture=occitain
+add_accepted_culture=lombard
+religion=catholic
+technology_group=latin
+historical_friend=RFR
+historical_friend=FRA
+capital=471	# Monaco
+
+
+1950.1.1={religion=religious_tolerance}

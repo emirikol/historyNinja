@@ -1,0 +1,70 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=GLA
+culture=gallic
+religion=groman
+capital="Rennes"
+citysize=7000
+hre=no
+base_tax=6
+trade_goods=grain
+manpower=2
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+discovered_by=GLA
+discovered_by=SUE
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+476.5.1={manpower=3 owner=DUM controller=DUM add_core=DUM culture=breton}
+785.1.1={owner=HFR controller=HFR add_core=HFR remove_core=DUM} 
+799.12.24={religion=catholic}
+843.1.1={owner=FRA controller=FRA add_core=FRA remove_core=HFR}
+870.6.1={manpower=4 owner=BRI controller=BRI add_core=BRI culture=breton}
+931.6.1={owner=NRM controller=NRM culture=normand add_core=NRM}
+1140.1.1={owner=ENG controller=ENG add_core=ENG}
+1337.1.1={owner=BRI controller=BRI add_core=BRI add_core=FRA} 
+1429.1.1={owner=ENG controller=ENG add_core=ENG}
+1450.1.1={owner=BRI controller=BRI add_core=BRI remove_core=ENG}
+1450.1.1={citysize=8000}
+1453.1.1={add_core=FRA}
+1532.8.4={owner=FRA controller=FRA} # Union Treaty
+1545.1.1={fort2=yes}
+1560.1.1={religion=reformed}
+1588.12.1={revolt_risk=5} # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1={revolt_risk=0} # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1620.1.1={marketplace=yes}
+1625.1.1={constable=yes}
+1636.1.1={revolt_risk=3} # Revolt imminent
+1638.1.1={revolt_risk=0}
+1639.1.1={revolt_risk=3} 
+1641.1.1={revolt_risk=0}
+1686.1.17={religion=catholic} # Dragonnard campaign succesful: religion reverts back to catholicism
+1700.1.1={customs_house=yes}
+1730.1.1={courthouse=yes}
+1770.1.1={tax_assessor=yes}
+1786.1.1={base_tax=6} # The Eden Agreement}
+1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # Napoleon enters Paris
+1815.7.8={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # The French monarchy is restored
+1871.1.1={add_core=RFR remove_core=FRA owner=RFR controller=RFR} # 3rd French Republic founded
+1940.6.22={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.12.1={owner=USA controller=USA}
+1945.5.8={owner=RFR controller=RFR}

@@ -1,0 +1,25 @@
+#581 - Sagaing
+
+owner = TAU
+controller = TAU
+culture = burmese
+religion = buddhism
+capital = "Sagaing"
+trade_goods = grain
+hre = no
+base_tax = 3
+manpower = 2
+citysize = 6200
+add_core = TAU
+discovered_by = chinese
+discovered_by = indian
+temple = yes
+
+1450.1.1 = { citysize = 6800 }
+1500.1.1 = { citysize = 7320 }
+1550.1.1 = { citysize = 8250 }
+1600.1.1 = { citysize = 9140 }
+1650.1.1 = { citysize = 9963 }
+1700.1.1 = { citysize = 10540 }
+1750.1.1 = { citysize = 11388 }
+1800.1.1 = { citysize = 12450 }

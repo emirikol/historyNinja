@@ -1,0 +1,15 @@
+culture=kongolese
+religion=shamanism
+capital="Moanda"
+trade_goods=wood
+hre=no
+base_tax=2
+manpower=1
+native_size=70
+native_ferocity=2
+native_hostileness=7 
+
+1472.1.1={discovered_by=POR} # Frenao do Po, add trade post
+1839.1.1={owner=FRA controller=FRA add_core=FRA citysize=1000 fort1=yes trade_goods=ivory religion=catholic}
+1871.1.1={owner=RFR controller=RFR add_core=RFR remove_core=FRA}
+1960.8.17={owner=GAB controller=GAB add_core=GAB remove_core=RFR}

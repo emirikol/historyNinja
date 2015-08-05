@@ -1,0 +1,35 @@
+culture=malayan
+religion=animism
+capital="Lampung"
+trade_goods=spices
+hre=no
+base_tax=3
+manpower=2
+add_core=ATJ
+discovered_by=ATJ
+discovered_by=MLC
+discovered_by=AYU
+discovered_by=MAJ
+discovered_by=BLI
+discovered_by=MKS
+discovered_by=BEI
+discovered_by=indian
+discovered_by=muslim
+
+1297.1.1={owner=ATJ controller=ATJ religion=sunni add_core=ATJ citysize=3500}
+1405.1.1={discovered_by=MNG}
+1450.1.1={citysize=3900}
+1500.1.1={citysize=4210}
+1509.1.1={discovered_by=POR}
+1550.1.1={citysize=4655}
+1600.1.1={citysize=5130}
+1650.1.1={citysize=5780}
+1658.1.1={owner=NED controller=NED} # The Dutch gradually gained control
+1683.1.1={add_core=NED}
+1700.1.1={citysize=6200}
+1750.1.1={citysize=6870}
+1800.1.1={citysize=7433}
+1900.1.1={fort1=yes}
+1942.2.1={controller=JAP owner=JAP}
+1944.1.1={controller=NED owner=NED}
+1949.12.27={owner=IDO controller=IDO add_core=IDO remove_core=NED}

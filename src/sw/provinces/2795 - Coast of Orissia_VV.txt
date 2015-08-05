@@ -1,0 +1,6 @@
+discovered_by=indian
+discovered_by=chinese
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=KAL
+discovered_by=SAK

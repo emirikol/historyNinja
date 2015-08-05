@@ -1,0 +1,374 @@
+government=despotic_monarchy 
+aristocracy_plutocracy=-2
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-1
+quality_quantity=2
+serfdom_freesubjects=0
+technology_group=latin
+religion=catholic
+primary_culture=portugese
+capital=2447
+
+1822.10.12={
+	monarch={
+		name="Pedro I."
+		adm=5
+		dip=3
+		mil=5
+	}
+}
+1831.4.7={
+	monarch={
+		name="Pedro II."
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+1889.11.15={ government=revolutionary_republic } # military forces claim the United States of Brazil
+
+
+1889.11.15={
+	monarch={
+		name="Manuel Deodoro da Fonseca"
+		adm=5
+		dip=6
+		mil=8
+	}
+}
+
+1891.1.1={
+	monarch={
+		name="Floriano Peixoto"
+		adm=7
+		dip=5
+		mil=8
+	}
+}
+
+1894.1.1={
+	monarch={
+		name="Prudente de Moraes Barros"
+		adm=4
+		dip=6
+		mil=7
+	}
+}
+
+1898.1.1={
+	monarch={
+		name="Manuel Ferraz de Campos Salles"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1902.1.1={
+	monarch={
+		name="Francisco de Paula Rodrigues"
+		adm=4
+		dip=7
+		mil=5
+	}
+}
+
+1906.1.1={
+	monarch={
+		name="Alfonso Moreira Penna"
+		adm=7
+		dip=4
+		mil=6
+	}
+}
+
+1909.1.1={
+	monarch={
+		name="Nilo Pecanha"
+		adm=5
+		dip=7
+		mil=4
+	}
+}
+
+1910.1.1={
+	monarch={
+		name="Hermes Rodrigo da Fonseca"
+		adm=4
+		dip=4
+		mil=7
+	}
+}
+
+1914.1.1={
+	monarch={
+		name="Wenceslao Braz Pereira"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+1918.1.1={
+	monarch={
+		name="Delphim Moreira"
+		adm=6
+		dip=5
+		mil=7
+	}
+}
+
+1919.1.1={
+	monarch={
+		name="Epitacio da Silva Pessoa"
+		adm=7
+		dip=5
+		mil=8
+	}
+}
+
+1922.1.1={
+	monarch={
+		name="Arturo da Silva Bernardes"
+		adm=7
+		dip=7
+		mil=7
+	}
+}
+
+1926.1.1={
+	monarch={
+		name="Washington Pereira de Souza"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1930.1.1={
+	monarch={
+		name="Julio Prestes"
+		adm=6
+		dip=6
+		mil=7
+	}
+}
+
+1930.10.24={government=republican_dictatorship} # dictatorship of Vargas
+
+1930.10.24={
+	monarch={
+		name="Getúlio Vargas"
+		adm=6
+		dip=6
+		mil=8
+	}
+}
+
+
+1945.1.1={ government=constitutional_republic } # end of Vargas
+
+1945.1.1={
+	monarch={
+		name="José Linhares"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1946.1.31={
+	monarch={
+		name="Eurico Gaspar Dutra"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1950.1.1={religion=religious_tolerance}
+
+1951.1.31={
+	monarch={
+		name="Getúlio Dornelles Vargas"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1954.8.24={
+	monarch={
+		name="João Café Filho"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1955.11.8={
+	monarch={
+		name="Carlos Coimbra da Luz"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1955.11.11={
+	monarch={
+		name="Nereu Ramos"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1956.1.31={
+	monarch={
+		name="Juscelino Kubitschek"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1960.6.1={capital=2421}
+
+1961.1.31={
+	monarch={
+		name="Jânio Quadros"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1961.8.25={
+	monarch={
+		name="Pascoal Ranieri Mazzilli"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1961.9.7={
+	monarch={
+		name="Joao Belchior Marques Goulart"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1964.4.2={
+	monarch={
+		name="Pascoal Ranieri Mazzilli"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1964.4.15={
+	monarch={
+		name="Humberto de Alencar Castelo Branco"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1967.3.15={
+	monarch={
+		name="Artur da Costa e Silva"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1969.8.31={
+	monarch={
+		name="Márcio de Souza Mello"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1969.10.30={
+	monarch={
+		name="Emílio Garrastazu Médici"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1974.3.15={
+	monarch={
+		name="Ernesto Geisel"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1979.3.15={
+	monarch={
+		name="João Baptista de Oliveira Figueiredo"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1985.3.15={
+	monarch={
+		name="José Sarney"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1990.3.15={
+	monarch={
+		name="Fernando Collor de Mello"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1992.12.29={
+	monarch={
+		name="Itamar Franco"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1995.1.2={
+	monarch={
+		name="Fernando Henrique Cardoso"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+2003.1.1={
+	monarch={
+		name="Luiz Inácio Lula da Silva"
+		adm=6
+		dip=5
+		mil=5
+	}
+}

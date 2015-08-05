@@ -1,0 +1,41 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_iberian
+religion=groman
+hre=no
+base_tax=3
+trade_goods=stone
+manpower=2
+capital="Cuenca" 
+citysize=6000
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=KUN
+discovered_by=VES
+discovered_by=SUE
+
+180.6.1={culture=roman}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+455.6.1={owner=VIS controller=VIS add_core=VIS remove_core=RMP religion=early}
+630.6.1={discovered_by=muslim}
+712.1.1={owner=ACA controller=ACA add_core=ACA remove_core=VIS culture=saracen religion=sunni}
+756.6.1={owner=ORC controller=ORC add_core=ORC remove_core=ACA culture=andalucian}
+843.1.1={discovered_by=latin} 
+1040.6.1={owner=ARV controller=ARV add_core=ARV remove_core=ORC}
+1185.1.1={owner=CAS controller=CAS add_core=CAS culture=castillian remove_core=ARV religion=catholic} 
+1464.5.1={revolt_risk=3} # Nobiliary uprising against King Enrique, Castilla goes into anarchy
+1468.9.18={revolt_risk=0} # Pactos de los Toros de Guisando. Isabel of Castille becomes heir to the throne and a temporary peace is achieved
+1470.1.1={revolt_risk=3} # Isabel marries with Fernando of Aragon, breaking the Pacts of Guisando. King Enrique choses his daughter Juana ("La Beltraneja") as new heiress and a succession War erupts.
+1479.9.4={revolt_risk=0} # Peace of Alcaçovas, between Queen Isabel and King Alfonso of Portugal who had entered the war supporting her wife Juana
+1516.1.23={controller=SPA	owner=SPA	add_core=SPA    } # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castilla
+1520.5.1={revolt_risk=5} # War of the Comunidades
+1522.2.3={revolt_risk=0} # After the defeat of the comuneros at Villalar, Toledo was still able to resist for 9 months.
+1600.1.1={constable=yes}
+1713.4.11={remove_core=CAS}
+1808.6.6={revolt={type=nationalist_rebels size=1} controller=REB}
+1809.1.1={revolt={} controller=SPA}
+1812.10.1={revolt={type=nationalist_rebels size=0} controller=REB}
+1813.12.11={revolt={} controller=SPA}

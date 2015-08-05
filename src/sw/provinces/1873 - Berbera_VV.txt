@@ -1,0 +1,24 @@
+culture=somali
+religion=shamanism
+capital="Berbera"
+manpower=1
+trade_goods=slaves
+hre=no
+base_tax=1
+discovered_by=ADA
+discovered_by=ZAN
+discovered_by=ETH
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ETO
+discovered_by=AKE
+
+950.6.1={discovered_by=muslim}
+1415.6.1={owner=ADA controller=ADA add_core=ADA culture=somali religion=sunni citysize=6500 fort1=yes}
+1450.1.1={citysize=7000}
+1499.1.1={discovered_by=POR}
+1550.1.1={discovered_by=TUR}
+1555.1.1={native_size=50 native_ferocity=4.5 native_hostileness=9 owner=XXX controller=XXX remove_core=ADA fort1=no citysize=20} #Oromo invasion of Adal breaks control over northern Somali
+1884.1.1={owner=GBR controller=GBR add_core=GBR trade_goods=wool fort1=yes citysize=1100} # British Somali-Land
+1960.1.26={owner=SOM controller=SOM add_core=SOM remove_core=GBR} # independence of Somalia
+1991.1.1={owner=RSO controller=RSO add_core=RSO} # de facto autonomous Republic Somaliland

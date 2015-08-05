@@ -1,0 +1,50 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=roman
+religion=groman
+hre=no
+base_tax=3
+trade_goods=cloth
+manpower=3
+capital="Annency"
+citysize=5000	
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=SUE
+
+290.6.1={culture=suevi religion=odin}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian remove_core=RMP religion=early}
+534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
+799.12.24={religion=catholic}
+843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}
+870.6.1={remove_core=LHT owner=BUR controller=BUR}
+1034.1.1={hre=yes}
+1361.1.1={owner=SAV controller=SAV remove_core=BUR add_core=SAV culture=lombard}
+1450.1.1={citysize=9800}
+1499.1.1={owner=FRA controller=FRA add_core=FRA} 
+1500.1.1={citysize=10040}
+1529.1.1={owner=SAV controller=SAV} 
+1536.4.1={controller=FRA} 
+1538.6.17={owner=FRA} # Treaty of Nice
+1550.1.1={citysize=11070}
+1559.1.1={owner=SAV controller=SAV remove_core=FRA} 
+1600.1.1={citysize=10350}
+1648.1.1={hre=no}
+1650.1.1={marketplace=yes}
+1680.1.1={courthouse=yes}
+1700.1.1={tax_assessor=yes}
+1713.4.12={owner=SIC controller=SIC	add_core=SIC remove_core=SAV} # Treaty of Utrecht(2) gave Sicily to the House of Savoy 
+1720.1.1={owner=SPI	controller=SPI add_core=SPI remove_core=SIC} # Kingdom of Piedmont-Sardinia
+1792.9.21={controller=RFR} # Occupied by French troops
+1792.11.27={owner=RFR add_core=RFR} # Savoie is annexed
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1814.4.11={owner=SPI controller=SPI	remove_core=RFR} # Napoleon abdicates and Victor Emmanuel is able to return to Turin
+1860.1.1={remove_core=SPI add_core=FRA owner=FRA controller=FRA}
+1871.1.1={add_core=RFR remove_core=FRA owner=RFR controller=RFR} # 3rd French Republic founded
+1940.6.22={owner=ITA controller=ITA} # occupied by Italy
+1944.12.1={owner=GBR controller=GBR}
+1945.5.8={owner=RFR controller=RFR}

@@ -1,0 +1,550 @@
+government=imperial_government
+aristocracy_plutocracy=-1
+centralization_decentralization=-1
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+technology_group=e_latin
+religion=groman
+primary_culture=roman
+add_accepted_culture=old_greek
+add_accepted_culture=illyrian
+add_accepted_culture=old_iberian
+add_accepted_culture=old_phoenicians
+add_accepted_culture=egyptian
+capital=749		# Roma
+
+
+1.1.1={
+	monarch={
+	name="Augustus"
+	dynasty="Julio-Claudian"
+	adm=8
+	dip=7
+	mil=7}}
+
+14.8.19={
+	monarch={
+	name="Tiberius"
+	dynasty="Julio-Claudian"
+	adm=7
+	dip=7
+	mil=7}}
+	
+37.3.18={
+	monarch={
+		name="Caligula"
+		dynasty="Julio-Claudian"
+		adm =4
+		dip=3
+		mil=3
+	}
+}
+
+41.1.25={ 
+	monarch={
+		name="Claudius"
+		dynasty="Julio-Claudian"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+55.1.1={
+	monarch={
+		name="Nero"
+		dynasty="Julio-Claudian"
+		adm=2
+		dip=3
+		mil=3
+	}
+}
+
+68.6.1={
+	monarch={
+		name="Galba"
+		dynasty="Flavian"
+		adm=5
+		dip=4
+		mil=6
+	}
+}
+
+69.6.22={
+	monarch={
+		name="Vespasian"
+		dynasty="Flavian"
+		adm=7
+		dip=4
+		mil=8
+	}
+}
+72.1.1={quality_quantity=2}
+
+79.8.25={ 
+	monarch={
+		name="Titus"
+		dynasty="Flavian"
+		adm=6
+		dip=4
+		mil=9
+	}
+}
+
+81.9.15={ 
+	monarch={
+		name="Domitian"
+		dynasty="Flavian"
+		adm=6
+		dip=4
+		mil=7
+	}
+}
+
+96.9.18={ 
+	monarch={
+		name="Nerva"
+		dynasty="Nervan-Antonian"
+		adm=8
+		dip=5
+		mil=5
+	}
+}
+97.1.1={quality_quantity=1}
+98.1.26={ 
+	monarch={
+		name="Trajan"
+		dynasty="Nervan-Antonian"
+		adm=7
+		dip=4
+		mil=8
+	}
+}
+
+117.1.26={ 
+	monarch={
+		name="Hadrian"
+		dynasty="Nervan-Antonian"
+		adm=8
+		dip=6
+		mil=7
+	}
+}
+118.1.1={aristocracy_plutocracy=-2 offensive_defensive=0 quality_quantity=0}
+
+138.1.1={ 
+	monarch={
+		name="Antoninus Pius"
+		dynasty="Nervan-Antonian"
+		adm=7
+		dip=6
+		mil=6
+	}
+}
+
+161.1.1={ 
+	monarch={
+		name="Marcus Aurelius"
+		dynasty="Nervan-Antonian"
+		adm=9
+		dip=8
+		mil=6
+	}
+}
+
+180.1.1={ 
+	monarch={
+		name="Commodus"
+		dynasty="Nervan-Antonian"
+		adm=1
+		dip=5
+		mil=6
+	}
+}
+
+193.1.1={ 
+	monarch={
+		name="Septimius Severus"
+		dynasty="Severan"
+		adm=8
+		dip=5
+		mil=9
+	}
+}
+200.1.1={quality_quantity=-1}
+211.2.5={ 
+	monarch={
+		name="Caracalla"
+		dynasty="Severan"
+		adm=6
+		dip=4
+		mil=7
+	}
+}
+
+217.1.1={ 
+	monarch={
+		name="Macrinus"
+		dynasty="Severan"
+		adm=5
+		dip=4
+		mil=6
+	}
+}
+
+218.1.1={ 
+	monarch={
+		name="Elagabalus"
+		dynasty="Severan"
+		adm=5
+		dip=4
+		mil=6
+	}
+}
+
+222.1.1={ 
+	monarch={
+		name="Alexander Severus"
+		dynasty="Severan"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+235.1.1={ 
+	monarch={
+		name="Maximinus the Thracian"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+238.1.1={ 
+	monarch={
+		name="Gordian I"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+238.7.1={ 
+	monarch={
+		name="Gordian III"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+240.1.1={quality_quantity=-2}
+244.1.1={ 
+	monarch={
+		name="Philip the Arab"
+		adm=5
+		dip=3
+		mil=2
+	}
+}
+
+249.7.1={ 
+	monarch={
+		name="Decius"
+		adm=5
+		dip=3
+		mil=2
+	}
+}
+
+251.1.1={ 
+	monarch={
+		name="Volusianus"
+		adm=5
+		dip=3
+		mil=3
+	}
+}
+
+253.1.1={ 
+	monarch={
+		name="Valerian "
+		adm=6
+		dip=4
+		mil=4
+	}
+}
+255.1.1={aristocracy_plutocracy=-3 offensive_defensive=1}
+
+260.1.1={ 
+	monarch={
+		name="Gallienus "
+		adm=6
+		dip=6
+		mil=9
+	}
+}
+
+268.1.1={ 
+	monarch={
+		name="Claudius Gothicus"
+		adm=5
+		dip=7
+		mil=9
+	}
+}
+
+270.1.1={ 
+	monarch={
+		name="Aurelian"
+		adm=5
+		dip=7
+		mil=9
+	}
+}
+
+275.1.1={ 
+	monarch={
+		name="Marcus Claudius Tacitus"
+		adm=5
+		dip=6
+		mil=7
+	}
+}
+
+276.1.1={ 
+	monarch={
+		name="Probus"
+		adm=9
+		dip=3
+		mil=8
+	}
+}
+
+282.1.1={ 
+	monarch={
+		name="Carus"
+		adm=9
+		dip=3
+		mil=8
+	}
+}
+
+283.1.1={ 
+	monarch={
+		name="Carinus"
+		adm=9
+		dip=3
+		mil=8
+	}
+}
+
+284.1.1={ 
+	monarch={
+		name="Diocletian"
+		dynasty="Constantinian"
+		adm=9
+		dip=4
+		mil=9
+	}
+}
+
+293.1.1={ 
+	monarch={
+		name="Galerius"
+		dynasty="Constantinian"
+		adm=9
+		dip=4
+		mil=9
+	}
+}
+
+306.1.1={ 
+	monarch={
+		name="Constantine I"
+		dynasty="Constantinian"
+		adm=9
+		dip=9
+		mil=9
+	}
+}
+
+313.1.1={religion=orthodox}
+
+313.2.1={capital=860} # Constantinopole
+
+337.1.1={ 
+	monarch={
+		name="Constantine I"
+		dynasty="Constantinian"
+		adm=8
+		dip=7
+		mil=8
+	}
+}
+
+
+350.1.1={ 
+	monarch={
+		name="Constantine II"
+		dynasty="Constantinian"
+		adm=7
+		dip=6
+		mil=7
+	}
+}
+
+360.1.1={ 
+	monarch={
+		name="Julian the Apostate"
+		dynasty="Constantinian"
+		adm=5
+		dip=4
+		mil=6
+	}
+}
+
+363.1.1={ 
+	monarch={
+		name="Jovian"
+		dynasty="Constantinian"
+		adm=4
+		dip=4
+		mil=5
+	}
+}
+
+364.1.1={ 
+	monarch={
+		name="Valentinian I"
+		dynasty="Valentinian"
+		adm=3
+		dip=4
+		mil=5
+	}
+}
+
+
+375.1.1={ 
+	monarch={
+		name="Valentinian II"
+		dynasty="Valentinian"
+		adm=3
+		dip=4
+		mil=4
+	}
+}
+
+376.1.1={quality_quantity=-3}
+
+
+379.1.1={ 
+	monarch={
+		name="Theodosius I"
+		dynasty="Theodosian"
+		adm=6
+		dip=5
+		mil=8
+	}
+}
+
+395.7.1={capital=749} #Roma
+
+395.8.1={religion=early	decision=suffragan_bishop_act} 
+
+423.1.1={ 
+	monarch={
+		name="Honorius"
+		dynasty="Theodosian"
+		adm=6
+		dip=5
+		mil=8
+	}
+}
+
+425.1.1={ 
+	monarch={
+		name="Valentinian III"
+		dynasty="Theodosian"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+455.3.17={ 
+	monarch={
+		name="Petronius"
+		dynasty="Theodosian"
+		adm=3
+		dip=4
+		mil=4
+	}
+}
+
+457.10.18={ 
+	monarch={
+		name="Maiorian"
+		dynasty="Theodosian"
+		adm=3
+		dip=4
+		mil=4
+	}
+}
+
+461.8.3={ 
+	monarch={
+		name="Libiy"
+		dynasty="Theodosian"
+		adm=3
+		dip=3
+		mil=4
+	}
+}
+
+467.4.12={ 
+	monarch={
+		name="Libiy Sever"
+		dynasty="Theodosian"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+472.7.12={ 
+	monarch={
+		name="Olibriy"
+		dynasty="Theodosian"
+		adm=3
+		dip=3
+		mil=2
+	}
+}
+
+473.3.5={ 
+	monarch={
+		name="Glicerius"
+		dynasty="Theodosian"
+		adm=3
+		dip=2
+		mil=2
+	}
+}
+
+
+475.10.31={ 
+	monarch={
+		name="Romoul Avgustus"
+		dynasty="Theodosian"
+		adm=1
+		dip=1
+		mil=1
+	}
+}
+
+476.1.1={technology_group=latin}

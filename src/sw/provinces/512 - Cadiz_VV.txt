@@ -1,0 +1,36 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=CEO
+culture=old_phoenicians
+religion=groman
+hre=no
+base_tax=3
+trade_goods=naval_supplies
+manpower=3
+capital="Gades" 
+citysize=5000
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+
+150.6.1={remove_core=CEO}
+220.6.1={culture=roman}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+455.6.1={owner=VIS controller=VIS add_core=VIS religion=early remove_core=RMP}
+630.6.1={discovered_by=muslim}
+712.1.1={owner=ACA controller=ACA add_core=ACA remove_core=VIS culture=saracen religion=sunni capital="Cadiz"} 
+756.6.1={owner=ORC controller=ORC add_core=ORC remove_core=ACA culture=andalucian}
+843.1.1={discovered_by=latin}
+1040.6.1={owner=ARV controller=ARV add_core=ARV remove_core=ORC}
+1250.1.1={owner=GRA controller=GRA add_core=GRA remove_core=ARV}
+1300.1.1={culture=castillian religion=catholic}
+1492.1.1={citysize=8000 owner=CAS controller=CAS} # Boabdil gives the keys of the Alhambra to King Fernando, the Reconquista ends.
+1516.1.23={cot=yes controller=SPA owner=SPA	add_core=SPA} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1520.1.1={shipyard=yes}
+1535.1.1={courthouse=yes} # Judge of Yndias
+1680.1.1={marketplace=yes}
+1713.4.11={remove_core=CAS cot=no}
+1808.6.6={revolt={type=nationalist_rebels size=0.5} controller=REB}
+1813.12.11={revolt={} controller=SPA}

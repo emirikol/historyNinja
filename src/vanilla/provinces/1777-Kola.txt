@@ -1,0 +1,54 @@
+#Kola
+
+capital = "Kola"
+culture = sapmi
+religion = shamanism
+hre = no
+base_tax = 1
+trade_goods = iron
+manpower = 1
+native_hostileness = 1
+native_size = 2
+native_ferocity = 2
+discovered_by = SWE
+discovered_by = NOR
+discovered_by = DAN
+discovered_by = FIN
+discovered_by = GOT
+discovered_by = SHL
+discovered_by = SCA
+discovered_by = NOV
+discovered_by = MOS
+discovered_by = PSK
+discovered_by = RUS
+discovered_by = RYA
+discovered_by = TVE
+discovered_by = YAR
+discovered_by = PLT
+discovered_by = SMO
+discovered_by = MUR
+discovered_by = NZH
+
+1440.1.1 = {	owner = NOV
+		controller = NOV 
+		add_core = NOV
+		citysize = 100
+		trade_goods = fur
+		culture = russian 
+		religion = orthodox
+	  } 
+1460.1.1 = { fort1 = yes }
+1478.1.14 = {	owner = MOS
+		controller = MOS
+		add_core = MOS
+		remove_core = NOV
+	   }
+1503.3.22 = {	owner = RUS
+		controller = RUS
+		add_core = RUS
+		remove_core = MOS
+	    }
+1540.1.1  = { citysize = 1000  }
+1565.1.1 = { fort1 = yes }
+1700.1.1  = { citysize = 2000 }
+1750.1.1  = { citysize = 3000 }

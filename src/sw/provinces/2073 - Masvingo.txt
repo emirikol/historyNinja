@@ -1,0 +1,38 @@
+culture=shona
+religion=animism
+capital="Masivingo"
+manpower=1
+trade_goods=gold
+hre=no
+base_tax=3
+discovered_by=ZIM
+discovered_by=ZAN
+
+1075.3.1={owner=MEP controller=MEP add_core=MEP citysize=5500}
+1220.6.1={owner=ZEM controller=ZEM add_core=ZEM remove_core=MEP}
+1450.1.1={citysize=7000 owner=MUT controller=MUT add_core=MUT remove_core=ZEM}
+1498.1.1={revolt_risk=7} #Changamire clans attempt to establish new base in religion
+1500.1.1={citysize=7500}
+1503.1.1={revolt_risk=0} #Changamire expelled from religion
+1513.1.1={discovered_by=POR} #Travels of Antonio Fernandes in hinterland of Sofala
+1573.1.1={revolt_risk=8} #Portuguese invasion of Mutapa via this religion
+1574.1.1={revolt_risk=0} #Rulers of Manyika grant Portuguese trade concessions
+#1575.1.1 Portuguese establish trade fair at Massekesa
+1600.1.1={citysize=8200}
+1631.1.1={revolt_risk=8} #Kapararidze launches revolt to overthrow Mavura and end POR domination
+1632.1.1={revolt_risk=0} #Kapararidze revolt defeated
+1685.1.1={revolt_risk=7} #Rozvi invade religion
+1686.1.1={revolt_risk=0} #Rozvi invasion checked by Manyika with Portuguese help
+1696.1.1={revolt_risk=7} #Rozvi invade religion to drive out Portuguese and establish dominance 
+1697.1.1={revolt_risk=0} #Rozvi gain control of religion
+#1697.1.1 - Portuguese tradepost destroyed
+1700.1.1={citysize=9500}
+#1719.1.1 - Portuguese reopen tradepost at Massekesa
+1750.1.1={citysize=10000}
+1796.1.1={revolt_risk=7} #Succession struggle breaks out in Manyika, disrupting religion
+1800.1.1={revolt_risk=0}
+1837.1.1={owner=MAT controller=MAT add_core=MAT}
+1893.1.1={owner=GBR controller=GBR add_core=GBR religion=protestant}
+1900.1.1={fort1=yes}
+1965.11.11={owner=RHO controller=RHO add_core=RHO remove_core=GBR}
+1979.1.1={owner=ZMB controller=ZMB add_core=ZMB remove_core=RHO}

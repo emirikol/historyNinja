@@ -1,0 +1,23 @@
+culture=iroquis
+religion=ind_pagan
+capital="Washington"
+trade_goods=corn
+hre=no
+base_tax=2
+manpower=1
+native_size=15
+native_ferocity=2
+native_hostileness=7
+discovered_by=SUS
+
+1607.1.1={discovered_by=ENG} # John Smith
+1615.1.1={discovered_by=FRA}
+1634.3.24={fort1=yes owner=ENG controller=ENG culture=english religion=protestant citysize=358} 
+1707.5.12={owner=GBR controller=GBR} 
+1721.1.1={add_core=GBR}
+1750.1.1={citysize=1522 add_core=USA}
+1764.7.1={culture=american revolt_risk=6} # Growing unrest
+1776.7.4={owner=USA controller=USA} # Declaration of independence
+1782.11.1={remove_core=GBR revolt_risk=0} # Preliminary articles of peace, the British recognized Amercian independence
+1800.1.1={citysize=4180}
+1900.1.1={fort2=yes}

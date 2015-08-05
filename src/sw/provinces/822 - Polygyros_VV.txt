@@ -1,0 +1,33 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Karea"
+trade_goods=wood
+hre=no
+base_tax=4
+manpower=1
+citysize=7500
+fort1=yes
+discovered_by=PER
+discovered_by=PHT
+discovered_by=RME  
+discovered_by=RMP
+discovered_by=eastern
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+400.6.1={discovered_by=eastern}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+843.6.1={discovered_by=latin}
+963.1.1={owner=ATO controller=ATO add_core=ATO fort2=yes temple=yes}
+980.6.1={cathedral=yes}
+1204.4.12={owner=LIC controller=LIC}
+1211.1.1={owner=EPI controller=EPI}
+1230.1.1={owner=BUL controller=BUL}
+1241.7.1={owner=NII controller=NII}
+1241.9.1={owner=ATO controller=ATO add_core=ATO remove_core=BUL remove_core=EPI culture=greek}
+1453.1.1={owner=TUR controller=TUR remove_core=BYZ}
+1913.1.1={owner=ATO controller=ATO add_core=ATO remove_core=TUR}

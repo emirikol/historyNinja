@@ -1,0 +1,15 @@
+culture=bantu
+religion=animism
+trade_goods=slaves
+capital="Kigali"
+hre=no
+base_tax=2
+manpower=2
+
+1360.6.1={citysize=6500 owner=KTR controller=KTR add_core=KTR}
+1615.6.1={owner=XXX controller=XXX remove_core=KTR}
+1885.1.1={trade_goods=coffee owner=GRI controller=GRI add_core=GRI}
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1920.1.1={owner=GBR controller=GBR add_core=GBR remove_core=GER}
+1961.12.9={owner=TNJ controller=TNJ add_core=TNJ remove_core=GBR} # independence of Tanganyika (later Tansania)
+1964.4.1={fort1=yes owner=TAN controller=TAN add_core=TAN}

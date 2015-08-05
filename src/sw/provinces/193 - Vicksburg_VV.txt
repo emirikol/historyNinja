@@ -1,0 +1,39 @@
+owner=CKS
+controller=CKS
+add_core=CKS
+culture=cherokee
+religion=ind_pagan
+capital="Chickasaw"
+fort1=yes
+trade_goods=corn
+hre=no
+base_tax=2
+manpower=1
+citysize=1500
+discovered_by=CHE
+discovered_by=CRE
+discovered_by=SHA
+discovered_by=CKS
+discovered_by=new_world
+discovered_by=CAD
+discovered_by=WIC
+discovered_by=OSA
+
+1450.1.1={citysize=1900}
+1500.1.1={citysize=2130}
+1540.1.1={discovered_by=SPA} # Hernando De Soto
+1550.1.1={citysize=2988}
+1600.1.1={citysize=3540}
+1650.1.1={citysize=4800}
+1670.1.1={discovered_by=FRA} # Robert Cavelier de La Salle
+1699.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic remove_core=CKS}
+1736.5.26={revolt_risk=5} # Battle of Ackia
+1737.1.1={revolt_risk=0}
+1741.1.1={add_core=FRA}
+1750.1.1={citysize=5200 add_core=LOU}
+1760.1.1={controller=GBR} # The government of New France capitulate at Montreal
+1763.2.10={capital="Vicksburg" owner=GBR controller=GBR remove_core=FRA culture=english religion=protestant} # Treaty of Paris, ceded to the British
+1783.9.3={owner=USA controller=USA add_core=USA}
+1861.4.12={owner=SUC controller=SUC add_core=SUC} # Start of Civil War
+1865.5.13={owner=USA controller=USA remove_core=SUC} # End of Civil War
+1900.1.1={fort2=yes}

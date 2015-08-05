@@ -1,0 +1,99 @@
+government=administrative_republic
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=1
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-5
+quality_quantity=2
+serfdom_freesubjects=-5
+primary_culture=bantu
+religion=protestant
+technology_group=african
+capital=2019
+
+1950.1.1={religion=religious_tolerance}
+
+1961.1.1={
+	monarch={
+		name="Benedicto Kiwanuka"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1962.4.25={
+	monarch={
+		name="Milton Obote"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1971.1.1={ government=republican_dictatorship }
+1971.1.1={
+	monarch={
+		name="Idi Amin Dada"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1980.8.1={ government=constitutional_republic }
+
+1980.8.2= {
+	monarch={
+		name="Paulo Muwanga"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1980.12.18={
+	monarch={
+		name="Otema Allimadi"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1985.8.25={
+	monarch={
+		name="Abraham Waligo"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1986.1.30={
+	monarch={
+		name="Samson Kisekka"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1991.1.22={
+	monarch={
+		name="George Cosmas Adyebo"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1994.11.18={
+	monarch={
+		name="Kintu Musoke"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1999.4.5={
+	monarch={
+		name="Apolo Nsibambi"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

@@ -1,0 +1,48 @@
+#Country Name: Please see filename.
+
+graphical_culture=easterngfx
+
+color={175 104 98}
+
+historical_ideas={
+	national_conscripts
+	grand_army
+	glorious_arms
+	military_drill
+	espionage
+	battlefield_commisions
+	engineer_corps
+	national_trade_policy
+	cabinet
+	shrewd_commerce_practise
+	national_bank
+	scientific_revolution}
+
+historical_units={thracian_hoplite
+thracian_horsman}
+
+monarch_names={
+	"Dromihed #0"=20
+	"Burebista #0"=20
+	"Isant #0"=20
+	"Dromihet #0"=15
+	"Burebist #0"=10
+}
+
+leader_names={
+	Kotis
+	Orpheis
+	Teres
+	}
+
+ship_names={
+	Gyula
+	"Roland Borsza"
+	"Ladislas Kan"
+	"Antal Budai Nagy"
+	"Hunyadi Janos"
+	Vaskapu Varna
+	Mercurius
+	Leustachius
+	Legforus
+}

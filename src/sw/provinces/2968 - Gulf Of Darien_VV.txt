@@ -1,0 +1,4 @@
+discovered_by=new_world
+discovered_by=CBC
+discovered_by=TAE
+discovered_by=CAK

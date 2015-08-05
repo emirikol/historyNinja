@@ -1,0 +1,54 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-4
+centralization_decentralization=-3
+innovative_narrowminded=1
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-3
+quality_quantity=0
+serfdom_freesubjects=-4
+technology_group=chinese
+religion=confucianism
+primary_culture=chihan
+capital=2374
+
+
+557.1.1={ 
+monarch={ 
+name="Emperor Wu" 
+dynasty="Chen" 
+adm=5
+dip=5
+mil=5}}
+
+559.1.1={ 
+monarch={ 
+name="Emperor Wen" 
+dynasty="Chen" 
+adm=5
+dip=5
+mil=5}}
+
+566.1.1={ 
+monarch={ 
+name="Emperor Fei" 
+dynasty="Chen" 
+adm=5
+dip=5
+mil=5}}
+
+568.1.1={ 
+monarch={ 
+name="Emperor Xuan" 
+dynasty="Chen"
+adm=5
+dip=5
+mil=5}}
+
+582.1.1={ 
+monarch={ 
+name="Houzhu" 
+dynasty="Chen"
+adm=5
+dip=5
+mil=5}} 

@@ -1,0 +1,122 @@
+government=khanate
+aristocracy_plutocracy=-4
+centralization_decentralization=-2
+innovative_narrowminded=1
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-3
+quality_quantity=0
+serfdom_freesubjects=-4
+technology_group=chinese
+religion=religious_tolerance
+primary_culture=khitan
+capital=1612	# Beijing
+
+
+907.6.1={
+ 	monarch={
+		name="Taizu"
+		dynasty="Liao"
+		adm=8
+		dip=9
+		mil=9}}
+		
+908.6.2={
+	heir={
+		name="Yelü Deguang"
+		monarch_name="Taizong"
+		dynasty="Liao"
+		birth_date=902.6.1
+		death_date=947.9.5
+		claim=100
+		adm=5
+		dip=9
+		mil=8}}		
+
+927.7.8={
+	monarch={
+		name="Taizong"
+		dynasty="Liao"
+		adm=8
+		dip=8
+		mil=8}}
+		
+947.7.24={
+	monarch={
+		name="Shizong"
+		dynasty="Liao"
+		adm=7
+		dip=8
+		mil=7}}			
+
+951.9.8={
+	monarch={
+		name="Muzong"
+		dynasty="Liao"
+		adm=6
+		dip=6
+		mil=6}}		
+		
+969.8.13={
+	monarch={
+		name="Jingzong"
+		dynasty="Liao"
+		adm=9
+		dip=9
+		mil=9}}		
+
+971.6.2={
+	heir={
+		name="Yelü Longxu"
+		monarch_name="Shengzong"
+		dynasty="Liao"
+		birth_date=971.1.9
+		death_date=1031.5.29
+		claim=100
+		adm=5
+		dip=9
+		mil=8}}		
+
+982.5.18={
+	monarch={
+		name="Shengzong"
+		dynasty="Liao"
+		adm=6
+		dip=6
+		mil=7}}		
+		
+1031.6.12={
+	monarch={
+		name="Xingzong"
+		dynasty="Liao"
+		adm=5
+		dip=6
+		mil=6}}		
+		
+1032.6.2={
+	heir={
+		name="Yehlu Hongji"
+		monarch_name="Daozong"
+		dynasty="Liao"
+		birth_date=1032.5.27
+		death_date=1101.2.11
+		claim=80
+		adm=5
+		dip=9
+		mil=8}}		
+
+1055.2.28={
+	monarch={
+		name="Daozong"
+		dynasty="Liao"
+		adm=5
+		dip=5
+		mil=5}}		
+
+1101.9.5={
+	monarch={
+		name="Tianzuo"
+		dynasty="Liao"
+		adm=4
+		dip=4
+		mil=4}}	

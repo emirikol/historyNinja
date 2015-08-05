@@ -1,0 +1,6 @@
+discovered_by=indian
+discovered_by=chinese
+discovered_by=african
+discovered_by=AKE
+
+630.6.1={discovered_by=muslim}

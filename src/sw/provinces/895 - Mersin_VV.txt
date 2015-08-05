@@ -1,0 +1,49 @@
+owner=CAP
+controller=CAP
+add_core=CAP
+culture=capadocian
+religion=groman
+capital="Karaman"
+trade_goods=wool
+hre=no
+base_tax=6
+manpower=3
+citysize=5100
+fort1=yes
+discovered_by=RMP
+discovered_by=RME
+discovered_by=latin
+discovered_by=AKS
+discovered_by=ITU
+discovered_by=NHA
+discovered_by=CEO
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ODR
+discovered_by=CAP
+discovered_by=AAR
+
+17.6.1={owner=RME controller=RME add_core=RME}
+313.6.1={religion=orthodox remove_core=CAP owner=RMP controller=RMP add_core=RMP remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP culture=greek fort2=yes}
+630.6.1={discovered_by=muslim}
+1204.4.12={owner=OGZ controller=OGZ add_core=OGZ}
+1299.6.1={owner=KAR controller=KAR add_core=KAR culture=turkish religion=sunni remove_core=OGZ}
+1450.1.1={citysize=5800}
+1461.1.1={remove_core=BYZ}
+1483.1.1={owner=TUR controller=TUR add_core=TUR remove_core=KAR}
+1500.1.1={citysize=6000}
+1509.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # Civil war
+1513.1.1={revolt={} controller=TUR}
+1530.1.1={marketplace=yes}
+1550.1.1={citysize=6900}
+1600.1.1={citysize=7010}
+1650.1.1={citysize=8553}
+1658.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # Revolt of Abaza Hasan Pasha, centered on Aleppo, extending into Anatolia
+1659.1.1={revolt={} controller=TUR}
+1700.1.1={citysize=9020}
+1740.1.1={base_tax=3} # The decentralizing effect of the provincial system
+1750.1.1={citysize=9777}
+1800.1.1={citysize=10000}
+1923.10.29={owner=TRK controller=TRK add_core=TRK remove_core=TUR} # Republic of Turkey gets founded

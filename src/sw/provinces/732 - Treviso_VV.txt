@@ -1,0 +1,34 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=roman
+religion=groman
+hre=no 
+base_tax=3        
+trade_goods=iron
+manpower=3        
+capital="Tarvisium" 
+citysize=5000
+fort1=yes 
+discovered_by=RME
+discovered_by=RMP
+discovered_by=eastern
+discovered_by=muslim
+discovered_by=PER
+discovered_by=PHT
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=early}
+493.6.1={owner=OST controller=OST add_core=OST culture=ostrogothic remove_core=GHT}
+553.6.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=OST}
+751.6.1={owner=LOM controller=LOM add_core=LOM remove_core=RMP remove_core=BYZ culture=langobardian capital="Treviso"}
+790.1.1={owner=HFR controller=HFR add_core=HFR remove_core=LOM}
+799.12.24={religion=catholic}
+843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=lombard}
+870.6.1={remove_core=LHT owner=VEN controller=VEN add_core=VEN marketplace=yes}
+962.2.2={hre=yes}
+1378.1.1={hre=no}
+1797.10.17={owner=HAB controller=HAB add_core=HAB} # Treaty of Campo Formio
+1805.12.26={owner=ITA controller=ITA add_core=ITA remove_core=HAB} # Treaty of Pressburg
+1814.4.11={owner=HAB controller=HAB	add_core=HAB remove_core=ITA} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1870.1.1={owner=ITA controller=ITA add_core=ITA remove_core=HAB} # unification of Italy

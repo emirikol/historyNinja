@@ -1,0 +1,31 @@
+culture=normand
+religion=odin
+hre=no
+base_tax=1
+trade_goods=whale
+manpower=1
+capital="Steig"
+
+415.1.1={discovered_by=VIK}
+810.1.1={owner=VIK controller=VIK add_core=VIK fort1=yes citysize=1000}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1020.1.1={owner=NOR controller=NOR add_core=NOR remove_core=VIK culture=norwegian}
+1200.1.1={religion=catholic}
+1450.1.1={citysize=1150}
+1500.1.1={citysize=1250}
+1531.11.15={revolt_risk=10} # The Return of Christian II
+1532.7.15={revolt_risk=0} # The Capture of Christian II
+1536.1.1={religion=protestant}
+1536.1.1={owner=DAN controller=DAN add_core=DAN}
+1550.1.1={citysize=1580}
+1560.1.1={marketplace=yes}
+1600.1.1={citysize=1850}
+1650.1.1={citysize=1980}
+1700.1.1={citysize=2578}
+1750.1.1={citysize=2900}
+1800.1.1={citysize=4500}
+1814.1.14={owner=SWE revolt={type=nationalist_rebels size=1} controller=REB	remove_core=DAN} # Norway is ceded to Sweden following the Treaty of Kiel
+1814.5.17={revolt={} owner=NOR controller=NOR} # Norway declares itself independent and elects Christian Frederik as king
+1919.1.1={trade_goods=gas}
+1940.6.10={owner=NAZ controller=NAZ} # occupied by the Nazis
+1945.5.8={owner=NOR controller=NOR} # Nazi-Germany loses war

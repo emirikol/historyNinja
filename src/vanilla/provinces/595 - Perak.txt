@@ -1,0 +1,28 @@
+#595 - Perak
+
+owner = MLC
+controller = MLC
+culture = malayan
+religion = sunni
+capital = "Perak"
+trade_goods = spices
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 1100
+add_core = MLC
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 1900 }
+1500.1.1 = { citysize = 2486 }
+1516.1.1 = { discovered_by = POR } # Godinho de Eredia
+1550.1.1 = { citysize = 3680 }
+1600.1.1 = { citysize = 4322 }
+1650.1.1 = { citysize = 5000 }
+1660.1.1 = { fort1 = yes }
+1700.1.1 = { citysize = 5554 }
+1750.1.1 = { citysize = 6270 }
+1800.1.1 = { citysize = 7990 }

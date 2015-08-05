@@ -1,0 +1,40 @@
+owner=MET
+controller=MET
+add_core=MET
+culture=metztitlan 
+religion=teotl_azt
+capital="Guachichil" 
+fort1=yes
+trade_goods=silver
+citysize=1000
+hre=no 
+base_tax=2 
+manpower=3
+discovered_by=TER
+discovered_by=MET
+discovered_by=TOT
+discovered_by=TXC
+discovered_by=AZT
+discovered_by=TLX
+discovered_by=ZAP
+discovered_by=MAY
+discovered_by=MIX
+discovered_by=QUI
+discovered_by=CAK
+discovered_by=PUT
+discovered_by=TLP
+
+1428.1.1={owner=AZT	controller=AZT add_core=AZT citysize=2000 remove_core=MET} # The Aztec Triple Alliance
+1450.1.1={citysize=2450}
+1500.1.1={citysize=2740}
+1530.1.1={manpower=2 discovered_by=SPA} # Pedro Alm’ndez Chirinos 
+1546.1.1={owner=SPA controller=SPA culture=castillian religion=catholic} # Juan de Tolosa
+1550.1.1={citysize=3150} 
+1571.1.1={add_core=SPA remove_core=AZT}
+1591.8.21={citysize=4400} # Settlement, established by Lucas Tellez
+1600.1.1={citysize=5879} 
+1650.1.1={citysize=6567} 
+1700.1.1={citysize=7890} 
+1750.1.1={citysize=8665 add_core=MEX} 
+1800.1.1={citysize=9700}
+1810.9.16={owner=MEX controller=MEX remove_core=SPA} # Mexican War of Independence

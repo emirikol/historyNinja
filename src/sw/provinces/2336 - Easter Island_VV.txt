@@ -1,0 +1,15 @@
+culture=melanesian
+religion=ind_pagan
+capital="Eastern Island"
+trade_goods=stone
+hre=no
+base_tax=2
+manpower=1
+native_size=5
+native_ferocity=2
+native_hostileness=1
+
+1725.4.5={discovered_by=NED}
+1750.1.1={citysize=1511 add_core=CHL discovered_by=CHL fort1=yes}
+1786.6.5={discovered_by=FRA}
+1810.9.18={owner=CHL controller=CHL} # First National Government Junta

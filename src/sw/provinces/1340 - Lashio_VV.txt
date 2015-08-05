@@ -1,0 +1,25 @@
+culture=shan
+religion=buddhism
+capital="Lashio"
+trade_goods=wood
+hre=no
+base_tax=1
+manpower=1
+discovered_by=chinese
+discovered_by=indian
+discovered_by=TIB
+
+900.1.1={fort1=yes owner=SST controller=SST add_core=SST citysize=4500}
+1450.1.1={citysize=4900}
+1500.1.1={citysize=5200}
+1555.1.1={owner=TAU controller=TAU add_core=TAU} # The Shan dynasty is overthrown
+1581.1.1={owner=SST controller=SST remove_core=TAU} # Very loosely controlled
+1600.1.1={citysize=6870}
+1650.1.1={citysize=8540}
+1700.1.1={citysize=9932}
+1750.1.1={citysize=10500}
+1753.1.1={owner=TAU controller=TAU add_core=TAU } # Burmese campaigns
+1885.1.1={owner=GBR controller=GBR add_core=GBR}
+1942.3.1={owner=JAP controller=JAP}
+1945.7.1={controller=GBR owner=GBR}
+1948.1.4={owner=MYA controller=MYA add_core=MYA remove_core=GBR remove_core=TAU}

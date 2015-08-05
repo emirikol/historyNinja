@@ -1,0 +1,33 @@
+#567 - Silhet
+
+owner = ASS
+controller = ASS
+culture = bengali
+religion = hinduism
+capital = "Silhet"
+trade_goods = naval_supplies
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 5870
+fort1 = yes
+add_core = ASS
+add_core = NIZ
+discovered_by = indian
+discovered_by = chinese
+
+1450.1.1 = { citysize = 6100 }
+1500.1.1 = { citysize = 6570 }
+1550.1.1 = { citysize = 7800 }
+1600.1.1 = { citysize = 9030 }
+1627.1.1 = { discovered_by = POR }
+1650.1.1 = { citysize = 11240 }
+1700.1.1 = { remove_core = NIZ citysize = 13400 }
+1750.1.1 = { citysize = 15524 }
+1770.1.1 = { revolt_risk = 8 } # Moamoria rebellion
+1800.1.1 = { citysize = 16789 }
+1806.1.1 = { revolt_risk = 0 }
+1819.1.1 = {	owner = TAU
+		controller = TAU
+		add_core = TAU
+	    } # Annexed by Burma

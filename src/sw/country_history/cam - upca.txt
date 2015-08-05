@@ -1,0 +1,50 @@
+#United Provinces of Central America
+government=revolutionary_republic
+aristocracy_plutocracy=-2
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-1
+quality_quantity=2
+serfdom_freesubjects=0
+technology_group=latin
+religion=catholic
+primary_culture=castillian
+capital=841	# Guatemala city
+
+1823.1.1={
+	monarch={
+		name="José Cecilo del Valle"
+		adm=4
+		dip=6
+		mil=5
+	}
+}
+
+1825.1.1={
+	monarch={
+		name="Manuel José Arce y Fagoaga"
+		adm=4
+		dip=6
+		mil=5
+	}
+}
+
+1829.1.1={
+	monarch={
+		name="José Francisco Barrundia y Cepeda"
+		adm=4
+		dip=6
+		mil=5
+	}
+}
+
+1830.1.1={
+	monarch={
+		name="Francisco Morazán"
+		adm=4
+		dip=6
+		mil=5
+	}
+}

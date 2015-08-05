@@ -1,0 +1,307 @@
+government=feudal_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-5
+offensive_defensive=0 
+land_naval=-1
+quality_quantity=2
+serfdom_freesubjects=0
+technology_group=latin
+religion=catholic
+primary_culture=wallonian
+capital=91	# Mons
+
+
+860.1.1={
+monarch={
+name="Reginar I"
+dynasty="Reginar"
+adm=5
+dip=6
+mil=5}}
+
+898.1.1={
+monarch={
+name="Sigard"
+dynasty="Reginar"
+adm=4
+dip=6
+mil=5}}
+
+908.1.1={
+monarch={
+name="Reginar I"
+dynasty="Reginar"
+adm=4
+dip=4
+mil=4}}
+
+915.1.1={
+monarch={
+name="Reginar II"
+dynasty="Reginar"
+adm=7
+dip=7
+mil=5}}
+
+932.1.1={
+monarch={
+name=""
+dynasty=""
+adm=6
+dip=7
+mil=7}}
+
+940.1.1={
+monarch={
+name="Reginar III"
+dynasty="Reginar"
+adm=5
+dip=7
+mil=5}}
+
+958.1.1={
+monarch={
+name="Godfrey I"
+dynasty="Reginar"
+adm=4
+dip=4
+mil=4}}
+
+964.1.1={
+monarch={
+name="Richar"
+dynasty="Reginar"
+adm=4
+dip=4
+mil=4}}
+
+973.1.1={
+monarch={
+name="Reginald"
+dynasty="Reginar"
+adm=3
+dip=3
+mil=4}}
+
+973.6.1={
+monarch={
+name="Reginar IV"
+dynasty="Reginar"
+adm=5
+dip=4
+mil=5}}
+
+974.1.1={
+monarch={
+name="Godfrey I"
+dynasty="Reginar"
+adm=5
+dip=4
+mil=3}}
+
+998.1.1={
+monarch={
+name="Reginar IV"
+dynasty="Reginar"
+adm=5
+dip=4
+mil=5}}
+
+1013.1.1={
+monarch={
+name="Reginar V"
+dynasty="Reginar"
+adm=5
+dip=5
+mil=6}}
+
+1039.1.1={
+monarch={
+name="Herman"
+dynasty="Reginar"
+adm=5
+dip=5
+mil=5}}
+
+1051.1.1={
+monarch={
+name="Baldwin VI"
+dynasty="Flanders"
+adm=4
+dip=4
+mil=3}}
+
+1070.7.17={
+monarch={
+name="Arnulf III"
+dynasty="Flanders"
+adm=5
+dip=5
+mil=5}}
+
+1071.2.22={
+monarch={
+name="Baldwin II"
+dynasty="Flanders"
+adm=4
+dip=5
+mil=4}}
+
+1098.1.1={
+monarch={
+name="Baldwin III"
+dynasty="Flanders"
+adm=5
+dip=5
+mil=5}}
+
+1120.1.1={
+monarch={
+name="Baldwin IV"
+dynasty="Flanders"
+adm=7
+dip=5
+mil=5}}
+
+1171.11.8={
+monarch={
+name="Baldwin V"
+dynasty="Flanders"
+adm=6
+dip=7
+mil=7}}
+
+1195.12.17={
+monarch={
+name="Baldwin VI"
+dynasty="Flanders"
+adm=6
+dip=6
+mil=6}}
+
+1205.1.1={
+monarch={
+name="Joan"
+dynasty="Flanders"
+adm=5
+dip=5
+mil=4
+female=yes}}
+
+1244.12.5={
+monarch={
+name="Margaret"
+dynasty="Flanders"
+adm=4
+dip=4
+mil=4
+female=yes}}
+
+1253.1.1={
+monarch={
+name="John I"
+dynasty="Avesnes"
+adm=4
+dip=5
+mil=5}}
+
+1257.12.24={
+monarch={
+name="Margaret"
+dynasty="Flanders"
+adm=4
+dip=4
+mil=4}}
+
+1280.2.10={
+monarch={
+name="John II"
+dynasty="Avesnes"
+adm=3
+dip=4
+mil=4}}
+
+1304.8.22={
+monarch={
+name="William I"
+dynasty="Avesnes"
+adm=6
+dip=5
+mil=4}}
+
+1337.6.7={
+monarch={
+name="William II"
+dynasty="Avesnes"
+adm=5
+dip=5
+mil=4}}
+
+1345.9.26={
+monarch={
+name="Margaret II"
+dynasty="Avesnes"
+adm=6
+dip=6
+mil=4
+female=yes}}
+
+1356.6.23={
+monarch={
+name="William I"
+dynasty="von Wittelsbach"
+adm=4
+dip=5
+mil=5}}
+
+1388.1.1={
+monarch={
+name="Albert I"
+dynasty="von Wittelsbach"
+adm=4
+dip=5
+mil=5}}
+
+1389.1.1={
+	heir={
+		name="William"
+		monarch_name="William VI"
+		dynasty="von Wittelsbach"
+		birth_date=1365.4.5
+		death_date=1417.5.31
+		claim=95
+		adm=5
+		dip=5
+		mil=5}}
+		
+1404.12.13={
+monarch={
+name="William IV"
+dynasty="von Wittelsbach"
+adm=5
+dip=5
+mil=5}}
+
+1404.12.14={
+	heir={
+		name="Jacquette"
+		monarch_name="Jacquette"
+		dynasty="von Wittelsbach"
+		birth_date=1401.8.16
+		death_date=1436.10.8
+		claim=95
+		adm=5
+		dip=4
+		mil=4
+		female=yes}}
+
+1417.1.1={
+	monarch={
+		name="Jacquette"
+		dynasty="von Wittelsbach"
+		adm=5
+		dip=4
+		mil=4
+		female=yes}}

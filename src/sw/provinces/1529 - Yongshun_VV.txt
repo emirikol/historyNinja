@@ -1,0 +1,33 @@
+owner=KHE
+controller=KHE
+add_core=KHE
+culture=cantonese
+religion=taoist
+capital="Yongshun"
+trade_goods=cloth
+hre=no
+base_tax=6
+manpower=2
+citysize=9250
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+discovered_by=FUN
+
+220.6.1={owner=EWU controller=EWU add_core=EWU remove_core=KHE}
+265.6.1={owner=CJI controller=CJI add_core=CJI remove_core=EWU}
+557.6.1={owner=NZO controller=NZO add_core=NZO remove_core=CJI}
+581.6.1={owner=SUI controller=SUI add_core=SUI remove_core=NZO}
+618.6.1={owner=TNG controller=TNG add_core=TNG culture=cantonese}
+960.6.1={owner=SOG controller=SOG add_core=SOG remove_core=TNG}
+1271.6.1={owner=YUN controller=YUN add_core=YUN remove_core=SOG}
+1368.1.1={owner=MNG controller=MNG add_core=MNG remove_core=YUN add_core=XIA}
+1583.6.1={religion=confucianism}
+1594.1.1={revolt_risk=6} # Rebels
+1599.1.1={revolt_risk=0}
+1610.1.1={constable=yes}
+1662.1.1={owner=MCH	controller=MCH add_core=MCH remove_core=MNG} # The Qing Dynasty
+1673.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Rebellion of the Three Feudatories
+1681.1.1={revolt={} controller=MCH}
+1912.1.1={owner=CHN controller=CHN add_core=CHN} # Republic of China
+1949.10.1={owner=RCH controller=RCH add_core=RCH} # People's Republic of China

@@ -1,0 +1,26 @@
+#1850 - Mudanjiang
+
+owner = MCH
+controller = MCH
+culture = manchu
+religion = confucianism
+capital = "Mudanjiang"
+trade_goods = fish
+hre = no
+base_tax = 3
+manpower = 3
+citysize = 9000
+add_core = MCH
+fort1 = yes
+discovered_by = chinese
+discovered_by = nomad_group
+
+1450.1.1 = { citysize = 9700 }
+1500.1.1 = { citysize = 11010 }
+1550.1.1 = { citysize = 11905 }
+1600.1.1 = { citysize = 12450 }
+1650.1.1 = { citysize = 14100 }
+1700.1.1 = { citysize = 16360 }
+1739.1.1 = { discovered_by = RUS } # Martin Spanberg
+1750.1.1 = { citysize = 19452 }
+1800.1.1 = { citysize = 23450 }

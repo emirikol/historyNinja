@@ -1,0 +1,77 @@
+government=constitutional_republic
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=mali
+religion=sunni
+technology_group=african
+capital=1137	# Ouagadougou
+
+1950.1.1={religion=religious_tolerance}
+
+1960.8.5={ government=republican_dictatorship }
+
+1960.8.5={
+	monarch={
+		name="Maurice Yaméogo"
+		adm=7
+		dip=4
+		mil=3
+	}
+}
+
+1966.1.4={ government=military_dictatorship }
+
+1966.1.4={
+	monarch={
+		name="Sangoulé Lamizana"
+		adm=7
+		dip=4
+		mil=3
+	}
+}
+
+1978.1.1={ government=constitutional_republic }
+
+1980.11.25={ government=military_dictatorship }
+
+1980.11.25={
+	monarch={
+		name="Saye Zerbo"
+		adm=7
+		dip=4
+		mil=3
+	}
+}
+
+1982.11.8={
+	monarch={
+		name="Jean-Baptiste Ouedraogo"
+		adm=7
+		dip=4
+		mil=3
+	}
+}
+
+1983.8.4={
+	monarch={
+		name="Thomas Sankara"
+		adm=7
+		dip=4
+		mil=3
+	}
+}
+
+1987.10.15={
+	monarch={
+		name="Blaise Compaoré"
+		adm=7
+		dip=4
+		mil=3
+	}
+}

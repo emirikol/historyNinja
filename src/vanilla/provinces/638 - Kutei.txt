@@ -1,0 +1,30 @@
+#638 - Kutei
+
+owner = BEI
+controller = BEI
+culture = malayan
+religion = sunni
+capital = "Kutei"
+trade_goods = fish
+hre = no
+base_tax = 4
+manpower = 3
+citysize = 4630
+add_core = BEI
+discovered_by = chinese
+
+1450.1.1 = { citysize = 4900 }
+1500.1.1 = { citysize = 5225 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 6430 }
+1600.1.1 = { citysize = 6999 }
+1650.1.1 = { citysize = 7654 }
+1673.1.1 = {	citysize = 0
+		native_size = 5
+		native_ferocity = 1
+		native_hostileness = 2
+		owner = XXX
+		controller = XXX
+		remove_core = BEI
+		trade_goods = unknown
+	   }

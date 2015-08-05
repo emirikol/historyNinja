@@ -1,0 +1,106 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=gallic
+religion=groman
+capital="Brugge"
+citysize=5000
+hre=no
+base_tax=4
+trade_goods=horses
+manpower=3
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+discovered_by=GLA
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+354.6.1={owner=HFR controller=HFR culture=frankish religion=odin remove_core=RMP}
+476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+799.12.24={religion=catholic}
+843.1.1={owner=FRA controller=FRA add_core=FRA}
+870.6.1={owner=FLA controller=FLA add_core=FLA culture=zealandic discovered_by=latin discovered_by=eastern
+ discovered_by=muslim}
+1191.1.1={owner=FRA controller=FRA}
+1384.1.1={owner=BUR controller=BUR add_core=FLA add_core=NED}
+1453.1.1={controller=BUR}
+1453.7.23={controller=BUR revolt_risk=0} # Battle of Gavere, Flemish cities under the leadership of Ghent defeated
+1477.1.5={owner=HAB controller=HAB add_core=HAB remove_core=BUR revolt_risk=4 textile=yes} # Charles the Bold dies, all of the Lowlands ceded to Austria
+1488.1.1={revolt_risk=0 revolt={type=nationalist_rebels size=2} controller=REB} # Flanders rises up against Maximilian of Austria
+1492.7.12={revolt={} controller=HAB} # Peace of Cadzand, the power of the cities is broken
+1510.1.1={fort2=yes}
+1519.1.14={owner=SPA controller=SPA add_core=SPA remove_core=HAB}
+1521.1.1={temple=yes} # Cathedral of Antwerp finished
+1528.1.1={revolt_risk=5} # Charles V begins to raise taxes
+1529.8.3={remove_core=FRA} # 'Ladies Peace' (Damesvrede) of Cambrai: France renounces its claims
+1537.8.15={revolt_risk=0 revolt={type=nationalist_rebels size=2} controller=REB} # Citizens of Ghent rise up against Charles V
+1540.4.30={revolt={} controller=SPA} # Charles V punishes Ghent severely, power of the city broken
+1548.6.26={hre=yes} # Flanders incorporated into the Holy Roman Empire
+1559.5.12={revolt_risk=3} # New bishoprics established in the Lowlands create an outrage
+1565.1.1={revolt_risk=5} # Letters of Segovia, Philip I advocates harsh persecution of Calvinists
+1566.4.5={revolt_risk=3} # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1566.8.1={revolt_risk=4} # 'Beeldenstorm' at hand
+1566.8.10={revolt={type=heretic_rebels size=1} controller=REB} # 'Beeldenstorm' sweeps through Flanders
+1567.1.20={revolt={} controller=SPA} # Spain regains control
+1567.9.10={revolt_risk=5} # Counts of Egmont & Hoorne arrested
+1568.6.5={revolt_risk=7} # Counts of Egmont & Hoorne beheaded
+1569.1.1={revolt_risk=11} # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1={revolt_risk=17 constable=yes} # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1577.2.12={revolt_risk=11} # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1577.10.28={revolt={type=heretic_rebels size=2} controller=REB} # A Calvinist coup d'etat hits Ghent and expands through Flanders
+1579.1.23={revolt={} controller=NED revolt_risk=0} # Union of Utrecht - Flanders joins
+1585.1.1={regimental_camp=yes} # Staging point for most armies
+1590.1.1={workshop=yes} # Ahead of its time
+1600.7.2={controller=NED} # Maurice of Nassau beats the Spanish at Nieuwpoort, but has to retreat soon after
+1604.1.1={controller=SPA} # Spinola retakes Ostend and most of Flanders
+1630.1.1={customs_house=yes}
+1648.1.30={remove_core=NED revolt_risk=0} # Peace of Münster/Westphalia
+1665.9.17={add_core=FRA} # Louis XIV's father-in-law, Philip IV of Spain, dies
+1672.5.1={controller=FRA} # France blitzes through the Lowlands in the Franco-Dutch War
+1678.9.19={controller=SPA} # Treaty of Nijmegen (France-Spain)
+1700.1.1={shipyard=yes} # Port of Antwerp becomes significant again
+1706.6.1={controller=ENG} # Marlborough captures Antwerp for the Spanish
+1707.5.12={controller=GBR}
+1713.4.11={owner=HAB controller=HAB add_core=HAB remove_core=SPA} # Treaty of Utrecht
+1715.9.1={remove_core=FRA} # Louis XIV passes away
+1725.1.1={tax_assessor=yes}
+1744.4.1={controller=FRA} # France captures Flanders in the Austrian War of Succession
+1744.7.1={controller=HAB} # France withdraws
+1745.5.10={controller=FRA} # France takes back most of Flanders
+1748.10.18={controller=HAB} # Peace of Aachen
+1792.12.1={controller=RFR} # Conquered by the French troops under Dumouriez
+1793.3.18={controller=HAB} # Reconquered by Prince Josias of Coburg
+1795.5.16={owner=RFR controller=RFR add_core=RFR} # Treaty of Den Haag, ceded to the French Republic
+1798.10.12={revolt={type=nationalist_rebels size=2} controller=REB} # Revolt against French rule, "Boerenkrijg"
+1798.12.1={revolt={} controller=RFR}
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.16={owner=NED controller=NED add_core=NED remove_core=FRA} # The United Kingdom of the Netherlands
+1830.1.1={add_core=BEL owner=BEL controller=BEL} # belgian revolution
+1940.5.28={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.9.1={owner=BEL controller=BEL} # Nazis leave Belgium

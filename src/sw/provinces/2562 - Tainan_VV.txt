@@ -1,0 +1,35 @@
+culture=chihan
+religion=animism
+capital="Tainan"
+trade_goods=chinaware
+hre=no
+base_tax=4
+manpower=1
+discovered_by=DGY
+discovered_by=GOG
+discovered_by=SLY
+discovered_by=YEE
+discovered_by=MAH
+discovered_by=BJE
+discovered_by=KHE
+discovered_by=FUN
+native_size=60
+native_ferocity=1
+native_hostileness=5
+discovered_by=chinese
+
+1544.1.1={discovered_by=POR}
+1624.1.1={owner=NED controller=NED citysize=6500 fort1=yes} # The Spanish settlers are driven out by the Dutch
+1626.1.1={controller=SPA} # Spanish occupation
+1642.1.1={controller=NED} # The Spanish settlers are driven out by the Dutch
+1662.1.1={owner=MNG controller=MNG} # Captured by Zheng Chenggong
+1683.1.1={owner=MCH controller=MCH add_core=MCH religion=confucianism} # Submitted to Manchu control
+1700.1.1={citysize=5420}
+1750.1.1={citysize=6890} 
+1786.1.1={revolt_risk=5} # Rebellion
+1788.1.1={revolt_risk=0}
+1800.1.1={citysize=7400}
+1895.4.17={owner=JAP controller=JAP add_core=JAP} #Japanese colony
+1912.1.1={add_core=CHN} # Republic of China
+1945.8.15={owner=CHN controller=CHN remove_core=JAP}
+1949.10.1={add_core=RCH}

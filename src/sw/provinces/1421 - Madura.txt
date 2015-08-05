@@ -1,0 +1,17 @@
+culture=sulawesi
+religion=hinduism
+capital="madura"
+trade_goods=fish
+hre=no
+base_tax=4
+manpower=3
+discovered_by=MAJ
+
+1293.1.1={owner=MAJ controller=MAJ add_core=MAJ citysize=1900 fort1=yes}
+1500.1.1={citysize=0 native_size=30 native_ferocity=2 native_hostileness=6 owner=XXX controller=XXX remove_core=MAJ fort1=no}
+1613.1.1={discovered_by=NED} # The Dutch arrived
+1625.1.1={discovered_by=MTR owner=MTR controller=MTR add_core=MTR citysize=5200 fort1=yes} # Mataram conquered Surabaya after several years of struggle
+1830.1.1={owner=NED add_core=NED controller=NED}
+1942.2.1={controller=JAP owner=JAP}
+1944.1.1={controller=NED owner=NED}
+1949.12.27={owner=IDO controller=IDO add_core=IDO remove_core=NED}

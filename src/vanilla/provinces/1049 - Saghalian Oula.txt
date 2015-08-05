@@ -1,0 +1,22 @@
+#1049 - Saghalian Oula
+
+culture = yakut
+religion = shamanism
+capital = "Saghalian Oula"
+trade_goods = unknown
+hre = no
+base_tax = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1643.1.1 = { discovered_by = RUS } # Vasily Poyarkov
+1653.1.1 = {	owner = RUS
+		controller = RUS
+	   	religion = orthodox
+	   	culture = russian
+		citysize = 200
+	   } # Pyotr Beketov
+1700.1.1 = { citysize = 450 trade_goods = naval_supplies }
+1800.1.1 = { citysize = 800 }

@@ -1,0 +1,100 @@
+#Country Name: Please see filename.
+
+graphical_culture=latingfx
+
+color={255 25 25}
+
+historical_ideas={
+	national_conscripts
+	grand_army
+	glorious_arms
+	espionage
+	military_drill
+	merchant_adventures
+	divine_supremacy
+	battlefield_commisions
+	engineer_corps
+	national_trade_policy
+	cabinet
+	patron_of_art
+}
+
+historical_units={babylon_archers}
+
+monarch_names={
+	"David #0"=20
+	"Yitzhak #0"=20
+	"Moshe #0"=20
+	"Chaim #0"=20
+	"Levi #0"=20
+	"Menachem #0"=10
+	"Avraham #0"=20
+	"Golda #0"=-10
+	"Yosef #0"=10
+	"Kadish #0"=10
+	"Zalman #0"=10
+	"Ephraim #0"=10
+	"Yigal #0"=10
+	"Shimon #0"=10
+	"Benyamin #0"=10
+	"Ariel #0"=10
+	"Ehud #0"=10
+	"Yehuda #0"=5
+	"Isaac #0"=5
+	"Jacob #0"=5
+	"Yaakov #0"=5
+	"Abraham #0"=5
+	"Avi #0"=0
+	"Tal #0"=0
+	"Ofer #0"=0
+	"Alon #0"=0
+	"Yonah #0"=0
+	"Reuven #0"=0
+	"Yoav #0"=0
+	"Boaz #0"=0
+	"Noach #0"=0
+	"Eli #0"=0
+	"Hillel #0"=0
+	"Maor #0"=0
+	"Yossi #0"=0
+	"Aviram #0"=0
+	"Eliyahu #0"=0
+	"Ezra #0"=0
+	"Omer #0"=0
+	"Gavriel #0"=0
+	"Gershon #0"=0
+	"Gilad #0"=0
+	"Ben #0"=0
+	"Mordechai #0"=0
+	"Shlomo #0"=0
+	"Ben-Zion #0"=0
+	"Shaul #0"=0
+	"Shmuel #0"=0
+        "Itzhak #0"=0 
+	
+}
+
+leader_names={
+	Ben-Gurion Weizmann Sprinzak Ben-Zvi Luz Shazar Katzir Navon Herzog Burg Katsav
+	Peres Sharett Eshkol Allon Meir Rabin Begin Shamir Netanyahu Barak Sharon Olmert
+	Davidovich Levin Strool "Ben Haim" Saban "Ben Dayan" Keinan Meshumar Ziv Cohen 
+	Kiyal Tuama Ohayon Buzaglo Benayoun Baruchyan Ben-Shushan Golan Shechter Sahar
+	Ben-Yosef Gershon Tal Zandberg Shivhon Yitzhaki "Ben Zvi" Goldberg Steinberg Perlman
+	Rosenstein Meyerson Davidson Ben-David Berkovitz Epstein Feld Rozen Alberman
+	Ben-Artzi Levy Levi Kohn Ashkenazi Goren Shapira Metzger Peron Weiss Rontzki Eliyahu
+	Kook Oz Aaron Israel Har-Paz Har-Segor Har-Even Even-Shushan Zahavi Gold Goldstein
+	Cahen Kogan Gabbai Shammes Parnas Schatz Chazan Sofer Melamed Lamdan
+	Horowitz Rothschild Einstein Soloveitchik Shaltiel Yerushalmi Shalit
+	Heifetz Kahane Raban Even-Zahav Morgenstern Shachar Lieberman
+}
+
+ship_names={
+	Eilat Yaffo Haifa Mivtach Misgav Miznak HaShomer Hagana Lahav Hanit Akko Sa'ar
+	Sufa Ga'ash Herev Hetz Reshef Keshet Romach Kidon Tarshish Nitzachon Atzmaut
+	Moledet Komemiyut Aliya Geula Tanin Rachav Leviatan Dakar Dolphin Gal Tkuma
+	Emmaus Ephraim
+	Hebron
+	Jamnia Jericho
+	Lachish Lydda
+	Samaria Shechem Sepphoris
+}

@@ -1,0 +1,93 @@
+government=celestial_empire
+aristocracy_plutocracy=-4
+centralization_decentralization=5
+innovative_narrowminded=3
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-1
+quality_quantity=3
+serfdom_freesubjects=-5
+primary_culture=mongol 
+add_accepted_culture=chihan
+add_accepted_culture=manchu
+religion=religious_tolerance
+technology_group=chinese
+capital=1612	# Beijing
+
+faction=temples
+faction=enuchs
+faction=bureaucrats
+
+enuchs=80
+
+1271.5.1={
+	monarch={
+		name="Kublai"
+		dynasty="Borjigin"
+		adm=9
+		dip=9
+		mil=9}}
+
+1294.6.1={
+	monarch={
+		name="Temur"
+		dynasty="Borjigin"
+		adm=9
+		dip=9
+		mil=7}}
+
+1308.7.1={
+	monarch={
+		name="Külüg"
+		dynasty="Borjigin"
+		adm=8
+		dip=9
+		mil=7}}
+
+1311.8.1={
+	monarch={
+		name="Ayurbarwada Buyantu"
+		dynasty="Borjigin"
+		adm=8
+		dip=9
+		mil=7}}
+
+1321.9.1={
+	monarch={
+		name="Gegeen"
+		dynasty="Borjigin"
+		adm=7
+		dip=7
+		mil=7}}
+
+1323.10.1={
+	monarch={
+		name="Yesün Temür"
+		dynasty="Borjigin"
+		adm=7
+		dip=8
+		mil=7}}
+		
+1328.1.1={
+	monarch={
+		name="Ragibagh"
+		dynasty="Borjigin"
+		adm=1
+		dip=1
+		mil=1}}
+
+1328.5.1={
+	monarch={
+		name="Jayaatu"
+		dynasty="Borjigin"
+		adm=8
+		dip=8
+		mil=9}}
+
+1333.6.1={
+	monarch={
+		name="Ukhaantu"
+		dynasty="Borjigin"
+		adm=7
+		dip=8
+		mil=8}}

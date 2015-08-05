@@ -1,0 +1,14 @@
+culture=patagonian
+religion=animism
+hre=no
+base_tax=1
+trade_goods=fish
+manpower=1
+
+1503.1.1={discovered_by=POR}
+1815.1.1={owner=GBR
+		controller=GBR
+		citysize=1000
+	    	culture=english
+	    	religion=protestant} 
+1900.1.1={fort1=yes}

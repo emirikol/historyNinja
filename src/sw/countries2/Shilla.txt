@@ -1,0 +1,141 @@
+#Country Name: Please see filename.
+
+graphical_culture=chinesegfx
+
+color={ 253  143  36 }
+
+historical_ideas={
+	colonial_ventures
+	shrewd_commerce_practise
+	national_trade_policy
+	quest_for_the_new_world
+	scientific_revolution
+	patron_of_art
+	national_conscripts
+	military_drill
+	deus_vult
+	divine_supremacy
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+}
+
+monarch_names={
+	"Hyeokgeose #0"=40
+	"Namhae #0"=40
+	"Talhae #0"=20
+	"Pasa #0"=20
+	"Jima #0"=20
+	"Ilseong #0"=20
+	"Adalla #0"=20
+	"Beolhyu #0"=20
+	"Naehae #0"=20
+	"Jobun #0"=20
+	"Cheomhae #0"=20
+	"Michu #0"=20
+	"Yurye #0"=20
+	"Girim #0"=40
+	"Heulhae #0"=40
+	"Naemul #0"=20
+	"Silseong #0"=20
+	"Nulji #0"=20
+	"Jabi #0"=20
+	"Soji #0"=20
+	"Jijeung #0"=20
+	"Beopheung #0"=20
+	"Jinheung #0"=20
+	"Beopheung #0"=20
+	"Jinheung #0"=20
+	"Jinji #0"=20
+}
+
+leader_names={
+	"Won Gwang"
+	"Kim Yushin"
+	"Kim Wonsul"
+	"Kim Bangul"
+	"Kim Heonchang"
+	"Kim Isabu"
+	"Kim Muryeok"
+	"Kim Daemun"
+	"Kim Daeseong"
+	"Kim Inmun"
+	Seolchong
+	Uisang
+	Woncheuk
+	Wonhyo
+	Gwanchang
+	Ichadon
+	Hanpu
+	Ajagae
+	Hogong
+	Anseung
+	"Choe Chiwon"
+	"Gwishil Jipsa"
+	Hyecho
+	Jajang
+	"Jang Bogo"
+	Jinpyo
+}
+
+ship_names={
+	Anapji
+	Golpum
+	Hwarang
+	Junjeong
+	Nammo
+	Namsan
+	Wonhwa
+	Hwangyongsa
+	Bulguksa
+	Seokguram
+	Cheomseongdae
+	Seonggol
+	Jingol
+	Geumgwan Gaya
+	Daegaya
+	Balhae
+	Goguryeo
+	Shilla
+	Baekje
+	Gyerim
+	Seorabeol
+	Gukhak
+	Poseokjeong
+	Cheonghaejin
+	Jikjisa
+}

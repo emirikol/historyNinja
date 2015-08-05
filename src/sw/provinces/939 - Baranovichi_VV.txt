@@ -1,0 +1,49 @@
+owner=GHT
+controller=GHT
+add_core=GHT
+culture=goths
+religion=odin
+hre=no
+base_tax=3
+trade_goods=grain
+manpower=2
+capital="Baranovichi"
+fort1=yes
+citysize=4500 
+discovered_by=latin
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+
+290.6.1={owner=HSL controller=HSL add_core=HSL culture=proto_slavic religion=perun remove_core=GHT}
+451.6.1={owner=DRE controller=DRE add_core=DRE culture=dregovichi remove_core=HSL discovered_by=DRE}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=DRE discovered_by=KIV}
+1132.1.1={owner=XXX controller=XXX fort1=no}
+1236.1.1={owner=LIP controller=LIP add_core=LIP culture=byelorussian fort1=yes discovered_by=LIP}
+1273.6.1={owner=LIT controller=LIT add_core=LIT remove_core=LIP religion=catholic discovered_by=LIT}
+1550.1.1={fort2=yes discovered_by=RUS}
+1563.2.15={controller=RUS} # Captured by Ivan the Terrible, during the Livonian war
+1569.7.1={owner=POL controller=POL add_core=POL} # Union of Lublin
+1623.1.1={revolt_risk=4} # Iosafat Kuntsevich overthrown and drowned
+1624.1.1={revolt_risk=0}
+1772.8.5={add_core=RUS owner=RUS controller=RUS remove_core=POL} # First partition of Poland
+1794.3.24={revolt_risk=5} # Kosciuszko uprising, minimize the Russian influence
+1794.11.16={revolt_risk=0}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1918.3.25={owner=BRS controller=BRS add_core=BRS culture=byelorussian} # short independence of Belarus
+1918.9.1={owner=SOV controller=SOV}
+1920.1.1={owner=PON controller=PON add_core=PON} # to Poland after Polish-Sovjet War
+1939.9.21={owner=SOV controller=SOV add_core=SOV} # annexed by Stalin
+1941.12.1={owner=NAZ controller=NAZ}
+1944.12.1={owner=SOV controller=SOV}
+1991.9.18={owner=BRS controller=BRS remove_core=SOV} # final independence of Belarus

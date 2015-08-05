@@ -1,0 +1,43 @@
+owner=GEA
+controller=GEA
+add_core=GEA
+culture=gerrha
+religion=shamanism
+capital="Qatif"
+trade_goods=fish
+hre=no
+base_tax=3
+manpower=1
+citysize=1200
+fort1=yes
+discovered_by=PHT
+discovered_by=PER
+discovered_by=GEA
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=HEM
+discovered_by=QAT
+discovered_by=HIM
+discovered_by=SEB
+
+260.6.1={owner=LKH controller=LKH add_core=LKH culture=lakhmidian religion=cophtic}
+350.6.1={owner=PER controller=PER add_core=PER}
+417.6.1={religion=nestorian}
+630.6.1={discovered_by=muslim}
+632.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni remove_core=GEA}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1171.6.1={owner=ALH controller=ALH add_core=ALH culture=bedouin_arabic  remove_core=ABB}
+1450.1.1={citysize=1450}
+1500.1.1={citysize=1557}
+1600.1.1={citysize=3520}
+1640.1.1={owner=TUR	controller=TUR add_core=TUR}
+1650.1.1={citysize=4200}
+1700.1.1={citysize=4967}
+1725.1.1={owner=ALH controller=ALH remove_core=TUR}
+1750.1.1={citysize=5520}
+1795.1.1={owner=NAJ controller=NAJ add_core=NAJ}
+1800.1.1={citysize=6300}
+1818.9.9={owner=TUR	controller=TUR add_core=TUR} # The end of the Saudi State
+1902.1.1={religion=wahhabi owner=SAB controller=SAB add_core=SAB remove_core=TUR} # unknown date
+1919.1.1={trade_goods=petrol}

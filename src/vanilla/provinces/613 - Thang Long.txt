@@ -1,0 +1,57 @@
+#613 - Thang Long
+
+owner = DAI
+controller = DAI
+culture = vietnamese
+religion = buddhism
+capital = "Hanoi"
+trade_goods = naval_supplies
+hre = no
+base_tax = 11
+manpower = 6
+citysize = 14000
+add_core = DAI
+discovered_by = DAI
+discovered_by = chinese
+discovered_by = muslim
+discovered_by = ottoman
+
+1413.1.1 = {	owner = MNG
+		revolt = { type = nationalist_rebels size = 2 }
+		controller = REB
+		add_core = MNG
+	   } # Vietnam is invaded by Chinese troops after the Tran dynasty is overthrowned
+1427.1.1 = {	revolt = {}
+		owner = DAI
+		controller = DAI
+		remove_core = MNG
+	   } # The Lê Dynasty
+1450.1.1 = { citysize = 16540 }
+1500.1.1 = { citysize = 18700 }
+1509.1.1 = { revolt = { type = noble_rebels size = 1 } controller = REB } # Nobles' rebellion
+1510.1.1 = { revolt = {} controller = DAI }
+1550.1.1 = { citysize = 21400 }
+1558.1.1 = {	owner = TOK
+		controller = TOK
+		add_core = TOK
+		remove_core = DAI
+	   } # The kingdom is divided between the Nguyens & the Trinh line
+1600.1.1 = { citysize = 22870 }
+1650.1.1 = { citysize = 23550 }
+1700.1.1 = { citysize = 25100 }
+1730.1.1 = { revolt_risk = 5 } # Peasant revolt
+1731.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 27650 }
+1786.1.1 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # The Trinh dynasty is overthrown by Tay Son rebells
+1788.1.1 = {	revolt = {}
+		owner = ANN
+		controller = ANN
+		add_core = ANN
+		remove_core = TOK
+	   } # The Tay-Son take over
+1800.1.1 = { citysize = 28635 }
+1802.1.1 = {	owner = DAI
+		controller = DAI
+		add_core = DAI
+		remove_core = ANN
+	   } # The Nguyen dynasty defeats the Tay Sons

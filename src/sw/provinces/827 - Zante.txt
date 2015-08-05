@@ -1,0 +1,43 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Argostoli"
+trade_goods=fish
+hre=no
+base_tax=3
+manpower=1
+citysize=1000
+fort1=yes
+discovered_by=PER
+discovered_by=PHT
+discovered_by=RME
+discovered_by=RMP
+discovered_by=BYZ
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+630.6.1={discovered_by=muslim}
+843.6.1={discovered_by=latin}
+1081.10.18={owner=NAP controller=NAP}
+1085.6.1={owner=BYZ controller=BYZ}
+1185.7.20={owner=SIC controller=SIC}
+1185.9.7={owner=BYZ controller=BYZ}
+1204.4.12={owner=VEN controller=VEN add_core=VEN}
+1479.1.1={owner=TUR controller=TUR add_core=TUR}
+1500.4.4={owner=VEN controller=VEN}
+1650.1.1={culture=neo_greek}
+1690.1.1={base_tax=1} #The Decentralizing Effect of the Provincial System
+1716.1.1={tax_assessor=yes} # Revival of commerce, agriculture/trade
+1750.1.1={citysize=5000 add_core=GRE}
+1797.4.1={owner=RFR controller=RFR remove_core=VEN}
+1799.1.1={owner=TUR controller=TUR add_core=TUR}
+1807.5.1={owner=RUS controller=RUS}
+1809.4.1={owner=RFR controller=RFR}
+1815.5.1={owner=GBR controller=GBR}  
+1864.5.21={controller=GRE owner=GRE remove_core=TUR} # independence of Greece
+1941.4.23={owner=ITA controller=ITA} # occupied by Italy
+1944.1.1={owner=GRE controller=GRE} # Italians leave Greece

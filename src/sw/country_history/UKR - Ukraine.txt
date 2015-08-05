@@ -1,0 +1,80 @@
+government=tribal_federation
+aristocracy_plutocracy=-2
+centralization_decentralization=4
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-3
+technology_group=eastern
+religion=orthodox
+primary_culture=ruthenian
+capital=958	# Kiev
+
+1917.1.1={ government=constitutional_republic }
+
+1917.1.2={
+	monarch={
+		name="Mychajlo Serhijovyc Hruševskyj"
+		adm=5
+		dip=6
+		mil=6
+	}
+}
+
+1918.4.29={
+	monarch={
+		name="Pavlo Skoropads'kyj"
+		adm=5
+		dip=6
+		mil=6
+	}
+}
+
+1918.11.13={
+	monarch={
+		name="Volodymyr Vynnycenko"
+		adm=5
+		dip=6
+		mil=6
+	}
+}
+
+1919.2.11={
+	monarch={
+		name="Symon Vasylovyc Petljura"
+		adm=5
+		dip=6
+		mil=6
+	}
+}
+
+1950.1.1={religion=religious_tolerance}
+
+1991.1.1={
+	monarch={
+		name="Leonid Makarovyc Kravcuk"
+		adm=5
+		dip=6
+		mil=6
+	}
+}
+
+1994.7.20={
+	monarch={
+		name="Leonid Danylovyc Kucma"
+		adm=5
+		dip=4
+		mil=6
+	}
+}
+
+2005.1.23={
+	monarch={
+		name="Viktor Andrijovyc Jušcenko"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

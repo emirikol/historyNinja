@@ -1,0 +1,41 @@
+owner=PAH
+controller=PAH
+add_core=PAH
+culture=pahlavi
+religion=zoro
+capital="Kandahar"
+trade_goods=wool
+hre=no
+base_tax=3
+manpower=3
+citysize=4237
+fort1=yes
+discovered_by=PHT
+discovered_by=PER
+discovered_by=PAH
+discovered_by=indian
+discovered_by=KUS
+
+87.4.2={owner=KUS controller=KUS add_core=KUS}
+224.6.1={owner=PER controller=PER add_core=PER culture=east_persian remove_core=PHT}
+630.6.1={discovered_by=muslim}
+650.6.1={religion=shiite}
+700.1.1={owner=ACA controller=ACA add_core=ACA religion=sunni remove_core=PER}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+963.6.1={owner=GHZ controller=GHZ add_core=GHZ culture=ghaznavian religion=sunni remove_core=ABB}
+1156.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=GHZ culture=khwarezm}
+1256.6.1={owner=IKH controller=IKH add_core=IKH remove_core=KHA remove_core=KWZ}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH remove_core=GHZ add_core=BAL culture=baluchi}
+1450.1.1={citysize=4750}
+1500.1.1={citysize=5044}
+1510.1.1={owner=PER	controller=PER add_core=PER	remove_core=TIM} # Conquered by the Safavids
+1550.1.1={citysize=6437}
+1600.1.1={citysize=7350 discovered_by=TUR}
+1650.1.1={culture=persian}
+1700.1.1={citysize=8450}
+1704.1.1={revolt_risk=5} # Afghanian revolts
+1708.1.1={revolt_risk=8} # Mir Wais rebelled against Persian rule
+1736.1.1={revolt_risk=0} # Persia reasserts control over Qandahar
+1747.6.1={owner=DUR	controller=DUR add_core=DUR remove_core=PER culture=pashtun} # Ahmad Shah established the Durrani empire
+1850.1.1={fort2=yes}
+1879.1.1={owner=AFG controller=AFG add_core=AFG remove_core=DUR}

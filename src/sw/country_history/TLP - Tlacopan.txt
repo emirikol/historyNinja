@@ -1,0 +1,32 @@
+government=tribal_despotism
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=5
+mercantilism_freetrade=-5
+offensive_defensive=-5
+land_naval=-5
+quality_quantity=5
+serfdom_freesubjects=-5
+primary_culture=tepanecs
+historical_friend=AZT
+historical_friend=TXC
+religion=teotl_azt
+technology_group=new_world
+capital=2180
+
+1399.1.1={
+	monarch={
+		name="Totoquihuaztli"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+1469.1.1={
+	monarch={
+		name="Chimalpopoca"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

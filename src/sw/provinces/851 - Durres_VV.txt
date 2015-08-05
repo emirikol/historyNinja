@@ -1,0 +1,52 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=illyrian
+religion=groman
+capital="Epidamnus"
+trade_goods=wool
+hre=no
+base_tax=3
+manpower=1
+citysize=6000
+fort1=yes
+discovered_by=PER
+discovered_by=PHT
+discovered_by=RME
+discovered_by=RMP
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+400.6.1={capital="Dyrrhachion"}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+842.6.1={owner=BGK controller=BGK add_core=BGK remove_core=BYZ religion=tangra culture=bulgarian capital="Drach"}
+843.6.1={discovered_by=latin}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+998.6.1={owner=BYZ controller=BYZ culture=greek capital="Dyrrhachion"}
+1204.4.12={owner=VEN controller=VEN capital="Durazzo"}
+1242.3.1={owner=NII controller=NII capital="Dyrrhachion"}
+1261.12.23={owner=BIZ controller=BIZ add_core=BIZ remove_core=NII remove_core=BYZ remove_core=EPI}
+1300.6.1={culture=albanian}
+1330.9.8={owner=SER controller=SER}
+1389.1.1={owner=KAS controller=KAS add_core=KAS capital="Durres"}
+1443.3.4={owner=LOL controller=LOL add_core=LOL remove_core=KAS} # Skanderbeg's rebellion. The League of Lezhe
+1450.1.1={citysize=7300}
+1453.5.29={remove_core=BIZ}
+1478.6.16={owner=TUR controller=TUR remove_core=LOL add_core=ALB capital="Diraç"}
+1481.1.1={remove_core=NAP}
+1500.1.1={citysize=10254}
+1520.1.1={religion=sunni} # Predominant religion under Turkish rule
+1555.1.1={revolt_risk=5} # General discontent against the Janissaries' dominance
+1556.1.1={revolt_risk=0 marketplace=yes}
+1687.1.1={revolt_risk=6} # Christian counteroffensive against the Ottomans
+1690.1.1={revolt_risk=0}
+1700.1.1={citysize=4000}
+1750.1.1={citysize=8900}
+1788.1.1={fort2=yes} # Ali Pasha made it a stronghold
+1797.1.1={revolt={type=revolutionary_rebels size=1} controller=REB} # Suliot uprising
+1803.1.1={revolt={} controller=TUR}
+1900.1.1={add_core=ALB}
+1912.11.28={remove_core=TUR controller=ALB owner=ALB capital="Durres"} # independence of Albania
+1939.3.20={owner=ITA controller=ITA capital="Durazzo"} # occupied by Italy
+1944.11.29={owner=ALB controller=ALB capital="Durres"}

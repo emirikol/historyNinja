@@ -1,0 +1,54 @@
+government=constitutional_republic
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=1
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-5
+quality_quantity=2
+serfdom_freesubjects=-5
+technology_group=african
+religion=animism
+primary_culture=yorumba
+capital=1914
+
+1950.1.1={religion=religious_tolerance}
+
+1960.4.27={
+	monarch={
+		name="Sylvanus  Olympio"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+1963.1.16={
+	monarch={
+		name="Nicolas Grunitzky"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+1967.1.14={ government=military_dictatorship
+	monarch={
+		name="Étienne Gnassingbé Eyadéma"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+
+1991.8.27={ government=constitutional_republic }
+
+2005.2.5={
+	monarch={
+		name="Faure Gnassingbé"
+		adm=4
+		dip=5
+		mil=4
+	}
+}

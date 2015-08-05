@@ -1,0 +1,56 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 156 255 137 }
+
+historical_ideas={
+	national_conscripts
+	merchant_adventures
+	shrewd_commerce_practise
+	cabinet
+	church_attendance_duty
+}
+
+historical_units={
+	
+	south_american_spearmen
+	south_american_warfare
+	inca_mountain_warfare
+	south_american_gunpowder_warfare
+	westernized_south_american
+	peruvian_guerilla_warfare
+}
+
+leader_names={
+	Yaguachi Guangala Jipijapa 
+	Olmedo Pichincha Paján Atacames 
+	Naranjal Guayaquil Guayas Jaramijó 
+	Guancavilcas Zacachum Chone 
+	Jama Junín Manta 
+	Tosagua Muisne Balao Nobol
+}
+
+monarch_names={
+		"Yaguachi #0"=40 
+		"Guangala #0"=40 
+		"Jipijapa #0"=40 
+		"Olmedo #0"=40 
+		"Pichincha #0"=40 
+		"Paján #0"=40 
+		"Atacames #0"=40 
+		"Naranjal #0"=40 
+		"Guayaquil #0"=40 
+		"Guayas #0"=40 
+		"Jaramijó #0"=40 
+		"Jama #0"=40 
+		"Junín #0"=40 
+		"Manta #0"=40 
+		"Tosagua #0"=40 
+		"Balao #0"=40 
+		"Nobol #0"=40  
+    }
+
+ship_names={
+	Guancavilcas Zacachum Valdivia Chone Jama Junín Manta Tosagua Muisne Quinindé  Balao Daule Nobol Samborondón 
+}

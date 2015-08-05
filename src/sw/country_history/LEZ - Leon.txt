@@ -1,0 +1,471 @@
+government=feudal_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=0
+innovative_narrowminded=2
+mercantilism_freetrade=-1
+offensive_defensive=2
+land_naval=0
+quality_quantity=-1
+serfdom_freesubjects=1
+primary_culture=castillian
+add_accepted_culture=andalucian
+add_accepted_culture=sicilian
+religion=early
+technology_group=e_latin
+historical_friend=POR
+historical_friend=CAS
+historical_friend=ARA
+historical_friend=BVR
+historical_friend=GAL
+historical_friend=AUT
+capital=475 
+
+
+717.1.10={
+	monarch={
+		name="Pelagius"
+		dynasty="Asturia"
+		adm=6
+		dip=5
+		mil=5}}
+
+737.5.3={
+	monarch={
+		name="Favila"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+739.5.3={
+	monarch={
+		name="Alfonso I"
+		dynasty="Asturia"
+		adm=4
+		dip=5
+		mil=5}}
+
+757.5.3={
+	monarch={
+		name="Fruela I"
+		dynasty="Asturia"
+		adm=4
+		dip=4
+		mil=5}}
+
+768.5.3={
+	monarch={
+		name="Aurelius"
+		dynasty="Asturia"
+		adm=4
+		dip=5
+		mil=5}}
+
+774.5.3={
+	monarch={
+		name="Silo"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+783.5.3={
+	monarch={
+		name="Mauregatus"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+788.5.3={
+	monarch={
+		name="Bermudo I"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+791.5.3={
+	monarch={
+		name="Alfonso II"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+842.5.3={
+	monarch={
+		name="Ramiro I"
+		dynasty="Ramiro"
+		adm=5
+		dip=5
+		mil=5}
+religion=catholic technology_group=latin}
+		
+850.5.3={
+	monarch={
+		name="Ordono I"
+		dynasty="Ramiro"
+		adm=5
+		dip=5
+		mil=5}}
+
+866.5.3={
+	monarch={
+		name="Alfonso III"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+910.5.3={
+	monarch={
+		name="Fruela II"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}
+capital=477}
+
+910.12.3={
+	monarch={
+		name="Garcia I"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+912.5.3={
+	monarch={
+		name="Ordoño II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+924.5.3={
+	monarch={
+		name="Fruela II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+925.5.3={
+	monarch={
+		name="Alfonso IV"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+931.5.3={
+	monarch={
+		name="Ramiro II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+951.5.3={
+	monarch={
+		name="Ordono III"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+956.5.3={
+	monarch={
+		name="Sancho I"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+958.5.3={
+	monarch={
+		name="Ordono IV"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+960.5.3={
+	monarch={
+		name="Sancho I"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+966.5.3={
+	monarch={
+		name="Ramiro III"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+984.5.3={
+	monarch={
+		name="Bermudo II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+999.5.3={
+	monarch={
+		name="Alfonso V"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+1027.5.3={
+	monarch={
+		name="Bermudo III"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}	
+
+1037.5.3={
+	monarch={
+		name="Ferdinand I"
+		dynasty="Jimenez"
+		adm=5
+		dip=5
+		mil=5}}	
+
+1065.5.3={
+	monarch={
+		name="Alfonso VI"
+		dynasty="Jimenez"
+		adm=5
+		dip=5
+		mil=5}}	
+
+1072.1.3={
+	monarch={
+		name="Sancho II"
+		dynasty="Jimenez"
+		adm=5
+		dip=5
+		mil=5}}	
+
+1072.10.7={
+	monarch={
+		name="Alfonso VI"
+		dynasty="Jimenez"
+		adm=5
+		dip=5
+		mil=5}}	
+
+1109.5.7={
+	monarch={
+		name="Urraca"
+		dynasty="Jimenez"
+		adm=5
+		dip=5
+		mil=3
+		female=yes}}	
+
+1135.5.7={
+	monarch={
+		name="Alfonso VII"
+		dynasty="Burgundy"
+		adm=6
+		dip=6
+		mil=6}}
+
+1157.5.7={
+	monarch={
+		name="Ferdinand II"
+		dynasty="Burgundy"
+		adm=5
+		dip=6
+		mil=6}}
+
+1188.5.7={
+	monarch={
+		name="Alfonso IX"
+		dynasty="Burgundy"
+		adm=5
+		dip=6
+		mil=6}}
+
+1230.5.7={
+	monarch={
+		name="Ferdinand III the Saint"
+		dynasty="Burgundy"
+		adm=6
+		dip=6
+		mil=6}}
+
+1252.5.7={
+	monarch={
+		name="Alfonso X the Learned"
+		dynasty="Burgundy"
+		adm=7
+		dip=7
+		mil=6}}
+
+1284.5.7={
+	monarch={
+		name="Sancho IV the Brave"
+		dynasty="Burgundy"
+		adm=6
+		dip=5
+		mil=7}}
+
+1295.5.7={
+	monarch={
+		name="Ferdinand IV the Summoned"
+		dynasty="Burgundy"
+		adm=5
+		dip=5
+		mil=5}}
+
+1312.5.7={
+	monarch={
+		name="Alfonso XI the Just"
+		dynasty="Burgundy"
+		adm=5
+		dip=5
+		mil=5}}
+
+1350.5.7={
+	monarch={
+		name="Peter the Cruel"
+		dynasty="Burgundy"
+		adm=5
+		dip=5
+		mil=5}}
+
+1369.5.7={
+	monarch={
+		name="Enrique II the Bastard"
+		dynasty="de Trastamara"
+		adm=5
+		dip=5
+		mil=5}}
+
+1379.5.7={
+	monarch={
+		name="Juan I"
+		dynasty="de Trastamara"
+		adm=5
+		dip=5
+		mil=5}}
+		
+1390.10.9={
+	monarch={
+		name="Enrique III"
+		dynasty="de Trastamara"
+		adm=6
+		dip=5
+		mil=5}}
+
+1406.12.26={
+	monarch={
+		name="Juan II"
+		dynasty="de Trastamara"
+		adm=4
+		dip=4
+		mil=5
+	}
+}
+
+1422.1.1={ leader={	name="Álvaro de Luna"	type=general	rank=1	fire=2	shock=2	manuever=3	siege=0	death_date=1453.6.2 } }
+
+1450.1.1={ decision=act_of_uniformity decision=blasphemy_act }
+
+1454.7.20={
+	monarch={
+		name="Enrique IV"
+		dynasty="de Trastamara"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1474.12.11={ capital=215 } # Castilla La Vieja
+
+1474.12.11={
+	monarch={
+		name="Isabel I"
+		dynasty="de Trastamara"
+		adm=8
+		dip=9
+		mil=6
+		female=yes
+	}
+}
+
+1491.1.1={ leader={	name="Fadrique Álv. de Toledo"	type=general	rank=1	fire=3	shock=3	manuever=4	siege=0	death_date=1516.1.23 } }
+
+1492.1.1={ leader={	name="Cristóbal Colón"       	type=explorer	rank=7	fire=2	shock=2	manuever=6	siege=0	death_date=1506.5.20 } }
+
+1493.1.1={ decision=colonial_expansion }
+
+1495.1.1={ leader={	name="El Gran Capitán"       	type=general	rank=1	fire=6	shock=5	manuever=5	siege=0	death_date=1515.12.2 } }
+
+1499.1.1={ leader={	name="Vicente Yáñez Pinzón"	type=explorer	rank=8	fire=2	shock=3	manuever=6	siege=0	death_date=1516.1.23 } }
+
+1499.1.1={ leader={	name="Alonso de Ojeda"       	type=conquistador	rank=7	fire=2	shock=3	manuever=3	siege=0	death_date=1515.1.1 } }
+
+1499.1.1={ leader={	name="Amerigo Vespucci"      	type=explorer	rank=11	fire=2	shock=2	manuever=4	siege=0	death_date=1500.12.30 } }
+
+1499.1.1={ leader={	name="Juan de la Cosa"       	type=explorer	rank=9	fire=1	shock=2	manuever=4	siege=0	death_date=1510.2.28 } }
+
+1503.1.1={ decision=house_of_trade }
+
+1504.11.26={
+	monarch={
+		name="Juana I"
+		dynasty="de Trastamara"
+		adm=3
+		dip=3
+		mil=3
+		female=yes
+	}
+}
+
+1504.12.1={
+	monarch={
+		name="Felipe I"
+		dynasty="de Trastamara"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1506.1.1={ leader={	name="Juan Díaz de Solís"    	type=explorer		rank=9	fire=3	shock=2	manuever=5	siege=0	death_date=1516.1.23 } }
+
+1506.9.25={ capital=219 } # Toledo
+
+1506.9.25={
+	monarch={
+		name="Fernando V"
+		dynasty="de Trastamara"
+		adm=7
+		dip=9
+		mil=8
+	}
+}
+
+1509.1.1={ leader={	name="Pánfilo de Narváez"    	type=conquistador	rank=6	fire=2	shock=2	manuever=3	siege=0	death_date=1516.1.23 } }
+
+1510.1.1={ leader={	name="Vasco Núñez de Balboa"	type=conquistador	rank=7	fire=3	shock=3	manuever=4	siege=0	death_date=1516.1.23 } }
+
+1512.3.4={ leader={	name="Juan Ponce de León"	type=conquistador	rank=11	fire=2	shock=2	manuever=3	siege=0	death_date=1516.1.23 } }
+
+1516.1.23={ government=despotic_monarchy }
+
+1724.1.20={ government=administrative_monarchy }
+
+1759.8.12={ government=absolute_monarchy }

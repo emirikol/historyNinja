@@ -1,0 +1,45 @@
+owner=ELB
+controller=ELB
+add_core=ELB
+culture=elbani
+religion=droid
+hre=no
+base_tax=2
+trade_goods=wood
+manpower=1
+capital="Birr"
+citysize=1800
+fort1=yes
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+356.6.1={owner=BIR controller=BIR add_core=BIR culture=brigantes}
+600.6.1={owner=LEI controller=LEI culture=irish religion=early add_core=LEI remove_core=ELB}
+843.1.1={religion=catholic discovered_by=latin discovered_by=eastern discovered_by=muslim remove_core=BIR}
+1168.6.1={owner=NRM controller=NRM}
+1348.1.1={owner=LEI controller=LEI add_core=LEI}
+1450.1.1={citysize=2000}
+1600.1.1={citysize=2500}
+1632.1.1={owner=ENG controller=ENG add_core=ENG} # Succession of the Protestant James, 1st Duke of Ormond
+1642.1.1={revolt={type=nationalist_rebels size=0} controller=REB} # Estimated
+1642.6.7={revolt={} owner=IRE controller=IRE} # Confederation of Kilkenny
+1650.3.28={controller=ENG} # Capture of Kilkenny
+1652.4.1={owner=ENG} # End of the Irish Confederates
+1655.1.1={fort2=yes}
+1675.1.1={courthouse=yes} # Estimated
+1689.3.12={revolt={type=nationalist_rebels size=2} controller=REB} # James II Lands in Ireland
+1690.8.1={revolt={} controller=ENG} # Estimated
+1700.1.1={citysize=5000 marketplace=yes} # Marketplace Estimated
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1921.12.6={remove_core=GBR owner=IRF controller=IRF add_core=IRF} # Dominion status

@@ -1,0 +1,15 @@
+government=administrative_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=5
+innovative_narrowminded=3
+mercantilism_freetrade=-2
+offensive_defensive=-3
+land_naval=-2
+quality_quantity=-1
+serfdom_freesubjects=-5
+primary_culture=latvian
+religion=protestant
+technology_group=eastern
+capital=354	# Riga
+
+1950.1.1={religion=religious_tolerance}

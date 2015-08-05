@@ -1,0 +1,15 @@
+government=administrative_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+technology_group=african
+religion=sunni
+primary_culture=somali
+capital=1875	# Djibouti
+
+1950.1.1={religion=religious_tolerance}

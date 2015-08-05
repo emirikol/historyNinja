@@ -1,0 +1,24 @@
+owner=CBC
+controller=CBC
+add_core=CBC
+culture=chibchan
+religion=ind_pagan
+capital="Cucuta"
+trade_goods=coffee
+citysize=1000
+hre=no
+base_tax=2
+manpower=2
+discovered_by=CBC
+discovered_by=QTO
+discovered_by=INC
+
+1539.1.1={discovered_by=SPA	owner=SPA controller=SPA citysize=444 culture=castillian religion=catholic}
+1564.1.1={add_core=SPA}
+1600.1.1={citysize=1091 fort1=yes}
+1650.1.1={citysize=1500}
+1700.1.1={citysize=2200}
+1750.1.1={citysize=3420 add_core=COL}
+1800.1.1={citysize=4100}
+1810.7.20={owner=COL controller=COL} # Colombia declares independence
+1819.8.7={remove_core=SPA} # Colombia's independence is recongnized

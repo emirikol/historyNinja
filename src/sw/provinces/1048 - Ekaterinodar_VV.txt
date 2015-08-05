@@ -1,0 +1,52 @@
+owner=SIR
+controller=SIR
+add_core=SIR
+culture=sarmathian
+religion=groman
+hre=no
+base_tax=3
+trade_goods=wool
+manpower=1
+capital="Kouban"
+fort1=yes
+citysize=4007
+discovered_by=GHT
+discovered_by=SRM
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PER
+discovered_by=PHT
+discovered_by=PNO
+discovered_by=BAO
+discovered_by=AOS
+discovered_by=SIR
+discovered_by=PHU
+
+260.6.1={manpower=2 culture=alanians religion=shamanism}
+261.6.1={manpower=3 owner=AOS controller=AOS remove_core=SIR}
+265.6.1={manpower=2 owner=HNU controller=HNU culture=huns religion=tangra}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+372.6.1={manpower=1 owner=XXX controller=XXX fort1=no}
+562.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism fort1=yes}
+630.6.1={discovered_by=muslim manpower=2 owner=GBG controller=GBG add_core=GBG discovered_by=BGK
+culture=proto_bulgarian religion=tangra remove_core=AVE}
+665.6.1={manpower=1 owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism}
+820.4.1={religion=jewish}
+843.6.1={discovered_by=latin}
+892.1.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg remove_core=KHZ religion=tangra}
+1015.1.1={manpower=2 owner=CUM controller=CUM add_core=CUM culture=cumanian remove_core=PEC}
+1236.6.1={manpower=1 owner=KHA controller=KHA remove_core=CUM culture=tartar}
+1242.6.1={owner=GOL controller=GOL religion=sunni}
+1441.1.1={manpower=2 owner=CRI	controller=CRI remove_core=GOL} # The Crimean Khanate
+1500.1.1={citysize=4714}
+1550.1.1={citysize=5546}
+1600.1.1={citysize=6525}
+1650.1.1={citysize=7677}
+1700.1.1={citysize=9031}
+1777.1.1={fort2=yes}
+1783.1.1={capital="Ekaterinodar" owner=RUS controller=RUS add_core=RUS} # Annexed by Russia
+1874.1.1={culture=ruthenian religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1942.11.1={owner=NAZ controller=NAZ}
+1943.10.1={owner=SOV controller=SOV}
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

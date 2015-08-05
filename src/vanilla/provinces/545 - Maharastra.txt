@@ -1,0 +1,42 @@
+#545 - Maharastra
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Satara"
+trade_goods = spices
+hre = no
+base_tax = 12
+manpower = 6
+citysize = 59020
+fort1 = yes
+add_core = BAH
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1  = { citysize = 63280 }
+1490.1.1  = { add_core = BAS }
+1498.1.1  = { discovered_by = POR }
+1500.1.1  = { citysize = 67000 }
+1518.1.1  = {	owner = BAS
+		controller = BAS
+		remove_core = BAH
+	    } # The Breakup of the Bahmani sultanate
+1550.1.1  = { citysize = 71340 }
+1600.1.1  = { citysize = 75675 }
+1633.7.27 = {	owner = MUG
+		controller = MUG
+		add_core = MUG
+	    } # Conquered by Shah Jahan
+1650.1.1  = { citysize = 80100 }
+1674.1.1  = {	owner = MAR
+		controller = MAR
+		add_core = MAR
+		remove_core = MUG
+	    } # The Marathan Empire
+1680.1.1  = { fort2 = yes }
+1700.1.1  = { citysize = 85340 fort3 = yes }
+1750.1.1  = { citysize = 90346 }
+1800.1.1  = { citysize = 94500 } # Not under direct British rule until 1848

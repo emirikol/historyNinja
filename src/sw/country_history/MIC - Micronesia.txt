@@ -1,0 +1,63 @@
+government=administrative_republic
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=polynesian
+religion=religious_tolerance
+technology_group=latin
+capital=610
+
+
+1986.11.3={
+monarch={
+name="Tosiwo Nakayama"
+adm=5
+dip=5
+mil=6}}
+
+1987.5.11={
+monarch={
+name="John Haglelgam"
+adm=5
+dip=5
+mil=6}}
+
+1991.5.11={
+monarch={
+name="Bailey Olter"
+adm=5
+dip=5
+mil=6}}
+
+1996.11.8={
+monarch={
+name="Jacob Nena"
+adm=5
+dip=5
+mil=6}}
+
+1999.5.11={
+monarch={
+name="Leo Falcam"
+adm=5
+dip=5
+mil=6}}
+
+2003.5.11={
+monarch={
+name="Joseph J. Urusemal"
+adm=5
+dip=5
+mil=6}}
+
+2007.5.11={
+monarch={
+name="Manny Mori"
+adm=5
+dip=5
+mil=6}}

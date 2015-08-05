@@ -1,0 +1,80 @@
+government=constitutional_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=0
+land_naval=-3
+quality_quantity=0
+serfdom_freesubjects=-3
+technology_group=latin
+primary_culture=prussian
+add_accepted_culture=east_franconian
+add_accepted_culture=south_franconian
+add_accepted_culture=upper_palatinian
+add_accepted_culture=south_bavarian
+add_accepted_culture=danube_bavarian
+add_accepted_culture=rhine_alemannian
+add_accepted_culture=high_alemannian
+add_accepted_culture=sleswigish
+add_accepted_culture=holsteinish
+add_accepted_culture=meklenburgian
+add_accepted_culture=pommeranian
+add_accepted_culture=markish
+add_accepted_culture=lower_saxon
+add_accepted_culture=eastfalian
+add_accepted_culture=westfalian
+add_accepted_culture=lower_rhenish
+add_accepted_culture=prussian
+add_accepted_culture=east_frisian
+add_accepted_culture=hollandic
+add_accepted_culture=zealandic
+add_accepted_culture=east_flemish
+add_accepted_culture=brabantian
+add_accepted_culture=limburgian
+add_accepted_culture=groningian
+add_accepted_culture=drents
+add_accepted_culture=west_frisian
+add_accepted_culture=frisian
+add_accepted_culture=guelderish
+add_accepted_culture=hessian
+add_accepted_culture=ripuarian
+add_accepted_culture=moselle_franconian
+add_accepted_culture=palatinian
+add_accepted_culture=luxembourgish
+add_accepted_culture=lorrain
+add_accepted_culture=high_prussian
+add_accepted_culture=lower_silesian
+add_accepted_culture=thuringian
+add_accepted_culture=upper_saxon
+religion=catholic
+capital=549	# Berlin
+
+1750.1.1={ government=constitutional_monarchy }
+
+1871.1.1={
+	monarch={
+		name="Wilhelm I"
+		adm=5
+		dip=6
+		mil=5
+	}
+}
+
+1888.1.1={
+	monarch={
+		name="Friedrich III"
+		adm=5
+		dip=6
+		mil=5
+	}
+}
+
+1888.7.1={
+	monarch={
+		name="Wilhelm II"
+		adm=5
+		dip=6
+		mil=5
+	}
+}

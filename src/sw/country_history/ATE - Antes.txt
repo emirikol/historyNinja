@@ -1,0 +1,23 @@
+government=tribal_democracy
+aristocracy_plutocracy=3
+centralization_decentralization=3
+innovative_narrowminded=3
+mercantilism_freetrade=3
+offensive_defensive=2
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=3
+technology_group=slavic
+primary_culture=proto_slavic
+religion=perun
+capital=280	# Kiev
+
+
+400.1.1={
+	monarch={
+		name="Veles"
+		adm=6
+		dip=6
+		mil=9}}
+
+900.1.1={technology_group=eastern}

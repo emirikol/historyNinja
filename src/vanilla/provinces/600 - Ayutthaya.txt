@@ -1,0 +1,30 @@
+#600 - Ayutthaya
+
+owner = AYU 
+controller = AYU
+culture = central_thai
+religion = buddhism
+capital = "Ayutthaya"
+trade_goods = grain
+hre = no
+base_tax = 11
+manpower = 6
+citysize = 70350
+add_core = AYU
+fort1 = yes
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 76500 }
+1500.1.1 = { citysize = 82000 }
+1550.1.1 = { citysize = 96500 }
+1564.2.1 = { add_core = TAU } # Burmese vassal
+1584.5.3 = { remove_core = TAU } 
+1600.1.1 = { citysize = 81400 marketplace = yes }
+1650.1.1 = { citysize = 40570 } #customs_house = yes
+1700.1.1 = { citysize = 46100 }
+1750.1.1 = { citysize = 49750 }
+1760.1.1 = { citysize = 41222 } # Sacked
+1767.4.1 = { revolt_risk = 7 } # The Ayutthaya kingdom began to crumble
+1774.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 44880 }

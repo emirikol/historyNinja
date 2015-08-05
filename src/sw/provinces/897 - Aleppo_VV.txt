@@ -1,0 +1,51 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=roman
+religion=groman
+capital="Aleppo"
+trade_goods=cloth
+hre=no
+base_tax=3
+manpower=2
+citysize=4500
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=latin
+discovered_by=AKS
+discovered_by=ITU
+discovered_by=CEO
+discovered_by=NHA
+discovered_by=PER
+discovered_by=PHT
+discovered_by=AAR
+
+313.6.1={religion=cophtic owner=RMP controller=RMP add_core=RMP remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1055.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1099.4.1={owner=JER controller=JER add_core=JER}   
+1140.6.1={owner=ABB controller=ABB remove_core=JER add_core=ABB}
+1171.6.1={owner=SAL controller=SAL add_core=SAL remove_core=ABB}
+1250.1.1={owner=MAM controller=MAM add_core=MAM culture=al_suryah_arabic remove_core=SAL}
+1516.1.1={owner=TUR	controller=TUR add_core=TUR} # Part of the Ottoman Empire
+1550.1.1={constable=yes}
+1606.1.1={revolt_risk=5} # Rebellion against the Ottomans
+1607.1.1={revolt_risk=0}
+1658.1.1={revolt_risk=4} # Revolt, Abaza Hasan Pasha
+1659.1.1={revolt_risk=0}
+1775.1.1={revolt_risk=4} # Janissary revolt
+1776.1.1={revolt_risk=0}
+1780.1.1={tax_assessor=yes}
+1784.1.1={revolt_risk=4} # Janissary revolt
+1785.1.1={revolt_risk=2}
+1787.1.1={revolt_risk=0}
+1791.1.1={revolt_risk=5}
+1792.1.1={revolt_risk=0}
+1920.1.1={owner=RFR controller=RFR remove_core=TUR add_core=SYR}
+1940.6.22={owner=GBR controller=GBR}
+1946.4.17={owner=SYR controller=SYR}

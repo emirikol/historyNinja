@@ -1,0 +1,27 @@
+owner=OSA
+controller=OSA
+add_core=OSA
+culture=cherokee
+religion=ind_pagan
+capital="Kansas"
+fort1=yes
+citysize=1000
+trade_goods=copper
+hre=no
+base_tax=2
+manpower=1
+discovered_by=OSA
+discovered_by=CKS
+discovered_by=CAD
+discovered_by=ILL
+
+1684.1.1={discovered_by=FRA} # Nicolas Perrot
+1724.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic citysize=100 remove_core=OSA} # Construction of Fort Orleans
+1749.1.1={add_core=FRA}
+1762.1.1={owner=SPA controller=SPA culture=castillian citysize=400 remove_core=FRA trade_goods=grain} # Treaty of Fontainebleau, secretely ceded to Spain
+1764.1.1={capital="Kansas City"}
+1787.1.1={add_core=SPA}
+1800.1.1={citysize=1500}
+1800.10.1={owner=RFR controller=RFR add_core=RFR culture=cosmopolitan_french remove_core=SPA} # Treaty of San Ildefonso
+1803.4.3={owner=USA controller=USA add_core=USA remove_core=RFR culture=american religion=protestant} # The Louisiana purchase
+1900.1.1={fort2=yes}

@@ -1,0 +1,142 @@
+government=constitutional_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=-1
+land_naval=0
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=khmer
+religion=buddhism
+technology_group=chinese
+capital=1364	# Phnom Penh
+
+1941.4.24={
+	monarch={
+		name="Norodom Sihanouk"
+		adm=5
+		dip=5
+		mil=4
+	}
+}
+
+1950.1.1={religion=religious_tolerance}
+
+1955.3.3={
+	monarch={
+		name="Norodom Suramarit"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1960.4.3={
+	monarch={
+		name="Chuop Hell"
+		adm=5
+		dip=5
+		mil=4
+	}
+}
+
+1960.4.6={
+	monarch={
+		name="Sisowath Monireth"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1960.6.13={
+	monarch={
+		name="Chuop Hell"
+		adm=5
+		dip=5
+		mil=4
+	}
+}
+
+1960.6.20={
+	monarch={
+		name="Norodom Sihanouk"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1970.3.16={
+	monarch={
+		name="Lon Nol"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1970.3.16={ government=administrative_republic}
+
+1972.3.14={ government=constitutional_republic}
+
+1975.4.12={
+	monarch={
+		name="Sak Suthsakan"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1975.4.17={
+	monarch={
+		name="Pol Pot"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1975.4.17={ government=communistic_dictatorship}
+
+1979.1.7={
+	monarch={
+		name="Heng Samrin"
+		adm=4
+		dip=4
+		mil=3
+	}
+}
+
+1979.1.7={ government=socialistic_council_republic}
+
+1985.1.14={
+	monarch={
+		name="Hun Sen"
+		adm=4
+		dip=6
+		mil=4
+	}
+}
+
+1993.5.1={ government=parliamentary_monarchy}
+
+1993.9.21={
+	monarch={
+		name="Norodom Ranariddh"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+1997.7.1={
+	monarch={
+		name="Hun Sen"
+		adm=5
+		dip=6
+		mil=4
+	}
+}

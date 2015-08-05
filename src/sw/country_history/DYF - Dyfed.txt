@@ -1,0 +1,18 @@
+government=duchy
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=2
+mercantilism_freetrade=0
+offensive_defensive=2
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-2
+technology_group=barbarian
+primary_culture=welsh
+religion=early
+capital=241	# Gwynedd
+
+
+650.6.1={technology_group=anglo}
+
+843.6.1={technology_group=latin}

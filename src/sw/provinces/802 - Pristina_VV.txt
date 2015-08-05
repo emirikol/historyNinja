@@ -1,0 +1,43 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=paeonians
+religion=orfi
+capital="Ulpiana"
+trade_goods=stone
+hre=no
+fort1=yes
+base_tax=2
+manpower=1
+citysize=2000
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP}
+590.6.1={culture=moravtzi religion=perun}
+630.6.1={discovered_by=BGK}
+842.1.1={owner=BGK controller=BGK add_core=BGK remove_core=BYZ religion=tangra culture=bulgarian capital="Prishtina"}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+1018.9.1={owner=BYZ controller=BYZ}
+1204.4.12={owner=RAS controller=RAS}
+1206.6.1={owner=BUL controller=BUL add_core=BUL}
+1209.1.1={owner=RAS controller=RAS}
+1218.1.1={owner=BUL controller=BUL}
+1242.3.1={owner=RAS controller=RAS culture=old_serbian}
+1275.6.1={culture=serbian}
+1330.9.8={owner=SER controller=SER add_core=SER remove_core=RAS}
+1410.9.1={owner=SER controller=TUR}
+1410.9.2={owner=TUR controller=TUR}
+1850.6.1={culture=albanian}
+1913.4.1={owner=SER controller=SER remove_core=TUR add_core=RBU culture=bulgarian}
+1919.12.4={owner=YGK controller=YGK add_core=YGK culture=serbian} # Yugoslavia gets independent
+1941.4.17={owner=YGR controller=YGR} # vassal
+1944.1.1={owner=YUG controller=YUG} # Partisans free the area
+1965.6.1={culture=kosovarian}
+2003.1.1={owner=SRR add_core=SRR controller=SRR} # after independence of several federal states, Yugoslavia is named Serbia-Montenegro
+2008.2.17={owner=KOS controller=KOS remove_core=SER remove_core=SRR} # Kosovo declares independence from Serbia

@@ -1,0 +1,15 @@
+culture=patagonian
+religion=ind_pagan
+capital="Puerto Deseado"
+trade_goods=wool
+hre=no
+base_tax=1
+manpower=3
+native_size=8
+native_ferocity=1
+native_hostileness=3
+
+1520.1.1={discovered_by=SPA} # Ferdinand Magellan
+1776.1.1={owner=SPA	controller=SPA add_core=SPA	add_core=LAP culture=castillian	religion=catholic citysize=550} # Incorporated into the viceroyalty of Rio de la Plata
+1816.7.9={citysize=1000 owner=LAP controller=LAP remove_core=SPA fort1=yes} # Argentina is declared independent
+1854.1.1={owner=ARG	controller=ARG remove_core=LAP revolt_risk=0} # Argentina gets a new constitution

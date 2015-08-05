@@ -1,0 +1,44 @@
+#655 - Palawan
+
+culture = filipino
+religion = animism
+capital = "Palawan"
+trade_goods = unknown
+hre = no
+base_tax = 2
+manpower = 2
+native_size = 30
+native_ferocity = 2
+native_hostileness = 9
+
+1473.1.1 = {	discovered_by = BEI
+		owner = BEI
+		controller = BEI
+		add_core = BEI
+		citysize = 3250
+		trade_goods = fish
+	   } # Brunei kingdom, Bolkiah
+1500.1.1 = { citysize = 3988 }
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1550.1.1 = { citysize = 4560 }
+1600.1.1 = { citysize = 5250 }
+1650.1.1 = { citysize = 5895 }
+1700.1.1 = { citysize = 6435 }
+1703.1.1 = {	citysize = 0
+		native_size = 30
+		native_ferocity = 2
+		native_hostileness = 9
+		owner = XXX
+		controller = XXX
+		remove_core = BEI
+		trade_goods = unknown
+	   } # Ceded to Mindanao
+1749.1.1 = {	owner = SPA
+		controller = SPA
+		culture = castillian
+		religion = catholic
+		trade_goods = fish
+	   } # Palawan is ceded to Spain
+1750.1.1 = { citysize = 7000 }
+1774.1.1 = { add_core = SPA }
+1800.1.1 = { citysize = 7250 }

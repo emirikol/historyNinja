@@ -1,0 +1,24 @@
+owner=FUN
+controller=FUN
+add_core=FUN
+culture=funan
+religion=buddhism
+capital="Oudong"
+trade_goods=wood
+hre=no
+base_tax=3
+manpower=3
+citysize=10500
+fort1=yes
+discovered_by=chinese
+discovered_by=indian
+discovered_by=KHE
+discovered_by=FUN
+
+802.6.1={owner=KHM controller=KHM add_core=KHM culture=khmer remove_core=FUN}
+1811.1.1={revolt_risk=5} # The Siamese-Cambodian Rebellion
+1812.1.1={revolt_risk=0}
+1887.1.1={owner=RFR controller=RFR add_core=RFR} # part of the french Indochina
+1940.7.1={owner=JAP controller=JAP} # occupied by Japan
+1945.8.15={owner=RFR controller=RFR}
+1954.7.20={owner=CBD controller=CBD add_core=CBD remove_core=RFR remove_core=KHM}

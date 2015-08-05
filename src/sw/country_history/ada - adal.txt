@@ -1,0 +1,354 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+technology_group=sub_saharan
+religion=sunni
+primary_culture=somali
+historical_friend=ACA
+capital=1211	# Deker, Harer
+
+
+1386.1.1={
+	monarch={
+		name="Sa'ad al-Din"  
+		dynasty="Walashma"	
+		DIP=5
+		MIL=5
+		ADM=3}}
+
+1403.1.1={
+	monarch={
+		name= "Sabr al-Din"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=4
+	}
+}
+
+1422.1.1={
+	monarch={
+		name= "Mansur al-Din"
+		dynasty="Walashma"
+		DIP=4
+		MIL=3
+		ADM=5
+	}
+}
+
+1424.1.1={
+	monarch={
+		name= "Jamal al-Din"
+		dynasty="Walashma"
+		DIP=3
+		MIL=5
+		ADM=5
+	}
+}
+
+1433.1.1={
+	monarch={
+		name= "Badlay ibn Sa'ad"
+		dynasty="Walashma"
+		DIP=5
+		MIL=4
+		ADM=5
+	}
+}
+
+
+1442.1.1={
+	monarch={
+		name= "Mohammed Bin Badlay"
+		dynasty="Walashma"
+		DIP=4
+		MIL=4
+		ADM=4
+	}
+}
+
+1454.1.1={
+	monarch={
+		name= "Ibrahim Bin Mohammed"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1464.1.1={
+	monarch={
+		name= "Ibrahim Fah Nesrudin"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1468.1.1={
+	monarch={
+		name= "Mohamed Bin Azhar"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=4
+	}
+}
+
+1498.1.1={
+	monarch={
+		name= "Mohammed Bin Abubaker"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1499.1.1={
+	monarch={
+		name= "Ibrahim Bin Ahmed"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1500.1.1={
+	monarch={
+		name= "M"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1506.1.1={
+	monarch={
+		name= "Ahmad ibn Ghazi"
+		dynasty="Walashma"
+		DIP=3
+		MIL=8
+		ADM=6
+	}
+}
+
+1543.1.1={
+	monarch={
+		name= "Bat'iah Dël Wanbara"
+		dynasty="Walashma"
+		DIP=5
+		MIL=4
+		ADM=3
+	}
+}
+
+1552.1.1={
+	monarch={
+		name= "Nur"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1567.1.1={
+	monarch={
+		name= "'Uthman"
+		dynasty="Walashma"
+		DIP=3
+		MIL=4
+		ADM=3
+	}
+}
+
+1569.1.1={
+	monarch={
+		name= "Talha I"
+		dynasty="Walashma"
+		DIP=4
+		MIL=3
+		ADM=3
+	}
+}
+
+1571.1.1={
+	monarch={
+		name= "Nasr"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1572.1.1={
+	monarch={
+		name= "Mohammed"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=4
+	}
+}
+
+1577.1.1={
+	monarch={
+		name= "Mohammed Jasa"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1585.1.1={
+	monarch={
+		name= "Sa'ad al-Din"
+		dynasty="Walashma"
+		DIP=3
+		MIL=4
+		ADM=4
+	}
+}
+
+1613.1.1={
+	monarch={
+		name= "Sabir al-Din"
+		dynasty="Walashma"
+		DIP=4
+		MIL=5
+		ADM=4
+	}
+}
+
+1632.1.1={
+	monarch={
+		name= "Sadiq"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1646.1.1={
+	monarch={
+		name= "Malaq Adam"
+		dynasty="Walashma"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1647.1.1={
+	monarch={
+		name= "'Ali"
+		DIP=3
+		MIL=5
+		ADM=3
+	}
+}
+
+1662.1.1={
+	monarch={
+		name= "Hashim"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+# Emires of Harar
+1671.1.1={
+	monarch={
+		name= "Abdallah"
+		DIP=4
+		MIL=3
+		ADM=3
+	}
+}
+
+1700.1.1={
+	monarch={
+		name= "Talha II"
+		DIP=3
+		MIL=4
+		ADM=4
+	}
+}
+
+1721.1.1={
+	monarch={
+		name= "Abu Bakr I"
+		DIP=3
+		MIL=5
+		ADM=4
+	}
+}
+
+1732.1.1={
+	monarch={
+		name= "Khalaf"
+		DIP=3
+		MIL=5
+		ADM=3
+	}
+}
+
+1733.1.1={
+	monarch={
+		name= "Hamid"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1747.1.1={
+	monarch={
+		name= "Yusuf"
+		DIP=4
+		MIL=3
+		ADM=3
+	}
+}
+
+1755.1.1={
+	monarch={
+		name= "Ahmad I"
+		DIP=3
+		MIL=4
+		ADM=5
+	}
+}
+
+1782.1.1={
+	monarch={
+		name= "Mohammed I"
+		DIP=3
+		MIL=3
+		ADM=3
+	}
+}
+
+1794.1.1={
+	monarch={
+		name= "Ahmad II"
+		DIP=3
+		MIL=4
+		ADM=3
+	}
+}

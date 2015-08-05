@@ -1,0 +1,28 @@
+#654 - Visayas
+
+culture = filipino
+religion = animism
+capital = "Visayas"
+trade_goods = unknown
+hre = no
+base_tax = 4
+manpower = 3
+native_size = 30
+native_ferocity = 2
+native_hostileness = 9
+
+1521.1.1  = { discovered_by = SPA } # Ferdinand Magellan 
+1565.4.27 = {	owner = SPA
+		controller = SPA
+		add_core = SPA
+		capital = "San Miguel"
+		religion = catholic
+		culture = castillian
+		citysize = 350
+		trade_goods = spices
+	   }
+1600.1.1 = { citysize = 648 }
+1650.1.1 = { citysize = 1400 }
+1700.1.1 = { citysize = 2555 }
+1750.1.1 = { citysize = 4850 }
+1800.1.1 = { citysize = 9600 }

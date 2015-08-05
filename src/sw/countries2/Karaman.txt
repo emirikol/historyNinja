@@ -1,0 +1,94 @@
+#Country Name: Please see filename.
+
+graphical_culture=muslimgfx
+
+color={ 153  141  117 }
+
+historical_ideas={
+	national_conscripts
+	grand_army
+	glorious_arms
+	espionage
+	military_drill
+	merchant_adventures
+	divine_supremacy
+	battlefield_commisions
+	engineer_corps
+	national_trade_policy
+	cabinet
+	patron_of_art
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	persian_footsoldier
+	
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names={
+	"Ahmad #0"=10
+	"Ibrahim #0"=10
+	"Muhammad #0"=20
+	"'Izz ud-Din Hamza Beg #0"=20
+	"Taj ad-Dîn Ibrâhîm #1"=20
+	"Ishaq #0"=20
+	"Pîr Ahmad #0"=20
+	"Qasim #0"=20
+	"Mahmûd #0"=20
+	"'Ali #0"=10
+	"Mustafa #0"=10
+	"Darwish #0"=10 
+}
+
+leader_names={
+	Sinan
+	Karaman
+	Tarik
+	Segem
+	Rustu
+	Rahim
+	Inan
+	Kadri
+	Kemal
+	Ercan
+}
+
+ship_names={
+	"Nure Sufi" Sadaddin "Karaman Bey" Ermenek
+	Mut Gülnar Mer Silifke Cilicia Larande
+	Bunsuz "Zeynül-Hac" "Semseddin Mehmet" Göksu
+}

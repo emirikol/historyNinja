@@ -1,0 +1,61 @@
+owner=TEV
+controller=TEV
+add_core=TEV
+culture=ancient_teutonic
+religion=odin
+hre=no
+base_tax=5
+trade_goods=naval_supplies
+manpower=3
+capital="Lübeck"
+citysize=2150
+fort1=yes
+discovered_by=eastern
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=VNA
+discovered_by=AEG
+
+371.6.1={owner=HNU controller=HNU culture=huns religion=tangra remove_core=TEV}
+415.1.1={discovered_by=VIK}
+451.6.1={owner=BDR controller=BDR add_core=BDR culture=bodrichi religion=perun}
+790.1.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
+799.12.24={religion=catholic}
+800.1.1={religion=catholic}
+843.1.1={cot=yes owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
+918.12.24={owner=LUB controller=LUB add_core=LUB culture=meklenburgian
+discovered_by=latin discovered_by=eastern discovered_by=muslim marketplace=yes remove_core=EHF}
+1490.1.1={customs_house=yes}
+1525.1.1={constable=yes}
+1530.1.1={shipyard=yes}
+1531.1.1={religion=protestant}
+1550.1.1={regimental_camp=yes base_tax=7} # Gradual shift in trading power from Lubeck to Hamburg
+1600.1.1={base_tax=6 shipyard=no} # Gradual shift in trading power from Lubeck to Hamburg
+1617.1.1={cot=no} # Stockholm commanded the Baltic Sea trade
+1660.1.1={workshop=yes}
+1675.1.1={courthouse=yes}
+1750.1.1={tax_assessor=yes}
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1810.12.13={owner=RFR controller=RFR add_core=RFR} # Annexed by France
+1814.4.11={owner=LUB controller=LUB	remove_core=RFR} # Napoleon abdicates undconditionally
+1871.1.1={owner=GRI controller=GRI add_core=GRI} # German Empire Founded
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1933.1.30={owner=NAZ controller=NAZ add_core=NAZ} # Nazis take the might
+1945.5.8={owner=GER controller=GER remove_core=NAZ} # end of the 2nd WW

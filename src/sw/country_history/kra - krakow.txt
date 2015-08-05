@@ -1,0 +1,27 @@
+government=constitutional_republic
+aristocracy_plutocracy=-5
+centralization_decentralization=4
+innovative_narrowminded=-1
+mercantilism_freetrade=-3
+offensive_defensive=-3
+land_naval=-3
+quality_quantity=0
+serfdom_freesubjects=-4
+primary_culture=malo_polish
+add_accepted_culture=wielko_polish
+add_accepted_culture=mazovian
+add_accepted_culture=kashubian
+add_accepted_culture=silesian
+religion=catholic
+technology_group=eastern
+capital=262	# Krakow
+
+
+1815.5.3={
+	monarch={
+		name="National Assembly"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

@@ -1,0 +1,9 @@
+discovered_by=INC
+discovered_by=CHM
+discovered_by=QTO
+discovered_by=TWA
+discovered_by=ICA
+discovered_by=CHC
+discovered_by=GAC
+discovered_by=CBC
+discovered_by=TAE

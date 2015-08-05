@@ -1,0 +1,33 @@
+owner=KHE
+controller=KHE
+add_core=KHE
+culture=chihan
+religion=taoist
+capital="Pingliang"
+trade_goods=rice
+hre=no
+base_tax=4
+manpower=3
+citysize=8700
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+
+220.6.1={owner=CAW controller=CAW add_core=CAW remove_core=KHE}
+265.6.1={owner=CJI controller=CJI add_core=CJI remove_core=EWU}
+557.6.1={owner=NZO controller=NZO add_core=NZO remove_core=CJI}
+581.6.1={owner=SUI controller=SUI add_core=SUI remove_core=NZO}
+618.6.1={owner=TNG controller=TNG add_core=TNG culture=chihan}
+960.6.1={owner=SOG controller=SOG add_core=SOG remove_core=TNG}
+1125.6.1={owner=JIN controller=JIN add_core=JIN remove_core=SOG}
+1232.6.1={owner=KHA controller=KHA remove_core=JIN}
+1271.6.1={owner=YUN controller=YUN add_core=YUN remove_core=KHA}
+1368.1.1={owner=MNG controller=MNG add_core=MNG remove_core=YUN add_core=QIN}
+1586.1.1={religion=buddhism} # State religion
+1644.1.1={controller=MCH}
+1646.1.1={owner=MCH	add_core=MCH remove_core=MNG} # The Qing Dynasty
+1673.1.1={revolt={type=revolutionary_rebels size=1} controller=REB} # Rebellion of the Three Feudatories
+1681.1.1={revolt={} controller=MCH}
+1912.1.1={owner=CHN controller=CHN add_core=CHN} # Republic of China
+1930.1.1={trade_goods=uranium}
+1949.10.1={owner=RCH controller=RCH add_core=RCH} # People's Republic of China

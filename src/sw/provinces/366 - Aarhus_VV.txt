@@ -1,0 +1,52 @@
+culture=normand
+religion=odin
+hre=no
+base_tax=2
+trade_goods=grain
+manpower=1
+capital="Aarhus"
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=AEG
+discovered_by=VNA
+
+371.6.1={owner=HNU controller=HNU add_core=HNU culture=huns religion=tangra citysize=1000 fort1=yes}
+400.1.1={discovered_by=VIK}
+451.6.1={owner=VIK controller=VIK add_core=VIK religion=odin culture=normand remove_core=HNU}
+698.6.1={religion=early}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
+870.6.1={religion=catholic}
+965.1.1={owner=DAN controller=DAN add_core=DAN remove_core=VIK culture=danish}
+1450.1.1={citysize=1750}
+1500.1.1={citysize=1700}
+1534.8.15={revolt={type=revolutionary_rebels size=1} controller=REB} # 'Grevefejden'(Christofer of Oldenburg)
+1534.11.2={revolt={} controller=DAN} # Liberated by Christian III
+1536.1.1={religion=protestant}
+1550.1.1={citysize=2300}
+1600.1.1={citysize=2600}
+1644.1.25={controller=SWE} # Torstenssons War- Captured by Lennart Torstensson
+1645.8.13={controller=DAN} # The Peace of Brömsebro
+1650.1.1={citysize=2800}
+1700.1.1={citysize=3100 tax_assessor=yes}
+1750.1.1={citysize=3500}
+1800.1.1={citysize=3700}
+1940.4.10={owner=NAZ controller=NAZ} # occupied by the Nazis
+1945.5.8={owner=DAN controller=DAN} # Nazi-Germany loses war

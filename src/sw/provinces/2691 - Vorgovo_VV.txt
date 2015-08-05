@@ -1,0 +1,23 @@
+owner=XIO
+controller=XIO
+add_core=XIO
+culture=gokturkic
+religion=tangra
+capital="Naimovo"
+fort1=yes
+trade_goods=silver
+hre=no
+base_tax=2
+manpower=1
+discovered_by=XIO
+discovered_by=KJU
+
+260.6.1={owner=XXX controller=XXX fort1=no native_size=10 native_ferocity=1 native_hostileness=3 citysize=210}
+1618.1.1={discovered_by=RUS	owner=RUS controller=RUS culture=russian religion=orthodox citysize=250}
+1643.1.1={manpower=2 add_core=RUS citysize=1520 fort1=yes}
+1650.1.1={citysize=2520}
+1700.1.1={citysize=3522}
+1750.1.1={citysize=4070}
+1800.1.1={citysize=4800}
+1917.10.1={manpower=1 owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={manpower=2 owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

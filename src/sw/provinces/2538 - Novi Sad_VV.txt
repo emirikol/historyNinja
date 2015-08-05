@@ -1,0 +1,56 @@
+owner=DAC
+controller=DAC
+add_core=DAC
+culture=dacian
+religion=orfi
+capital="Cusum"
+trade_goods=coal
+hre=no
+base_tax=3
+manpower=3
+citysize=9400
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=ODR
+discovered_by=GEH
+discovered_by=DAC
+
+107.6.1={owner=RME controller=RME add_core=RME}
+210.6.1={owner=XXX controller=XXX remove_core=RME remove_core=DAC culture=gepids capital="Petrikon" fort1=no}
+355.6.1={owner=OST controller=OST culture=ostrogothic religion=odin fort1=yes}
+370.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+451.6.1={owner=ATE controller=ATE culture=proto_slavic religion=perun}
+480.6.1={culture=branichevtzi}
+580.6.1={owner=AVE controller=AVE add_core=AVE religion=perun}
+630.6.1={discovered_by=BGK}
+805.8.1={owner=BGK controller=BGK add_core=BGK remove_core=AVE remove_core=ATE culture=bulgarian religion=tangra capital="Novi Sad"} 
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+1018.9.1={owner=HUN controller=HUN add_core=HUN}
+1260.6.1={culture=serbian}
+1450.1.1={citysize=10800}
+1500.1.1={citysize=12324}
+1514.1.1={revolt={type=anti_tax_rebels size=2} controller=REB} # Rebel peasant troops led by Gheorghe Doja
+1514.6.1={revolt={} controller=TRA} # Estimated
+1515.6.1={controller=TUR}
+1526.8.30={owner=TUR controller=TUR add_core=TUR}
+1551.7.19={ owner=HAB controller=HAB add_core=HAB add_core=TUR} # Ferdinand gains Transylvania from Treaty of Weissenburg, provoking the Ottomans
+1552.7.17={controller=TUR} # Ottoman occupation
+1556.10.1={owner=TUR } # Isabella Jagiello is restored as queen of Transylvania, and cedes Banat
+1562.6.1={owner=TUR controller=TUR add_core=TUR remove_core=HAB} # End of Ottoman-Habsburg War
+1685.1.1={owner=HAB controller=HAB add_core=HAB remove_core=TUR religion=catholic}
+1703.1.1={revolt={type=nationalist_rebels size=1} controller=REB} # Kuruc rebellion, lead by Francisc Rakoczy
+1718.1.1={revolt={}	owner=HAB	controller=HAB	add_core=HAB	remove_core=TUR   } # The House of Habsburg is recognized as new ruler
+1720.1.1={marketplace=yes courthouse=yes}
+1723.4.25={fort2=yes} # New fortress is constructed
+1728.1.1={workshop=yes}
+1738.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Uprising against the imperial authority
+1739.1.1={revolt={} controller=HAB}
+1769.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Anti Habsburg uprisings
+1770.1.1={revolt={} controller=HAB} # Estimated
+1919.12.4={owner=YGK controller=YGK add_core=YGK} # Yugoslavia gets independent
+1941.4.17={owner=NAZ controller=NAZ} # German occupation
+1941.9.25={owner=HUN controller=HUN}
+1944.1.1={owner=YUG controller=YUG} # Partisans free the area
+2003.1.1={owner=SRR add_core=SRR controller=SRR} # after independence of several federal states, Yugoslavia is named Serbia-Montenegro

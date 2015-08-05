@@ -1,0 +1,72 @@
+government=despotic_monarchy 
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=2
+quality_quantity=3
+serfdom_freesubjects=-2
+technology_group=muslim
+religion=sunni
+primary_culture=maghreb_arabic
+capital=1727	# Gafsa
+
+
+972.6.1={
+	monarch={
+		name="Abul-Futuh Sayf ad-Dawla Buluggin ibn Ziri"
+		dynasty="Zirids"
+		adm=5
+		dip=5
+		mil=5}}
+
+983.6.1={
+	monarch={
+		name="Abul-Fat'h al-Mansur ibn Buluggin"
+		dynasty="Zirids"
+		adm=4
+		dip=6
+		mil=5}}
+
+995.4.1={
+	monarch={
+		name="Abu Qatada Nasir ad-Dawla Badis ibn Mansur"
+		dynasty="Zirids"
+		adm=6
+		dip=6
+		mil=5}}
+
+1016.5.1={
+	monarch={
+		name="Sharaf ad-Dawla al-Muizz ibn Badis"
+		dynasty="Zirids"
+		adm=5
+		dip=4
+		mil=5}}
+
+1057.6.1={capital=1728}
+
+1062.4.1={
+	monarch={
+		name="Abu Tahir Tamim ibn al-Muizz"
+		dynasty="Zirids"
+		adm=3
+		dip=6
+		mil=3}}
+
+1108.7.27={
+	monarch={
+		name="Yahya ibn Tamim"
+		dynasty="Zirids"
+		adm=7
+		dip=4
+		mil=5}}
+
+1131.2.2={
+	monarch={
+		name="Abul-Hasan al-Hasan ibn Ali"
+		dynasty="Zirids"
+		adm=3
+		dip=6
+		mil=3}}

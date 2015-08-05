@@ -1,0 +1,122 @@
+#Country Name: Please see filename.
+
+graphical_culture=muslimgfx
+
+color={ 146  134  57 }
+
+historical_ideas={
+	excellent_shipwrights
+	merchant_adventures
+	military_drill
+	national_conscripts
+	sea_hawks
+	superior_seamanship
+	shrewd_commerce_practise
+	naval_fighting_instruction
+	national_trade_policy
+	battlefield_commisions
+	naval_glory
+	grand_navy
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+	
+	
+	
+}
+
+monarch_names={
+	"Muhammad #3"=100
+	"'Alî #0"=40
+	"Ahmad #2"=20
+	"Yahyâ #2"=20
+	"Zkariyâ' #1"=20
+	"'Abd al-'Aziz #0"=20
+	"'Abd al-Mu'min #0"=20
+	"Hamûda #0"=20
+	"Husayn #0"=20
+	"'Usman #0"=20
+	"Salih #0"=15
+	"Sulaiman #0"=15
+	"Yunus #0"=15
+	"Isma'îl #0"=10
+	"Murad #0"=10
+	"Yûsuf #0"=10
+	"Abû Bakr #0"=0
+	"Ala ad-Din #0"=0
+	"Butrus #0"=0
+	"Fakhri #0"=0
+	"Fayiz #0"=0
+	"Hadj #0"=0
+	"Hafiz #0"=0
+	"Harun #0"=0
+	"Hasan #0"=0
+	"Hashim #0"=0
+	"Husayn #0"=0
+	"Ibrahim #0"=0
+	"Ja'far #0"=0
+	"Khalil #0"=0
+	"Mahir #0"=0
+	"Mas'ud #0"=0
+	"Murad #0"=0
+	"Mustafa #0"=0
+	"Qadir #0"=0
+	"Rasim #0"=0
+	"Salah #0"=0
+	"Shadi #0"=0
+	"Tahir #0"=0
+	"Torgud #0"=0
+}
+
+leader_names={
+	Taher
+	Akimi
+	Adhoum
+	Hakimi
+	Naybet
+	Bassir
+	Saber
+	Badra
+	Sassi
+	Dali
+}
+
+ship_names={
+	Alim Fattah Razzaq Wahhab Qahhar Ghaffar
+	Musawwir Bari Khaliq Mutakabbir Jabbar
+	Aziz Muhaymin Mu'min Salam Quddus Malik
+	Rahim Rahman
+}

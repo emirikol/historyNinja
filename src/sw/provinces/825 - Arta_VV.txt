@@ -1,0 +1,49 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Astakos"
+trade_goods=stone
+hre=no
+base_tax=3
+manpower=1
+citysize=3040
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PER
+discovered_by=PHT
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+630.6.1={discovered_by=muslim}
+843.6.1={discovered_by=latin}
+918.4.25={owner=BUL controller=BUL}
+928.1.1={owner=BYZ controller=BYZ}
+1204.4.12={owner=EPI controller=EPI add_core=EPI remove_core=BYZ}
+1261.12.23={owner=BIZ controller=BIZ add_core=BIZ remove_core=NII remove_core=BYZ culture=greek}
+1356.1.1={owner=ARE controller=ARE add_core=ARE culture=albanian}
+1394.4.1={owner=TUR controller=TUR}
+1450.1.1={citysize=4000}
+1460.1.1={owner=TUR controller=TUR}
+1500.1.1={citysize=4612}
+1502.1.1={remove_core=BIZ}
+1550.1.1={citysize=5303}
+1555.1.1={revolt_risk=5} # General discontent against the Janissaries' dominance
+1556.1.1={revolt_risk=0}
+1600.1.1={citysize=4690 marketplace=yes}
+1611.1.1={revolt_risk=3} # Revolutionary movement of Dionysios, Christians are driven away
+1612.1.1={revolt_risk=0} # Estimated
+1650.1.1={citysize=6570 culture=neo_greek}
+1670.1.1={constable=yes}
+1700.1.1={citysize=8277 tax_assessor=yes}
+1750.1.1={add_core=GRE}
+1788.1.1={fort2=yes} # Ali Pasha made it a stronghold
+1797.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # Suliot uprising
+1803.12.17={revolt={} controller=TUR} # The Suliots are defeated
+1881.6.1={controller=GRE owner=GRE}
+1941.4.23={owner=ITA controller=ITA} # occupied by Italy
+1944.1.1={owner=GRE controller=GRE} # Italians leave Greece

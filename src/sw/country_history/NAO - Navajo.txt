@@ -1,0 +1,41 @@
+government=tribal_democracy
+aristocracy_plutocracy=4
+centralization_decentralization=5
+innovative_narrowminded=0
+mercantilism_freetrade=0
+offensive_defensive=0
+land_naval=-5
+quality_quantity=-2
+serfdom_freesubjects=0
+primary_culture=navajo
+religion=ind_pagan
+technology_group=new_world
+capital=101	# Navajo
+
+1399.1.1={
+	monarch={
+		name="Eyak"
+		adm=4
+		dip=5
+		mil=5
+	}
+}
+
+1430.1.1={
+	monarch={
+		name="Conseil tribal"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+
+1500.1.1={
+	monarch={
+		name="Conseil tribal"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

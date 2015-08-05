@@ -1,0 +1,51 @@
+#616 - Viet Bac
+
+owner = DAI
+controller = DAI
+culture = vietnamese
+religion = buddhism
+capital = "Viet Bac"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 4000
+add_core = DAI
+discovered_by = chinese
+
+1413.1.1 = {	owner = MNG
+		revolt = { type = nationalist_rebels size = 2 }
+		controller = REB
+		add_core = MNG
+	   } # Vietnam is invaded by Chinese troops after the Tran dynasty is overthrowned
+1427.1.1 = {	revolt = {}
+		owner = DAI
+		controller = DAI
+		remove_core = MNG
+	   } # The Lê Dynasty
+1500.1.1 = { citysize = 5050 }
+1550.1.1 = { citysize = 5877 }
+1558.1.1 = {	owner = TOK
+		controller = TOK
+		add_core = TOK
+		remove_core = DAI
+	   } # The kingdom is divided between the Nguyens & the Trinh line
+1600.1.1 = { citysize = 6570 }
+1650.1.1 = { citysize = 8100 }
+1700.1.1 = { citysize = 9870 }
+1730.1.1 = { revolt_risk = 5 } # Peasant revolt
+1731.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 10400 }
+1786.1.1 = { revolt_risk = 6 } # The Trinh dynasty is overthrown by Tay Son rebells
+1788.1.1 = {	revolt_risk = 0
+		owner = ANN
+		controller = ANN
+		add_core = ANN
+		remove_core = TOK
+	   } # The Tay-Son take over
+1800.1.1 = { citysize = 11800 }
+1802.1.1 = {	owner = DAI
+		controller = DAI
+		add_core = DAI
+		remove_core = ANN
+	   } # The Nguyen dynasty defeats the Tay Sons

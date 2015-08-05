@@ -1,0 +1,10 @@
+culture=bantu
+religion=animism
+trade_goods=grain
+capital="Serowe"
+hre=no
+base_tax=1
+manpower=1
+
+1885.9.30= {owner=GBR controller=GBR add_core=GBR citysize=3000}
+1966.9.30={fort1=yes owner=BOT controller=BOT add_core=BOT remove_core=GBR}

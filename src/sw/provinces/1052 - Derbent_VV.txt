@@ -1,0 +1,55 @@
+owner=AAR
+controller=AAR
+add_core=AAR
+culture=old_armenian
+religion=groman
+capital="Debrent"
+trade_goods=wine
+hre=no
+base_tax=3
+manpower=1
+citysize=2150
+fort1=yes
+discovered_by=RMP
+discovered_by=AAR
+discovered_by=RME
+discovered_by=PER
+discovered_by=PHT
+discovered_by=PNO
+discovered_by=AOS
+discovered_by=SIR
+discovered_by=SRM
+
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+562.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism}
+630.6.1={discovered_by=muslim owner=GBG controller=GBG add_core=GBG discovered_by=BGK
+culture=proto_bulgarian religion=tangra remove_core=AVE}
+665.6.1={owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism}
+820.4.1={religion=jewish}
+1015.1.1={owner=CUM controller=CUM remove_core=ACA add_core=CUM religion=tangra remove_core=KHZ}
+1236.6.1={owner=KHA controller=KHA remove_core=CUM}
+1242.6.1={owner=GOL controller=GOL religion=sunni}
+1458.9.1={revolt={type=revolutionary_rebels size=1} controller=REB} # Civil war in Qara Quyunlu
+1458.12.1={revolt={} controller=QAR add_core=QAR owner=QAR}
+1468.1.1={owner=AKK controller=AKK add_core=AKK remove_core=QAR} # The Ak Koyunlu expands their territory
+1500.1.1={citysize=3280}
+1501.1.1={owner=PER controller=PER add_core=PER	remove_core=AKK} # The Safavids take over
+1550.1.1={citysize=3700}
+1578.9.9={controller=TUR} 
+1590.3.21={owner=TUR add_core=TUR} # Peace of Istanbul
+1600.1.1={citysize=4157}
+1607.1.1={controller=PER} # Persian reconquest
+1612.11.20={owner=PER remove_core=TUR} # Part of Persia
+1650.1.1={citysize=4643}
+1700.1.1={citysize=5171}
+1721.10.22={owner=RUS	controller=RUS} # Occupied by Russia
+1732.1.1={owner=PER controller=PER}
+1747.1.1={revolt_risk=3} # Shah Nadir is killed, local khanates emerged
+1748.1.1={revolt_risk=4} # The empire began to decline
+1750.1.1={citysize=5868}
+1779.1.1={revolt_risk=0} # With the Qajar dynasty the situation stabilized
+1800.1.1={citysize=6502}
+1803.1.1={owner=RUS controller=RUS add_core=RUS remove_core=PER} # Incorporated into Russia
+1850.1.1={fort2=yes}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

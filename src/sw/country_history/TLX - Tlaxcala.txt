@@ -1,0 +1,64 @@
+government=tribal_despotism
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=5
+mercantilism_freetrade=-5
+offensive_defensive=-5
+land_naval=-5
+quality_quantity=5
+serfdom_freesubjects=-5
+primary_culture=colhua
+religion=teotl_azt
+historical_friend=AZT
+historical_friend=TLX
+technology_group=new_world
+capital=2176
+
+1399.1.1={
+	monarch={
+		name="Ixtlilxochitl"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+1431.1.1={
+	monarch={
+		name="Nezahualcoyotl"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+1473.1.1={
+	monarch={
+		name="Nezahualpilli"
+		adm=8
+		dip=8
+		mil=5
+	}
+}
+1516.1.1={
+	monarch={
+		name="Cacamatzin"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+1520.1.1={
+	monarch={
+		name="Coanacochtzin"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+1525.1.1={
+	monarch={
+		name="Ixtlilxochitl II"
+		adm=3
+		dip=3
+		mil=3
+	}
+}

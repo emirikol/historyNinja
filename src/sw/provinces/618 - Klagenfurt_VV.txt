@@ -1,0 +1,51 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=roman
+religion=groman
+base_tax=5
+trade_goods=iron  
+manpower=2
+fort1=yes
+capital="Klagenfurt" 
+citysize=3000
+hre=no
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+166.6.1={culture=macromani}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+451.6.1={owner=OST controller=OST culture=ostrogothic religion=early}
+553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=langobardian religion=early remove_core=RMP add_core=WCR}
+595.5.1={owner=AVE controller=AVE add_core=AVE}
+805.1.1={owner=HFR controller=HFR add_core=HFR religion=catholic remove_core=AVE culture=frankish}
+843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
+918.12.24={owner=HAB controller=HAB add_core=HAB culture=south_bavarian 
+remove_core=EHF  discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1450.1.1={citysize=4000}
+1525.5.1={revolt_risk=2} #  Farmer insurrections 
+1526.1.1={revolt_risk=0}
+1550.1.1={citysize=5000}
+1578.1.1={fort2=yes}
+1600.1.1={citysize=6000}			
+1650.1.1={citysize=7000}
+1660.1.1={textile=yes}
+1679.1.1={citysize=6000} # great plague
+1700.1.1={citysize=8000}
+1750.1.1={citysize=10000}
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1892.1.1={trade_goods=steel}
+1938.3.15={owner=NAZ controller=NAZ add_core=NAZ} # Austria annexed by Nazi-Germany
+1945.5.4={owner=HAB controller=HAB remove_core=NAZ} # end of the 2. WW - Austria gets independent again

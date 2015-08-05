@@ -1,0 +1,33 @@
+religion=baltik
+hre=no
+base_tax=2
+trade_goods=naval_supplies
+manpower=1
+capital="Borga"
+discovered_by=FTP
+
+415.1.1={discovered_by=VIK}
+843.1.1={discovered_by=latin discovered_by=eastern}
+1200.4.1={culture=finnish citysize=1020  owner=SWE controller=SWE add_core=SWE add_core=FIN religion=catholic fort1=yes}
+1450.1.1={citysize=1150}
+1487.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # The Axelsson Tott Family
+1487.5.24={revolt={} controller=SWE} # The Demise of the Axelsson Tott Family
+1527.6.1={religion=protestant}
+1550.1.1={trade_goods=grain citysize=1240} # Estimated Date
+1598.8.1={controller=POL} # Sigismund tries to reconquer his crown
+1599.8.4={controller=SWE} # Duke Karl get it back
+1600.1.1={citysize=1750}
+1650.1.1={citysize=2100}
+1700.1.1={citysize=2400} 
+1713.5.30={controller=RUS} # The Great Nordic War-Captured by Apraksin
+1721.8.30={controller=SWE} # The Peace of Nystad
+1742.8.24={controller=RUS} # The War of the Hats-Captured by Russians
+1743.8.7={controller=SWE} # The Peace of Åbo
+1750.1.1={citysize=2840} 
+1800.1.1={citysize=3100}
+1808.5.3={controller=RUS} # Sveaborg surrenders
+1809.9.17={owner=RUS add_core=RUS remove_core=SWE} # Treaty of Fredrikshamn
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1917.12.6={owner=FIN controller=FIN remove_core=SOV} # Finland gets independent
+1944.12.1={owner=SOV controller=SOV}
+1945.1.1={owner=FIN controller=FIN}

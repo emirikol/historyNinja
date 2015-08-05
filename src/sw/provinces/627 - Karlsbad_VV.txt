@@ -1,0 +1,55 @@
+owner=VNA
+controller=VNA
+add_core=VNA
+culture=vandals
+religion=odin
+hre=no
+capital="Vary"
+fort1=yes
+trade_goods=cloth  
+base_tax=6
+manpower=3
+citysize=5000
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+420.6.1={culture=thuringian}
+451.6.1={owner=THU controller=THU add_core=THU culture=thuringian religion=early}
+769.1.1={owner=HFR controller=HFR add_core=HFR remove_core=THU}
+799.12.24={religion=catholic}
+843.1.1={owner=GMV controller=GMV add_core=GMV remove_core=HFR culture=moravian religion=catholic discovered_by=eastern discovered_by=latin discovered_by=muslim}
+894.1.1={owner=BOH controller=BOH add_core=BOH culture=czech remove_core=GMV}
+1034.1.1={hre=yes}
+1300.1.1={culture=thuringian}
+1370.6.1={capital="Karlovy Vary"}
+1419.12.1={revolt_risk=5} # Hussite Wars, Battle of Nekmir
+1436.7.5={revolt_risk=0} # Peace is signed in Jihlava
+1457.1.1={revolt_risk=5} # George of Podiebrand had to secure recognition from the German and Catholic towns
+1464.1.1={revolt_risk=1} # The Catholic nobility still undermines the crown.
+1471.1.1={revolt_risk=0}
+1526.8.30={owner=HAB controller=HAB	add_core=HAB remove_core=BOH} # Battle of Mohac where Lajos II dies -> Habsburg succession
+1550.1.1={customs_house=yes}
+1576.1.1={religion=reformed}
+1600.1.1={constable=yes}
+1618.4.23={revolt={type=heretic_rebels size=1} controller=REB} # Defenstration of Prague
+1619.3.1={revolt={} owner=PAL controller=PAL add_core=PAL}
+1620.11.8={owner=HAB controller=HAB remove_core=PAL} # Tilly beats the Winterking. Deus Vult!
+1621.1.1={courthouse=yes} # ... and let us start this session by executing the most inconvenient nobles....
+1627.1.1={religion=catholic} # Order from Ferdinand II to reconvert to Catholicism, many Protestant leave the country  
+1700.1.1={tax_assessor=yes}
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1918.10.28={owner=CSL controller=CSL add_core=CSL remove_core=HAB} # independence of Czechoslovakia
+1939.3.15={owner=NAZ controller=NAZ add_core=NAZ} # protectorate Bohemia and Moravia
+1945.5.4={owner=CSL controller=CSL remove_core=NAZ} # end of the 2nd WW
+1993.1.1={owner=CZC controller=CZC remove_core=CSL add_core=CZC} # independence of Slovakia

@@ -1,0 +1,125 @@
+#Country Name: Please seefilename.
+
+graphical_culture=africangfx
+
+color={ 111  251  122 }
+
+historical_ideas={
+	shrewd_commerce_practise
+	national_conscripts
+	merchant_adventures
+	military_drill
+	national_trade_policy
+	battlefield_commisions
+	engineer_corps
+	grand_army
+	espionage
+	cabinet
+	glorious_arms
+	bureaucracy
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	african_spearmen
+	mali_tribal_warfare
+	african_hill_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+	african_western_franchise_warfare
+}
+
+monarch_names={
+	"Mohamed #0"=60
+	"Mustafa #0"=60
+	"Maaouya #0"=40
+	"Sidi #0"=40
+	"Sghair #0"=40
+	"Zeine #0"=20
+	"Moktar #0"=20
+	"Yahya #0"=20
+	"Moulaye #0"=20
+	"Ahmed #0"=20
+	"Salem #0"=20
+	"Zeine #0"=20
+	"Sid #0"=20
+	"Souleymane #0"=20
+	"Ould #0"=0
+	"Yacoub #0"=0
+	"Ibrahima #0"=0
+	"Cheikani #0"=0
+	"Boubou #0"=0
+	"Djibi #0"=0
+	"Karamoko #0"=0
+	"Khatry #0"=0
+	"Brahim #0"=0
+	"Babacar #0"=0
+	"M'baye #0"=0
+	"Oumar #0"=0
+	"Ely #0"=0
+	"Abdel Kader #0"=0
+	"Seydou #0"=0
+	"Marabott #0"=0
+	"Lemine #0"=0
+	"Moise #0"=0
+	"Abdelaziz #0"=0
+	"Pascar #0"=0
+	"Yoann #0"=0
+	"Bilal #0"=0
+	"Ismael #0"=0
+	"Dominique #0"=0
+	"Taghiyoullah #0"=0
+	"Daouda #0"=0
+	"Silli #0"=0
+	"Bertrand #0"=0
+	"Santa'a #0"=0
+	"Al-Fa' Ibrahim #0"=0	
+	"Sandaki #0"=0
+	"'Ali Zalil #0"=0
+}
+
+leader_names={
+	Diallo
+	Maleck
+	Fall
+	Traoré
+	Sy
+	Mohamed
+	Hamrud "da Silva" Denna Camara Bneijara
+	N'diaye Cherif Kandé Kamara Gourville Jiddou Langlet Sidibé Diakite
+	Samba Teguedi Khattri Lamine Dieng Voulani Saadbou Ba M'bodj Sow
+	Toumani Daddah Ould Salek Louly Haidalla Taya Vall Abdallahi Aziz
+	Bouceif Boubacar Khouna Guig M'Bareck Zeidane "El Waghef" Laghdaf
+}
+
+ship_names={
+	Kiringa Timbuktu "Koumbi Saleh" Gao
+	Jenne "Sundiata Keita" "Kankan Musa"
+	"Kouroukan Fouga" "Wali Keita" "Quati Keita"
+	"Khalifa Keita" Sakura
+}

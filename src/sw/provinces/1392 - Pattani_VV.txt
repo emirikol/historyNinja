@@ -1,0 +1,28 @@
+culture=malayan
+religion=shamanism
+capital="Pattani"
+trade_goods=wood
+hre=no
+base_tax=3
+manpower=2
+discovered_by=chinese
+discovered_by=indian
+discovered_by=muslim
+discovered_by=KHE
+
+1351.1.1={owner=AYU controller=AYU add_core=AYU add_core=PAT religion=sunni citysize=6000 fort1=yes}
+1450.1.1={citysize=10800}
+1511.8.24={owner=PAT controller=PAT remove_core=AYU}
+1516.1.1={discovered_by=POR} # Godinho de Eredia
+1760.1.1={revolt_risk=4} # The Pattani kingdom began to decline
+1771.1.1={owner=AYU controller=AYU add_core=AYU} # The end of the Pattani kingdom
+1782.1.1={revolt_risk=2} # The Chakri Dynasty is established by Rama I
+1785.1.1={owner=AYU controller=AYU add_core=AYU}
+1789.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Pattanese rebellion
+1790.1.1={revolt={} controller=AYU}
+1791.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Pattanese rebellion against Chakri rule
+1792.1.1={revolt={} controller=AYU}
+1808.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Pattani Rebellion
+1809.1.1={revolt={} controller=AYU}
+1909.1.1={owner=AYU	controller=AYU add_core=AYU}
+1932.6.24={owner=THA controller=THA add_core=THA remove_core=AYU} # Siam gets a constitution

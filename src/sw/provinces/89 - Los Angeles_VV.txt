@@ -1,0 +1,28 @@
+owner=YKT
+controller=YKT
+add_core=YKT
+culture=hokan 
+religion=ind_pagan
+capital="Chumash" 
+citysize=1200
+fort1=yes
+trade_goods=corn 
+hre=no 
+base_tax=3 
+manpower=1 
+discovered_by=MOJ
+discovered_by=YKT
+discovered_by=PEO
+discovered_by=COK
+
+1542.1.1={discovered_by=SPA}
+1774.1.1={capital="Los Angeles" owner=SPA native_size=5 native_ferocity=1 native_hostileness=4 controller=SPA
+citysize=440 culture=castillian religion=catholic} # Colonists began to arrive
+1775.1.1={revolt_risk=4} # The natives rebelled
+1776.1.1={revolt_risk=0}
+1799.1.1={add_core=SPA add_core=MEX citysize=1188}
+1800.1.1={citysize=1690}
+1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
+1821.10.24={controller=MEX remove_core=SPA} # end of war
+1853.12.30={controller=USA add_core=USA remove_core=USA owner=USA} # new mexican-american borders 
+1900.1.1={fort2=yes}

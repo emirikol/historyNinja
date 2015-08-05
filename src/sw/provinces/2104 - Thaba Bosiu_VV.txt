@@ -1,0 +1,13 @@
+culture=bantu
+religion=animism
+trade_goods=diamant
+capital="Lesoto"
+hre=no
+base_tax=9
+manpower=2
+
+1842.1.1={owner=OFS controller=OFS add_core=OFS add_core=GBR citysize=6500 fort1=yes}
+1900.1.1={owner=GBR controller=GBR add_core=GBR religion=protestant}
+1910.5.31={owner=SAF controller=SAF add_core=SAF} # independence of South Africa as a dominion
+1931.1.1={remove_core=GBR} # full independence
+1966.10.4={owner=LES controller=LES add_core=LES remove_core=SAF}

@@ -1,0 +1,49 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 191 83 101 }
+
+historical_ideas={
+	national_conscripts
+	military_drill
+	deus_vult
+}
+
+historical_units={
+	
+	south_american_spearmen
+	south_american_warfare
+	inca_mountain_warfare
+	south_american_gunpowder_warfare
+	westernized_south_american
+	peruvian_guerilla_warfare
+}
+
+leader_names={
+	Guanes Laches Pijaos Chitareros Zipaquira Malocas 
+	Arequipa Ica Cahuachi Colibri Huaco Ayapaca	Cahualpa
+}
+
+monarch_names={
+	"Jizcamox #0"=20
+	"Aramaic #0"=20
+	"Muyskkubun #0"=20
+	"Fihizka #0"=20
+	"Ioke #0"=20
+	"Puyky #0"=20
+	"Kigua #0"=20
+	"Kota #0"=20
+	"Fahakuka #0"=20
+	"Usme #0"=20
+	"Guateque #0"=20
+	"Manta #0"=20
+	"Sesquilé #0"=20
+	"Tibaná #0"=20
+	"Sogamoso #0"=20
+}
+
+ship_names={
+	Muisca Chibchas Tchibtchas Bochica Zipa Zanqe Pampataca 
+	Aramaic Ioke Fahakuka Manta Guatec Muyskku 
+}

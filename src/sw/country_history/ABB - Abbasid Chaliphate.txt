@@ -1,0 +1,317 @@
+government=imperial_government
+aristocracy_plutocracy=-2
+centralization_decentralization=-5
+innovative_narrowminded=2
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-5
+technology_group=muslim
+primary_culture=saracen
+add_accepted_culture=bedouin_arabic
+add_accepted_culture=persian
+add_accepted_culture=east_persian
+historical_friend=ADA
+religion=sunni
+capital=926	# Baghdat
+
+
+754.1.1={
+	monarch={
+		name="Al-Mansur"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=7
+		MIL=6}}
+		
+775.1.1={
+	monarch={
+		name="Al-Mahdi"
+		dynasty="Abbasids"
+		DIP=7
+		ADM=8
+		MIL=6}}
+		
+785.1.1={
+	monarch={
+		name="Al-Hadi"
+		dynasty="Abbasids"
+		DIP=7
+		ADM=8
+		MIL=9}}
+
+786.1.1={
+	monarch={
+		name="Harun al-Rashid"
+		dynasty="Abbasids"
+		DIP=9
+		ADM=9
+		MIL=9}}
+
+809.1.1={
+	monarch={
+		name="'Al-Amin"
+		DIP=9
+		ADM=8
+		MIL=8}}
+
+813.1.1={
+	monarch={
+		name="Al-Ma'mun"
+		dynasty="Abbasids"
+		DIP=8
+		ADM=8
+		MIL=8}}
+
+833.1.1={
+	monarch={
+		name="Al-Mu'tasim"
+		dynasty="Abbasids"
+		DIP=7
+		ADM=8
+		MIL=7}}
+
+842.1.1={
+	monarch={
+		name="Al-Wathiq"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=8
+		MIL=7}}
+
+847.1.1={
+	monarch={
+		name="Al-Mutawakkil"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=7
+		MIL=7}}
+
+861.1.1={
+	monarch={
+		name="Al-Muntasir"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=7
+		MIL=7}}
+
+862.1.1={
+	monarch={
+		name="Al-Musta'in"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=8
+		MIL=8}}
+
+866.1.1={
+	monarch={
+		name="Al-Mu'tazz"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=7
+		MIL=8}}
+
+869.1.1={
+	monarch={
+		name="Al-Muhtadi"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=7
+		MIL=8}}
+
+870.1.1={
+	monarch={
+		name="Al-Mu'tamid"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=6
+		MIL=8}}
+
+892.1.1={
+	monarch={
+		name="Al-Mu'tadid"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=6
+		MIL=7}}
+
+902.1.1={
+	monarch={
+		name="Al-Muktafi"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=7}}
+		
+902.3.1={centralization_decentralization=-4}
+
+908.1.1={
+	monarch={
+		name="Al-Muqtadir"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+
+932.1.1={
+	monarch={
+		name="Al-Qahir"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=5}}
+		
+933.6.1={centralization_decentralization=-3}
+
+934.1.1={
+	monarch={
+		name="Ar-Radi"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=5}}
+
+935.9.1={centralization_decentralization=-2}
+
+940.1.1={
+	monarch={
+		name="Al-Muttaqi"
+		dynasty="Abbasids"
+		DIP=5
+		ADM=5
+		MIL=6}}
+		
+942.10.6={centralization_decentralization=-1}
+
+944.1.1={
+	monarch={
+		name="Al-Mustakfi"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+		
+945.8.12={centralization_decentralization=0}
+
+946.1.1={
+	monarch={
+		name="Al-Muti"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+		
+974.1.1={
+	monarch={
+		name="At-Ta'i"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+
+991.1.1={
+	monarch={
+		name="Al-Qadir"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+
+999.9.9={centralization_decentralization=1}		
+		
+1031.1.1={
+	monarch={
+		name="Al-Qa'im"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+
+1075.1.1={
+	monarch={
+		name="Al-Muqtadi"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=6
+		MIL=6}}
+
+1094.1.1={
+	monarch={
+		name="Al-Mustazhir"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=6
+		MIL=5}}
+
+1118.3.1={
+	monarch={
+		name="Al-Mustarshid"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+		
+1135.3.5={
+	monarch={
+		name="Ar-Rashid"
+		dynasty="Abbasids"
+		DIP=5
+		ADM=4
+		MIL=6}}
+
+1136.2.15={
+	monarch={
+		name="Al-Muqtafi"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=5
+		MIL=6}}
+
+1160.12.8={
+	monarch={
+		name="Al-Mustanjid"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=6
+		MIL=6}}
+
+1170.4.27={
+	monarch={
+		name="Al-Mustadi"
+		dynasty="Abbasids"
+		DIP=7
+		ADM=6
+		MIL=6}}
+
+1180.5.7={
+	monarch={
+		name="An-Nasir"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=6
+		MIL=6}}
+
+1225.5.7={
+	monarch={
+		name="Az-Zahir"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=9
+		MIL=9}}
+		
+1226.2.3={
+	monarch={
+		name="Al-Mustansir"
+		dynasty="Abbasids"
+		DIP=7
+		ADM=9
+		MIL=8}}
+
+1242.6.1={
+	monarch={
+		name="Al-Musta'sim"
+		dynasty="Abbasids"
+		DIP=6
+		ADM=8
+		MIL=4}}

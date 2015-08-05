@@ -1,0 +1,27 @@
+#597 - Johor
+
+owner = MLC
+controller = MLC
+culture = malayan
+religion = sunni
+capital = "Johor"
+trade_goods = fish
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 2234
+add_core = MLC
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 2800 }
+1500.1.1 = { citysize = 3200 }
+1528.1.1 = { capital = "Kota Tingi" } # Alauddin Riayat Shah moved the capital
+1550.1.1 = { citysize = 4385 }
+1600.1.1 = { citysize = 5700 }
+1650.1.1 = { citysize = 6210 }
+1700.1.1 = { citysize = 7830 }
+1750.1.1 = { citysize = 8500 }
+1800.1.1 = { citysize = 9450 }

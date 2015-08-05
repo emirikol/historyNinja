@@ -1,0 +1,70 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 231  224  107 }
+
+historical_ideas={
+	bureaucracy
+	scientific_revolution
+	military_drill	
+	patron_of_art
+	national_conscripts
+	deus_vult
+	glorious_arms
+	battlefield_commisions
+	espionage
+	merchant_adventures
+}
+
+historical_units={
+	
+	south_american_spearmen
+	maya_tribal_warfare
+	maya_forest_warfare
+	maya_gunpowder_warfare
+	westernized_mayan
+	maya_guerilla_warfare
+}
+
+leader_names={
+	Cotuha Iztayul Quicab Cauizimah Xcuxeba Yacolatam Caoqueb
+	Kan Chicchan Manik Chuen Etznab
+}
+
+monarch_names={
+	"Xcuxeba #0"=20
+	"Ki'che' #0"=20
+	"Gumarcaj #0"=20
+	"Tecún Umán #0"=20
+	"Popol Vuh #0"=20
+	"Cuauhtemallan #0"=20
+	"Chichicastenango #0"=20
+	"Quetzaltenango #0"=20
+	"Uspantek #0"=20
+	"Sakapultek #0"=20
+	"Zutujil #0"=20
+	"Q'umarkaj #0"=20
+	"Xelaju #0"=20
+	"Huehuetenango #0"=20
+	"Suchitepequez #0"=20
+}
+
+ship_names={	
+		Auilix Ahmac
+		Chimalmat Chulimal
+		Hacauitz Hurukan
+		Imox
+		Lamat
+		Mahucutah Meawan
+		Naoh
+		Potonchan Petatayub
+		Queh
+		Solola
+		"Takalik Abaj"
+		Tulan Tohil Tixchel
+		Xpiyacoc Xmucane Xbalanque Xbaquiyalo 
+		Xtah Xpuch  
+		Zipacna Zakcabaha
+}
+

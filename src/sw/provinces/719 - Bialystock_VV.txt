@@ -1,0 +1,58 @@
+owner=GHT
+controller=GHT
+add_core=GHT
+culture=goths
+religion=odin
+hre=no
+trade_goods=grain
+base_tax=3
+manpower=3
+capital="Bialystok"
+fort1=yes
+citysize=5000
+discovered_by=latin
+discovered_by=eastern
+discovered_by=muslim
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+
+290.6.1={owner=HSL controller=HSL add_core=HSL culture=proto_slavic religion=perun remove_core=GHT}
+370.6.1={owner=HNU controller=HNU add_core=HNU remove_core=HSL discovered_by=HNU}
+451.6.1={owner=DEE controller=DEE add_core=DEE remove_core=HNU culture=drevliani discovered_by=DEE}
+830.1.1={discovered_by=latin discovered_by=muslim}
+894.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox remove_core=DEE culture=kievan_rus discovered_by=KIV}
+1132.1.1={owner=GVR controller=GVR remove_core=KIV add_core=GVR}
+1236.1.1={owner=LIP controller=LIP add_core=LIP remove_core=GVR religion=baltik}
+1273.6.1={owner=LIT controller=LIT add_core=LIT remove_core=LIP religion=catholic}
+1450.1.1={citysize=5350}
+1500.1.1={citysize=6300 marketplace=yes}
+1547.1.1={fort2=yes}
+1550.1.1={citysize=7400}
+1569.7.1={owner=POL controller=POL add_core=POL} # Union of Lublin, western part ceded to Poland & southern part still belonged to Lithuania
+1588.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # Civil war
+1589.1.1={revolt={} controller=POL regimental_camp=yes} # Coronation of Sigismund III
+1600.1.1={citysize=8700}
+1655.1.1={controller=SWE citysize=9000} # The Deluge
+1660.1.1={controller=POL}
+1733.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # The war of Polish succession
+1735.1.1={revolt={} controller=POL}
+1780.1.1={textile=yes}
+1794.3.24={revolt_risk=5} # Kosciuszko uprising
+1794.11.16={revolt_risk=0} # The end of the uprising
+1795.10.24={owner=PRU controller=PRU add_core=PRU} # Third partition of Poland, annexed by Prussia
+1807.7.7={owner=RUS	controller=RUS add_core=RUS remove_core=PRU} # Treaty of Tilsit
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # Oktober-Revolution in Moskow
+1918.1.1={owner=PON controller=PON remove_core=SOV add_core=PON}
+1939.10.8={owner=NAZ controller=NAZ add_core=NAZ} # annexed by Nazi-Germany
+1944.12.1={owner=SOV controller=SOV}
+1945.5.4={owner=PON controller=PON remove_core=NAZ} # end of the 2nd WW

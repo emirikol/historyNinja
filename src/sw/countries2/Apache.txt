@@ -1,0 +1,91 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 202 137 255 } 
+
+historical_ideas={
+	national_conscripts
+	military_drill
+	deus_vult
+	quest_for_the_new_world
+}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare
+}
+
+monarch_names={
+	"Yasun #0"=20
+	"Cochise #0"=20
+	"Geronimo #0"=20
+	"Tohono O'odham #0"=20
+	"Chiricahua #0"=20
+	"Tahza #0"=20
+	"Nod-Ah-Sti #0"=20
+	"Dee-O-Deet #0"=20
+	"Naiche #0"=20
+	"Pa-Gotzin-Kay #0"=20
+	"Mangus Coloradas #0"=20
+	"Loco #0"=20
+	"Taza #0"=20
+	"Nana #0"=20
+	"Mangus #0"=20
+	"Chihuahua #0"=20
+	"Geronimo #0"=20
+	"Victorio #0"=20
+	"Chatto #0"=20
+	"Trujillo #0"=20
+	"Yavapai #0"=20
+	"Mescalero #0"=20
+	"Jicarilla #0"=20
+	"Lipans #0"=20
+	"Anadarko #0"=20
+	"Arivaipa  #0"=20
+}
+
+leader_names={
+	Adahy Atagulkalu 
+	Carlanas "Ch'ùùk'anén" Cibecue  "Chan-deisi" "Chawn-chissy" Chelee 	Chickasaw Cochinay Cheasequah
+	Dayden Delshay Dit'ood Dithith Diwali Degataga
+	Egogahan 
+	Faraones
+	Giannahtah Gosdoon Gunjule 
+	Kiowa-Apache "Ka Dish Day" 
+	"Ha'andah" "Hat'ugha" "Hesh-shea-gar"
+	Isdzan 
+	Lipiyànes
+	Mohe
+	Onacona
+	Tchishi Tsiyi
+	Waya
+	Xileños
+	}
+
+ship_names={
+	Mogollon "Nà'iisha" Natagees Querechos Athabaskan "Shil nzhoo" 
+	Shozlitzogue "Skee-kizzen" Tuzigoot Yadalanh "Ya a teh" Zastee 
+	"A he ya eh" "Naadaa dooltizh" "Nakai-ye" "Nantan eclatten"
+	Navezgane Nepotonje Sagozhuni "Shils aash" "Shi ma" 
+	"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" 
+	"Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" 
+	Kana'ti
+	Selu
+	"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" 
+	"I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+	"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+}
+
+army_names={
+	
+}
+
+fleet_names={
+	
+}

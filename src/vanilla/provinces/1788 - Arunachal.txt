@@ -1,0 +1,33 @@
+#1788 - Arunachal
+
+owner = ASS
+controller = ASS
+culture = assamese
+religion = hinduism
+capital = "Along"
+trade_goods = wool
+hre = no
+base_tax = 1
+manpower = 2
+citysize = 1000
+fort1 = yes
+add_core = ASS
+discovered_by = indian
+discovered_by = chinese
+
+1450.1.1 = { citysize = 3800 }
+1500.1.1 = { citysize = 4150 }
+1550.1.1 = { citysize = 5600 }
+1600.1.1 = { citysize = 6534 }
+1650.1.1 = { citysize = 7200 }
+1662.3.1 = { owner = MUG controller = MUG } # Mirjumla entered Gargaon
+1667.1.1 = { owner = ASS controller = ASS } # The Mughals are defeated
+1700.1.1 = { citysize = 7987 }
+1750.1.1 = { citysize = 8534 }
+1770.1.1 = { revolt_risk = 8 } # Moamoria rebellion
+1780.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 9300 }
+1819.1.1 = {	owner = TAU
+		controller = TAU
+		add_core = TAU
+	    } # Annexed by Burma

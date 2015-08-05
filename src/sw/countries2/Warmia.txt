@@ -1,0 +1,140 @@
+#Country Name: Please see filename.
+
+graphical_culture=latingfx
+
+color={ 235  113  85 }
+
+historical_ideas={
+	church_attendance_duty
+	merchant_adventures
+	patron_of_art
+	military_drill
+	national_bank
+	national_conscripts
+	national_trade_policy
+	cabinet
+	smithian_economics
+	scientific_revolution
+	bureaucracy
+	excellent_shipwrights
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	western_medieval_infantry
+	
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	prussian_frederickian
+	prussian_uhlan
+	prussian_drill
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+#For use only when Munster is ruled by a bishop
+monarch_names={
+	"Johann #2"=40
+	"Nicolaus #0"=40
+	"Ferdinand #0"=40
+	"Mauritius #0"=40
+	"Tiedemann #3"=20
+	"Simon #2"=20
+	"Johannes #1"=20
+	"Wenceslaus #1"=20
+	"Bernhard #0"=20
+	"Bernhard Christoph #0"=20
+	"Ernst #0"=20
+	"Franz #0"=20
+	"Franz Arnold #0"=20
+	"Friedrich Christian #0"=20
+	"Johann Wilhelm #0"=20
+	"Ludwig #2"=15
+	"Adolf #1"=15
+	"Ludwig #1"=10
+	"Adolf #1"=10
+	"Alexander #0"=0
+	"Andreas #0"=0
+	"Baldur #0"=0
+	"Bruno #0"=0
+	"Clemens #0"=0
+	"Dedrick #0"=0
+	"Denis #0"=0
+	"Ernst #0"=0
+	"Florian #0"=0
+	"Gregor #0"=0
+	"Guntram #0"=0
+	"Helmfried #0"=0
+	"Helmut #0"=0
+	"Isaak #0"=0
+	"Jan #0"=0
+	"Joachim #0"=0
+	"Martin #0"=0
+	"Michael #0"=0
+	"Rainer #0"=0
+	"Rudolf #0"=0
+	"Siegmund #0"=0
+}
+
+leader_names={
+        Giese Ferber "von Prag" "von Neiße"
+        "von Tüngen" "von Meißen" Rudnicki Kuhschmalz
+        Hosius Zaluski Bathory Wasa Dantiscus Stryprock
+}
+
+ship_names={
+	Allenstein Angerburg
+	Braunsberg
+	Danzig Dirschau
+	Elbing
+	Fishhausen Frauenburg
+	Gottersweder
+	Graudenz
+	Heilsberg
+	Insterburg
+	Königsberg Kulm Konitz
+	Lyck
+	Marienburg Marienwerder Memel Mittenburg
+	Niemen
+	Osterode Ortelsburg
+	Pillau Putzig
+	Tannenberg Tilsit Thorn
+	Wehlau
+}
+
+army_names={
+	"Armee von $PROVINCE$" 
+}

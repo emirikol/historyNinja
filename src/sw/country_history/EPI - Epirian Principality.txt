@@ -1,0 +1,108 @@
+government=duchy
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=2
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=1
+quality_quantity=-1
+serfdom_freesubjects=-2
+primary_culture=greek
+religion=orthodox
+technology_group=eastern
+capital=825	# Arta
+
+
+1203.2.16={
+	monarch={
+		name="Michael I"
+	dynasty="Komnenos"
+		adm=4
+		dip=5
+		mil=4}}
+		
+1216.2.16={
+	monarch={
+		name="Theodore"
+		dynasty="Komnenos"
+		adm=8
+		dip=8
+		mil=7}}
+
+1230.2.16={
+	monarch={
+		name="Michael II"
+		dynasty="Komnenos"
+		adm=6
+		dip=6
+		mil=5}}
+
+1268.2.16={
+	monarch={
+		name="Nikephoros I"
+		dynasty="Komnenos"
+		adm=6
+		dip=6
+		mil=5}}
+
+1297.2.16={
+	monarch={
+		name="Thomas I"
+		dynasty="Komnenos"
+		adm=6
+		dip=6
+		mil=5}}
+
+1318.2.16={
+	monarch={
+		name="Nicholas"
+		dynasty="Orsini"
+		adm=5
+		dip=5
+		mil=5}}
+
+1323.2.16={
+	monarch={
+		name="John II"
+		dynasty="Orsini"
+		adm=5
+		dip=5
+		mil=5}}		
+		
+1335.2.16={
+	monarch={
+		name="Nikephoros II"
+		dynasty="Orsini"
+		adm=5
+		dip=5
+		mil=5}}	
+		
+1391.2.16={
+	monarch={
+		name="Manuel II"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+1425.7.21={
+	monarch={
+		name="Ioannes VIII"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1448.10.31={
+	monarch={
+		name="Konstantinos XI"
+		adm=6
+		dip=5
+		mil=5
+		leader={	name="Konstantinos XI"	type=general	rank=0	fire=3	shock=3	manuever=4	siege=0 }
+	}
+}
+
+1452.1.1={ leader={	name="Giovanni Giustiniani"	type=general	rank=1	fire=2	shock=2	manuever=3	siege=0	death_date=1453.5.29 } }

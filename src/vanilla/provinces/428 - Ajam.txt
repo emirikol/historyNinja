@@ -1,0 +1,55 @@
+#428 - Ajam
+
+owner = TIM
+controller = TIM
+culture = persian
+religion = shiite
+capital = "Teheran"
+trade_goods = cloth
+hre = no
+base_tax = 8
+manpower = 5
+citysize = 28530
+add_core = PER
+add_core = TIM
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = TUR
+fort1 = yes
+
+1449.1.1  = {	owner = QAR
+		controller = QAR
+		add_core = QAR
+		remove_core = TIM
+	    } # Fars and surroundings to Qara Quyunlu
+1450.1.1  = { citysize = 32530 }
+1458.9.1  = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war in Qara Quyunlu
+1458.12.1 = { revolt = {} controller = QAR }
+1468.2.1  = {	owner = TIM
+		controller = TIM
+		add_core = TIM
+		remove_core = QAR
+	    } # Taken over by the Timurids
+1469.1.1  = {	owner = AKK
+		controller = AKK
+		add_core = AKK
+		remove_core = TIM
+	    }
+1500.1.1  = { citysize = 34350 marketplace = yes }
+1504.1.1  = {	owner = PER
+		controller = PER
+		remove_core = AKK
+	    } # The Safavids took over
+1548.7.27 = { capital = "Qazvin" }
+1550.1.1  = { citysize = 42099 discovered_by = TUR }
+1598.1.1  = { capital = "Teheran" }
+1600.1.1  = { citysize = 54750 }
+1650.1.1  = { citysize = 87335 }
+1675.12.1 = { base_tax = 6 } # Political fragmentation
+1700.1.1  = { citysize = 118660 }
+1747.1.1  = { revolt_risk = 3 } # Shah Nadir is killed, local khanates emerged
+1748.1.1  = { revolt_risk = 4 } # The empire began to decline
+1750.1.1  = { citysize = 122780 }
+1779.1.1  = { revolt_risk = 0 } # With the Qajar dynasty the situation stabilized
+1800.1.1  = { citysize = 141200 }

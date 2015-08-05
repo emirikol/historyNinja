@@ -1,0 +1,37 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=1
+innovative_narrowminded=0
+mercantilism_freetrade=-2
+offensive_defensive=-1
+land_naval=-1
+quality_quantity=-2
+serfdom_freesubjects=0
+primary_culture=turkish
+religion=sunni
+technology_group=muslim
+capital=879	# Sivas
+
+1071.6.1={
+monarch={
+name="Danishmend"
+dynasty="Gazi"
+adm=8
+dip=7
+mil=8}}
+
+1104.6.1={
+monarch={
+name="Gumushtigin"
+dynasty="Gazi"
+adm=8
+dip=7
+mil=8}}
+
+1134.6.1={
+monarch={
+name="Melik Mehmed"
+dynasty="Gazi"
+adm=7
+dip=7
+mil=7}}

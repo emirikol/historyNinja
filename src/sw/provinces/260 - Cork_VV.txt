@@ -1,0 +1,37 @@
+culture=irish
+religion=droid
+hre=no
+base_tax=2
+trade_goods=fish
+manpower=2
+capital="Cork"
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=KUN
+discovered_by=VES
+
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
+880.1.1={owner=VIK controller=VIK fort1=yes citysize=1800}
+1014.6.1={owner=MNS controller=MNS add_core=MNS religion=catholic}
+1450.1.1={citysize=2000}
+1583.1.1={owner=ENG controller=ENG add_core=ENG}
+1642.1.1={revolt={type=nationalist_rebels size=1} controller=REB} # Estimated
+1642.6.7={revolt={} owner=IRE controller=IRE} # Confederation of Kilkenny
+1650.4.10={controller=ENG} # Battle of Macroom
+1652.4.1={owner=ENG} # End of the Irish Confederates
+1655.1.1={fort2=yes}
+1670.1.1={citysize=10000}
+1675.1.1={courthouse=yes} # Estimated
+1689.3.12={revolt={type=nationalist_rebels size=0} controller=REB} # James II Lands in Ireland
+1690.9.15={revolt={} controller=ENG}
+1700.1.1={marketplace=yes} # Marketplace Estimated
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1921.12.6={remove_core=GBR owner=IRF controller=IRF add_core=IRF} # Dominion status

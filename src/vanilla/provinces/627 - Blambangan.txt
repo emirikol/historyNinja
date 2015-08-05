@@ -1,0 +1,36 @@
+#627 - Blambangan
+
+owner = MAJ
+controller = MAJ
+add_core = MAJ
+culture = sulawesi
+religion = hinduism
+capital = "Malang"
+trade_goods = cotton
+hre = no
+base_tax = 4
+manpower = 3
+citysize = 1100
+discovered_by = MAJ
+
+1500.1.1 = {	citysize = 0
+		native_size = 30
+		native_ferocity = 2
+		native_hostileness = 6
+		owner = XXX
+		controller = XXX
+		remove_core = MAJ
+		trade_goods = unknown
+	   }
+1614.1.1 = {	discovered_by = MTR
+		owner = MTR
+		controller = MTR
+		add_core = MTR
+		citysize = 18005
+		trade_goods = cotton
+	   } # Incorporated into the Sultanate of Mataram
+1615.1.1 = { religion = sunni }
+1650.1.1 = { citysize = 21040 }
+1700.1.1 = { citysize = 23300 }
+1750.1.1 = { citysize = 24570 }
+1800.1.1 = { citysize = 26544 }

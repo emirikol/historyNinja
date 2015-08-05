@@ -1,0 +1,15 @@
+culture=dakota
+religion=midewiwin
+trade_goods=corn
+capital="Minot"
+hre=no
+base_tax=4
+manpower=1
+discovered_by=OJI
+
+1732.1.1={discovered_by=FRA} # La Vérendrye
+1751.1.1={owner=FRA	controller=FRA culture=cosmopolitan_french religion=catholic citysize=1310} # Construction
+1760.1.1={controller=GBR} # The government of New France capitulate at Montreal
+1763.2.10={fort1=yes owner=GBR controller=GBR remove_core=FRA culture=english religion=protestant} # Treaty of Paris - ceded to Britain, France gave up its claim
+1803.4.3={owner=USA controller=USA add_core=USA	culture=american} # The Louisiana purchase
+1900.1.1={fort2=yes}

@@ -1,0 +1,324 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=bedouin_arabic
+religion=shamanism
+technology_group=muslim
+capital=390	# Sana'a
+
+632.6.1={religion=sunni}
+
+1250.1.1={
+	monarch={
+		name="al-Muzaffar Yusuf I"
+        dynasty="Rasuld"
+		adm=5
+		dip=7
+		mil=8}}
+
+1295.1.1={
+	monarch={
+		name="Al Ashraf Umar II"
+                dynasty="Rasuld"
+		adm=4
+		dip=9
+		mil=7
+	}
+}
+
+1296.1.1={
+	monarch={
+		name="al-Mu`ayyad Da`ud"
+                dynasty="Rasuld"
+		adm=7
+		dip=6
+		mil=4
+	}
+}
+
+1322.1.1={
+	monarch={
+		name="al-Mujahid Ali"
+                dynasty="Rasuld"
+		adm=8
+		dip=3
+		mil=6
+	}
+}
+
+1363.1.1={
+	monarch={
+		name="al-Afdal al-Abbas"
+                dynasty="Rasuld"
+		adm=6
+		dip=6
+		mil=5
+	}
+}
+
+1377.1.1={
+	monarch={
+		name="al-ashraf Isma`il I"
+                dynasty="Rasuld"
+		adm=7
+		dip=5
+		mil=6
+	}
+}
+
+1400.1.1={
+	monarch={
+		name="an-Nasir Ahmad"
+                dynasty="Rasuld"
+		adm=8
+		dip=4
+		mil=7
+	}
+}
+
+1424.1.1={
+	monarch={
+		name="al-Mansur Abdulah"
+                dynasty="Rasuld"
+		adm=6
+		dip=5
+		mil=4
+	}
+}
+
+1427.1.1={
+	monarch={
+		name="al-Ashraf Isma`il II"
+                dynasty="Rasuld"
+		adm=8
+		dip=5
+		mil=7
+	}
+}
+
+1428.1.1={
+	monarch={
+		name="al-Zahir Yahya"
+                dynasty="Rasuld"
+		adm=7
+		dip=8
+		mil=5
+	}
+}
+
+1439.1.1={
+	monarch={
+		name="al-Ashraf Isma`il III"
+                dynasty="Rasuld"
+		adm=5
+		dip=7
+		mil=4
+	}
+}
+
+1440.1.1={
+	heir={
+	monarch_name="an-Muzaffar Yusuf II"
+	birth_date=1382.1.1
+    death_date=1442.1.1
+	name="an-Muzaffar Yusuf"
+	claim=100
+	dynasty="Rasuld"
+		adm=6
+		dip=3
+		mil=8}
+}
+
+1442.1.1={
+	monarch={
+		name="an-Muzaffar Yusuf II"
+                dynasty="Rasuld"
+		adm=6
+		dip=3
+		mil=8	}}
+
+1447.1.1={
+	monarch={
+		name="Salâh ad-Din 'Amir I"
+		adm=7
+		dip=5
+		mil=5
+	}
+}
+
+1466.7.2={
+	monarch={
+		name="'Alî"
+		adm=4
+		dip=4
+		mil=6
+	}
+}
+
+1478.5.12={
+	monarch={
+		name="'Abd al-Wahhâb"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1489.4.9={
+	monarch={
+		name="Salâh ad-Din 'Amir II"
+		adm=5
+		dip=6
+		mil=7
+	}
+}
+
+1517.5.16={
+	monarch={
+		name="'Umar"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1538.8.4={
+	monarch={
+		name="Yahyâ IV"
+		adm=6
+		dip=5
+		mil=4
+	}
+}
+
+1558.1.1={
+	monarch={
+		name="al-Mutahhar IV"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+
+1572.1.1={
+	monarch={
+		name="Muhammad"
+		adm=3
+		dip=3
+		mil=6
+	}
+}
+
+1585.1.1={
+	monarch={
+		name="al-Qâsim"
+		adm=5
+		dip=3
+		mil=3
+	}
+}
+
+1620.2.18={
+	monarch={
+		name="Muhammad I"
+		adm=5
+		dip=6
+		mil=6
+	}
+}
+
+1644.9.30={
+	monarch={
+		name="Ismâ'îl"
+		adm=5
+		dip=7
+		mil=4
+	}
+}
+
+1676.7.15={
+	monarch={
+		name="Ahmad I"
+		adm=4
+		dip=6
+		mil=5
+	}
+}
+
+1681.5.25={
+	monarch={
+		name="Muhammad II"
+		adm=4
+		dip=4
+		mil=5
+	}
+}
+
+1686.1.1={
+	monarch={
+		name="Muhammad III"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+1718.1.1={
+	monarch={
+		name="al-Qâsim I"
+		adm=5
+		dip=4
+		mil=7
+	}
+}
+
+1727.1.1={
+	monarch={
+		name="al-Husayn"
+		adm=3
+		dip=6
+		mil=5
+	}
+}
+
+1748.1.1={
+	monarch={
+		name="al-'Abbâs"
+		adm=5
+		dip=4
+		mil=4
+	}
+}
+
+1775.1.1={
+	monarch={
+		name="'Alî I"
+		adm=6
+		dip=6
+		mil=6
+	}
+}
+
+1809.1.1={
+	monarch={
+		name="Ahmad II"
+		adm=6
+		dip=5
+		mil=6
+	}
+}
+
+1816.1.1={
+	monarch={
+		name="Abdallah I"
+		adm=5
+		dip=6
+		mil=6
+	}
+}

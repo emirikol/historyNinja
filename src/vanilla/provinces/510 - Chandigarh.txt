@@ -1,0 +1,43 @@
+#510 - Chandigarh
+
+owner = DLH
+controller = DLH
+culture = panjabi
+religion = hinduism
+capital = "Chandigarh"
+trade_goods = cloth
+hre = no
+base_tax = 1
+manpower = 2
+citysize = 17080
+add_core = DLH
+add_core = PUN
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+
+1450.1.1 = { citysize = 18750 }
+1500.1.1 = { citysize = 21000 }
+1526.1.1 = {	owner = MUG
+		controller = MUG
+		add_core = MUG
+		remove_core = DLH
+	   } # Battle of Panipat
+1550.1.1 = { citysize = 23300 }
+1600.1.1 = { citysize = 25400 }
+1650.1.1 = { citysize = 30900 }
+1700.1.1 = { citysize = 33210 }
+1750.1.1 = { citysize = 37570 }
+1770.1.1 = {	owner = MAR
+		controller = MAR
+		add_core = MAR
+		remove_core = MUG
+	   } # The Marathan Empire
+1800.1.1 = { citysize = 42100 }
+1818.6.3 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+		remove_core = MAR
+	   }

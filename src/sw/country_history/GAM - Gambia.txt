@@ -1,0 +1,57 @@
+government=administrative_republic
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=gambian
+religion=religious_tolerance
+technology_group=african
+capital=1113	# 
+
+1965.1.18={government=administrative_republic}
+
+1965.2.18={
+monarch={
+name="John Warburton Paul"
+adm=5
+dip=5
+mil=6}}
+
+1966.2.9={
+monarch={
+name="Farimang Mamadi Singateh"
+adm=5
+dip=5
+mil=6}}
+
+1970.4.24={
+monarch={
+name="Dawda Jawara"
+adm=5
+dip=5
+mil=6}}
+
+1981.7.30={
+monarch={
+name="Kukoi Samba Sanyang"
+adm=5
+dip=5
+mil=6}}
+
+1981.8.5={
+monarch={
+name="Dawda Jawara"
+adm=5
+dip=5
+mil=6}}
+
+1994.7.22={
+monarch={
+name="Yahya Jammeh"
+adm=5
+dip=5
+mil=6}}

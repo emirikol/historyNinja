@@ -1,0 +1,85 @@
+government=theocratic_government
+aristocracy_plutocracy=5
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-1
+offensive_defensive=3
+land_naval=-3
+quality_quantity=3
+serfdom_freesubjects=-2
+religion=catholic
+primary_culture=occitain
+add_accepted_culture=cosmopolitan_french
+technology_group=latin
+capital=202	# Avignon
+
+
+1305.1.1={
+monarch={
+name="Clement V"
+adm=6
+dip=7
+mil=3}}
+
+1314.4.20={
+monarch={
+name=""
+adm=9
+dip=6
+mil=3}}
+
+1316.8.7={
+monarch={
+name="John XXII"
+adm=6
+dip=6
+mil=2}}
+
+1334.12.4={
+monarch={
+name="Benedict XII"
+adm=7
+dip=7
+mil=4}}
+
+1342.4.25={
+monarch={
+name="Clement VI"
+adm=5
+dip=7
+mil=3}}
+
+1352.12.6={
+monarch={
+name="Innocent VI"
+adm=6
+dip=7
+mil=4}}
+
+1362.9.12={
+monarch={
+name="Urban V"
+adm=9
+dip=8
+mil=3}}
+
+1370.12.19={
+monarch={
+name="Gregory XI"
+adm=5
+dip=5
+mil=3}}
+
+1378.3.27={
+monarch={
+name="Clement VII"
+adm=5
+dip=4
+mil=4}}
+
+1394.9.17={
+monarch={
+name="Benedictus XIII"
+adm=4
+dip=6
+mil=3}}

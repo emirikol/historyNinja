@@ -1,0 +1,36 @@
+owner=SAK
+controller=SAK
+add_core=SAK
+culture=saka
+religion=tangra
+capital="Jaipur"
+fort1=yes
+trade_goods=rice
+hre=no
+base_tax=5
+manpower=2
+citysize=10800
+discovered_by=indian
+discovered_by=muslim
+discovered_by=SEV
+discovered_by=KAL
+discovered_by=SAK
+discovered_by=PAH
+discovered_by=DAS
+discovered_by=KSH
+
+180.6.1={owner=MLV controller=MLV add_core=MLV culture=malavian religion=hinduism remove_core=SAK}
+420.6.1={owner=HEP controller=HEP culture=hephthalites religion=tangra}
+567.6.1={owner=GUJ controller=GUJ add_core=GUJ culture=gujarati religion=hinduism}
+1399.6.1={owner=RAJ controller=RAJ add_core=RAJ culture=rajput}
+1527.1.1={owner=MUG controller=MUG add_core=MUG} # The Mughal Empire
+1669.1.1={revolt_risk=6} # The Jats revolted against Aurangzeb's rule
+1670.1.1={revolt_risk=0}
+1685.1.1={revolt_risk=6} # Jat revolt lead by Raja Ram
+1691.1.1={revolt_risk=0} # The Jats were defeated
+1707.1.1={revolt_risk=5} # With Aurangzeb's death the resistance grew
+1708.1.1={revolt_risk=0}
+1753.1.1={owner=MAR controller=MAR add_core=MAR	remove_core=MUG} # The Marathas
+1780.1.1={revolt_risk=5} # Internal chaos, parts of Jaipur were annexed to Alwar & Bharatpur
+1818.6.3={owner=GBR controller=GBR add_core=GBR}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

@@ -1,0 +1,30 @@
+owner=GHR
+controller=GHR
+add_core=GHR
+culture=moorish
+religion=shamanism
+capital="Tawdani"
+citysize=1100
+trade_goods=salt
+hre=no
+base_tax=2
+fort1=yes
+discovered_by=african
+discovered_by=RME
+discovered_by=RMP
+discovered_by=MAV
+discovered_by=GHR
+discovered_by=CEO
+
+630.6.1={discovered_by=muslim}
+695.6.1={owner=XXX controller=XXX remove_core=GHR culture=tuareg religion=sunni 
+native_size=60 native_ferocity=4.5 native_hostileness=10 fort1=no}
+1518.1.1={discovered_by=SON owner=SON controller=SON add_core=SON citysize=6000 fort1=yes manpower=1} #Askiya Muhammad of Songhai seizes control 
+1543.1.1={discovered_by=MOR add_core=MOR revolt_risk=3} #Muhammad al-Shaykh claims Taodeni for Morocco, stirs up resistance to Songhai
+1556.1.1={owner=MOR controller=MOR} #Moroccan Expedition seizes Taghaza
+1557.1.1={owner=SON controller=SON} #Morocco returns Taghaza to Songhai control
+1585.1.1={owner=MOR controller=MOR} #Moroccan Expedition expels Songhai governor
+1642.1.1={remove_core=SON} #Collapse of last vestiges of unity among Songhai
+1901.1.1={owner=RFR controller=RFR add_core=RFR add_core=ALF}
+1919.1.1={trade_goods=gas}
+1962.1.1={owner=ALF controller=ALF remove_core=RFR}

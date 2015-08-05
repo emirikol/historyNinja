@@ -1,0 +1,212 @@
+government=feudal_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=4
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=0
+land_naval=-1
+quality_quantity=0
+serfdom_freesubjects=-4
+primary_culture=aquitaine 
+add_accepted_culture=gascon
+add_accepted_culture=cosmopolitan_french
+add_accepted_culture=occitain
+add_accepted_culture=catalan
+religion=early
+technology_group=e_latin
+capital=455
+
+
+688.1.1={
+	monarch={
+		name="Odo the Great"
+		adm=3
+		dip=6
+		mil=4
+	}
+}
+
+735.5.18={
+	monarch={
+		name="Hunald I"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+748.12.30={
+	monarch={
+		name="Waifer"
+		adm=4
+		dip=6
+		mil=4
+	}
+}
+
+767.8.14={
+	monarch={
+		name="Hunald II"
+		adm=5
+		dip=5
+		mil=7
+	}
+}
+
+768.12.13={
+	monarch={
+		name="Lupus II"
+		adm=6
+		dip=3
+		mil=5
+	}
+}
+
+843.1.1={religion=catholic technology_group=latin elector=yes}
+
+843.1.1={
+	monarch={
+		name="Ranulph I"
+		adm=7
+		dip=5
+		mil=6
+	}
+}
+
+
+
+887.3.6={
+	monarch={
+		name="Ranulph II"
+		adm=3
+		dip=4
+		mil=3
+	}
+}
+
+890.2.25={
+	monarch={
+		name="Ebalus the Bastard"
+		adm=3
+		dip=4
+		mil=7
+	}
+}
+
+893.2.12={
+	monarch={
+		name="William I the Pious"
+		adm=3
+		dip=7
+		mil=3
+	}
+}
+
+918.10.27={
+	monarch={
+		name="William II the Younger"
+		adm=5
+		dip=4
+		mil=5
+	}
+}
+
+926.10.23={
+	monarch={
+		name="Acfred"
+		adm=3
+		dip=7
+		mil=5
+	}
+}
+
+927.9.20={
+	monarch={
+		name="William III Towhead"
+		adm=4
+		dip=5
+		mil=6
+	}
+}
+
+963.2.24={
+	monarch={
+		name="William IV Iron Arm"
+		adm=5
+		dip=3
+		mil=6
+	}
+}
+
+995.10.25={
+	monarch={
+		name="William V the Great"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+1030.10.25={
+	monarch={
+		name="William VI the Fat"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+1038.10.25={
+	monarch={
+		name="Eudes"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+1039.10.25={
+	monarch={
+		name="William VII the Eagle"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+1058.1.1={
+	monarch={
+		name="William VIII"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+1086.1.1={
+	monarch={
+		name="William IX the Troubadour"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+1127.1.1={
+	monarch={
+		name="William X the Saint"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+1137.1.1={
+	monarch={
+		name="Eleanor"
+		adm=5
+		dip=7
+		mil=5
+		female=yes
+	}
+}

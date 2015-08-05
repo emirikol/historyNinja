@@ -1,0 +1,46 @@
+government=constitutional_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=bantu
+religion=religious_tolerance
+technology_group=african
+capital=1113	# 
+
+
+1966.10.4={
+monarch={
+name="Moshoeshoe II"
+dynasty="Lesoto"
+adm=5
+dip=5
+mil=6}}
+
+1990.11.12={
+monarch={
+name="Letsie III"
+dynasty="Lesoto"
+adm=5
+dip=5
+mil=6}}
+
+1995.1.25={
+monarch={
+name="Moshoeshoe II"
+dynasty="Lesoto"
+adm=5
+dip=5
+mil=6}}
+
+1996.2.7={
+monarch={
+name="Letsie III"
+dynasty="Lesoto"
+adm=5
+dip=5
+mil=6}}

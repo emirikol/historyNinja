@@ -1,0 +1,51 @@
+owner=SRM
+controller=SRM
+add_core=SRM
+culture=sarmathian
+religion=zoro
+hre=no
+base_tax=3
+trade_goods=fish
+manpower=1
+capital="Nika"
+citysize=8500
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=GHT
+discovered_by=SRM
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ODR
+discovered_by=PNO
+discovered_by=BAO
+discovered_by=PHU
+
+290.6.1={manpower=2 owner=SRM controller=SRM culture=sarmathian add_core=HNU remove_core=SRM}
+295.6.1={manpower=1 owner=HNU controller=HNU culture=huns religion=tangra remove_core=HNU}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+451.6.1={manpower=2 owner=TIV controller=TIV add_core=TIV culture=tivertzi religion=perun}
+562.6.1={manpower=1 owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism remove_core=GEH}
+630.6.1={discovered_by=muslim manpower=2 owner=GBG controller=GBG add_core=GBG 
+culture=proto_bulgarian religion=tangra remove_core=AVE discovered_by=BGK}
+681.6.1={manpower=2 owner=BGK controller=BGK add_core=BGK religion=tangra remove_core=GEH culture=bulgarian}
+843.6.1={discovered_by=latin}
+866.1.1={manpower=3 owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+970.5.1={owner=KIV controller=KIV religion=orthodox}
+1015.1.1={owner=PEC controller=PEC remove_core=KIV add_core=PEC culture=pecheneg}
+1099.1.1={owner=CUM controller=CUM remove_core=PEC add_core=CUM}
+1196.6.1={owner=BUL controller=BUL add_core=BUL remove_core=MOL culture=bulgarian}
+1262.8.1={owner=GOL controller=GOL}
+1398.6.1={owner=LIT controller=LIT}
+1406.6.1={owner=GOL controller=GOL}
+1441.1.1={owner=CRI	controller=CRI add_core=CRI remove_core=GOL} # The Crimean Khanate
+1450.1.1={citysize=10900}
+1475.5.1={add_core=TUR} # Seized by Gedik Ahmet Pasha
+1500.1.1={marketplace=yes}
+1648.1.1={add_core=UKR}
+1778.6.18={owner=RUS controller=RUS add_core=RUS remove_core=TUR capital="Nikolaev"} 
+1874.1.1={culture=ruthenian religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1941.12.1={owner=NAZ controller=NAZ}
+1944.4.1={owner=SOV controller=SOV}
+1991.1.1={owner=UKR controller=UKR add_core=UKR remove_core=SOV} # independence of the Ukraine

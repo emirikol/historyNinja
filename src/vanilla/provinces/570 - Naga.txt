@@ -1,0 +1,31 @@
+#570 - Naga
+
+owner = ASS
+controller = ASS
+culture = assamese
+religion = animism
+capital = "Naga"
+trade_goods = grain
+hre = no
+base_tax = 1
+manpower = 2
+citysize = 10200
+fort1 = yes
+add_core = ASS
+discovered_by = indian
+discovered_by = chinese
+
+1450.1.1 = { citysize = 10800 }
+1500.1.1 = { citysize = 11578 }
+1550.1.1 = { citysize = 13240 }
+1600.1.1 = { citysize = 14867 }
+1650.1.1 = { citysize = 15380 }
+1700.1.1 = { citysize = 17000 }
+1750.1.1 = { citysize = 18572 }
+1770.1.1 = { revolt_risk = 8 } # Moamoria rebellion
+1800.1.1 = { citysize = 19050 }
+1806.1.1 = { revolt_risk = 0 }
+1819.1.1 = {	owner = TAU
+		controller = TAU
+		add_core = TAU
+	    } # Annexed by Burma

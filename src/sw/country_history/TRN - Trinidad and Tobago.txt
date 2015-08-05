@@ -1,0 +1,65 @@
+government=federal_republic
+aristocracy_plutocracy=0
+centralization_decentralization=-1
+innovative_narrowminded=-1
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-2
+quality_quantity=0
+serfdom_freesubjects=3
+technology_group=latin
+religion=protestant
+primary_culture=english
+capital=502	# Port-of-Spain
+
+1950.1.1={
+	monarch={
+		name="Eric Eustace Williams"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+
+1950.1.2={religion=religious_tolerance}
+
+1981.3.29={
+	monarch={
+		name="George Michael Chambers"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+1986.12.18={
+	monarch={
+		name="Arthur Napoleon Raymond Robinson"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+1991.12.17={
+	monarch={
+		name="Patrick Augustus Mervyn Manning"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+1995.11.9={
+	monarch={
+		name="Basdeo Panday"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+2001.12.24={
+	monarch={
+		name="Patrick Augustus Mervyn Manning"
+		adm=4
+		dip=4
+		mil=4
+	}
+}

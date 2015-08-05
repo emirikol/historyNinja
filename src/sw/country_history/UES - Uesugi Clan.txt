@@ -1,0 +1,72 @@
+government=duchy
+aristocracy_plutocracy=-4
+centralization_decentralization=2
+innovative_narrowminded=2
+mercantilism_freetrade=-5
+offensive_defensive=-1
+land_naval=0
+quality_quantity=-4
+serfdom_freesubjects=-5
+primary_culture=japanese
+religion=shinto
+technology_group=chinese
+capital=1645	# Niigata
+
+
+1450.1.1={
+	monarch={
+		name="Akisada"
+		dynasty="Uesugi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1510.1.1={
+	monarch={
+		name="Akizane"
+		dynasty="Uesugi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1515.1.1={
+	monarch={
+		name="Norifusa"
+		dynasty="Uesugi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1525.1.1={
+	monarch={
+		name="Norihiro"
+		dynasty="Uesugi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1531.1.1={
+	monarch={
+		name="Norimasa"
+		dynasty="Uesugi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1561.1.1={
+	monarch={
+		name="Kenshin"
+		dynasty="Uesugi"
+		adm=5
+		dip=8
+		mil=8
+		leader={name="Uesugi Kenshin" type=general rank=0	fire=2 shock=3	manuever=3	siege=0}}}
+
+1578.4.20={
+	monarch={
+		name="Kagekatsu"
+		dynasty="Uesugi"
+		adm=7
+		dip=5
+		mil=7
+		leader={name="Uesugi Kagekatsu" type=general	 rank=0 fire=2 shock=4 manuever=2	siege=0}}}

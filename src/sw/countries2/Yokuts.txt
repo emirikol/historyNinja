@@ -1,0 +1,60 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 0 148 255 } 
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art
+}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare
+}
+
+monarch_names={
+	"Mariposans #0"=20
+	"Yet #0"=20
+	"Punuy #0"=20
+	"Soopin #0"=20
+	"Hathpanay #0"=20
+	"Yitecinil #0"=20
+	"Kouteun #0"=20
+	"Muk'ela #0"=20
+	"Teejej #0"=20
+	"Opodo #0"=20
+	"T'oynopodo #0"=20
+	"Tayenimniop #0"=20
+	"Ilik' #0"=20
+	"Yokutsan #0"=20
+	"Yawelmani #0"=20
+	"Tulamni #0"=20
+}
+
+leader_names={
+	Hometwali Gashowu Chukaymina Michahay Ayitcha Choynimni 
+	"Tule-Kaweah" Wikchamni Yawdanchi Bokninuwad Palewyami
+	Yachikumne Chalostaca Lakisamni Tawalimni Chawchila  
+}
+
+ship_names={
+	Chukchansi Kechayi Wechihit Nutunutu Tachi Chunut "Wo'lasi" Choynok Koyeti Yawelmani Wowol Telamni 
+}
+
+
+

@@ -1,0 +1,42 @@
+#626 - Mataram
+
+owner = MAJ
+controller = MAJ
+add_core = MAJ
+culture = sulawesi
+religion = hinduism
+capital = "Karta"
+trade_goods = spices
+hre = no
+base_tax = 8
+manpower = 6
+citysize = 10800
+discovered_by = MAJ
+
+1500.1.1 = {	citysize = 0
+		native_size = 30
+		native_ferocity = 2
+		native_hostileness = 6
+		owner = XXX
+		controller = XXX
+		remove_core = MAJ
+	   }
+1570.1.1 = {	discovered_by = MTR
+		owner = MTR
+		controller = MTR
+		add_core = MTR
+		religion = sunni
+		citysize = 48570
+	   } # The Sultanate of Mataram
+1600.1.1 = { citysize = 52000 }
+1613.1.1 = { discovered_by = NED } # The Dutch arrived
+1617.1.1 = { revolt_risk = 5 } # Rebellion against Mataram rule
+1620.1.1 = { revolt_risk = 2 }
+1627.1.1 = { revolt_risk = 7 } # Rebellion
+1630.1.1 = { revolt_risk = 0 }
+1647.1.1 = { capital = "Plered" }
+1650.1.1 = { citysize = 50910 }
+1680.1.1 = { capital = "Kartosuro" }
+1700.1.1 = { citysize = 52340 }
+1750.1.1 = { citysize = 53887 }
+1800.1.1 = { citysize = 55630 }

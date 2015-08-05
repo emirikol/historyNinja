@@ -1,0 +1,13 @@
+government=imperial_government
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-1
+quality_quantity=-1
+serfdom_freesubjects=-1
+technology_group=indian
+religion=hinduism
+primary_culture=guptian
+capital=1247	# Jabalpur

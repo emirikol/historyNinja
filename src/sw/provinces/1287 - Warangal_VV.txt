@@ -1,0 +1,32 @@
+owner=SEV
+controller=SEV
+add_core=SEV
+culture=satavahana
+religion=buddhism
+capital="Warangal"
+trade_goods=coal
+hre=no
+base_tax=3
+manpower=2
+citysize=10410
+fort1=yes
+discovered_by=indian
+discovered_by=muslim
+discovered_by=SEV
+discovered_by=KAL
+discovered_by=SAK
+
+403.6.1={owner=VAK controller=VAK add_core=VAK culture=vakatakian remove_core=SEV}
+520.6.1={owner=CYA controller=CYA add_core=CYA culture=telegu religion=hinduism remove_core=VAK}
+753.8.1={owner=RHT controller=RHT add_core=RHT}
+982.6.1={owner=CYA controller=CYA add_core=CYA remove_core=RHT}
+1200.5.1={owner=BAH controller=BAH add_core=BAH remove_core=CYA}
+1507.1.1={add_core=GOC} # Qutb Shahi dynasty
+1518.12.18={owner=GOC controller=GOC remove_core=BAH} # The Breakup of the Bahmani sultanate
+1550.1.1={fort2=yes} # The Qutb Shahis expanded the fort
+1620.1.1={marketplace=yes}
+1687.1.1={owner=MUG	controller=MUG add_core=MUG} # Conquered by the Mughal emperor Aurangzeb
+1720.1.1={tax_assessor=yes}
+1724.1.1={owner=HYD	controller=HYD add_core=HYD remove_core=MUG} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1892.1.1={trade_goods=steel}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

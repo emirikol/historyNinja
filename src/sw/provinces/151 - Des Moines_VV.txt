@@ -1,0 +1,26 @@
+owner=OSA
+controller=OSA
+add_core=OSA
+culture=dakota
+religion=ind_pagan
+capital="Moines"
+fort1=yes
+citysize=2300
+trade_goods=coal
+hre=no
+base_tax=2
+manpower=2
+discovered_by=CKS
+discovered_by=OSA
+discovered_by=CAD
+discovered_by=ILL
+
+1684.1.1={discovered_by=FRA} # Nicolas Perrot
+1727.1.1={owner=FRA controller=FRA citysize=522 culture=cosmopolitan_french capital="Des Moines"
+religion=catholic remove_core=OSA} # Several smaller settlements
+1752.1.1={add_core=FRA}
+1760.1.1={controller=GBR} # The government of New France capitulate at Montreal
+1763.2.10={owner=GBR controller=GBR remove_core=FRA culture=english religion=protestant} # Treaty of Paris - ceded to Britain, France gave up its claim
+1783.9.3={owner=USA	controller=USA add_core=USA culture=american religion=protestant}
+1800.1.1={citysize=2870}
+1900.1.1={fort2=yes}

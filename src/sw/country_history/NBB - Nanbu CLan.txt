@@ -1,0 +1,70 @@
+government=duchy
+aristocracy_plutocracy=-4
+centralization_decentralization=2
+innovative_narrowminded=2
+mercantilism_freetrade=-5
+offensive_defensive=-1
+land_naval=0
+quality_quantity=-4
+serfdom_freesubjects=-5
+primary_culture=japanese
+religion=shinto
+technology_group=chinese
+capital=1657	# Kyoto
+
+
+1450.1.1={
+	monarch={
+		name="Nobutoki"
+		dynasty="Nanbu"
+		adm=5
+		dip=6
+		mil=5}}
+
+1502.1.1={
+	monarch={
+		name="Nobuyoshi"
+		dynasty="Nanbu"
+		adm=5
+		dip=5
+		mil=6}}
+
+1503.1.1={
+	monarch={
+		name="Masayasu"
+		dynasty="Nanbu"
+		adm=6
+		dip=5
+		mil=5}}
+
+1507.1.1={
+	monarch={
+		name="Yasunobu"
+		dynasty="Nanbu"
+		adm=6
+		dip=4
+		mil=5}}
+
+1541.1.1={
+	monarch={
+		name="Harumasa"
+		dynasty="Nanbu"
+		adm=6
+		dip=5
+		mil=4}}
+
+1582.1.1={
+	monarch={
+		name="Harutsugu"
+		dynasty="Nanbu"
+		adm=5
+		dip=5
+		mil=5}}
+
+1582.12.1={
+	monarch={
+		name="Nobunao"
+		dynasty="Nanbu"
+		adm=5
+		dip=5
+		mil=5}}

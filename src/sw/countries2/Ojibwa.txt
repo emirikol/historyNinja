@@ -1,0 +1,65 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+color={255 216 0} 
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare}
+
+monarch_names={
+	"Gichigamiwininiwag #0"=20
+	"Gichiziibiwininiwag  #0"=20
+	"Moingwena #0"=20
+	"Moowiingwenaa #0"=20
+	"Odaawaa #0"=20
+	"Boodewaadamii #0"=20
+	"Bodéwadmi #0"=20
+	"Asakiwaki #0"=20
+	"Naadawensiw #0"=20
+	"Ginebig #0"=20
+	"Shoshoni #0"=20
+	"Winnebago #0"=20
+	"Wiinibiigoo #0"=20
+	"Aakaanzhish #0"=20
+	"Quapaw #0"=20
+	"Assiniboine #0"=20
+	"Asiniibwaan #0"=20
+	"Makadewanazid #0"=20
+	"Siksikawa #0"=20
+	"Chipewyan #0"=20
+	"Ojiibwayaan #0"=20
+	"Chowanoc #0"=20
+	"Zhaawanoog #0"=20
+	"Ashki-amaw  #0"=20}
+
+leader_names={
+	Doudem Bawitigowininiwag 
+	Biitanakiing Nebagindibe Aakaans 		
+	Gaaskaaskeyaa Kickapoo 
+	Giiwigaabaw Menominee Omanoominii
+	Omaeqnomenew Omaamii 
+	Myaamia Miigimaa Mi'kmaq}
+
+ship_names={
+	Ojibwés Anishinaabes 
+	Chippewa Ojiibwabwe Ozhibii'oweg 
+	Chegoimegon Wigwam "Pow-wows" 
+	Goojijiwininiwag Nipissing}

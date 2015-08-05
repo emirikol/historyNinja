@@ -1,0 +1,45 @@
+owner=DAC
+controller=DAC
+add_core=DAC
+culture=dacian
+religion=orfi
+capital="Bejovar"
+trade_goods=grain
+hre=no
+base_tax=3
+manpower=2
+citysize=4500
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+
+88.6.1={owner=RME controller=RME add_core=RME}
+210.6.1={owner=XXX controller=XXX remove_core=RME remove_core=DAC}
+290.6.1={owner=GEP controller=GEP culture=gepids religion=odin}
+355.6.1={owner=OST controller=OST culture=ostrogothic religion=odin}
+370.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+451.6.1={owner=GEP controller=GEP add_core=GEP remove_core=HNU culture=gepids religion=odin}
+500.1.1={discovered_by=nomad_group}
+580.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism}
+805.8.1={owner=BGK controller=BGK add_core=BGK remove_core=AVE remove_core=HSL culture=bulgarian religion=tangra}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+943.5.1={owner=HUN controller=HUN religion=catholic culture=croatian add_core= CRO}
+1450.1.1={citysize=4970}
+1500.1.1={citysize=5589}
+1526.8.30={owner=TUR controller=TUR	add_core=TUR} # Battle of Mohács
+1550.1.1={citysize=6541}
+1600.1.1={citysize=7120}
+1604.1.1={revolt={type=noble_rebels size=1.5} controller=REB} # The nobility in Royal Hungary rebelled
+1606.1.1={revolt={} controller=TUR}
+1630.1.1={marketplace=yes}
+1650.1.1={citysize=8290}
+1687.9.29={controller=HAB} # Occupied by the Habsburg Empire
+1699.1.1={owner=HAB	add_core=HAB remove_core=TUR}
+1700.1.1={citysize=9817}
+1721.1.1={fort2=yes}
+1750.1.1={citysize=10122}
+1919.12.4={owner=YGK controller=YGK add_core=YGK add_core=CRO remove_core=HUN} # Yugoslavia gets independent
+1941.4.17={owner=NDH controller=NDH} # German vassal state
+1944.1.1={owner=YUG controller=YUG} # Partisans free the area
+1991.6.25={owner=CRO controller=CRO} # independence of Croatia

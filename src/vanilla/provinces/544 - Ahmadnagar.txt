@@ -1,0 +1,44 @@
+#544 - Ahmadnagar
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Ahmadnagar"
+trade_goods = spices
+hre = no
+base_tax = 5
+manpower = 2
+citysize = 9630
+fort1 = yes
+add_core = BAH
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1  = { citysize = 10500 }
+1490.1.1  = { add_core = BAS }
+1500.1.1  = { citysize = 11780 }
+1518.1.1  = {	owner = BAS
+		controller = BAS
+		remove_core = BAH
+	    } # The Breakup of the Bahmani sultanate
+1550.1.1  = { citysize = 12900 }
+1600.1.1  = { citysize = 14570 }
+1633.7.27 = {	owner = MUG
+		controller = MUG
+		add_core = MUG
+	    } # Conquered by Shah Jahan
+1650.1.1  = { citysize = 16400 }
+1674.1.1  = { add_core = MAR } # Maratha Empire
+1700.1.1  = { citysize = 18700  }
+1750.1.1  = { citysize = 23200 }
+1759.1.1  = {	owner = MAR
+		controller = MAR
+		remove_core = MUG
+	    } # The region is ceded to Maratha Peshwa
+1800.1.1  = { citysize = 25700 }
+1818.6.3 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+	   }

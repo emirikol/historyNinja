@@ -1,0 +1,48 @@
+government=constitutional_republic
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=senegalian
+religion=sunni
+technology_group=african
+capital=1783
+
+1950.1.1={religion=religious_tolerance}
+
+1960.9.6={ government=constitutional_republic }
+
+1960.9.6={
+	monarch={
+		name="Léopold Sédar Senghor"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+1966.1.1={ government=republican_dictatorship }
+
+1974.1.1={ government=constitutional_republic }
+
+1981.1.1={
+	monarch={
+		name="Abdou Diouf"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+2000.4.1={
+	monarch={
+		name="Abdoulaye Wade"
+		adm=5
+		dip=5
+		mil=6
+	}
+}

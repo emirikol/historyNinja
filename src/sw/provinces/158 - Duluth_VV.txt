@@ -1,0 +1,29 @@
+owner=OJI
+controller=OJI
+add_core=OJI
+culture=ojibwe
+religion=midewiwin
+capital="Chippewa"
+fort1=yes
+citysize=1000
+trade_goods=iron
+hre=no
+base_tax=1
+manpower=1
+discovered_by=OJI
+discovered_by=PWT
+discovered_by=ERA
+
+1654.1.1={discovered_by=FRA} # Médard Chouart Des Groseilliers
+1737.1.1={capital="Duluth" owner=FRA controller=FRA citysize=400 culture=cosmopolitan_french 
+religion=catholic remove_core=OJI fort1=no}  # Construction of Fot St. Pierce
+1760.1.1={controller=GBR} # The government of New France capitulate at Montreal
+1763.1.1={add_core=FRA}
+1763.2.10={discovered_by=GBR owner=GBR controller=GBR remove_core=FRA culture=english 
+religion=protestant} # Treaty of Paris - ceded to Britain, France gave up its claim
+1774.1.1={add_core=QUE} # United with Canada under the Quebec Act of 1774
+1783.9.3={owner=USA controller=USA add_core=USA}
+1791.1.1={add_core=CAN remove_core=QUE} # The Constitutional Act, Quebec is split into upper & lower Canada
+1800.1.1={citysize=1870 fort1=yes}
+1862.3.1={culture=canadian}
+1900.1.1={fort2=yes}

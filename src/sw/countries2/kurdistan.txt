@@ -1,0 +1,71 @@
+#Country Name: Please see filename.
+
+graphical_culture=muslimgfx
+
+color={234 147 125}
+
+historical_ideas={national_conscripts
+grand_army
+divine_supremacy
+military_drill
+glorious_arms
+battlefield_commisions
+engineer_corps
+espionage
+shrewd_commerce_practise
+national_trade_policy
+scientific_revolution
+national_bank}
+
+historical_units={15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+ottoman_yaya
+ottoman_musellem
+ottoman_azab
+ottoman_timariot
+ottoman_janissary
+ottoman_spahi
+ottoman_sekban
+ottoman_reformed_spahi
+ottoman_reformed_janissary
+ottoman_toprakli_hit_and_run
+ottoman_nizami_cedid
+ottoman_toprakli_dragoon
+eastern_skirmisher
+eastern_uhlan
+eastern_carabinier
+ottoman_new_model
+ottoman_lancer}
+
+monarch_names={"Salah al-Din #0"=80}
+
+leader_names={Salah al-Din}
+
+ship_names={Salah al-Din}
+
+army_names={"Army of Kurdistan" "Army of Syria" "Army of Egypt"}
+
+fleet_names={"Salah al-Din Squadron"}

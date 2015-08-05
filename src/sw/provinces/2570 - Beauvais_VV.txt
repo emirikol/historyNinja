@@ -1,0 +1,70 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=GLA
+culture=gallic
+religion=groman
+capital="Beauvais"
+citysize=5000
+hre=no
+base_tax=4
+trade_goods=grain
+manpower=3
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+discovered_by=GLA
+discovered_by=SUE
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+461.8.7={owner=GLA controller=GLA add_core=GLA religion=early remove_core=RMP}
+486.2.1={owner=HFR controller=HFR remove_core=GLA add_core=HFR culture=frankish}
+799.12.24={religion=catholic}
+843.1.1={owner=FRA controller=FRA add_core=FRA remove_core=HFR}
+870.6.1={owner=BUR controller=BUR add_core=BUR culture=burgundian hre=no}
+1066.1.1={owner=VIK controller=VIK add_core=FLA culture=normand}
+1080.1.1={owner=NRM controller=NRM}
+1399.1.1={add_core=FRA}
+1477.1.5={owner=FRA controller=FRA remove_core=BUR} # Charles the Bold dies and transfers Picardie to France
+1513.8.16={controller=ENG} # Henry VIII defeats La Palice at Guinnegate and sacks Therouanne
+1514.5.5={controller=FRA} # Henry VIII concludes a seperate peace with France
+1520.1.1={fort2=yes}
+1530.1.1={marketplace=yes}
+1544.7.5={controller=ENG} # English forces take hold of parts of Picardie in the Anglo-French War (1542-1546)
+1546.8.1={controller=FRA} # Peace is concluded, back to status quo
+1550.1.1={citysize=27000}
+1594.1.1={revolt_risk=0} # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1={constable=yes}
+1628.1.1={revolt_risk=3}
+1630.1.1={revolt_risk=0}
+1638.1.1={revolt_risk=3}
+1640.1.1={revolt_risk=0}
+1642.1.1={revolt_risk=3}
+1644.1.1={revolt_risk=0}
+1720.1.1={courthouse=yes}
+1730.1.1={workshop=yes}
+1750.1.1={customs_house=yes}
+1760.1.1={tax_assessor=yes}
+1786.1.1={base_tax=5} # The Eden Agreement
+1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # Napoleon enters Paris
+1815.7.8={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # The French monarchy is restored
+1871.1.1={add_core=RFR remove_core=FRA owner=RFR controller=RFR} # 3rd French Republic founded
+1940.6.22={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.12.1={owner=USA controller=USA}
+1945.5.8={owner=RFR controller=RFR}

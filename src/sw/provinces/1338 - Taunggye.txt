@@ -1,0 +1,39 @@
+culture=shan
+religion=buddhism
+capital="Taunggyi"
+trade_goods=wool
+hre=no
+base_tax=2
+manpower=1
+add_core=SST
+discovered_by=chinese
+discovered_by=indian
+
+900.1.1={owner=SST controller=SST add_core=SST citysize=6700}
+1450.1.1={citysize=7100}
+1500.1.1={citysize=8500}
+1550.1.1={citysize=9670}
+1555.1.1={owner=TAU
+		controller=TAU
+		add_core=TAU
+	  } # The Shan dynasty is overthrown
+1581.1.1={owner=SST
+		controller=SST
+		remove_core=TAU
+	  } # Very loosely controlled
+1600.1.1={citysize=10140}
+1650.1.1={citysize=11385}
+1700.1.1={citysize=12890}
+1739.1.1={revolt_risk=5} # Rebellion
+1740.1.1={revolt_risk=0}
+1750.1.1={citysize=13450}
+1753.1.1={owner=TAU
+		controller=TAU
+	   	add_core=TAU
+	  } # Burmese campaigns
+1800.1.1={citysize=14887}
+1885.1.1={owner=GBR controller=GBR add_core=GBR}
+1900.1.1={fort1=yes}
+1942.3.1={owner=JAP controller=JAP}
+1945.7.1={controller=GBR owner=GBR}
+1948.1.4={owner=MYA controller=MYA add_core=MYA remove_core=GBR remove_core=TAU}

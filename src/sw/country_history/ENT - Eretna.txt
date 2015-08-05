@@ -1,0 +1,47 @@
+government=principality
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-1
+quality_quantity=-1
+serfdom_freesubjects=-1
+primary_culture=turkish
+religion=sunni
+historical_friend=IKH
+technology_group=muslim
+capital=879
+
+
+1335.1.1={
+monarch={
+name="Alaeddin"
+dynasty="Eretna"
+adm=5
+dip=5
+mil=6}}
+
+1352.1.1={
+monarch={
+name="Giyaseddin Mehmed"
+dynasty="Eretna"
+adm=5
+dip=6
+mil=6}}
+
+1365.1.1={
+monarch={
+name="Alaeddin Ali"
+dynasty="Eretna"
+adm=6
+dip=6
+mil=6}}
+
+1380.1.1={
+monarch={
+name="Ikinci Mehmed"
+dynasty="Eretna"
+adm=6
+dip=6
+mil=6}}

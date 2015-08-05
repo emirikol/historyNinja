@@ -1,0 +1,145 @@
+government=despotic_monarchy
+aristocracy_plutocracy=4
+centralization_decentralization=-4
+innovative_narrowminded=3
+mercantilism_freetrade=3
+offensive_defensive=0
+land_naval=-1
+quality_quantity=0
+serfdom_freesubjects=-4
+primary_culture=ostrogothic
+religion=odin
+historical_friend=GHT
+historical_friend=VIS
+technology_group=barbarian
+capital=768
+
+
+410.6.1={religion=early}
+
+447.1.1={ 
+monarch={ 
+name="Valamir" 
+dynasty="Amal" 
+adm=5 
+dip=5 
+mil=6}} 
+
+465.1.1={ 
+monarch={ 
+name="Videmir" 
+dynasty="Amal" 
+adm=5 
+dip=5 
+mil=5}} 
+
+470.1.1={ 
+monarch={ 
+name="Theodemir" 
+dynasty="Amal" 
+adm=5 
+dip=5 
+mil=5}} 
+
+474.1.1={ 
+monarch={ 
+name="Theodoric the Great" 
+dynasty="Amal" 
+adm=6 
+dip=7 
+mil=7}} 
+
+526.8.30={ 
+monarch={ 
+name="Athalaric" 
+dynasty="Amal" 
+adm=4 
+dip=5 
+mil=5}} 
+
+534.10.2={ 
+monarch={ 
+name="Theodahad" 
+dynasty="Amal" 
+adm=4 
+dip=5 
+mil=4}} 
+
+536.1.1={ 
+monarch={ 
+name="Witiges" 
+adm=4 
+dip=4 
+mil=4}} 
+
+540.1.1={ 
+monarch={ 
+name="Ildibad" 
+adm=5 
+dip=5 
+mil=4}} 
+
+541.1.1={ 
+monarch={ 
+name="Eraric" 
+adm=4 
+dip=4 
+mil=4}} 
+
+541.6.1={ 
+monarch={ 
+name="Totila" 
+adm=5 
+dip=5 
+mil=6}} 
+
+552.7.1={ 
+monarch={ 
+name="Teia" 
+adm=4 
+dip=3 
+mil=3}}
+
+687.1.1={
+	monarch={
+		name="Egica"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5}}
+
+702.1.1={
+	monarch={
+		name="Witiza"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5}}
+
+710.1.1={
+	monarch={
+		name="Roderic"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5}}
+
+711.1.1={
+	monarch={
+		name="Achila II"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5
+	}
+}
+
+714.1.1={
+	monarch={
+		name="Ardo"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5}}
+
+843.1.1={religion=catholic technology_group=latin}

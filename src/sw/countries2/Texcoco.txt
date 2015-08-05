@@ -1,0 +1,93 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 255 255 255 }
+
+historical_ideas={
+	national_conscripts
+	grand_army
+	military_drill
+	glorious_arms
+	battlefield_commisions
+	engineer_corps
+	bureaucracy
+	scientific_revolution
+}
+
+historical_units={
+	native_clubmen	
+	aztec_tribal_warfare
+	zapotec_plains_warfare
+	aztec_hill_warfare
+	aztec_gunpowder_warfare
+	westernized_aztec
+	mexican_guerilla_warfare
+}
+
+monarch_names={
+	"Ixtlilxochitl #0"=20
+	"Nezahualcoyotl #0"=20
+    "Nezahualpilli #0"=20
+	"Tezcuco #0"=20
+	"Tezcoco #0"=20
+	"Tezcucan #0"=20
+	"Quihnatzin #0"=20
+	"Tetzcohtzinco #0"=20
+	"Atlahtohqueh #0"=20
+	"Ahcolhuahcân #0"=20
+	"Azcapotzalco #0"=20
+	"Itzcoatl #0"=20
+	"Quihnatzin #0"=20
+	"Tlaltecatzin #0"=20
+	"Techotlalahtzin #0"=20
+	"Mazâtl #0"=20
+	"Huitzilihhuitl #0"=20
+	"Xiconocatzin #0"=20
+	"Cuicuitzcatzin #0"=20
+	"Coyohuah #0"=20
+	"Poyauhtecatl #0"=20
+	"Quinatzin #0"=20
+	"Nopaltzin #0"=20
+	"Tochtli #0"=20
+	"Nezahualcoyotl #0"=20
+	"Acolmiztli #0"=20
+	"Matlalcihuatzin #0"=20
+	"Nezahualpilli #0"=20
+	"Cacamatzin #0"=20
+	"Coanacoch #0"=20
+	"Acalan #0"=20
+	"Tecocoltzin #0"=20
+	"Ixtlilxochitl #0"=20
+	"Ahuachpitzactzin #0"=20
+	"Tlahuitoltzin #0"=20
+}
+
+leader_names={
+        Acatlotzin Ahuítzotl Axayacátl Axoquetzin Cacamatzin Chalchiutlatonac Cuauhtemoc Cuitlahuac Cuitlalpitoc
+	Ecatzin Eyahue Ezhuahuacatl Huemac Huestzin Huitzilihuitl Itzcoatl Ixtlilxochitl Izquemitl
+	Mazatl Maxixcatzin Moctezuma Motelchiuh Nauyotl Nezahualpilli Nopaltzin
+	Ocelopan Olintecke Opochtli Oquitzin Panitzin Pimotl Popopoyotl
+	Quahcoatl Qualpopoca Quilaztli Quimichetl Temilotecatl Tezozomoc Tizoc Totoquihuatzin Tzompantli
+	Xiconocatzin Xochipanitzin Xolotl Xomimitl Yaomauhitzin Yaztachimal Zincicha Zoanacochtzin Zolton
+}
+
+ship_names={
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}

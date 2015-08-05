@@ -1,0 +1,6 @@
+discovered_by=new_world
+discovered_by=CAK
+discovered_by=QUI
+
+1534.1.1={discovered_by=SPA discovered_by=CAS}
+1820.6.1={discovered_by=latin}

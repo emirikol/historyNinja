@@ -1,0 +1,247 @@
+government=duchy
+aristocracy_plutocracy=-2
+centralization_decentralization=-3
+innovative_narrowminded=2
+mercantilism_freetrade=-1
+offensive_defensive=2
+land_naval=0
+quality_quantity=-1
+serfdom_freesubjects=1
+primary_culture=galician
+religion=early
+technology_group=e_latin
+historical_friend=POR
+historical_friend=ARA
+historical_friend=CAS
+historical_friend=LEZ
+historical_friend=BVR
+historical_friend=AUT
+capital=474	# Galicia
+
+687.1.1={
+	monarch={
+		name="Egica"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5}}
+
+702.1.1={
+	monarch={
+		name="Witiza"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5}}
+
+710.1.1={
+	monarch={
+		name="Roderic"
+		dynasty="Visigoths"
+		adm=5
+		dip=7
+		mil=5}}
+
+717.1.10={
+	monarch={
+		name="Pelagius"
+		dynasty="Asturia"
+		adm=6
+		dip=5
+		mil=5}}
+
+737.5.3={
+	monarch={
+		name="Favila"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}
+government=feudal_monarchy}
+
+739.5.3={
+	monarch={
+		name="Alfonso I"
+		dynasty="Asturia"
+		adm=4
+		dip=5
+		mil=5}}
+
+757.5.3={
+	monarch={
+		name="Fruela I"
+		dynasty="Asturia"
+		adm=4
+		dip=4
+		mil=5}}
+
+768.5.3={
+	monarch={
+		name="Aurelius"
+		dynasty="Asturia"
+		adm=4
+		dip=5
+		mil=5}}
+
+774.5.3={
+	monarch={
+		name="Silo"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+783.5.3={
+	monarch={
+		name="Mauregatus"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+788.5.3={
+	monarch={
+		name="Bermudo I"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+791.5.3={
+	monarch={
+		name="Alfonso II"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+		
+842.5.3={
+	monarch={
+		name="Ramiro I"
+		dynasty="Ramiro"
+		adm=5
+		dip=5
+		mil=5}
+religion=catholic technology_group=latin}
+		
+850.5.3={
+	monarch={
+		name="Ordono I"
+		dynasty="Ramiro"
+		adm=5
+		dip=5
+		mil=5}}
+
+866.5.3={
+	monarch={
+		name="Alfonso III"
+		dynasty="Asturia"
+		adm=5
+		dip=5
+		mil=5}}
+
+912.5.3={
+	monarch={
+		name="Ordoño II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+924.5.3={
+	monarch={
+		name="Fruela II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+925.5.3={
+	monarch={
+		name="Alfonso IV"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+931.5.3={
+	monarch={
+		name="Ramiro II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+951.5.3={
+	monarch={
+		name="Ordono III"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+956.5.3={
+	monarch={
+		name="Sancho I"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+958.5.3={
+	monarch={
+		name="Ordono IV"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+960.5.3={
+	monarch={
+		name="Sancho I"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+966.5.3={
+	monarch={
+		name="Ramiro III"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+984.5.3={
+	monarch={
+		name="Bermudo II"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+999.5.3={
+	monarch={
+		name="Alfonso V"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}
+
+1027.5.3={
+	monarch={
+		name="Bermudo III"
+		dynasty="Leon"
+		adm=5
+		dip=5
+		mil=5}}	
+
+1037.5.3={
+	monarch={
+		name="Ferdinand I"
+		dynasty="Jimenez"
+		adm=5
+		dip=5
+		mil=5}}	

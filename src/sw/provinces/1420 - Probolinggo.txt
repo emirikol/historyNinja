@@ -1,0 +1,17 @@
+culture=sulawesi
+religion=hinduism
+capital="Probolinggo"
+trade_goods=cotton
+hre=no
+base_tax=4
+manpower=3
+discovered_by=MAJ
+
+1293.1.1={owner=MAJ controller=MAJ add_core=MAJ citysize=1100 fort1=yes}
+1500.1.1={citysize=0 native_size=30 native_ferocity=2 native_hostileness=6 owner=XXX controller=XXX remove_core=MAJ fort1=no}
+1614.1.1={discovered_by=MTR owner=MTR controller=MTR add_core=MTR citysize=1805 fort1=yes} # Incorporated into the Sultanate of Mataram
+1615.1.1={religion=sunni}
+1825.1.1={owner=NED controller=NED add_core=NED} # unknown date
+1942.2.1={controller=JAP owner=JAP}
+1944.1.1={controller=NED owner=NED}
+1949.12.27={owner=IDO controller=IDO add_core=IDO remove_core=NED}

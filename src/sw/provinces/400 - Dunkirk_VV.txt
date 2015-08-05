@@ -1,0 +1,66 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=GLA
+culture=gallic
+religion=groman
+capital="Calais"
+citysize=3000
+hre=no
+base_tax=5
+trade_goods=fish
+manpower=3
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+discovered_by=GLA
+discovered_by=SUE
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+400.6.1={discovered_by=nomad_group}
+461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+486.2.1={owner=HFR controller=HFR add_core=HFR culture=frankish remove_core=GLA}
+799.12.24={religion=catholic}
+843.1.1={owner=FRA controller=FRA add_core=FRA culture=wallonian discovered_by=latin discovered_by=eastern 
+discovered_by=muslim customs_house=yes} # Exception to the rule, trade junction & established here
+1066.1.1={owner=VIK controller=VIK}
+1080.1.1={owner=NRM controller=NRM add_core=NRM}
+1180.1.1={owner=ENG controller=ENG add_core=FLA marketplace=yes} # 'The Brightest Jewel in the English Crown'
+1346.1.1={owner=FRA controller=FRA add_core=FRA}
+1399.1.1={add_core=BUR}
+1459.1.1={revolt_risk=7} # War of the Roses in England
+1459.11.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Yorkist control over Calais
+1461.6.1={revolt={} controller=ENG} # Edward VI crowned King of England
+1477.1.5={remove_core=BUR} # Charles the Bold dies
+1558.1.7={controller=FRA} # France captures the weakened Calais
+1559.4.3={owner=FRA remove_core=ENG} # Peace of Cateau-Cambresis, France annexes Calais from England
+1560.1.1={fort2=yes} # Very late, English neglected Calais' forts the last few decades
+1588.12.1={revolt_risk=5} # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1={revolt_risk=0} # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1596.1.1={controller=SPA} # The Spanish take hold of Calais
+1598.1.1={controller=FRA} # Treaty of Vervins, Calais back to France
+1600.1.1={constable=yes}
+1720.1.1={courthouse=yes}
+1750.1.1={tax_assessor=yes}
+1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # Napoleon enters Paris
+1815.7.8={owner=FRA controller=FRA add_core=FRA	remove_core=RFR} # The French monarchy is restored
+1871.1.1={capital="Dunkirk" add_core=RFR remove_core=FRA owner=RFR controller=RFR} # 3rd French Republic founded
+1940.6.22={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.12.1={owner=USA controller=USA}
+1945.5.8={owner=RFR controller=RFR}

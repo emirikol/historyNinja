@@ -1,0 +1,94 @@
+#Country Name: Please see filename.
+
+graphical_culture=easterngfx
+
+color={219 220 133}
+
+historical_ideas={
+	national_conscripts
+	glorious_arms 
+	grand_army
+	military_drill
+	battlefield_commisions 
+	shrewd_commerce_practise
+	engineer_corps
+	espionage
+	merchant_adventures
+	national_trade_policy
+	cabinet
+	bureaucracy
+}
+
+historical_units={
+	khazarian_hordes
+	battle_ram
+	khazarian_wind_infantry
+	15_cm_sIG_33_artillery
+	atacms_missile_artillery
+	breech_loading_artillery
+	breech-loading_infantry
+	chassepot_gun_infantry
+	cruiser_tank
+	field_howitzer_70_artillery
+	ft-17_tank
+	high_mobility_artillery_rocket_system
+	highly_explosive_grenade_artillery
+	jagdpanzer_tank
+	lenk's_pulled_artillery
+	leopard_2_tank
+	m60_tank
+	M249_SAW_infantry
+	machine_gun_infantry
+	MG34_infantry
+	MG42_infantry
+	needle_gun_infantry
+	patton_tank
+	pulled_artillery
+	RML_7_pounder_mountain_gun_artillery
+	tank
+	wheel_tank
+	whippet_tank
+	ottoman_yaya
+	druzhina_cavalry
+	mongol_swarm
+	mongol_bow
+	mongol_steppe
+	muscovite_musketeer
+	muscovite_soldaty
+	muscovite_cossack
+	tartar_cossack
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+monarch_names={
+	"Ziebel #0"=20
+	"Buri-Sad #0"=20
+	"Irbis #0"=20
+	"Busir Glavan #0"=20
+	"Barjik #0"=20
+	"Bihar #0"=20
+	"Parsbit #0"=20
+	"Bulan #0"=20
+	"Baghatur #0"=20
+	"Tuvan #0"=15
+	"Tarkhan #1"=10
+	"Zachariah #1"=10
+	"Obadiah #1"=10
+	"David #1"=10
+}
+
+leader_names={
+	Khazar 
+	Tuvan 
+	Parsbit
+	Bihar
+}
+
+ship_names={
+	Aral
+	Caspian
+	"Ariq Boke" 
+}

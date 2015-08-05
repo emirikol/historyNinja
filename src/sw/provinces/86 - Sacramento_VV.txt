@@ -1,0 +1,27 @@
+owner=PEO
+controller=PEO
+add_core=PEO
+culture=hokan
+religion=ind_pagan
+capital="Sacramento"
+fort1=yes
+citysize=1000
+trade_goods=wine
+hre=no 
+base_tax=3 
+manpower=1 
+discovered_by=PEO
+discovered_by=COK
+discovered_by=SAL
+discovered_by=YKT
+discovered_by=CHU
+discovered_by=MOJ
+
+1770.1.1={discovered_by=SPA owner=SPA controller=SPA citysize=300 culture=castillian religion=catholic} # Don Gaspar de Portolá
+1792.1.1={discovered_by=GBR citysize=1240} # British settlement
+1795.1.1={add_core=SPA discovered_by=MEX add_core=MEX}
+1800.1.1={citysize=1358}
+1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
+1821.10.24={controller=MEX remove_core=SPA} # end of war
+1853.12.30={controller=USA add_core=USA remove_core=USA owner=USA} # new mexican-american borders
+1900.1.1={fort2=yes}

@@ -1,0 +1,34 @@
+culture=swedish
+religion=odin
+hre=no
+base_tax=3
+trade_goods=grain
+manpower=3 
+capital="Skara"
+
+400.1.1={discovered_by=VIK}
+415.6.1={owner=VIK controller=VIK add_core=VIK citysize=1500}
+780.6.1={fort1=yes} #Old Alvsborg Castle
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1080.1.1={religion=catholic}
+1200.1.1={owner=SWE controller=SWE add_core=SWE remove_core=VIK culture=swedish}
+1247.6.1={workshop=yes} #Settlement of Dutch and Germans near Alsvborg
+1302.6.1={temple=yes} #"Domkyrkan i Skara"
+1450.1.1={citysize=1500}
+1500.1.1={citysize=1850} # Estimated
+1527.6.1={religion=protestant}
+1570.1.1={citysize=2394}
+1580.1.1={fort2=yes} # Skaraborg Castle
+1598.8.15={controller=POL} # Sigismund tries to reconquer his crown
+1598.12.15={controller=SWE} # Duke Karl get it back
+1610.1.1={citysize=2703}
+1612.5.24={controller=DAN} # The War of Kalmar-Captured by Christian IV
+1613.1.20={controller=SWE}# The Peace of Knäred
+1621.1.1={capital="Göteborg"}
+1621.1.1={marketplace=yes}
+1621.1.1={citysize=3200} # Interpolated
+1624.1.1={regimental_camp=yes} # Vastgotsdals regemente/Vastgota regemente till Häst
+1640.1.1={courthouse=yes} # Minor court belonging to Gota Hovrätt
+1650.1.1={citysize=3653}
+1690.1.1={citysize=5071}
+1730.1.1={citysize=8000}

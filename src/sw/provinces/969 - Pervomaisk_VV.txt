@@ -1,0 +1,54 @@
+owner=BAO
+controller=BAO
+add_core=BAO
+culture=roxolanian
+religion=zoro
+capital="Balta"
+trade_goods=fur
+hre=no
+base_tax=5
+manpower=2
+citysize=7500
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=GEH
+discovered_by=BAO
+discovered_by=SRM
+discovered_by=GHT
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ODR
+discovered_by=PNO
+discovered_by=SRM
+discovered_by=PHU
+
+290.6.1={owner=SRM controller=SRM add_core=SRM culture=sarmathian remove_core=BAO}
+295.6.1={owner=HNU controller=HNU culture=huns religion=tangra remove_core=SRM}
+451.6.1={owner=ATE controller=ATE add_core=ATE culture=proto_slavic religion=perun}
+562.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism remove_core=GEH}
+630.8.1={owner=ATE controller=ATE add_core=ATE culture=proto_slavic religion=perun remove_core=AVE discovered_by=BGK} 
+680.6.1={culture=bulgarian}
+805.8.1={owner=BGK controller=BGK add_core=BGK remove_core=AVE remove_core=HSL culture=bulgarian religion=tangra remove_core=AVE}
+843.6.1={discovered_by=latin}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+950.6.1={discovered_by=muslim}
+970.5.1={owner=KIV controller=KIV}
+1015.1.1={owner=PEC controller=PEC remove_core=KIV add_core=PEC culture=pecheneg}
+1094.1.1={owner=CUM controller=CUM add_core=CUM remove_core=PEC}
+1236.6.1={owner=KHA controller=KHA remove_core=CUM culture=tartar}
+1242.6.1={owner=GOL controller=GOL}
+1398.6.1={owner=LIT controller=LIT}
+1406.6.1={owner=GOL controller=GOL}
+1441.1.1={owner=CRI controller=CRI add_core=CRI remove_core=GOL} # The Crimean Khanate
+1540.1.1={constable=yes}
+1660.1.1={courthouse=yes}
+1750.1.1={tax_assessor=yes}
+1776.6.1={capital="Bogopol"}
+1778.6.18={owner=RUS controller=RUS add_core=RUS}
+1871.1.1={religion=orthodox} 
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1941.12.1={owner=NAZ controller=NAZ}
+1944.4.1={owner=SOV controller=SOV}
+1991.1.1={owner=UKR controller=UKR add_core=UKR remove_core=SOV} # independence of the Ukraine

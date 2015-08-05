@@ -1,0 +1,863 @@
+government=imperial_government
+aristocracy_plutocracy=-2
+centralization_decentralization=2
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=persian
+add_accepted_culture=al_misr_arabic 
+religion=zoro
+technology_group=near_east
+capital=1138	# Ctesiphon
+
+
+4.6.1={
+	monarch={
+		name="Orodes III"
+		dynasty="Arsacid"
+		adm=4
+		dip=3
+		mil=4}}
+
+6.6.1={
+	monarch={
+		name="Vonones I"
+		dynasty="Arsacid"
+		adm=5
+		dip=4
+		mil=4}}
+
+12.6.1={
+	monarch={
+		name="Artabanus II"
+		dynasty="Arsacid"
+		adm=5
+		dip=4
+		mil=5}}
+
+35.6.1={
+	monarch={
+		name="Tiridates III"
+		dynasty="Arsacid"
+		adm=4
+		dip=4
+		mil=5}}
+
+36.6.1={
+	monarch={
+		name="Artabanus II"
+		dynasty="Arsacid"
+		adm=5
+		dip=4
+		mil=5}}
+		
+40.6.1={
+	monarch={
+		name="Vardanes I"
+		dynasty="Arsacid"
+		adm=4
+		dip=7
+		mil=5}}
+
+47.1.1={
+	monarch={
+		name="Gotarzes II"
+		dynasty="Arsacid"
+		adm=7
+		dip=6
+		mil=5}}
+
+51.1.1={
+	monarch={
+		name="Vologases I"
+		dynasty="Arsacid"
+		adm=7
+		dip=6
+		mil=5}}
+
+78.1.1={
+	monarch={
+		name="Pacorus II"
+		dynasty="Arsacid"
+		adm=7
+		dip=6
+		mil=5}}
+
+105.1.1={
+	monarch={
+		name="Vologases III"
+		dynasty="Arsacid"
+		adm=6
+		dip=6
+		mil=5}}
+
+147.1.1={
+	monarch={
+		name="Vologases IV"
+		dynasty="Arsacid"
+		adm=7
+		dip=6
+		mil=5}}
+
+191.1.1={
+	monarch={
+		name="Vologases V"
+		dynasty="Arsacid"
+		adm=7
+		dip=6
+		mil=5}}
+
+208.1.1={
+	monarch={
+		name="Vologases VI"
+		dynasty="Arsacid"
+		adm=7
+		dip=6
+		mil=5}}
+
+224.1.1={
+	monarch={
+		name="Ardashir I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5}
+capital=926}
+
+241.1.1={
+	monarch={
+		name="Shapur I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+272.1.1={
+	monarch={
+		name="Hormizd I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+273.1.1={
+	monarch={
+		name="Bahram I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+276.1.1={
+	monarch={
+		name="Bahram II"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+293.1.1={
+	monarch={
+		name="Narseh"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+302.1.1={
+	monarch={
+		name="Hormizd II"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+310.1.1={
+	monarch={
+		name="Shapur II"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+379.1.1={
+	monarch={
+		name="Ardashir II"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+383.1.1={
+	monarch={
+		name="Shapur III"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+388.1.1={
+	monarch={
+		name="Bahram IV"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+399.1.1={
+	monarch={
+		name="Yazdegerd I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+420.1.1={
+	monarch={
+		name="Bahram V"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+438.1.1={
+	monarch={
+		name="Yazdegerd II"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+457.1.1={
+	monarch={
+		name="Hormizd III"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+459.1.1={
+	monarch={
+		name="Peroz I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+484.1.1={
+	monarch={
+		name="Balash"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+488.1.1={
+	monarch={
+		name="Kavadh I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+531.1.1={
+	monarch={
+		name="Khosrau I"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+579.1.1={
+	monarch={
+		name="Hormizd IV"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+590.1.1={
+	monarch={
+		name="Khosrau II"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+628.1.1={
+	monarch={
+		name="Ardashir III"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+630.1.1={
+	monarch={
+		name="Boran"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+631.1.1={
+	monarch={
+		name="Hormizd V"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+632.1.1={
+	monarch={
+		name="Yazdegerd III"
+		dynasty="Sassanid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+651.1.1={religion=shiite technology_group=muslim}
+
+1256.1.1={
+	monarch={
+		name="Hülëgü"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1265.1.1={
+	monarch={
+		name="Abaqa"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1282.1.1={
+	monarch={
+		name="Ahmad Tekuder"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1284.1.1={
+	monarch={
+		name="Arghun"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1291.1.1={
+	monarch={
+		name="Gaikhatu"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1295.1.1={
+	monarch={
+		name="Ghazan"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1304.1.1={
+	monarch={
+		name="Öljeitü"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1316.1.1={
+	monarch={
+		name="Abu Sa'id"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+
+1335.1.1={
+	monarch={
+		name="Arpa Ke'un"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1336.1.1={
+	monarch={
+		name="Musa Khan ebne Ali"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1353.1.1={
+	monarch={
+		name="Anushiravan e Adel"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1355.1.1={
+	monarch={
+		name="Qutb Al-Din Shah Mahmud"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1366.1.1={
+	monarch={
+		name="Abu'l Fawaris Djamal ad-Din Shah Shuja"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1384.1.1={
+	monarch={
+		name="Mujahid ad-Din Zain Al-Abidin 'Ali"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1387.1.1={
+	monarch={
+		name="Imad ad-Din Sultan Ahmad"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1391.1.1={
+	monarch={
+		name="Shah Mansur"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1448.1.1={
+	monarch={
+		name="Joneid"
+		dynasty="Safavid"
+		adm=4
+		dip=7
+		mil=5
+	}
+}
+
+1460.1.1={
+	monarch={
+		name="Haidar"
+		dynasty="Safavid"
+		adm=7
+		dip=6
+		mil=5
+	}
+}
+
+1483.1.1={
+	monarch={
+		name="Ismâ'îl I"
+		dynasty="Safavid"
+		adm=9
+		dip=8
+		mil=8
+		leader={	name="Ismail I"              	type=general	rank=0	fire=4	shock=4	manuever=4	siege=0}
+	}
+}
+
+1512.1.1={ centralization_decentralization=2 } # The Reforms of Ismail
+
+1523.1.1={ leader={	name="Cuha Sultan"           	type=general	rank=2	fire=2	shock=3	manuever=3	siege=0	death_date=1531.1.1 } }
+
+1524.5.24={
+	monarch={
+		name="Thamâsp I"
+		dynasty="Safavid"
+		adm=5
+		dip=3
+		mil=6
+		leader={	name="Tahmasp I"             	type=general	rank=0	fire=2	shock=3	manuever=4	siege=0}
+	}
+}
+
+1548.7.27={ capital=428 } # Qazvin
+
+1576.5.15={
+	monarch={
+		name="Ismâ'îl II"
+		dynasty="Safavid"
+		adm=4
+		dip=3
+		mil=5
+	}
+}
+
+1577.11.25={
+	monarch={
+		name="Muhammad Khudabanda"
+		dynasty="Safavid"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+
+1580.1.1={ leader={	name="Hamza Mirza"           	type=general	rank=1	fire=2	shock=3	manuever=3	siege=0	death_date=1586.12.4 } }
+
+1585.1.1={
+	monarch={
+		name="Hamza Mirza"
+		dynasty="Safavid"
+		adm=4
+		dip=4
+		mil=5
+	}
+}
+
+1586.12.5={
+	monarch={
+		name="Abu Talib"
+		dynasty="Safavid"
+		adm=3
+		dip=4
+		mil=3
+	}
+}
+
+1587.12.11={
+	monarch={
+		name="Abbas I"
+		dynasty="Safavid"
+		adm=9
+		dip=8
+		mil=9
+		leader={	name="Abbas I"               	type=general	rank=0	fire=4	shock=4	manuever=4	siege=1}
+	}
+}
+
+1589.1.1={ leader={	name="Farhad Khan"           	type=general	rank=1	fire=2	shock=4	manuever=4	siege=0	death_date=1599.1.1 } }
+
+1597.1.1={ centralization_decentralization=0 } # The Reforms of Abbas the Great
+
+1597.1.1={ leader={	name="Allahverdi Khan"       	type=general	rank=1	fire=4	shock=4	manuever=4	siege=1	death_date=1613.6.3 } }
+
+1598.1.1={ capital=429 } # Isfahan
+
+1601.1.1={ leader={	name="Emir Guna Beg"         	type=general	rank=2	fire=3	shock=4	manuever=3	siege=1	death_date=1625.1.1 } }
+
+1602.1.1={ leader={	name="Qarchaqay Bei"         	type=general	rank=3	fire=3	shock=4	manuever=4	siege=0	death_date=1624.1.1 } }
+
+1629.1.20={
+	monarch={
+		name="Safi I"
+		dynasty="Safavid"
+		adm=4
+		dip=4
+		mil=3
+	}
+}
+
+1630.1.1={ leader={	name="Rustam Khan"           	type=general	rank=2	fire=2	shock=3	manuever=3	siege=0	death_date=1643.3.1 } }
+
+1635.12.1={ centralization_decentralization=2 innovative_narrowminded=4 } # Political Fragmentation
+
+1642.5.12={
+	monarch={
+		name="Abbas II"
+		dynasty="Safavid"
+		adm=6
+		dip=7
+		mil=6
+	}
+}
+
+1655.12.1={ centralization_decentralization=1 innovative_narrowminded=3 } # Political Fragmentation
+
+1666.10.27={
+	monarch={
+		name="Suleiman I"
+		dynasty="Safavid"
+		adm=4
+		dip=6
+		mil=4
+	}
+}
+
+1675.12.1={ centralization_decentralization=3 innovative_narrowminded=5 } # Political Fragmentation
+
+1694.7.30={
+	monarch={
+		name="Sultan Husain I"
+		dynasty="Safavid"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1695.12.1={ centralization_decentralization=5 innovative_narrowminded=5 } # Political Fragmentation
+
+1715.12.1={ centralization_decentralization=5 innovative_narrowminded=5 } # Political Fragmentation
+
+1722.1.1={ leader={	name="Fath Ali Khan"         	type=general	rank=2	fire=3	shock=4	manuever=3	siege=0	death_date=1726.10.11 } }
+
+1722.10.23={
+	monarch={
+		name="Thamasp II"
+		dynasty="Safavid"
+		adm=3
+		dip=4
+		mil=4
+	}
+}
+
+1727.1.1={ leader={	name="Ibrahim Khan"          	type=general	rank=2	fire=2	shock=3	manuever=4	siege=0	death_date=1738.11.14 } }
+
+1732.9.8={
+	monarch={
+		name="Abbas III"
+		dynasty="Safavid"
+		adm=3
+		dip=4
+		mil=3
+	}
+}
+
+1734.1.1={ leader={	name="Latif Khan"            	type=admiral	rank=1	fire=2	shock=3	manuever=3	siege=0	death_date=1738.7.7 } }
+
+1735.12.1={ centralization_decentralization=4 innovative_narrowminded=4 } # Political Fragmentation
+
+1736.3.9={
+	monarch={
+		name="Nadir"
+		dynasty="Afsharid"
+		adm=5
+		dip=7
+		mil=8
+		leader={	name="Nadir Shah"            	type=general	rank=0	fire=3	shock=5	manuever=5	siege=1}
+	}
+}
+
+1747.6.20={
+	monarch={
+		name="Adil"
+		dynasty="Afsharid"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+
+1748.12.9={
+	monarch={
+		name="Ibrahim"
+		dynasty="Afsharid"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1749.7.2={
+	monarch={
+		name="Shah Rukh"
+		dynasty="Afsharid"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1750.1.1={ leader={	name="Karim Khan"            	type=general	rank=0	fire=2	shock=3	manuever=3	siege=1	death_date=1770.1.1 } }
+
+1750.1.1={ leader={	name="Sadeq Khan"            	type=general	rank=1	fire=3	shock=4	manuever=3	siege=1	death_date=1781.2.1 } }
+
+1750.1.2={
+	monarch={
+		name="Suleiman II"
+		dynasty="Safavid"
+		adm=4
+		dip=4
+		mil=3
+	}
+}
+
+1750.1.2={ capital=430 } # Shiraz
+
+1750.6.13={
+	monarch={
+		name="Ismail III"
+		dynasty="Afsharid"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1755.12.1={ centralization_decentralization=5 innovative_narrowminded=5 } # Political Fragmentation
+
+1756.1.1={
+	monarch={
+		name="Karim Khan"
+		dynasty="Zand"
+		adm=7
+		dip=6
+		mil=6
+	}
+}
+
+1779.3.7={
+	monarch={
+		name="Zaki Khan"
+		dynasty="Zand"
+		adm=3
+		dip=3
+		mil=4
+	}
+}
+
+1780.1.1={
+	monarch={
+		name="Sadeq Khan"
+		dynasty="Zand"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+1780.12.1={ centralization_decentralization=5 innovative_narrowminded=5 } # Political Fragmentation
+
+1782.1.1={
+	monarch={
+		name="Ali Morad"
+		dynasty="Zand"
+		adm=4
+		dip=4
+		mil=4
+	}
+}
+
+1785.2.1={
+	monarch={
+		name="Ja'far Khan"
+		dynasty="Zand"
+		adm=4
+		dip=4
+		mil=5
+	}
+}
+
+1789.1.1={
+	monarch={
+		name="Lotf Ali Khan"
+		dynasty="Zand"
+		adm=6
+		dip=5
+		mil=4
+	}
+}
+
+1794.1.1={
+	monarch={
+		name="Aga Muhammad"
+		dynasty="Qajar"
+		adm=3
+		dip=3
+		mil=6
+	}
+}
+
+1794.1.1={ leader={	name="Aga Muhammad"          	type=general	rank=1	fire=2	shock=4	manuever=4	siege=1	death_date=1797.6.17 } }
+
+1795.1.1={ capital=428 } # Tehran
+
+1797.6.18={
+	monarch={
+		name="Fath Alî"
+		dynasty="Qajar"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

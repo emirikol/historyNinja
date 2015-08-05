@@ -1,0 +1,65 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 255 204 237 }
+
+historical_ideas={
+	national_conscripts
+	merchant_adventures
+	shrewd_commerce_practise
+	cabinet
+	church_attendance_duty
+}
+
+historical_units={
+	
+	south_american_spearmen
+	south_american_warfare
+	inca_mountain_warfare
+	south_american_gunpowder_warfare
+	westernized_south_american
+	peruvian_guerilla_warfare
+}
+
+leader_names={
+	Nasca
+	Paracas
+	Ayacucho 
+	Pisco
+	Arequipa
+	Ica
+	Cahuachi
+	Colibri
+	Huaco 
+	Ayapaca
+	Cahualpa
+}
+
+monarch_names={
+	"Nasca #0"=40
+	"Paracas #0"=40
+	"Ayacucho #0"=40
+	"Pisco #0"=40
+	"Arequipa #0"=40
+	"Ica #0"=40
+	"Cahuachi #0"=40
+	"Colibri #0"=40
+	"Huaco  #0"=40
+    }
+
+ship_names={
+	Nasca
+	Paracas
+	Ayacucho 
+	Pisco
+	Arequipa
+	Ica
+	Cahuachi
+	Colibri
+	Huaco 
+	Muisca Chibchas Tchibtchas Bochica Zipa Zanqe Pampataca 
+	Aramaic Ioke Fahakuka Manta Guatec Muyskku 
+}
+
+	

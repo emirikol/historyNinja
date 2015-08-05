@@ -1,0 +1,37 @@
+owner=YAM
+controller=YAM
+add_core=YAM
+culture=japanese
+religion=shinto
+capital="Yamaguchi"
+trade_goods=rice
+hre=no
+base_tax=6
+manpower=3
+citysize=5500
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+discovered_by=DGY
+discovered_by=GOG
+discovered_by=SLY
+discovered_by=YEE
+discovered_by=MAH
+discovered_by=BJE
+discovered_by=YAM
+
+927.6.1={owner=MIN controller=MIN add_core=MIN}
+1192.6.1={owner=YAM controller=YAM}
+1350.1.1={owner=JAP controller=JAP add_core=JAP remove_core=YAM}
+1450.1.1={citysize=5910}
+1478.1.1={owner=OUC controller=OUC add_core=OUC}
+1500.1.1={citysize=6350}
+1542.1.1={discovered_by=POR}
+1550.1.1={citysize=7200}
+1582.4.1={owner=TYT controller=TYT add_core=TYT remove_core=OUC}
+1600.1.1={citysize=8665}
+1600.10.16={owner=JAP controller=JAP add_core=JAP remove_core=TYT}
+1637.12.17={revolt={type=anti_tax_rebels size=1}} # Shimabara rebellion
+1638.4.12={revolt={}}
+1650.1.1={citysize=9200}
+1950.6.1={fort2=yes base_tax=7}

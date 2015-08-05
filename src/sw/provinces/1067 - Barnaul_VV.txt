@@ -1,0 +1,31 @@
+owner=XIO
+controller=XIO
+add_core=XIO
+culture=gokturkic
+religion=tangra
+fort1=yes
+capital="Ostrog"
+citysize=1200
+trade_goods=iron
+hre=no
+base_tax=3
+manpower=3
+discovered_by=GUT
+discovered_by=UYG
+discovered_by=XIO
+discovered_by=KJU
+
+260.6.1={owner=XXX controller=XXX remove_core=XIO fort1=no native_size=5 native_ferocity=2 native_hostileness=3 citysize=20}
+330.6.1={owner=RUR controller=RUR add_core=RUR culture=rouran fort1=yes discovered_by=RUR citysize=1020}
+552.6.1={owner=GUT controller=GUT add_core=GUT culture=gokturkic remove_core=RUR}
+748.6.1={owner=UYG controller=UYG add_core=UYG culture=uyghurish discovered_by=UYG remove_core=GUT}
+848.6.1={owner=XXX controller=XXX fort1=no remove_core=UYG native_size=10 native_ferocity=1 native_hostileness=3 citysize=90}
+980.1.1={manpower=2 owner=CUM controller=CUM add_core=CUM culture=cumanian fort1=yes discovered_by=CUM citysize=2080}
+1010.1.1={manpower=1 owner=XXX controller=XXX fort1=no remove_core=CUM citysize=58 culture=mongol native_size=5 native_ferocity=2 native_hostileness=3}
+1450.1.1={discovered_by=SIB}
+1604.1.1={discovered_by=RUS}
+1720.1.1={manpower=2 owner=RUS controller=RUS religion=orthodox culture=russian citysize=200 capital="Verkhotomsky ostrog"}
+1800.1.1={citysize=800}
+1850.6.1={citysize=1200 fort1=yes}
+1917.10.1={manpower=1 owner=SOV add_core=SOV controller=SOV remove_core=RUS capital="Shteglovsk"} # October Revolution in Moscow
+1991.12.8={manpower=2 owner=RUU controller=RUU add_core=RUU remove_core=SOV capital="Kemerovo"} # Russian Federation

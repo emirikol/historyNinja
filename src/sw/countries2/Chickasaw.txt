@@ -1,0 +1,54 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 220 124 255 }
+
+historical_ideas={
+	national_conscripts
+	military_drill
+	espionage
+	grand_army
+	glorious_arms
+	merchant_adventures
+}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare
+	creek_arquebusier
+	apache_guerilla
+	iroquis_rifle_scout
+}
+
+monarch_names={
+	"Tishomingo #0"=15
+	"Mingocreek #0"=15
+	"Anoatubby #0"=15
+	"Mogilvery #0"=15
+	"Sealy #0"=15
+	"Apilefaplimengo #0"=15
+	"Tuskawillao #0"=15
+	"Hussinkoma #0"=15
+	"Oucthambolo #0"=15
+	"Phalachehs #0"=15
+	"Tanyachilca #0"=15
+	"Yaneka #0"=15
+	"Shiokaya #0"=15
+	"Latcha Hoa Run #0"=15
+	"Ogoula #0"=15
+	}
+
+leader_names={
+	Amalahta Apeony Ayebisto Chatelaw Chesafaliah Chukafalaya Outanquatle
+	Shatara Thanbolo Pontotoc Hykehah
+	}
+
+ship_names={
+	Ackia Ada Obion Alaoute Ashukhuma Chokkillissa Etoukouma Tokshish Tuskaroilloe Falatchao
+	}

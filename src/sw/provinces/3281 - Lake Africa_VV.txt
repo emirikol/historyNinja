@@ -1,0 +1,7 @@
+discovered_by=african
+discovered_by=RME
+discovered_by=RMP
+
+1858.8.3={discovered_by=GBR}
+1900.6.1={discovered_by=latin}
+1914.6.1={discovered_by=eastern}

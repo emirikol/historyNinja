@@ -1,0 +1,50 @@
+owner=LOM
+controller=LOM
+add_core=LOM
+culture=langobardian
+religion=odin
+hre=no
+capital="Maastricht"
+fort1=yes
+citysize=7000
+base_tax=3
+trade_goods=iron
+manpower=3
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+290.6.1={manpower=2 owner=HFR controller=HFR culture=frankish remove_core=LOM}
+451.6.1={manpower=3 religion=early}
+799.12.24={religion=catholic}
+843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=limburgian}
+870.6.1={remove_core=LHT manpower=4 owner=BRB controller=BRB add_core=BRB}
+962.2.2={hre=yes}
+1430.8.14={owner=BUR controller=BUR	add_core=BUR} # Philip dies without an heir
+1477.1.5={owner=HAB controller=HAB add_core=HAB remove_core=BUR revolt_risk=4} # Charles the Bold dies, Lowlands to Austria
+1492.7.12={revolt_risk=0} # Peace of Cadzand, peace returns
+1500.1.1={constable=yes}
+1518.1.1={fort2=yes}
+1519.1.14={owner=SPA controller=SPA add_core=SPA remove_core=HAB} # To Spain
+1630.1.1={workshop=yes}
+1690.1.1={customs_house=yes}
+1713.4.11={owner=HAB controller=HAB add_core=HAB remove_core=SPA} # Treaty of Utrecht
+1750.1.1={tax_assessor=yes}
+1797.12.26={owner=RFR controller=RFR add_core=RFR remove_core=HAB} # Treaty of Campo Formio
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.16={owner=NED controller=NED add_core=NED remove_core=FRA} # The United Kingdom of the Netherlands
+1892.1.1={trade_goods=steel}
+1940.5.15={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1945.5.5={owner=NED controller=NED} # freed by the Allies

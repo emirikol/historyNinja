@@ -1,0 +1,456 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=3
+innovative_narrowminded=3
+mercantilism_freetrade=-1
+offensive_defensive=0
+land_naval=0
+quality_quantity=-2
+serfdom_freesubjects=-2
+technology_group=anglo
+primary_culture=northumberlandian
+religion=early
+capital=280	# Northumberland
+
+
+500.3.1={
+	monarch={
+		name="Esa"
+		dynasty="Bernicia"
+		adm=9
+		dip=9
+		mil=9}}	
+
+520.3.1={
+	monarch={
+		name="Eoppa"
+		dynasty="Bernicia"
+		adm=8
+		dip=8
+		mil=9}}	
+
+547.3.1={
+	monarch={
+		name="Ida"
+		dynasty="Bernicia"
+		adm=7
+		dip=8
+		mil=8}}
+
+559.3.1={
+	monarch={
+		name="Glappa"
+		dynasty="Bernicia"
+		adm=7
+		dip=7
+		mil=7}}	
+
+560.3.1={
+	monarch={
+		name="Adda"
+		dynasty="Bernicia"
+		adm=7
+		dip=7
+		mil=7}}
+		
+568.3.1={
+	monarch={
+		name="Æthelric"
+		dynasty="Bernicia"
+		adm=6
+		dip=6
+		mil=7}}	
+
+572.3.1={
+	monarch={
+		name="Theodric"
+		dynasty="Bernicia"
+		adm=5
+		dip=6
+		mil=6}}	
+
+579.3.1={
+	monarch={
+		name="Frithuwald"
+		dynasty="Bernicia"
+		adm=5
+		dip=5
+		mil=5}}	
+
+585.3.1={
+	monarch={
+		name="Hussa"
+		dynasty="Bernicia"
+		adm=5
+		dip=5
+		mil=5}}
+
+593.3.1={
+	monarch={
+		name="Æthelfrith"
+		dynasty="Bernicia"
+		adm=5
+		dip=5
+		mil=5}}
+
+616.3.1={
+	monarch={
+		name="Edwin"
+		dynasty="Deira"
+		adm=5
+		dip=5
+		mil=5}}
+
+632.3.1={
+	monarch={
+		name="Eanfrith"
+		dynasty="Bernicia"
+		adm=5
+		dip=5
+		mil=5}}
+
+633.3.1={
+	monarch={
+		name="Eanfrith"
+		dynasty="Bernicia"
+		adm=5
+		dip=5
+		mil=5}}
+
+634.3.1={
+	monarch={
+		name="Oswald"
+		dynasty="Bernicia"
+		adm=5
+		dip=5
+		mil=5}}
+		
+642.8.6={
+	monarch={
+		name="Oswiu"
+		dynasty="Oswiu"
+		adm=9
+		dip=9
+		mil=9}}	
+		
+669.6.2={
+	monarch={
+		name="Ecgfrith"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+685.6.2={
+	monarch={
+		name="Aldfrith"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+704.6.2={
+	monarch={
+		name="Eadwulf"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+705.6.2={
+	monarch={
+		name="Osred I"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+		
+716.6.2={
+	monarch={
+		name="Coenred"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+718.6.2={
+	monarch={
+		name="Osric"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+731.6.2={
+	monarch={
+		name="Ceolwulf"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+737.6.2={
+	monarch={
+		name="Eadberht"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+758.6.2={
+	monarch={
+		name="Oswulf"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+		
+759.6.2={
+	monarch={
+		name="Athelwald Moll"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}		
+
+765.6.2={
+	monarch={
+		name="Alhred"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+774.6.2={
+	monarch={
+		name="Athelred I"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+779.6.2={
+	monarch={
+		name="Alfwald I"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+788.6.2={
+	monarch={
+		name="Osred II"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+790.6.2={
+	monarch={
+		name="Athelred I"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+796.6.2={
+	monarch={
+		name="Eardwulf"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+800.1.1={religion=catholic technology_group=latin government=feudal_monarchy}
+		
+806.6.2={
+	monarch={
+		name="Alfwald II"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+810.6.2={
+	monarch={
+		name="Eanred"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+840.6.2={
+	monarch={
+		name="Athelred II"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}
+
+848.6.2={
+	monarch={
+		name="Osberht"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}		
+		
+862.6.2={
+	monarch={
+		name="Alle II"
+		dynasty="Oswiu"
+		adm=5
+		dip=5
+		mil=5}}	
+		
+867.6.2={
+	monarch={
+		name="Ecgberht I"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}	
+		
+872.6.2={
+	monarch={
+		name="Ricsige"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}	
+		
+876.6.2={
+	monarch={
+		name="Ecgberht II"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+878.6.2={
+	monarch={
+		name="Guthfrid"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+885.6.2={
+	monarch={
+		name="Sigfrodr"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+895.6.2={
+	monarch={
+		name="Knutr"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+905.6.2={
+	monarch={
+		name="Athelwold"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+906.6.2={
+	monarch={
+		name="Halfdan"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+910.6.2={
+	monarch={
+		name="Eadwulf II"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+913.6.2={
+	monarch={
+		name="Ealdred"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+918.6.2={
+	monarch={
+		name="Ragnall ua Imair"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+921.6.2={
+	monarch={
+		name="Sigtrygg Caech"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}
+		
+927.7.18={
+	monarch={
+		name="Etheling"
+		dynasty="Cerdicing"
+		adm=6
+		dip=5
+		mil=6}}
+		
+939.6.2={
+	monarch={
+		name="Amlaib mac Gofraid"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}		
+
+941.6.2={
+	monarch={
+		name="Amlaib Cuaran"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}	
+
+944.6.4={
+	monarch={
+		name="Edmund the Magnificent"
+		dynasty="Cerdicing"
+		adm=5
+		dip=5
+		mil=5}}
+
+947.6.8={
+	monarch={
+		name="Eirik Bloodaxe"
+		dynasty="Fairhair"
+		adm=5
+		dip=6
+		mil=6}}
+
+948.6.2={
+	monarch={
+		name="Amlaib Cuaran"
+		dynasty="Norse"
+		adm=5
+		dip=5
+		mil=5}}	
+		
+954.6.4={
+	monarch={
+		name="Eadred"
+		dynasty="Cerdicing"
+		adm=5
+		dip=5
+		mil=5}}

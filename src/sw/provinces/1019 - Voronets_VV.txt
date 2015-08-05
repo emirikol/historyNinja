@@ -1,0 +1,47 @@
+owner=SRM
+controller=SRM
+add_core=SRM
+culture=sarmathian
+religion=zoro
+hre=no
+base_tax=4
+trade_goods=grain
+manpower=2
+capital="Voronezh"
+citysize=4000
+fort1=yes
+discovered_by=eastern
+discovered_by=latin
+discovered_by=SRM
+discovered_by=PHU
+
+267.6.1={owner=HNU controller=HNU culture=huns religion=tangra add_core=HNU}
+451.6.1={owner=TIV controller=TIV add_core=TIV culture=tivertzi religion=perun remove_core=HNU}
+630.6.1={owner=GBG controller=GBG add_core=GBG culture=proto_bulgarian religion=tangra discovered_by=BGK}
+665.6.1={owner=TIV controller=TIV add_core=TIV culture=proto_slavic religion=perun}
+750.1.1={owner=PHU controller=PHU culture=hungarian add_core=PHU remove_core=KHZ}
+891.1.1={discovered_by=muslim owner=PEC controller=PEC add_core=PEC culture=pecheneg remove_core=HUN}
+1015.1.1={owner=CUM controller=CUM add_core=CUM remove_core=PEC culture=cumanian}
+1236.6.1={owner=KHA controller=KHA remove_core=CUM culture=tartar}
+1242.6.1={owner=GOL controller=GOL religion=sunni}
+1441.1.1={owner=CRI	controller=CRI add_core=CRI	remove_core=GOL} # The Crimean Khanate
+1450.1.1={citysize=4800}
+1500.1.1={citysize=5657}
+1550.1.1={citysize=6656}
+1571.1.1={owner=RUS	controller=RUS add_core=RUS} # Estimated
+1598.1.1={revolt_risk=5} # "Time of troubles"
+1600.1.1={culture=russian religion=orthodox citysize=7830}
+1613.1.1={revolt_risk=0} # Order returned, Romanov dynasty
+1648.1.1={revolt={type=anti_tax_rebels size=2} controller=REB} # Antifeudal insurrection
+1649.1.1={revolt={} controller=RUS} 
+1650.1.1={citysize=9212}
+1670.1.1={revolt_risk=8} # Stepan Razin
+1671.1.1={revolt_risk=0} # Razin is captured
+1671.1.1={constable=yes}
+1700.1.1={citysize=10838}
+1773.1.1={revolt_risk=5} # Emelian Pugachev, Cossack insurrection
+1774.9.14={revolt_risk=0} # Pugachev is captured
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1942.11.1={owner=NAZ controller=NAZ}
+1943.10.1={owner=SOV controller=SOV}
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

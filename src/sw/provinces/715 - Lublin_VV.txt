@@ -1,0 +1,58 @@
+owner=BUR
+controller=BUR
+add_core=BUR
+culture=burgundian
+religion=odin
+hre=no
+capital="Czwartek"
+fort1=yes
+trade_goods=grain
+base_tax=6
+manpower=2
+citysize=5500
+discovered_by=eastern
+discovered_by=AVE
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+290.6.1={owner=HSL controller=HSL culture=proto_slavic religion=perun}
+370.6.1={owner=HNU controller=HNU}
+451.6.1={owner=DLB controller=DLB add_core=DLB}
+830.1.1={owner=GMV controller=GMV add_core=GMV remove_core=DLB religion=catholic culture=moravian 
+discovered_by=latin discovered_by=muslim}
+906.1.1={owner=POL controller=POL add_core=POL remove_core=GMV culture=malo_polish}
+1236.6.1={owner=KHA controller=KHA}
+1242.6.1={owner=GOL controller=GOL}
+1286.6.1={owner=POL controller=POL add_core=POL capital="Sandomierz"}
+1341.6.1={fort2=yes}
+1450.1.1={citysize=6100}
+1500.1.1={citysize=7188}
+1520.1.1={marketplace=yes}
+1550.1.1={citysize=8457}
+1580.1.1={tax_assessor=yes}
+1588.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # Civil war
+1589.1.1={revolt={} controller=POL} # Coronation of Sigismund III
+1600.1.1={citysize=9396}
+1606.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Civil war
+1608.1.1={revolt={} controller=POL} # Minor victory of Sigismund
+1655.1.1={controller=SWE} # The Deluge
+1660.1.1={controller=POL}
+1733.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # The war of Polish succession
+1735.1.1={revolt={} controller=POL}
+1795.10.24={owner=HAB controller=HAB add_core=HAB}
+1807.7.9={owner=POL controller=POL remove_core=HAB} # The Duchy of Warsaw is established after the treaty of Tilsit, ruled by Frederick Augustus I of Saxony
+1812.12.12={controller=RUS}
+1814.4.11={owner=RUS add_core=RUS} # Congress Poland, under Russian control
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # Oktober-Revolution in Moskow
+1918.1.1={owner=PON controller=PON remove_core=SOV add_core=PON}
+1939.10.8={owner=NAZ controller=NAZ add_core=NAZ} # annexed by Nazi-Germany
+1945.5.8={owner=PON controller=PON add_core=PON remove_core=NAZ} # end of the 2nd WW

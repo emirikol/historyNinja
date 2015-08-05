@@ -1,0 +1,45 @@
+owner=PHT
+controller=PHT
+add_core=PHT
+culture=parthian
+religion=zoro
+capital="Bojunrd"
+trade_goods=copper
+hre=no
+base_tax=4
+manpower=2
+citysize=3145
+fort1=yes
+discovered_by=PHT
+discovered_by=PER
+discovered_by=SRM
+
+224.6.1={owner=PER controller=PER add_core=PER culture=east_persian remove_core=PHT}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA religion=sunni remove_core=PER}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1045.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1205.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ}
+1256.6.1={owner=IKH controller=IKH add_core=IKH remove_core=KHA remove_core=KWZ}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH}
+1447.1.1={owner=KHO	controller=KHO add_core=KHO} # Khorasan
+1450.1.1={citysize=3500}
+1464.1.1={revolt_risk=3} # Pillaged by Timurid rebels
+1465.1.1={revolt_risk=0}
+1500.1.1={citysize=3870}
+1504.1.1={owner=PER controller=PER remove_core=AKK religion=shiite} # The Safavids took over
+1550.1.1={citysize=4857}
+1597.12.1={base_tax=2} # The Reforms of Abbas the Great
+1600.1.1={citysize=6060}
+1650.1.1={citysize=7080 culture=persian}
+1700.1.1={citysize=10405}
+1747.1.1={revolt_risk=3} # Shah Nadir is killed, local khanates emerged
+1748.1.1={revolt_risk=4} # The empire began to decline
+1750.1.1={citysize=9358}
+1750.1.2={owner=KHO	controller=KHO remove_core=PER revolt_risk=0} # Shahrokh is allowed to remain as ruler of Khurasan
+1796.1.1={owner=PER	controller=PER add_core=PER} # Conquered by Agha Muhammad Khan
+1800.1.1={citysize=9500}
+1802.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Nadir Mirza revolt against Qajar Shah
+1803.4.1={revolt={} controller=PER} # Nadir Mirza is killed
+1850.1.1={fort2=yes}
+1935.3.21={owner=IRN controller=IRN add_core=IRN remove_core=PER} # Persia is now everywhere known as Iran

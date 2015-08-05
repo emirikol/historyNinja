@@ -1,0 +1,226 @@
+#Country Name: Please see filename.
+
+graphical_culture=latingfx
+
+color={0 51 135}
+
+historical_ideas={
+	merchant_adventures
+	excellent_shipwrights
+	national_conscripts
+	military_drill
+	superior_seamanship
+	national_trade_policy
+	quest_for_the_new_world
+	colonial_ventures
+	naval_fighting_instruction
+	smithian_economics
+	scientific_revolution
+	improved_foraging
+	cabinet
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	western_medieval_infantry
+	
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	
+	swedish_galoop
+	austrian_tercio
+	austrian_grenzer
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names={
+	"Willem #0"=100
+	"Lodewijk #0"=40
+	"Frederik Hendrik #0"=20
+	"Maurits #0"=20
+	"Filips Willem #0"=10
+	"Hendrik Lodewijk #0"=10
+	"Karel #0 Lodewijk"=10
+	"Lodewijk #0 Karel"=10
+	"Adriaan #0"=5
+	"Andries #0"=5
+	"Antonius #0"=5
+	"Frederik #0"=5
+	"Gaspar #0"=5
+	"Isaac #0"=5
+	"Jacob #0"=5
+	"Johan #0"=5
+	"Laurens #0"=5
+	"Paul #0"=5
+	"Pieter #0"=5
+	"Simon #0"=5
+	"Abraham #0"=0
+	"Antoon #0"=0
+	"Barthout #0"=0
+	"Christiaan #0"=0
+	"Christoffel #0"=0
+	"Constantijn #0"=0
+	"Cornelis #0"=0
+	"Daniel #0"=0
+	"David #0"=0
+	"Filips #0"=0
+	"Dirk #0"=0
+	"Eise #0"=0
+	"Frans #0"=0
+	"Gabriel #0"=0
+	"Gerard #0"=0
+	"Gerben #0"=0
+	"Godfried #0"=0
+	"Hans #0"=0
+	"Jeroen #0"=0
+	"Hugo #0"=0
+	"Jacob #0"=0
+	"Jan #0"=0
+	"Joost #0"=0
+	"Nicolaas #0"=0
+	"Roeland #0"=0
+	"Rogier #0"=0
+	"Rutger #0"=0
+	"Thomas #0"=0
+	"Vincent #0"=0
+	"Zacharias #0"=0
+	"Louis #10"=160
+	"Charles #5"=80
+	"Henri #1"=60
+	"François #0"=40
+	"Philippe #6"=10
+	"Jean #2"=10
+	"Gaston #0"=10
+        "Nicolas #0 Henri"=10
+	"Louis François #0"=5
+	"Jacques #0"=5
+	"Joachim #0"=5
+	"Xavier #0"=5
+        "Robert #2"=1
+	"Hughes #1"=1
+	"Raoul #1"=1
+	"Alexandre #0"=0
+	"Alphonse #0"=0
+	"Ambroise #0"=0
+	"Armand #0"=0
+        "Augustin #0"=0
+	"Barthélémy #0"=0
+	"Benoît #0"=0
+	"Bernard #0"=0
+	"Blaise #0"=0
+        "Claude #0"=0
+	"Clément #0"=0
+	"Denis #0"=0
+	"Étienne #0"=0
+	"Firmin #0"=0
+	"Georges #0"=0
+	"Gui #0"=0
+        "Guillaume #0"=0
+	"Ignace #0"=0
+	"Jean-Antoine #0"=0
+	"Jean-Baptiste #0"=0
+	"Jean-Jacques #0"=0
+        "Jean-Philippe #0"=0
+	"Joseph #0"=0
+	"Josquin #0"=0
+	"Jules #0"=0
+	"Marc #0"=0
+	"Maurice #0"=0
+	"Maximiliem #0"=0
+        "Michel #0"=0
+	"Nicolas #0"=0
+	"Pascal #0"=0
+	"Pierre #0"=0
+	"René #0"=0
+        "Sébastien #0"=0
+        "Simon #0"=0
+}
+
+leader_names={
+	"Van der Aa" "Van Assendelft" 
+	"Van Bronkhorst" Batenburg Bentinck Brandt "Van Brederode" Brouwer
+	Coehoorn Coen Crijnssen "Van Culemborg"
+	Daendels "Van Diemen" "Van der Does" "Van Duivenvoorde"
+	"Van Egmont" Evertzen
+	"Van Galen" "De Grouwe"
+	"Van Haren" "Van Heemskerck" "De Houtman" "Van Huchtenbroek"
+	"Van Ilpendam"
+	Kater "Van Keppel" Kortenaer
+	"Van Marnix" Martena "De Moor"
+	Nachtegaal "Van Nieuwenaar" "Van Noort"
+	"Van Pallandt"
+	"Van Raephorst" "Van Rechteren" Reijersen "Van Renesse" "Van Riebeeck" "De Rijk" "Van Rossum"
+	Schouten Schenk Spiegel Steltman Stuyvesant "Van Swieten"
+	Tasman "Van Troyen"
+	Vliechop "Van Voorst"
+	"Van Utenhove"
+	"Van Walbeeck" "Van Wassenaer" "Van der Werff" "Van Wesembeke" "Van Wingle" "Van Wijngaarden" "De Winter"
+        d'Ambleteuse d'Aulnay
+        "de Beauharnais" "de Bercy" "de Béthune" "de Boissieu" "de Bonnefoy" "de Bonneuil" "du Bosquet" "de la Bretonnière" "de Broglie"
+        "de Castaing" "de Caumartin" "de Chambly" "de Chambronne" "de Champmartin" "de Chevigny" "des Coulons" "de Crèvecoeur" "de Crussol"
+        "de Dampierre" Desgouttes Duquesne
+        "des Ecures" d'Entraigues d'Estrées
+        "du Fournay"
+        "de Galard"
+        "des Herbiers"
+        "de La Barthe" "de La Ferrandie" "de La Galissonière" "de La Mothe" "de La Motte d'Airan" "de La Porte" "Le Tellier" "de Lhéry" "de Luynes"
+        "de Marguerye" "de Maurepas"
+        "de Neufchâtel"
+        "d'Ornano"
+        "de Pellefort"
+        "de Richemont" "de Rochechouart" "de Rochemaure" "de Rieu"
+        "de Saint Chamond" "de Saint Esprit" "de Saint Germain" "de Saint Omer" "de Siorac"
+        "de Tocqueville" "de la Tour d'Auvergne" "de Tréville"
+        "d'Usson"
+        "du Valentinois" "de Vergennes" "de Vibien" "de Vigny" "de Villeneuve"
+}
+
+ship_names={
+	Adelaar Ajax Alkmaar Amelia Amsterdam Atalanta Bantam Batavia Beschermer Brederode 
+	Brouwer Brutus Campen Cerberus Comeestar Daphne Delfland Delft "Den Swarten Raven" 
+	Delphin Deventer Duyfken Eendracht Eenhorn Embuscade Engel Erasmus Gaesterland 
+	"Gekroende Liefde" Gelijkheid "Vereenigde Provincieën" Gouda "Gouden Arend" 
+	"Gouden Leeuw" "Groot Frisia" "Groote Sint Joris" "Grote Zon" Haarlem Heldin Hercules 
+	"De Halve Maen" Hollandia "Hollandsche Tuyn" "Huis te Oosterwijk" "Huis te Zwieten" 
+	"Huys van Nassau" "Jong Prins te Paard" Jupiter "Kleine Zon" "Kleene Sint Joris" 
+	Komeeetster "Kronede Arend" Leyden "Liefde van Hoorn" "Maagd van Dordrecht" Mars 
+	Mauritius Middelburg Minerva Moon Monnikendam Muiderberg Nassau "Nieuw Vlissingen" 
+	Olifant Onrust Ooievaar Oranje Patientia Posthorn "Prins Friso" "Prins Willem" 
+	Rotterdam Rozendaal Schakerloo Schermer Spiegel Staten-Generaal Statenlande Ster 
+	"St. Iago de Victoria" "St. Marten" "St. Matthuis" Tholen Tyger Vlissingen Vrede 
+	Vrijheid Waakzaamheid "Walcheren" "Wapen van Holland" "Wapen van Medenblik" Wassenaar 
+	Winhond "Witte Leeuw" Woerden Zeerijp "Zeven Provincien" Zierikzee Zon Zuidholland 
+	"Zwarte Leeuw" 
+}

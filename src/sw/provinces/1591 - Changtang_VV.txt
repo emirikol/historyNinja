@@ -1,0 +1,22 @@
+owner=TIB
+controller=TIB
+add_core=TIB
+culture=tibetan
+religion=buddhism
+capital="Zaskar"
+fort1=yes
+trade_goods=wool
+hre=no
+base_tax=1
+manpower=1
+discovered_by=chinese
+discovered_by=PER
+discovered_by=PHT
+discovered_by=TIB
+citysize=1000
+discovered_by=KUS
+discovered_by=KSH
+
+1755.10.4={revolt_risk=7} # Rebellion aginst the Chinese
+1757.10.4={revolt_risk=0}
+1951.5.23={owner=RCH controller=RCH add_core=RCH} # annexion of Tibet

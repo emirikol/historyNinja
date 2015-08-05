@@ -1,0 +1,29 @@
+owner=SAK
+controller=SAK
+add_core=SAK
+culture=saka
+religion=tangra
+fort1=yes
+capital="Baroda"
+trade_goods=spices
+hre=no
+base_tax=3
+manpower=2
+citysize=10452
+discovered_by=indian
+discovered_by=PHT
+discovered_by=PER
+discovered_by=SAK
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=KAL
+
+210.6.1={owner=SEV controller=SEV add_core=SEV culture=satavahana remove_core=SAK}
+403.6.1={owner=VAK controller=VAK add_core=VAK culture=vakatakian religion=buddhism remove_core=SEV}
+565.6.1={owner=GUJ controller=GUJ add_core=GUJ culture=gujarati religion=hinduism remove_core=VAK}
+950.6.1={discovered_by=muslim}
+1498.1.1={discovered_by=POR}
+1573.6.1={owner=MUG controller=MUG add_core=MUG remove_core=GUJ} # Conquered by Akbar
+1721.1.1={owner=MAR controller=MAR add_core=MAR remove_core=MUG} # Conquered by the Marathas
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=MAR}

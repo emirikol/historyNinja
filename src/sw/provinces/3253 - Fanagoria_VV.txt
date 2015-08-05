@@ -1,0 +1,56 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+hre=no
+base_tax=5
+trade_goods=horses
+manpower=2
+capital="Phanagoria"
+citysize=3722
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=GHT
+discovered_by=SRM
+discovered_by=PHT
+discovered_by=PER
+discovered_by=PNO
+discovered_by=BAO
+discovered_by=SIR
+discovered_by=PHU
+
+313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+370.6.1={owner=HNU controller=HNU}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP culture=greek}
+630.6.1={discovered_by=muslim owner=GBG controller=GBG add_core=GBG culture=proto_bulgarian religion=tangra discovered_by=BGK}
+665.6.1={owner=KHZ controller=KHZ add_core=KHZ}
+680.6.1={culture=bulgarian}
+681.6.1={remove_core=GBG}
+843.6.1={discovered_by=latin}
+895.9.1={owner=PEC controller=PEC add_core=PEC remove_core=KHZ culture=pecheneg remove_core=KHZ}
+970.5.1={owner=KIV controller=KIV remove_core=PEC add_core=KIV culture=kievan_rus religion=orthodox}
+972.1.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek}
+988.3.1={owner=KIV controller=KIV add_core=KIV culture=kievan_rus}
+1015.1.1={owner=CUM controller=CUM remove_core=PEC add_core=CUM culture=cumanian}
+1132.1.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=CUM}
+1204.4.12={owner=GEN controller=GEN add_core=GEN remove_core=BYZ}
+1399.1.1={add_core=CRI}
+1441.1.1={owner=CRI	controller=CRI add_core=CRI remove_core=GOL} # The Crimean Khanate
+1450.1.1={citysize=3900}
+1475.5.1={add_core=TUR} # Seized by Gedik Ahmet Pasha
+1500.1.1={citysize=4379}
+1550.1.1={citysize=5151}
+1600.1.1={citysize=6060}
+1650.1.1={citysize=7130}
+1700.1.1={citysize=8388}
+1750.1.1={citysize=9869}
+1783.1.1={add_core=RUS owner=RUS controller=RUS remove_core=TUR} # Conquered by Russia
+1802.1.1={capital="Feodosiya"} # The city is renamed
+1874.1.1={culture=ruthenian religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1941.12.1={owner=NAZ controller=NAZ}
+1944.4.1={owner=SOV controller=SOV}
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

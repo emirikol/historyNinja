@@ -1,0 +1,31 @@
+#1068 - Pegaya Orda
+
+culture = yakut
+religion = shamanism
+capital = "Pegaya Orda"
+trade_goods = unknown
+hre = no
+base_tax = 4
+manpower = 1
+native_size = 10
+native_ferocity = 2
+native_hostileness = 3
+discovered_by = GOL
+
+1450.1.1 = { discovered_by = SIB }
+1585.1.1 = { discovered_by = RUS }
+1586.1.1 = {	owner = RUS
+		controller = RUS
+	   	religion = orthodox
+	   	culture = russian
+		citysize = 540
+		trade_goods = iron
+	   } # Yermak Timofeevich
+1600.1.1 = { citysize = 980 }
+1611.1.1 = {	add_core = RUS
+	   	citysize = 1033
+	   }
+1650.1.1 = { citysize = 3800 }
+1700.1.1 = { citysize = 4705 }
+1750.1.1 = { citysize = 5678 }
+1800.1.1 = { citysize = 7855 }

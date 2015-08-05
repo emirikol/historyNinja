@@ -1,0 +1,46 @@
+#519 - Jaipur
+
+owner = RAJ
+controller = RAJ
+culture = rajput
+religion = hinduism
+capital = "Jaipur"
+trade_goods = grain
+hre = no
+base_tax = 5
+manpower = 2
+citysize = 62800
+add_core = RAJ
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 69800 }
+1500.1.1 = { citysize = 75340 }
+1527.1.1 = {	owner = MUG
+		controller = MUG
+		add_core = MUG
+	   } # The Mughal Empire
+1550.1.1 = { citysize = 82458 }
+1600.1.1 = { citysize = 88570 }
+1650.1.1 = { citysize = 93540 }
+1669.1.1 = { revolt_risk = 6 } # The Jats revolted against Aurangzeb's rule
+1670.1.1 = { revolt_risk = 0 }
+1685.1.1 = { revolt_risk = 6 } # Jat revolt lead by Raja Ram
+1691.1.1 = { revolt_risk = 0 } # The Jats were defeated
+1700.1.1 = { citysize = 100867 }
+1707.1.1 = { revolt_risk = 5 } # With Aurangzeb's death the resistance grew
+1708.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 105630 }
+1753.1.1 = {	owner = MAR
+		controller = MAR
+		add_core = MAR
+		remove_core = MUG
+	   } # The Marathas
+1780.1.1 = { revolt_risk = 5 } # Internal chaos, parts of Jaipur were annexed to Alwar & Bharatpur
+1800.1.1 = { citysize = 112540 }
+1818.6.3 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+	   }

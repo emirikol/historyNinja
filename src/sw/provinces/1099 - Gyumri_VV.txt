@@ -1,0 +1,58 @@
+owner=AAR
+controller=AAR
+add_core=AAR
+culture=old_armenian
+religion=groman
+capital="Garni"
+fort1=yes
+trade_goods=stone
+hre=no
+base_tax=3
+manpower=3
+citysize=2730
+discovered_by=RMP
+discovered_by=latin
+discovered_by=RME
+discovered_by=AAR
+discovered_by=PER
+discovered_by=PHT
+discovered_by=PNO
+discovered_by=SIR
+discovered_by=SRM
+
+50.6.1={religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+885.1.1={owner=AAR controller=AAR add_core=AAR}
+1045.1.1={owner=BYZ controller=BYZ add_core=BYZ culture=armenian}
+1065.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1205.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ}
+1256.6.1={owner=IKH controller=IKH add_core=IKH remove_core=KWZ}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH remove_core=SEJ}
+1402.1.1={owner=AKK	controller=AKK add_core=AKK	remove_core=TIM} # The Ak Koyunlu
+1450.1.1={citysize=2900}
+1453.1.1={discovered_by=latin discovered_by=eastern}
+1500.1.1={citysize=3180}
+1501.1.1={owner=PER	controller=PER add_core=PER remove_core=AKK} # The Safavids take over
+1550.1.1={citysize=4680}
+1554.1.1={controller=TUR} # Wartime occupation
+1555.5.29={controller=PER} # Peace of Amasya
+1583.8.15={controller=TUR} # Ottoman conquest
+1590.3.21={owner=TUR add_core=TUR} # Peace of Istanbul
+1600.1.1={citysize=5711}
+1604.6.1={controller=PER} # Persian reconquest
+1612.11.20={owner=PER} # Part of Persia
+1639.5.17={remove_core=TUR} # Final division between Persia & Ottoman
+1650.1.1={citysize=7230}
+1700.1.1={citysize=9680 constable=yes}
+1722.1.1={revolt_risk=5} # Rebellion against both the Persians & Ottomans
+1725.1.1={tax_assessor=yes}
+1730.1.1={revolt_risk=0}
+1828.1.1={owner=RUS controller=RUS add_core=RUS remove_core=PER} # occupied by Russia
+1850.1.1={fort2=yes}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1918.5.28={owner=ARM controller=ARM} # first Armenian Republic
+1920.11.29={owner=SOV controller=SOV add_core=SOV remove_core=RUS} # occupied by Armenian and Russian Bolschewiki
+1991.9.21={owner=ARM controller=ARM remove_core=SOV} # Armenia gets independent again

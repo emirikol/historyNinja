@@ -1,0 +1,33 @@
+owner=PAH
+controller=PAH
+add_core=PAH
+culture=pahlavi
+religion=zoro
+capital="Multan"
+trade_goods=tea
+hre=no
+base_tax=1
+manpower=3
+citysize=10110
+fort1=yes
+discovered_by=PAH
+discovered_by=indian
+discovered_by=SAK
+
+86.7.1={owner=KUS controller=KUS remove_core=PAH}
+180.6.1={owner=ABR controller=ABR add_core=ABR culture=abhira religion=hinduism}
+420.6.1={owner=HEP controller=HEP culture=hephthalites religion=tangra}
+567.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=hinduism}
+630.6.1={discovered_by=muslim}
+1025.6.1={owner=GHZ controller=GHZ add_core=GHZ culture=ghaznavian religion=sunni}
+1156.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=GHZ culture=khwarezm}
+1294.6.1={owner=DLH controller=DLH culture=east_persian add_core=DLH religion=hinduism remove_core=KWZ}
+1500.1.1={religion=sunni}
+1526.1.1={owner=MUG controller=MUG	add_core=MUG} # The Mughal Empire
+1526.1.1={remove_core=DLH}
+1739.1.1={owner=PER controller=PER add_core=PER remove_core=MUG} # Nadir Shah
+1747.1.1={owner=DUR controller=DUR add_core=DUR remove_core=PER} # Annexed by Ahmad Shah Durrani
+1757.1.1={temple=yes} # Wali Mohammad Khan
+1818.1.1={owner=PUN controller=PUN remove_core=DUR}
+1849.3.29={owner=GBR add_core=GBR controller=GBR}
+1947.8.14={owner=PAK controller=PAK add_core=PAK remove_core=GBR}

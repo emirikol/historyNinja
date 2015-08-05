@@ -1,0 +1,71 @@
+government=principality
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=1
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-1
+quality_quantity=-1
+serfdom_freesubjects=-1
+primary_culture=turkish
+religion=sunni
+technology_group=muslim
+capital=872	# Antalya
+
+1250.1.1={
+monarch={
+name="Mentese"
+dynasty="Mentesoglu"
+adm=5
+dip=5
+mil=5}}
+
+1282.1.1={
+monarch={
+name="Mes’ud"
+dynasty="Mentesoglu"
+adm=6
+dip=6
+mil=5}}
+
+1320.1.1={
+monarch={
+name="Orhan Sucauddin"
+dynasty="Mentesoglu"
+adm=6
+dip=6
+mil=6}}
+
+1342.1.1={
+monarch={
+name="Mes'ud Muhezzibuddin"
+dynasty="Mentesoglu"
+adm=6
+dip=6
+mil=6}}
+
+1363.1.1={
+monarch={
+name="Mehmed"
+dynasty="Mentesoglu"
+adm=6
+dip=5
+mil=6}}
+
+1372.1.1={
+monarch={
+name="Ahmed"
+dynasty="Mentesoglu"
+adm=6
+dip=6
+mil=6}}
+
+1381.1.1={
+	monarch={
+		name="Ilyas I"
+		dynasty="Mentesoglu"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

@@ -1,0 +1,40 @@
+culture=normand
+religion=odin
+hre=no
+base_tax=1
+trade_goods=fur
+manpower=1
+capital="Froson"
+
+415.1.1={discovered_by=VIK}
+810.1.1={owner=VIK controller=VIK add_core=VIK fort1=yes citysize=1100}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1100.1.1={owner=NOR controller=NOR add_core=NOR remove_core=VIK culture=norwegian}
+1130.1.1={religion=catholic}
+1450.1.1={citysize=1400}
+1470.1.1={citysize=1510}
+1500.1.1={citysize=1920}
+1527.6.1={religion=protestant}
+1531.11.5={revolt_risk=10} # The Return of Christian II
+1532.7.15={revolt_risk=0} # The Capture of Christian II
+1536.1.1={owner=DAN add_core=DAN} # 'Handfastningen'(Unknown date)
+1560.1.1={citysize=2130} # estimated
+1564.2.10={controller=SWE} # Nordic Seven-years War
+1570.11.18={controller=DAN} # The Peace at Roskilde in 1570
+1611.8.1={controller=SWE} # The War of Kalmar (Unknown date)
+1613.1.20={controller=DAN} # The Peace of Knared
+1640.1.1={courthouse=yes} # minor court belonging to Svea Hovrätt
+1644.2.1={controller=SWE} # Torstenssons War-Captured by Herman Flemming (Unknown date)
+1644.8.1={controller=DAN} # Torstenssons War-Captured by Hannibal Sehested
+1645.8.13={owner=SWE controller=SWE} # The Peace of Bromsebro
+1646.1.1={regimental_camp=yes} # Angermanlands-, Medelpads- och Jamtlands regemente 
+1657.11.25={controller=DAN} # Karl X Gustavs First Danish War-Captured by Bielke
+1658.2.26={controller=SWE remove_core=DAN} # The Peace of Roskilde
+1670.1.1={fort2=yes} # estimated date
+1690.1.1={citysize=2550} # estimated
+1690.1.1={culture=swedish} # date estimated
+1720.1.1={marketplace=yes} # date estimated upon when "Froson/Levanger" markets became important
+1730.1.1={citysize=3180} # estimated
+1770.1.1={citysize=4200} # estimated
+1786.10.23={capital="Ostersund"}
+1800.1.1={citysize=4821}

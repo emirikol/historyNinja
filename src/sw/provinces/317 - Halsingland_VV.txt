@@ -1,0 +1,22 @@
+culture=normand
+religion=odin
+hre=no
+base_tax=1
+trade_goods=silver
+manpower=1
+capital="Gavle"
+discovered_by=FTP
+
+415.6.1={owner=VIK controller=VIK add_core=VIK discovered_by=VIK citysize=1100 fort1=yes}
+843.1.1={discovered_by=latin discovered_by=eastern marketplace=yes}
+1080.1.1={religion=catholic}
+1200.1.1={owner=SWE controller=SWE add_core=SWE remove_core=VIK culture=swedish}
+1450.1.1={citysize=1300}
+1527.6.1={religion=protestant}
+1560.1.1={fort2=yes} 
+1570.1.1={citysize=1524}
+1610.1.1={citysize=1930}
+1634.1.1={regimental_camp=yes} #Hälsinge regemente
+1635.1.1={courthouse=yes} #minor court belonging to Svea Hovrätt
+1650.1.1={citysize=2508}
+1670.1.1={tax_assessor=yes} #Due to the "Staplepolicy act"

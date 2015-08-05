@@ -1,0 +1,5 @@
+discovered_by=new_world
+discovered_by=CAL
+discovered_by=TMC
+discovered_by=CRE
+discovered_by=CHO

@@ -1,0 +1,41 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=roman
+religion=groman
+hre=no
+capital="Darna"
+trade_goods=fish
+base_tax=3
+manpower=1
+citysize=5800
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=cophtic remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP}
+630.6.1={discovered_by=muslim}
+649.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+843.6.1={discovered_by=latin}
+1171.6.1={owner=SAL controller=SAL add_core=SAL remove_core=ABB}
+1250.1.1={owner=TRP controller=TRP remove_core=SAL add_core=TRP culture=maghreb_arabic}
+1450.1.1={citysize=6400}
+1500.1.1={citysize=7010}
+1550.1.1={citysize=7664}
+1551.1.1={owner=TUR controller=TUR add_core=TUR	remove_core=KNI} # Under direct Ottoman control until 1629
+1600.1.1={citysize=8021}
+1650.1.1={citysize=8877}
+1660.1.1={marketplace=yes}
+1700.1.1={citysize=9434}
+1750.1.1={citysize=10100}
+1818.1.1={owner=TUR controller=TUR add_core=TUR}
+1822.1.1={owner=TRP controller=TRP add_core=TRP remove_core=TUR} # formal still belonging to the Osmans
+1912.1.1={owner=ITA controller=ITA add_core=ITA} # Italian Colony
+1942.1.1={controller=GBR owner=GBR}
+1951.12.24={owner=LIB controller=LIB add_core=LIB remove_core=TRP remove_core=ITA}

@@ -1,0 +1,40 @@
+owner=AAR
+controller=AAR
+add_core=AAR
+culture=old_armenian
+religion=groman
+capital="Kars"
+trade_goods=iron
+hre=no
+base_tax=3
+manpower=3
+citysize=8480
+fort1=yes
+discovered_by=AAR
+discovered_by=RMP
+discovered_by=RME
+discovered_by=latin
+discovered_by=PER
+discovered_by=PHT
+discovered_by=PNO
+discovered_by=SRM
+
+50.6.1={religion=orthodox}
+310.6.1={owner=RME controller=RME add_core=RME}
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA remove_core=AAR}
+885.1.1={owner=AAR controller=AAR add_core=AAR religion=orthodox remove_core=ABB}
+1045.1.1={owner=BYZ controller=BYZ add_core=BYZ}
+1071.9.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB remove_core=AAR}
+1200.8.1={owner=AKK controller=AKK add_core=AKK remove_core=KWZ culture=turkish}
+1453.1.1={discovered_by=latin}
+1514.1.1={owner=TUR controller=TUR add_core=TUR	remove_core=AKK} # Conquered by the Ottomans
+1520.1.1={regimental_camp=yes} # Erserum served as the Ottoman's main military base in the religion
+1550.1.1={fort2=yes}
+1658.1.1={revolt={type=revolutionary_rebels size=0.5} controller=REB} # Revolt of Abaza Hasan Pasha
+1659.1.1={revolt={} controller=TUR}
+1923.10.29={owner=TRK controller=TRK add_core=TRK remove_core=TUR} # Republic of Turkey gets founded

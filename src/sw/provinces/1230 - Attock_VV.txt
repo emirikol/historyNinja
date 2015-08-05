@@ -1,0 +1,37 @@
+owner=PAH
+controller=PAH
+add_core=PAH
+culture=pahlavi
+religion=zoro
+capital="Lahore"
+trade_goods=wool
+hre=no
+base_tax=3
+manpower=1
+citysize=7100
+fort1=yes
+discovered_by=indian
+discovered_by=PHT
+discovered_by=PER
+discovered_by=PAH
+discovered_by=KUS
+discovered_by=TIB
+discovered_by=KSH
+
+86.7.1={owner=KUS controller=KUS add_core=KUS culture=kushans remove_core=PAH}
+205.6.1={owner=YAU controller=YAU add_core=YAU  culture=yaudheyan remove_core=KUS}
+420.6.1={owner=HEP controller=HEP add_core=HEP remove_core=YAU culture=hephthalites religion=tangra}
+567.6.1={owner=PER controller=PER add_core=PER culture=panjabi religion=hinduism remove_core=HEP}
+630.6.1={discovered_by=muslim}
+1025.6.1={owner=GHZ controller=GHZ add_core=GHZ culture=ghaznavian religion=sunni remove_core=PER}
+1156.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=GHZ culture=khwarezm}
+1294.6.1={owner=DLH controller=DLH culture=east_persian add_core=DLH religion=hinduism remove_core=KWZ}
+1450.1.1={citysize=7500}
+1500.1.1={citysize=8250}
+1526.1.1={owner=MUG	controller=MUG add_core=MUG remove_core=DLH culture=mongol} # Battle of Panipat
+1550.1.1={citysize=9811}
+1600.1.1={culture=kanauji}
+1747.1.1={owner=DUR controller=DUR add_core=DUR	remove_core=MUG} # The Mughal Empire began to disintegrate
+1767.1.1={owner=PUN controller=PUN remove_core=MUG}
+1849.3.29={owner=GBR add_core=GBR controller=GBR}
+1947.8.14={owner=PAK controller=PAK add_core=PAK remove_core=GBR}

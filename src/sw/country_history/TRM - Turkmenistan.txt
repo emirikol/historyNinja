@@ -1,0 +1,33 @@
+government=republican_dictatorship
+aristocracy_plutocracy=-4
+centralization_decentralization=5
+innovative_narrowminded=3
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-5
+quality_quantity=3
+serfdom_freesubjects=-2
+technology_group=muslim
+religion=sunni
+primary_culture=turkmeni
+capital=441	# Khiva
+
+1950.1.1={religion=religious_tolerance}
+
+1990.1.1={
+	monarch={
+		name="Saparmyrat Ataýewiç Nyýazow"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+2006.12.21={ government=constitutional_republic }
+2006.12.21={
+	monarch={
+		name="Gurbanguly Mälikgulyýewiç Berdimuhammedow"
+		adm=5
+		dip=5
+		mil=6
+	}
+}

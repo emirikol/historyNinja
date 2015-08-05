@@ -1,0 +1,37 @@
+owner=FUN
+controller=FUN
+add_core=FUN
+culture=funan
+religion=buddhism
+capital="Saigon"
+trade_goods=rice
+hre=no
+base_tax=8
+manpower=3
+citysize=9000
+fort1=yes
+discovered_by=chinese
+discovered_by=indian
+discovered_by=muslim
+discovered_by=KHE
+discovered_by=FUN 
+
+802.6.1={owner=KHM controller=KHM add_core=KHM culture=khmer remove_core=FUN discovered_by=KHM}
+1450.1.1={citysize=5800}
+1500.1.1={citysize=6200}
+1535.1.1={discovered_by=POR}
+1550.1.1={citysize=6500}
+1600.1.1={citysize=7000}
+1623.1.1={customs_house=yes}
+1650.1.1={citysize=7500}
+1698.1.1={owner=ANN	controller=ANN add_core=ANN} # Vietnamese control
+1700.1.1={citysize=8000}
+1750.1.1={citysize=8500}
+1800.1.1={citysize=9000}
+1802.1.1={owner=DAI	controller=DAI	add_core=DAI remove_core=ANN} # The Nguyen dynasty defeats the Tay Sons
+1883.1.1={owner=RFR controller=RFR add_core=RFR} # unknown date
+1940.7.1={owner=JAP controller=JAP} # occupied by Japan
+1945.8.15={owner=RFR controller=RFR}
+1945.9.2={owner= VTN controller=VTN add_core=VTN remove_core=RFR}
+1954.5.7={owner=SVT controller=SVT add_core=SVT} # South Vietnam
+1976.8.2={owner=VTN controller=VTN add_core=VTN remove_core=SVT}

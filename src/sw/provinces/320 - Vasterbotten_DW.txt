@@ -1,0 +1,27 @@
+culture=swedish
+religion=baltik
+hre=no
+base_tax=1
+trade_goods=wood
+manpower=1
+capital="Umea"
+discovered_by=FTP
+
+415.1.1={discovered_by=VIK} 
+843.1.1={discovered_by=latin discovered_by=eastern}
+1200.1.1={citysize=1050 owner=SWE controller=SWE add_core=SWE religion=catholic remove_core=VIK}
+1450.1.1={citysize=1100}
+1500.1.1={citysize=1210} # Estimated
+1527.6.1={religion=protestant}
+1550.1.1={citysize=1550} # Estimated
+1600.1.1={citysize=1910} # Estimated
+1623.1.1={regimental_camp=yes} # Vasterbottens regemente
+1623.1.1={fort1=yes}
+1650.1.1={citysize=2365}
+1650.1.1={trade_goods=naval_supplies}
+1700.1.1={citysize=2610}
+1704.1.1={fort2=yes}
+1750.1.1={citysize=2738}
+1800.1.1={citysize=3105}
+1809.3.24={controller=RUS} # Conquered by Barclay de Tolly
+1809.9.17={controller=SWE} # Treaty of Fredrikshamn

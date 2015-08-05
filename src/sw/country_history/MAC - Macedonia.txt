@@ -1,0 +1,15 @@
+government=administrative_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive =2
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+primary_culture=south_west_bulgarian
+religion=orthodox
+technology_group=eastern
+capital=3252	# Skopje
+
+1950.1.1={ religion=religious_tolerance }

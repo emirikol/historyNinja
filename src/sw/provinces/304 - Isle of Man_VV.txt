@@ -1,0 +1,33 @@
+culture=wessex
+religion=droid
+hre=no
+base_tax=1
+trade_goods=fish
+manpower=1
+capital="Douglas"
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+410.6.1={owner=RHE controller=RHE add_core=RHE culture=rheged religion=early citysize=1000 fort1=yes discovered_by=RHE}
+730.6.1={owner=NOL controller=NOL add_core=NOL remove_core=RHE}
+800.1.1={religion=catholic}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
+880.1.1={owner=VIK controller=VIK}
+927.1.1={owner=GWY controller=GWY add_core=GWY}
+1197.6.1={owner=WLS controller=WLS add_core=WLS}
+1282.1.1={owner=ENG controller=ENG add_core=ENG culture=english}
+1540.1.1={religion=anglican}
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}

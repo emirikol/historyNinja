@@ -1,0 +1,40 @@
+owner=TLP
+controller=TLP
+add_core=TLP
+culture=tepanecs
+religion=teotl_azt
+capital="Colima" 
+fort1=yes
+trade_goods=iron 
+hre=no 
+base_tax=2 
+manpower=3
+citysize=1268
+discovered_by=TER
+discovered_by=MET
+discovered_by=TOT
+discovered_by=TXC
+discovered_by=AZT
+discovered_by=TLX
+discovered_by=ZAP
+discovered_by=MAY
+discovered_by=MIX
+discovered_by=QUI
+discovered_by=CAK
+discovered_by=PUT
+discovered_by=TLP
+
+1450.1.1={citysize=1600}
+1500.1.1={citysize=1987}
+1522.1.1={discovered_by=SPA} # Cristobal de Olid 
+1530.1.1={manpower=2 owner=SPA controller=SPA culture=castillian religion=catholic revolt_risk=5} 
+1533.1.1={revolt_risk=0} # Administered by Mexico city 
+1541.1.1={citysize=400} # Founded by Antonio de Mendoza 
+1550.1.1={citysize=2250} 
+1555.1.1={add_core=SPA remove_core=TLP}
+1600.1.1={citysize=2960} 
+1650.1.1={citysize=3422} 
+1700.1.1={citysize=5600} 
+1750.1.1={citysize=10440 add_core=MEX} 
+1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
+1810.10.17={controller=MEX remove_core=SPA} # Conquered by José María Morelos

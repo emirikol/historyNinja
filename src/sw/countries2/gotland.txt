@@ -1,0 +1,130 @@
+#Gotland
+
+graphical_culture=latingfx
+
+color={ 191  113  133 }
+
+historical_ideas={
+	merchant_adventures
+	shrewd_commerce_practise
+	national_conscripts
+	national_trade_policy
+	military_drill
+	glorious_arms
+	national_bank
+	grand_army
+	cabinet
+	bill_of_rights
+	improved_foraging
+	espionage
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	western_medieval_infantry
+	
+	western_men_at_arms
+	dutch_maurician
+	swedish_galoop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names={
+	"Johan #0"=40
+	"Adam #0"=20
+	"Christian #0"=20
+	"Dick #0"=20
+	"Erik #0"=20
+	"Marcus #0"=20
+	"Pontus #0"=20
+	"Thomas #0"=20
+	"Anna #0"=-15
+	"Henrik #0"=15
+	"Joakim #0"=15
+	"Patric #0"=15
+	"Susanna #0"=-15
+	"Oskar #0"=10
+	"Alfred #0"=0
+	"Axel #0"=0
+	"Bengt #0"=0
+	"Edvard #0"=0
+	"Einar #0"=0
+	"Folke #0"=0
+	"Gottfrid #0"=0
+	"Halvar #0"=0
+	"Jakob #0"=0
+	"Karl #0"=0
+	"Lars #0"=0
+	"Ludvig #0"=0
+	"Mikael #0"=0
+	"Nils #0"=0
+	"Olof #0"=0
+	"Petter #0"=0
+	"Rangvald #0"=0
+	"Rettil #0"=0
+	"Sigvard #0"=0
+	"Simon #0"=0
+	"Steen #0"=0
+	"Svante #0"=0
+	"Tomas #0"=0
+	"Ulrik #0"=0
+	"Viggo #0"=0
+	"Waldemar #0"=0 
+}
+
+leader_names={
+        Andersson
+	Åberg
+	Eriksson
+	Helmfridsson
+	Johansson
+	Lindgren
+	Sjöström
+	Edström
+	Skoglund
+	Thulin	
+}
+
+ship_names={
+	Burgsvik
+	Djauvik
+	Färösund
+	Gnisvärd
+	Klinteham Kovik
+	Ljugarm
+	Slite
+        Västergarn Visby
+}

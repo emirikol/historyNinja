@@ -1,0 +1,16 @@
+government=duchy
+aristocracy_plutocracy=-1
+centralization_decentralization=3
+innovative_narrowminded=3
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=4
+quality_quantity=0
+serfdom_freesubjects=-1
+primary_culture=cantabrian
+religion=droid
+technology_group=e_latin
+capital=477	# Leon
+
+200.6.1={religion=early}
+843.1.1={religion=catholic technology_group=latin}

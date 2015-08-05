@@ -1,0 +1,15 @@
+culture=polynesian
+religion=australian_pagan
+hre=no
+trade_goods=grain
+base_tax=7
+manpower=1
+capital="Tauranga"
+native_size=90
+native_ferocity=4
+native_hostileness=9
+
+1642.1.1={discovered_by=NED} # Abel Tasman
+1860.1.1={discovered_by=GBR owner=GBR controller=GBR culture=english religion=protestant citysize=1000 fort1=yes} # unknown date
+1863.3.1={culture=new_zeland}
+1907.1.1={owner=NZE controller=NZE add_core=NZE remove_core=GBR}

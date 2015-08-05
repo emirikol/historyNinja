@@ -1,0 +1,15 @@
+culture=kamchatkian
+religion=shamanism
+capital="Majn"
+trade_goods=coal
+hre=no
+base_tax=1
+manpower=1
+native_size=5
+native_ferocity=1
+native_hostileness=3
+
+1648.1.1={discovered_by=RUS} # Semyon Dezhnev
+1650.1.1={owner=RUS controller=RUS add_core=RUS} # unknown exact date (1650's)
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS culture=russian} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

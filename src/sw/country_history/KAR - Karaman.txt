@@ -1,0 +1,312 @@
+government=principality
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-1
+quality_quantity=-1
+serfdom_freesubjects=-1
+primary_culture=turkish
+religion=sunni
+technology_group=muslim
+capital=3268	# Karaman
+
+1250.1.1={
+monarch={
+name="Nure Sufi"
+dynasty="Karamanli"
+adm=5
+dip=4
+mil=5}}
+
+1256.1.1={
+monarch={
+name="Kerîmeddin"
+dynasty="Karamanli"
+adm=5
+dip=5
+mil=5}}
+
+1261.1.1={
+monarch={
+name="Semseddin I Mehmed"
+dynasty="Karamanli"
+adm=7
+dip=5
+mil=5}}
+
+1282.1.1={
+monarch={
+name="Guneri"
+dynasty="Karamanli"
+adm=5
+dip=5
+mil=5}}
+
+1300.1.1={
+monarch={
+name="Bedreddin Mahmud"
+dynasty="Karamanli"
+adm=5
+dip=5
+mil=6}}
+
+1308.1.1={
+monarch={
+name="Yahs? Han"
+dynasty="Karamanli"
+adm=6
+dip=5
+mil=6}}
+
+1312.1.1={
+monarch={
+name="Bedreddin I Ibrahim"
+dynasty="Karamanli"
+adm=6
+dip=5
+mil=6}}
+
+1333.1.1={
+monarch={
+name="Alaeddin Halil Mirza"
+dynasty="Karamanli"
+adm=5
+dip=5
+mil=6}}
+
+1348.1.1={
+monarch={
+name="Fahreddin Ahmed"
+dynasty="Karamanli"
+adm=5
+dip=5
+mil=6}}
+
+1350.1.1={
+monarch={
+name="Semseddin"
+dynasty="Karamanli"
+adm=4
+dip=5
+mil=5}}
+
+1351.1.1={
+monarch={
+name="Hac? Sufi Burhaneddin Musa"
+dynasty="Karamanli"
+adm=4
+dip=5
+mil=5}}
+
+1356.1.1={
+monarch={
+name="Seyfeddin Suleyman"
+dynasty="Karamanli"
+adm=4
+dip=5
+mil=5}}
+
+1375.1.1={
+	monarch={
+		name="Ahmad"
+		dynasty="Karamanli"
+		adm=5
+		dip=4
+		mil=5
+	}
+}
+
+1399.1.1={
+	heir={
+		name="Ibrahim"
+		monarch_name="Ibrahim I"
+		dynasty="Karamanli"
+		birth_Date=1380.1.1
+		death_date=1416.1.1
+		claim=95
+		adm=6
+		dip=6
+		mil=3
+	}
+}
+
+1407.1.1={
+	monarch={
+		name="Ibrahim I"
+dynasty="Karamanli"
+		adm=6
+		dip=6
+		mil=3
+	}
+}
+
+1407.1.1={
+	heir={
+		name="Muhammad Beg"
+		monarch_name="Muhammad I Beg"
+		dynasty="Karamanli"
+		birth_Date=1390.1.1
+		death_Date=1419.1.1
+		claim=95
+		adm=4
+		dip=6
+		mil=4
+	}
+}
+
+1416.1.1={
+	monarch={
+		name="Muhammad I Beg"
+dynasty="Karamanli"
+		adm=4
+		dip=6
+		mil=4
+	}
+}
+
+1416.1.1={
+	heir={
+		name="'Izz ud-Din Hamza Beg"
+		monarch_name="'Izz ud-Din Hamza Beg"
+		dynasty="Karamanli"
+		birth_date=1400.1.1
+		death_date=1424.1.1
+		claim=95
+		adm=4
+		dip=5
+		mil=5
+	}
+}
+
+1419.1.1={
+	monarch={
+		name="'Izz ud-Din Hamza Beg"
+dynasty="Karamanli"
+		adm=4
+		dip=5
+		mil=5
+	}
+}
+
+1419.1.1={
+	heir={
+		name="Taj ad-Dîn Ibrâhîm"
+		monarch_name="Taj ad-Dîn Ibrâhîm II"
+		dynasty="Karamanli"
+		birth_date=1409.1.1
+		death_date=1464.1.1
+		claim=95
+		adm=3
+		dip=3
+		mil=5
+	}
+}
+
+1424.1.1={
+	monarch={
+		name="Taj ad-Dîn Ibrâhîm II"
+dynasty="Karamanli"
+		adm=3
+		dip=3
+		mil=5
+	}
+}
+
+1424.1.1={
+	heir={
+		name="Ishaq"
+		monarch_name="Ishaq"
+		dynasty="Karamanli"
+		birth_Date=1424.1.1
+		death_date=1465.1.1
+		claim=95
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1464.1.1={
+	monarch={
+		name="Ishaq"
+dynasty="Karamanli"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1464.1.1={
+	heir={
+		name="Pîr Ahmad"
+		monarch_name="Pîr Ahmad"
+		dynasty="Karamanli"
+		birth_Date=1450.1.1
+		death_date =1474.1.1
+		claim=95
+		adm=5
+		dip=4
+		mil=3
+	}
+}
+		
+
+1465.1.1={
+	monarch={
+		name="Pîr Ahmad"
+dynasty="Karamanli"
+		adm=5
+		dip=4
+		mil=3
+	}
+}
+
+1465.1.1={
+	heir={
+		name="Qasim"
+		monarch_name="Qasim"
+		dynasty="Karamanli"
+		birth_Date=1460.1.1
+		death_date=1483.1.1
+		claim=95
+		adm=5
+		dip=5
+		mil=4
+	}
+}
+
+1474.1.1={
+	monarch={
+		name="Qasim"
+dynasty="Karamanli"
+		adm=5
+		dip=5
+		mil=4
+	}
+}
+
+1474.1.1={
+	heir={
+		name="Mahmûd"
+		monarch_name="Mahmûd"
+		dynasty="Karamanli"
+		birth_Date=1470.1.1
+		death_date=1487.1.1
+		claim=95
+		adm=5
+		dip=3
+		mil=3
+	}
+}
+
+1483.1.1={
+	monarch={
+		name="Mahmûd"
+dynasty="Karamanli"
+		adm=5
+		dip=3
+		mil=3
+	}
+}

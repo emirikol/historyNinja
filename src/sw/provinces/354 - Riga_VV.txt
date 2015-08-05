@@ -1,0 +1,42 @@
+culture=latvian
+religion=baltik
+hre=no
+base_tax=4
+trade_goods=naval_supplies
+manpower=1
+capital="Riga"
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+
+415.1.1={discovered_by=VIK}
+890.1.1={discovered_by=eastern discovered_by=latin discovered_by=muslim}
+910.1.1={owner=RIG controller=RIG add_core=RIG religion=catholic hre=yes fort1=yes citysize=1050}
+1450.1.1={citysize=1500}
+1500.1.1={citysize=1800}
+1522.1.1={religion=protestant} # Unknown date
+1522.1.1={hre=no} # Unknown date
+1540.1.1={marketplace=yes}
+1550.1.1={citysize=2100}
+1581.1.1={owner=POL controller=POL add_core=POL} # Unknown date
+1600.1.1={citysize=4200}
+1621.9.15={owner=SWE controller=SWE} # 2nd Polish War-Captured by GIIA
+1629.10.16={add_core=SWE remove_core=POL} # The Armistice of Altmark
+1650.1.1={citysize=8550}
+1710.7.1={controller=RUS} # The Great Nordic War-Captured Riga
+1721.8.30={owner=RUS add_core=RUS remove_core=SWE} # The Peace of Nystad
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1918.11.18={remove_core=SOV add_core=LAT owner=LAT controller=LAT} # Latvia gets independent
+1940.8.1={add_core=SOV owner=SOV controller=SOV culture=latvian} # annexed by the Sovjet Union
+1941.12.1={owner=NAZ controller=NAZ}
+1944.12.1={owner=SOV controller=SOV}
+1990.5.4={owner=LAT controller=LAT remove_core=SOV} # independence of Latvia

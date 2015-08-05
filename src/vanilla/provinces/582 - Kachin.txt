@@ -1,0 +1,24 @@
+#582 - Kachin
+
+owner = TAU
+controller = TAU
+culture = shan
+religion = animism
+capital = "Kachin"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 5400
+add_core = TAU
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 5950 }
+1500.1.1 = { citysize = 6800 }
+1550.1.1 = { citysize = 7525 }
+1600.1.1 = { citysize = 8600 }
+1650.1.1 = { citysize = 9422 }
+1700.1.1 = { citysize = 10420 }
+1750.1.1 = { citysize = 11348 }
+1800.1.1 = { citysize = 12678 }

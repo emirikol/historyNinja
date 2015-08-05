@@ -1,0 +1,37 @@
+owner=KAL
+controller=KAL
+add_core=KAL
+culture=oriya
+religion=hinduism
+capital="Nellore"
+trade_goods=rice
+hre=no
+base_tax=3
+manpower=2
+citysize=3540
+fort1=yes
+discovered_by=indian
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=KAL
+discovered_by=SAK
+discovered_by=LAM
+discovered_by=PLV
+discovered_by=CHH
+
+98.4.2={owner=SEV controller=SEV add_core=SEV remove_core=KAL}
+400.6.1={owner=VIJ controller=VIJ add_core=VIJ culture=telegu remove_core=KAL}
+950.6.1={discovered_by=muslim}
+1450.1.1={citysize=3900}
+1498.1.1={discovered_by=POR}
+1500.1.1={citysize=4289}
+1507.1.1={add_core=GOC} # Qutb Shahi dynasty
+1550.1.1={citysize=5327}
+1565.7.1={owner=GOC	controller=GOC remove_core=VIJ revolt_risk=9} # The Vijayanagar empire collapses
+1570.1.1={revolt_risk=0}
+1600.1.1={citysize=6040}
+1650.1.1={citysize=8760}
+1687.1.1={owner=MUG	controller=MUG add_core=MUG} # Conquered by the Mughal emperor Aurangzeb
+1700.1.1={citysize=10468}
+1724.1.1={owner=HYD	controller=HYD add_core=HYD	remove_core=MUG} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

@@ -1,0 +1,50 @@
+owner=HSL
+controller=HSL
+add_core=HSL
+culture=proto_slavic
+religion=perun
+hre=no
+base_tax=3
+trade_goods=wood
+manpower=2
+capital="Minsk"
+fort1=yes
+citysize=2850
+discovered_by=latin
+discovered_by=eastern
+discovered_by=muslim
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+
+451.6.1={owner=DRE controller=DRE add_core=DRE culture=dregovichi religion=perun remove_core=HSL}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=DRE}
+1132.1.1={owner=GVR controller=GVR remove_core=KIV add_core=GVR}
+1236.1.1={owner=LIP controller=LIP add_core=LIP remove_core=GVR religion=baltik}
+1273.6.1={owner=LIT controller=LIT add_core=LIT remove_core=LIP religion=catholic}
+1550.1.1={marketplace=yes}
+1569.7.1={owner=POL	controller=POL add_core=POL} # Union of Lublin
+1655.1.1={controller=RUS} # Conquered by Tsar Alexei
+1660.1.1={controller=POL} # Regained by Jan Kasimir
+1732.1.1={temple=yes} # The Marinsky Cathedral
+1740.1.1={tax_assessor=yes}
+1793.1.23={owner=RUS controller=RUS add_core=RUS} # Second Partition of Poland
+1794.3.24={revolt_risk=5} # Kosciuszko uprising, minimize the Russian influence
+1794.11.16={revolt_risk=0}
+1812.7.8={controller=RFR} # Occupied by French troops
+1812.11.18={controller=RUS religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1918.3.25={owner=BRS controller=BRS add_core=BRS culture=byelorussian} # short independence of Belarus
+1918.9.1={owner=SOV controller=SOV}
+1941.12.1={owner=NAZ controller=NAZ}
+1944.12.1={owner=SOV controller=SOV}
+1991.9.18={owner=BRS controller=BRS remove_core=SOV} # final independence of Belarus

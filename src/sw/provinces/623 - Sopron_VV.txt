@@ -1,0 +1,59 @@
+owner=MCR
+controller=MCR
+culture=macromani
+religion=odin
+capital="Scarbantia"
+trade_goods=grain
+hre=no
+fort1=yes
+base_tax=5
+manpower=2
+citysize=4000
+discovered_by=eastern
+discovered_by=RME  
+discovered_by=RMP
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+166.6.20={owner=RME controller=RME add_core=RME}
+210.6.1={owner=MCR controller=MCR culture=macromani}
+355.6.1={owner=BES controller=BES culture=bastarnic religion=odin}
+370.6.1={owner=HNU controller=HNU add_core=HNU culture=huns religion=tangra}
+451.6.1={owner=GEP controller=GEP add_core=GEP remove_core=HNU culture=gepids religion=odin}
+500.1.1={discovered_by=nomad_group}
+580.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism}
+805.8.1={owner=BGK controller=BGK add_core=BGK remove_core=AVE culture=bulgarian religion=tangra}
+840.6.1={owner=BLK controller=BLK add_core=BLK}
+843.6.1={discovered_by=latin}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox discovered_by=latin discovered_by=eastern discovered_by=muslim}
+943.5.1={owner=HUN controller=HUN religion=catholic culture=hungarian capital="Suprun"}
+1450.1.1={citysize=4900}
+1500.1.1={citysize=5342}
+1506.1.1={revolt={type=anti_tax_rebels size=0} controller=REB} # Szekely rebellion
+1507.1.1={revolt={} controller=HUN} # Estimated
+1514.4.1={revolt={type=anti_tax_rebels size=1} controller=REB} # Peasant rebellion against Hungary's magnates
+1515.1.1={revolt={} controller=HUN} # Estimated
+1520.1.1={marketplace=yes}
+1526.8.30={owner=HAB controller=HAB add_core=HAB capital="Sopron"}
+1550.1.1={citysize=5588}
+1594.9.29={controller=TUR} # Ottoman capture of Gyor leads to domination of religion
+1598.3.28={controller=HAB} # Gyor is liberated
+1600.1.1={citysize=6710}
+1650.1.1={citysize=7120 constable=yes}
+1700.1.1={citysize=8100}
+1750.1.1={citysize=8766}
+1760.1.1={tax_assessor=yes}
+1800.1.1={citysize=10100}
+1918.11.16={owner=HUN controller=HUN add_core=HUN remove_core=HAB} # Hungaria gets independent
+1943.8.1={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1945.4.4={owner=SOV controller=SOV} # freed by the Soviets
+1945.5.8={owner=HUO controller=HUO} # end of the 2. WW

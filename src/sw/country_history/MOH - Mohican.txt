@@ -1,0 +1,40 @@
+government=tribal_democracy
+aristocracy_plutocracy=5
+centralization_decentralization=5
+innovative_narrowminded=0
+mercantilism_freetrade=0
+offensive_defensive=5
+land_naval=-5
+quality_quantity=0
+serfdom_freesubjects=5
+primary_culture=mohican
+religion=shamanism
+technology_group=new_world
+capital=964	
+
+1399.1.1={
+	monarch={
+		name="Moh"
+		adm=9
+		dip=9
+		mil=9
+	}
+}
+
+1430.1.1={
+	monarch={
+		name="Conseil tribal"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1500.1.1={
+	monarch={
+		name="Conseil tribal"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

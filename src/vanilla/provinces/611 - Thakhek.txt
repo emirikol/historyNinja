@@ -1,0 +1,37 @@
+#611 - Thakhek
+
+owner = LXA
+controller = LXA
+culture = lao
+religion = buddhism
+capital = "Thakhek"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 3740
+add_core = LXA
+discovered_by = chinese
+
+1450.1.1 = { citysize = 4155 }
+1500.1.1 = { citysize = 4800 }
+1550.1.1 = { citysize = 5787 }
+1574.1.1 = { add_core = TAU }
+1600.1.1 = { citysize = 7000 }
+1603.1.1 = { remove_core = TAU }
+1650.1.1 = { citysize = 8860 }
+1694.1.1 = {	owner = DAI
+		controller = DAI
+		add_core = DAI
+	   } # After Soulingna Vongsa's death, Lan Xang came under vietnamese rule
+1700.1.1 = { citysize = 10250 }
+1707.1.1 = {	owner = CHK
+		controller = CHK
+		add_core = CHK
+	   	remove_core = LXA
+	   	remove_core = DAI
+	   } # Lan Xang declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+1750.1.1 = { citysize = 11870 }
+1758.1.1 = { revolt_risk = 5 } # Rebellion
+1759.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 12466 }

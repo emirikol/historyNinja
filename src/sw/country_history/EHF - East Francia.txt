@@ -1,0 +1,73 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=-3
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=2
+land_naval=-1
+quality_quantity=0
+serfdom_freesubjects=-4
+primary_culture=frankish
+add_accepted_culture=aquitaine
+add_accepted_culture=burgundian
+add_accepted_culture=greek
+add_accepted_culture=andalucian
+add_accepted_culture=umbrian 
+add_accepted_culture=sicilian 
+add_accepted_culture=lombard
+add_accepted_culture=thuringian
+religion=catholic
+technology_group=latin
+elector=yes
+capital=597
+
+
+843.1.1={
+monarch={
+name="Louis the German"
+dynasty="Carolingian"
+adm=7
+dip=6
+mil=8}}
+		
+876.8.28={
+monarch={
+name="Charles the Fat"
+dynasty="Carolingian"
+adm=6
+dip=6
+mil=7}}		
+		
+887.11.30={
+monarch={
+name="Arnulf of Carinthia"
+dynasty="Carolingian"
+adm=6
+dip=6
+mil=6}}			
+		
+900.1.21={
+monarch={
+name="Louis the Child"
+dynasty="Carolingian"
+adm=1
+dip=5
+mil=2}}			
+
+911.11.10={
+monarch={
+name="Conrad I"
+dynasty="Conradine"
+adm=4
+dip=6
+mil=9}}
+
+919.11.27={
+	monarch={
+		name="Henry the Fowler"
+		dynasty="Liudolfing"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

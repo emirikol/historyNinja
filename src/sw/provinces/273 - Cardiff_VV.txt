@@ -1,0 +1,60 @@
+owner=SLI
+controller=SLI
+add_core=SLI
+culture=silures
+religion=droid
+hre=no
+base_tax=2
+trade_goods=stone
+manpower=1
+capital="Gwent"
+citysize=1200
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+48.6.1={owner=RME controller=RME add_core=RME}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+410.6.1={owner=CER controller=CER add_core=CER culture=welsh religion=early remove_core=RMP}
+700.1.1={owner=WSS controller=WSS add_core=WSS}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
+927.1.1={owner=CER controller=CER}
+1197.6.1={owner=WLS controller=WLS add_core=WLS}
+1282.1.1={owner=ENG controller=ENG add_core=ENG}
+1400.9.16={revolt={type=nationalist_rebels size=2} controller=REB} # The Welsh Revolt
+1415.1.1={revolt={} controller=ENG} # English rule is restored
+1450.1.1={citysize=1500}
+1453.1.1={revolt_risk=5} # Start of the War of the Roses
+1461.6.1={revolt_risk=2} # Coronation of Edward IV
+1467.1.1={revolt_risk=5} # Rivalry between Edward IV & Warwick
+1471.1.1={revolt_risk=8} # Unpopularity of Warwick & War with Burgundy
+1471.3.1={revolt_risk=0 revolt={type=revolutionary_rebels size=2} controller=REB}
+1471.5.4={revolt={} revolt_risk=2 controller=ENG} # Murder of Henry VI & Restoration of Edward IV
+1483.6.26={revolt_risk=8} # Revulsion at Supposed Murder of the Princes in the Tower
+1485.8.23={revolt_risk=0} # Battle of Bosworth Field & the End of the War of the Roses
+1548.1.1={religion=anglican}
+1550.1.1={citysize=2000}
+1600.1.1={marketplace=yes fort2=yes} # Estimated
+1625.1.1={courthouse=yes} # Estimated
+1645.10.1={revolt={type=revolutionary_rebels size=1} controller=REB} # Estimated
+1646.5.5={revolt={} controller=ENG} # End of First English Civil War
+1648.3.15={revolt={type=revolutionary_rebels size=2} controller=REB} # Start of Second English Civil War
+1648.7.11={revolt={} controller=ENG}
+1650.1.1={citysize=3000}
+1700.1.1={citysize=4000 constable=yes} # Constable Estimated
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1750.1.1={religion=reformed}
+1800.1.1={citysize=6000}

@@ -1,0 +1,24 @@
+culture=navajo 
+religion=teotl_azt
+capital="Monclova" 
+trade_goods=wool 
+hre=no 
+base_tax=1 
+manpower=1 
+native_size=5 
+native_ferocity=1 
+native_hostileness=5
+discovered_by=TER
+discovered_by=MET
+discovered_by=TOT
+discovered_by=WIC
+
+1428.1.1={discovered_by=AZT}
+1577.1.1={discovered_by=SPA owner=SPA controller=SPA citysize=1260 culture=castillian religion=catholic fort1=yes} # Colonized, Francisco Cano 
+1600.1.1={citysize=1570} 
+1602.1.1={add_core=SPA}
+1650.1.1={citysize=2587} 
+1700.1.1={citysize=3460} 
+1750.1.1={citysize=6700 add_core=MEX} 
+1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
+1821.10.24={controller=MEX remove_core=SPA} # end of war 

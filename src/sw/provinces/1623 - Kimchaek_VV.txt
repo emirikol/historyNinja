@@ -1,0 +1,32 @@
+owner=GOG
+controller=GOG
+add_core=GOG
+culture=korean
+religion=confucianism
+capital="kimchaek"
+trade_goods=copper
+hre=no
+base_tax=3
+manpower=2
+citysize=10738
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+discovered_by=DGY
+discovered_by=GOG
+discovered_by=SLY
+discovered_by=YEE
+discovered_by=MAH
+discovered_by=BJE
+
+1232.6.2={owner=KHA controller=KHA remove_core=GOG add_core=KOR}
+1271.1.1={owner=KOR controller=KOR add_core=KOR remove_core=YUN}
+1593.1.1={controller=JAP} # Japanese invasion
+1593.5.18={controller=KOR owner=KOR} # With Chinese help the Japanese troops are driven back
+1637.1.1={add_core=MNG} # Tributary of Qing China
+1644.1.1={add_core=MCH remove_core=MNG} # Part of the Manchu empire
+1653.1.1={discovered_by=NED} # Hendrick Hamel
+1910.1.1={owner=JAP controller=JAP} # annexion through Japan
+1945.8.15={owner=KOR controller=KOR} # Japan loses 2nd WW
+1948.5.10={add_core=SKO} #South Korea
+1948.9.9={owner=NKO controller=NKO add_core=NKO} # North Korea

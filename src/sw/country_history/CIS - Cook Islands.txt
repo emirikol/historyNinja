@@ -1,0 +1,91 @@
+government=parliamentary_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=polynesian
+religion=religious_tolerance
+technology_group=latin
+capital=2545
+
+
+1965.8.4={
+monarch={
+name="	Albert Henry"
+adm=5
+dip=5
+mil=6}}
+
+1978.7.25={
+monarch={
+name="Tom Davis"
+adm=5
+dip=5
+mil=6}}
+
+1983.4.13={
+monarch={
+name="Geoffrey Henry"
+adm=5
+dip=5
+mil=6}}
+
+1983.11.16={
+monarch={
+name="Tom Davis"
+adm=5
+dip=5
+mil=6}}
+
+1987.7.29={
+monarch={
+name="Pupuke Robati"
+adm=5
+dip=5
+mil=6}}
+
+1989.2.1={
+monarch={
+name="Geoffrey Henry"
+adm=5
+dip=5
+mil=6}}
+
+1999.7.29={
+monarch={
+name="Joe Williams"
+adm=5
+dip=5
+mil=6}}
+
+1999.11.18={
+monarch={
+name="Terepai Maoate"
+adm=5
+dip=5
+mil=6}}
+
+2002.2.11={
+monarch={
+name="Robert Woonton"
+adm=5
+dip=5
+mil=6}}
+
+2004.12.14={
+monarch={
+name="Jim Marurai"
+adm=5
+dip=5
+mil=6}}
+
+2010.11.30={
+monarch={
+name="Henry Puna"
+adm=5
+dip=5
+mil=6}}

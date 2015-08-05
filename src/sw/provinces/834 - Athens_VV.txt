@@ -1,0 +1,43 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Athens"
+trade_goods=fish
+hre=no
+base_tax=3
+manpower=3
+citysize=9040
+fort1=yes
+cot=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PER
+discovered_by=PHT
+discovered_by=ODR
+
+313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+533.6.1={cot=no}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+843.6.1={discovered_by=latin}
+1204.4.12={owner=ATH controller=ATH add_core=ATH} # Forming of Athens Duchy
+1399.1.1={add_core=BYZ add_core=SIC}
+1401.5.26={remove_core=SIC}
+1402.1.1={owner=ATH controller=ATH remove_core=VEN}
+1453.5.30={add_core=TUR} # The fall of the Byzantine Empire
+1458.1.1={owner=TUR controller=TUR}
+1502.1.1={remove_core=BYZ}
+1550.1.1={marketplace=yes}
+1555.1.1={revolt_risk=5 constable=yes} # General discontent with the Janissaries' dominance
+1556.1.1={revolt_risk=0}
+1620.1.1={revolt_risk=5} # General discontent and occasional rebellions
+1640.1.1={revolt_risk=2}
+1650.1.1={culture=neo_greek}
+1660.1.1={revolt_risk=0}
+1750.1.1={tax_assessor=yes add_core=GRE}
+1827.10.20={controller=GRE owner=GRE remove_core=TUR} # independence of Greece
+1941.4.23={owner=ITA controller=ITA} # occupied by Italy
+1944.1.1={owner=GRE controller=GRE} # Italians leave Greece

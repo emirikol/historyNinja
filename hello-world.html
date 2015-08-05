@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello...</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<style type="text/css">
+ .navbar {
+   min-height: 23px;
+   margin-bottom: 0;
+   border-radius: 0;
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 100%;
+   }
+ }
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js" ></script>
+<script type="text/javascript" src="svg-pan-zoom.min.js" ></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" type="text/css" />
+</head>
+
+<body>
+   <nav class="navbar navbar-inverse">
+     <div class="container">
+       </div>
+   </nav>
+<div class="container">
+<table style='width:100%'>
+<tr>
+  <td style='width:100px'>
+  <div class='panel panel-default'>
+    <div class="panel-heading">
+      test
+    </div>
+      
+    <div class="panel-body">
+      test
+    </div>
+    
+  </div>
+  </td>
+
+<td>
+  
+<label for='date'>01.1387</label>
+<input id="date" type="range" min=515964 max=677036 value=515964 step=31 style='width:630px'/>
+<img src="provinces2.png" alt="Kiwi" style="width:100%">
+<!--<object data="provinces3.svg" type="image/svg+xml" />-->
+ 
+</td>
+</tr>  
+</table>
+</div>
+<script> 
+provinces = {};
+map = null;
+countries = $.getJSON('countries.json?123').then(function(d){ return d });
+annals = $.getJSON('zipped_history.json?3').then(function(d){ return d });
+current_time = parseInt($('#date').val());
+
+$('object').on('load', function(){
+  map = this.contentDocument
+  //$('path[fill="#fefefe"]', map).remove();
+  svgPanZoom('object',{
+      zoomScaleSensitivity: 0.5,
+      minZoom: 1,
+  });
+
+  $.getJSON('provinces.json?2').then(function(data){
+    provinces = data;
+    $('path:not([data-province])', map).remove();
+    $.each(provinces, function(id,provnice){
+  	  $('path[data-province='+id+']', map).attr('owner', provnice.owner);
+    })
+    $('path:not([owner])', map).css('fill', '#999999'); //rgb(200,200,200)
+    countries.done(function(cs){
+      $.each(cs, function(code,country){
+        $('path[owner='+code+']', map).css('fill', country.color)
+      });
+    });
+    update();
+  });
+  
+  $('svg', map).qtip({
+      content: {
+          text: function(e,a){ 
+              var p = provinces[$(e.target).attr('data-province')];
+              return p  ? p.name : 'There be Dragons';
+          },
+          title: function(e,a){ 
+              return countries.then(function(cs){ 
+                  var c = cs[$(e.target).attr('owner')];
+                  return c ? c.name : 'Some people';
+              })
+          }
+      },
+      style: {tip: false},
+      show: {target: $('path[data-province]', map)},
+      position: {at: 'top left', adjust: {x:20, y:20}}
+  })
+});
+
+//input
+// $('#date').on('input',function(){
+//   var target = parseInt($(this).val());
+//   var year = Math.floor(target/372);
+//   var month = Math.floor(target % 372 / 31 + 1);
+//   if(month < 10) month = '0'+month;
+//   $('label[for=date]').html(month+'.'+year);
+//   progress(target);
+//   current_time = target;
+// });
+
+function update(){
+  var value = parseInt($('#date').val());
+  if(value != current_time) {
+    var diff = value - current_time;
+    var step = 1 * 372
+    // if (Math.abs(diff / step) > 50) step *= 10;
+    var diff = Math.max(Math.min(diff, step), -step);
+    var target = current_time + diff;
+    progress(target);
+    current_time = target;
+    var year = Math.floor(target/372);
+    var month = Math.floor(target % 372 / 31 + 1);
+    if(month < 10) month = '0'+month;
+    $('label[for=date]').html(month+'.'+year);
+    setTimeout(update, 0)
+  } else {
+    setTimeout(update, 100)
+  }
+  
+}
+
+function progress(target_time){
+   $.when(countries, annals).done(function(cs, an){
+     var delta = current_time < target_time ? 1 : -1;
+     var apply_event = function(event){
+        var province = $($.map(event.id, function(e){return 'path[data-province='+e+']'}).join(','), map);
+        var owner_code = delta > 0 ? event.owner : event.pre_owner;
+        var owner = cs[owner_code] || {};
+        
+        province
+          .attr('owner', owner_code)
+          .css('fill',owner.color || '#999999');
+       
+     };
+   
+    if(delta < 0) an = an.slice(0).reverse();
+    for(var i=0;(target_time - current_time)*delta >0;i+=1) {
+      var event = an[i];
+      if((current_time - event.time)*delta > 0) continue;
+      current_time = event.time;
+      apply_event(event, delta);
+    }
+  })
+}
+
+</script>
+
+</body>
+</html>

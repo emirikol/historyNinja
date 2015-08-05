@@ -1,0 +1,24 @@
+culture=yakut
+religion=shamanism
+capital="Nadym"
+trade_goods=wood
+hre=no
+base_tax=1
+manpower=1
+native_size=50
+native_ferocity=2
+native_hostileness=1
+discovered_by=PHU
+
+1450.1.1={discovered_by=SIB}
+1581.1.1={discovered_by=RUS owner=RUS controller=RUS citysize=800 religion=orthodox culture=russian discovered_by=RUS} # Yermak Timofeevic
+1600.1.1={citysize=2920 fort1=yes}
+1606.1.1={add_core=RUS revolt={type=nationalist_rebels size=1} controller=REB} # Rebellions against Russian rule
+1606.5.1={owner=RUS controller=RUS}
+1620.1.1={revolt={}}
+1650.1.1={citysize=3588}
+1700.1.1={citysize=3932}
+1750.1.1={citysize=4430}
+1800.1.1={citysize=4961}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

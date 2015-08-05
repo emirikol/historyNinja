@@ -1,0 +1,16 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=1
+innovative_narrowminded=1
+mercantilism_freetrade=3
+offensive_defensive=1
+land_naval=1
+quality_quantity=1
+serfdom_freesubjects=-3
+technology_group=near_east
+primary_culture=egyptian
+religion=amon
+capital=1751
+
+
+660.6.1={religion=cophtic technology_group=muslim}

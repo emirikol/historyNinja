@@ -1,0 +1,52 @@
+owner=MCR
+controller=MCR
+add_core=MCR
+culture=macromani
+religion=odin
+hre=no
+capital="Tessin"
+fort1=yes
+trade_goods=copper
+base_tax=5
+manpower=3
+citysize=9000
+discovered_by=AVE
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+110.6.1={owner=GEP controller=GEP culture=gepids remove_core=MCR}
+290.6.1={owner=NAV controller=NAV culture=basque religion=droid}
+355.6.1={owner=BES controller=BES culture=bastarnic}
+370.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+451.6.1={owner=HSL controller=HSL culture=proto_slavic religion=perun}
+580.6.1={owner=AVE controller=AVE add_core=AVE}
+805.1.1={owner=HFR controller=HFR add_core=HFR religion=catholic remove_core=HSL culture=frankish}
+843.1.1={owner=GMV controller=GMV add_core=GMV remove_core=HFR culture=moravian discovered_by=eastern discovered_by=latin discovered_by=muslim}
+894.1.1={owner=BOH controller=BOH add_core=BOH culture=silesian remove_core=GMV}
+1034.1.1={hre=yes}
+1419.12.1={revolt={type=heretic_rebels size=2} controller=REB} # Hussite Wars, Battle of Nekmir
+1436.7.5={revolt={} controller=BOH} # Peace is signed in Jihlava
+1457.1.1={revolt_risk=5 regimental_camp=yes} # George of Podiebrand had to secure recognition from the German and Catholic towns
+1464.1.1={revolt_risk=1} # The Catholic nobility is still undermines the crown.
+1471.1.1={revolt_risk=0}
+1526.8.30={owner=HAB controller=HAB add_core=HAB remove_core=BOH} # Battle of Mohac where Lajos II dies -> Habsburg succession
+1576.1.1={religion=reformed}
+1618.4.23={revolt={type=heretic_rebels size=1} controller=REB} # Defenestration of Prague
+1619.3.1={revolt={}	owner=PAL controller=PAL add_core=PAL} # Friedrich V (Palatinate) accepts to become King of Bohemia
+1620.11.8={owner=HAB controller=HAB	remove_core=PAL} # Tilly beats the Winterking at White Mountain. Deus Vult!
+1627.1.1={religion=catholic} # Order from Ferdinand II to reconvert to Catholism, many protestant leave the country  
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1918.10.28={owner=CSL controller=CSL add_core=CSL remove_core=HAB culture=czech} # independence of Czechoslovakia
+1939.3.15={owner=NAZ controller=NAZ add_core=NAZ} # protectorate Bohemia and Moravia
+1945.5.4={owner=CSL controller=CSL remove_core=NAZ} # end of the 2nd WW
+1993.1.1={owner=CZC controller=CZC remove_core=CSL add_core=CZC} # independence of Slovakia

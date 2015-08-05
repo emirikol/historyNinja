@@ -1,0 +1,40 @@
+culture=persian
+religion=shamanism
+capital="Suhar"
+trade_goods=fish
+hre=no
+base_tax=3
+manpower=1
+discovered_by=PHT
+discovered_by=PER
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=GEA
+discovered_by=HEM
+discovered_by=QAT
+discovered_by=HIM
+discovered_by=SEB
+
+350.6.1={owner=PER controller=PER add_core=PER citysize=1420 fort1=yes}
+630.6.1={discovered_by=muslim}
+632.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1171.6.1={owner=OMA controller=OMA remove_core=ABB add_core=OMA religion=ibadi culture=bedouin_arabic}
+1450.1.1={citysize=1750}
+1480.1.1={discovered_by=TUR}
+1488.1.1={discovered_by=POR} # Pêro da Covilhã
+1500.1.1={citysize=1980 discovered_by=TUR}
+1507.6.1={owner=POR	controller=POR add_core=POR} # Captured by the Portuguese
+1550.1.1={citysize=2008}
+1600.1.1={citysize=2247}
+1624.1.1={owner=OMA	controller=OMA remove_core=POR} # Rule restored
+1650.1.1={citysize=2867}
+1679.1.1={revolt_risk=5} # Internal unrest upon Imam's death
+1700.1.1={citysize=3410}
+1741.1.1={owner=PER	controller=PER add_core=PER} # Invaded by Persia
+1749.1.1={revolt_risk=0}
+1749.6.10={owner=OMA controller=OMA	remove_core=PER} # Control is restored
+1750.1.1={citysize=3800}
+1800.1.1={citysize=4200}
+1919.1.1={trade_goods=gas}

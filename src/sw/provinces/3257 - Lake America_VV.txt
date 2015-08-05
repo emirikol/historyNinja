@@ -1,0 +1,7 @@
+discovered_by=HUR
+discovered_by=IRO
+discovered_by=OJI
+
+1679.1.1={discovered_by=FRA}
+1700.6.1={discovered_by=ENG discovered_by=GBR}
+1800.6.1={discovered_by=latin}

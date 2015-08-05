@@ -1,0 +1,123 @@
+#Polotsk
+
+graphical_culture=easterngfx
+
+color={ 112  157  56 }
+
+historical_ideas={
+	merchant_adventures
+	national_conscripts
+	shrewd_commerce_practise
+	national_trade_policy
+	quest_for_the_new_world
+	military_drill
+	battlefield_commisions
+	engineer_corps
+	grand_army
+	espionage
+	glorious_arms
+	cabinet
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+monarch_names={
+	"Andrei #1"=20
+	"Lubko #1"=20
+	"Olgierd #1"=20
+	"Bryachislav #2"=15
+	"Vasiliy #2"=15
+	"Svyatoslav #1"=15
+	"Vladimir #1"=15
+	"Izyaslav #2"=10
+	"Vseslav #2"=10
+	"Boris #1"=10
+	"Aleksandr #0"=0
+	"Adrian #0"=0
+	"Afanasiy #0"=0
+	"Daniil #0"=0
+	"Dmitriy #0"=0
+	"Dorofey #0"=0
+	"Faddey #0"=0
+	"Feodosiy #0"=0
+	"Feofil #0"=0
+	"Foma #0"=0
+	"Fyodor #0"=0
+	"Gavriil #0"=0
+	"Grigoriy #0"=0
+	"Igor #0"=0
+	"Ivan #0"=0
+	"Mefodiy #0"=0
+	"Mikhail #0"=0
+	"Naum #0"=0
+	"Nikita #0"=0
+	"Nikolai #0"=0
+	"Pankrati #0"=0
+	"Prokhor #0"=0
+	"Pyotr #0"=0
+	"Radoslav #0"=0
+	"Ruslan #0"=0
+	"Semen #0"=0
+	"Serafim #0"=0
+	"Sevastian #0"=0
+	"Stanislav #0"=0
+	"Timofeiy #0"=0
+	"Varfolomeiy #0"=0
+	"Vikentiy #0"=0
+	"Yaroslav #0"=0
+}
+
+leader_names={ 
+	Vitebsky Izyaslavsky Dursky Galisky Borovsky Vereisky Volotsky Galitsky
+	Mozhaisky Uglisky Shemyakin Satin Aladyin Beznosov Bokeev Burukhin Vnukov Korobyin
+	Zabolotsky Dalmatov Kisleevsky Travin Tsyplyatev Shukalovsky
+}
+
+ship_names={
+	Velikaya Chudskoye Pskovskoye Polotsk
+	Rakovor Bolotovo Kulikovo Ostrov Izborsk
+	Pechory Porhov "Velikiye Luki" Sebezh
+}

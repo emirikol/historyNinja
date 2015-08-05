@@ -1,0 +1,59 @@
+owner=RUG
+controller=RUG
+add_core=RUG
+culture=rugi
+religion=odin
+hre=no
+capital="Thorn"
+fort1=yes
+trade_goods=silver
+base_tax=2
+manpower=3
+citysize=5000
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+
+371.6.1={owner=HNU controller=HNU add_core=HNU discovered_by=HNU culture=huns religion=tangra remove_core=RUG}
+415.1.1={discovered_by=VIK}
+451.6.1={owner=PMR controller=PMR add_core=PMR remove_core=HNU discovered_by=PMR culture=pomeranski religion=baltik}
+830.1.1={discovered_by=latin discovered_by=muslim}
+894.1.1={owner=XXX controller=XXX remove_core=PMR religion=baltik fort1=no} 
+1190.1.1={owner=TEU controller=TEU add_core=TEU culture=kashubian religion=catholic hre=yes fort1=yes}
+1410.7.15={controller=POL add_core=POL} # Battle of Grunwald
+1411.2.1={controller=TEU} # Peace of Torun
+1450.1.1={citysize=7000}
+1466.10.19={owner=POL controller=POL remove_core=TEU add_core=PRU capital="Torún"} # Peace treaty, "Peace of Torun"
+1500.1.1={citysize=10000}
+1524.1.25={revolt_risk=6} # Debt crisis
+1525.1.1={revolt_risk=0 religion=protestant}
+1529.1.1={citysize=8000} # Epidemic
+1572.1.1={revolt_risk=6} # Sigismund II dies
+1580.1.1={constable=yes}
+1588.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # Civil war
+1589.1.1={revolt={} controller=POL revolt_risk=0} # Coronation of Sigismund III
+1600.1.1={fort2=yes}
+1650.1.1={courthouse=yes}
+1667.1.1={tax_assessor=yes}
+1704.1.1={controller=SWE} # Under siege by Sweden
+1706.9.24={controller=POL} # Treaty of Altranstadt
+1733.1.1={revolt={type=revolutionary_rebels size=0} controller=REB} # The war of Polish succession
+1735.1.1={revolt={} controller=POL}
+1772.2.17={controller=PRU owner=PRU capital="Thorn"} #during the 1st Polish participation
+1807.3.1={controller=RFR} # Occupied by French troops
+1807.7.9={controller=PRU} # Treaty of Tilsit
+1871.1.1={owner=GRI controller=GRI add_core=GRI} # German Empire Founded
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1920.1.1={owner=PON controller=PON remove_core=GRI add_core=PON capital="Torún"} # to Poland
+1939.10.8={owner=NAZ controller=NAZ add_core=NAZ capital="Thorn"} # annexed by Nazi-Germany
+1945.5.4={owner=PON controller=PON remove_core=NAZ capital="Torún" remove_core=GER} # end of the 2nd WW

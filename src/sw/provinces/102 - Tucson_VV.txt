@@ -1,0 +1,30 @@
+owner=MOJ
+controller=MOJ
+add_core=MOJ
+culture=navajo 
+religion=ind_pagan
+capital="Tuscon"
+fort1=yes 
+citysize=1000
+trade_goods=fur
+hre=no 
+base_tax=2 
+manpower=1 
+discovered_by=MOJ
+discovered_by=SAL
+discovered_by=CHU
+discovered_by=NAO
+discovered_by=APA
+discovered_by=WIC
+discovered_by=CEM
+discovered_by=YKT
+
+1598.1.1={owner=SPA	controller=SPA citysize=350	religion=catholic culture=castillian}
+1775.1.1={revolt_risk=4} # The natives rebelled
+1776.1.1={revolt_risk=0}
+1799.1.1={add_core=SPA add_core=MEX citysize=1170 remove_core=MOJ}
+1800.1.1={citysize=1890}
+1810.9.16={discovered_by=MEX owner=MEX controller=SPA} # Mexican War of Independence
+1821.10.24={controller=MEX remove_core=SPA} # end of war
+1853.12.30={controller=USA add_core=USA remove_core=USA owner=USA} # new mexican-american borders
+1900.1.1={fort2=yes}

@@ -1,0 +1,38 @@
+culture=gokturkic
+religion=tangra
+capital="Alma Ate"
+trade_goods=grain
+hre=no
+base_tax=2
+manpower=1
+discovered_by=muslim
+discovered_by=GUT
+discovered_by=KUS
+native_size=10 
+native_ferocity=1 
+native_hostileness=3
+discovered_by=KJU
+
+330.6.1={owner=RUR controller=RUR culture=rouran citysize=2120 fort1=yes add_core=RUR discovered_by=RUR}
+400.6.1={owner=CHU controller=CHU add_core=CHU culture=chubans remove_core=RUR discovered_by=CHU}
+565.6.1={owner=GUT controller=GUT add_core=GUT culture=gokturkic remove_core=CHU}
+747.6.1={owner=XXX controller=XXX remove_core=GUT fort1=no native_size=10 native_ferocity=1 native_hostileness=3 citysize=257}
+748.6.1={owner=UYG controller=UYG add_core=UYG culture=uyghurish discovered_by=UYG fort1=yes discovered_by=UYG citysize=1000}
+848.6.1={owner=XXX controller=XXX remove_core=UYG fort1=no culture=kirgiz native_size=10 native_ferocity=1 native_hostileness=3 citysize=318}
+1060.6.1={owner=KHT controller=KHT add_core=KHT culture=khitan fort1=yes discovered_by=KHT citysize=1493}
+1232.6.2={owner=KHA controller=KHA add_core=KHA remove_core=KHT culture=mongol religion=sunni discovered_by=KHA}
+1361.1.2={owner=CHG controller=CHG add_core=CHG remove_core=KHA culture=kirgiz discovered_by=CHG discovered_by=OIR}
+1450.1.1={citysize=3800}
+1500.1.1={citysize=4500}
+1550.1.1={citysize=5460}
+1600.1.1={citysize=6200}
+1622.1.1={discovered_by=RUS}
+1650.1.1={citysize=6988}
+1695.1.1={owner=OIR	controller=OIR add_core=OIR} # The Dzungars
+1700.1.1={citysize=5642}
+1709.1.1={owner=KOK controller=KOK add_core=KOK} # Independent principality established by Shaybanid Shahrukh
+1750.1.1={citysize=6340}
+1800.1.1={citysize=7005}
+1876.1.1={owner=RUS controller=RUS add_core=RUS} # annexed by Russia
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=KZH controller=KZH add_core=KZH remove_core=RUS remove_core=KOK} # independence from the SU

@@ -1,0 +1,41 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=GLA
+culture=gallic
+religion=groman
+capital="Laon"
+citysize=5500
+hre=no
+base_tax=5
+trade_goods=coal
+manpower=2
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=AEG
+discovered_by=GLA
+discovered_by=SUE
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+486.2.1={owner=HFR controller=HFR add_core=HFR culture=frankish remove_core=GLA}
+799.12.24={religion=catholic}
+843.1.1={owner=FRA controller=FRA add_core=FRA remove_core=HFR}
+870.6.1={owner=BUR controller=BUR add_core=BUR culture=cosmopolitan_french hre=no}
+1399.1.1={add_core=FRA}
+1477.1.5={owner=FRA controller=FRA remove_core=BUR} # Charles the Bold dies and Louis XII takes Artois
+1503.1.1={courthouse=yes}
+1515.1.1={fort2=yes}
+1730.1.1={tax_assessor=yes}
+1789.5.5={base_tax=6} # The General Estates
+1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20={owner=RFR controller=RFR	add_core=RFR remove_core=FRA} # Napoleon enters Paris
+1815.7.8={owner=FRA	controller=FRA add_core=FRA	remove_core=RFR} # The French monarchy is restored
+1871.1.1={add_core=RFR remove_core=FRA owner=RFR controller=RFR} # 3rd French Republic founded
+1940.6.22={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.12.1={owner=USA controller=USA}
+1945.5.8={owner=RFR controller=RFR}

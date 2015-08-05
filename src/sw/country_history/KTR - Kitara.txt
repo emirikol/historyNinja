@@ -1,0 +1,15 @@
+government=tribal_despotism
+aristocracy_plutocracy=-1
+centralization_decentralization=3
+innovative_narrowminded=3
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=-5
+quality_quantity=2
+serfdom_freesubjects=-5
+primary_culture=kongolese
+religion=animism
+technology_group=african
+capital=1357
+
+1950.1.1={religion=religious_tolerance}

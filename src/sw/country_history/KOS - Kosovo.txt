@@ -1,0 +1,24 @@
+government=administrative_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+primary_culture=kosovarian
+religion=religious_tolerance
+technology_group=eastern
+capital=802	# Pristina
+
+1950.1.1={religion=religious_tolerance }
+
+2008.1.1={
+	monarch={
+		name="Hashim Thaçi"
+		DIP=5
+		ADM=5
+		MIL=5
+	}
+}

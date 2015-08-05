@@ -1,0 +1,19 @@
+culture=kongolese
+religion=shamanism
+trade_goods=slaves
+capital="Kubanda"
+hre=no
+base_tax=2
+manpower=2
+native_size=50
+native_ferocity=4.5
+native_hostileness=9
+discovered_by=KON
+discovered_by=LOA
+discovered_by=LBA
+
+1395.6.1={owner=KON controller=KON add_core=KON citysize=1000 fort1=yes}
+1483.1.1={discovered_by=POR} # Diogo Cao
+1671.1.1={add_core=POR owner=POR controller=POR} # Conquered by the Portuguese
+1900.6.1={trade_goods=grain}
+1975.11.11={owner=ANG controller=ANG add_core=ANG remove_core=POR}

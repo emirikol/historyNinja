@@ -1,0 +1,31 @@
+owner=ERA
+controller=ERA
+add_core=ERA
+culture=iroquis
+religion=midewiwin
+capital="Erie"
+fort1=yes
+trade_goods=copper
+hre=no
+base_tax=3
+manpower=2
+citysize=1000
+discovered_by=SHA
+discovered_by=ERA
+discovered_by=IRO
+discovered_by=MIA
+discovered_by=PWT
+discovered_by=SUS
+discovered_by=OJI
+
+1679.1.1={discovered_by=FRA}
+1753.8.3={owner=FRA controller=FRA citysize=330 culture=cosmopolitan_french religion=catholic} # Construction of Fort Presque Isle
+1760.1.1={controller=GBR} # Occupied by the British
+1763.2.10={owner=GBR add_core=GBR culture=english religion=protestant} # Treaty of Paris - ceded to Britain, France gave up its claim
+1763.3.1={revolt_risk=6} # Native discontent with the British rule
+1764.6.1={revolt_risk=0} # Peace negotiations
+1774.1.1={add_core=QUE} # United with Canada under the Quebec Act of 1774
+1783.9.3={owner=USA add_core=USA remove_core=QUE controller=USA remove_core=GBR} # Treaty of Paris, passed to the U.S but still under British control
+1796.7.22={capital="Cleveland" citysize=150}
+1800.1.1={citysize=4900}
+1900.1.1={fort2=yes}

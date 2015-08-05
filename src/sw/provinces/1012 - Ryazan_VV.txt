@@ -1,0 +1,47 @@
+owner=SRM
+controller=SRM
+add_core=SRM
+culture=sarmathian
+religion=zoro
+hre=no
+base_tax=3
+trade_goods=wool    
+manpower=1
+capital="Ryazan"
+fort1=yes
+citysize=3850
+discovered_by=eastern
+discovered_by=latin
+discovered_by=HSL
+discovered_by=SRM
+discovered_by=FTP
+discovered_by=PHU 
+
+266.6.1={fort1=no owner=XXX controller=XXX remove_core=SRM}
+400.6.1={owner=RDM controller=RDM add_core=RDM culture=radomichi religion=perun fort1=yes discovered_by=RDM}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus discovered_by=KIV remove_core=RDM}
+1095.1.1={owner=RYA controller=RYA add_core=RYA remove_core=KIV culture=russian discovered_by=RYA}
+1236.6.1={owner=KHA controller=KHA add_core=KHA discovered_by=KHA}
+1242.6.1={owner=GOL controller=GOL add_core=GOL remove_core=KHA discovered_by=GOL}
+1299.1.1={owner=RYA controller=RYA remove_core=GOL}
+1438.1.1={discovered_by=KAZ}
+1450.1.1={citysize=4250 discovered_by=SIB}
+1452.1.1={owner=QAS	controller=QAS add_core=QAS discovered_by=QAS discovered_by=RUS} # The Qasim Khanate
+1500.1.1={citysize=5000}
+1550.1.1={citysize=5750 fort2=yes} 
+1598.1.1={revolt_risk=5} # "Time of troubles", peasantry brought into serfdom
+1600.1.1={citysize=4800}
+1613.1.1={revolt_risk=0} # Order returned, Romanov dynasty
+1650.1.1={citysize=4667}
+1656.1.1={revolt_risk=4} # Tatar revolt
+1657.1.1={revolt_risk=0}
+1670.1.1={revolt_risk=8} # Stepan Razin
+1671.1.1={revolt_risk=0} # Razin is captured
+1681.1.1={owner=RUS	controller=RUS add_core=RUS remove_core=QAS} # Absorbed into Russia after the death of Fatima Soltan
+1700.1.1={citysize=5491}
+1750.1.1={citysize=6460 tax_assessor=yes}
+1773.1.1={revolt_risk=5} # Emelian Pugachev, Cossack insurrection
+1774.9.14={revolt_risk=0} # Pugachev is captured
+1800.1.1={citysize=7600}
+1917.10.1={capital="Kasimov" owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={capital="Ryazan" owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

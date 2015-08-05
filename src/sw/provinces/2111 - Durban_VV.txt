@@ -1,0 +1,17 @@
+culture=bantu
+religion=animism
+capital="Durban"
+native_size=50
+trade_goods=wool
+hre=no
+base_tax=1
+native_ferocity=4.5
+native_hostileness=9 
+
+1497.12.25={discovered_by=POR} #Vasco Da Gama
+1720.1.1={trade_goods=ivory} #development of Delagoa Bay sparks massive rise in ivory trade
+1819.1.1={owner=GBR controller=GBR add_core=GBR citysize=1000 fort1=yes} # unknown exact date
+1839.11.11={owner=NTL controller=NTL add_core=NTL religion=reformed} # Republic Natalia
+1843.1.1={owner=GBR controller=GBR add_core=GBR remove_core=NTL religion=protestant} # annexed by Britain
+1910.5.31={owner=SAF controller=SAF add_core=SAF} # independence of South Africa as a dominion
+1931.1.1={remove_core=GBR} # full independence 

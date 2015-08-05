@@ -1,0 +1,21 @@
+culture=gambian
+manpower=2
+religion=animism
+capital="Banjul"
+trade_goods=fish
+hre=no
+base_tax=3
+discovered_by=SOF
+discovered_by=ASH
+discovered_by=SON
+native_size=80
+native_ferocity=4.5
+native_hostileness=9
+discovered_by=PHT
+discovered_by=PER
+
+1235.6.1={fort1=yes owner=MAL controller=MAL add_core=MAL discovered_by=MAL citysize=1400}
+1568.1.1={discovered_by=POR owner=POR controller=POR add_core=POR citysize=250 culture=portugese religion=catholic}
+1588.1.1={discovered_by=ENG owner=ENG controller=ENG add_core=ENG remove_core=POR citysize=1000 culture=english}
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1965.2.18={owner=GAM controller=GAM add_core=GAM remove_core=GBR}

@@ -1,0 +1,49 @@
+owner=BIR
+controller=BIR
+add_core=BIR
+culture=brigantes
+religion=droid
+hre=no
+base_tax=4
+trade_goods=fish
+manpower=1
+capital="Dumfries"
+citysize=1200
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=BIR
+discovered_by=CEL
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+57.6.1={owner=RME controller=RME add_core=RME}
+69.9.1={revolt={type=nationalist_rebels size=5}}
+70.9.15={revolt={}}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+410.6.1={owner=RHE controller=RHE add_core=RHE remove_core=RMP culture=rheged religion=early}
+730.6.1={owner=NOL controller=NOL add_core=NOL culture=northumberlandian religion=early remove_core=BIR}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim owner=SCO controller=SCO add_core=SCO religion=catholic}
+1450.1.1={citysize=1500}
+1453.1.1={revolt_risk=5} # Start of the War of the Roses
+1461.6.1={revolt_risk=2} # Coronation of Edward IV
+1467.1.1={revolt_risk=5} # Rivalry between Edward IV & Warwick
+1471.1.1={revolt_risk=8} # Unpopularity of Warwick & War with Burgundy
+1471.5.4={revolt_risk=2} # Murder of Henry VI & Restoration of Edward IV
+1483.6.26={revolt_risk=8} # Revulsion at Supposed Murder of the Princes in the Tower
+1485.8.23={revolt_risk=0} # Battle of Bosworth Field & the End of the War of the Roses
+1550.1.1={citysize=1800}
+1575.1.1={constable=yes} # Estimated
+1585.1.1={religion=anglican}
+1600.1.1={citysize=2500 fort2=yes}
+1645.8.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Estimated
+1645.9.13={revolt={} controller=SCO}
+1651.4.1={controller=ENG}
+1652.4.21={controller=SCO} # Union of Scotland and the COmmonwealth
+1700.1.1={citysize=4000 marketplace=yes} # Marketplace Estimated
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1800.1.1={citysize=10000}
+1900.1.1={base_tax=5 manpower=2}

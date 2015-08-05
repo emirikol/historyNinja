@@ -1,0 +1,25 @@
+government=tzarstvo
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=2
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+technology_group=eastern
+primary_culture=bulgarian
+religion=orthodox
+capital=813	# Tarnovo
+
+1371.1.1={
+	monarch={
+		name="Ivan"
+		dynasty="Shisman"
+		adm=7
+		dip=9
+		mil=8
+	}
+}
+
+1393.6.1={capital=811} #Nikopol

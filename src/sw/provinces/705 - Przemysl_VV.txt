@@ -1,0 +1,52 @@
+owner=NAV
+controller=NAV
+add_core=NAV
+culture=basque
+religion=droid
+hre=no
+capital="Przemysl"
+fort1=yes
+base_tax=3
+trade_goods=copper
+manpower=3
+citysize=4000
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+290.6.1={owner=HSL controller=HSL culture=proto_slavic religion=perun remove_core=VNA}
+300.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+451.6.1={owner=DLB controller=DLB add_core=DLB culture=dulebi religion=perun}
+830.1.1={owner=GMV controller=GMV add_core=GMV remove_core=DLB culture=moravian religion=catholic discovered_by=e_latin 
+discovered_by=latin discovered_by=muslim}
+906.1.1={owner=POL controller=POL add_core=POL remove_core=GMV culture=malo_polish}
+1236.6.1={owner=KHA controller=KHA}
+1242.6.1={owner=GOL controller=GOL}
+1299.1.1={owner=POL controller=POL add_core=KRA add_core=POL}
+1587.1.1={revolt_risk=6}
+1587.2.14={revolt_risk=0} # After a 6 week siege, Maximillian drops his bid for the Polish trone
+1588.1.1={revolt={type=revolutionary_rebels size=3} controller=REB} # Civil war, Polish succession
+1589.1.1={revolt={} controller=POL} # Coronation of Sigismund III
+1733.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # The war of Polish succession
+1735.1.1={revolt={} controller=POL}
+1768.2.29={revolt_risk=8} # Became a center of the first Polish uprisings against the Polish king & Russia
+1772.8.18={revolt_risk=0} # Occupied by Russia, uprisings suppressed by Russian troops
+1794.3.24={revolt_risk=5} # Kosciuszko uprising
+1794.11.16={revolt_risk=0} # The end of the uprising
+1795.10.24={owner=HAB controller=HAB add_core=HAB}
+1807.7.9={owner=POL controller=POL remove_core=HAB} # The Duchy of Warsaw is established after the treaty of Tilsit, ruled by Frederick Augustus I of Saxony
+1812.12.12={controller=HAB}
+1814.4.11={owner=HAB add_core=HAB} # Congress Poland, under Austrian control
+1918.10.3={owner=PON controller=PON add_core=PON remove_core=HAB} # to Poland after Polish-Sovjet War
+1939.10.8={owner=NAZ controller=NAZ add_core=NAZ} # annexed by Nazi-Germany
+1944.12.1={owner=SOV controller=SOV}
+1945.5.4={owner=PON controller=PON add_core=PON remove_core=NAZ} # end of the 2nd WW

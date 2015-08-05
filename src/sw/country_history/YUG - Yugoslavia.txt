@@ -1,0 +1,235 @@
+government=feudal_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+primary_culture=serbian
+add_accepted_culture=montenegrin
+add_accepted_culture=slovenian
+add_accepted_culture=bosnian
+add_accepted_culture=croatian
+add_accepted_culture=bulgarian
+religion=orthodox
+technology_group=eastern
+capital=794	# Beograd
+
+1918.12.1={
+	monarch={
+		name="Petar I. Karadordevic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+1921.8.16={
+	monarch={
+		name="Aleksandar I. Karadordevic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+1934.10.9={
+	monarch={
+		name="Petar II. Karadordevic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+1945.1.1={ government=socialistic_council_republic }
+
+1945.1.2={
+	monarch={
+		name="Josip Broz Tito"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1950.1.1={ religion=religious_tolerance }
+
+1980.5.4={
+	monarch={
+		name="Lazar Koliševski"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1980.5.15={
+	monarch={
+		name="Cvijetin Mijatovic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1981.5.15={
+	monarch={
+		name="Sergej Kraigher"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1982.5.15={
+	monarch={
+		name="Petar Stambolic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1983.5.15={
+	monarch={
+		name="Mika Špiljak"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1984.5.15={
+	monarch={
+		name="Veselin Ðuranovic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1985.5.15={
+	monarch={
+		name="Radovan Vlajkovic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1986.5.15={
+	monarch={
+		name="Sinan Hasani"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1987.5.15={
+	monarch={
+		name="Lazar Mojsov"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1988.5.15={
+	monarch={
+		name="Raif Dizdarevic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1989.5.15={
+	monarch={
+		name="Janez Drnovšek"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1990.5.15={
+	monarch={
+		name="Borisav Jovic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1991.6.30={
+	monarch={
+		name="Stjepan Mesic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+1991.10.3={
+	monarch={
+		name="Branko Kostic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1992.6.15={ government=federal_republic }
+1992.6.15={
+	monarch={
+		name="Dobrica Cosic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1993.6.1={
+	monarch={
+		name="Miloš Radulovic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1993.6.25={
+	monarch={
+		name="Zoran Lilic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1997.6.25={
+	monarch={
+		name="Srda Bozovic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1997.7.23={
+	monarch={
+		name="Slobodan Miloševic"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+2000.10.7={
+	monarch={
+		name="Vojislav Koštunica"
+		adm=5
+		dip=6
+		mil=4
+	}
+}

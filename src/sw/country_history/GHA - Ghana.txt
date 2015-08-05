@@ -1,0 +1,131 @@
+government=constitutional_republic
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=1
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-5
+quality_quantity=2
+serfdom_freesubjects=-5
+primary_culture=aka
+religion=protestant
+technology_group=african
+capital=1139	# Gold Coast
+
+1950.1.1={ religion=religious_tolerance }
+
+1957.3.6={ government=parliamentary_monarchy }
+
+1957.3.6={
+	monarch={
+		name="Kwame Nkrumah"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1960.7.1={ government=republican_dictatorship }
+
+1966.2.24={ government=military_dictatorship }
+
+1966.2.24={
+	monarch={
+		name="Joseph Arthur Ankrah"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1969.4.2={ government=constitutional_republic }
+
+1969.4.2={
+	monarch={
+		name="Akwasi Afrifa"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1970.8.7={
+	monarch={
+		name="Nii Amaa Ollennu"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1970.8.31={
+	monarch={
+		name="Edward Akufo-Addo"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1972.1.13={ government=military_dictatorship }
+
+1972.1.13={
+	monarch={
+		name="Ignatius Kutu Acheampong"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1978.7.5={
+	monarch={
+		name="Fred W.K. Akuffo"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1979.6.4={
+	monarch={
+		name="Jerry Rawlings"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1979.9.24={ government=constitutional_republic }
+
+1979.9.24={
+	monarch={
+		name="Hilla Limann"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+1981.12.31={ government=military_dictatorship }
+
+1981.12.31={
+	monarch={
+		name="Jerry Rawlings"
+		adm=6
+		dip=4
+		mil=5
+	}
+}
+
+
+1992.1.1={ government=constitutional_republic }
+
+2001.1.7={
+	monarch={
+		name="John Kufour"
+		adm=6
+		dip=4
+		mil=5
+	}
+}

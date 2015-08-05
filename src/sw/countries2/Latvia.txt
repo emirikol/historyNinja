@@ -1,0 +1,136 @@
+graphical_culture=latingfx
+
+color={152 0 230}
+
+historical_ideas={
+	merchant_adventures
+	shrewd_commerce_practise
+	national_conscripts
+	glorious_arms
+	national_trade_policy
+	military_drill
+	cabinet
+	national_bank
+	grand_army
+	engineer_corps
+	battlefield_commisions
+	humanist_tolerance
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+monarch_names={
+	"Kazimieras #0"=20
+	"Zygimantas #0"=20
+	"Aleksandras #0"=20
+	"Jonas #0 Albertas"=20
+	"Zygimantas #0 Augustas"=20
+	"Wladyslawas #0"=10
+	"Fryderikas #0"=5
+	"Wojciech #0"=5
+	"Mindaugas #1"=1
+	"Vytautas #1"=1
+	"Andrius #0"=0
+	"Antanas #0"=0
+	"Aras #0"=0
+	"Arturas #0"=0
+	"Azuolas #0"=0
+	"Bronislovas #0"=0
+	"Darius #0"=0
+	"Giedrius #0"=0
+	"Gintaras #0"=0
+	"Henrikas #0"=0
+	"Jonas #0"=0
+	"Juozapas #0"=0
+	"Jurgis #0"=0
+	"Justinas #0"=0
+	"Karolis #0"=0
+	"Leonas #0"=0
+	"Linas #0"=0
+	"Liudvikas #0"=0
+	"Marijus #0"=0
+	"Mykolas #0"=0
+	"Paulius #0"=0
+	"Petras #0"=0
+	"Pranciskus #0"=0
+	"Raimondas #0"=0
+	"Ramunas #0"=0
+	"Steponas #0"=0
+	"Tomas #0"=0
+	"Viktoras #0"=0
+	"Vincentas #0"=0
+	"Wilhelmas #0"=0
+}
+
+leader_names={
+	Chodkiewicz Ciurlionis Chreptowicz Czaplic
+	Dapkunaite Denhoff Doroshenko
+	Eidrigevicius
+	Gosiewski Gasztold
+	Hlebowicz
+	Korsunovas Kiszka Kossakowski Konashevych Khmelnytsky Korecki
+	Mielzynski Massalski
+	Niemirowicz
+	Ostrogski Orishevsky Ogin'ski Orlyk
+	Pac Pociej
+	Radziwill Rozumovsky
+	Sapieha Sanguszko Sedziwój Sluszka Sosnowski Samoylovych Szczuka Smotrytsky
+	Tyszkiewicz
+	Vyhovsky Valancius
+	Wisniowiecki Wollowicz
+	Zabiello Zólkiewski
+}
+
+ship_names={
+	Alytus
+	Druskininkai
+	Jonava
+	Kaunas
+	Kretinga
+	Lazdijai
+	Raseiniai
+	Taurage
+	Utena
+	Ukmerge
+}

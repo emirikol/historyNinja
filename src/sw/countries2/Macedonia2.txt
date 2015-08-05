@@ -1,0 +1,79 @@
+#Country Name: Please see filename.
+
+graphical_culture=easterngfx
+
+color={156 0 4}
+
+historical_ideas={glorious_arms
+church_attendance_duty
+bureaucracy
+espionage
+national_conscripts
+military_drill
+shrewd_commerce_practise
+merchant_adventures
+national_trade_policy	
+national_bank
+engineer_corps
+grand_army}
+
+historical_units={roman_militia
+roman_cavalry
+roman_balista
+roman_auxilia
+roman_legionary_cohort
+roman_praetorian_cohort}
+
+monarch_names={
+"Alexander #0"=95
+"Philip #2"=5
+"Stefanus #0"=0}
+	
+leader_names={ 
+"Alexander" "Ptolemy " }
+
+ship_names={Adrianopolis "Aetos Autokratiki" "Aghia Ioylia" "Aghia Irini" "Aghia Magdalini" "Aghia Sophia" "Aghia Thekla"
+	"Aghios Angelos" "Aghios Eusebios" "Aghios Ioakeim" "Aghios Ioannes" "Aghios Loukas"
+	"Aghios Markos" "Aghios Matthaios" "Aghios Maximos" "Aghios Nikolaos" "Aghios Pavlos"
+	"Aghios Petros" "Aghios Philimon" "Aghios Sergios" "Aghios Stephanos" "Aghios Thimoteos"
+	Aiakos Aineas Akhilleus Amphitrion Aphrodita Apollo Arakhne Ares Asia Athena
+	"Basileous Alexandros" "Basileous Alexeios" "Basileous Andronikos" "Basileous Basileos"
+	"Basileous Demetrios" "Basileous Ioannes" "Basileous Isaak" "Basileous Leon"
+	"Basileous Manuel" "Basileous Michael" "Basileous Rhomaion" "Basileous Romanos"
+	"Basileous Theodoros" "Basileous Theophilos" "Basileisa Theodora" "Basileisa Zoe"
+	Belisarios Byzantion
+	Cassandra Castor "Christos Soter" Chronos
+	Demeter "Despotes Demetrios" "Despotes Moreas" Diana "Drakon Ouranos" Dyonisos
+	Ellade Endymion Eros Europa
+	Gea "Gorgona Poseidonos"
+	Hades Hektor Hephaistos Hera Herakles Hermes Hestia Hydra Hypnos
+	Jason
+	"Kaisar Konstantinos" Konstantinopolis "Konstantinos Dragases"
+	"Liontari Skliros" "Lussa ton Theon" "Lykos Thalasses"
+	Makedonia "Margaritari Aspra" Minos
+	Nestor
+	Odysseos Orestes Okeanasthraustis Ouranos
+	Panselenos Pegasos Perseos "Pontikos Thalasses" Poseidon
+	Rhadamanthys
+	Sebastokrator
+	Thanatos Theseos
+	Zeous
+	"Acqui Terme" Aemilia Albintimilium Alsium "Ante Amnem" Apollo Ardelica Arilica Ariolica Asti
+	"Aquae Labrodes" "Augusta Bagiennorum"
+	Bovillae Bruttium
+	Capitium "Carreum Potentia" Catina Cephaloedium Ceres Clavenna Corfinium Cremona
+	Daedalium Derthona Diana
+	Ebovium Entella Eporedia Eryx Etruria
+	"Falerii Novi" Fortuna "Forum Novum"
+	Genua
+	Helorus Himerenses Hispellum "Hybla Gereatis" "Hybla Heraea"
+	Imachara "Iulia Concordia"
+	Juno Jupiter
+	Lares Latium "Ligures Baebiani" Longaricum Lorium Luna "Lucus Feroniae"
+	Mantua Mars Mercurius Minerva Mytistratus
+	Neptunus Netum "Novum Comum"
+	Placentia Pluto Pollentia
+	Quirinus
+	Saepinum Selinuntiae Sentinum Sol Soluntum
+	Thermae Tauromenium Taurinorum Tusculum
+	"Vado Sabatia" Vardacate Venus Vercelum Vesta Vulcan}

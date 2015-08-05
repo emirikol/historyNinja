@@ -1,0 +1,37 @@
+culture=normand
+religion=baltik
+hre=no
+base_tax=2
+trade_goods=fur
+manpower=1
+capital="Viborg"
+discovered_by=FTP
+
+415.1.1={discovered_by=VIK}
+810.1.1={owner=VIK controller=VIK add_core=VIK fort1=yes citysize=1000}
+843.1.1={culture=finnish discovered_by=latin discovered_by=eastern}
+1200.4.1={citysize=1050 owner=SWE controller=SWE add_core=SWE add_core=FIN religion=catholic}
+1450.1.1={citysize=1300}
+1472.1.1={fort2=yes} # Early 1470s
+1497.3.13={controller=DAN} #Danish loyalists at Danish DoW
+1497.10.6={controller=SWE} #Hans I become King and Sweden a Danish Vassal
+1500.1.1={citysize=1420}
+1501.8.1={controller=DAN} #Danish loyalists at Swedish DoW and breaking of vassalage
+1502.9.10={controller=SWE} #Retaken by Sweden
+1527.6.1={religion=protestant}
+1550.1.1={trade_goods=naval_supplies citysize=1755} #Estimated Date
+1598.8.1={controller=POL} #Sigismund tries to reconquer his crown
+1599.9.17={controller=SWE} #Duke Karl get it back
+1600.1.1={citysize=1950}
+1650.1.1={citysize=2170}
+1700.1.1={citysize=2500}
+1710.6.10={controller=RUS} #The Great Nordic War-Captured Viborg
+1721.8.30={owner=RUS add_core=RUS remove_core=SWE} #The Peace of Nystad
+1750.1.1={citysize=2850}
+1800.1.1={citysize=3180}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1920.1.1={owner=FIN controller=FIN add_core=FIN}
+1940.3.13={owner=SOV controller=SOV culture=russian religion=orthodox} # occupied during Winter War
+1941.12.1={owner=FIN controller=FIN}
+1944.12.1={owner=SOV controller=SOV}
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

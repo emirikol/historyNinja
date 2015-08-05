@@ -1,0 +1,58 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 210 46 28 }
+
+historical_ideas={
+	national_trade_policy
+	scientific_revolution
+	bureaucracy
+	patron_of_art
+	national_conscripts
+	military_drill
+	merchant_adventures
+	vice_roys
+	battlefield_commisions
+	superior_seamanship
+}
+
+historical_units={
+	
+	south_american_spearmen
+	maya_tribal_warfare
+	maya_forest_warfare
+	maya_gunpowder_warfare
+	westernized_mayan
+	maya_guerilla_warfare
+}
+
+leader_names={
+	Ahnakukpech Balam Bor
+	Canek Kukumatz Mochcouoh
+	Nohochacyum Pacal
+	Tabscoob Vataki
+}
+
+monarch_names={
+		"Muluchtzekel #0"=10
+		"Chontal Maya #0"=10
+		"Yokot'an #0"=10
+		"Macuspana #0"=10
+		"Nacajuca #0"=10
+}
+
+ship_names={
+	Balancan Bonampak
+	Camazotz Cerros Chacchoben Chinkultic 
+	Chunchucmil Comalcalco Dzibilchaltun
+	Edzná Ekab
+	Hocchob Huracan
+	Itzamkanac Ixchel Ixtab "Ix Bolom"
+	Kukulcan Kabah Kiuic
+	Labná Lamanai Muluchtzekel
+	Nacajuca
+	Okop Seibal
+	Tayasal Tlapallan Topoxte
+	Yokotan
+}

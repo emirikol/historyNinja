@@ -1,0 +1,39 @@
+owner=AOS
+controller=AOS
+add_core=AOS
+culture=alanians
+religion=shamanism
+hre=no
+capital="Astrakhan"
+trade_goods=wool
+base_tax=4
+manpower=2
+citysize=2348
+fort1=yes
+discovered_by=eastern
+discovered_by=AOS
+discovered_by=PER
+discovered_by=PHT
+discovered_by=SIR
+discovered_by=SRM
+discovered_by=PHU
+
+260.6.1={owner=HNU controller=HNU add_core=HNU remove_core=AOS culture=huns religion=tangra discovered_by=HNU}
+372.6.1={owner=XXX controller=XXX fort1=no remove_core=HNU}
+562.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism fort1=yes discovered_by=AVE}
+630.6.1={owner=GBG controller=GBG add_core=GBG discovered_by=BGK
+culture=proto_bulgarian religion=tangra remove_core=AVE discovered_by=GBG}
+665.6.1={owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism discovered_by=KHZ}
+820.4.1={religion=jewish remove_core=GBG discovered_by=muslim}
+894.6.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg remove_core=KHZ religion=tangra discovered_by=PEC}
+1015.1.1={owner=CUM controller=CUM add_core=CUM culture=cumanian remove_core=PEC discovered_by=CUM}
+1236.6.1={owner=KHA controller=KHA add_core=KHA remove_core=CUM culture=tartar discovered_by=KHA}
+1242.6.1={owner=GOL controller=GOL add_core=GOL remove_core=KHA discovered_by=GOL religion=sunni}
+1459.1.1={owner=AST controller=AST add_core=AST	remove_core=GOL discovered_by=AST} # Independence of Astrakhan
+1500.1.1={citysize=4543}
+1550.1.1={citysize=5145}
+1589.1.1={cot=no owner=RUS controller=RUS add_core=RUS remove_core=AST}
+1710.1.1={temple=yes} # Uspensky Cathedral
+1760.1.1={tax_assessor=yes}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

@@ -1,0 +1,14 @@
+culture=bantu
+religion=animism
+trade_goods=slaves
+capital="Lydenburg"
+hre=no
+base_tax=2
+manpower=1
+
+1835.1.1={owner=VAA controller=VAA add_core=VAA add_core=GBR citysize=3500 fort1=yes}
+1877.1.1={owner=GBR controller=GBR}
+1884.1.1={owner=VAA controller=VAA}
+1900.1.1={trade_goods=grain owner=GBR controller=GBR religion=protestant}
+1910.5.31={owner=SAF controller=SAF add_core=SAF} # independence of South Africa as a dominion
+1931.1.1={remove_core=GBR} # full independence

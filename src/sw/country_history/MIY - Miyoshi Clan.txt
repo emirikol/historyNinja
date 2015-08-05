@@ -1,0 +1,69 @@
+government=duchy
+aristocracy_plutocracy=-4
+centralization_decentralization=2
+innovative_narrowminded=2
+mercantilism_freetrade=-5
+offensive_defensive=-1
+land_naval=0
+quality_quantity=-4
+serfdom_freesubjects=-5
+primary_culture=japanese
+religion=shinto
+technology_group=chinese
+capital=1667	# Tokushima
+
+
+1399.1.1={
+	monarch={
+		name="Nagayuki"
+		dynasty="Miyoshi"
+		adm=5
+		dip=5
+		mil=5}}
+		
+1450.1.1={
+	monarch={
+		name="Yukinaga"
+		dynasty="Miyoshi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1520.1.1={
+	monarch={
+		name="Motonaga"
+		dynasty="Miyoshi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1532.1.1={
+	monarch={
+		name="Nagayoshi"
+		dynasty="Miyoshi"
+		adm=5
+		dip=8
+		mil=5}}
+
+1564.6.1={
+	monarch={
+		name="Yoshitsugu"
+		dynasty="Miyoshi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1573.12.11={
+	monarch={
+		name="Nagaharu"
+		dynasty="Miyoshi"
+		adm=5
+		dip=5
+		mil=5}}
+
+1577.12.11={
+	monarch={
+		name="Sugo Masayasu"
+		adm=5
+		dip=5
+		mil=5}}

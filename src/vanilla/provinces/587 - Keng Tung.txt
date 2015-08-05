@@ -1,0 +1,38 @@
+#587 - Keng Tung
+
+owner = SST
+controller = SST
+culture = shan
+religion = buddhism
+capital = "Keng Tung"
+trade_goods = wool
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 6700
+add_core = SST
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 7100 }
+1500.1.1 = { citysize = 8500 }
+1550.1.1 = { citysize = 9670 }
+1555.1.1 = {	owner = TAU
+		controller = TAU
+		add_core = TAU
+	   } # The Shan dynasty is overthrown
+1581.1.1 = {	owner = SST
+		controller = SST
+		remove_core = TAU
+	   } # Very loosely controlled
+1600.1.1 = { citysize = 10140 }
+1650.1.1 = { citysize = 11385 }
+1700.1.1 = { citysize = 12890 }
+1739.1.1 = { revolt_risk = 5 } # Rebellion
+1740.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 13450 }
+1753.1.1 = {	owner = TAU
+		controller = TAU
+	   	add_core = TAU
+	   } # Burmese campaigns
+1800.1.1 = { citysize = 14887 }

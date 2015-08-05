@@ -1,0 +1,54 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=celts
+religion=groman
+hre=no
+base_tax=3
+trade_goods=horses
+manpower=2
+fort1=yes
+capital="Matrice"
+citysize=4000                                   
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=KUN
+discovered_by=VES
+discovered_by=SUE
+
+220.6.1={culture=roman}
+313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
+455.6.1={owner=VIS controller=VIS add_core=VIS remove_core=RMP religion=early}
+630.6.1={discovered_by=muslim}
+712.1.1={owner=ACA controller=ACA add_core=ACA remove_core=VIS culture=saracen religion=sunni capital="Mayrit"} 
+756.6.1={owner=ORC controller=ORC add_core=ORC remove_core=ACA culture=andalucian}
+843.1.1={discovered_by=latin}
+1040.6.1={owner=ARV controller=ARV add_core=ARV remove_core=ORC}
+1185.1.1={owner=CAS controller=CAS add_core=CAS culture=castillian remove_core=ARV religion=catholic capital="Madrid"} 
+1450.1.1={citysize=5000}
+1463.1.1={marketplace=yes} # King Enrique IV grants the town the rights to celebrate a weekly market (confirmed in 1545 by Charles I)
+1476.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # The partidaries of Juana la Beltraneja take the city, with the support of Alfonso of Portugal
+1477.1.1={revolt={}	controller=CAS fort1=no} # Falls to the troops loyal to Isabel, the walls are destroyed to prevent further revolts
+1500.1.1={citysize=8340}
+1508.10.18={university=yes} # The Complutense University is built in Alcalá de Henares
+1516.1.23={controller=SPA owner=SPA	add_core=SPA} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1520.6.1={revolt={type=revolutionary_rebels size=1} controller=REB fort1=yes} # The revolt of the comuneros, started in Toledo, reaches Madrid, new fortifications are built to defend the city but ultimately the royalists are defeated.
+1521.4.1={revolt={} controller=SPA} # The Comuneros are defeated
+1530.1.1={constable=yes} # census of 1530
+1625.1.9={fort2=yes} # King Felipe IV orders the construction of a new city wall (actually without a defensive function)
+1699.1.1={revolt_risk=3} # Restlessness due to prolonged famines
+1700.1.1={revolt_risk=0} # The King is forced to adopt measures to appease the population, a new corregidor is elected
+1706.6.25={controller=ENG} # Anglo-portuguese troops take the city in the name of Archduke Carlos of Austria
+1706.8.4={controller=SPA} # Troops loyal to Felipe V recover the city
+1710.1.1={tax_assessor=yes}
+1710.9.27={controller=HAB} # Archduke Carlos takes the city
+1710.11.9={controller=SPA} # Archduke Carlos leaves the city due to the pressure of partidaries of Felipe V
+1713.4.11={remove_core=CAS}
+1766.3.23={revolt_risk=3} # Esquilache mutiny
+1766.12.1={revolt_risk=0} # The King grants a pardon and comes back to Madrid, after the situations has stabilised.
+1808.5.1={controller=RFR} # Invaded by the French army
+1808.5.2={revolt={type=nationalist_rebels size=3} controller=REB} # Dos de Mayo
+1808.5.3={revolt={} controller=SPA}
+1813.3.19={revolt={type=nationalist_rebels size=2} controller=REB}
+1813.12.11={revolt={} controller=SPA}

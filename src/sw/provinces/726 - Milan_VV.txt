@@ -1,0 +1,52 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=roman
+religion=groman
+hre=no
+base_tax=3 
+trade_goods=cloth
+manpower=3
+capital="Milan"
+citysize=6000	
+fort1=yes 
+discovered_by=RME
+discovered_by=RMP
+discovered_by=eastern
+discovered_by=muslim
+discovered_by=latin
+discovered_by=SUE
+
+313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
+476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=early}
+493.6.1={owner=OST controller=OST add_core=OST culture=ostrogothic remove_core=GHT}
+553.6.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=OST}
+572.6.1={owner=LOM controller=LOM add_core=LOM remove_core=RMP remove_core=BYZ culture=langobardian}
+790.1.1={owner=HFR controller=HFR remove_core=LOM add_core=HFR culture=frankish}
+799.12.24={religion=catholic}
+843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=lombard}
+870.6.1={owner=MLO controller=MLO add_core=MLO remove_core=LHT}
+962.2.2={hre=yes}
+1453.1.1={add_core=FRA}
+1481.1.1={university=yes} # University of Milano est. Before that: Pavia est. 1361 
+1499.8.10={controller=FRA} # Louis XII of France invades...
+1504.1.31={owner=FRA} # ...and seizes Milan, Treaty of Lyon
+1512.1.1={controller=MLO owner=MLO}  # Massimiliano Sforza restored by the Swiss
+1515.1.1={controller=FRA}              # Francis I of France invades...
+1516.8.1={owner=FRA}                   # ...and seizes Milan, Treaty of Noyon
+1521.1.1={controller=SPA}              # The Spanish invades...
+1521.6.1={controller=MLO owner=MLO}  # ...and restores the Sforzas
+1526.2.1={controller=HAB}              # Milan joined the League of Cognac, and is invaded by the Emperor
+1529.8.3={controller=MLO remove_core=FRA} # Treaty of Cambrai restores the Sforzas
+1535.1.1={owner=SPA	controller=SPA add_core=SPA}  # Annexed to Spain after the last Sforza died
+1600.1.1={marketplace=yes}
+1648.1.1={hre=no}
+1700.1.1={tax_assessor=yes}
+1714.9.7={owner=HAB	controller=HAB add_core=HAB remove_core=SPA}  # Treaty of Baden
+1796.11.15={owner=MLO controller=MLO remove_core=HAB} # Transpadane Republic
+1797.6.29={owner=ITA controller=ITA add_core=ITA} # Cisalpine Republic
+1814.4.11={owner=HAB controller=HAB add_core=HAB remove_core=ITA} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1814.4.20={revolt={type=nationalist_rebels size=2} controller=REB} # The Milan insurrection
+1820.4.20={revolt={type=nationalist_rebels size=0}} # The Milan insurrection
+1859.1.1={owner=SPI controller=SPI add_core=SPI}
+1861.1.1={owner=ITA controller=ITA add_core=ITA remove_core=SPI} # unification of Italy

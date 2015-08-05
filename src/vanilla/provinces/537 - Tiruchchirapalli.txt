@@ -1,0 +1,40 @@
+#537 - Tiruchchirapalli 
+
+owner = VIJ
+controller = VIJ
+culture = tamil
+religion = hinduism
+capital = "Thanjavur"
+trade_goods = spices
+hre = no
+base_tax = 5
+manpower = 5
+citysize = 14370
+add_core = VIJ
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 16000 }
+1480.1.1 = { add_core = MAD }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 17630 }
+1550.1.1 = { citysize = 21709 }
+1565.7.1 = {	owner = MAD
+		controller = MAD
+		revolt_risk = 9
+	   } # The Vijayanagar empire collapses
+1570.1.1 = { revolt_risk = 0 }
+1600.1.1 = { citysize = 24003 }
+1650.1.1 = { citysize = 27808 }
+1659.1.1 = { revolt_risk = 4 } # The kingdom began to break up.
+1660.1.1 = { revolt_risk = 8 } # Madurai was invaded by Maratha & Mysorne resulting in chaos
+1674.1.1 = {	owner = MAR
+		controller = MAR
+		add_core = MAR
+		revolt_risk = 0
+	   } # Conquerd by the Marathas
+1700.1.1 = { citysize = 31800 }
+1750.1.1 = { citysize = 34770 }
+1800.1.1 = { citysize = 37500 }

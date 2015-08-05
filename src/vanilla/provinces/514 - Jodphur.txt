@@ -1,0 +1,35 @@
+#514 - Jodphur
+
+owner = RAJ
+controller = RAJ
+culture = rajput
+religion = hinduism
+capital = "Jodphur"
+trade_goods = grain
+hre = no
+base_tax = 4
+manpower = 3
+citysize = 21100
+add_core = RAJ
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 22340 }
+1500.1.1 = { citysize = 23890 }
+1550.1.1 = { citysize = 25700 }
+1600.1.1 = { citysize = 28240 discovered_by = TUR }
+1650.1.1 = {	owner = MUG
+		controller = MUG
+		add_core = MUG
+		religion = sunni
+		citysize = 24567 
+	   } # The city is pillaged & the population is forcibly converted to islam
+1700.1.1 = { citysize = 27300 }
+1707.1.1 = {	owner = RAJ
+		controller = RAJ
+		remove_core = MUG
+	   } # Jordphur is recaptured & the Mughals are driven out
+1750.1.1 = { citysize = 32788 }
+1800.1.1 = { citysize = 38400 }

@@ -1,0 +1,42 @@
+owner=KAL
+controller=KAL
+add_core=KAL
+culture=oriya
+religion=hinduism
+capital="Madras"
+trade_goods=rice
+hre=no
+base_tax=6
+manpower=3
+citysize=7400
+fort1=yes
+discovered_by=indian
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=KAL
+discovered_by=SAK
+discovered_by=LAM
+discovered_by=PLV
+discovered_by=CHH
+
+98.4.2={owner=SEV controller=SEV add_core=SEV remove_core=KAL}
+250.6.1={owner=KLA controller=KLA add_core=KLA culture=tamil}
+600.6.1={owner=VIJ controller=VIJ add_core=VIJ remove_core=KAL}
+950.6.1={discovered_by=muslim}
+1498.1.1={discovered_by=POR}
+1522.1.1={owner=POR controller=POR fort2=yes}
+1530.1.1={marketplace=yes}
+1547.1.1={add_core=POR}
+1565.7.1={owner=MAD controller=MAD add_core=MAD remove_core=VIJ remove_core=POR revolt_risk=9} # The Vijayanagar empire collapses
+1570.1.1={revolt_risk=0}
+1612.1.1={owner=NED	controller=NED} #  The region passed into the hands of the Dutch
+1639.8.22={owner=ENG controller=ENG} # English colony
+1640.1.1={fort3=yes} # Fort St George
+1664.1.1={add_core=ENG}
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1724.1.1={owner=HYD controller=HYD add_core=HYD} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1747.1.1={owner=FRA controller=FRA} # Captured by the French
+1749.1.1={owner=GBR	controller=GBR} # Treaty of Aix-la-Chapelle
+1806.7.10={revolt={type=nationalist_rebels size=3} controller=REB} # The Vellore Mutiny
+1806.7.11={revolt={} controller=GBR} # British control is restored
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

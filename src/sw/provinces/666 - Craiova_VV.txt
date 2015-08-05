@@ -1,0 +1,48 @@
+owner=GEH
+controller=GEH
+add_core=GEH
+culture=getaen
+religion=orfi
+capital="Craiova"
+trade_goods=wool
+hre=no
+base_tax=4
+manpower=1
+citysize=7050
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=ODR
+discovered_by=GEH
+discovered_by=DAC
+
+290.6.1={owner=VIS controller=VIS culture=visigothic religion=odin}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+355.6.1={owner=GEP controller=GEP culture=gepids religion=odin}
+370.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+451.6.1={owner=ATE controller=ATE add_core=ATE culture=proto_slavic religion=perun}
+580.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism remove_core=GEH}
+630.6.1={discovered_by=BGK}
+680.6.1={culture=bulgarian}
+681.6.1={owner=BGK controller=BGK add_core=BGK religion=tangra remove_core=AVE remove_core=GEH}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+1018.9.1={owner=PEC controller=PEC remove_core=KIV add_core=PEC culture=pecheneg}
+1094.1.1={owner=CUM controller=CUM remove_core=PEC add_core=CUM}
+1185.1.20={revolt={type=nationalist_rebels size=8} controller=BUL add_core=BUL remove_core=CUM}
+1185.6.1={revolt={} owner=BUL controller=BUL culture=bulgarian remove_core=CUM}
+1263.3.1={owner=HUN controller=HUN}
+1317.3.1={owner=WAL controller=WAL add_core=WAL culture=wallachian} # Forming of Vlacho-Bulgarian Despotate - Wallachia
+1540.1.1={add_core=TUR} # The Turkish domination gradually took hold from 1535
+1571.6.1={owner=TRA controller=TRA add_core=TRA}
+1650.1.1={revolt={type=noble_rebels size=2} controller=REB} # Boyar rebellions
+1658.1.1={revolt={} controller=WAL owner=WAL}
+1660.1.1={marketplace=yes}
+1663.1.1={revolt_risk=7} # Cantacuzino is murdered, struggle for power between the boyars
+1688.1.1={revolt_risk=0} # Period of stability, Constantine Brancoveanu reigns
+1718.1.1={owner=HAB controller=HAB add_core=HAB remove_core=TUR} # Treaty of Passarowitz, Banat & Oltenia passed to the Habsburg empire
+1739.1.1={owner=WAL controller=WAL remove_core=HAB} # Returned to Wallachia after the Russian-Austrian-Turkish war
+1789.1.1={controller=HAB} # Occupied by Austrian troops
+1791.8.4={controller=WAL} # Treaty of Sistova
+1806.1.1={controller=RUS} # Occupied by Russian troops
+1812.5.28={controller=WAL} # Treaty of Bucharest
+1859.1.1={owner=ROM controller=ROM add_core=ROM remove_core=WAL} # united Romania

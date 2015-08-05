@@ -1,0 +1,17 @@
+culture=northern_thai
+religion=buddhism
+capital="Xiangabouli"
+trade_goods=wood 
+hre=no
+base_tax=3
+manpower=2
+discovered_by=chinese
+discovered_by=indian
+discovered_by=FUN
+
+700.6.1={owner=LNA controller=LNA add_core=LNA citysize=2500 fort1=yes}
+1526.1.1={revolt_risk=4} # Political instability after King Phraya's death
+1558.1.1={add_core=TAU revolt_risk=0} # Burmese vassal
+1578.1.1={owner=TAU controller=TAU} # Direct Burmese rule
+1786.1.1={owner=AYU controller=AYU add_core=AYU remove_core=TAU} # Conquered by the Siamese
+1932.6.24={owner=THA controller=THA add_core=THA remove_core=AYU} # Siam gets a constitution

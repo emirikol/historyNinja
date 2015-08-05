@@ -1,0 +1,77 @@
+owner=FRE
+controller=FRE
+add_core=FRE
+culture=ancient_frisian
+religion=odin
+hre=no
+capital="Zwolle"
+fort1=yes
+citysize=8000
+base_tax=8
+trade_goods=fish
+manpower=3
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=VNA
+discovered_by=AEG
+
+371.6.1={owner=HNU controller=HNU culture=huns religion=tangra remove_core=FRE}
+451.6.1={owner=SAT controller=SAT add_core=SAT culture=saxon religion=early}
+770.1.1={owner=HFR controller=HFR add_core=HFR remove_core=SAT}
+799.12.24={religion=catholic}
+843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=guelderish}
+870.6.1={remove_core=LHT owner=GEL controller=GEL add_core=GEL add_core=NED culture=guelderish}
+962.2.2={hre=yes}
+1399.1.1={add_core=UTR}
+1473.2.23={owner=BUR controller=BUR add_core=BUR} # Charles the Bold annexes Gelre
+1477.1.5={owner=GEL controller=GEL add_core=HAB remove_core=BUR} # Charles the Bold dies and Gelre is re-established
+1530.1.1={fort2=yes}
+1543.9.7={owner=SPA controller=SPA add_core=SPA remove_core=HAB} # Charles V annexes Gelre
+1550.1.1={courthouse=yes}
+1559.5.12={revolt_risk=3} # New bishoprics in the Lowlands create an outrage
+1565.1.1={revolt_risk=5} # Letters of Segovia, Philip I orders the harsh persecution of Calvinists
+1566.4.5={revolt_risk=3} # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1567.9.10={revolt_risk=4} # Counts of Egmont & Hoorne arrested
+1568.6.5={revolt_risk=6} # Counts of Egmont & Hoorne beheaded
+1569.1.1={revolt_risk=12} # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1={revolt_risk=20} # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.1.1={religion=reformed}
+1572.6.5={revolt_risk=0 revolt={type=nationalist_rebels size=2} controller=REB} # Rebels rise up in Gelre & Zutphen
+1572.9.1={revolt={} controller=SPA revolt_risk=10} # Don Frederique takes control of Gelre for Spain again
+1577.2.12={revolt_risk=16} # Eeuwig Edict accepted by Don Juan
+1579.1.23={owner=NED controller=NED remove_core=SPA revolt_risk=0} # Union of Utrecht, Gelre joins
+1583.9.1={controller=SPA revolt_risk=15} # Alessandro Farnese captures Zutphen and the surrounding lands
+1592.7.4={controller=NED revolt_risk=0} # The Republic takes back Zutphen and surrounding areas
+1610.1.1={marketplace=yes}
+1648.1.1={university=yes} # University of Harderwijk founded (closed in 1811 by Napoleon)
+1648.10.24={hre=no} # The Peace of Westphalia
+1672.5.20={controller=FRA} # France blitzes through the Lowlands in the Franco-Dutch War
+1678.8.10={controller=NED} # Peace of Nijmegen (Netherlands-France)
+1680.1.1={constable=yes}
+1681.1.1={base_tax=9} # Protestants expelled from France
+1755.1.1={tax_assessor=yes}
+1760.1.1={regimental_camp=yes}
+1810.7.10={owner=RFR controller=RFR add_core=RFR} # Annexed by France
+1813.11.30={owner=NED controller=NED remove_core=RFR} # William returns to the Netherlands
+1940.5.15={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1945.5.5={owner=NED controller=NED} # freed by the Allies

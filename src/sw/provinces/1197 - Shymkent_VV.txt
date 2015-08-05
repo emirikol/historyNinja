@@ -1,0 +1,39 @@
+owner=KJU
+controller=KJU
+add_core=KJU
+culture=gokturkic
+religion=tangra
+capital="Shymkent"
+fort1=yes
+trade_goods=grain
+base_tax=1
+manpower=1
+hre=no
+citysize=3210
+discovered_by=SRM
+discovered_by=KJU
+discovered_by=KUS
+
+86.8.2={owner=KUS controller=KUS add_core=KUS}
+260.6.1={owner=KJU controller=KJU remove_core=KJU}
+410.6.1={owner=CIX controller=CIX add_core=CIX culture=chionites religion=tangra}
+610.6.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg religion=tangra remove_core=CIX}
+630.6.1={discovered_by=muslim}
+809.1.1={owner=XXX controller=XXX remove_core=PEC fort1=no}
+950.6.1={owner=SEJ controller=SEJ add_core=SEJ culture=turkish religion=sunni fort1=yes}
+1077.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ culture=khwarezm}
+1234.6.1={owner=KHA controller=KHA add_core=KHA culture=tartar remove_core=KWZ}
+1361.1.1={owner=KZH controller=KZH add_core=KZH culture=khazak remove_core=KHA}
+1450.1.1={citysize=3500}
+1500.1.1={citysize=3800}
+1550.1.1={citysize=4565 discovered_by=TUR}
+1600.1.1={citysize=5021}
+1622.1.1={discovered_by=RUS}
+1650.1.1={citysize=5870}
+1700.1.1={citysize=6320}
+1730.1.1={owner=RUS controller=RUS add_core=RUS} # What began as mere assistance resulted in permanent control
+1750.1.1={citysize=6987}
+1798.1.1={fort1=yes} # The Middle horde is conquered
+1800.1.1={citysize=7750}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=KZH controller=KZH add_core=KZH remove_core=SOV remove_core=KOK} # independence from the SU

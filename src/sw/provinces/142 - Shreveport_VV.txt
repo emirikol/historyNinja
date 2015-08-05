@@ -1,0 +1,44 @@
+owner=CAD
+controller=CAD
+add_core=CAD
+culture=creek
+religion=ind_pagan
+capital="Caddo"
+fort1=yes
+trade_goods=cotton
+citysize=1000
+hre=no
+base_tax=1
+manpower=2
+discovered_by=CHE
+discovered_by=CAD
+discovered_by=CRE
+discovered_by=new_world
+discovered_by=CHO
+discovered_by=CKS
+discovered_by=WIC
+discovered_by=OSA
+
+1542.1.1={discovered_by=SPA} # Hernando de Soto
+1670.1.1={discovered_by=FRA} # Robert Cavelier de La Salle
+1699.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic}
+1714.1.1={trade_goods=horses}
+1716.1.1={revolt_risk=3} # Disease and warfare between the natives & the French
+1720.1.1={revolt_risk=1}
+1722.1.1={revolt_risk=4} # The conditions worsened
+1724.1.1={citysize=780}
+1725.1.1={revolt_risk=2}
+1729.1.1={revolt_risk=5}
+1732.1.1={revolt_risk=0}
+1739.1.1={add_core=FRA remove_core=CAD}
+1750.1.1={citysize=1500 add_core=LOU}
+1762.1.1={owner=SPA	controller=SPA culture=castillian remove_core=FRA}
+1763.1.1={revolt_risk=5} # The French resisted the Spanish rule
+1764.1.1={revolt_risk=0} # Eventually subdued
+1787.1.1={add_core=SPA}
+1800.1.1={citysize=2370}
+1800.10.1={owner=RFR controller=RFR add_core=RFR culture=cosmopolitan_french remove_core=SPA} # Treaty of San Ildefonso
+1803.4.3={capital="Shreveport" owner=USA controller=USA add_core=USA remove_core=RFR culture=american} # The Louisiana purchase
+1861.4.12={owner=SUC controller=SUC add_core=SUC} # Start of Civil War
+1865.5.13={owner=USA controller=USA remove_core=SUC} # End of Civil War
+1900.1.1={fort2=yes}

@@ -1,0 +1,39 @@
+owner=PHT
+controller=PHT
+add_core=PHT
+culture=parthian
+religion=zoro
+capital="Farrah"
+trade_goods=cotton
+hre=no
+base_tax=2
+manpower=3
+citysize=2870
+fort1=yes
+discovered_by=PHT
+discovered_by=PER
+discovered_by=KUS
+discovered_by=PAH
+
+224.6.1={owner=PER controller=PER add_core=PER culture=east_persian remove_core=PHT}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA religion=sunni remove_core=PER}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1045.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1205.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ}
+1256.6.1={owner=IKH controller=IKH add_core=IKH remove_core=KHA remove_core=KWZ}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH culture=baluchi}
+1450.1.1={citysize=3100}
+1500.1.1={citysize=3305}
+1510.1.1={owner=PER	controller=PER add_core=PER	remove_core=TIM} # Conquered by the Safavids
+1550.1.1={citysize=1980}
+1597.12.1={base_tax=3} # The Reforms of Abbas the Great
+1600.1.1={citysize=4477 discovered_by=TUR}
+1650.1.1={citysize=5276}
+1700.1.1={citysize=6900}
+1747.6.1={owner=DUR controller=DUR add_core=DUR	remove_core=PER culture=pashtun} # Ahmad Shah established the Durrani empire
+1750.1.1={citysize=7288}
+1800.1.1={citysize=8100}
+1850.1.1={fort2=yes}
+1879.1.1={owner=AFG controller=AFG add_core=AFG remove_core=DUR}
+1926.1.1={trade_goods=chemicals}

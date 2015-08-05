@@ -1,0 +1,23 @@
+government=tribal_despotism
+aristocracy_plutocracy=-3
+centralization_decentralization=3
+innovative_narrowminded=3
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-5
+quality_quantity=0
+serfdom_freesubjects=-3
+primary_culture=cara
+religion=inti
+technology_group=new_world
+capital=2279 # Quito
+
+
+1399.1.1={
+	monarch={
+		name="Quitus"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

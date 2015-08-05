@@ -1,0 +1,112 @@
+#Country Name: Please see filename.
+
+graphical_culture=muslimgfx
+
+color={ 109  204  96 } 
+
+historical_ideas={
+	excellent_shipwrights
+	merchant_adventures
+	military_drill
+	national_conscripts
+	sea_hawks
+	superior_seamanship
+	shrewd_commerce_practise
+	naval_fighting_instruction
+	national_trade_policy
+	battlefield_commisions
+	naval_glory
+	grand_navy
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names={
+	"Muammar #0"=60
+	"Abdul #0"=40
+	"Muhammad #0"=40
+	"Mifta #0"=40
+	"Zentani #0"=20
+	"Muftah #0"=20
+	"Mahmud #0"=20
+	"Mustafa #0"=20
+	"Mohieddin #0"=10
+	"Hussein #0"=0
+	"Abdul Ati #0"=0
+	"Abdul Qadir #0"=0
+	"Wanis #0"=0
+	"Jadallah #0"=0
+	"Umar #0"=0
+	"Mubarak #0"=0
+	"Shukri #0"=0
+	"Al-Baghdadi #0"=0
+	"Ali #0"=0
+	"Abuzed #0"=0
+	"Samir #0"=0
+	"Hesham #0"=0
+	"Mohamed #0"=0
+	"Omar #0"=0
+	"Younes #0"=0
+	"Walid #0"=0
+	"Khaled #0"=0
+	"Salem #0"=0
+	"Reyad #0"=0
+	"Osama #0"=0
+	"Gumaa #0"=0
+	"Tarik #0"=0
+	"Nader #0"=0
+	"Abdulnaser #0"=0
+	"Abdulhamid #0"=0
+	"Abubaker #0"=0
+}
+
+leader_names={
+	"al-Qaddafi" "al-Obeidi" "az-Zaruq" Rajab "al-Usta" Umar "as-Sawsa" "az-Zentani" Kaiba
+	"al-Muntasir" Sakizli "Ben Halim" Kubar Said Fikini Maziq "al-Badri" "al-Bakkoush"
+	"al-Maghribi" Jalloud "at-Talhi" Dorda "al-Qa'ud" "al-Mangoush" "al-Shamikh" Ghanem
+	"al-Mahmudi" Aboud Shaban Esnani Daoud "Al Shibani" "Al Hasi" Sebaee Hussein Rewani Ellafi
+	Salah Igtet "Al Magrabi" "El Taib" "Al Tarhoni" Zubya Hamadi Osman Slil Zedani "El Masli"
+	Sunusi
+}
+
+ship_names={
+	Ba'ith Shahid Haqq Wakil Qawiyy Matin
+	Waliyy Hamid Muhsi Mubdi Mu'id Muhyi Mumit
+	Hayy Qayyum Wajid Majid Wahid Samad Qadir
+	Muqtadir Muqaddim Mu'akhkhir Awwal Akhir
+	Zahir Batin Wali Muta'al Barr Tawwab
+}

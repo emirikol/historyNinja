@@ -1,0 +1,27 @@
+culture=malayan
+religion=animism
+capital="Brunei"
+trade_goods=spices
+hre=no
+base_tax=8
+manpower=1
+discovered_by=chinese
+
+1365.1.1={manpower=3 owner=BEI controller=BEI religion=sunni add_core=BEI fort1=yes citysize=34100}
+1450.1.1={citysize=38000}
+1500.1.1={citysize=43870}
+1521.1.1={discovered_by=SPA}
+1550.1.1={citysize=47500}
+1580.1.1={owner=SPA controller=SPA} # Captured by Spain
+1581.1.1={owner=BEI controller=BEI}
+1600.1.1={citysize=49657}
+1650.1.1={citysize=52100}
+1672.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Civil war over succession
+1673.1.1={revolt={} controller=BEI}
+1700.1.1={citysize=54660}
+1750.1.1={citysize=56374}
+1800.1.1={citysize=58222}
+1942.9.9={controller=JAP owner=JAP}
+1945.1.1={controller=BEI owner=BEI}
+1946.1.1={owner=GBR controller=GBR add_core=GBR}
+1984.1.1={owner=BEI controller=BEI add_core=BEI remove_core=GBR} 

@@ -1,0 +1,48 @@
+owner=DAC
+controller=DAC
+add_core=DAC
+culture=dacian
+religion=orfi
+capital="Csaba"
+trade_goods=wool
+hre=no
+base_tax=1
+manpower=1
+citysize=3700
+fort1=yes
+discovered_by=eastern
+discovered_by=GEH
+discovered_by=DAC
+
+107.6.1={owner=RME controller=RME add_core=RME}
+210.6.1={owner=XXX controller=XXX remove_core=RME remove_core=DAC fort1=no}
+300.6.1={owner=HNU controller=HNU add_core=HNU culture=huns religion=tangra fort1=yes}
+451.6.1={owner=GEP controller=GEP add_core=GEP remove_core=HNU culture=gepids religion=odin}
+580.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism}
+630.6.1={discovered_by=BGK}
+805.8.1={owner=BGK controller=BGK add_core=BGK remove_core=AVE remove_core=HSL culture=bulgarian religion=tangra}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+943.5.1={owner=HUN controller=HUN religion=catholic culture=hungarian}
+1450.1.1={citysize=3800}
+1526.8.30={owner=TUR controller=TUR	add_core=TUR} # Battle of Mohács
+1540.1.1={religion=reformed}
+1550.1.1={fort2=yes citysize=4867} # The castle was fortified to avoid invasions from the Ottoman empire
+1552.9.4={controller=TUR} # Surrendered to the Ottomans
+1562.6.1={owner=TUR add_core=TUR remove_core=HAB} # End of Ottoman-Habsburg War
+1600.1.1={citysize=5870}
+1650.1.1={citysize=6340}
+1678.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Kuruc rebellion
+1680.1.1={marketplace=yes}
+1684.1.1={revolt={} controller=TUR}
+1685.1.1={owner=HAB controller=HAB add_core=HAB remove_core=TUR religion=catholic capital="Bekescsaba"} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1700.1.1={citysize=7230}
+1703.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Kuruc rebellion, led by Francisc Rakoczy
+1705.1.1={revolt={} tax_assessor=yes}
+1711.1.1={controller=HAB} # The treaty of Szatmar
+1750.1.1={citysize=8644}
+1800.1.1={citysize=9610}
+1918.11.16={owner=HUN controller=HUN add_core=HUN remove_core=HAB} # Hungaria gets independent
+1926.1.1={trade_goods=chemicals}
+1943.8.1={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.12.1={owner=SOV controller=SOV} # freed by the Soviets
+1945.5.8={owner=HUO controller=HUO} # end of the 2. WW

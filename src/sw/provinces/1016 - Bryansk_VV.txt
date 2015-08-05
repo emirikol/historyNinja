@@ -1,0 +1,35 @@
+owner=HSL
+controller=HSL
+add_core=HSL
+culture=proto_slavic
+religion=perun
+hre=no
+base_tax=3
+trade_goods=grain  
+manpower=1
+capital="Brayansk"
+fort1=yes
+citysize=1000	 
+discovered_by=latin
+discovered_by=eastern
+discovered_by=SRM
+discovered_by=HSL
+
+451.6.1={owner=RDM controller=RDM add_core=RDM culture=radomichi remove_core=HSL}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=RDM}
+1132.1.1={owner=GVR controller=GVR remove_core=KIV add_core=GVR}
+1263.1.1={owner=MOS controller=MOS add_core=MOS remove_core=GVR}
+1453.1.1={add_core=MOS}
+1503.3.22={remove_core=MOS add_core=RUS}
+1514.1.1={owner=RUS controller=RUS} # Captured by Vasili III
+1569.7.4={add_core=POL} # Polish-Lithuanian Commonwealth
+1611.1.1={controller=POL}
+1618.12.11={owner=POL} # Truce of Deulino
+1654.9.23={owner=RUS controller=RUS} # Reqonquered
+1667.1.1={remove_core=LIT remove_core=POL} # Treaty of Andrusovo
+1812.8.17={controller=RFR} # Battle of Smolensk
+1812.11.9={controller=RUS}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1941.12.1={owner=NAZ controller=NAZ}
+1944.12.1={owner=SOV controller=SOV}
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

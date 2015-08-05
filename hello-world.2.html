@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello...</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/application.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/svg-pan-zoom.min.js" ></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js" ></script>
+<script type="text/javascript" src="/hammer.min.js" ></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" type="text/css" />
+</head>
+
+<body>
+  <script type="text/javascript" >window.source = 'sw';</script>
+  <nav class="navbar navbar-inverse">
+    <i class='item fa fa-wrench' data-toggle='editor'></i>
+    <div class="container text-center">
+      There Be Dragons
+    </div>
+  </nav>
+   
+  <div class="container">
+    <div class='row' style='height:100%;overflow:hidden'>
+      
+      <div style="color: black;position: absolute;bottom: 7px;width: 100%;text-align: center;z-index:1">
+        <div style="  display: inline-block;  background-color: rgba(0, 0, 0, 0.21);border: rgb(134, 134, 134) solid 1px; width: 90%;">
+          <div class="hinter">shift: decade | ctrl: month | alt: century</div>
+          <input id="date" type="range" step=372 style='width: 98%;display:inline-block;margin:7px'/>
+        </div>
+      </div>
+      
+      <div class='col-md-12' style='padding:0;height:100%'>
+        <div id='loader' style='position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999;background: url(loading.gif) center no-repeat rgb(25, 31, 38);'></div>
+        <div class="side-bar">
+          <div class='side-panel'>
+            <div class='header'>
+              <label for='date'></label>
+            </div>
+          </div>
+          <div class='side-panel country-info closed'>
+            <div class='header'>
+              <label class="foo">-----</label>
+            </div>
+            <table class='table'>
+              <tr>
+                <th>wiki</th>
+                <td><a href='#' data-value='country.link' target="_blank">link</a></td>
+              </tr>
+              <tr>
+                <th>Govt</th>
+                <td data-value='country.gov'></td>
+                <td class="editor"></td>
+              </tr>
+              <tr>
+                <th>Leader</th>
+                <td data-value='country.leader'></td>
+                <td class="editor">
+                  <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-xs btn-default">
+                    <input type="radio" name="foo" checked> Show
+                  </label>
+                  <label class="btn btn-xs btn-default">
+                    <input type="radio" name="foo"> Hide
+                  </label>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        
+          <div class='side-panel editor'>
+            <div class='header'>
+              <label>Settings</label>
+            </div>
+            <div class='body'>
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="show_slider_hint" checked/> Show slider hint
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group ">
+                  <label class="col-sm-4">Data source</label>
+                  <div class="col-sm-8">
+                    <select class="form-control input-sm">
+                      <option>Default</option>
+                    </select>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class='placeholder'>
+        <script type="text/javascript">
+          var map_loaded = $.get(source+'/after.svg?3333').then(function(x, s){ 
+            $('.placeholder').replaceWith(x.childNodes[0])
+          })
+          </script>
+      </div>
+      
+    </div>
+  </div>
+  <script type="text/javascript" src="application.js" ></script>
+</body>
+</html>

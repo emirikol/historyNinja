@@ -1,0 +1,36 @@
+#615 - Luang Prabang
+
+owner = LXA
+controller = LXA
+culture = lao
+religion = buddhism
+capital = "Luang Prabang"
+trade_goods = wool
+hre = no
+base_tax = 4
+manpower = 2
+fort1 = yes
+citysize = 4900
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 5200 }
+1500.1.1 = { citysize = 5680 }
+1550.1.1 = { citysize = 6900 }
+1600.1.1 = { citysize = 7750 }
+1650.1.1 = { citysize = 8670 }
+1694.1.1 = { owner = DAI controller = DAI add_core = DAI } # After Soulingna Vongsa's death, Lan Xang came under vietnamese rule
+1700.1.1 = { citysize = 9680 }
+1707.1.1 = {	owner = LUA
+		controller = LUA
+		add_core = LUA
+		remove_core = LXA
+		remove_core = DAI
+	   } # Declared independent, Lan Xang was partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+1710.1.1 = { marketplace = yes }
+1750.1.1 = { citysize = 11255 }
+1771.1.1 = { add_core = TAU } # Vassal state of Burma
+1778.1.1 = { remove_core = TAU } # Vassalhood of Burma ends
+1779.1.1 = { add_core = AYU } # Vassal state
+1800.1.1 = { citysize = 13480 }

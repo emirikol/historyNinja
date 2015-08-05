@@ -1,0 +1,34 @@
+culture=gokturkic
+religion=tangra
+capital="Samarkand"
+trade_goods=grain
+hre=no
+base_tax=4
+manpower=3
+discovered_by=PHT
+discovered_by=PER
+discovered_by=SRM
+discovered_by=KUS
+discovered_by=KJU
+
+86.8.2={owner=KUS controller=KUS add_core=KUS citysize=2908 fort1=yes}
+262.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=zoro remove_core=KUS}
+410.6.1={owner=CIX controller=CIX culture=chionites religion=tangra remove_core=PER}
+630.6.1={discovered_by=muslim}
+650.6.1={religion=shiite}
+700.1.1={owner=ACA controller=ACA add_core=ACA religion=sunni remove_core=PER remove_core=CIX}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+963.6.1={owner=GHZ controller=GHZ add_core=GHZ culture=ghaznavian religion=sunni remove_core=ABB}
+1156.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=GHZ culture=khwarezm}
+1256.6.1={owner=IKH controller=IKH add_core=IKH culture=turkmeni remove_core=KWZ}
+1335.6.1={cot=yes owner=TIM controller=TIM add_core=TIM remove_core=IKH remove_core=GHZ}
+1450.1.1={citysize=9000}
+1500.1.1={cot=no owner=SHY controller=SHY add_core=SHY} # Captured by the Shaybanid horde
+1506.1.1={remove_core=TIM marketplace=yes} # The Uzbek Shaybanids brings an end to the Timurid dynasty
+1550.1.1={citysize=7450} # The city declined after the capital was moved to Bukhara
+1600.1.1={citysize=8200 customs_house=yes discovered_by=TUR}
+1700.1.1={citysize=2700} # Persian assault, the area is almost deserted
+1800.1.1={citysize=8240 culture=uzbehk}
+1868.6.1={owner=RUS controller=RUS add_core=RUS}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.1.1={owner=UZB controller=UZB add_core=UZB remove_core=SHY remove_core=SOV}

@@ -1,0 +1,14 @@
+culture=yakut
+religion=shamanism
+trade_goods=whale
+capital="Cokurdah"
+hre=no
+base_tax=1
+manpower=1
+native_size=3
+native_ferocity=2 
+native_hostileness=7
+
+1809.9.17={owner=RUS add_core=RUS controller=RUS discovered_by=RUS citysize=400 religion=orthodox culture=russian}
+1917.10.1={fort1=yes owner=SOV add_core=SOV controller=SOV remove_core=RUS citysize=1000} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

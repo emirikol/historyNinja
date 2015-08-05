@@ -1,0 +1,26 @@
+government=tribal_democracy
+aristocracy_plutocracy=4
+centralization_decentralization=1
+innovative_narrowminded=5
+mercantilism_freetrade=3
+offensive_defensive=3
+land_naval=1
+quality_quantity=4
+serfdom_freesubjects=3
+technology_group=slavic
+primary_culture=slavianska
+add_accepted_culture=bulgarian
+add_accepted_culture=greek
+historical_friend=BGK
+religion=perun
+capital=150	# Sredetz
+
+
+680.6.1={
+	monarch={
+		name="Slav"
+		adm=6
+		dip=6
+		mil=9
+	}
+}

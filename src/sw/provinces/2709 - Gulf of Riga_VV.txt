@@ -1,0 +1,17 @@
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+
+342.6.1={discovered_by=EES}
+400.1.1={discovered_by=VIK}
+843.6.1={discovered_by=latin}

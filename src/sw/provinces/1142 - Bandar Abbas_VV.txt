@@ -1,0 +1,43 @@
+owner=PER
+controller=PER
+add_core=PER
+culture=persian
+religion=zoro
+capital="Hormuz"
+trade_goods=spices
+hre=no
+base_tax=12
+manpower=3
+citysize=7240
+fort1=yes
+discovered_by=PER
+discovered_by=PHT
+discovered_by=indian
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=GEA
+discovered_by=HEM
+discovered_by=QAT
+discovered_by=HIM
+discovered_by=SEB
+
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA religion=shiite remove_core=PER}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1045.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1205.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ}
+1256.6.1={owner=IKH controller=IKH add_core=IKH remove_core=KHA remove_core=KWZ}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH}
+1450.1.1={citysize=7800}
+1488.1.1={discovered_by=POR} # Pêro da Covilhã
+1500.1.1={marketplace=yes}
+1504.1.1={owner=PER	controller=PER remove_core=TIM add_core=PER} # The Safavids took over, Shi'ism became the state religion
+1550.1.1={citysize=8120 discovered_by=TUR}
+1600.1.1={citysize=9867}
+1700.1.1={tax_assessor=yes}
+1747.1.1={revolt_risk=3} # Shah Nadir is killed, local khanates emerged
+1748.1.1={revolt_risk=4} # The empire began to decline
+1779.1.1={revolt_risk=0} # With the Qajar dynasty the situation stabilized
+1850.1.1={fort2=yes}
+1935.3.21={owner=IRN controller=IRN add_core=IRN remove_core=PER} # Persia is now everywhere known as Iran

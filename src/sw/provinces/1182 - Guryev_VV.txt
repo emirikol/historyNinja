@@ -1,0 +1,44 @@
+owner=AOS
+controller=AOS
+add_core=AOS
+culture=alanians
+religion=shamanism
+hre=no
+capital="Bersh"
+trade_goods=wool
+base_tax=2
+manpower=2
+citysize=2100
+fort1=yes
+discovered_by=eastern
+discovered_by=AOS
+discovered_by=PER
+discovered_by=PHT
+discovered_by=SIR
+discovered_by=SRM
+discovered_by=PHU
+discovered_by=KJU
+
+260.6.1={owner=HNU controller=HNU add_core=HNU discovered_by=HNU culture=huns religion=tangra remove_core=AOS}
+372.6.1={owner=XXX controller=XXX fort1=no remove_core=HNU}
+630.6.1={owner=GBG controller=GBG add_core=GBG culture=proto_bulgarian religion=tangra discovered_by=muslim fort1=yes
+discovered_by=BGK discovered_by=GBG}
+665.6.1={owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism discovered_by=KHZ}
+818.6.1={owner=PEC controller=PEC add_core=PEC remove_core=KHZ religion=tangra discovered_by=PEC remove_core=GBG}
+1015.1.1={owner=CUM controller=CUM add_core=CUM culture=cumanian remove_core=PEC discovered_by=CUM}
+1050.1.1={owner=XXX controller=XXX remove_core=CUM culture=tartar fort1=no}
+1236.6.1={owner=KHA controller=KHA add_core=KHA culture=tartar fort1=yes discovered_by=KHA}
+1242.1.1={owner=GOL controller=GOL add_core=GOL religion=sunni remove_core=KHA discovered_by=GOL}
+1299.1.1={owner=NOG controller=NOG add_core=NOG remove_core=GOL discovered_by=NOG}
+1450.1.1={citysize=2500}
+1500.1.1={citysize=2640}
+1550.1.1={citysize=3214}
+1557.1.1={capital="Gurey" owner=RUS	controller=RUS add_core=RUS	remove_core=NOG} # The break up of the Nogai tribe
+1600.1.1={citysize=4781}
+1650.1.1={citysize=5579}
+1700.1.1={citysize=6200}
+1750.1.1={citysize=6887}
+1800.1.1={citysize=7320}
+1874.1.1={culture=russian religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=KZH controller=KZH add_core=KZH remove_core=SOV remove_core=KOK} # independence from the SU

@@ -1,0 +1,20 @@
+culture=shan
+religion=animism
+capital="Putao"
+trade_goods=wood
+hre=no
+base_tax=2
+manpower=2
+discovered_by=indian
+discovered_by=chinese
+discovered_by=TIB
+
+700.6.1={owner=TAU controller=TAU add_core=TAU citysize=5400 fort1=yes}
+1450.1.1={citysize=5950}
+1500.1.1={citysize=6800}
+1550.1.1={citysize=7525 religion=buddhism}
+1600.1.1={citysize=8600}
+1650.1.1={citysize=9422}
+1700.1.1={citysize=10420}
+1885.1.1={owner=GBR controller=GBR add_core=GBR}
+1948.1.4={owner=MYA controller=MYA add_core=MYA remove_core=GBR remove_core=TAU}

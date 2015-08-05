@@ -1,0 +1,15 @@
+culture=mali 
+religion=shamanism
+capital="Zinder"
+manpower=1
+trade_goods=fur
+hre=no
+base_tax=1
+discovered_by=KBO
+discovered_by=HAU
+
+1804.1.1={discovered_by=SOK}
+1808.1.1={owner=SOK controller=SOK citysize=7000 fort1=yes} # Conquered during the Fulani War
+1810.1.1={owner=KBO controller=KBO}
+1895.1.1={owner=RFR controller=RFR add_core=RFR}
+1960.8.3={owner=NGR controller=NGR add_core=NGR remove_core=RFR}

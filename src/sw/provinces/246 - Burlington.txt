@@ -1,0 +1,24 @@
+culture=iroquis
+religion=midewiwin
+capital="Pocumtuk"
+trade_goods=naval_supplies
+hre=no
+base_tax=2
+manpower=2
+native_size=5
+native_ferocity=0.5
+native_hostileness=4
+discovered_by=IRO
+
+1609.1.1={discovered_by=FRA} # Samuel de Champlain
+1666.1.1={owner=FRA controller=FRA citysize=400 culture=cosmopolitan_french religion=catholic} # Construction of Fort Sainte Anne
+1680.1.1={citysize=120} # The settlement is more or less abandoned 
+1691.1.1={add_core=FRA}    
+1724.1.1={capital="Burlington" owner=GBR controller=GBR fort1=yes citysize=1030 culture=english religion=protestant} # Fort Dummer, British settlement
+1749.1.1={add_core=GBR}
+1750.1.1={citysize=6000}
+1763.2.10={remove_core=FRA} # Treaty of Paris, France gave up its claim
+1764.7.1={culture=american revolt_risk=6} # Growing unrest
+1765.1.1={revolt_risk=7} # Controversy regarding New York's territorial claim to Vermont
+1783.9.3={owner=USA controller=USA add_core=USA remove_core=GBR} # Entered the union
+1790.1.1={revolt_risk=3} # The dispute with New York is settled

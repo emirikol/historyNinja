@@ -1,0 +1,27 @@
+#625 - Priangan
+
+culture = sulawesi
+religion = hinduism
+capital = "Priangan"
+trade_goods = unknown
+hre = no
+base_tax = 2
+manpower = 2
+native_size = 20
+native_ferocity = 2
+native_hostileness = 7
+discovered_by = MAJ
+
+1488.1.1 = { capital = "Bandung" }
+1602.1.1 = {	discovered_by = MTR
+		owner = MTR
+		controller = MTR
+		add_core = MTR
+		citysize = 52005
+		trade_goods = spices
+	   } # The Sultanate of Mataram
+1604.1.1 = { religion = sunni }
+1650.1.1 = { citysize = 54000 }
+1700.1.1 = { citysize = 55454 }
+1750.1.1 = { citysize = 56980 }
+1800.1.1 = { citysize = 58100 }

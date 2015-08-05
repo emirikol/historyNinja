@@ -1,0 +1,17 @@
+discovered_by=muslim
+discovered_by=RME
+discovered_by=RMP
+discovered_by=indian
+discovered_by=chinese
+discovered_by=PHT
+discovered_by=PER
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=GEA
+discovered_by=HEM
+discovered_by=QAT
+discovered_by=HIM
+discovered_by=SEB
+
+1150.6.1={discovered_by=latin}

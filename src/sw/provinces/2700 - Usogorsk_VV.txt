@@ -1,0 +1,38 @@
+owner=FTP
+controller=FTP
+add_core=FTP
+culture=proto_finnish
+religion=animism
+capital="Usogorsk"
+fort1=yes
+trade_goods=horses
+hre=no
+base_tax=2
+manpower=1
+citysize=2100
+discovered_by=FTP
+discovered_by=eastern
+discovered_by=PHU
+
+670.6.1={owner=VKB controller=VKB add_core=VKB remove_core=FTP culture=bulgar religion=tangra discovered_by=VKB discovered_by=muslim}
+923.1.1={religion=sunni}
+1236.6.1={owner=KHA controller=KHA add_core=KHA culture=tartar discovered_by=KHA}
+1242.6.1={owner=GOL controller=GOL add_core=GOL remove_core=KHA remove_core=VKB discovered_by=GOL}
+1299.1.1={owner=NOV controller=NOV add_core=NOV remove_core=GOL}
+1450.1.1={citysize=2900}
+1472.1.1={controller=MOS add_core=MOS} # Conquest of Novgorod
+1478.1.1={owner=MOS remove_core=NOV} # Annexed to Muscovy by Ivan III
+1500.1.1={citysize=3564}
+1503.3.22={owner=RUS controller=RUS	add_core=RUS remove_core=MOS}
+1550.1.1={citysize=4080}
+1552.1.1={remove_core=KAZ fort2=yes} # Conquered by Russia
+1553.1.1={culture=russian religion=orthodox} # Most Tatars were christianized or killed
+1600.1.1={citysize=4866}
+1650.1.1={citysize=5618}
+1700.1.1={citysize=6597}
+1750.1.1={citysize=7257}
+1773.1.1={revolt_risk=5} # Peasant uprising, Pugachev
+1774.1.1={revolt_risk=0}
+1800.1.1={citysize=8322}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

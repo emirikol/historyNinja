@@ -1,0 +1,32 @@
+owner=KHE
+controller=KHE
+culture=vietnamese
+religion=buddhism
+capital="Haiphong"
+fort1=yes
+trade_goods=rice
+hre=no
+base_tax=11
+manpower=3
+citysize=11000
+discovered_by=DAI
+discovered_by=chinese
+discovered_by=muslim
+discovered_by=KHE
+discovered_by=FUN
+
+220.6.1={owner=DAI controller=DAI add_core=DAI}
+1413.1.1={owner=MNG	revolt={type=nationalist_rebels size=2}	controller=REB add_core=MNG} # Vietnam is invaded by Chinese troops after the Tran dynasty is overthrowned
+1427.1.1={revolt={}	owner=DAI controller=DAI remove_core=MNG} # The Lê Dynasty
+1509.1.1={revolt={type=noble_rebels size=1} controller=REB} # Nobles' rebellion
+1510.1.1={revolt={} controller=DAI}
+1558.1.1={owner=TOK	controller=TOK add_core=TOK	remove_core=DAI} # The kingdom is divided between the Nguyens & the Trinh line
+1730.1.1={revolt_risk=5} # Peasant revolt
+1731.1.1={revolt_risk=0}
+1786.1.1={revolt={type=revolutionary_rebels size=1} controller=REB} # The Trinh dynasty is overthrown by Tay Son rebells
+1788.1.1={revolt={}	owner=ANN controller=ANN add_core=ANN remove_core=TOK} # The Tay-Son take over
+1802.1.1={owner=DAI	controller=DAI add_core=DAI remove_core=ANN} # The Nguyen dynasty defeats the Tay Sons
+1883.1.1={owner=RFR controller=RFR add_core=RFR} # unknown date
+1940.7.1={owner=JAP controller=JAP} # occupied by Japan
+1945.8.15={owner=RFR controller=RFR}
+1945.9.2={owner=VTN controller=VTN add_core=VTN remove_core=RFR}

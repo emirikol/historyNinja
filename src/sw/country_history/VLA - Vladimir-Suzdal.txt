@@ -1,0 +1,214 @@
+government=principality
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-1
+offensive_defensive=2
+land_naval=-3
+quality_quantity=2
+serfdom_freesubjects=-5
+primary_culture=russian
+religion=orthodox
+technology_group=eastern
+capital=1013	# Vladimir
+
+
+1168.1.1={
+	monarch={
+		name="Andrei Bogolyubsky"
+		dynasty="Rurikovich"
+		adm=7
+		dip=8
+		mil=5}}
+
+1174.1.1={
+	monarch={
+		name="Mikhail"
+		dynasty="Rurikovich"
+		adm=6
+		dip=9
+		mil=6}}
+
+1176.7.1={
+	monarch={
+		name="Vsevolod the Big Nest"
+		dynasty="Rurikovich"
+		adm=9
+		dip=9
+		mil=6
+	}
+}
+
+1190.7.27={
+	heir={
+		name="Yuri"
+		monarch_name="Yuri II"
+		dynasty="Rurikovich"
+		birth_date=1189.7.27
+		death_date=1238.3.4
+		claim=96
+		adm=6
+		dip=4
+		mil=6}}
+
+1212.7.1={
+	monarch={
+		name="Yuri II"
+		dynasty="Rurikovich"
+		adm=6
+		dip=5
+		mil=6}}
+
+1238.7.1={
+	monarch={
+		name="Yaroslav II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=6}}
+
+1246.7.1={
+	monarch={
+		name="Sviatoslav III"
+		dynasty="Rurikovich"
+		adm=5
+		dip=6
+		mil=5}}
+
+1249.7.1={
+	monarch={
+		name="Andrey II"
+		dynasty="Rurikovich"
+		adm=6
+		dip=7
+		mil=6}}
+
+1252.7.1={
+	monarch={
+		name="Alexander Nevsky"
+		dynasty="Rurikovich"
+		adm=8
+		dip=9
+		mil=8}}
+
+1263.7.1={
+	monarch={
+		name="Yaroslav III"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=7}}
+
+1272.7.1={
+	monarch={
+		name="Vasily"
+		dynasty="Rurikovich"
+		adm=8
+		dip=8
+		mil=7}}
+
+1276.7.1={
+	monarch={
+		name="Dmitry"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+
+1293.7.1={
+	monarch={
+		name="Andrey"
+		dynasty="Rurikovich"
+		adm=3
+		dip=9
+		mil=6}}
+
+1304.7.1={
+	monarch={
+		name="Mikhail"
+		dynasty="Rurikovich"
+		adm=7
+		dip=6
+		mil=9}}
+
+1318.7.1={
+	monarch={
+		name="Yury"
+		dynasty="Rurikovich"
+		adm=4
+		dip=7
+		mil=6}}
+
+1322.7.1={
+	monarch={
+		name="Dmitry"
+		dynasty="Rurikovich"
+		adm=4
+		dip=7
+		mil=6}}
+
+1326.7.1={
+	monarch={
+		name="Aleksandr Mikhailovich"
+		dynasty="Rurikovich"
+		adm=4
+		dip=7
+		mil=6}}
+		
+1328.7.1={
+	monarch={
+		name="Ivan I"
+		dynasty="Rurikovich"
+		adm=6
+		dip=8
+		mil=7}}	
+
+1340.7.1={
+	monarch={
+		name="Simeon"
+		dynasty="Rurikovich"
+		adm=7
+		dip=8
+		mil=7}}	
+
+1353.7.1={
+	monarch={
+		name="Ivan II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=8
+		mil=7}}		
+		
+1359.7.1={
+	monarch={
+		name="Dmitri Donskoi"
+		dynasty="Rurikovich"
+		adm=7
+		dip=8
+		mil=7
+	}
+}
+		
+1372.1.1={
+	monarch={
+		name="Oleg Ivanovich"
+		dynasty="Olegovich"
+		adm=4
+		dip=6
+		mil=4}}
+
+1402.1.1={
+	monarch={
+		name="Fyodor Olegovich"
+		dynasty="Olegovich"
+		adm=5
+		dip=6
+		mil=5}}
+
+1427.1.1={
+	monarch={
+		name="Ivan Fyodorovich"
+		dynasty="Olegovich"
+		adm=6
+		dip=6
+		mil=4}}

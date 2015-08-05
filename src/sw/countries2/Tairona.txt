@@ -1,0 +1,56 @@
+#Country Name: Please see filename.
+
+graphical_culture=southamericagfx
+
+color={ 241 252 151 }
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art
+}
+
+historical_units={
+	
+	south_american_spearmen
+	south_american_warfare
+	inca_mountain_warfare
+	south_american_gunpowder_warfare
+	westernized_south_american
+	peruvian_guerilla_warfare
+}
+
+monarch_names={	
+	"Buritaca #0"=20
+	"Tumbaga #0"=20
+	"Kogui #0"=20
+	"Nahuange #0"=20
+	"Neguange #0"=20
+	"Sinú #0"=20
+	"Arhuacos  #0"=20
+	"Wiwa #0"=20
+	"Ijka #0"=20
+	"Ifca #0"=20
+	"Cancuamo #0"=20
+	"Teiruna #0"=20
+	"Teijua #0"=20
+	"Chengue #0"=20
+	"Gayraca #0"=20
+	"Cinto #0"=20
+	"Bonda #0"=20
+	}
+
+leader_names={
+    Buritaca Tumbaga Kogui Nahuange Neguange Sinú Arhuacos Wiwa Ijka Ifca Cancuamo Teiruna Teijua Chengue Gayraca Cinto Bonda
+}
+
+ship_names={
+	Tairona Buritaca Tumbaga Kogui Nahuange Neguange Sinú Arhuacos Wiwa Ijka Ifca Cancuamo Teiruna Teijua Chengue Gayraca Cinto Bonda
+}

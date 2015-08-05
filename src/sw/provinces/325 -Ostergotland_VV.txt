@@ -1,0 +1,51 @@
+culture=normand
+religion=odin
+hre=no
+base_tax=3
+trade_goods=horses
+manpower=2
+capital="Linkoping"
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+discovered_by=FTP
+
+400.1.1={discovered_by=VIK}
+415.6.1={owner=VIK controller=VIK add_core=VIK fort1=yes citysize=1500}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1080.1.1={religion=catholic}
+1200.1.2={owner=SWE controller=SWE add_core=SWE remove_core=VIK culture=swedish}
+1450.1.1={citysize=1500}
+1487.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # The Axelsson Tott Family
+1487.5.24={revolt={} controller=SWE} # The Demise of the Axelsson Tott Family
+1497.3.13={controller=DAN} # Danish loyalists at Danish DoW
+1497.10.6={controller=SWE} # Hans I become King and Sweden a Danish Vassal
+1500.1.1={citysize=1450} # Estimated
+1501.8.1={controller=DAN} # Danish loyalists at Swedish DoW and breaking of vassalage
+1503.6.1={controller=SWE} # Retaken by Sweden
+1520.3.6={owner=DAN controller=DAN} # The Council accept Christian II as King
+1521.7.15={owner=SWE controller=SWE} # Liberated by locals and joins Gustav Eriksson Wasa
+1527.6.1={religion=protestant}
+1542.1.1={fort2=yes}
+1570.1.1={citysize=2057}
+1610.1.1={citysize=2524}
+1635.1.1={courthouse=yes} # minor court belonging to Svea Hovrätt
+1636.1.1={regimental_camp=yes}
+1650.1.1={marketplace=yes}# major upswing in the grain belt
+1650.1.1={citysize=3180}
+1654.1.1={tax_assessor=yes} # Result of "The Great Reduction"
+1690.1.1={capital="Norrkoping"}
+1690.1.1={citysize=4357}
+1730.1.1={citysize=4803}
+1730.1.1={customs_house=yes} # Due to the support of manufactories
+1770.1.1={citysize=7933}
+1810.1.1={citysize=9048}

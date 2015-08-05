@@ -1,0 +1,34 @@
+owner=PAH
+controller=PAH
+add_core=PAH
+culture=pahlavi
+religion=zoro
+capital="Srinagar"
+fort1=yes
+trade_goods=rice
+hre=no
+base_tax=2
+manpower=1
+citysize=10500
+discovered_by=indian
+discovered_by=muslim
+discovered_by=PHT
+discovered_by=PER
+discovered_by=PAH
+discovered_by=SAK
+discovered_by=TIB
+discovered_by=KSH
+
+86.7.1={owner=KUS controller=KUS add_core=KUS culture=kushans remove_core=PAH}
+180.6.1={owner=ABR controller=ABR add_core=ABR remove_core=KUS culture=abhira religion=hinduism}
+420.6.1={owner=HEP controller=HEP add_core=HEP remove_core=ABR culture=hephthalites religion=tangra}
+567.1.1={owner=KSH controller=KSH add_core=KSH remove_core=HEP culture=kashmiri religion=hinduism}
+1294.6.1={owner=DLH controller=DLH culture=east_persian add_core=DLH religion=hinduism remove_core=KSH}
+1500.1.1={religion=shiite}
+1526.1.1={owner=MUG controller=MUG add_core=MUG	remove_core=DLH} # Battle of Panipat
+1606.5.30={religion=sikh}
+1747.1.1={owner=DUR controller=DUR add_core=DUR	remove_core=MUG} # The Mughal Empire began to disintegrate
+1767.1.1={owner=PUN controller=PUN add_core=PUN remove_core=MUG}
+1819.1.1={remove_core=DUR religion=sunni} 
+1849.3.29={owner=GBR add_core=GBR controller=GBR remove_core=PUN}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

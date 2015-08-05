@@ -1,0 +1,34 @@
+owner=PAH
+controller=PAH
+add_core=PAH
+culture=pahlavi
+religion=zoro
+capital="Bahawalpur"
+trade_goods=tea
+hre=no
+base_tax=4
+manpower=3
+citysize=3200
+fort1=yes
+discovered_by=indian
+discovered_by=PAH
+discovered_by=SAK
+
+86.7.1={owner=KUS controller=KUS add_core=KUS remove_core=PAH}
+180.6.1={owner=MLV controller=MLV add_core=MLV culture=malavian religion=hinduism}
+420.6.1={owner=HEP controller=HEP culture=hephthalites religion=tangra}
+567.6.1={owner=SND controller=SND add_core=SND culture=sindhi religion=hinduism}
+950.6.1={discovered_by=muslim}
+1399.6.1={owner=RAJ controller=RAJ add_core=RAJ culture=rajput}
+1450.1.1={citysize=3900}
+1500.1.1={citysize=4590}
+1527.1.1={owner=MUG	controller=MUG add_core=MUG fort1=yes}
+1550.1.1={citysize=4990}
+1600.1.1={citysize=5564 discovered_by=TUR}
+1650.1.1={citysize=6000}
+1700.1.1={citysize=6530}
+1747.1.1={owner=SND	controller=SND add_core=SND	remove_core=MUG}
+1750.1.1={citysize=7580}
+1800.1.1={citysize=8950}
+1818.6.3={owner=GBR controller=GBR add_core=GBR	remove_core=SND}
+1947.8.14={owner=PAK controller=PAK add_core=PAK remove_core=GBR}

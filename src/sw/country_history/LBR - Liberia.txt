@@ -1,0 +1,295 @@
+government=constitutional_republic
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=1
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-5
+quality_quantity=2
+serfdom_freesubjects=-5
+primary_culture=ashanti
+religion=protestant
+technology_group=african
+capital=1887	# Monrovia
+
+1848.1.3={ government=republican_dictatorship }
+
+1848.1.3={
+	monarch={
+		name="Joseph Jenkins Roberts"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1856.1.7={
+	monarch={
+		name="Stephen Allen Benson"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1864.1.4={
+	monarch={
+		name="Daniel Bashiel Warner"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1868.1.6={
+	monarch={
+		name="James Spriggs Payne"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1870.1.3={
+	monarch={
+		name="Edward James Roye"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1871.11.4={
+	monarch={
+		name="James Skivring Smith"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1872.1.1={
+	monarch={
+		name="Joseph Jenkins Roberts"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1876.3.1={
+	monarch={
+		name="James Spriggs Payne"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1878.1.7={
+	monarch={
+		name="Anthony William Gardner"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1883.1.20={
+	monarch={
+		name="Alfred Francis Russell"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1884.1.4={
+	monarch={
+		name="Hilary Richard Wright Johnson"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1892.1.4={
+	monarch={
+		name="Joseph James Cheeseman"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1896.11.12={
+	monarch={
+		name="William David Coleman"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1900.12.11={
+	monarch={
+		name="Garretson Wilmot Gibson"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1904.1.4={
+	monarch={
+		name="Arthur Barclay"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1912.1.1={
+	monarch={
+		name="Daniel E. Howard"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1920.1.5={
+	monarch={
+		name="Charles D.B. King"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1930.12.3={
+	monarch={
+		name="Edwin J. Barclay"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1944.1.3={
+	monarch={
+		name="William V.S. Tubman"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1950.1.1={ religion=religious_tolerance }
+
+1971.7.23={
+	monarch={
+		name="William R. Tolbert, Jr."
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1980.4.12={ government=military_dictatorship }
+
+1980.4.12={
+	monarch={
+		name="Samuel K. Doe"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1984.1.1={ government=republican_dictatorship }
+
+1990.9.9={
+	monarch={
+		name="Charles Taylor"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1990.11.22={ government=constitutional_republic }
+
+1990.11.22={
+	monarch={
+		name="Amos Sawyer"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1994.3.7={
+	monarch={
+		name="David Kpomakpor"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1995.9.1={
+	monarch={
+		name="Wilton Sankawulo"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+1996.9.3={
+	monarch={
+		name="Ruth Perry"
+		DIP=6
+		ADM=4
+		MIL=5
+		female=yes
+	}
+}
+
+1997.8.2={
+	monarch={
+		name="Charles Taylor"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+2003.8.11={
+	monarch={
+		name="Moses Blah"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+2003.10.14={
+	monarch={
+		name="Gyude Bryant"
+		DIP=6
+		ADM=4
+		MIL=5
+	}
+}
+
+2006.1.16={
+	monarch={
+		name="Ellen Johnson-Sirleaf"
+		DIP=6
+		ADM=4
+		MIL=5
+		female=yes
+	}
+}

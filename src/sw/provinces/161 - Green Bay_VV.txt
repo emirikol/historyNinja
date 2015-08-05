@@ -1,0 +1,34 @@
+owner=OJI
+controller=OJI
+add_core=OJI
+culture=ojibwe
+religion=midewiwin
+capital="Green"
+fort1=yes
+citysize=1000
+trade_goods=wood
+hre=no
+base_tax=1
+manpower=1
+discovered_by=OJI
+discovered_by=PWT
+discovered_by=ILL
+discovered_by=ERA
+
+1634.1.1={discovered_by=FRA} # Jean Nicolet
+1685.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic remove_core=OJI}
+1693.1.1={trade_goods=corn} # Founding of La Pointe 
+1700.1.1={citysize=2010}
+1712.1.1={revolt_risk=5} # Fox war
+1714.1.1={revolt_risk=0}
+1718.1.1={add_core=FRA citysize=1240} # The fur trade attracted more settlers
+1728.1.1={revolt_risk=5} # Second Fox war
+1729.1.1={revolt_risk=0}
+1750.1.1={citysize=2410}
+1760.1.1={controller=GBR} # The government of New France capitulate at Montreal
+1763.2.10={capital="Green Bay"	discovered_by=GBR owner=GBR controller=GBR remove_core=FRA culture=english
+religion=protestant} # Treaty of Paris - ceded to Britain, France gave up its claim
+1774.1.1={add_core=QUE} # United with Canada under the Quebec Act of 1774
+1783.9.3={owner=USA add_core=USA remove_core=QUE controller=USA} # Treaty of Paris, passed to the U.S but still under British control
+1800.1.1={citysize=3866}
+1900.1.1={fort2=yes}

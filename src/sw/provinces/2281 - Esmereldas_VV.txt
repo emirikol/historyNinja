@@ -1,0 +1,30 @@
+owner=GAC
+controller=GAC
+add_core=GAC
+culture=cara
+religion=inti
+capital="Esmereldas"
+fort1=yes
+trade_goods=silver
+citysize=1000
+hre=no
+base_tax=1
+manpower=2
+discovered_by=TWA
+discovered_by=INC
+discovered_by=GAC
+discovered_by=QTO
+discovered_by=CBC
+discovered_by=TAE
+
+1452.8.29={owner=QTO controller=QTO	add_core=QTO citysize=207 remove_core=GAC}
+1497.8.29={owner=INC controller=INC	add_core=INC citysize=600 remove_core=QTO}
+1533.1.1={discovered_by=SPA} # Sebastián de Benalcázar
+1535.1.1={owner=SPA controller=SPA citysize=280 culture=castillian religion=catholic} # Founded by Sebastián de Benalcázar
+1550.1.1={add_core=SPA citysize=1260 remove_core=INC}
+1600.1.1={citysize=3210}
+1650.1.1={citysize=4600}
+1700.1.1={citysize=8630}
+1750.1.1={citysize=10900 add_core=COL}
+1819.12.17={owner=COL controller=COL remove_core=SPA} # The establishment of Gran Colombia
+1830.1.1={add_core=ECU owner=ECU controller=ECU} # Ecuadors independence

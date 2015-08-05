@@ -1,0 +1,52 @@
+owner=GHT
+controller=GHT
+add_core=GHT
+culture=goths
+religion=odin
+hre=no
+base_tax=3
+trade_goods=wool
+manpower=3
+capital="Pinsk"
+fort1=yes
+citysize=1600
+discovered_by=latin
+discovered_by=eastern
+discovered_by=muslim
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+
+290.6.1={owner=HSL controller=HSL add_core=HSL remove_core=GHT culture=proto_slavic religion=perun}
+355.6.1={owner=BAO controller=BAO add_core=BAO remove_core=HSL culture=roxolanian religion=zoro discovered_by=BAO}
+370.6.1={culture=huns religion=tangra owner=HNU controller=HNU add_core=HNU remove_core=BAO discovered_by=HNU}
+451.6.1={owner=DRE controller=DRE add_core=DRE remove_core=HNU discovered_by=DRE culture=dregovichi religion=perun}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=DRE discovered_by=KIV}
+1132.1.1={owner=GVR controller=GVR remove_core=KIV add_core=GVR discovered_by=GVR}
+1236.6.1={owner=KHA controller=KHA add_core=KHA discovered_by=KHA remove_core=GVR}
+1242.6.1={owner=GOL controller=GOL add_core=GOL remove_core=KHA discovered_by=GOL}
+1299.1.1={owner=LIT controller=LIT remove_core=GOL add_core=LIT remove_core=GOL religion=catholic culture=byelorussian
+discovered_by=LIT}
+1569.7.1={owner=POL	controller=POL add_core=POL remove_core=LIT discovered_by=POL} # Union of Lublin
+1648.1.1={revolt={type=nationalist_rebels size=1} controller=REB add_core=UKR add_core=ZAZ} # Ukrainian Cossack
+1654.1.1={revolt={} controller=POL remove_core=ZAZ}
+1656.1.1={controller=POL} # Estimated
+1793.1.23={owner=RUS controller=RUS add_core=RUS}
+1794.3.24={revolt_risk=5} # Kosciuszko uprising, minimize the Russian influence
+1794.11.16={revolt_risk=0}
+1871.1.1={religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1918.3.25={owner=BRS controller=BRS add_core=BRS culture=byelorussian} # short independence of Belarus
+1918.9.1={owner=SOV controller=SOV}
+1941.12.1={owner=NAZ controller=NAZ}
+1944.12.1={owner=SOV controller=SOV}
+1991.9.18={owner=BRS controller=BRS remove_core=SOV} # final independence of Belarus

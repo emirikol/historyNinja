@@ -1,0 +1,27 @@
+#653 - Tagoloan
+
+culture = filipino
+religion = animism
+capital = "Tagoloan"
+trade_goods = unknown
+hre = no
+base_tax = 2
+manpower = 2
+native_size = 50
+native_ferocity = 3
+native_hostileness = 9
+
+1457.1.1 = {	discovered_by = SUL
+		owner = SUL
+		controller = SUL
+		add_core = SUL
+		citysize = 5200
+		trade_goods = spices
+	   } # Sultanate of Sulu
+1527.1.1 = { discovered_by = SPA }
+1550.1.1 = { citysize = 5750 }
+1600.1.1 = { citysize = 6253 }
+1650.1.1 = { citysize = 6930 }
+1700.1.1 = { citysize = 7585 }
+1750.1.1 = { citysize = 8300 }
+1800.1.1 = { citysize = 9524 }

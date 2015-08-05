@@ -1,0 +1,31 @@
+owner=VES	
+controller=VES
+add_core=VES
+culture=vascon
+religion=groman
+hre=no
+base_tax=5
+trade_goods=wool
+manpower=3
+capital="Andora" 
+citysize=2000
+temple=yes
+marketplace=yes
+fort1=yes 
+discovered_by=eastern
+discovered_by=RMP
+discovered_by=RME
+discovered_by=KUN
+discovered_by=SUE
+discovered_by=VES
+
+14.6.1={owner=RME controller=RME add_core=RME}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+455.6.1={owner=VIS controller=VIS add_core=VIS culture=visigothic religion=early remove_core=RMP}
+714.1.1={owner=HFR controller=HFR add_core=HFR remove_core=VIS}
+800.1.1={religion=catholic}
+814.1.1={owner=ARA controller=ARA add_core=ARA remove_core=HFR culture=catalan}
+819.1.1={owner=ANE controller=ANE add_core=ANE}
+1944.8.20={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.12.1={owner=GBR controller=GBR}
+1945.5.8={owner=ANE controller=ANE}

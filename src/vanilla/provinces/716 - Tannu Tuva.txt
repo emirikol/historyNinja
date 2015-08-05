@@ -1,0 +1,36 @@
+#716 - Tannu Tuva
+
+owner = OIR		# The Oirads united much of Mongolia
+controller = OIR
+culture = mongol
+religion = buddhism
+capital = "Tannu Tuva"
+trade_goods = grain
+hre = no
+base_tax = 1
+manpower = 1
+citysize = 5988
+add_core = OIR
+discovered_by = chinese
+discovered_by = nomad_group
+
+1450.1.1 = { citysize = 6500 }
+1500.1.1 = { citysize = 7140 }
+1543.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Fighting broke out between the Mongols
+1550.1.1 = { citysize = 8564 }
+1552.1.1 = {	revolt = {}
+		owner = KHA
+		controller = KHA
+		add_core = KHA
+	   } # The Oirads are defeated & Mongolia is reunited under Altan Khan
+# 1586.1.1 = { religion = buddhism } # State religion
+1600.1.1 = { citysize = 10200 }
+1623.1.1 = { owner = OIR controller = OIR } # The Oirads gained independence
+1650.1.1 = { citysize = 12155 }
+1691.1.1 = {	owner = MCH
+		controller = MCH
+		add_core = MCH
+	   } # Outer Mongolia is created
+1700.1.1 = { citysize = 14397 }
+1750.1.1 = { citysize = 16400 }
+1800.1.1 = { citysize = 17895 }

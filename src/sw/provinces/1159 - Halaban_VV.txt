@@ -1,0 +1,31 @@
+culture=saracen
+religion=shamanism
+capital="Halabah"
+trade_goods=wool
+hre=no
+base_tax=1
+manpower=1
+discovered_by=PER
+discovered_by=PHT
+discovered_by=GEA
+discovered_by=HEM
+discovered_by=QAT
+discovered_by=HIM
+discovered_by=SEB
+
+630.6.1={discovered_by=muslim}
+632.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni citysize=1000 fort1=yes}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1171.6.1={owner=SAL controller=SAL add_core=SAL remove_core=ABB}
+1250.1.1={owner=NAJ controller=NAJ remove_core=SAL add_core=NAJ culture=bedouin_arabic}
+1450.1.1={citysize=1540}
+1500.1.1={citysize=1942}
+1550.1.1={citysize=2410}
+1600.1.1={citysize=3100}
+1650.1.1={citysize=3678}
+1700.1.1={citysize=4251}
+1740.6.1={religion=wahhabi}
+1750.1.1={citysize=4980}
+1800.1.1={citysize=5340}
+1818.9.9={owner=TUR	controller=TUR add_core=TUR} # The end of the Saudi State
+1902.1.1={owner=SAB controller=SAB add_core=SAB remove_core=TUR} # unknown date

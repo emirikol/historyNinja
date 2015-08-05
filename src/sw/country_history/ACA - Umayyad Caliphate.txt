@@ -1,0 +1,173 @@
+government=imperial_government
+aristocracy_plutocracy=-2
+centralization_decentralization=-5
+innovative_narrowminded=2
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-5
+technology_group=muslim
+primary_culture=saracen
+add_accepted_culture=bedouin_arabic
+add_accepted_culture=berber 
+add_accepted_culture=al_iraqiya_arabic 
+add_accepted_culture=al_misr_arabic 
+add_accepted_culture=al_suryah_arabic 
+add_accepted_culture=maghreb_arabic 
+add_accepted_culture=tuareg
+add_accepted_culture=persian
+add_accepted_culture=east_persian
+add_accepted_culture=baluchi
+historical_friend=ADA
+religion=sunni
+capital=1153	# Medina
+
+
+602.6.8={
+monarch={
+name="Abu Bakr"
+dynasty="Taym"
+DIP=7
+ADM=7
+MIL=7}}
+
+
+634.8.23={
+monarch={
+name="Umar"
+dynasty="Adi"
+DIP=7
+ADM=7
+MIL=8}}
+
+644.11.11={
+monarch={
+name="Uthman ibn Affan"
+dynasty="Umayyad"
+DIP=7
+ADM=7
+MIL=8}}
+
+656.3.11={
+monarch={
+name="Ali"
+dynasty="Quraish"
+DIP=7
+ADM=7
+MIL=8}}
+
+
+661.3.11={
+monarch={
+name="Muawiyah I"
+dynasty="Umayyad"
+DIP=7
+ADM=7
+MIL=7}}
+
+661.6.1={capital=902}
+
+680.3.11={
+monarch={
+name="Yazid I"
+dynasty="Umayyad"
+DIP=6
+ADM=7
+MIL=7}}
+
+683.3.11={
+monarch={
+name="Muawiya II"
+dynasty="Umayyad"
+DIP=6
+ADM=6
+MIL=6}}
+
+684.3.5={
+monarch={
+name="Marwan I"
+dynasty="Umayyad"
+DIP=6
+ADM=6
+MIL=6}}
+
+685.3.5={
+monarch={
+name="Abd al-Malik"
+dynasty="Umayyad"
+DIP=6
+ADM=6
+MIL=6}}
+
+705.3.1={
+	monarch={
+		name="al-Walid I ibn Abd al-Malik"
+		dynasty="Umayyad"
+		DIP=5
+		ADM=5
+		MIL=5}}
+		
+715.3.1={
+	monarch={
+		name="Al-Walid ibn Abd al-Malik"
+		dynasty="Umayyad"
+		DIP=6
+		ADM=6
+		MIL=7}}
+		
+717.3.1={
+	monarch={
+		name="Umar ibn Abd al-Aziz"
+		dynasty="Umayyad"
+		DIP=5
+		ADM=6
+		MIL=9}}
+		
+720.3.1={
+	monarch={
+		name="Yazid II ibn Abd al-Malik"
+		dynasty="Umayyad"
+		DIP=6
+		ADM=6
+		MIL=9}}
+		
+724.3.1={
+	monarch={
+		name="Hisham ibn Abd al-Malik"
+		dynasty="Umayyad"
+		DIP=6
+		ADM=7
+		MIL=9}}
+
+743.3.1={
+	monarch={
+		name="al-Walid II ibn Yazid II"
+		dynasty="Umayyad"
+		DIP=5
+		ADM=5
+		MIL=8}}
+		
+744.3.1={
+	monarch={
+		name="Yazid III ibn al-Walid"
+		dynasty="Umayyad"
+		DIP=5
+		ADM=4
+		MIL=7}}
+		
+744.6.1={
+	monarch={
+		name="Marwan II"
+		dynasty="Umayyad"
+		DIP=5
+		ADM=4
+		MIL=6}}
+		
+750.3.1={
+	monarch={
+		name="'As-Saffah"
+		dynasty="Umayyad"
+		DIP=5
+		ADM=5
+		MIL=5}}

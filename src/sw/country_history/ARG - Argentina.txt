@@ -1,0 +1,25 @@
+government=republican_dictatorship
+aristocracy_plutocracy=-2
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-1
+quality_quantity=2
+serfdom_freesubjects=0
+technology_group=latin
+religion=catholic
+primary_culture=castillian
+capital=778	# Buenos Aires
+
+
+1854.1.1={
+	monarch={
+		name="Justo José de Urquiza"
+		adm=6
+		dip=5
+		mil=9
+	}
+}
+
+1950.1.1={religion=religious_tolerance}

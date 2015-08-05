@@ -1,0 +1,17 @@
+culture=polynesian
+religion=australian_pagan
+trade_goods=fish
+capital="Wanaka"
+hre=no
+base_tax=1
+manpower=1
+native_size=10
+native_ferocity=1
+native_hostileness=2
+
+1642.1.1={discovered_by=NED} # Abel Tasman
+1848.1.1={discovered_by=GBR	owner=GBR controller=GBR add_core=GBR culture=english religion=protestant citysize=350}
+1849.3.1={culture=new_zeland}
+1850.1.1={citysize=1100 fort1=yes}
+1900.1.1={fort2=yes}
+1907.1.1={owner=NZE controller=NZE add_core=NZE remove_core=GBR}

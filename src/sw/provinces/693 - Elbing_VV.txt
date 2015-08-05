@@ -1,0 +1,51 @@
+owner=HSL
+controller=HSL
+add_core=HSL
+culture=proto_slavic
+religion=perun
+hre=no
+capital="Truso"
+fort1=yes
+trade_goods=naval_supplies
+base_tax=2
+manpower=1
+citysize=4000
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=HSL
+ 
+370.6.1={owner=HNU controller=HNU add_core=HNU remove_core=HSL discovered_by=HNU}
+415.1.1={discovered_by=VIK}
+451.6.1={owner=DEE controller=DEE add_core=DEE culture=drevliani religion=perun remove_core=HNU discovered_by=DEE }
+830.1.1={discovered_by=latin discovered_by=muslim}
+894.1.1={owner=XXX controller=XXX remove_core=GMV religion=baltik fort1=no remove_core=DEE}
+1190.1.1={owner=TEU controller=TEU add_core=TEU culture=kashubian religion=catholic hre=yes fort1=yes capital="Elbing"}
+1237.1.1={culture=prussian} #german settlement in the east
+1450.1.1={citysize=6000}
+1453.1.1={add_core=POL}
+1454.3.6={revolt={type=revolutionary_rebels size=2} controller=REB} # Beginning of the "thirteen years war"
+1466.10.19={revolt={} controller=TEU add_core=PRU} # "Peace of Torun", became a Polish fief
+1500.1.1={citysize=7000}
+1525.1.1={owner=PRU	controller=PRU remove_core=TEU religion=protestant remove_core=POL} # Albert of Prussia became a protestant
+1550.1.1={citysize=9000}
+1618.8.28={owner=BRA controller=BRA	add_core=BRA} # Prussia in a personal union with Brandenburg
+1667.1.1={tax_assessor=yes}
+1701.1.18={owner=PRU controller=PRU remove_core=BRA} # Kingdom of Prussia
+1708.1.1={fort2=yes}
+1750.1.1={manpower=3 base_tax=5}
+1758.1.22={controller=RUS} # Occupied by Russia
+1758.8.25={controller=PRU}
+1871.1.1={owner=GRI controller=GRI add_core=GRI} # German Empire Founded
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1933.1.30={owner=NAZ controller=NAZ add_core=NAZ} # Nazis take the might
+1945.5.8={owner=PON controller=PON add_core=PON remove_core=GER remove_core=NAZ culture=new_mixed_polish religion=catholic} # end of the 2nd WW

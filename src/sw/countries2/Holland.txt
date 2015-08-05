@@ -1,0 +1,153 @@
+#Country Name: Please see filename.
+
+graphical_culture=latingfx
+
+color={ 156  96  100 }
+
+historical_ideas={
+	merchant_adventures
+	excellent_shipwrights
+	national_conscripts
+	military_drill
+	national_trade_policy
+	quest_for_the_new_world
+	superior_seamanship
+	colonial_ventures
+	naval_fighting_instruction
+	smithian_economics
+	scientific_revolution
+	revolution_and_counter
+	cabinet
+}
+
+historical_units={
+western_early_medieval_infantry
+early_knights
+western_medieval_balista
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	western_medieval_infantry
+	
+	western_men_at_arms
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names={
+	"Willem #4"=40
+	"Albert #0"=20
+	"Johan #2"=15	
+	"Jakoba #0"=-15
+	"Lodewijk #0"=15
+	"Eberhard #0"=15
+	"Dirk #7"=5
+	"Willem #6"=5
+	"Floris #5"=5
+	"Jan #1"=5
+	"Arnolf #1"=5
+	"Adriaan #0"=0
+	"Anton #0"=0
+	"Barthout #0"=0
+	"Christiaan #0"=0
+	"Constantijn #0"=0
+	"Daniël #0"=0
+	"Filips #0"=0	
+	"Frans #0"=0
+	"Gabriel #0"=0
+	"Gaspar #0"=0
+	"Gerardus #0"=0
+	"Gerbrand #0"=0
+	"Hendrik #0"=0
+	"Jan #0"=0
+	"Jeroen #0"=0
+	"Joost #0"=0
+	"Karel #0"=0
+	"Kasper #0"=0
+	"Lamoraal #0"=0
+	"Hugo #0"=0
+	"Jacob #0"=0
+	"Pieter #0"=0
+	"Procop #0"=0
+	"Prosper #0"=0
+	"Raes #0"=0
+	"Rembrandt #0"=0
+	"Simon #0"=0
+	"Rodolf #0"=0
+	"Roeland #0"=0
+}
+
+leader_names={
+	Ameland Amersfoort Amstel Appingedam Arnhem
+	Bieldeers Blokker Bolsward Botha Breda Brielle
+	Coemans Coevorden Cornelis Costers Culemborg
+	"De Witt" "Den Burg" Deodati Dokkum Dordrecht Drenthe Driesman
+	Eindhoven Elst "Elten Leur" Enkhuizen
+	Fliesingen Friesen
+	Geelvinck Geerit Genk Goes Gouda Groningen Gulder
+	Haag Haarlem Hebenal Heerlen Heertognebosh Heineken Helder Hendryck Hilversum
+	Jansz
+	Kampen Karstens Kortenaer Kortrijk
+	Lauwers Lemmer Leyden Limburg
+	Maastricht Meppel Middenmeer Middleburg
+	Neuwegen Nijkerk Nijmegen
+	Oldenbarneveld Olderzaal Opdorf Overijssel
+	Philipps Piet Poszt
+	Scheveningen Schiedam Scholtecheren Schoonebeck Schouwen Sluis Smuts Spijkenise
+	Terchelling Texel Twente
+	Utrecht
+	Valkenswaard "Van Den Dorp" "Van der Does" "Van Hessling" "Van Spilbergen" "Van Stabel" "Van Wick" Veendam Venloo Venray Volendam Vroom
+	Willem Woerden Waalwijck
+	Zandwort Zoetermeer Zuiderzee Zwijndrecht Zwolle
+}
+
+ship_names={
+	Adelaar Alkmaar Amsterdam
+	Beschermer
+	Delft "Der keerlen god"
+	"Graaf Floris V" "Graaf Willem II" Gouda
+	Haarlem "Hart van Holland" Holland Hollandia Hoogwoud Hoorn
+	Leiden
+	Meermin
+	Ridderschap 
+	Schoonzicht
+	"Wapen van Amsterdam" "Wapen van Holland" 
+	Zeemeeuw Zon
+}
+
+army_names={
+	"Leger van $PROVINCE$"  }
+
+fleet_names={  "Vloot van $PROVINCE$" 
+	 }

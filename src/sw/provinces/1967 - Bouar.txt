@@ -1,0 +1,16 @@
+culture=nubian
+religion=animism
+trade_goods=slaves
+capital="Bouar"
+hre=no
+base_tax=1
+manpower=1
+native_size=40
+native_ferocity=4
+native_hostileness=7
+
+1900.1.1={trade_goods=wood owner=RFR controller=RFR add_core=RFR fort1=yes citysize=1000}
+1911.11.4={trade_goods=grain owner=GRI controller=GRI add_core=GRI remove_core=RFR} # German Empire Founded
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1920.1.1={owner=RFR controller=RFR add_core=RFR remove_core=GER}
+1960.8.13={owner=CAR controller=CAR remove_core=RFR add_core=CAR citysize=2000}

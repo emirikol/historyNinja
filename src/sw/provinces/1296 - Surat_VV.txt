@@ -1,0 +1,36 @@
+owner=SAK
+controller=SAK
+add_core=SAK
+culture=saka
+religion=tangra
+capital="Surat"
+fort1=yes
+trade_goods=cotton
+hre=no
+base_tax=7
+manpower=3
+citysize=3000
+discovered_by=indian
+discovered_by=PHT
+discovered_by=PER
+discovered_by=SAK
+discovered_by=KHE
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=KAL
+
+210.6.1={owner=SEV controller=SEV add_core=SEV culture=satavahana remove_core=SAK}
+403.6.1={owner=VAK controller=VAK add_core=VAK culture=vakatakian religion=buddhism remove_core=SEV}
+565.6.1={owner=GUJ controller=GUJ add_core=GUJ culture=gujarati religion=hinduism remove_core=VAK}
+950.6.1={discovered_by=muslim}
+1498.1.1={discovered_by=POR}
+1573.6.1={owner=MUG controller=MUG add_core=MUG remove_core=GUJ} # Conquered by Akbar
+1600.1.1={marketplace=yes} # add English trading post
+1627.1.1={textile=yes}
+1650.1.1={customs_house=yes} 
+1660.1.1={add_core=MAR} # Series of attacks from the Marathas
+1674.1.1={owner=MAR controller=MAR remove_core=MUG} #  Conquered by the Marathas
+1750.1.1={add_core=GAK}
+1759.1.1={owner=GBR controller=GBR} # Conquered by the British
+1784.1.1={add_core=GBR}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

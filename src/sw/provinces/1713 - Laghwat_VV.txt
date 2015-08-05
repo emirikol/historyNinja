@@ -1,0 +1,42 @@
+owner=MAV
+controller=MAV
+add_core=MAV
+culture=mauretanian
+religion=groman
+capital="Laghouat"
+trade_goods=grain
+hre=no
+base_tax=2
+manpower=1
+citysize=2467
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=VNA
+discovered_by=MAV
+discovered_by=GHR
+discovered_by=CEO
+
+40.6.1={owner=RME controller=RME add_core=RME remove_core=MAV}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+476.6.1={owner=GHR controller=GHR add_core=GHR religion=shamanism remove_core=RMP}
+630.6.1={discovered_by=muslim}
+690.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+985.6.1={owner=ZIR controller=ZIR add_core=ZIR remove_core=ABB}
+1250.1.1={owner=ALG controller=ALG remove_core=ZIR add_core=ALG culture=maghreb_arabic}
+1500.1.1={citysize=2888 discovered_by=TUR}
+1550.1.1={citysize=3216}
+1552.1.1={owner=TUR	controller=TUR add_core=TUR} # Conquered by the Ottomans
+1600.1.1={citysize=3926}
+1650.1.1={citysize=4231 marketplace=yes}
+1671.1.1={owner=ALG	controller=ALG remove_core=TUR} # Virtually independent of the Ottoman empire
+1700.1.1={citysize=4879}
+1720.1.1={tax_assessor=yes}
+1750.1.1={citysize=5067}
+1760.1.1={constable=yes}
+1800.1.1={citysize=5700}
+1838.1.1={owner=FRA controller=FRA add_core=FRA add_core=ALF remove_core=ALG}
+1871.1.1={owner=RFR controller=RFR add_core=RFR remove_core=FRA}
+1962.1.1={owner=ALF controller=ALF remove_core=RFR}

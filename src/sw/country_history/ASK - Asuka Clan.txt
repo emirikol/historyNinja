@@ -1,0 +1,53 @@
+government=duchy
+aristocracy_plutocracy=-4
+centralization_decentralization=2
+innovative_narrowminded=2
+mercantilism_freetrade=-5
+offensive_defensive=-1
+land_naval=0
+quality_quantity=-4
+serfdom_freesubjects=-5
+primary_culture=japanese
+religion=shinto
+technology_group=chinese
+capital=1657	# Kyoto
+
+1450.1.1={
+	monarch={
+		name="Toshikage"
+		dynasty="Asakura"
+		adm=5
+		dip=5
+		mil=5}}
+
+1481.8.1={
+	monarch={
+		name="Ujikage"
+		dynasty="Asakura"
+		adm=5
+		dip=5
+		mil=5}}
+
+1486.1.1={
+	monarch={
+		name="Sadakage"
+		dynasty="Asakura"
+		adm=5
+		dip=5
+		mil=5}}
+
+1512.1.1={
+	monarch={
+		name="Takakage"
+		dynasty="Asakura"
+		adm=8
+		dip=7
+		mil=5}}
+
+1546.1.1={
+	monarch={
+		name="Yoshikage"
+		dynasty="Asakura"
+		adm=5
+		dip=7
+		mil=5}}

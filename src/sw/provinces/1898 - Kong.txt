@@ -1,0 +1,21 @@
+culture=dyola
+religion=animism
+capital="Kong"
+trade_goods=wool
+hre=no
+base_tax=2
+native_size=40
+native_ferocity=4.5
+native_hostileness=9 
+discovered_by=SOF
+
+1540.1.1={revolt_risk=5} #Mane Invasions reach religion, disrupt societies in area
+1590.1.1={revolt_risk=5} #Raids by Gonja destabilize religion
+1726.1.1={revolt_risk=5} #bambara raids destabilize religion
+1735.1.1={revolt_risk=5 add_core=ASH} #Ashante raids in religion destabilize trade routes
+1741.1.1={revolt_risk=3} #Power vacuum in wake of failed invasion of Bambara destabilized area
+1770.1.1={native_size=60} #growth of Kong as major trade emporium between Sahel and Coast
+1804.1.1={discovered_by=SOK}
+1846.1.1={owner=FRA controller=FRA add_core=FRA citysize=1000 fort1=yes}
+1871.1.1={owner=RFR controller=RFR add_core=RFR remove_core=FRA}
+1960.8.7={owner=CDI controller=CDI add_core=CDI remove_core=RFR}

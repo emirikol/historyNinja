@@ -1,0 +1,89 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 108  139  208 }
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art
+	espionage
+	shrewd_commerce_practise
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	native_indian_horsemen
+	commanche_swarm
+	creek_arquebusier
+	sioux_dragoon
+	american_western_franchise_warfare
+}
+
+monarch_names={
+	"Opothleyaholo #0"=20
+	"Emistesigo #0"=10
+	"Fife #0"=10
+	"Alexander #0 McGillivray"=10
+	"Lamochattee #0"=20
+	"Yahatatastenake #0"=20
+	"William #0 McIntosh"=20
+	"Mico Malatchi #0"=20	
+}
+
+leader_names={
+	 Chitto
+	 "Hasse Ola"
+	 Hopoethe
+	 "Talof Harjo"
+	 Yaholo
+	 Menewa
+	 Chebona
+	 Osceola
+	 Hothlepoya
+	 "Lumhe Chati"
+}
+
+ship_names={
+	Ibofanga
+	tvpvsvnv
+	"Okhvtkë Yvhv" "Okhvtkë Nokosë" "Lvstë Nokosë" "Okhvtkë Lvmhe"
+	"Catë lvmhe" "Catë Ayo" "Ayo-rakko" "Est-akwvnayv"
+	"Esaugetuh Emissee" "Nunne Chaha" "Hisagita-imisi" "Sint Holo"
+}

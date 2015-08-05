@@ -1,0 +1,370 @@
+government=tribal_federation
+aristocracy_plutocracy=-4
+centralization_decentralization=5
+innovative_narrowminded=3
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-1
+quality_quantity=3
+serfdom_freesubjects=-5
+primary_culture=tartar
+add_accepted_culture=azerbadjani 
+add_accepted_culture=turkmeni 
+add_accepted_culture=mongol 
+add_accepted_culture=uzbehk 
+add_accepted_culture=khazak 
+add_accepted_culture=kirgiz 
+add_accepted_culture=uralic 
+add_accepted_culture=siberian 
+add_accepted_culture=yakut 
+add_accepted_culture=kalmyk 
+add_accepted_culture=abkhaz 
+add_accepted_culture=ruthenian 
+religion=confucianism
+technology_group=nomad_group
+capital=466	# Sarai
+
+
+1227.1.1={
+	monarch={
+		name="Batu"
+		dynasty="Borjigin"
+		adm=9
+		dip=9
+		mil=9}}
+
+1256.1.1={
+	monarch={
+		name="Sartaq"
+		dynasty="Borjigin"
+		adm=8
+		dip=8
+		mil=8}}
+
+1256.9.1={
+	monarch={
+		name="Ulaghchi"
+		dynasty="Borjigin"
+		adm=8
+		dip=8
+		mil=7}}
+
+1257.5.1={
+	monarch={
+		name="Berke"
+		dynasty="Borjigin"
+		adm=8
+		dip=8
+		mil=8}}
+
+1266.6.1={
+	monarch={
+		name="Mongke Temur"
+		dynasty="Borjigin"
+		adm=8
+		dip=8
+		mil=8}}
+
+1280.6.1={
+	monarch={
+		name="Tuda Mengu"
+		dynasty="Borjigin"
+		adm=9
+		dip=9
+		mil=6}}
+
+1287.6.1={
+	monarch={
+		name="Talabuga"
+		dynasty="Borjigin"
+		adm=9
+		dip=9
+		mil=6}}
+
+1291.6.1={
+	monarch={
+		name="Toqta"
+		dynasty="Borjigin"
+		adm=8
+		dip=8
+		mil=7}}
+
+1292.1.1={religion=sunni}
+		
+1313.6.1={
+	monarch={
+		name="Uzbeg"
+		dynasty="Beg"
+		adm=9
+		dip=9
+		mil=7
+	}
+}
+		
+1322.1.1={
+	heir={
+		name="Tini"
+		monarch_name="Tini"
+		dynasty="Beg"
+		birth_date=1321.1.1
+		death_date=1342.1.1
+		claim=90
+		adm=7
+		dip=7
+		mil=7}}
+		
+1341.6.1={
+	monarch={
+		name="Tini"
+		dynasty="Beg"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1342.6.1={
+	monarch={
+		name="Jani"
+		dynasty="Beg"
+		adm=8
+		dip=7
+		mil=8}}
+
+1357.6.1={
+	monarch={
+		name="Berdi"
+		dynasty="Beg"
+		adm=2
+		dip=4
+		mil=4}}
+
+1359.6.1={
+	monarch={
+		name="Qulpa"
+		dynasty="Beg"
+		adm=2
+		dip=3
+		mil=4}}
+
+1360.6.1={
+	monarch={
+		name="Nawruz"
+		dynasty="Beg"
+		adm=2
+		dip=3
+		mil=3}}
+
+1361.6.1={
+	monarch={
+		name="Mamai"
+		dynasty="Mamai"
+		adm=3
+		dip=3
+		mil=4}}
+
+1376.1.1={ leader={	name="Tokhtamysh"	type=general	rank=1	fire=4	shock=4	manuever=5	siege=0	death_date=1406.1.1 } }
+		
+1381.6.1={
+	monarch={
+		name="Tokhtamysh"
+		dynasty="Qiyat"
+		adm=7
+		dip=7
+		mil=7
+	}
+}
+
+1394.1.1={
+	monarch={
+		name="Temur Qutlugh"
+		dynasty="Genghisid"
+		adm=6
+		dip=4
+		mil=6
+	}
+}
+
+1394.1.1={
+	heir={
+		name="Shadi Beg"
+		monarch_name="Shadi Beg Khan"
+		dynasty="Genghisid"
+		birth_date=1380.1.1
+		death_date=1410.1.1
+		claim=95
+		adm=3
+		dip=5
+		mil=5
+	}
+}
+
+1400.1.1={
+	monarch={
+		name="Shadi Beg"
+		dynasty="Genghisid"
+		adm=3
+		dip=5
+		mil=5
+	}
+}
+
+1400.1.1={
+	heir={
+		name="Pulad"
+		monarch_name="Pulad Khan"
+		dynasty="Genghisid"
+		birth_date=1380.1.1
+		death_date=1420.1.1
+		claim=95
+		adm=7
+		dip=6
+		mil=3
+	}
+}
+
+1407.1.1={
+	monarch={
+		name="Pulad Khan"
+		dynasty="Genghisid"
+		adm=7
+		dip=6
+		mil=3
+	}
+}
+
+
+1410.1.1={
+	monarch={
+		name="Temür"
+		dynasty="Genghisid"
+		adm=5
+		dip=5
+		mil=4
+	}
+}
+
+1412.1.1={
+	monarch={
+		name="Jalal Al-Din"
+		dynasty="Genghisid"
+		adm=4
+		dip=6
+		mil=3
+	}
+}
+
+1412.1.1={
+	heir={
+		name="Karim Berdi"
+		monarch_name="Karim Berdi"
+		dynasty="Genghisid"
+		birth_date=1380.1.1
+		death_date=1414.1.1
+		claim=65
+		adm=4
+		dip=4
+		mil=3
+	}
+}
+
+1413.1.1={
+	monarch={
+		name="Karim Berdi"
+		dynasty="Genghisid"
+		adm=4
+		dip=4
+		mil=3
+	}
+}
+
+1414.1.1={
+	monarch={
+		name="Kebek"
+		dynasty="Genghisid"
+		adm=6
+		dip=5
+		mil=6
+	}
+}
+
+1417.1.1={
+	monarch={
+		name="Jabbar Berdi"
+		dynasty="Genghisid"
+		adm=4
+		dip=5
+		mil=7
+	}
+}
+
+
+1419.1.1={
+	monarch={
+		name="Ulugh Muhammad"
+		dynasty="Genghisid"
+		adm=6
+		dip=4
+		mil=4
+	}
+}
+
+1420.1.1={
+	monarch={
+		name="Devlat Berdi"
+		dynasty="Genghisid"
+		adm=7
+		dip=7
+		mil=4
+	}
+}
+
+1421.1.1={
+	monarch={
+		name="Baraq"
+		dynasty="Genghisid"
+		adm=5
+		dip=6
+		mil=5
+	}
+}
+
+1428.1.1={
+	monarch={
+		name="Ulugh Muhammad"
+		dynasty="Genghisid"
+		adm=6
+		dip=4
+		mil=4
+	}
+}
+
+1433.1.1={
+	monarch={
+		name="Sayyîd Ahmad I"
+		dynasty="Genghisid"
+		adm=3
+		dip=3
+		mil=5
+	}
+}
+
+1465.1.1={
+	monarch={
+		name="Ahmad"
+		dynasty="Genghisid"
+		adm=4
+		dip=3
+		mil=5
+	}
+}
+
+1481.1.1={
+	monarch={
+		name="Sayyîd Ahmad II"
+		dynasty="Genghisid"
+		adm=3
+		dip=3
+		mil=3
+	}
+}
+
+1481.1.1={ leader={	name="Sheyhk Ahmad"          	type=general	rank=0	fire=1	shock=2	manuever=4	siege=0	death_date=1505.1.1 } }

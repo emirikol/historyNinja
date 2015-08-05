@@ -1,0 +1,120 @@
+#Country Name: Please see filename.
+
+graphical_culture=africangfx
+
+color={ 137  148  175 }
+
+historical_ideas={
+	shrewd_commerce_practise
+	national_conscripts
+	merchant_adventures
+	military_drill
+	national_trade_policy
+	battlefield_commisions
+	engineer_corps
+	grand_army
+	espionage
+	cabinet
+	bureaucracy
+	glorious_arms
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	african_spearmen
+	songhai_tribal_warfare
+	niger_kongolese_forest_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+	niger_kongolese_guerilla_warfare
+}
+
+monarch_names={
+	"Félix #0"=40
+	"Henri #0"=20
+	"Robert #0"=20
+	"Laurent #0"=20
+	"Auguste #0"=20
+	"Alassane #0"=20
+	"Seydou #0"=20
+	"Affi #0"=20
+	"Charles #0"=20
+	"Guillaume #0"=20
+	"Ibrahima #0"=20
+	"Didier #0"=20
+	"Bonaventure #0"=20
+	"Kolo #0"=20
+	"Emmanuel #0"=20
+	"Arouna #0"=20
+	"Yousouf #0"=20
+	"Alain #0"=20
+	"Aruna #0"=20
+	"Abdul Kader #0"=0
+	"Bakari #0"=20
+	"Boubacar #0"=20
+	"Aristide #0"=20
+	"Arthur #0"=20
+	"Igor #0"=20
+	"Guy #0"=20
+	"Abdoulaye #0"=0
+	"Marc #0"=0
+	"Gilles #0"=0
+	"Yaya #0"=0
+	"Christian #0"=0
+	"Emerse #0"=0
+	"Kanga #0"=0
+	"Siaka #0"=0
+	"Kandia #0"=0
+	"Salomon #0"=0
+	"Sekou #0"=0
+	"Kafoumba #0"=0
+	"Vincent #0"=0
+	"Abdou #0"=0
+	"Benjamin #0"=0
+	"Souleymane #0"=0
+	"Doumbia #0"=0
+	"Stéphane #0"=0
+	"Thierry #0"=0
+	"Tiassé #0"=0
+	"Constant #0"=0
+}
+
+leader_names={
+	Houphouët Boigny Konan Bédié Guéi Gbagbo Denise Outtara Kablan 
+	Duncan Diarra N'Guessan Banny Soro Bakayoko Drogba Kalou Touré
+	Eboué Koné Pokou Falikou Fofana Gouaméné Dindane Keïta Sanogo 
+	Zokora Copa Boka Lolo Demel Méïté Zoro "Yapi Yapo" Dja Ettien
+	Faé Akalé Traoré Cissé Coulibaly Angban "de Paul" "Ya Konan" 
+	Seydou Bamba Ndri Doubai "Yao Kouassi" Loboué Djakpa Gohouri
+}
+
+ship_names={
+	Nyame "Asase Yaa" Bia Tano
+	Dwoada Benada Wukuada Yawoada
+	Fiada Memeneda Kwasiada
+}

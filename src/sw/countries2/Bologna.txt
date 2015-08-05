@@ -1,0 +1,59 @@
+#Country Name: Please see filename.
+
+graphical_culture=latingfx
+
+color={3 24 50}
+
+historical_ideas={church_attendance_duty
+patron_of_art
+deus_vult
+national_conscripts
+engineer_corps
+divine_supremacy
+shrewd_commerce_practise
+national_trade_policy
+national_bank
+scientific_revolution
+espionage
+bureaucracy}
+
+historical_units={western_early_medieval_infantry
+early_knights
+western_medieval_balista
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+western_medieval_infantry
+
+western_men_at_arms
+italian_condotta
+austrian_tercio
+austrian_grenzer
+austrian_hussar
+austrian_white_coat
+austrian_jaeger
+mixed_order_infantry
+open_order_cavalry
+napoleonic_square
+napoleonic_lancers}
+
+monarch_names={
+"Luchetto Gattilusio #0"=80
+"Ghibelline #0"=60
+"Taddeo Pepoli #0"=10
+"Sante Bentivoglio #0"=20
+"Giovanni II Bentivoglio #2"=20}
+
+leader_names={
+d'Absburgo Alberti Amelia Barone Barzagli Belmonte Bibiena Boninsegna Bosio "di Busca"
+"de Canal" Casabianca Castagnaro Cocconi Colombo Conti Fancelli Freddi
+Gatti Germano Gonzaga Grazioli Grosso Idoni Innocenti Juvarra Lori
+Manfredi Mantegna Manfredi "di Medici" Montanari Neri Oddo Panzavecchia Pesci Piccoli Pico "del Piero" Poggio Poma
+Romano "de Rossi" Speri Tassoni Tazolli Tedesco Toselli Zaccardo Zappa}
+
+ship_names={"Irnerius" "Dante" "Boccaccio" "Petrarca"}
+
+army_names={"Armata de $PROVINCE$"}

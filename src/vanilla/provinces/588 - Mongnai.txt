@@ -1,0 +1,35 @@
+#588 - Mongnai
+
+owner = SST
+controller = SST
+culture = shan
+religion = buddhism
+capital = "Mongnai"
+trade_goods = wool
+hre = no
+base_tax = 2
+manpower = 3
+citysize = 3200
+add_core = SST
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 3900 }
+1500.1.1 = { citysize = 4670 }
+1555.1.1 = {	owner = TAU
+		controller = TAU
+		add_core = TAU
+	   } # The Shan dynasty is overthrown
+1581.1.1 = {	owner = SST
+		controller = SST
+	   	remove_core = TAU
+	   } # Very loosely controlled
+1600.1.1 = { citysize = 5200 }
+1650.1.1 = { citysize = 6540 }
+1700.1.1 = { citysize = 7600 }
+1750.1.1 = { citysize = 8240 }
+1753.1.1 = {	owner = TAU
+		controller = TAU
+	   	add_core = TAU
+	   } # Burmese campaigns
+1800.1.1 = { citysize = 9800 }

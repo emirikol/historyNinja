@@ -1,0 +1,98 @@
+ html { height: 100%; }
+ @font-face {
+    font-family: chintz;
+    src: url(chintzy.ttf);
+ }
+ body { 
+   height: 100%; color: rgb(231, 231, 231); 
+   font-family: "chintz" "Georgia" "sans-serif";
+   letter-spacing: 0.2em;
+ }
+ a {
+   color: #39FFF6;
+ }
+ body:not(.edit) .editor {
+   display: none;
+ }
+ body.edit [data-value] {
+   display: none;
+ }
+ .navbar {
+   min-height: 0;
+   line-height: 18px;
+   font-size: 10px;
+   background: linear-gradient(to bottom, rgba(125,126,125,1) 1%,rgba(125,126,125,1) 1%,rgba(14,14,14,1) 73%);
+   margin-bottom: 0;
+   border-radius: 0;
+   border: none;
+ }
+ .navbar .item {
+    float: left;
+    background-color: black;
+    display: inline-block;
+    padding: 0 4px;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+ }
+ .navbar .item.active {
+   background-color: rgb(231, 231, 231);
+   color: black;
+ }
+ 
+   .container {
+     width: 100%;
+   }
+ 
+ body > .container { 
+  height: 100%;
+  margin-top: -18px;
+  padding-top: 18px;
+ }
+ .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+   border-top: none;
+ }
+ .side-bar {
+  position: absolute; 
+  width: 250px;
+ }
+ .side-panel {
+  margin: 17px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset black 0px 0px 12px 0px;
+ }
+ .side-panel .header {
+  text-align: center;
+  min-height: 32px;
+     background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: black 1px dotted;
+  padding: 4px;
+ }
+ .side-panel .body {
+   padding: 0 6px;
+   font-size: 12px;
+ }
+ .side-panel .table {
+   margin-bottom: 0;
+ }
+ .side-panel.closed .table, .side-panel.closed .body {
+   display: none;
+ }
+ svg {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(213, 239, 255, 1);
+   overflow: visible;
+   /*height: 2000px;*/
+ }
+ .hinter {
+    position: absolute;
+    bottom: 39px;
+    z-index: 1000;
+    color: rgb(44, 55, 255);
+    right: 77px;
+    font-size: 12px;
+    font-family: verdana;
+    letter-spacing: initial;
+ }

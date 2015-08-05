@@ -1,0 +1,61 @@
+owner=SRM
+controller=SRM
+add_core=SRM
+culture=sarmathian
+religion=zoro
+hre=no
+base_tax=3
+trade_goods=wool
+manpower=2
+capital="Yagodanka"
+citysize=2662
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=GEH
+discovered_by=GHT
+discovered_by=SRM
+discovered_by=latin
+discovered_by=eastern
+discovered_by=PHT
+discovered_by=PER
+discovered_by=BAO
+discovered_by=PHU
+
+267.6.1={owner=HNU controller=HNU culture=huns religion=tangra add_core=HNU remove_core=SRM}
+451.6.1={owner=TIV controller=TIV add_core=TIV religion=perun culture=tivertzi remove_core=HNU}
+562.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism}
+630.6.1={owner=GBG controller=GBG add_core=GBG culture=proto_bulgarian religion=tangra remove_core=AVE discovered_by=BGK}
+665.6.1={owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism}
+680.6.1={culture=bulgarian add_core=BGK}
+820.4.1={religion=jewish}
+830.1.1={owner=PHU controller=PHU add_core=PHU remove_core=TIV culture=hungarian religion=tangra}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=HUN}
+895.1.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg remove_core=KHZ remove_core=GBG}
+950.6.1={discovered_by=muslim}
+1094.1.1={owner=CUM controller=CUM remove_core=PEC add_core=CUM}
+1236.6.1={owner=KHA controller=KHA remove_core=CUM culture=tartar}
+1242.6.1={owner=GOL controller=GOL religion=sunni add_core=ZAZ}
+1441.1.1={owner=CRI	controller=CRI add_core=CRI	remove_core=GOL} # The Crimean Khanate
+1450.1.1={citysize=2800}
+1500.1.1={citysize=3132}
+1550.1.1={citysize=3632}
+1555.1.1={owner=ZAZ controller=ZAZ remove_core=CRI religion=orthodox} # Fortified military camp, independent state
+1600.1.1={citysize=4285}
+1654.1.1={add_core=RUS} # Treaty of Pereyaslav
+1700.1.1={citysize=5000}
+1709.7.8={citysize=3200 revolt_risk=6} # Persecuted by the Russians after Zaporizhia became an ally of Hetman
+1734.1.1={revolt_risk=0}
+1735.1.1={owner=RUS controller=RUS remove_core=ZAZ} # The Sich is destroyed, incorporated into Russia
+1735.2.1={fort2=yes} # Russians established new forts to control the Cossacks 
+1740.1.1={marketplace=yes}
+1750.1.1={citysize=8900}
+1768.1.1={revolt_risk=8} # Kolivshchyna rebellion, peasant uprising
+1769.1.1={revolt_risk=0} # Suppressed by Polish and Russian troops
+1773.1.1={revolt_risk=5} # Emelian Pugachev, Cossack insurrection
+1774.9.14={revolt_risk=0} # Pugachev is captured
+1874.1.1={culture=ruthenian religion=orthodox}
+1917.10.1={capital="Kramatorsk" owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1941.12.1={owner=NAZ controller=NAZ}
+1944.4.1={owner=SOV controller=SOV}
+1991.1.1={owner=UKR controller=UKR add_core=UKR remove_core=SOV} # independence of the Ukraine

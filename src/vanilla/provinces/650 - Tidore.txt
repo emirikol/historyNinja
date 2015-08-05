@@ -1,0 +1,32 @@
+#650 - Tidore
+
+culture = papuan
+religion = animism
+capital = "Tidore"
+trade_goods = unknown
+hre = no
+base_tax = 2
+manpower = 1
+native_size = 5
+native_ferocity = 0.5
+native_hostileness = 1
+
+1512.1.1 = { discovered_by = POR } # Francisco Serrão
+1606.1.1 = {	owner = SPA
+		controller = SPA
+		culture = castillian
+		religion = catholic
+		citysize = 200
+	   } # Spanish forces arrive
+1607.1.1 = {	owner = NED
+		controller = NED
+		culture = dutch
+		religion = reformed
+	   } # Dutch attempt to control the trade
+1632.1.1 = { add_core = NED }
+1650.1.1 = { citysize = 2000 trade_goods = spices }
+1700.1.1 = { citysize = 3000 }
+1750.1.1 = { citysize = 4000 }
+1780.1.1 = { revolt_risk = 6 } # Rebellion against the Dutch
+1800.1.1 = { citysize = 5000 }
+1810.1.1 = { revolt_risk = 0 }

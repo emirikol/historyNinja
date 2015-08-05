@@ -1,0 +1,17 @@
+culture=dakota
+religion=ind_pagan
+trade_goods=coal
+capital="Bismarck"
+hre=no
+base_tax=4
+manpower=2
+discovered_by=OSA
+discovered_by=OJI
+
+1732.1.1={discovered_by=FRA} # La Vérendrye
+1751.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic citysize=1310} # Construction
+1760.1.1={controller=GBR} # The government of New France capitulate at Montreal
+1763.2.10={owner=GBR controller=GBR remove_core=FRA culture=english religion=protestant fort1=yes
+citysize=1500} # Treaty of Paris - ceded to Britain, France gave up its claim
+1803.4.3={owner=USA controller=USA add_core=USA	culture=american religion=protestant} # The Louisiana purchase
+1900.1.1={fort2=yes}

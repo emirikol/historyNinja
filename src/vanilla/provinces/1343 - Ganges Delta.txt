@@ -1,0 +1,10 @@
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = ARK
+discovered_by = PEG
+discovered_by = TAU
+discovered_by = MLB
+
+1405.1.1 = { discovered_by = MNG }
+1500.1.1 = { discovered_by = POR }

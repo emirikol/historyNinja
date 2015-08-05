@@ -1,0 +1,258 @@
+government=parliamentary_monarchy
+aristocracy_plutocracy=0
+centralization_decentralization=-1
+innovative_narrowminded=-1
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-2
+quality_quantity=0
+serfdom_freesubjects=3
+technology_group=latin
+religion=protestant
+primary_culture=canadian
+capital=57	# Ottawa
+
+1867.1.1={
+	monarch={
+		name="John Macdonald"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1873.11.7={
+	monarch={
+		name="Alexander Mackenzie"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1878.10.17={
+	monarch={
+		name="John Macdonald"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1891.6.16={
+	monarch={
+		name="John Abbott"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1892.12.5={
+	monarch={
+		name="John Thompson"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1894.12.21={
+	monarch={
+		name="Mackenzie Bowell"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1896.5.1={
+	monarch={
+		name="Charles Tupper"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1896.7.11={
+	monarch={
+		name="Wilfrid Laurier"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1911.10.10={
+	monarch={
+		name="Robert Borden"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1920.7.10={
+	monarch={
+		name="Arthur Meighen"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1921.12.29={
+	monarch={
+		name="William Lyon Mackenzie King"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1926.6.29={
+	monarch={
+		name="Arthur Meighen"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1926.9.25={
+	monarch={
+		name="William Lyon Mackenzie King"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1930.8.7={
+	monarch={
+		name="Richard Bedford Bennett"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1935.10.23={
+	monarch={
+		name="William Lyon Mackenzie King"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1948.11.15={
+	monarch={
+		name="Louis Saint-Laurent"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1950.1.1={religion=religious_tolerance}
+
+1957.6.21={
+	monarch={
+		name="John Diefenbaker"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1963.4.22={
+	monarch={
+		name="Lester Pearson"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1968.4.20={
+	monarch={
+		name="Pierre Trudeau"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1979.6.4={
+	monarch={
+		name="Joe Clark"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1980.3.3={
+	monarch={
+		name="Pierre Trudeau"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1984.6.30={
+	monarch={
+		name="John Turner"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1984.9.17={
+	monarch={
+		name="Brian Mulroney"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1993.6.25={
+	monarch={
+		name="Kim Campbell"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1993.11.4={
+	monarch={
+		name="Jean Chrétien"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+2003.12.12={
+	monarch={
+		name="Paul Martin"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+2006.2.6={
+	monarch={
+		name="Stephen Harper"
+		adm=5
+		dip=5
+		mil=3
+	}
+}

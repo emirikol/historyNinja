@@ -1,0 +1,23 @@
+culture=mali
+manpower=2
+religion=animism
+capital="Bamako"
+trade_goods=gold
+hre=no
+base_tax=8
+discovered_by=SOF
+discovered_by=ASH
+discovered_by=SON
+native_size=90
+native_ferocity=4
+native_hostileness=9
+
+1235.6.1={citysize=1000 fort1=yes owner=MAL controller=MAL add_core=MAL discovered_by=MAL}
+1600.1.1={citysize=0 native_size=90 native_ferocity=4 native_hostileness=9 owner=XXX controller=XXX remove_core=MAL	discovered_by=MOR fort1=no}  #Collapse of the Mali State in wake of Malian defeat at Jenne
+1655.1.1={owner=SOF controller=SOF add_core=SOF citysize=1000 fort1=yes} #Bambara takes over
+1685.1.1={revolt={type=nationalist_rebels size=1} controller=REB}
+1718.1.1={revolt={} controller=SOF}
+1756.1.1={revolt_risk=9} # Denkoro seizes power in wake of father Mamali's death, civil war
+1766.1.1={revolt_risk=0} # Ngolo Diarra restores authortiy of Segu state, ends civil war
+1891.1.1={owner=RFR controller=RFR add_core=RFR trade_goods=gold citysize=1000 fort1=yes}
+1960.6.20={owner=MLI controller=MLI add_core=MLI remove_core=MAL remove_core=RFR}

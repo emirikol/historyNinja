@@ -1,0 +1,20 @@
+culture=yorumba
+religion=animism
+capital="Atakpane"
+trade_goods=coffee
+hre=no
+base_tax=3
+native_size=50
+native_ferocity=4.5
+native_hostileness=9
+discovered_by=OYO
+
+1472.1.1={discovered_by=POR}
+1727.1.1={revolt_risk=8} # Invasion by rulers of Dahomey 
+1779.1.1={revolt_risk=6} # Campaigns against the Popo chieftaincy by Dahomey rulers
+1784.1.1={revolt_risk=8} # Dahomey raids against independent chieftains in area
+1787.1.1={revolt_risk=0} # Dahomey armies withdraw on order of Oyo overlords
+1884.7.5={owner=GRI controller=GRI add_core=GRI citysize=1000 fort1=yes} # German Empire Founded
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1920.1.1={owner=RFR controller=RFR add_core=RFR remove_core=GER}
+1960.4.27={owner=TOG controller=TOG add_core=TOG remove_core=RFR}

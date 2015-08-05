@@ -1,0 +1,19 @@
+culture=central_thai
+religion=buddhism
+capital="Nakhon Sawan"
+trade_goods=coal
+hre=no
+base_tax=11
+manpower=3
+discovered_by=chinese
+discovered_by=indian
+discovered_by=FUN
+
+1351.1.1={fort1=yes owner=AYU controller=AYU add_core=AYU citysize=1350}
+1564.2.1={add_core=TAU} # Burmese vassal
+1584.5.3={remove_core=TAU} 
+1600.1.1={marketplace=yes}
+1650.1.1={customs_house=yes}
+1767.4.1={revolt_risk=7} # The Ayutthaya kingdom began to crumble
+1774.1.1={revolt_risk=0}
+1932.6.24={owner=THA controller=THA add_core=THA remove_core=AYU} # Siam gets a constitution

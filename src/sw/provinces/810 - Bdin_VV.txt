@@ -1,0 +1,47 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=odrysian
+religion=orfi
+capital="Bdin"
+trade_goods=horses
+hre=no
+base_tax=2
+manpower=2
+citysize=5000
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ODR
+discovered_by=GEH
+discovered_by=DAC
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+355.6.1={owner=VIS controller=VIS religion=odin}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP religion=orthodox}
+480.6.1={culture=timotzchani religion=perun}
+630.6.1={discovered_by=BGK}
+680.6.1={culture=bulgarian}
+681.6.1={owner=BGK controller=BGK add_core=BGK religion=tangra}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+1003.6.1={owner=BYZ controller=BYZ capital="Bononia"}
+1185.1.20={revolt={type=nationalist_rebels size=8} controller=BUL}
+1185.6.1={revolt={} owner=BUL controller=BUL  culture=bulgarian capital="Bdin"}
+1360.3.1={add_core=BVD}
+1365.5.1={owner=HUN controller=HUN capital="Bodony"}
+1369.3.1={owner=BUL controller=BUL add_core=BUL capital="Bdin"}
+1371.2.17={owner=BVD controller=BVD add_core=BVD}
+1396.9.1={owner=TUR controller=TUR  remove_core=BVD add_core=BUL}
+#1402.1.1={revolt={type=pretender_rebels size=0} controller=REB} # Interregnum
+1404.1.1={revolt={type=pretender_rebels size=0} controller=REB}
+1413.1.1={revolt={} controller=TUR}
+1453.5.29={remove_core=BYZ}
+1555.1.1={revolt_risk=5} # General discontent against the Janissaries' dominance
+1556.1.1={revolt_risk=2}
+1700.1.1={add_core=RBU culture=bulgarian}
+1793.1.1={revolt_risk=5} # Pasvanoglu  Rebellion
+1798.1.1={revolt_risk=0}
+1878.3.3={capital="Vidin" owner=RBU controller=RBU remove_core=TUR} # Bulgaria gets independent

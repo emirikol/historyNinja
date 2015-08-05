@@ -1,0 +1,62 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=GLA
+culture=gallic
+religion=groman
+capital="Le Mans"
+citysize=6000
+hre=no
+base_tax=8
+trade_goods=cloth
+manpower=2
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=AEG
+discovered_by=GLA
+discovered_by=SUE
+
+313.6.1={manpower=3 religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
+461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+486.2.1={manpower=4 owner=HFR controller=HFR remove_core=GLA add_core=HFR culture=frankish}
+799.12.24={religion=catholic hre=yes}
+843.1.1={manpower=5 owner=FRA controller=FRA add_core=FRA culture=cosmopolitan_french remove_core=HFR hre=no discovered_by=eastern discovered_by=muslim discovered_by=latin}
+1066.1.1={manpower=4 owner=VIK controller=VIK}
+1080.1.1={owner=NRM controller=NRM}
+1180.1.1={manpower=3 owner=ENG controller=ENG add_core=ENG}
+1337.1.1={manpower=5 owner=FRA controller=FRA add_core=FRA} 
+1399.1.1={add_core=PRO}
+1560.1.1={religion=reformed}
+1562.3.1={revolt_risk=3} # Huguenots organise themselves along the Loire
+1563.3.19={revolt_risk=0} # Temporary truce after the assassination of de Guise
+1565.1.1={revolt_risk=8} # France is restless once again as ultra-catholic intentions become clear
+1568.9.1={revolt_risk=15} # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
+1570.8.8={revolt_risk=10} # Edict of Saint-Germain: temporary pacification
+1573.9.1={revolt_risk=15} # Saint Barthelew's Day Massacre: the consequences in the land
+1574.5.1={revolt_risk=7} # Charles IX dies, situation cools a bit	
+1584.1.1={revolt_risk=12} # Situation heats up again
+1588.12.1={revolt_risk=15} # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1={revolt_risk=10} # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1598.4.13={revolt_risk=3} # Edict of Nantes, alot more freedom to the protestants
+1630.1.1={marketplace=yes}
+1650.1.1={constable=yes}
+1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1={revolt_risk=4} # An unstable peace is concluded
+1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21={revolt_risk=0} # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1685.10.18={revolt_risk=8} # Edict of Nantes revoked by Louis XIV
+1686.1.17={religion=catholic revolt_risk=0} # Dragonnard campaign succesful, religion back to catholicism
+1700.1.1={courthouse=yes}
+1750.1.1={tax_assessor=yes}
+1770.1.1={workshop=yes regimental_camp=yes}
+1786.1.1={base_tax=6} # The Eden Agreement
+1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille
+1814.4.11={owner=FRA controller=FRA	add_core=FRA remove_core=RFR} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # Napoleon enters Paris
+1815.7.8={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # The French monarchy is restored
+1871.1.1={add_core=RFR remove_core=FRA owner=RFR controller=RFR} # 3rd French Republic founded
+1940.6.22={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.12.1={owner=USA controller=USA}
+1945.5.8={owner=RFR controller=RFR}

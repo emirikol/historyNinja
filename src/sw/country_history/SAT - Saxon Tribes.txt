@@ -1,0 +1,18 @@
+government=tribal_democracy
+aristocracy_plutocracy=-3
+centralization_decentralization=5
+innovative_narrowminded=2
+mercantilism_freetrade=0
+offensive_defensive=0
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-2
+technology_group=barbarian
+primary_culture=saxon
+religion=odin
+capital=47
+
+
+250.6.1={government=tribal_despotism}
+650.6.1={religion=early government=despotic_monarchy technology_group=e_latin}
+843.1.1={technology_group=latin religion=catholic}

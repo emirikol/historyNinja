@@ -1,0 +1,76 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 117 255 255 } 
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art
+}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare
+}
+
+monarch_names={
+	"Camino ancho #0"=20
+	"Paducah #0"=20
+	"Numunuh #0"=20
+	"Quanah Parker #0"=20
+	"Shoshones #0"=20
+	"Panhandle #0"=20
+	"Isa-Tai #0"=20
+	"Lawton #0"=20
+	"Quahadi #0"=20
+	"Pia Mupitsi #0"=20
+	"Numu tekwapu #0"=20
+	"Tuinéhpua #0"=20
+	"Ràmi #0"=20
+	"Cuhtz #0"=20
+	"Janib #0"=20
+	"Toyarohco #0"=20
+	"Tzensa #0"=20
+	"Tuaahtaqui #0"=20
+	"Areca #0"=20
+	"Sarrie #0"=20
+}
+
+leader_names={
+	Paracoa Piajunubi Batzi 
+	Nami Tomobi Tatzinupi Taabe Paa Jaa 
+	Caani Inap Muea Pia 
+	Niatz Mupitz Tàbo Emar 
+	Ap Cuuna Pécui Pasauiyio Sonip Puc 	
+}
+
+ship_names={
+	Paracoa Piajunubi Batzi 
+	Nami Tomobi Tatzinupi Taabe Paa Jaa 
+	Caani Inap Muea Pia 
+	Niatz Mupitz Tàbo Emar 
+	Ap Cuuna Pécui Pasauiyio Sonip Puc 
+}
+
+
+
+
+
+
+
+
+

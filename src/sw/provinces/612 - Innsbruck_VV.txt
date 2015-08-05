@@ -1,0 +1,56 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=roman
+religion=groman
+base_tax=8
+trade_goods=gold
+manpower=2
+fort1=yes
+capital="Innsbruck" 
+citysize=2000	
+hre=no
+discovered_by=RME
+discovered_by=RMP
+discovered_by=AVE
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=early remove_core=RMP}
+790.1.1={owner=HFR controller=HFR add_core=HFR remove_core=LOM}
+799.12.24={religion=catholic}
+843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR}
+918.12.24={owner=HAB controller=HAB add_core=HAB marketplace=yes hre=yes 
+remove_core=EHF culture=south_bavarian discovered_by=latin discovered_by=eastern
+discovered_by=muslim}
+1450.1.1={add_core=TIR}
+1500.1.1={customs_house=yes} # The Brennerpass is a key position for trading over the Alps
+1511.6.23={manpower=1} # Landslibell - Tyrolean's only military duty is the defense of their homeland. 
+1511.7.1={regimental_camp=yes} # With the Landslibell came the duty to be prepared for defense -> Schutzen
+1525.3.1={revolt_risk=6} # Peasant Revolts
+1525.9.1={revolt_risk=0}
+1540.1.1={constable=yes}
+1570.1.1={fine_arts_academy=yes}
+1577.1.1={base_tax=7} # Minting moves from Meran to Hall
+1602.1.1={base_tax=8} # Maximilian's economic reforms
+1627.1.1={workshop=yes} # Kramsacher Glashütte
+1646.1.1={fort2=yes}
+1665.6.25={manpower=1} # Manpower decreased as Landslibell is still in effect under foreign governance
+1669.1.1={fine_arts_academy=no university=yes} # University Leopoldina
+1805.12.26={owner=BAV controller=BAV add_core=BAV remove_core=HAB} # Treaty of Pressburg
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1809.4.9={revolt={type=nationalist_rebels size=2} controller=REB} # Tyrolean rebellion
+1810.1.19={revolt={} controller=BAV}
+1814.5.30={owner=HAB controller=HAB add_core=HAB remove_core=BAV} # Treaty of Paris, ceded to the Habsburgs
+1938.3.15={owner=NAZ controller=NAZ add_core=NAZ} # Austria annexed by Nazi-Germany
+1945.5.4={owner=HAB controller=HAB remove_core=NAZ} # end of the 2. WW - Austria gets independent again

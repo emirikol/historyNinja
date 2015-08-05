@@ -1,0 +1,35 @@
+owner=MAV
+controller=MAV
+add_core=MAV
+culture=mauretanian
+religion=groman
+hre=no
+capital="Tlemcen"
+trade_goods=wool
+base_tax=3
+manpower=1
+citysize=9772
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=VNA
+discovered_by=MAV
+discovered_by=GHR
+discovered_by=CEO
+
+40.6.1={owner=RME controller=RME add_core=RME remove_core=MAV}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+476.6.1={owner=GHR controller=GHR add_core=GHR religion=shamanism remove_core=RMP}
+630.6.1={discovered_by=muslim}
+690.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1040.6.1={owner=ARV controller=ARV add_core=ARV remove_core=ABB}
+1250.1.1={owner=ALG controller=ALG remove_core=ARV add_core=ALG culture=maghreb_arabic}
+1543.1.1={owner=SPA	controller=SPA} # Temporarily controlled by the Spanish-Imperial force
+1544.1.1={owner=ALG	controller=ALG} # Estimated
+1659.1.1={revolt={type=revolutionary_rebels size=1} controller=REB} # Janissary revolt
+1660.1.1={revolt={} controller=ALG} # Estimated
+1838.1.1={owner=FRA controller=FRA add_core=FRA add_core=ALF remove_core=ALG}
+1871.1.1={owner=RFR controller=RFR add_core=RFR remove_core=FRA}
+1962.1.1={owner=ALF controller=ALF add_core=ALF remove_core=RFR}

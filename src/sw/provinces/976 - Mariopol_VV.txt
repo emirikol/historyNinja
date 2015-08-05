@@ -1,0 +1,60 @@
+owner=SRM
+controller=SRM
+add_core=SRM
+culture=sarmathian
+religion=zoro
+hre=no
+base_tax=3 
+trade_goods=copper
+manpower=2
+capital="Mariupol"
+citysize=2757
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=GHT
+discovered_by=SRM
+discovered_by=PHT
+discovered_by=PER
+discovered_by=PNO
+discovered_by=BAO
+discovered_by=SIR
+discovered_by=PHU
+
+267.6.1={owner=HNU controller=HNU culture=huns religion=tangra add_core=HNU remove_core=SRM}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+451.6.1={owner=TIV controller=TIV add_core=TIV culture=tivertzi religion=perun remove_core=HNU}
+562.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism remove_core=GEH}
+630.6.1={discovered_by=muslim owner=GBG controller=GBG add_core=GBG culture=proto_bulgarian religion=tangra 
+remove_core=AVE discovered_by=BGK}
+665.6.1={owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism}
+820.4.1={religion=jewish}
+843.6.1={discovered_by=latin}
+895.1.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg remove_core=KHZ remove_core=GBG religion=tangra}
+1015.1.1={owner=PEC controller=PEC remove_core=KIV add_core=PEC}
+1099.1.1={owner=CUM controller=CUM remove_core=PEC add_core=CUM}
+1236.6.1={owner=KHA controller=KHA remove_core=CUM culture=tartar}
+1242.6.1={owner=GOL controller=GOL religion=sunni}
+1366.1.1={owner=GEN controller=GEN add_core=GEN  remove_core=GOL}
+1399.1.1={add_core=ZAZ}
+1441.1.1={owner=CRI	controller=CRI add_core=CRI remove_core=GOL} # The Crimean Khanate
+1450.1.1={citysize=3000}
+1475.5.1={add_core=TUR} # Seized by Gedik Ahmet Pasha
+1500.1.1={citysize=3243 marketplace=yes}
+1550.1.1={citysize=3816}
+1600.1.1={citysize=4489}
+1637.1.1={owner=ZAZ	controller=ZAZ remove_core=TUR} # Held by the Don Cossacks and the Zaporozhian Cossacks
+1642.1.1={owner=CRI controller=CRI add_core=CRI remove_core=ZAZ} # Decides to surrender to avoid war
+1650.1.1={citysize=5281}
+1696.1.1={add_core=RUS} # Peter the Great managed to recover the fortress, "Azov campaigns" 
+1700.1.1={citysize=6214}
+1711.1.1={remove_core=RUS} # Disastrous "Pruth Campaign", fortress handed back to the Turks
+1750.1.1={citysize=7310}
+1770.1.1={controller=RUS} # Taken by the army during the Russo-Turkish War
+1774.7.21={owner=RUS add_core=RUS} # Treaty of Kuchuk-Kainarji
+1800.1.1={citysize=8600}
+1874.1.1={culture=ruthenian religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1941.12.1={owner=NAZ controller=NAZ}
+1943.10.1={owner=SOV controller=SOV}
+1991.1.1={owner=UKR controller=UKR add_core=UKR remove_core=SOV} # independence of the Ukraine

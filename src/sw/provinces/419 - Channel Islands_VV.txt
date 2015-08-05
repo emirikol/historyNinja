@@ -1,0 +1,46 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=GLA
+culture=gallic
+religion=groman
+capital="Jersey"
+citysize=1000
+hre=no
+base_tax=3
+trade_goods=naval_supplies
+manpower=0.5
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+discovered_by=GLA
+discovered_by=SUE
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+476.5.1={owner=DUM controller=DUM add_core=DUM culture=breton}
+788.1.1={owner=HFR controller=HFR add_core=HFR remove_core=DUM}
+799.12.24={religion=catholic hre=yes}
+843.1.1={owner=FRA controller=FRA add_core=FRA remove_core=HFR hre=no}
+870.6.1={owner=BRI controller=BRI add_core=BRI}
+933.6.1={owner=NRM controller=NRM culture=normand add_core=NRM}
+1180.1.1={owner=ENG controller=ENG add_core=ENG}
+1461.1.1={controller=FRA} # Invasion of the french during war of the roses
+1468.1.1={controller=ENG} # Recover by the british
+1540.1.1={religion=protestant}
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1940.6.30={controller=NAZ owner=NAZ}
+1945.5.9={controller=GBR owner=GBR}

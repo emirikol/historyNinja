@@ -1,0 +1,44 @@
+#560 - Jharkand
+
+owner = BNG
+controller = BNG
+culture = bihari
+religion = "hinduism"
+capital = "Ranchi"
+trade_goods = tea
+hre = no
+base_tax = 3
+manpower = 1
+citysize = 4870
+add_core = BNG
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1  = { citysize = 5100 }
+1500.1.1  = { citysize = 5200 }
+1550.1.1  = { citysize = 5789 }
+1557.1.1  = {	owner = MUG
+		controller = MUG
+	   	add_core = MUG
+	    } # Annexed to the Mughal Empire
+1600.1.1  = { citysize = 6534 }
+1650.1.1  = { citysize = 7558 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 8700 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 10343 }
+1765.1.1  = {	owner = GBR
+		controller = GBR
+		remove_core = MUG
+	    } # British authority
+1772.1.1  = { revolt_risk = 5 } # Paharia revolt
+1780.1.1  = { revolt_risk = 7 } # Revolt led by Tilka Manjhi
+1785.1.1  = { revolt_risk = 2 }
+1790.1.1  = { add_core = GBR }
+1795.1.1  = { revolt_risk = 6 } # Tamar revolt, Munda revolt
+1800.1.1  = { citysize = 12400 }
+1802.1.1  = { revolt_risk = 0 }
+1819.1.1  = { revolt_risk = 7 } # Munda revolt
+1820.1.1  = { revolt_risk = 0 }

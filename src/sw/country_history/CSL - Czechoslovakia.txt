@@ -1,0 +1,244 @@
+government=constitutional_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=4
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=0
+land_naval=-3
+quality_quantity=0
+serfdom_freesubjects=-4
+primary_culture=czech
+add_accepted_culture=slovak
+religion=catholic
+capital=625	# Prag
+technology_group=latin
+
+1918.1.1={
+	monarch={
+		name="Karel Kramár"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1919.7.8={
+	monarch={
+		name="Vlastimil Tusar"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1920.9.15={
+	monarch={
+		name="Jan Cerný"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1921.9.26={
+	monarch={
+		name="Edvard Beneš"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1922.10.7={
+	monarch={
+		name="Antonín Švehla"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1926.3.18={
+	monarch={
+		name="Jan Cerný"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1926.10.12={
+	monarch={
+		name="Antonín Švehla"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1929.2.1={
+	monarch={
+		name="František Udržal"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+1932.10.29={
+	monarch={
+		name="Jan Malypetr"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1935.11.5={
+	monarch={
+		name="Milan Hodža"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1938.9.22={
+	monarch={
+		name="Jan Syrový"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1938.12.1={
+	monarch={
+		name="Rudolf Beran"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1939.4.27={
+	monarch={
+		name="Alois Eliáš"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1942.1.19={
+	monarch={
+		name="Jaroslav Krejcí"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1945.1.19={
+	monarch={
+		name="Richard Bienert"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1945.4.4={
+	monarch={
+		name="Zdenek Fierlinger"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1946.7.2={
+	monarch={
+		name="Klement Gottwald"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1948.6.15={
+	monarch={
+		name="Antonín Zápotocký"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1950.1.1={religion=religious_tolerance}
+
+1953.3.21={
+	monarch={
+		name="Viliam Široký"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1960.7.11={ government=socialistic_council_republic }
+
+1963.9.20={
+	monarch={
+		name="Jozef Lenárt"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1968.4.8={
+	monarch={
+		name="Oldrich Cerník"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1970.1.28={
+	monarch={
+		name="Lubomír Štrougal"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1988.10.12={
+	monarch={
+		name="Ladislav Adamec"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1989.12.7={
+	monarch={
+		name="Marián Calfa"
+		adm=6
+		dip=5
+		mil=5
+	}
+}
+
+1990.6.27={ government=federal_republic }
+
+1992.7.2={
+	monarch={
+		name="Jan Stránský"
+		adm=6
+		dip=5
+		mil=5
+	}
+}

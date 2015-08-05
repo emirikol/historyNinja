@@ -1,0 +1,13 @@
+government=duchy
+aristocracy_plutocracy=-1
+centralization_decentralization=-4
+innovative_narrowminded=1
+mercantilism_freetrade=4
+offensive_defensive=3
+land_naval=-3
+quality_quantity=-1
+serfdom_freesubjects=2
+primary_culture=vascon
+religion=groman
+technology_group=e_latin
+capital=493	# Pamplona

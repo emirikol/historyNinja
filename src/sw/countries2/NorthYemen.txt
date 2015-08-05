@@ -1,0 +1,93 @@
+#Country Name: Please see filename.
+
+graphical_culture=muslimgfx
+
+color={ 200  130  181 }
+
+historical_ideas={
+	national_conscripts
+	superior_seamanship
+	military_drill
+	naval_fighting_instruction
+	divine_supremacy
+	battlefield_commisions
+	shrewd_commerce_practise
+	excellent_shipwrights
+	merchant_adventures
+	national_bank
+	bureaucracy
+	grand_navy
+}
+
+historical_units={
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	persian_footsoldier
+	
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names={
+	"'Ali #0"=10
+	"al-Qasim #0"=10
+	"Muhammas #0"=10
+	"Ismail #0"=10
+	"Ahmad #1"=10
+	"Husain #0"=10
+	"Abbas #0"=10
+	"Ahmad #0"=10
+	"Abdallah #0"=10
+}
+
+leader_names={
+	Ali
+	Ibrahim
+	Issa
+	Jomaa
+	Khalil
+	Mansour
+	Saad
+	Shammas
+	Saleh
+	Saab
+}
+
+ship_names={
+	"Ali ibn Rasul" "Mansur Umar" Zaizz Zabid
+	"Muzaffar Yusuf" "Malik al-Mujahid" 
+	"Shaykh Uthman" "Al-Kawd" Whaqra "Wadi Bana"
+	Ta'izz "At-Tubah" Dhubab "Jabal Kharaz" Musaymir
+	Mawiyah "Jabal al-Hasha" Ibb Qa'tabah "Jabal Thamar"
+}

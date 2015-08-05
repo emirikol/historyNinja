@@ -1,0 +1,37 @@
+owner=HSL
+controller=HSL
+add_core=HSL
+culture=proto_slavic
+religion=perun
+hre=no
+base_tax=2
+trade_goods=silver  
+manpower=2
+capital="Kaluga"
+fort1=yes
+citysize=5010
+discovered_by=eastern
+discovered_by=FTP
+discovered_by=SRM
+discovered_by=HSL
+
+400.6.1={owner=RDM controller=RDM add_core=RDM culture=radomichi religion=perun remove_core=HSL discovered_by=RDM}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=RDM discovered_by=KIV}
+1157.1.1={owner=VLA controller=VLA add_core=VLA remove_core=KIV culture=russian discovered_by=GOL}
+1263.1.1={owner=MOS controller=MOS add_core=MOS remove_core=VLA}
+1438.1.1={discovered_by=KAZ}
+1450.1.1={citysize=5450 discovered_by=SIB discovered_by=latin}
+1500.1.1={citysize=6412}
+1503.3.22={owner=RUS controller=RUS	add_core=RUS remove_core=MOS}
+1550.1.1={citysize=7543}
+1598.1.1={revolt_risk=5} # "Time of troubles"
+1600.1.1={citysize=8874}
+1613.1.1={revolt_risk=0} # Order returned, Romanov dynasty
+1650.1.1={citysize=10440}
+1670.1.1={revolt_risk=8} # Stepan Razin
+1671.1.1={revolt_risk=0} # Razin is captured
+1682.1.1={constable=yes}
+1711.1.1={base_tax=3} # Governmental reforms and the absolutism
+1767.1.1={base_tax=4} # Legislative reform
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

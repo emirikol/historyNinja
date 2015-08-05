@@ -1,0 +1,25 @@
+#731 - Ninguta
+
+owner = MCH
+controller = MCH
+culture = manchu
+religion = confucianism
+capital = "Ninguta"
+trade_goods = fish
+hre = no
+base_tax = 3
+manpower = 2
+citysize = 14900
+add_core = MCH
+fort1 = yes
+discovered_by = chinese
+discovered_by = nomad_group
+
+1450.1.1 = { citysize = 16100 }
+1500.1.1 = { citysize = 18240 }
+1550.1.1 = { citysize = 20004 }
+1600.1.1 = { citysize = 22895 }
+1650.1.1 = { citysize = 24244 }
+1700.1.1 = { citysize = 26240 }
+1750.1.1 = { citysize = 28955 }
+1800.1.1 = { citysize = 30600 }

@@ -1,0 +1,2 @@
+1453.1.1={discovered_by=latin discovered_by=eastern}
+1600.1.1={discovered_by=muslim}

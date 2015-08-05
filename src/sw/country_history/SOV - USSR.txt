@@ -1,0 +1,89 @@
+government=communistic_dictatorship
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=3
+mercantilism_freetrade=-3
+offensive_defensive=0
+land_naval=-3
+quality_quantity=3
+serfdom_freesubjects=-5
+primary_culture=russian
+religion=orthodox
+technology_group=eastern
+capital =1008	# Moskva
+
+1917.1.1={
+	monarch={
+		name="Vladimir Lenin"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+
+
+1922.4.3={
+	monarch={
+		name="Joseph Stalin"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+
+1950.1.1={religion=religious_tolerance}
+
+1953.3.1={
+	monarch={
+		name="Georgy Malenkov"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+
+1958.3.1={
+	monarch={
+		name="Nikita Khrushchev"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+
+1964.1.1={
+	monarch={
+		name="Leonid Brezhnev"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+
+1983.1.1={
+	monarch={
+		name="Yuri Andropov"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+
+1984.1.1={
+	monarch={
+		name="Konstantin Chernenko"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+
+1985.3.11={
+	monarch={
+		name="Mikhail Gorbachev"
+		adm=6
+		dip=7
+		mil=7
+	}
+}
+1990.3.15={ government=socialistic_council_republic}

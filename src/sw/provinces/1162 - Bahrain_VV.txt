@@ -1,0 +1,42 @@
+owner=GEA
+controller=GEA
+add_core=GEA
+culture=gerrha
+religion=shamanism
+capital="Manama"
+trade_goods=wool
+hre=no
+base_tax=3
+manpower=2
+citysize=1200
+fort1=yes
+discovered_by=GEA
+discovered_by=PAH
+discovered_by=HEM
+discovered_by=QAT
+discovered_by=HIM
+discovered_by=SEB
+
+260.6.1={owner=LKH controller=LKH add_core=LKH culture=lakhmidian religion=cophtic}
+350.6.1={owner=PER controller=PER add_core=PER}
+417.6.1={religion=nestorian}
+630.6.1={discovered_by=muslim}
+632.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni remove_core=GEA}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1171.6.1={owner=NAJ controller=NAJ add_core=NAJ culture=bedouin_arabic remove_core=ABB}
+1450.1.1={citysize=1540}
+1480.1.1={discovered_by=TUR}
+1500.1.1={citysize=1657}
+1521.1.1={discovered_by=POR owner=POR	controller=POR	add_core=POR  } # Invaded by the Portuguese
+1550.1.1={citysize=2340}
+1600.1.1={citysize=3100}
+1602.1.1={owner=PER	controller=PER	add_core=PER	remove_core=POR  } # Invaded by the Persians under Shah Abbas I
+1650.1.1={citysize=4205}
+1700.1.1={citysize=4888}
+1750.1.1={citysize=5340}
+1783.1.1={owner=NAJ	controller=NAJ	remove_core=PER  } # Reconquered by the Bani Utubs
+1799.1.1={owner=OMA	controller=OMA	add_core=OMA  } # Ruled by the Sultanate of Oman
+1800.1.1={citysize=6230}
+1861.1.1={owner=GBR controller=GBR add_core=GBR add_core=BHR} # British Protectorate
+1900.1.1={fort1=yes}
+1971.8.15={owner=BHR controller=BHR add_core=BHR remove_core=GBR}

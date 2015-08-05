@@ -1,0 +1,22 @@
+culture=carib
+religion=ind_pagan
+capital="Montserrat"
+trade_goods=tobacco 
+hre=no
+base_tax=1
+manpower=1
+native_size=20
+native_ferocity=2
+native_hostileness=4
+
+1493.1.1={discovered_by=CAS} # Christopher Columbus
+1516.1.23={discovered_by=SPA}
+1564.1.1={discovered_by=FRA}
+1650.1.1={owner=ENG controller=ENG religion=protestant culture=english citysize=500 add_core=ENG} 
+1666.1.1={owner=FRA controller=FRA}
+1667.1.1={owner=ENG controller=ENG}
+1667.2.1={citysize=1000 fort1=yes}
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1800.1.1={citysize=1500}
+1820.1.1={citysize=2000}
+1900.1.1={fort2=yes}

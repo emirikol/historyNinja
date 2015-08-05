@@ -1,0 +1,42 @@
+owner=SRM
+controller=SRM
+add_core=SRM
+culture=sarmathian
+religion=zoro
+hre=no
+capital="Sarai"
+trade_goods=horses
+base_tax=1
+manpower=3
+citysize=3769
+fort1=yes
+discovered_by=eastern
+discovered_by=AOS
+discovered_by=SRM
+discovered_by=SIR
+discovered_by=PHU
+
+260.6.1={culture=alanians religion=shamanism}
+261.6.1={owner=AOS controller=AOS remove_core=SRM}
+265.6.1={owner=HNU controller=HNU remove_core=AOS add_core=HNU culture=huns religion=tangra}
+372.6.1={owner=XXX controller=XXX fort1=no}
+562.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism fort1=yes}
+630.6.1={owner=GBG controller=GBG add_core=GBG culture=proto_bulgarian religion=tangra remove_core=AVE discovered_by=BGK}
+665.6.1={owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism}
+820.4.1={religion=jewish}
+891.1.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg remove_core=KHZ religion=tangra}
+950.6.1={discovered_by=muslim}
+1030.1.2={owner=CUM controller=CUM add_core=CUM culture=cumanian remove_core=PEC}
+1236.6.1={owner=KHA controller=KHA remove_core=CUM culture=tartar}
+1242.6.1={owner=GOL controller=GOL religion=sunni}
+1450.1.1={citysize=4010}
+1459.1.1={owner=AST	controller=AST add_core=AST remove_core=GOL} # Independence of Astrakhan
+1556.1.1={owner=RUS	controller=RUS add_core=RUS remove_core=AST} # Conquered by Ivan the terrible 
+1600.1.1={citysize=6840}
+1650.1.1={citysize=7886}
+1700.1.1={citysize=8470}
+1750.1.1={citysize=9100}
+1800.1.1={citysize=10676}
+1874.1.1={culture=russian religion=orthodox}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

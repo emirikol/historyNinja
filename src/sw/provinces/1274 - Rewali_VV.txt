@@ -1,0 +1,34 @@
+owner=DAS
+controller=DAS
+add_core=DAS
+culture=avadhi
+religion=hinduism
+capital="Rewa"
+trade_goods=tea
+hre=no
+base_tax=3
+manpower=2
+citysize=5647
+fort1=yes
+discovered_by=indian
+discovered_by=muslim
+discovered_by=SEV
+discovered_by=DAS
+discovered_by=KAL
+discovered_by=SAK
+
+210.6.1={owner=SEV controller=SEV add_core=SEV culture=satavahana remove_core=DAS}
+400.6.1={owner=GUP controller=GUP add_core=GUP culture=guptian remove_core=SEV}
+565.6.1={owner=THR controller=THR add_core=THR culture=thanesarian remove_core=GUP}
+1174.6.1={owner=AHM controller=AHM add_core=AHM culture=avadhi remove_core=THR}
+1399.6.1={owner=DLH controller=DLH culture=avadhi add_core=DLH add_core=BND}
+1450.1.1={citysize=6150}
+1500.1.1={citysize=7000}
+1526.1.1={owner=MUG controller=MUG add_core=MUG remove_core=DLH} # Battle of Panipat, loosely controlled by the Mughals
+1550.1.1={citysize=8757}
+1610.1.1={fort2=yes}
+1671.1.1={owner=BND controller=BND remove_core=MUG} # The Bundela chiefs managed to take control with the assistance of the Marathas
+1732.1.1={owner=MAR controller=MAR add_core=MAR remove_core=BND} # Annexed by the Marathas
+1818.6.3={owner=GBR controller=GBR add_core=GBR remove_core=MAR}
+1930.1.1={trade_goods=uranium}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

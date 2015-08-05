@@ -1,0 +1,110 @@
+#Country Name: Please see filename.
+
+graphical_culture=muslimgfx
+
+color={174 140 89}
+
+historical_ideas={
+	national_conscripts
+	glorious_arms 
+	grand_army
+	military_drill
+	battlefield_commisions 
+	shrewd_commerce_practise
+	engineer_corps
+	espionage
+	merchant_adventures
+	national_trade_policy
+	cabinet
+	bureaucracy
+}
+
+historical_units={sarmantian_light_cavalry
+mongol_infantry
+mongol_raiders
+15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+	persian_footsoldier
+	muslim_cavalry_archers
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	durrani_swivel
+	durrani_rifled_musketeer
+	durrani_dragoon
+}
+
+monarch_names={
+	"Bâbur #2"=20
+	"'Mîrzâ #1"=10
+	"Abû Sâ'id #1"=10
+        "Shâh Rukh #1"=10
+	"Ahmad #1"=10
+	"Mahmud #1"=10
+	"Mas'ud #1"=10
+	"Bây Sunqur #1"=10
+	"'Alî #1"=10
+        "Hussain #0"=10
+        "Uways #0"=10
+        "Nasîr #0"=10
+        "Ulugh #1"=10
+        "Têmôr #1"=1
+}
+
+leader_names={
+	Abbâs
+	Abû Bakr
+	Akbar
+	Jahagir
+	Jalâl
+	Jâmî
+	Khalil
+	Mohsin
+	"ud-Dîn"
+	Zaman
+}
+
+ship_names={
+	Ardabil
+	Bakhura Baluches Balkh
+	Herat
+	Ispahan
+	Kirman Kish Kharesm Kandahar
+	Lahore
+	Merv
+	Nishupur
+	Ormuz
+	Rustam
+	Sikandar Sebzewar Slurax Samarqand
+	Tamerlane Tahriz
+	"Shah Rukh"
+}

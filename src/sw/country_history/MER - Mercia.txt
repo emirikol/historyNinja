@@ -1,0 +1,257 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=5
+innovative_narrowminded=2
+mercantilism_freetrade=0
+offensive_defensive=2
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-2
+technology_group=anglo
+primary_culture=mercian
+religion=droid
+historical_friend=WSS
+capital=298	
+
+
+
+515.3.1={
+	monarch={
+		name="Icel"
+		dynasty="Mercia"
+		adm=8
+		dip=8
+		mil=9}}
+
+522.11.5={
+	heir={
+		name="Cnebba"
+		monarch_name="Liutpert"
+		dynasty="Mercia"
+		birth_date=522.11.1
+		death_date=561.3.1
+		claim=89
+		adm=5
+		dip=5
+		mil=5}}			
+		
+540.3.1={
+	monarch={
+		name="Cnebba"
+		dynasty="Mercia"
+		adm=7
+		dip=7
+		mil=8}}
+
+561.3.1={
+	monarch={
+		name="Cynewald"
+		dynasty="Mercia"
+		adm=6
+		dip=8
+		mil=8}}
+
+584.3.1={
+	monarch={
+		name="Creoda"
+		dynasty="Mercia"
+		adm=6
+		dip=7
+		mil=7}}
+
+593.3.1={
+	monarch={
+		name="Pybba"
+		dynasty="Mercia"
+		adm=6
+		dip=6
+		mil=7}}		
+
+606.3.1={
+	monarch={
+		name="Cearl"
+		dynasty="Cearl"
+		adm=6
+		dip=6
+		mil=7}}	
+
+626.3.1={
+	monarch={
+		name="Penda"
+		dynasty="Mercia"
+		adm=6
+		dip=6
+		mil=6}}	
+		
+642.6.1={religion=early}
+
+655.3.1={
+	monarch={
+		name="Peada"
+		dynasty="Mercia"
+		adm=5
+		dip=6
+		mil=6}}	
+
+656.3.1={
+	monarch={
+		name="Oswiu"
+		dynasty="Oswiu"
+		adm=9
+		dip=9
+		mil=9}}	
+
+658.3.1={
+	monarch={
+		name="Wulfhere"
+		dynasty="Mercia"
+		adm=9
+		dip=5
+		mil=6}}	
+
+675.3.1={
+	monarch={
+		name="Æthelred I"
+		dynasty="Mercia"
+		adm=9
+		dip=5
+		mil=5}}
+
+704.3.1={
+	monarch={
+		name="Cœnred"
+		dynasty="Mercia"
+		adm=8
+		dip=5
+		mil=4}}
+
+709.3.1={
+	monarch={
+		name="Ceolred"
+		dynasty="Mercia"
+		adm=7
+		dip=5
+		mil=4}}	
+
+716.3.1={
+	monarch={
+		name="Æthelbald"
+		dynasty="Mercia"
+		adm=7
+		dip=6
+		mil=6}}	
+
+757.3.1={
+	monarch={
+		name="Offa"
+		dynasty="Mercia"
+		adm=8
+		dip=8
+		mil=8}}	
+
+796.3.1={
+	monarch={
+		name="Ecgfrith"
+		dynasty="Mercia"
+		adm=5
+		dip=5
+		mil=5}}			
+		
+796.12.1={
+	monarch={
+		name="Cœnwulf"
+		dynasty="Mercia"
+		adm=4
+		dip=5
+		mil=5}}			
+
+800.6.1={religion=catholic technology_group=latin}
+
+821.4.1={
+	monarch={
+		name="Ceolwulf I"
+		dynasty="Mercia"
+		adm=4
+		dip=5
+		mil=4}}	
+
+823.4.1={
+	monarch={
+		name="Beornwulf"
+		dynasty="Beornwulf"
+		adm=4
+		dip=5
+		mil=4}}			
+
+826.4.1={
+	monarch={
+		name="Ludeca"
+		dynasty="Ludeca"
+		adm=5
+		dip=5
+		mil=5}}	
+		
+827.4.1={
+	monarch={
+		name="Wiglaf"
+		dynasty="Wiglaf"
+		adm=5
+		dip=5
+		mil=5}}	
+		
+829.4.1={
+	monarch={
+		name="Egbert"
+		dynasty="Cerdicing"
+		adm=6
+		dip=5
+		mil=7}}
+
+830.4.1={
+	monarch={
+		name="Wiglaf"
+		dynasty="Wiglaf"
+		adm=6
+		dip=5
+		mil=5}}
+		
+840.4.1={
+	monarch={
+		name="Beorhtwulf"
+		dynasty="Beorhtwulf"
+		adm=5
+		dip=6
+		mil=5}}		
+		
+852.4.1={
+	monarch={
+		name="Burgred"
+		dynasty="Beorhtwulf"
+		adm=5
+		dip=5
+		mil=4}}			
+
+874.4.1={
+	monarch={
+		name="Ceolwulf II"
+		dynasty="Beorhtwulf"
+		adm=1
+		dip=5
+		mil=1}}			
+		
+883.4.1={
+	monarch={
+		name="Æthelred II"
+		dynasty="Cerdicing"
+		adm=5
+		dip=5
+		mil=4}}	
+
+911.4.1={
+	monarch={
+		name="Æthelflæd"
+		dynasty="Cerdicing"
+		adm=5
+		dip=6
+		mil=3
+		female=yes}}	

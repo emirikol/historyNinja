@@ -1,0 +1,32 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=albanian
+religion=orthodox
+technology_group=eastern
+capital=851
+
+
+1389.1.1={
+	monarch={
+		name="Gjon Kastrioti"
+		adm=9
+		dip=8
+		mil=9		
+	}
+}
+
+1443.1.1={
+	monarch={
+		name="Gjergj Kastrioti"
+		adm=6
+		dip=7
+		mil=6
+	}
+}

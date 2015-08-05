@@ -1,0 +1,7 @@
+discovered_by=eastern
+discovered_by=SRM
+discovered_by=PHU
+discovered_by=KJU
+
+630.6.1={discovered_by=muslim}
+1850.6.1={discovered_by=latin}

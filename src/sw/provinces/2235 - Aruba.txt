@@ -1,0 +1,23 @@
+culture=arawak
+religion=ind_pagan
+capital="Aruba"
+trade_goods=sugar
+hre=no
+base_tax=2
+manpower=1
+native_size=5
+native_ferocity=1
+native_hostileness=6
+
+1499.8.1={discovered_by=CAS owner=CAS controller=CAS culture=castillian religion=catholic citysize=250} # Christopher Columbus 
+1516.1.23={discovered_by=SPA owner=SPA controller=SPA}
+1524.1.1={add_core=SPA}
+1550.1.1={citysize=1000 fort1=yes}
+1636.1.1={owner=NED controller=NED culture=hollandic religion=reformed capital="Oranjestad" citysize=1460 remove_core=SPA} 
+1650.1.1={citysize=1200}
+1659.1.1={add_core=NED}
+1799.1.1={owner=GBR controller=GBR} # Occupied by British forces
+1802.1.1={owner=NED	controller=NED} # Restored to the Netherlands
+1805.1.1={owner=GBR controller=GBR} # Occupied by British forces
+1816.1.1={owner=NED controller=NED} # Restored to the Netherlands
+1900.1.1={fort2=yes}

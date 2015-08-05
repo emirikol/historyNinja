@@ -1,0 +1,100 @@
+#Country Name: Please seefilename.
+
+graphical_culture=africangfx
+
+color={116 0 0}
+
+historical_ideas={shrewd_commerce_practise
+national_conscripts
+merchant_adventures
+military_drill
+national_trade_policy
+battlefield_commisions
+engineer_corps
+grand_army
+espionage
+cabinet
+glorious_arms
+bureaucracy}
+
+historical_units={15_cm_sIG_33_artillery
+atacms_missile_artillery
+breech_loading_artillery
+breech-loading_infantry
+chassepot_gun_infantry
+cruiser_tank
+field_howitzer_70_artillery
+ft-17_tank
+high_mobility_artillery_rocket_system
+highly_explosive_grenade_artillery
+jagdpanzer_tank
+lenk's_pulled_artillery
+leopard_2_tank
+m60_tank
+M249_SAW_infantry
+machine_gun_infantry
+MG34_infantry
+MG42_infantry
+needle_gun_infantry
+patton_tank
+pulled_artillery
+RML_7_pounder_mountain_gun_artillery
+tank
+wheel_tank
+whippet_tank
+african_spearmen
+mali_tribal_warfare
+african_hill_warfare
+niger_kongolese_gunpowder_warfare
+westernized_niger_kongolese
+african_western_franchise_warfare}
+
+monarch_names={"Abdoulaye #0"=20
+"Mamadou #1"=40
+"Abdou #0"=60
+"Habib #0"=20
+"Léopold #0"=60
+"Moustapha #0"=20
+"Mame #0"=-20
+"Idrissa #0"=20
+"Macky #0"=20
+"Cheikh #0"=20
+"Ibrahima #1"=20
+"Tony #0"=0
+"Bouna #0"=0
+"Pape #0"=0
+"Guirane #0"=0
+"Papa #0"=0
+"Babacar #0"=0
+"Ousmane #0"=0
+"Kader #0"=0
+"Waigo #0"=0
+"Diomansy #0"=0
+"Frédéric #0"=0
+"Henri #0"=0
+"Issiar #0"=0
+"El Hadji #0"=0
+"Mbaye #0"=0
+"Cheick #0"=0
+"Lamine #0"=0
+"Souleymane #0"=0
+"Mohamed #0"=0
+"Modou #0"=0
+"Jules #0"=0
+"Aliou #0"=0
+"Kalidou #0"=0
+"Oumar #0"=0
+"Khalilou #0"=0
+"Makhtar #0"=0
+"Moussa #0"=0
+"Amar #0"=0
+"Thierno #0"=0	
+"Salif #0"=0}
+
+leader_names={Sonko
+N'Daw Diakhaté 	Diagne-Faye	Gueye	Camara	Sougou	Fadiga	Mangane Sall Diatta Diawara Beye Sarr Diop Niang
+N'Doye N'Diaye Diao Coundoul Leye Gomis Mendy Faye Sambou Ba Kamara
+Toumani Sédar Senghor Diouf Wade Dia Thiam Niasse Lamine Loum Madior Boye Seck Sall Hadjibou Soumaré}
+
+ship_names={Kiringa Timbuktu "Koumbi Saleh" Gao	Jenne "Sundiata Keita" "Kankan Musa"
+"Kouroukan Fouga" "Wali Keita" "Quati Keita" "Khalifa Keita" "Sakura"}

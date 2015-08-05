@@ -1,0 +1,31 @@
+owner=TWA
+controller=TWA
+add_core=TWA
+culture=aimara
+religion=inti
+capital="La Paz"
+fort1=yes
+citysize=1000
+trade_goods=fur
+hre=no
+base_tax=2
+manpower=3
+discovered_by=INC
+discovered_by=TWA
+discovered_by=INC
+discovered_by=QTO
+discovered_by=CHM
+discovered_by=ICA
+discovered_by=CHC
+
+1471.1.1={owner=INC culture=inca controller=INC	add_core=INC citysize=2800 remove_core=TWA} # Estimated
+1500.1.1={citysize=3650}
+1533.8.29={discovered_by=SPA owner=SPA controller=SPA culture=castillian religion=catholic} # The death of Atahualpa
+1550.1.1={citysize=4362}
+1558.8.29={add_core=SPA remove_core=INC}
+1600.1.1={citysize=6655}
+1650.1.1={citysize=8670}
+1750.1.1={add_core=PEU}
+1809.7.16={revolt={type=colonial_rebels size=3} controller=REB} # Bolivian War of Independence
+1824.1.1={controller=PEU owner=PEU remove_core=SPA}
+1825.8.6={add_core=BOL owner=BOL controller=BOL} # Bolivian Independence

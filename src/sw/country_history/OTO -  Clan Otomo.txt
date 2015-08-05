@@ -1,0 +1,80 @@
+government=duchy
+aristocracy_plutocracy=-4
+centralization_decentralization=2
+innovative_narrowminded=2
+mercantilism_freetrade=-5
+offensive_defensive=-1
+land_naval=0
+quality_quantity=-4
+serfdom_freesubjects=-5
+primary_culture=japanese
+religion=shinto
+technology_group=chinese
+capital=1664	# Kumamoto
+
+
+1450.3.3={
+	monarch={
+		name="Masachika"
+		dynasty="Otomo"
+		adm=6
+		dip=5
+		mil=4}}
+
+1484.1.1={
+	monarch={
+		name="Yoshisuke"
+		dynasty="Otomo"
+		adm=4
+		dip=6
+		mil=5}}
+
+1496.1.1={
+	monarch={
+		name="Chikaharu"
+		dynasty="Otomo"
+		adm=5
+		dip=5
+		mil=6}}
+
+1501.1.1={
+	monarch={
+		name="Yoshinaga"
+		dynasty="Otomo"
+		adm=4
+		dip=6
+		mil=5}}
+
+1515.1.1={
+	monarch={
+		name="Yoshiaki"
+		dynasty="Otomo"
+		adm=6
+		dip=5
+		mil=4}}
+
+1550.1.1={
+	monarch={
+		name="Yoshishige"
+		dynasty="Otomo"
+		adm=7
+		dip=8
+		mil=5}}
+
+1576.1.1={
+	monarch={
+		name="Yoshimune"
+		dynasty="Otomo"
+		adm=5
+		dip=6
+		mil=5}}
+
+1577.1.1={
+	monarch={
+		name="Yoshinori"
+		dynasty="Otomo"
+		adm=4
+		dip=5
+		mil=6}}
+
+1578.1.1={religion=catholic}

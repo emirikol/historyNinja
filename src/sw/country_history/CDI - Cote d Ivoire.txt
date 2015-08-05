@@ -1,0 +1,55 @@
+government=constitutional_republic
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=1
+mercantilism_freetrade=-5
+offensive_defensive=0
+land_naval=-5
+quality_quantity=2
+serfdom_freesubjects=-5
+primary_culture=aka
+religion=animism
+technology_group=african
+capital=1895
+
+1950.1.1={religion=religious_tolerance}
+
+1960.8.7={ government=republican_dictatorship }
+
+1960.8.7={
+	monarch={
+		name="Félix Houphouët-Boigny"
+		adm=4
+		dip=5
+		mil=6
+	}
+}
+
+1990.1.1={ government=constitutional_republic }
+
+1993.12.7={
+	monarch={
+		name="Henri Konan Bédié"
+		adm=4
+		dip=5
+		mil=6
+	}
+}
+
+1999.12.25={
+	monarch={
+		name="Robert Guéi"
+		adm=4
+		dip=5
+		mil=6
+	}
+}
+
+2000.10.26={
+	monarch={
+		name="Laurent Gbagbo"
+		adm=4
+		dip=5
+		mil=6
+	}
+}

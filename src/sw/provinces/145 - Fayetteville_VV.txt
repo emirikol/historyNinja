@@ -1,0 +1,34 @@
+owner=CAD
+controller=CAD
+add_core=CAD
+fort1=yes
+culture=creek
+religion=ind_pagan
+capital="Fayetteville"
+citysize=1000
+trade_goods=wood
+hre=no
+base_tax=1
+manpower=1
+discovered_by=CHE
+discovered_by=CHO
+discovered_by=CAD
+discovered_by=new_world
+discovered_by=CKS
+discovered_by=WIC
+discovered_by=OSA
+discovered_by=ILL
+
+1541.1.1={discovered_by=SPA} # Hernando de Soto
+1673.1.1={discovered_by=FRA} # Jacques Marquette & Louis Jolliet
+1699.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic remove_core=CAD citysize=600}
+1747.1.1={add_core=FRA}
+1750.1.1={add_core=LOU trade_goods=cotton}
+1762.1.1={owner=SPA controller=SPA remove_core=FRA culture=castillian} # Treaty of Fontainebleau, secretely ceded to Spain
+1787.1.1={add_core=SPA}
+1800.1.1={citysize=1180}
+1800.10.1={owner=RFR controller=RFR add_core=RFR culture=cosmopolitan_french remove_core=SPA} # Treaty of San Ildefonso
+1803.4.3={owner=USA controller=USA add_core=USA remove_core=RFR culture=american} # The Louisiana purchase
+1861.4.12={owner=SUC controller=SUC add_core=SUC} # Start of Civil War
+1865.5.13={owner=USA controller=USA remove_core=SUC} # End of Civil War
+1900.1.1={fort2=yes}

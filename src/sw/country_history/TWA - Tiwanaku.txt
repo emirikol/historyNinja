@@ -1,0 +1,22 @@
+government=tribal_despotism
+aristocracy_plutocracy=-4
+centralization_decentralization=4
+innovative_narrowminded=5
+mercantilism_freetrade=-2
+offensive_defensive=0
+land_naval=-5
+quality_quantity=4
+serfdom_freesubjects=-2
+primary_culture=aimara
+religion=inti
+technology_group=new_world
+capital=2307
+
+1399.1.1={
+	monarch={
+		name="Taipikala"
+		adm=5
+		dip=7
+		mil=6
+	}
+}

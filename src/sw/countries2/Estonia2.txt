@@ -1,0 +1,144 @@
+graphical_culture=latingfx
+
+color={53 43 136}
+
+historical_ideas={
+	merchant_adventures
+	shrewd_commerce_practise
+	national_conscripts
+	national_trade_policy
+	military_drill
+	glorious_arms
+	national_bank
+	grand_army
+	cabinet
+	bill_of_rights
+	espionage
+	bureaucracy
+}
+
+historical_units={
+	15_cm_sIG_33_artillery
+	atacms_missile_artillery
+	breech_loading_artillery
+	breech-loading_infantry
+	chassepot_gun_infantry
+	cruiser_tank
+	field_howitzer_70_artillery
+	ft-17_tank
+	high_mobility_artillery_rocket_system
+	highly_explosive_grenade_artillery
+	jagdpanzer_tank
+	lenk's_pulled_artillery
+	leopard_2_tank
+	m60_tank
+	M249_SAW_infantry
+	machine_gun_infantry
+	MG34_infantry
+	MG42_infantry
+	needle_gun_infantry
+	patton_tank
+	pulled_artillery
+	RML_7_pounder_mountain_gun_artillery
+	tank
+	wheel_tank
+	whippet_tank
+	western_medieval_infantry
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	swedish_galoop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+leader_names={
+	Adlercreutz 
+	Ahlqvist
+	Berg 
+	Bjorn 
+	Blom 
+	Cronstedt
+	Dufva
+	Ehrensvard
+	"von Essen" 
+	Glad
+	Haataja
+	Helander
+	Helin 
+	Hiltunen 
+	Horn
+	Ilkka 
+	Isotalo
+	Jarvela 
+	Jarnberg
+	Kesalainen
+	Klingspor
+	Kortelainen 
+	Krouvari
+	Kyro
+	Liljencrantz
+	Lankinen
+	Pentti 
+	Pietila 
+	Rehnskiold
+	Renner 
+	Rokka
+	Rutanen
+	Sakari
+	Sjogren
+	Stalhandske
+	Stoor
+	Tapani
+	Termonen
+	Turunen
+	Wilander
+}
+
+ship_names={
+	Agricola
+	Aura
+	Borga 
+	"Birger Jarl"
+	Helsingfors
+	Hakkapeliitta
+	Ilmarinen
+	Kullervo
+	Karelen 
+	Kymi
+	Lemminkainen Lapland
+	Nyland
+	Oulu
+	"Per Brahe"
+	Sampo
+	"St. Henrik" 
+	Savolax
+	Tavastehus
+	Tavastland
+	Vainamoinen
+	Vasa 
+	Viborg 
+	Vanda
+	Vuoksi
+	Abo
+	Osterbotten
+}
+
+monarch_names={
+	"Lembitu #0"=20
+	"Unnepeve #0"=20
+	"Kyriavanus #0"=20
+	"Juhan #0"=20
+	"Siim #0"=10
+	"Mart #0"=20
+	"Tiit #0"=10
+	"Edgar #0"=10
+	"Andres #0"=10
+}

@@ -1,0 +1,47 @@
+owner=PHT
+controller=PHT
+add_core=PHT
+add_core=PER
+culture=parthian
+religion=zoro
+capital="Damascus"
+trade_goods=gold
+hre=no
+base_tax=3
+manpower=3
+citysize=6100
+fort1=yes
+discovered_by=RMP
+discovered_by=latin
+discovered_by=RME
+discovered_by=PHT
+discovered_by=PER
+discovered_by=AKS
+discovered_by=ITU
+discovered_by=CEO
+discovered_by=NHA
+discovered_by=AAR
+
+185.6.1={owner=RME controller=RME}
+224.6.1={owner=PER controller=PER culture=persian remove_core=PHT}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+350.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP remove_core=PER}
+630.6.1={discovered_by=muslim}
+638.6.1={fort2=yes owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni remove_core=BYZ}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1060.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1098.2.1={owner=ABB controller=ABB remove_core=SEJ}
+1171.6.1={owner=SAL controller=SAL add_core=SAL remove_core=ABB}
+1250.1.1={owner=MAM controller=MAM remove_core=SEJ add_core=MAM culture=al_suryah_arabic remove_core=SAL}
+1516.1.1={owner=TUR controller=TUR add_core=TUR} # Part of the Ottoman Empire
+1517.1.1={temple=yes add_core=SYR}
+1520.1.1={revolt_risk=4} # Revolt against Ottoman rule
+1521.1.1={revolt_risk=0}
+1600.1.1={constable=yes}
+1720.1.1={tax_assessor=yes} 
+1771.1.1={revolt_risk=4} # Ali Bey gained control of Syria, reconstituting the Mamluk state
+1772.1.1={revolt_risk=0}
+1920.1.1={owner=RFR controller=RFR remove_core=TUR add_core=SYR}
+1940.6.22={owner=GBR controller=GBR}
+1946.4.17={owner=SYR controller=SYR}

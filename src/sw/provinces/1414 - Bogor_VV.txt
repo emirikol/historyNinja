@@ -1,0 +1,19 @@
+culture=sulawesi
+religion=hinduism
+capital="Bogor"
+trade_goods=coffee
+hre=no
+base_tax=6
+manpower=3
+native_size=70
+native_ferocity=2
+native_hostileness=7
+discovered_by=MAJ
+
+1552.1.1={fort1=yes	discovered_by=BAN owner=BAN controller=BAN citysize=10900 add_core=BAN}  # Banten became an independent sultanate
+1602.1.1={discovered_by=ENG} # English settlement
+1707.5.12={discovered_by=GBR}
+1809.1.1={owner=NED controller=NED add_core=NED}
+1942.2.1={controller=JAP owner=JAP}
+1944.1.1={controller=NED owner=NED}
+1949.12.27={owner=IDO controller=IDO add_core=IDO remove_core=NED}

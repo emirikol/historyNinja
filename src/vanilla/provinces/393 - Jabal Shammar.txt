@@ -1,0 +1,32 @@
+#393 - Jabal Shammar
+
+owner = NAJ
+controller = NAJ
+culture = bedouin_arabic
+religion = sunni
+capital = "Jabal Shammar"
+trade_goods = cloth
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 1680
+add_core = NAJ
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = TUR
+fort1 = yes
+
+1450.1.1 = { citysize = 2400 }
+1500.1.1 = { citysize = 2867 }
+1534.1.1 = { add_core = TUR } # The Ottomans tried but eventually failed to extend their control into the interior of Arabia
+1536.1.1 = { remove_core = TUR }
+1550.1.1 = { citysize = 3241 }
+1600.1.1 = { citysize = 4270 }
+1650.1.1 = { citysize = 5134 }
+1700.1.1 = { citysize = 5800 }
+1750.1.1 = { citysize = 6511 }
+1800.1.1 = { citysize = 7245 }
+1818.9.9 = {	owner = TUR
+		controller = TUR
+		add_core = TUR
+	   } # The end of the Saudi State

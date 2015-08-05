@@ -1,0 +1,63 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 0 74 127 }
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art
+}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare
+	creek_arquebusier
+	apache_guerilla
+	iroquis_rifle_scout
+}
+
+monarch_names={
+	"Tishomingo #0"=15
+	"Cahokia #0"=15
+	"Illiniwek #0"=15
+	"Winnebago #0"=15
+	"Pahmecoweetah #0"=15
+	"Ahteewatomee #0"=15 
+	"Keeokuk #0"=15 
+	"Ricklegue #0"=15 
+	"Kankakee #0"=15  
+	"Kewanee #0"=15
+	"Watseka #0"=15 
+	"Waukegan #0"=15 
+	"Okaw Nauvoo #0"=15
+	"Mascoutah #0"=15
+	}
+
+leader_names={
+	Kaskaskia Peoria Outagamis 
+	Kickapou Ava Breese 
+	Mattoon Okaw Nauvoo
+	Acpocaquil Beleheqat "Cay Hunahpu" Cinahitoh Hacavitz
+	"Tzian Balam" "Zacte cauh" "Xikinaj" "Tza'maj"
+	}
+
+ship_names={
+	Illiniwek Galena Markanda 
+	Mascoutah Skokie Ullin
+	Acpocaquil Beleheqat "Cay Hunahpu" Cinahitoh Hacavitz
+	"Tzian Balam" "Zacte cauh" "Xikinaj" "Tza'maj"
+	}

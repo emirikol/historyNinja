@@ -1,0 +1,40 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=celts
+religion=groman
+capital="Braganca"
+trade_goods=grain
+hre=no
+base_tax=3
+manpower=2
+citysize=5500
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=KUN
+discovered_by=VES
+discovered_by=SUE
+
+220.6.1={culture=roman}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+410.6.1={owner=SUE controller=SUE add_core=SUE remove_core=RMP culture=suevi religion=early}
+630.6.1={discovered_by=muslim}
+712.1.1={owner=ACA controller=ACA add_core=ACA remove_core=SUE culture=saracen religion=sunni}
+756.6.1={owner=ORC controller=ORC add_core=ORC remove_core=ACA culture=andalucian}
+843.1.1={discovered_by=latin}  
+868.1.1={owner=POR controller=POR remove_core=ORC add_core=POR religion=catholic culture=portugese} 
+1450.1.1={citysize=6800}
+1500.1.1={citysize=7500}
+1550.1.1={constable=yes}
+1580.8.25={controller=SPA}
+1580.8.26={controller=POR}
+1600.1.1={citysize=10000}
+1640.1.1={revolt_risk=8} # Portugal revolt headed by John of Bragança
+1640.12.1={revolt_risk=0} # Portugal regained its independence & colonial possessions
+1650.1.1={marketplace=yes}
+1809.3.29={controller=RFR} # Occupied by France
+1809.5.12={controller=POR}
+1810.9.26={controller=RFR} # Wellington retreats into Lines of Torres Vedras fortification and Masséna can't enter Lisboa due to the scorched earth policy
+1811.1.1={controller=POR} # The Napoleonic army retreats from Portugal

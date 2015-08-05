@@ -1,0 +1,39 @@
+owner=SAK
+controller=SAK
+add_core=SAK
+culture=saka
+religion=tangra
+capital="Gwalior"
+fort1=yes
+trade_goods=cotton
+hre=no
+base_tax=6
+manpower=3
+citysize=6544
+discovered_by=indian
+discovered_by=muslim
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=SAK
+discovered_by=KAL
+discovered_by=DAS
+
+210.6.1={owner=SEV controller=SEV add_core=SEV culture=satavahana remove_core=SAK}
+403.6.1={owner=VAK controller=VAK add_core=VAK culture=vakatakian religion=buddhism remove_core=SEV}
+565.6.1={owner=THR controller=THR add_core=THR culture=thanesarian religion=hinduism}
+700.6.1={owner=GUJ controller=GUJ add_core=GUJ culture=gujarati}
+1399.6.1={owner=DLH controller=DLH culture=kanauji add_core=DLH add_core=PUN add_core=MLW}
+1401.1.1={owner=MLW	controller=MLW remove_core=DLH} # Dilawar Khan declares Malwa independent
+1450.1.1={citysize=7000}
+1498.1.1={discovered_by=POR}
+1500.1.1={citysize=8350}
+1518.1.1={revolt_risk=5 add_core=GUJ} # The Malwa sultanate began to collapse after several intrusions from the Gujarat
+1531.1.1={owner=GUJ controller=GUJ revolt_risk=0} # Sultanate of Gujarat conquered the Malwa Sultanate
+1550.1.1={citysize=9753}
+1562.1.1={owner=MUG controller=MUG add_core=MUG} # Conquered by the Akbar
+1600.1.1={marketplace=yes}
+1680.1.1={courthouse=yes}
+1724.1.1={add_core=MAR} # The Mughal state began to weaken
+1733.1.1={owner=MAR	controller=MAR remove_core=MUG} # Malwa is ceded to the Marathas
+1818.6.3={owner=GBR	controller=GBR add_core=GBR	remove_core=MAR}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

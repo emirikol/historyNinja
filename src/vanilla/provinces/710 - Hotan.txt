@@ -1,0 +1,31 @@
+#710 - Hotan
+
+owner = OIR
+controller = OIR
+culture = mongol
+religion = buddhism
+capital = "Hotan"
+trade_goods = wool
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 8100
+add_core = OIR
+fort1 = yes
+discovered_by = chinese
+discovered_by = nomad_group
+
+1450.1.1 = { citysize = 8540 }
+1500.1.1 = { citysize = 9354 }
+1520.1.1 = { marketplace = yes }
+1550.1.1 = { citysize = 10200 }
+1600.1.1 = { citysize = 11248 }
+# 1620.1.1 = { religion = buddhism }
+1650.1.1 = { citysize = 13548 }
+1700.1.1 = { citysize = 15202 }
+1750.1.1 = { citysize = 16877 }
+1757.1.1 = {	owner = MCH
+		controller = MCH
+		add_core = MCH
+	   } # The Qing Dynasty
+1800.1.1 = { citysize = 17584 }

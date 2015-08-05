@@ -1,0 +1,46 @@
+#532 - Raichur Doab
+
+owner = BAH
+controller = BAH
+culture = kannada
+religion = hinduism
+capital = "Bijapur"
+trade_goods = spices
+hre = no
+base_tax = 6
+manpower = 4
+citysize = 5100
+add_core = BAH
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 5500 }
+1490.1.1 = { add_core = BIJ }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 5950 }
+1518.1.1 = {	owner = BIJ
+		controller = BIJ
+		remove_core = BAH
+	   } # The Breakup of the Bahmani sultanate
+1550.1.1 = { citysize = 6200 }
+1600.1.1 = { citysize = 7640 }
+1650.1.1 = { citysize = 8900 }
+1686.1.1 = {	owner = MUG
+		controller = MUG
+		add_core = MUG
+	   } # Conquered by the Mughal emperor Aurangzeb
+1700.1.1 = { citysize = 10750 }
+1750.1.1 = { citysize = 12800 }
+1760.1.1 = {	owner = MAR
+		controller = MAR
+		add_core = MAR
+		remove_core = MUG
+	   } # The region is ceded to Maratha Peshwa
+1800.1.1 = { citysize = 14200 }
+1818.6.3 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+		remove_core = MAR
+	   }

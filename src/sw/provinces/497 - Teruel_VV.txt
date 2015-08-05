@@ -1,0 +1,42 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_iberian
+religion=groman
+hre=no
+base_tax=2
+trade_goods=iron
+manpower=1
+capital="Teruel" 
+citysize=1000
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=KUN
+discovered_by=VES
+discovered_by=SUE
+
+180.6.1={culture=roman}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+455.6.1={owner=VIS controller=VIS add_core=VIS remove_core=RMP religion=early}
+630.6.1={discovered_by=muslim}
+714.1.1={owner=HFR controller=HFR add_core=HFR remove_core=VIS culture=frankish religion=catholic}
+814.1.1={owner=ARA controller=ARA add_core=ARA remove_core=HFR culture=catalan}
+843.1.1={discovered_by=latin}
+1450.1.1={citysize=5000}
+1516.1.23={controller=SPA owner=SPA add_core=SPA} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1560.1.1={marketplace=yes}
+1591.9.24={revolt={type=revolutionary_rebels size=1} controller=REB} # Foral riots in Zaragoza  
+1591.12.24={revolt={} controller=SPA} # The army is dispatched to quell the riots
+1705.1.1={tax_assessor=yes}
+1705.6.29={controller=HAB} # Aragon joins the Austrian side in the War of Spanish Succession
+1707.5.26={controller=SPA} # Aragon falls to the Borbonic troops
+1710.6.13={controller=HAB} # Archduke Carlos takes Zaragoza, paving again the way to Madrid
+1710.11.1={controller=SPA} # Felipe V reorganises his army and is able to force the retreat of the Archduke's army
+1713.7.13={remove_core=ARA}
+1808.6.6={revolt={type=nationalist_rebels size=0} controller=REB}
+1810.1.1={revolt={} controller=SPA}
+1812.7.26={revolt={type=nationalist_rebels size=0} controller=REB}
+1813.12.11={revolt={} controller=SPA}
+1892.1.1={trade_goods=steel}

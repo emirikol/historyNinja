@@ -1,0 +1,53 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Methloni"
+trade_goods=wine
+hre=no
+base_tax=3
+manpower=1
+citysize=3040
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PER
+discovered_by=PHT
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+630.6.1={discovered_by=muslim}
+843.6.1={discovered_by=latin}
+1204.4.12={owner=MOE controller=MOE add_core=MOE}
+1261.12.23={owner=ACH controller=ACH}
+1432.1.1={owner=BIZ controller=BIZ} # To Morea
+1453.5.29={owner=ACH controller=ACH} # The fall of the Byzantine Empire
+1455.1.1={owner=MOE controller=MOE remove_core=ACH}
+1460.1.1={owner=TUR controller=TUR add_core=TUR}
+1464.1.1={controller=VEN}
+1470.1.1={controller=TUR}
+1500.1.1={citysize=5500}
+1502.1.1={remove_core=BIZ}
+1532.1.1={revolt={type=nationalist_rebels size=1} controller=REB} # Rebellion against the Ottoman rule
+1533.1.1={revolt={} controller=TUR}
+1550.1.1={citysize=6200}
+1555.1.1={revolt_risk=5} # General discontent with the Janissaries' dominance
+1556.1.1={revolt_risk=0}
+1571.1.1={revolt={type=nationalist_rebels size=1} controller=REB} # Rebellion against Ottoman rule
+1572.1.1={revolt={} marketplace=yes controller=TUR} # Estimated
+1600.1.1={citysize=5500}
+1650.1.1={citysize=4300 culture=neo_greek}
+1688.1.1={controller=VEN} # Occupied by Venice
+1690.1.1={base_tax=1} #The Decentralizing Effect of the Provincial System
+1699.1.26={owner=VEN add_core=VEN} # Annexed by the Venetian republic
+1700.1.1={citysize=4400}
+1716.1.1={tax_assessor=yes} # Revival of commerce, agriculture/trade
+1718.1.1={owner=TUR controller=TUR remove_core=VEN}
+1750.1.1={citysize=5000 add_core=GRE}
+1800.1.1={citysize=5150}
+1827.10.20={controller=GRE owner=GRE remove_core=TUR} # independence of Greece
+1941.4.23={owner=ITA controller=ITA} # occupied by Italy
+1944.1.1={owner=GRE controller=GRE} # Italians leave Greece

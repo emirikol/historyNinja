@@ -1,0 +1,39 @@
+#527 - Khandesh
+
+owner = KHD
+controller = KHD
+culture = marathi
+religion = hinduism
+capital = "Burhanpur"
+trade_goods = cotton
+hre = no
+base_tax = 8
+manpower = 4
+citysize = 14380
+add_core = KHD
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 15100 }
+1500.1.1 = { citysize = 16500 }
+1550.1.1 = { citysize = 18354}
+1600.1.1 = { citysize = 20800 }
+1600.4.8 = {	owner = MUG
+		controller = MUG
+		add_core = MUG
+	   } # Conquered by the Mughals
+1650.1.1 = { citysize = 22364 }
+1700.1.1 = { remove_core = KHD citysize = 24687 }
+1718.1.1 = {	owner = MAR
+		controller = MAR
+		add_core = MAR
+		remove_core = MUG
+	   } # The territory is formally given to the Marathas
+1750.1.1 = { add_core = BHO citysize = 25980 }
+1800.1.1 = { citysize = 27088 }
+1818.6.3 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+	   }

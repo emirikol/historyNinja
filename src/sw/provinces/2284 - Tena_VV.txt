@@ -1,0 +1,33 @@
+owner=QTO
+controller=QTO
+add_core=QTO
+culture=cara
+religion=inti
+capital="Tena"
+fort1=yes
+citysize=1000
+trade_goods=wood
+hre=no
+base_tax=2
+manpower=1
+discovered_by=GAC
+discovered_by=QTO
+discovered_by=INC
+discovered_by=CHM
+discovered_by=TWA
+discovered_by=ICA
+discovered_by=CHC
+
+1463.1.1={owner=INC	controller=INC add_core=INC citysize=1900} # Estimated
+1533.1.1={discovered_by=SPA	owner=SPA controller=SPA culture=castillian religion=catholic remove_core=QTO} # Conquered by the Spanish
+1537.1.1={revolt_risk=8} # Fighting breaks out when Almagro seizes Cuzco
+1538.1.1={revolt_risk=5} # Almagro is defeated & executed
+1557.1.1={citysize=2400} # Spanish settlement
+1558.1.1={add_core=SPA remove_core=INC}
+1600.1.1={citysize=3400}
+1650.1.1={citysize=4210}
+1700.1.1={citysize=4100}
+1750.1.1={citysize=7600 add_core=COL}
+1810.7.20={owner=COL controller=COL} # Colombia declares independence
+1819.8.7={remove_core=SPA} # Colombia's independence is recongnized
+1830.1.1={add_core=ECU owner=ECU controller=ECU} # Ecuadors independence

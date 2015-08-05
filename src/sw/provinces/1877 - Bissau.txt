@@ -1,0 +1,17 @@
+culture=mali
+manpower=3
+religion=animism
+capital="Bissau"
+trade_goods=grain
+hre=no
+base_tax=5
+discovered_by=SOF
+discovered_by=ASH
+discovered_by=SON
+discovered_by=MAL
+
+1235.6.1={owner=MAL controller=MAL add_core=MAL citysize=7000}
+1455.6.1={discovered_by=POR}
+1480.6.1={discovered_by=FRA}
+1495.6.1={owner=POR controller=POR add_core=POR religion=catholic culture=portugese fort1=yes}
+1974.9.10={owner=GUB controller=GUB add_core=GUB remove_core=GUB}

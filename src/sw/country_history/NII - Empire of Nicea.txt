@@ -1,0 +1,62 @@
+government=imperial_government
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=2
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=1
+quality_quantity=-1
+serfdom_freesubjects=-2
+primary_culture=greek
+religion=orthodox
+technology_group=eastern
+capital=863	# Nicaea
+
+
+1204.1.1={
+	monarch={
+		name="Constantine"
+		dynasty="Laskaris"
+		adm=6
+		dip=6
+		mil=6}}
+
+1204.11.1={
+	monarch={
+		name="Theodore I"
+		dynasty="Laskaris"
+		adm=6
+		dip=6
+		mil=6}}
+
+1221.11.1={
+	monarch={
+		name="John III Doukas Vatatzes"
+		dynasty="Laskaris"
+		adm=7
+		dip=7
+		mil=7}}
+ 
+1254.11.1={
+	monarch={
+		name="Theodore II"
+		dynasty="Laskaris"
+		adm=6
+		dip=6
+		mil=6}} 
+ 
+1259.1.1={
+	monarch={
+		name="John IV"
+		dynasty="Laskaris"
+		adm=6
+		dip=6
+		mil=6}} 
+
+1259.11.1={
+	monarch={
+		name="Michael VIII"
+		dynasty="Palaiologos"
+		adm=8
+		dip=9
+		mil=6}} 

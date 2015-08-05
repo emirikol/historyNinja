@@ -1,0 +1,23 @@
+owner=WKY
+controller=WKY
+add_core=WKY
+culture=aboriginal
+religion=australian_pagan
+trade_goods=fur
+capital="Long Reach"
+fort1=yes
+hre=no
+base_tax=1
+manpower=1
+citysize=1833
+discovered_by=ABE
+discovered_by=ARR
+discovered_by=KHK
+discovered_by=WKY
+discovered_by=KOI
+discovered_by=WIR
+
+1836.1.1={discovered_by=GBR owner=GBR controller=GBR remove_core=ABE add_core=GBR culture=english religion=protestant citysize=350}
+1850.1.1={citysize=1100}
+1895.3.1={culture=australian remove_core=WKY}
+1901.1.1={owner=AUS	controller=AUS add_core=AUS remove_core=GBR}

@@ -1,0 +1,43 @@
+#1844 - Xiankhouang
+
+owner = LXA
+controller = LXA
+culture = lao
+religion = buddhism
+capital = "Posavan"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 24300
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 28700 }
+1500.1.1 = { citysize = 32985 }
+1550.1.1 = { citysize = 37000 }
+1574.1.1 = { add_core = TAU } # Burmese vassal
+1579.1.1 = { revolt_risk = 5 } # Revolt against vassalization
+1580.1.1 = { revolt_risk = 0 }
+1582.1.1 = { owner = VIE controller = VIE add_core = VIE } # After the Burmese attack, Luang Prabang & Vientiane ruled in place of Lane Xang
+1593.1.1 = { revolt_risk = 4 } # Revolt against Burmese vassalization
+1600.1.1 = { citysize = 42888 }
+1603.1.1 = { revolt_risk = 0 remove_core = TAU }
+1627.1.1 = { revolt_risk = 6 }
+1633.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 48700 }
+1694.1.1 = {	owner = DAI
+		controller = DAI
+		add_core = DAI
+	   } # Under vietnamese rule after Soulingna Vongsa's death
+1700.1.1 = { citysize = 50900 }
+1707.1.1 = {	owner = VIE
+		controller = VIE
+		remove_core = LXA
+	   	remove_core = DAI
+	   } # Declared independent, Lan Xang was partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+1750.1.1 = { citysize = 52250 }
+1778.1.1 = { add_core = AYU } # Vassal state to Siam
+1780.1.1 = { revolt_risk = 4 }
+1800.1.1 = { citysize = 54570 }

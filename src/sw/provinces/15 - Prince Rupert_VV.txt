@@ -1,0 +1,21 @@
+culture=aleutian
+religion=ind_pagan
+capital="Rupertovo"
+trade_goods=naval_supplies
+hre=no
+base_tax=1
+manpower=1
+native_size=5
+native_ferocity=1
+native_hostileness=6
+discovered_by=COK
+
+1741.1.1={discovered_by=RUS} # Vitus Bering
+1778.1.1={discovered_by=GBR} # James Cook
+1786.1.1={discovered_by=FRA} # Jean Francois la Perouse
+1788.1.1={owner=GBR	controller=GBR culture=english religion=protestant citysize=400
+capital="Prince Rupert"} # John Meares explored Notka sound & took it in his possession
+1795.6.1={citysize=1000 fort1=yes}
+1819.1.1={add_core=GBR}
+1862.3.1={culture=canadian}
+1867.7.1={controller=CAN owner=CAN add_core=CAN remove_core=GBR} # Dominion of Canada founded

@@ -1,0 +1,16 @@
+culture=penutian 
+religion=ind_pagan
+capital="Bakarovo" 
+trade_goods=fur 
+hre=no 
+base_tax=3 
+manpower=1 
+discovered_by=COK
+discovered_by=PEO
+discovered_by=SAL
+
+1543.1.1={discovered_by=SPA} # Sighted by Spanish explorers
+1814.12.24={owner=GBR controller=GBR citysize=1000 culture=english capital="Baker City" religion=protestant fort1=yes} # British control after the War of 1812
+1846.12.18={owner=USA controller=USA add_core=USA} # Oregon Compromise
+1862.3.1={culture=canadian}
+1900.1.1={fort2=yes}

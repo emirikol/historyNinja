@@ -1,0 +1,41 @@
+#531 - Goa
+
+owner = VIJ
+controller = VIJ
+culture = marathi
+religion = hinduism
+capital = "Goa"
+trade_goods = spices
+hre = no
+base_tax = 8
+manpower = 3
+citysize = 2580
+add_core = VIJ
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1450.1.1 = { citysize = 2800 }
+1469.1.1 = {	owner = BAH
+		controller = BAH
+		add_core = BAH
+		remove_core = VIJ
+	   } # Conquered by the Bahmani sultans
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 3100 }
+1510.1.1 = {	owner = POR
+		controller = POR
+	   } # Conquered by Afonso de Albuquerque
+1518.1.1 = { remove_core = BAH } # The breakup of the Bahmani sultanate
+1535.1.1 = { add_core = POR }
+1550.1.1 = { citysize = 3700 marketplace = yes }
+#1580.1.1 = { customs_house = yes }
+1600.1.1 = { citysize = 4300 }
+1650.1.1 = { citysize = 5700 }
+1674.1.1 = { add_core = MAR } # Maratha Empire
+1700.1.1 = { citysize = 6200 }
+1715.1.1 = { tax_assessor = yes }
+1750.1.1 = { citysize = 7500 }
+1800.1.1 = { citysize = 9100 }
+1818.6.3 = { remove_core = MAR }

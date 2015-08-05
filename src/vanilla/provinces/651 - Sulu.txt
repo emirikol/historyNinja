@@ -1,0 +1,36 @@
+#651 - Sulu
+
+culture = filipino
+religion = sunni
+capital = "Jolo"
+trade_goods = unknown
+hre = no
+base_tax = 2
+manpower = 1
+native_size = 5
+native_ferocity = 0.5
+native_hostileness = 1
+discovered_by = chinese
+
+1450.1.1 = { owner = SUL
+	     controller = SUL
+	     add_core = SUL
+	     citysize = 3870
+	     fort1 = yes
+		 trade_goods = fish
+	   } # The Sulu Sultanate
+1500.1.1 = { citysize = 4975 }
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1550.1.1 = { citysize = 5575 }
+1600.1.1 = { citysize = 6260 }
+1638.1.1 = {	owner = SPA
+		controller = SPA
+		fort1 = yes
+	   } # Spanish occupation
+1646.1.1 = {	owner = SUL
+		controller = SUL
+	   }
+1650.1.1 = { citysize = 6810 }
+1700.1.1 = { citysize = 7422 }
+1750.1.1 = { citysize = 8340 }
+1800.1.1 = { citysize = 8800 }

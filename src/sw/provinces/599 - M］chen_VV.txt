@@ -1,0 +1,52 @@
+owner=MCR
+controller=MCR
+culture=macromani
+religion=odin
+hre=no
+cot=no
+base_tax=14
+trade_goods=coal
+manpower=3
+capital="München"
+fort1=yes
+citysize=6000
+discovered_by=RME  
+discovered_by=RMP
+discovered_by=AVE
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+451.6.1={owner=BAV controller=BAV add_core=BAV culture=danube_bavarian religion=early}
+788.1.1={owner=HFR controller=HFR add_core=HFR}
+799.12.24={religion=catholic}
+843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
+918.12.24={owner=BAV controller=BAV religion=catholic citysize=8000 
+remove_core=EHF discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1200.1.1={citysize=10000 fort2=yes}
+1453.1.1={marketplace=yes}
+1520.1.1={constable=yes}
+1525.1.1={temple=yes} # Completion of the Frauenkirche (Tower tops/Welsche Hauben)
+1565.1.1={regimental_camp=yes}
+1592.1.1={workshop=yes} # Hofbräuhaus München 
+1620.1.1={courthouse=yes}
+1704.8.13={controller=HAB owner=HAB} # Bavaria is conquered by the Emperor, is however 10 years later restored for the balance of power
+1714.9.7={controller=BAV owner=BAV}
+1742.2.1={controller=HAB} # Austrian troops take Munich and Bavaria
+1745.1.1={controller=BAV} # Against Peace and their vote in the Emperor election Bavaria is returned to the Wittelsbachs
+1777.1.1={revolt_risk=3} # Bavarian line of the Wittlelsbach family dies out and is replaced by the Platinate branch of the family. The people in Munich hate the new duke.
+1779.1.1={revolt_risk=0}
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1871.1.1={owner=GRI controller=GRI add_core=GRI} # German Empire Founded
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1933.1.30={owner=NAZ controller=NAZ add_core=NAZ} # Nazis take the might
+1945.5.8={owner=GER controller=GER remove_core=NAZ} # end of the 2nd WW

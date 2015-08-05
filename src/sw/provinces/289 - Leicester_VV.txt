@@ -1,0 +1,56 @@
+owner=ERT
+controller=ERT
+add_core=ERT
+culture=trinobantes
+religion=droid
+hre=no
+base_tax=1
+trade_goods=grain
+manpower=1
+capital="Leicester"
+citysize=1000
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=ERT
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+43.6.1={owner=RME controller=RME add_core=RME}
+61.9.1={revolt={type=nationalist_rebels size=5}} # Boudiccia revolt
+61.9.15={revolt={}}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+410.6.1={owner=ELM controller=ELM add_core=ELM remove_core=RMP culture=elmet religion=early}
+600.6.1={owner=WSS controller=WSS add_core=WSS culture=wessex religion=early remove_core=ERT}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
+878.1.1={owner=DAN controller=DAN}
+878.5.1={owner=WSS controller=WSS}
+927.1.1={owner=ENG controller=ENG add_core=ENG}
+1066.1.1={owner=VIK controller=VIK}
+1080.1.1={owner=NRM controller=NRM}
+1096.6.1={university=yes} # Oxford University
+1100.1.1={owner=ENG controller=ENG culture=english}
+1453.1.1={revolt_risk=5} # Start of the War of the Roses
+1461.6.1={revolt_risk=2} # Coronation of Edward IV
+1467.1.1={revolt_risk=5} # Rivalry between Edward IV & Warwick
+1471.1.1={revolt_risk=8} # Unpopularity of Warwick & War with Burgundy
+1471.5.4={revolt_risk=2} # Murder of Henry VI & Restoration of Edward IV
+1483.6.26={revolt_risk=8} # Revulsion at Supposed Murder of the Princes in the Tower
+1485.8.23={revolt_risk=0} # Battle of Bosworth Field & the End of the War of the Roses
+1500.1.1={marketplace=yes} # Estimated
+1560.1.1={religion=anglican}
+1600.1.1={fort2=yes}
+1642.9.10={revolt={type=revolutionary_rebels size=0} controller=REB}
+1642.10.24={revolt={} controller=ENG}
+1707.5.12={owner=GBR controller=GBR	add_core=GBR remove_core=ENG}

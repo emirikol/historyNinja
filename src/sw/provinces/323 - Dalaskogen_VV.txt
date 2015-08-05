@@ -1,0 +1,30 @@
+culture=swedish
+religion=odin
+hre=no
+base_tax=1
+trade_goods=grain
+manpower=1
+capital="Mora Socken"
+
+415.1.1={discovered_by=VIK}
+810.1.1={owner=VIK controller=VIK add_core=VIK culture=normand fort1=yes citysize=1200}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1080.1.1={religion=catholic}
+1200.1.1={owner=SWE controller=SWE add_core=SWE remove_core=VIK culture=swedish}
+1434.6.1={revolt={type=nationalist_rebels size=2} controller=REB} # Engelbrekt rebellion
+1448.6.20={revolt={} controller=SWE} # Karl VIII is elected king of Sweden
+1450.1.1={citysize=1400}
+1480.1.1={citysize=1600}
+1510.1.1={citysize=1900}
+1527.6.1={religion=protestant}
+1560.1.1={citysize=2300}
+1607.1.1={trade_goods=copper} # St.Kopparberg collaborates with the State
+1612.1.1={regimental_camp=yes} #Dalregementet
+1612.1.1={fort2=yes} # estimated
+1617.1.1={base_tax=4} #Copper is king!
+1635.1.1={courthouse=yes} #minor court belonging to Svea Hovratt
+1650.1.1={citysize=2800}
+1700.1.1={workshop=yes} #Local production explodes
+1720.1.1={citysize=3500}
+1780.1.1={citysize=3800}
+1810.1.1={citysize=4000}

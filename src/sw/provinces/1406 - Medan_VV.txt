@@ -1,0 +1,36 @@
+culture=malayan
+religion=animism
+capital="Medan"
+trade_goods=fish
+hre=no
+base_tax=3
+manpower=2
+add_core=ATJ
+discovered_by=ATJ
+discovered_by=MLC
+discovered_by=AYU
+discovered_by=MAJ
+discovered_by=BLI
+discovered_by=MKS
+discovered_by=BEI
+discovered_by=indian
+discovered_by=muslim
+discovered_by=KHE
+
+1297.1.1={owner=ATJ controller=ATJ religion=sunni add_core=ATJ citysize=1000 fort1=yes}
+1405.1.1={discovered_by=MNG}
+1450.1.1={citysize=1540}
+1500.1.1={citysize=1900}
+1509.1.1={discovered_by=POR}
+1550.1.1={citysize=2544}
+1590.1.1={capital="Kampung Medan"}
+1600.1.1={citysize=2997}
+1650.1.1={citysize=3524}
+1658.1.1={owner=NED controller=NED} # The Dutch gradually gained control of Sumatra
+1683.1.1={add_core=NED}
+1700.1.1={citysize=4155}
+1750.1.1={citysize=4866}
+1800.1.1={citysize=5600}
+1942.2.1={controller=JAP owner=JAP}
+1944.1.1={controller=NED owner=NED}
+1949.12.27={owner=IDO controller=IDO add_core=IDO remove_core=NED}

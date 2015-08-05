@@ -1,0 +1,32 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=1
+innovative_narrowminded=1
+mercantilism_freetrade=3
+offensive_defensive=1
+land_naval=1
+quality_quantity=1
+serfdom_freesubjects=-3
+technology_group=near_east
+primary_culture=nabatean
+religion=groman
+capital=922	# Petra
+
+
+40.1.15={
+	monarch={
+		name="Malichus II"
+		dynasty="Soter"
+		adm=6
+		dip=3
+		mil=7}}
+		
+70.1.15={
+	monarch={
+		name="Rabbel II"
+		dynasty="Soter"
+		adm=6
+		dip=4
+		mil=7}}
+		
+660.6.1={religion=cophtic technology_group=eastern}

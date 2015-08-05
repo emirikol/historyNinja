@@ -1,0 +1,85 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=gallic
+religion=groman
+capital="Arlon"
+citysize=4500
+hre=no
+base_tax=3
+trade_goods=wood
+manpower=3
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+354.6.1={owner=HFR controller=HFR culture=frankish religion=odin remove_core=RMP}
+476.5.1={add_core=HFR religion=early}
+799.12.24={religion=catholic}
+843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=wallonian}
+870.6.1={remove_core=LHT owner=HAI controller=HAI add_core=HAI}
+962.2.2={hre=yes}
+1428.7.3={owner=BUR controller=BUR add_core=BUR} # The Reconciliation of Delft
+1453.1.1={add_core=FRA}
+1477.1.5={owner=HAB controller=HAB add_core=HAB remove_core=BUR} # Charles the Bold dies, Lowlands to Austria
+1500.1.1={marketplace=yes}
+1512.1.1={fort2=yes}
+1519.1.14={owner=SPA controller=SPA add_core=SPA remove_core=HAB}
+1529.8.3={remove_core=FRA} # 'Ladies Peace' (Damesvrede) of Cambrai: France renounces its claims
+1535.1.1={courthouse=yes}
+1540.1.1={textile=yes}
+1559.5.12={revolt_risk=3} # New bishoprics established in the Lowlands create an outrage
+1566.8.1={revolt_risk=4} # 'Beeldenstorm' at hand
+1566.8.10={revolt_risk=0 revolt={type=heretic_rebels size=1} controller=REB} # 'Beeldenstorm' also hits Hainaut
+1567.1.8={revolt={} controller=SPA} # Spain is back in control
+1567.9.10={revolt_risk=5} # Counts of Egmont & Hoorne arrested
+1568.6.5={revolt_risk=7} # Counts of Egmont & Hoorne beheaded
+1569.1.1={revolt_risk=10} # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1={revolt_risk=13 constable=yes} # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.5.24={revolt={type=nationalist_rebels size=2} controller=REB} # Louis of Nassau captures Mons
+1572.8.1={revolt={} controller=SPA} # Don Felipe takes back Mons
+1577.2.12={revolt_risk=5} # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1579.1.6={revolt_risk=0} # Union of Arras established
+1630.1.1={workshop=yes} # Start of switch to industry
+1635.1.1={controller=FRA} # French troops capture parts of the Southern Lowlands
+1648.1.30={controller=SPA} # Peace of Munster/Westphalia
+1650.1.1={trade_goods=iron textile=no} # Focus more and more on iron & coal industry
+1665.9.17={add_core=FRA} # Louis XIV's father-in-law, Philip IV of Spain, dies
+1667.9.25={controller=FRA} # Maréchal captures alot of cities in the religion for Louis XIV
+1668.5.2={controller=SPA} # Peace of Aachen
+1672.5.5={controller=FRA} # France blitzes through the Lowlands in the Franco-Dutch War
+1678.9.19={controller=SPA} # Peace of Nijmegen (France-Spain)
+1692.1.1={controller=FRA} # France takes Mons, Halle and others in the War of the Grand Alliance
+1695.9.1={controller=SPA} # William of Orange takes back the religion for Spain
+1713.4.11={owner=HAB controller=HAB add_core=HAB remove_core=SPA} # Treaty of Utrecht
+1715.9.1={remove_core=FRA} # Louis XIV passes away
+1730.1.1={customs_house=yes}
+1744.4.1={controller=FRA} # France captures Hainaut in the Austrian War of Succession
+1744.7.1={controller=HAB} # France withdraws
+1746.10.11={controller=FRA} # Marechal Saxe launches a succesful offensive
+1748.10.18={controller=HAB} # Peace of Aachen
+1750.1.1={tax_assessor=yes}
+1780.1.1={regimental_camp=yes}
+1792.11.6={controller=RFR} # Conquered by the French troops under Dumouriez
+1793.3.18={controller=HAB} # Reconquered by Prince Josias of Coburg
+1797.10.17={owner=RFR controller=RFR add_core=RFR remove_core=HAB} # The Treaty of Campo Formio, the Austrian Netherlands are ceded to France 
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.16={owner=NED controller=NED add_core=NED remove_core=FRA} # The United Kingdom of the Netherlands
+1830.1.1={add_core=BEL owner=BEL controller=BEL} # belgian revolution
+1892.1.1={trade_goods=steel}
+1940.5.28={owner=NAZ controller=NAZ} # occupied by Nazi-Germany
+1944.9.1={owner=BEL controller=BEL} # Nazis leave Belgium

@@ -1,0 +1,32 @@
+government=duchy
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-1
+quality_quantity=-1
+serfdom_freesubjects=-1
+primary_culture=bulgarian
+religion=catholic
+add_accepted_culture=umbrian
+add_accepted_culture=lombard
+technology_group=latin
+historical_friend=ATH
+historical_friend=MOE
+historical_friend=KNI
+historical_friend=KSL
+historical_friend=ACH
+historical_friend=NAX
+historical_friend=LIC
+capital=2024	# Plovdiv
+
+
+1204.4.14={
+	monarch={
+		name="Renier of Trit."
+		adm=5
+		dip=5
+		mil=6
+	}
+}

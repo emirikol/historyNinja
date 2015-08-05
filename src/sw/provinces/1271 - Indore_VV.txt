@@ -1,0 +1,28 @@
+owner=SAK
+controller=SAK
+add_core=SAK
+culture=saka
+religion=tangra
+capital="Indore"
+fort1=yes
+trade_goods=cotton
+hre=no
+base_tax=4
+manpower=2
+citysize=7000
+discovered_by=indian
+discovered_by=muslim
+discovered_by=SEV
+discovered_by=PAH
+discovered_by=SAK
+discovered_by=KAL
+
+210.6.1={owner=SEV controller=SEV add_core=SEV culture=satavahana remove_core=SAK}
+403.6.1={owner=VAK controller=VAK add_core=VAK culture=vakatakian religion=buddhism remove_core=SEV}
+565.6.1={owner=GUJ controller=GUJ add_core=GUJ culture=gujarati religion=hinduism}
+1399.6.1={owner=RAJ controller=RAJ add_core=RAJ culture=rajput remove_core=GUJ}
+1450.1.1={citysize=7500}
+1500.1.1={citysize=8240}
+1550.1.1={citysize=9430}
+1600.1.1={citysize=10655}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=RAJ}

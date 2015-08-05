@@ -1,0 +1,9 @@
+discovered_by=RME
+discovered_by=RMP
+discovered_by=GEH
+discovered_by=DAC
+
+350.6.1={discovered_by=eastern discovered_by=BYZ}
+630.6.1={discovered_by=BGK}
+843.6.1={discovered_by=latin}
+866.6.1={discovered_by=BUL}

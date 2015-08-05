@@ -1,0 +1,415 @@
+government=principality
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-1
+offensive_defensive=-1
+land_naval=-3
+quality_quantity=2
+serfdom_freesubjects=-5
+primary_culture=kievan_rus
+religion=perun
+technology_group=eastern
+historical_friend=BYZ
+capital=958	# Kiev
+
+882.1.1={
+	monarch={
+		name="Oleg"
+		dynasty="Rurikovich"
+		adm=5
+		dip=8
+		mil=8}}
+
+912.1.1={
+	monarch={
+		name="Igor"
+		dynasty="Rurikovich"
+		adm=4
+		dip=2
+		mil=6}}
+
+945.1.1={
+	monarch={
+		name="Svetoslav"
+		dynasty="Rurikovich"
+		adm=8
+		dip=6
+		mil=9}}
+
+972.1.1={
+	monarch={
+		name="Iaropolk"
+		dynasty="Rurikovich"
+		adm=5
+		dip=4
+		mil=5}}
+
+980.1.1={
+	monarch={
+		name="Vladimir"
+		dynasty="Rurikovich"
+		adm=7
+		dip=5
+		mil=6}}
+
+988.6.1={religion=orthodox}
+
+1015.1.1={
+	monarch={
+		name="Sviatopolk"
+		dynasty="Rurikovich"
+		adm=3
+		dip=4
+		mil=6}}
+
+1018.5.30={
+	monarch={
+		name="Iaroslav"
+		dynasty="Rurikovich"
+		adm=5
+		dip=5
+		mil=8}}
+
+1052.1.1={
+	monarch={
+		name="Iziaslav"
+		dynasty="Rurikovich"
+		adm=4
+		dip=4
+		mil=6}}
+
+1054.1.1={
+	monarch={
+		name="Vsevolod"
+		dynasty="Rurikovich"
+		adm=3
+		dip=5
+		mil=7}}
+
+1093.1.1={
+	monarch={
+		name="Sviatopolsk II"
+		dynasty="Rurikovich"
+		adm=4
+		dip=6
+		mil=8}}
+
+1113.1.1={
+	monarch={
+		name="Vladimir II"
+		adm=4
+		dip=8
+		mil=7}}
+
+1125.1.1={
+	monarch={
+		name="Mstislav"
+		dynasty="Rurikovich"
+		adm=4
+		dip=8
+		mil=7}}
+		
+1132.6.1={
+	monarch={
+		name="Yaropolk II"
+		dynasty="Rurikovich"
+		adm=5
+		dip=8
+		mil=7}}
+		
+1139.6.1={
+	monarch={
+		name="Vsevolod II"
+		dynasty="Rurikovich"
+		adm=6
+		dip=7
+		mil=7}}
+		
+1146.3.1={
+	monarch={
+		name="Igor II"
+		dynasty="Rurikovich"
+		adm=6
+		dip=9
+		mil=4}}
+		
+1146.6.1={
+	monarch={
+		name="Iziaslav II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=6}}
+
+1149.6.1={
+	monarch={
+		name="Yuri the Long-arm"
+		dynasty="Rurikovich"
+		adm=6
+		dip=6
+		mil=6}}
+		
+1154.6.1={
+	monarch={
+		name="Iziaslav III"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=6}}
+
+1159.6.1={
+	monarch={
+		name="Rostislav I"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=6}}
+		
+1167.6.1={
+	monarch={
+		name="Mstislav II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=6}}
+		
+1169.6.1={
+	monarch={
+		name="Gleb"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=6}}
+		
+1171.6.1={
+	monarch={
+		name="Vladimir III Mstislavich"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=6}}
+		
+1171.11.1={
+	monarch={
+		name="Mikhail"
+		dynasty="Rurikovich"
+		adm=7
+		dip=9
+		mil=6}}
+		
+1171.12.1={
+	monarch={
+		name="Roman I"
+		dynasty="Rurikovich"
+		adm=6
+		dip=9
+		mil=6}}
+		
+1173.6.1={
+	monarch={
+		name="Vsevolod the Big Nest"
+		dynasty="Rurikovich"
+		adm=9
+		dip=9
+		mil=6}}
+		
+1173.9.1={
+	monarch={
+		name="Ryurik"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1174.6.1={
+	monarch={
+		name="Svyatoslav III"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1174.12.1={
+	monarch={
+		name="Yaroslav II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1175.4.1={
+	monarch={
+		name="Roman I"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1177.6.1={
+	monarch={
+		name="Svyatoslav III"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1180.6.1={
+	monarch={
+		name="Yaroslav II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1180.9.1={
+	monarch={
+		name="Ryurik"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1182.6.1={
+	monarch={
+		name="Svyatoslav III"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1194.9.1={
+	monarch={
+		name="Ryurik"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1202.3.1={
+	monarch={
+		name="Ingvar I"
+		dynasty="Rurikovich"
+		adm=6
+		dip=6
+		mil=6}}
+		
+1202.9.1={
+	monarch={
+		name="Ryurik"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1203.9.1={
+	monarch={
+		name="Roman II The Great"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1204.9.1={
+	monarch={
+		name="Rostislav II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1206.6.1={
+	monarch={
+		name="Ryurik"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1206.9.1={
+	monarch={
+		name="Vsevolod IV"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1207.6.1={
+	monarch={
+		name="Ryurik"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1210.6.1={
+	monarch={
+		name="Vsevolod IV"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=7}}
+		
+1214.3.1={
+	monarch={
+		name="Ingvar I"
+		dynasty="Rurikovich"
+		adm=6
+		dip=6
+		mil=6}}
+
+1214.7.1={
+	monarch={
+		name="Mstislav III"
+		dynasty="Rurikovich"
+		adm=6
+		dip=6
+		mil=6}}
+		
+1223.6.1={
+	monarch={
+		name="Vladimir IV"
+		dynasty="Rurikovich"
+		adm=6
+		dip=6
+		mil=6}}
+		
+1235.6.1={
+	monarch={
+		name="Izyaslav IV"
+		dynasty="Rurikovich"
+		adm=6
+		dip=6
+		mil=6}}
+		
+1236.7.1={
+	monarch={
+		name="Yaroslav II"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=6}}
+		
+1238.7.1={
+	monarch={
+		name="Michael of Chernigov"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=6}}
+		
+1239.2.1={
+	monarch={
+		name="Rostislav III"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=6}}
+		
+1239.9.1={
+	monarch={
+		name="Daniel of Galicia"
+		dynasty="Rurikovich"
+		adm=7
+		dip=7
+		mil=6}}

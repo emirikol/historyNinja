@@ -1,0 +1,41 @@
+owner=PHT
+controller=PHT
+add_core=PHT
+culture=parthian
+religion=zoro
+capital="Isfahan"
+trade_goods=spices
+hre=no
+cot=yes
+base_tax=3
+manpower=3
+fort1=yes
+citysize=10267
+discovered_by=PER
+discovered_by=PHT
+
+224.6.1={owner=PER controller=PER add_core=PER culture=persian remove_core=PHT}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA religion=shiite cot=no remove_core=PER}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1050.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1205.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ}
+1256.6.1={owner=IKH controller=IKH add_core=IKH remove_core=KWZ}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH remove_core=SEJ}
+1449.1.1={owner=QAR	controller=QAR add_core=QAR remove_core=TIM} # Fars and surroundings to Qara Quyunlu
+1458.9.1={revolt_risk=7} # Civil war in Qara Quyunlu
+1458.12.1={revolt_risk=0}
+1468.2.1={owner=TIM	controller=TIM add_core=TIM	remove_core=QAR} # Taken over by the Timurids
+1468.12.1={revolt_risk=4} # Pro-Qara Quyunly rebellion
+1469.1.1={owner=AKK	controller=AKK add_core=AKK	remove_core=TIM}
+1470.1.1={revolt_risk=0}
+1500.1.1={discovered_by=TUR}
+1504.1.1={owner=PER controller=PER add_core=PER remove_core=AKK} # The Safavids took over
+1550.1.1={marketplace=yes temple=yes} # Golden age
+1580.1.1={fine_arts_academy=yes}
+1710.1.1={tax_assessor=yes}
+1747.1.1={revolt_risk=3} # Shah Nadir is killed, local khanates emerged
+1748.1.1={revolt_risk=4} # The empire began to decline
+1779.1.1={revolt_risk=0} # With the Qajar dynasty the situation stabilized
+1850.1.1={fort2=yes}
+1935.3.21={owner=IRN controller=IRN add_core=IRN remove_core=PER} # Persia is now everywhere known as Iran

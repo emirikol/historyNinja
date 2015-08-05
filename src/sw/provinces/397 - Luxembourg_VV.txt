@@ -1,0 +1,73 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=gallic
+religion=groman
+capital="Luxemburg"
+citysize=9000
+hre=no
+base_tax=3
+trade_goods=iron
+manpower=2
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+313.6.1={manpower=3 religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
+354.6.1={owner=HFR controller=HFR culture=frankish religion=odin remove_core=RMP}
+400.6.1={discovered_by=nomad_group}
+476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+799.12.24={religion=catholic}
+843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
+918.12.24={owner=LUX controller=LUX add_core=LUX culture=luxembourgish
+discovered_by=latin discovered_by=eastern discovered_by=muslim
+remove_core=EHF}
+1441.1.1={add_core=BUR} # Treaty between Elisabeth and Philip III
+1443.1.1={owner=BUR controller=BUR} # Philip III takes control
+1450.1.1={citysize=10000}
+1477.1.5={owner=HAB controller=HAB add_core=HAB remove_core=BUR} # Charles the Bold dies, Lowlands to Austria
+1519.1.14={owner=SPA controller=SPA add_core=SPA remove_core=HAB}
+1540.1.1={fort2=yes}
+1559.5.12={revolt_risk=3} # New bishoprics in the Lowlands create an outrage
+1567.9.10={revolt_risk=4} # Counts of Egmont & Hoorne arrested
+1568.6.5={revolt_risk=6} # Counts of Egmont & Hoorne beheaded
+1569.1.1={revolt_risk=8} # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1={revolt_risk=9} # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1577.2.12={revolt_risk=5} # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1579.1.6={revolt_risk=0} # Union of Arras established
+1600.1.1={courthouse=yes}
+1620.1.1={marketplace=yes}
+1659.7.1={controller=FRA} # Marechal Turenne takes control of Luxembourg
+1659.10.28={controller=SPA} # Peace of the Pyrennees
+1665.9.17={add_core=FRA} # Louis XIV's father-in-law, Philip IV of Spain, dies
+1672.5.5={controller=FRA} # France blitzes through the Lowlands in the Franco-Dutch War
+1678.9.19={controller=SPA} # Peace of Nijmegen (France-Spain)
+1684.1.1={owner=FRA controller=FRA} # Louis XIV annexes Luxembourg
+1697.9.20={owner=SPA controller=SPA} # Peace of Rijswijck
+1713.4.11={owner=HAB controller=HAB add_core=HAB remove_core=SPA} # Treaty of Utrecht
+1740.1.1={constable=yes}
+1770.1.1={tax_assessor=yes}
+1789.7.14={add_core=RFR remove_core=FRA} # The storming of the Bastille
+1792.12.1={controller=RFR} # Conquered by the French troops under Dumouriez
+1793.3.18={controller=HAB} # Reconquered by Prince Josias of Coburg
+1797.10.17={owner=RFR controller=RFR remove_core=HAB} # The Treaty of Campo Formio, Luxembourg is ceded to France 
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20={owner=RFR controller=RFR	add_core=RFR remove_core=FRA} # Napoleon enters Paris
+1815.6.9={owner=LUX controller=LUX remove_core=RFR} # Grand Duchy of Luxembourg
+1892.1.1={trade_goods=steel}
+1940.5.11={owner=NAZ controller=NAZ add_core=NAZ} # annexed by Nazi-Germany
+1944.12.1={owner=USA controller=USA}
+1945.5.8={owner=LUX controller=LUX remove_core=NAZ} # end of the 2. WW, independent again

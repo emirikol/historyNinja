@@ -1,0 +1,69 @@
+owner=RME
+controller=RME
+add_core=RME
+add_core=GLA
+culture=gallic
+religion=groman
+capital="Metz"
+citysize=6000
+hre=no
+base_tax=4
+trade_goods=iron
+manpower=3
+fort1=yes
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+166.6.1={culture=langobardian}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish remove_core=GLA}
+799.12.24={religion=catholic}
+843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}
+870.6.1={remove_core=LHT manpower=5 owner=FRA controller=FRA add_core=FRA culture=burgundian}
+962.2.2={hre=yes}
+1066.1.1={owner=LOR controller=LOR add_core=LOR fort2=yes}  # Fort de Joux
+1467.6.15={add_core=BUR} # Charles the Bold ascends and lays claims on Lorraine
+1475.11.30={owner=BUR controller=BUR capital="Thionville" revolt_risk=5} # Charles the Bold annexes Lorraine
+1476.1.1={revolt={type=nationalist_rebels size=0} controller=REB} # Lorraine revolts against Charles the Bold during the Burgundian-Swiss War
+1477.1.5={revolt={} owner=LOR controller=LOR capital="Metz" remove_core=BUR revolt_risk=0} # Charles the Bold dies and Lorraine is re-established
+1500.1.1={constable=yes}
+1520.1.1={temple=yes} # Saint Stephen's Cathedral finished
+1550.1.1={weapons=yes}
+1551.4.10={controller=FRA} # Franco-Habsburg War (1551-1559): France takes Metz
+1559.4.3={owner=FRA add_core=FRA} # Peace of Cateau-Cambrésis, France annexes Metz
+1588.12.1={revolt_risk=5} # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1={revolt_risk=0} # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1={regimental_camp=yes}
+1610.1.1={customs_house=yes} # Henri IV's quest to eliminate corruption and establish state control
+1633.1.1={courthouse=yes} # Le Parlement de Metz inaugurated
+1636.7.10={controller=HAB} # Habsburg forces ravage North Eastern France
+1636.10.24={controller=FRA} # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
+1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1={revolt_risk=4} # An unstable peace is concluded
+1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21={revolt_risk=0} # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1690.1.1={tax_assessor=yes}
+1720.1.1={workshop=yes}
+1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # Napoleon enters Paris
+1815.7.8={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # The French monarchy is restored
+1871.1.1={owner=GRI controller=GRI add_core=GRI add_core=RFR remove_core=FRA} # German Empire Founded
+1920.1.1={add_core=RFR owner=RFR controller=RFR} # annexed by France
+1940.6.22={owner=NAZ controller=NAZ add_core=NAZ} # during 2. WW annexed by Nazi-Germany
+1944.12.1={owner=USA controller=USA}
+1945.5.8={owner=RFR controller=RFR remove_core=NAZ remove_core=GER} # end of the 2. WW, part of France again

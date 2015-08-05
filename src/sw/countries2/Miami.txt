@@ -1,0 +1,59 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 255 33 0 }
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art
+}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare
+	creek_arquebusier
+	apache_guerilla
+	iroquis_rifle_scout
+}
+
+monarch_names={
+	"Twightwee #0"=15
+	"Mihtohseeniaki #0"=15
+	"Ouiatenon #0"=15
+	"Piankeshaw #0"=15
+	"Atchakangouen #0"=15
+	"Mengkonkia #0"=15
+	"Myaamiaki #0"=15
+	"Twatwa #0"=15
+	"Atchatchakangouen #0"=15
+	"Mengakonia #0"=15
+	}
+
+leader_names={
+	Myaamia Kilatika Pepikokia Wea
+	Myaamiaki Twatwa 
+	Atchatchakangouen Mengakonia 
+	Newcalenous Maumee
+	}
+
+ship_names={
+	Myaamia Kilatika Pepikokia Wea
+	Myaamiaki Twatwa 
+	Atchatchakangouen Mengakonia 
+	Newcalenous Maumee
+	}
+	

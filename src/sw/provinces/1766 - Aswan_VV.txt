@@ -1,0 +1,26 @@
+culture=egyptian
+religion=amon
+capital="Aswan"
+manpower=1
+trade_goods=grain
+hre=no
+base_tax=1
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=latin
+discovered_by=PHT
+discovered_by=PER
+
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+630.6.1={discovered_by=muslim}
+641.6.1={owner=ACA controller=ACA add_core=ACA culture=bedouin_arabic religion=sunni citysize=3000}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1171.6.1={owner=SAL controller=SAL add_core=SAL remove_core=ABB}
+1250.1.1={owner=MAM controller=MAM remove_core=SAL add_core=MAM culture=al_misr_arabic}
+1450.1.1={citysize=3500}
+1517.1.1={add_core=TUR remove_core=MAM} # Mamluks fall to the Ottomans but do not advance up the Nile.
+1542.1.1={owner=TUR	controller=TUR citysize=3500} # Ottomans occupy oasis
+1800.1.1={citysize=6000}
+1882.1.1={owner=GBR controller=GBR add_core=GBR remove_core=TUR} # British colony
+1922.3.15={owner=EGY controller=EGY add_core=EGY remove_core=GBR} # independence of Egypt

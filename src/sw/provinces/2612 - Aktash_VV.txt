@@ -1,0 +1,33 @@
+owner=KJU
+controller=KJU
+culture=gokturkic
+religion=tangra
+hre=no
+capital="Zhambyl"
+fort1=yes
+trade_goods=stone
+base_tax=2
+manpower=1
+citysize=1100
+discovered_by=KJU
+
+610.6.1={owner=PEC controller=PEC add_core=PEC culture=pecheneg}
+820.1.1={owner=XXX controller=XXX remove_core=PEC}
+950.6.1={discovered_by=muslim owner=SEJ controller=SEJ add_core=SEJ culture=turkish religion=sunni}
+1000.1.1={owner=CUM controller=CUM add_core=CUM culture=cumanian}
+1050.1.1={owner=SEJ controller=SEJ remove_core=CUM culture=turkish}
+1077.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ culture=khwarezm}
+1234.6.1={owner=KHA controller=KHA add_core=KHA culture=tartar remove_core=KWZ}
+1361.1.1={owner=KZH controller=KZH add_core=KZH culture=khazak remove_core=KHA}
+1450.1.1={citysize=1500}
+1500.1.1={citysize=1834}
+1550.1.1={citysize=2340 discovered_by=TUR}
+1600.1.1={citysize=3210}
+1622.1.1={discovered_by=RUS}
+1650.1.1={citysize=3867}
+1700.1.1={citysize=4280}
+1750.1.1={citysize=5270}
+1798.1.1={owner=RUS controller=RUS add_core=RUS} # The Middle horde is conquered
+1800.1.1={citysize=5848}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=KZH controller=KZH add_core=KZH remove_core=SOV remove_core=KOK} # independence from the SU

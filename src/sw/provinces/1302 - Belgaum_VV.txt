@@ -1,0 +1,39 @@
+owner=SEV
+controller=SEV
+add_core=SEV
+culture=satavahana
+religion=buddhism
+capital="Belgaum"
+trade_goods=spices
+hre=no
+base_tax=6
+manpower=3
+citysize=5100
+fort1=yes
+discovered_by=indian
+discovered_by=PHT
+discovered_by=PER
+discovered_by=SEV
+discovered_by=KHE
+discovered_by=KAL
+discovered_by=SAK
+
+405.6.1={owner=KAD controller=KAD add_core=KAD culture=kadambian religion=hinduism remove_core=SEV}
+520.6.1={owner=CYA controller=CYA add_core=CYA culture=marathi remove_core=KAD}
+753.8.1={owner=RHT controller=RHT add_core=RHT}
+950.6.1={discovered_by=muslim}
+982.6.1={owner=CYA controller=CYA remove_core=RHT}
+1200.5.1={owner=BAH controller=BAH add_core=BAH remove_core=CYA}
+1450.1.1={citysize=5500}
+1490.1.1={add_core=BIJ}
+1498.1.1={discovered_by=POR}
+1500.1.1={citysize=5950}
+1518.1.1={owner=BIJ controller=BIJ remove_core=BAH} # The Breakup of the Bahmani sultanate
+1550.1.1={citysize=6200}
+1600.1.1={citysize=7640}
+1650.1.1={citysize=8900}
+1686.1.1={owner=MUG controller=MUG add_core=MUG} # Conquered by the Mughal emperor Aurangzeb
+1718.1.1={owner=BHO controller=BHO add_core=BHO	remove_core=MUG} # The religion is ceded to Maratha Peshwa, ruled by the Bhonsle
+1818.6.3={owner=GBR controller=GBR add_core=GBR remove_core=BHO}
+1926.1.1={trade_goods=chemicals}
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

@@ -1,0 +1,23 @@
+culture=tuareg
+religion=shamanism
+trade_goods=horses
+capital="Ghadamis"
+hre=no
+base_tax=1
+manpower=1
+native_size=5
+native_ferocity=8
+native_hostileness=10
+discovered_by=RME
+discovered_by=RMP
+discovered_by=GHR
+discovered_by=MAV
+discovered_by=CEO
+
+630.6.1={discovered_by=muslim}
+985.6.1={owner=ZIR controller=ZIR add_core=ZIR add_core=TRP fort1=yes citysize=1000}
+1152.2.1={owner=XXX controller=XXX remove_core=ZIR fort1=no citysize=500}
+1912.1.1={owner=ITA controller=ITA add_core=ITA remove_core=TUR citysize=1000 fort1=yes} # Italian Colony
+1919.1.1={trade_goods=petrol} 
+1942.1.1={controller=GBR owner=GBR}
+1951.12.24={owner=LIB controller=LIB add_core=LIB remove_core=TRP remove_core=ITA}

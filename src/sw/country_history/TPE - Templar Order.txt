@@ -1,0 +1,195 @@
+government=theocratic_government
+aristocracy_plutocracy=-5
+centralization_decentralization=1
+innovative_narrowminded=2
+mercantilism_freetrade=-2
+offensive_defensive=2
+land_naval=1
+quality_quantity=-5
+serfdom_freesubjects=-3
+primary_culture=templars
+religion=catholic
+technology_group=latin
+historical_friend=PAP
+historical_friend=JER
+historical_friend=TEU
+historical_friend=KNI
+historical_friend=EDE
+historical_friend=TRC
+capital=900	# Antichoh
+
+1118.3.1={
+monarch={
+name="Hugues"
+dynasty="de Payens"
+adm=8
+dip=8
+mil=8}}
+
+1136.3.1={
+monarch={
+name="Robert"
+dynasty="de Craon"
+adm=9
+dip=8
+mil=8}}
+
+1147.3.1={
+monarch={
+name="Everard"
+dynasty="des Barres"
+adm=7
+dip=8
+mil=9}}
+
+1151.3.1={
+monarch={
+name="Bernard"
+dynasty="de Tremelay"
+adm=6
+dip=8
+mil=9}}
+
+1153.3.1={
+monarch={
+name="Andre"
+dynasty="de Montbard"
+adm=6
+dip=7
+mil=8}}
+
+1156.3.1={
+monarch={
+name="Bertrand"
+dynasty="de Blanchefort"
+adm=6
+dip=7
+mil=7}}
+
+1169.3.1={
+monarch={
+name="Philippe"
+dynasty="de Milly"
+adm=6
+dip=7
+mil=7}}
+
+1171.3.1={
+monarch={
+name="Philippe"
+dynasty="de St Amand"
+adm=6
+dip=7
+mil=7}}
+
+1179.3.1={
+monarch={
+name="Arnold"
+dynasty="Torroja"
+adm=6
+dip=6
+mil=6}}
+
+1185.3.1={
+monarch={
+name="Gerard"
+dynasty="de Ridefort"
+adm=5
+dip=6
+mil=6}} 
+
+1189.3.1={
+monarch={
+name="Robert"
+dynasty="de Sable"
+adm=5
+dip=6
+mil=6}}  
+
+1193.3.1={
+monarch={
+name="Gilbert"
+dynasty="Horal"
+adm=5
+dip=6
+mil=6}}
+
+1200.3.1={
+monarch={
+name="Phillipe"
+dynasty="de Plessis"
+adm=5
+dip=6
+mil=6}}
+
+1209.3.1={
+monarch={
+name="Guillaume"
+dynasty="de Chartres"
+adm=5
+dip=6
+mil=6}}
+
+1218.3.1={
+monarch={
+name="Pedro"
+dynasty="de Montaigu"
+adm=5
+dip=6
+mil=6}}
+
+1232.3.1={
+monarch={
+name="Armand"
+dynasty="de Perigord"
+adm=5
+dip=6
+mil=6}}
+
+1247.3.1={
+monarch={
+name="Guillaume"
+dynasty="de Sonnac"
+adm=5
+dip=6
+mil=6}} 
+ 
+1250.3.1={
+monarch={
+name="Renaud"
+dynasty="de Vichiers"
+adm=5
+dip=6
+mil=6}}  
+ 
+1256.3.1={
+monarch={
+name="Thomas"
+dynasty="Berard"
+adm=5
+dip=6
+mil=6}}    
+
+1273.3.1={
+monarch={
+name="Guillaume"
+dynasty="de Beaujeu"
+adm=5
+dip=6
+mil=6}}  
+
+1291.3.1={
+monarch={
+name="Thibaud"
+dynasty="Gaudin"
+adm=5
+dip=6
+mil=6}} 
+
+1292.3.1={
+monarch={
+name="Jacques"
+dynasty="de Molay"
+adm=5
+dip=6
+mil=6}} 

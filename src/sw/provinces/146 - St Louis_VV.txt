@@ -1,0 +1,28 @@
+owner=OSA
+controller=OSA
+add_core=OSA
+culture=cherokee
+religion=ind_pagan
+capital="Missouri"
+citysize=1000
+fort1=yes
+trade_goods=corn
+hre=no
+base_tax=2
+manpower=2
+discovered_by=OSA
+discovered_by=CKS
+discovered_by=CAD
+discovered_by=SHA
+discovered_by=ILL
+
+1684.1.1={discovered_by=FRA} # Nicolas Perrot
+1699.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic remove_core=OSA}
+1749.1.1={add_core=FRA}
+1762.1.1={owner=SPA controller=SPA culture=castillian citysize=400 remove_core=FRA trade_goods=grain}
+1764.1.1={capital="Saint Louis"}
+1787.1.1={add_core=SPA}
+1800.1.1={citysize=1500}
+1800.10.1={owner=RFR controller=RFR add_core=RFR culture=cosmopolitan_french remove_core=SPA} # Treaty of San Ildefonso
+1803.4.3={owner=USA controller=USA add_core=USA remove_core=RFR culture=american religion=protestant} # The Louisiana purchase
+1900.1.1={fort2=yes}

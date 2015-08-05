@@ -1,0 +1,130 @@
+government=tribal_federation
+aristocracy_plutocracy=-2
+centralization_decentralization=5
+innovative_narrowminded=3
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-5
+quality_quantity=3
+serfdom_freesubjects=-5
+primary_culture=uyghurish
+religion=tangra
+technology_group=nomad_group
+capital=2678
+
+744.1.1={
+	monarch={
+		name="Kuli"
+		dynasty="Peilo"
+		adm=6
+		dip=3
+		mil=7}
+}
+
+747.2.1={
+	monarch={
+		name="Bayan"
+		dynasty="Chur"
+		adm=6
+		dip=4
+		mil=6}
+}
+
+759.3.2={
+	monarch={
+		name="Tengri"
+		dynasty="Bogu"
+		adm=6
+		dip=5
+		mil=6}
+}
+
+779.4.3={
+	monarch={
+		name="Tun"
+		dynasty="Bagha"
+		adm=5
+		dip=5
+		mil=5}
+}
+
+789.5.4={
+	monarch={
+		name="Tolo Ssu"
+		dynasty="Bagha"
+		adm=5
+		dip=5
+		mil=5}
+}
+
+790.6.5={
+	monarch={
+		name="Ach O"
+		dynasty="Bagha"
+		adm=4
+		dip=5
+		mil=5}
+}
+
+795.7.6={
+	monarch={
+		name="Qutlugh"
+		dynasty="Qutlugh"
+		adm=4
+		dip=4
+		mil=5}
+}
+
+808.8.7={
+	monarch={
+		name="Pao I"
+		dynasty="Qutlugh"
+		adm=4
+		dip=4
+		mil=5}
+}
+
+821.9.8={
+	monarch={
+		name="Chung"
+		dynasty="Qutlugh"
+		adm=4
+		dip=4
+		mil=4}
+}
+
+824.10.9={
+	monarch={
+		name="Qasar"
+		dynasty="Qutlugh"
+		adm=4
+		dip=4
+		mil=4}
+}
+
+832.11.10={
+	monarch={
+		name="Hu"
+		dynasty="Qutlugh"
+		adm=4
+		dip=4
+		mil=4}
+}
+
+839.12.11={
+	monarch={
+		name="Ho"
+		dynasty="Sa"
+		adm=3
+		dip=3
+		mil=5}
+}
+
+841.1.12={
+	monarch={
+		name="Oge"
+		dynasty="Qutlugh"
+		adm=3
+		dip=3
+		mil=5}
+}

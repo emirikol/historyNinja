@@ -1,0 +1,25 @@
+culture=central_thai
+religion=buddhism
+capital="Chanthaburi"
+trade_goods=fish
+hre=no
+base_tax=2
+manpower=2
+discovered_by=chinese
+discovered_by=indian
+discovered_by=muslim
+discovered_by=KHE
+discovered_by=FUN
+
+96.6.1={owner=FUN controller=FUN add_core=FUN culture=funan citysize=6500 fort1=yes}
+802.6.1={owner=KHM controller=KHM add_core=KHM culture=khmer remove_core=FUN}
+1351.1.1={owner=AYU controller=AYU add_core=AYU culture=central_thai}
+1450.1.1={citysize=6900}
+1500.1.1={citysize=7670}
+1550.1.1={citysize=8890}
+1564.2.1={add_core=TAU} # Burmese vassal
+1584.5.3={remove_core=TAU}
+1600.1.1={citysize=10120}
+1767.4.1={revolt_risk=7} # The Ayutthaya kingdom began to crumble
+1774.1.1={revolt_risk=0}
+1932.6.24={owner=THA controller=THA add_core=THA remove_core=AYU} # Siam gets a constitution

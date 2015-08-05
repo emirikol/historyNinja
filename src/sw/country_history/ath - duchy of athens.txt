@@ -1,0 +1,214 @@
+government=duchy
+aristocracy_plutocracy=-3
+centralization_decentralization=0
+innovative_narrowminded=0
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-1
+quality_quantity=-1
+serfdom_freesubjects=-1
+primary_culture=lombard
+add_accepted_culture=greek
+religion=catholic
+technology_group=eastern
+historical_friend=LIC
+historical_friend=MOE
+historical_friend=KNI
+historical_friend=KSL
+historical_friend=ACH
+historical_friend=NAX
+historical_friend=FIL
+capital=834	#Athens
+
+
+1205.1.1={
+	monarch={ 
+		name="Otto"
+		dynasty="La Roche"
+		adm=5
+		dip=6		
+		mil=8}}
+
+1225.3.7={
+	monarch={ 
+		name="Guy I"
+		dynasty="La Roche"
+		adm=6
+		dip=6		
+		mil=7}}
+
+1263.3.7={
+	monarch={ 
+		name="John I"
+		dynasty="La Roche"
+		adm=6
+		dip=6		
+		mil=6}}
+
+1280.3.7={
+	monarch={ 
+		name="William I"
+		dynasty="La Roche"
+		adm=5
+		dip=6		
+		mil=6}}
+
+1287.3.7={
+	monarch={ 
+		name="Guy II"
+		dynasty="La Roche"
+		adm=5
+		dip=5		
+		mil=6}}
+		
+1308.3.7={
+	monarch={ 
+		name="Walter V"
+		dynasty="Brienne"
+		adm=5
+		dip=5		
+		mil=5}}		
+		
+1311.3.7={
+	monarch={ 
+		name="Joanna"
+		dynasty="Brienne"
+		adm=5
+		dip=5		
+		mil=4
+		female=yes}}			
+
+1354.3.7={
+	monarch={ 
+		name="Walter VI"
+		dynasty="Brienne"
+		adm=5
+		dip=5		
+		mil=5}}	
+
+1356.3.7={
+	monarch={ 
+		name="Isabella"
+		dynasty="Brienne"
+		adm=5
+		dip=5		
+		mil=3
+		female=yes}}
+
+1360.3.7={
+	monarch={ 
+		name="Sohier"
+		dynasty="Brienne"
+		adm=5
+		dip=5		
+		mil=5}}
+
+1367.3.7={
+	monarch={ 
+		name="Walter IV of Enghien"
+		dynasty="Brienne"
+		adm=5
+		dip=5		
+		mil=5}}
+		
+1377.1.28={
+	monarch={ 
+		name="Maria I"
+		dynasty="Jiménez"
+		dip=6
+		mil=7
+		adm=5
+		female=yes}}
+
+1388.3.7={
+	monarch={ 
+		name="Nerio I"
+		dynasty="Acciaioli"
+		adm=5
+		dip=5		
+		mil=5}}
+
+1394.3.7={
+	monarch={ 
+		name="Antonio I"
+		dynasty="Acciaioli"
+		adm=3
+		dip=4		
+		mil=5}}
+		
+1416.1.1={
+	heir={
+		name="Nerio"
+		monarch_name="Nerio II"
+		dynasty="Acciaioli"
+		birth_date=1416.1.1
+		death_date=1451.1.1
+		claim=95
+		adm=4
+		dip=4
+		mil=3
+	}
+}
+
+1435.1.1={
+	monarch={
+		name="Nerio II"
+		dynasty="Acciaioli"
+		adm=4
+		dip=4
+		mil=3
+	}
+}
+
+1439.1.1={
+	monarch={
+		name="Antonio II"
+		dynasty="Acciaioli"
+		adm=5
+		dip=4
+		mil=5
+	}
+}
+
+1441.1.1={
+	monarch={
+		name="Nerio II"
+		dynasty="Acciaioli"
+		adm=5
+		dip=5
+		mil=3
+	}
+}
+
+1441.1.1={
+	heir={
+		name="Francesco"
+		monarch_name="Francesco I"
+		dynasty="Acciaioli"
+		birth_date=1440.1.1
+		death_date=1455.1.1
+		claim=95
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+	
+
+1451.1.1={
+	monarch={
+		name="Francesco I"
+		dynasty="Acciaioli"
+		adm=5
+		dip=6
+		mil=4
+	}
+}
+
+1455.1.1={
+	monarch={
+		name="Francesco II"
+		dynasty="Acciaioli"
+		adm=7
+		dip=6
+		mil=6}}

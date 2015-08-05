@@ -1,0 +1,41 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Odessos"  
+trade_goods=fish
+hre=no
+base_tax=3
+manpower=2
+citysize=9600
+fort1=yes
+discovered_by=PHT
+discovered_by=PER
+discovered_by=RME
+discovered_by=RMP
+discovered_by=ODR
+discovered_by=GEH
+discovered_by=DAC
+discovered_by=PNO
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP culture=greek}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+680.6.1={culture=bulgarian}
+812.1.1={owner=BGK controller=BGK add_core=BGK remove_core=HSL culture=bulgarian religion=tangra}
+843.6.1={discovered_by=latin}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+971.4.5={owner=BYZ controller=BYZ capital="Odessos"}
+977.3.1={owner=BUL controller=BUL capital="Varna"}
+1001.4.1={owner=BYZ controller=BYZ capital="Odessos"}
+1201.4.1={owner=BUL controller=BUL add_core=BUL culture=bulgarian remove_core=BYZ capital="Karvuna"}
+1357.3.1={owner=BDD controller=BDD add_core=BDD}
+1395.3.1={owner=TUR controller=TUR capital="Varna"  remove_core=BDD add_core=BUL}
+1481.6.1={revolt_risk=6} # Civil war, Bayezid & Jem
+1482.7.26={revolt_risk=0} # Jem escapes to Rhodes
+1555.1.1={revolt_risk=5} # General discontent with the Janissaries' dominance
+1556.1.1={revolt_risk=0}
+1700.1.1={add_core=RBU culture=bulgarian}
+1878.3.3={owner=RBU controller=RBU remove_core=TUR} # Bulgaria gets independent

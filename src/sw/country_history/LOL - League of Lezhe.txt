@@ -1,0 +1,43 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=albanian
+religion=orthodox
+technology_group=eastern
+capital=143	# Albania
+
+
+# The League of Lezhe
+1443.3.4={
+	monarch={
+		name="Gjergj K Skanderbeg"
+		adm=9
+		dip=8
+		mil=9
+		leader={	name="Skanderbeg"            	type=general	rank=0	fire=5	shock=5	manuever=5	siege=0}
+	}
+}
+
+1468.1.18={
+	monarch={
+		name="Gjon II Kastrioti"
+		adm=6
+		dip=7
+		mil=5
+	}
+}
+
+1478.1.1={
+	monarch={
+		name="Constantino Kastrioti"
+		adm=6
+		dip=5
+		mil=4
+	}
+}

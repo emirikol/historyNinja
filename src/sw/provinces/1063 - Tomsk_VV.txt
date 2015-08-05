@@ -1,0 +1,27 @@
+owner=XIO
+controller=XIO
+add_core=XIO
+culture=gokturkic
+religion=tangra
+fort1=yes
+capital="Tomsk"
+citysize=1627
+trade_goods=coal
+hre=no
+base_tax=4
+manpower=1
+discovered_by=XIO
+discovered_by=KJU
+
+260.6.1={owner=XXX controller=XXX fort1=no remove_core=XIO citysize=12}
+748.6.1={owner=UYG controller=UYG add_core=UYG culture=uyghurish religion=tangra discovered_by=UYG fort1=yes citysize=1020}
+848.6.1={owner=XXX controller=XXX remove_core=UYG culture=mongol native_size=10 citysize=19 native_ferocity=1 native_hostileness=3 fort1=no}
+1604.1.1={discovered_by=RUS owner=RUS controller=RUS religion=orthodox culture=russian citysize=344 fort1=yes}
+1629.1.1={add_core=RUS citysize=1099}
+1650.1.1={citysize=1864}
+1700.1.1={citysize=4300}
+1750.1.1={citysize=8420}
+1800.1.1={citysize=10810}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS discovered_by=SOV} # October Revolution in Moscow
+1930.1.1={trade_goods=uranium}
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federatio

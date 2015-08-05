@@ -1,0 +1,107 @@
+government=celestial_empire
+aristocracy_plutocracy=-4
+centralization_decentralization=-2
+innovative_narrowminded=1
+mercantilism_freetrade=-4
+offensive_defensive=-2
+land_naval=-3
+quality_quantity=0
+serfdom_freesubjects=-4
+technology_group=chinese
+religion=religious_tolerance
+primary_culture=manchu
+capital=1612	# Beijing
+
+faction=temples
+faction=enuchs
+faction=bureaucrats
+
+enuchs=80
+
+1115.3.1={
+ 	monarch={
+		name="Wányán Aguda"
+		dynasty="Jin"
+		adm=8
+		dip=9
+		mil=9}}
+		
+1123.7.8={
+	monarch={
+		name="Taizong"
+		dynasty="Jin"
+		adm=8
+		dip=8
+		mil=8}}
+		
+1135.7.24={
+	monarch={
+		name="Xizong"
+		dynasty="Jin"
+		adm=7
+		dip=8
+		mil=7}}			
+
+1149.9.8={
+	monarch={
+		name="Hailingwang"
+		dynasty="Jin"
+		adm=6
+		dip=6
+		mil=6}}		
+		
+1161.8.13={
+	monarch={
+		name="Shizong"
+		dynasty="Jin"
+		adm=9
+		dip=9
+		mil=9}}	
+
+1190.5.18={
+	monarch={
+		name="Zhangzong"
+		dynasty="Jin"
+		adm=6
+		dip=6
+		mil=7}}		
+		
+1208.6.12={
+	monarch={
+		name="Weishaowang"
+		dynasty="Jin"
+		adm=5
+		dip=6
+		mil=6}}		
+		
+1213.2.28={
+	monarch={
+		name="Xuanzong"
+		dynasty="Jin"
+		adm=5
+		dip=5
+		mil=5}}		
+
+1223.9.5={
+	monarch={
+		name="Aizong"
+		dynasty="Jin"
+		adm=4
+		dip=4
+		mil=4}}	
+		
+1234.1.1={
+	monarch={
+		name="Aizong"
+		dynasty="Jin"
+		adm=4
+		dip=4
+		mil=4}}	
+		
+1234.2.8={
+	monarch={
+		name="Modi"
+		dynasty="Jin"
+		adm=4
+		dip=4
+		mil=4}}	

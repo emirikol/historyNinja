@@ -1,0 +1,95 @@
+#Country Name: Please see filename.
+
+graphical_culture=easterngfx
+
+color={21 214 0}
+
+historical_ideas={national_conscripts
+	grand_army
+	glorious_arms
+	military_drill
+	quest_for_the_new_world
+	espionage
+	battlefield_commisions
+	engineer_corps
+	national_trade_policy
+	cabinet
+	shrewd_commerce_practise
+	merchant_adventures}
+
+historical_units={haiduts
+irchigu_boils
+siege_tower
+proto_bulgarian_calv
+zhupans
+battle_ram
+
+old_bulgarian_cavalry
+early_bulgarian_man_at_arms
+tzarska_konnitza
+voivod_elite_squadron}
+
+monarch_names={
+	"Ivan Asen #3"=20
+	"Koloman #2"=20
+	"Petar #2"=20
+	"Todor #1"=20
+	"Michael #3"=15
+	"Aleksandar #1"=15
+	"Ivan #1"=15
+	"Kaloian #1"=15
+	"Georgi #2"=10
+	"Konstantin #1"=10
+	"Krum #1"=10
+	"Stracimir #1"=10
+	"Boris #2"=5
+	"Simeon #1"=5
+	"Krakra #0"=0
+	"Andrei #0"=0
+	"Angel #0"=0
+	"Atanas #0"=0
+	"Bogdan #0"=0
+	"Bogomil #0"=0
+	"Branimir #0"=0
+	"Damyan #0"=0
+	"Dimitar #0"=0
+	"Emil #0"=0
+	"Gavril #0"=0
+	"Hristo #0"=0
+	"Iordan #0"=0
+	"Kliment #0"=0
+	"Krasimir #0"=0
+	"Lazar #0"=0
+	"Marko #0"=0
+	"Mikhail #0"=0
+	"Miroslav #0"=0
+	"Nikola #0"=0
+	"Pavel #0"=0
+	"Radomir #0"=0
+	"Samuil #0"=0
+	"Vasil #0"=0
+	"Vladimir #0"=0
+	"Kormesosh #0"=0}
+
+leader_names={Krakra
+	Simeon
+	Frujin
+	Karposh
+	Ivatz
+	Karavelov
+	Botev
+	Shishman
+	Mostich}
+
+ship_names={Alhtpolo
+	Kiten Kraymorie
+	Lozenets
+	Promorsko
+	Rezovo
+	Sarafovo 
+	Sinemorets 
+	Sozopol
+	Varara}
+	
+army_names={
+	"Tzarska Cheta" "Cheta $PROVINCE$"}

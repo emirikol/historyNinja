@@ -1,0 +1,42 @@
+owner=CEL
+controller=CEL
+add_core=CEL
+culture=caledonii
+religion=droid
+hre=no
+base_tax=2
+trade_goods=fish
+manpower=1
+capital="Stirling"
+fort1=yes
+citysize=1000
+discovered_by=RME
+discovered_by=RMP
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+410.6.1={owner=PIC controller=PIC add_core=PIC culture=scottish remove_core=CEL}
+843.1.1={owner=SCO controller=SCO add_core=SCO remove_core=PIC discovered_by=latin discovered_by=eastern 
+discovered_by=muslim religion=catholic}
+1450.1.1={citysize=1600}
+1560.8.1={religion=reformed}
+1600.1.1={citysize=2500}
+1644.1.1={revolt={type=revolutionary_rebels size=2} controller=REB}
+1647.1.1={revolt={} controller=SCO} # Estimated
+1689.3.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Jacobite Rising
+1689.11.1={revolt={} controller=SCO}
+1690.1.1={fort2=yes}
+1700.1.1={citysize=4000}
+1707.5.12={owner=GBR controller=GBR add_core=GBR}
+1750.1.1={marketplace=yes regimental_camp=yes} # Marketplace, Regimental Camp Estimated

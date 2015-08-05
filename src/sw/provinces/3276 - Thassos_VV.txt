@@ -1,0 +1,33 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Thassos"
+trade_goods=fish
+hre=no
+base_tax=3
+manpower=0.5
+citysize=2500
+fort1=yes
+discovered_by=RME  
+discovered_by=RMP
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+630.6.1={discovered_by=muslim}
+1204.4.12={manpower=3 owner=KSL controller=KSL add_core=KSL}
+1224.1.1={owner=EPI controller=EPI add_core=EPI remove_core=KSL}
+1246.1.1={owner=NII controller=NII add_core=NII culture=greek remove_core=EPI}
+1261.12.23={owner=BIZ controller=BIZ add_core=BIZ remove_core=NII remove_core=BYZ} 
+1450.1.1={citysize=3500}
+1453.5.29={owner=MOE controller=MOE add_core=TUR} # The fall of the Byzantine Empire
+1462.1.1={owner=TUR controller=TUR add_core=TUR}
+1650.1.1={citysize=4570 culture=neo_greek}
+1774.7.21={controller=TUR}
+1800.1.1={citysize=6897}
+1912.10.5={controller=GRE owner=GRE remove_core=TUR} # to Greece
+1941.4.23={owner=RBU controller=RBU culture=bulgarian} # returned to Bulgaria
+1944.1.1={owner=GRE controller=GRE culture=neo_greek} # Bulgarians leave Greecece

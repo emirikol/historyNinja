@@ -1,0 +1,60 @@
+government=constitutional_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=4
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=0
+land_naval=-3
+quality_quantity=0
+serfdom_freesubjects=-4
+primary_culture=slovak
+religion=catholic
+capital=266	# 
+technology_group=latin
+
+1950.1.1={religion=religious_tolerance}
+
+1993.1.1={
+	monarch={
+		name="Vladimír Meciar"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+1994.3.16={
+	monarch={
+		name="Jozef Moravcík"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+1994.12.13={
+	monarch={
+		name="Vladimír Meciar"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+1998.10.1={
+	monarch={
+		name="Mikuláš Dzurinda"
+		adm=5
+		dip=5
+		mil=6
+	}
+}
+
+2006.7.1={
+	monarch={
+		name="Robert Fico"
+		adm=5
+		dip=5
+		mil=6
+	}
+}

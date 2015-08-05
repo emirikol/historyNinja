@@ -1,0 +1,42 @@
+owner=SRM
+controller=SRM
+add_core=SRM
+culture=sarmathian
+religion=zoro
+hre=no
+base_tax=3
+trade_goods=grain
+manpower=2
+capital="Kursk"
+fort1=yes
+citysize=1000
+discovered_by=latin
+discovered_by=eastern
+discovered_by=muslim
+discovered_by=SRM
+discovered_by=HSL
+discovered_by=PHU
+
+267.6.1={owner=HNU controller=HNU culture=huns religion=tangra add_core=HNU discovered_by=HNU remove_core=SRM}
+451.6.1={manpower=2 owner=TIV controller=TIV add_core=TIV culture=tivertzi religion=perun remove_core=HNU discovered_by=TIV}
+630.6.1={discovered_by=BGK}
+882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=TIV discovered_by=KIV}
+1132.1.1={manpower=3 owner=GVR controller=GVR remove_core=KIV add_core=GVR discovered_by=GVR}
+1236.6.1={manpower=2 owner=KHA controller=KHA add_core=KHA remove_core=GVR discovered_by=KHA}
+1242.6.1={owner=GOL controller=GOL add_core=GOL remove_core=KHA discovered_by=GOL}
+1299.1.1={owner=MOS controller=MOS add_core=MOS remove_core=GOL discovered_by=MOS}
+1503.1.1={controller=MOS}
+1503.3.21={owner=MOS add_core=MOS}
+1503.3.22={owner=RUS controller=RUS add_core=RUS remove_core=MOS}
+1598.1.1={revolt_risk=5} # "Time of troubles"
+1613.1.1={revolt_risk=0} # Order returned, Romanov dynasty
+1618.12.11={owner=POL controller=POL add_core=POL remove_core=RUS} # Truce of Deulino
+1648.1.1={revolt={type=nationalist_rebels size=0} controller=REB add_core=ZAZ} # Chmielnicki Rebellion
+1654.1.1={revolt={} controller=POL remove_core=ZAZ}
+1657.1.1={owner=RUS controller=RUS add_core=RUS remove_core=POL}
+1794.3.24={revolt_risk=5} # Kosciuszko uprising, minimize the Russian influence
+1794.11.16={revolt_risk=0}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1941.12.1={owner=NAZ controller=NAZ}
+1944.4.1={owner=SOV controller=SOV}
+1991.1.1={owner=UKR controller=UKR add_core=UKR remove_core=SOV} # independence of the Ukraine

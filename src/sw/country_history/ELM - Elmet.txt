@@ -1,0 +1,16 @@
+government=duchy
+aristocracy_plutocracy=-3
+centralization_decentralization=-1
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-5
+quality_quantity=0
+serfdom_freesubjects=4
+primary_culture=elmet
+religion=early
+technology_group=barbarian
+capital=243
+
+
+650.6.1={technology_group=anglo}

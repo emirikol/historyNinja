@@ -1,0 +1,28 @@
+culture=senegalian
+manpower=2
+religion=animism
+capital="Matam"
+trade_goods=slaves
+hre=no
+base_tax=3
+discovered_by=SOF
+discovered_by=ASH
+discovered_by=SON
+native_size=80
+native_ferocity=4.5
+native_hostileness=9
+
+1235.6.1={owner=MAL controller=MAL add_core=MAL discovered_by=MAL citysize=7000 fort1=yes}
+1450.1.1={citysize=8000}
+1493.1.1={revolt_risk=4} # Fulani incursions begin
+1495.1.1={revolt={type=revolutionary_rebels size=1} controller=REB} # Koly Tengella proclaims Fulani state of Futa Toro under Denyanke dynasty, Mali never regains control
+1590.1.1={revolt={}} #Samba Lamu ends instability in Futa Toro, begins period of expansion
+1600.1.1={citysize=0 native_size=80 native_ferocity=4.5 native_hostileness=9 owner=XXX controller=XXX remove_core=MAL
+discovered_by=MOR fort1=no} #Collapse of Mali State
+1620.1.1={discovered_by=latin} #by this point European traders on coast aware of political situation along Upper Senegal River
+1784.1.1={religion=sunni revolt_risk=2} #beginning of intense conversion to Islam in religion, religion of province changes to Sunni
+1809.1.1={owner=GBR controller=GBR fort1=yes citysize=1100}
+1816.1.1={owner=FRA controller=FRA}
+1840.1.1={add_core=FRA}
+1871.1.1={owner=RFR controller=RFR add_core=RFR remove_core=RFR}
+1960.1.1={owner=SGL controller=SGL add_core=SGL remove_core=RFR}

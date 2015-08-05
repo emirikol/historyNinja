@@ -1,0 +1,68 @@
+owner=AKE
+controller=AKE
+add_core=AKE
+culture=aksum
+religion=amon
+capital="Matamma"
+fort1=yes
+citysize=4500
+manpower=2.5
+trade_goods=grain
+hre=no
+base_tax=2
+discovered_by=ETO
+discovered_by=ADA
+discovered_by=muslim
+discovered_by=AKE
+discovered_by=NBU
+
+950.6.1={discovered_by=muslim owner=ETO controller=ETO add_core=ETO culture=ethiopian religion=cophtic remove_core=AKE}
+1450.1.1={citysize=5000}
+1500.1.1={citysize=5500}
+1535.1.1={revolt_risk=7} #Raids by Ahmad Gran
+1536.1.1={revolt_risk=0}
+1537.1.1={revolt_risk=7} #Raids by Ahmad Gran
+1538.1.1={revolt_risk=0}
+1539.1.1={revolt_risk=7} #Raids by Ahmad Gran
+1540.1.1={revolt_risk=0}
+1542.1.1={revolt_risk=7} #Raids by Ahmad Gran
+1543.1.1={revolt_risk=0}
+1550.1.1={citysize=6000 discovered_by=TUR}
+1558.1.1={revolt_risk=5} #Revolt by the Agaw
+1559.1.1={revolt_risk=0}
+1575.1.1={revolt_risk=5} #Invasion by Oromo
+1576.1.1={revolt_risk=0}
+1600.1.1={citysize=6500}
+1603.1.1={revolt_risk=9} #Revolt against Za Dengel after his conversion to Catholicism
+1604.10.25={revolt_risk=0} #Za Dengel overthrown, revolt ends
+1607.1.1={revolt_risk=9} #Suseynos invades Gojjam from Shoa 
+1608.1.1={revolt_risk=0} #Suseynos defeats Yakob
+1627.1.1={revolt_risk=9} #Suseynos' proclamation of Roman Catholicism causes massive revolts
+1630.1.1={revolt_risk=7} #Sarsa Krestos rebels against Suseynos
+1631.1.1={revolt_risk=3} #Suseynos defeats Sarsa Krestos
+1632.1.1={revolt_risk=8} #Malta Krestos rebels against Suseynos
+1632.8.1={revolt_risk=0} #Suseynos abdicates in favor of Fasilidos
+1640.1.1={revolt_risk=5} #Invasion by Oromo
+1641.1.1={revolt_risk=0} #Fasilidos defeats Oromo incursions
+1650.1.1={citysize=7000}
+1654.1.1={revolt_risk=5} #Invasion by Oromo
+1655.1.1={revolt_risk=0} #Fasilidos defeats Oromo incursions
+1675.1.1={trade_goods=coffee} #rise of coffee trade changes nature of exports
+1691.1.1={revolt_risk=8} #Invasion by Oromo
+1692.1.1={revolt_risk=0} #Iyasu defeats Oromo incursions
+1697.1.1={revolt_risk=7} #Invasion by Oromo
+1698.1.1={revolt_risk=0} #Iyasu defeats Oromo incursions
+1700.1.1={citysize=7500}
+1707.9.1={revolt_risk=7} #rebellion against Tekle Haymanot
+1708.7.1={revolt_risk=3} #Tekle Haymanot overthrown
+1709.4.1={revolt_risk=8} #Nebahne Yohannes rebels against Tewoflos
+1710.8.1={revolt_risk=3} #Nebahne Yohannes defeated
+1711.11.1={revolt_risk=6} #Tewoflos overthrown by Yostos
+1712.1.1={revolt_risk=0}
+1750.1.1={citysize=8000}
+1770.1.1={revolt={type=heretic_rebels size=0} controller=REB} #Ras Mikael begins persecution of sost lidot theology, rebels seize control
+1771.1.1={revolt={} controller=ETO} #Ras Mikael deposed
+1800.1.1={citysize=9100}
+1936.1.1={owner=ITA controller=ITA} # occupied by Italy
+1942.12.1={owner=ETO controller=ETO} # freed itself
+1975.3.1={owner=ETH controller=ETH add_core=ETH}

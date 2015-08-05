@@ -1,0 +1,36 @@
+owner=EMI
+controller=EMI
+add_core=EMI
+culture=japanese
+religion=animism
+capital="Iwate"
+trade_goods=rice
+hre=no
+base_tax=3
+manpower=2
+citysize=4200
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+discovered_by=DGY
+discovered_by=GOG
+discovered_by=SLY
+discovered_by=YEE
+discovered_by=MAH
+discovered_by=BJE
+discovered_by=YAM
+discovered_by=EMI
+
+825.3.1={owner=FUJ controller=FUJ add_core=FUJ religion=shinto remove_core=EMI}
+1192.6.1={owner=YAM controller=YAM add_core=YAM remove_core=FUJ}
+1350.1.1={owner=JAP controller=JAP add_core=JAP remove_core=YAM remove_core=EMI}
+1450.1.1={citysize=4910}
+1478.1.1={owner=DTE controller=DTE add_core=DTE}
+1500.1.1={citysize=5680}
+1542.1.1={discovered_by=POR}
+1550.1.1={citysize=7100}
+1591.4.1={owner=TYT controller=TYT add_core=TYT remove_core=NBB}
+1600.1.1={citysize=8560}
+1600.10.16={owner=JAP controller=JAP add_core=JAP remove_core=TYT}
+1650.1.1={citysize=9680}
+1700.1.1={citysize=10200}

@@ -1,0 +1,53 @@
+owner=LOM
+controller=LOM
+add_core=LOM
+culture=langobardian
+religion=odin
+hre=no
+capital="Mannheim"
+fort1=yes
+trade_goods=grain
+base_tax=6
+manpower=2
+citysize=8000
+discovered_by=eastern
+discovered_by=RME
+discovered_by=RMP
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+
+350.6.1={owner=VNA controller=VNA culture=vandals religion=odin remove_core=LOM}
+371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+400.6.1={discovered_by=nomad_group}
+451.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+799.12.24={religion=catholic}
+843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
+918.12.24={owner=MAI controller=MAI add_core=MAI culture=hessian remove_core=EHF 
+discovered_by=latin discovered_by=eastern discovered_by=muslim}
+1450.1.1={citysize=9000}
+1453.1.1={marketplace=yes}
+1495.1.1={courthouse=yes}
+1500.1.1={constable=yes} # The Reichskammergericht (1495-1806) is the highest court in the HRE situated in Worms and after 1527 Speyer
+1556.4.19={religion=protestant} # Ottheinrich converts the country to Calvinism
+1580.4.19={regimental_camp=yes fort2=yes}
+1610.1.1={customs_house=yes}
+1792.10.1={controller=FRA} # Occupied by French troops
+1792.12.3={controller=MAI} # Prussian troops take control
+1806.7.12={hre=no} # The Holy Roman Empire is dissolved
+1810.1.1={owner=FRN controller=FRN add_core=FRN remove_core=MAI} # The Grand Duchy of Frankfurt, established after the Treaty of Schonbrunn
+1813.12.1={owner=MAI controller=MAI add_core=MAI remove_core=FRN} # The end of the Duchy
+1816.1.1={owner=HES controller=HES add_core=HES} # Given to Hesse-Darmstadt
+1871.1.1={owner=GRI controller=GRI add_core=GRI} # German Empire Founded
+1919.4.1={owner=GER controller=GER add_core=GER remove_core=GRI}
+1926.1.1={trade_goods=chemicals}
+1933.1.30={owner=NAZ controller=NAZ add_core=NAZ} # Nazis take the might
+1945.5.8={owner=GER controller=GER remove_core=NAZ} # end of the 2nd WW

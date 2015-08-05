@@ -1,0 +1,18 @@
+culture=somali 
+religion=animism
+capital="Goba"
+native_size=40
+trade_goods=wool
+hre=no
+base_tax=1
+manpower=1
+native_ferocity=4.5
+native_hostileness=9 
+discovered_by=ETO
+discovered_by=AKE
+
+1550.1.1={discovered_by=TUR}
+1891.1.1={add_core=ETO owner=ETO controller=ETO citysize=1000 religion=cophtic fort1=yes}
+1936.1.1={owner=ITA controller=ITA} # occupied by Italy
+1942.12.1={owner=ETO controller=ETO} # freed itself
+1975.3.1={owner=ETH controller=ETH add_core=ETH}

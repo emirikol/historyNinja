@@ -1,0 +1,29 @@
+#1856 - Uiji
+
+owner = KOR
+controller = KOR
+culture = korean
+religion = confucianism
+capital = "Uiji"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 24900
+add_core = KOR
+fort1 = yes
+discovered_by = chinese
+
+1450.1.1 = { citysize = 28560 }
+1500.1.1 = { citysize = 31540 }
+1550.1.1 = { citysize = 33580 }
+1593.1.1 = { revolt_risk = 5 } # Japanese invasion
+1593.5.1 = { controller = KOR revolt_risk = 0 } # Japanese invasion ends
+1600.1.1 = { citysize = 26580 } # Great devastation as a result of the Japanese invasion
+1637.1.1 = { add_core = MNG } # Tributary of Qing China
+1644.1.1 = { add_core = MCH remove_core = MNG } # Part of the Manchu empire
+1650.1.1 = { citysize = 28844 }
+1653.1.1 = { discovered_by = NED } # Hendrick Hamel
+1700.1.1 = { citysize = 31405 }
+1750.1.1 = { citysize = 33259 }
+1800.1.1 = { citysize = 35222 }

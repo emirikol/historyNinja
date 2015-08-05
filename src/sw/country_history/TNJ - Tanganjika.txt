@@ -1,0 +1,51 @@
+government=constitutional_republic
+aristocracy_plutocracy=-2
+centralization_decentralization=3
+innovative_narrowminded=2
+mercantilism_freetrade=-4
+offensive_defensive=0
+land_naval=1
+quality_quantity=3
+serfdom_freesubjects=-2
+primary_culture=swahili
+religion=catholic
+technology_group=african
+capital=1198	# Dodoma
+
+1950.1.1={religion=religious_tolerance}
+
+1962.1.1={
+	monarch={
+		name="Julius Kambarage Nyerere"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1985.1.1={
+	monarch={
+		name="Ali Hassan Mwinyi"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+1995.11.1={
+	monarch={
+		name="Benjamin William Mkapa"
+		adm=5
+		dip=5
+		mil=5
+	}
+}
+
+2005.12.1={
+	monarch={
+		name="Jakaya Mrisho Kikwete"
+		adm=5
+		dip=5
+		mil=5
+	}
+}

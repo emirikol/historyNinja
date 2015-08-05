@@ -1,0 +1,31 @@
+government=republican_dictatorship
+aristocracy_plutocracy=-3
+centralization_decentralization=4
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+primary_culture=abkhaz
+religion=sunni
+technology_group=eastern
+capital=1095
+
+1950.1.1={religion=religious_tolerance}
+
+1991.7.23={
+          monarch={
+                  name="Vladislav Ardzinba"
+				  dynasty="Ardzinba"
+                  adm=4
+                  dip=4
+                  mil=6}}
+
+2005.2.12={
+          monarch={
+                  name="Sergei"
+				   dynasty="Bagapsh"
+                  adm=6
+                  dip=4
+                  mil=5}}

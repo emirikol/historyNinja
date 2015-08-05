@@ -1,0 +1,22 @@
+government=tribal_despotism
+aristocracy_plutocracy=-1
+centralization_decentralization=4
+innovative_narrowminded=0
+mercantilism_freetrade=-2
+offensive_defensive=0
+land_naval=-5
+quality_quantity=0
+serfdom_freesubjects=0
+primary_culture=nazca
+religion=inti
+technology_group=new_world
+capital=2295
+
+1399.1.1={
+	monarch={
+		name="Cahuachi"
+		adm=8
+		dip=7
+		mil=9
+	}
+}

@@ -1,0 +1,30 @@
+owner=XIO
+controller=XIO
+add_core=XIO
+culture=gokturkic
+religion=tangra
+hre=no
+fort1=yes
+capital="Verkne-Angarsky"
+citysize=1100
+trade_goods=horses
+base_tax=2
+manpower=1
+discovered_by=GUT
+discovered_by=XIO
+
+260.6.1={owner=XXX controller=XXX fort1=no citysize=110 remove_core=XIO}
+330.6.1={owner=RUR controller=RUR culture=rouran religion=tangra fort1=yes citysize=1100 add_core=GUT}
+552.6.1={owner=GUT controller=GUT culture=gokturkic remove_core=RUR add_core=GUT}
+747.6.1={owner=XXX controller=XXX remove_core=GUT fort1=no citysize=110}
+748.6.1={owner=UYG controller=UYG add_core=UYG culture=uyghurish religion=tangra discovered_by=UYG fort1=yes citysize=1100}
+848.6.1={owner=XXX controller=XXX remove_core=UYG culture=mongol native_size=10 native_ferocity=1 native_hostileness=3
+fort1=no citysize=110}
+1632.1.1={discovered_by=RUS}
+1632.9.25={owner=RUS controller=RUS religion=orthodox culture=russian citysize=440 fort1=yes}
+1657.1.1={add_core=RUS citysize=1087 fort1=yes}
+1682.1.1={citysize=1230}
+1750.1.1={citysize=1500}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1919.1.1={trade_goods=gas}
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

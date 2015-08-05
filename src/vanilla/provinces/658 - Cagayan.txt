@@ -1,0 +1,27 @@
+#658 - Cagayan
+
+culture = filipino
+religion = animism
+capital = "Cagayan"
+trade_goods = unknown
+hre = no
+base_tax = 3
+manpower = 2
+native_size = 50
+native_ferocity = 1
+native_hostileness = 3
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
+1570.1.1 = {	owner = SPA
+		controller = SPA
+		culture = castillian
+		religion = catholic
+		citysize = 150
+		capital = "Nueva Segovia"
+	   }
+1595.1.1 = { add_core = SPA }
+1600.1.1 = { citysize = 700 trade_goods = grain }
+1650.1.1 = { citysize = 1254 }
+1700.1.1 = { citysize = 2800 }
+1750.1.1 = { citysize = 4050 }
+1800.1.1 = { citysize = 6800 }

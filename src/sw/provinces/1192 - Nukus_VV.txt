@@ -1,0 +1,42 @@
+owner=KWZ
+controller=KWZ
+add_core=KWZ
+culture=khwarezm
+religion=tangra
+capital="Nukus"
+fort1=yes
+trade_goods=horses
+hre=no
+base_tax=1
+manpower=3
+citysize=2680
+discovered_by=PHT
+discovered_by=PER
+discovered_by=KWZ
+discovered_by=SRM
+discovered_by=KUS
+discovered_by=PHU
+discovered_by=KJU
+
+630.6.1={discovered_by=BGK}
+780.1.1={owner=ABB controller=ABB add_core=ABB discovered_by=muslim}
+1040.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB religion=sunni}
+1077.6.1={owner=KWZ controller=KWZ add_core=KWZ remove_core=SEJ culture=khwarezm}
+1234.6.1={owner=KHA controller=KHA add_core=KHA culture=tartar remove_core=KWZ}
+1256.6.1={owner=IKH controller=IKH add_core=IKH culture=turkmeni remove_core=KHA}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH}
+1450.1.1={citysize=3000}
+1500.1.1={citysize=3210}
+1506.1.1={owner=SHY	controller=SHY add_core=SHY remove_core=TIM} # The Uzbek Shaybanids brings an end to the Timurid dynasty
+1511.1.1={owner=KHI controller=KHI add_core=KHI} # Conquered by nomad_group Uzbeks
+1550.1.1={citysize=3750 discovered_by=TUR}
+1600.1.1={citysize=4020}
+1650.1.1={citysize=4741}
+1700.1.1={citysize=5010}
+1740.1.1={owner=PER	controller=PER add_core=PER} # Captured by Nadir Shah
+1747.1.1={owner=KHI	controller=KHI remove_core=PER} # The death of Nadir Shah ended the domination
+1750.1.1={citysize=5630}
+1800.1.1={citysize=6320}
+1894.1.1={owner=RUS controller=RUS add_core=RUS}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.1.1={owner=UZB controller=UZB add_core=UZB remove_core=SHY remove_core=SOV}

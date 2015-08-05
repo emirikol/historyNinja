@@ -1,0 +1,3 @@
+discovered_by=new_world
+discovered_by=MOJ
+discovered_by=YKT

@@ -1,0 +1,22 @@
+culture=yakut
+religion=shamanism
+capital="Pegaya Orda"
+trade_goods=iron
+hre=no
+base_tax=4
+manpower=1
+discovered_by=XIO
+discovered_by=KJU
+
+1450.1.1={discovered_by=SIB culture=yakut}
+1585.1.1={discovered_by=RUS}
+1586.1.1={owner=RUS controller=RUS religion=orthodox culture=russian citysize=540} # Yermak Timofeevich
+1600.1.1={citysize=980}
+1611.1.1={add_core=RUS citysize=1033 fort1=yes}
+1650.1.1={citysize=3800}
+1700.1.1={citysize=4705}
+1750.1.1={citysize=5678}
+1800.1.1={citysize=7855}
+1892.1.1={trade_goods=steel}
+1917.10.1={capital="Niznevartovsk" owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

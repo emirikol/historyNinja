@@ -1,0 +1,35 @@
+owner=CHH
+controller=CHH
+add_core=CHH
+culture=tamil
+religion=hinduism
+capital="Calicut"
+trade_goods=pearl
+hre=no
+base_tax=7
+manpower=3
+citysize=3760
+fort1=yes
+discovered_by=indian
+discovered_by=KHE
+discovered_by=CHH
+discovered_by=SEV
+discovered_by=LAM
+discovered_by=PLV
+discovered_by=KAL
+discovered_by=SAK
+
+250.6.1={owner=KLA controller=KLA add_core=KLA}
+950.6.1={discovered_by=muslim}
+1102.6.1={owner=TRV controller=TRV culture=malayalam add_core=TRV add_core=VIJ remove_core=KAL}
+1450.1.1={citysize=4100}
+1498.1.1={discovered_by=POR}
+1500.1.1={citysize=4600}
+1550.1.1={citysize=5380}
+1565.7.1={owner=MYS controller=MYS add_core=MYS remove_core=VIJ revolt_risk=4} # The Vijayanagar empire collapses
+1570.1.1={revolt_risk=0}
+1600.1.1={citysize=6975}
+1650.1.1={citysize=7850}
+1700.1.1={citysize=9630}
+1729.1.1={owner=TRV controller=TRV} # Marthanda Varma inherited the kingdom of Venad
+1947.8.14={owner=IND controller=IND add_core=IND remove_core=GBR}

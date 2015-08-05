@@ -1,0 +1,53 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Constantsia"
+trade_goods=grain
+hre=no
+base_tax=3
+manpower=2
+citysize=4100
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PHT
+discovered_by=PER        
+discovered_by=ODR
+discovered_by=GEH
+discovered_by=DAC
+discovered_by=PNO
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP culture=greek}
+480.6.1={culture=severi religion=perun}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+680.6.1={culture=bulgarian}
+681.6.1={owner=BGK controller=BGK add_core=BGK religion=tangra fort2=yes}
+843.6.1={discovered_by=latin}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox capital="Konstantza"}
+970.5.1={owner=KIV controller=KIV}
+971.4.5={owner=BYZ controller=BYZ capital="Constantsia"}
+977.3.1={owner=BUL controller=BUL capital="Konstantza"}
+1001.4.1={owner=BYZ controller=BYZ capital="Constantsia"}
+1185.1.20={revolt={type=nationalist_rebels size=8} controller=BUL add_core=BUL remove_core=BYZ}
+1185.6.1={revolt={} owner=BUL controller=BUL  culture=bulgarian capital="Konstantza"}
+1357.3.1={owner=BDD controller=BDD add_core=BDD}
+1395.3.1={owner=TUR controller=TUR  remove_core=BDD add_core=BUL}
+1450.1.1={citysize=4500 capital="Constanta"}
+1453.5.29={remove_core=BYZ}
+1481.6.1={revolt_risk=6} # Civil war, Bayezid & Jem
+1482.7.26={revolt_risk=0} # Jem escapes to Rhodes
+1500.1.1={citysize=4911}
+1550.1.1={citysize=5122}
+1555.1.1={revolt_risk=5} # General discontent with the Janissaries' dominance
+1556.1.1={revolt_risk=0 marketplace=yes}
+1600.1.1={citysize=5911}
+1650.1.1={citysize=6549}
+1700.1.1={citysize=7044 add_core=RBU culture=bulgarian}
+1750.1.1={citysize=8010}
+1800.1.1={citysize=8310}
+1878.3.3={owner=ROM controller=ROM add_core=ROM remove_core=TUR add_core=RBU capital="Constanta"}
+1939.6.1={culture=wallachian}

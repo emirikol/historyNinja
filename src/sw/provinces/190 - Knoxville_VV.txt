@@ -1,0 +1,29 @@
+culture=cherokee
+religion=ind_pagan
+capital="Shawnee"
+trade_goods=corn
+hre=no
+base_tax=1
+manpower=1
+discovered_by=SHA
+discovered_by=CRE
+discovered_by=CHE
+discovered_by=new_world
+
+901.6.1={owner=CHE controller=CHE add_core=CHE citysize=1200 fort1=yes}
+1450.1.1={citysize=1350}
+1500.1.1={citysize=1685}
+1550.1.1={citysize=2654}
+1600.1.1={citysize=3100}
+1650.1.1={citysize=3620}
+1682.1.1={discovered_by=FRA} # Estimated
+1700.1.1={citysize=4170}
+1750.1.1={citysize=4626}
+1763.2.10={discovered_by=GBR owner=GBR controller=GBR culture=english religion=protestant 
+remove_core=CHE} 
+1776.7.4={owner=USA capital="Knoxville" controller=USA add_core=USA} # Declaration of independence
+1782.11.1={revolt_risk=0} # Preliminary articles of peace, the British recognized Amercian independence
+1800.1.1={citysize=4886}
+1861.4.12={owner=SUC controller=SUC add_core=SUC} # Start of Civil War
+1865.5.13={owner=USA controller=USA remove_core=SUC} # End of Civil War
+1900.1.1={fort2=yes}

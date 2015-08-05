@@ -1,0 +1,52 @@
+#337 - Oran
+
+owner = ALG
+controller = ALG
+culture = berber
+religion = sunni
+capital = "Oran"
+trade_goods = wine
+hre = no
+base_tax = 6
+manpower = 3
+citysize = 18500
+fort1 = yes
+add_core = ALG
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+1450.1.1 = { citysize = 20010 }
+1500.1.1 = { citysize = 22300 }
+1509.1.1 = {	owner = CAS
+		controller = CAS
+		add_core = CAS	
+	   } # Taken over by the Spanish
+1510.1.1 = { fort2 = yes }
+1516.1.23  = {	controller = SPA
+		owner = SPA
+		add_core = SPA
+		remove_core = CAS
+	     } # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1550.1.1 = { citysize = 23944 }
+1600.1.1 = { citysize = 24341 }
+1650.1.1 = { citysize = 27006 fort3 = yes }
+1700.1.1 = { citysize = 28671 }
+1708.1.1 = {	owner = TUR
+		controller = TUR
+		add_core = TUR
+		remove_core = SPA
+	   } # The Spanish are expelled by Algerian forces, part of the Ottoman empire
+1732.1.1 = {	owner = SPA
+		controller = SPA
+		add_core = SPA
+		constable = yes
+		remove_core = TUR
+	   } # Conquered by Spain
+1750.1.1 = { citysize = 30985 }
+1792.1.1 = {	owner = ALG
+		controller = ALG
+		remove_core = SPA
+	   } # The Spanish surrender Oran to Algiers
+1800.1.1 = { citysize = 32647 }

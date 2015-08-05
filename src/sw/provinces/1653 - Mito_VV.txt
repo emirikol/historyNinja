@@ -1,0 +1,32 @@
+owner=EMI
+controller=EMI
+add_core=EMI
+culture=japanese
+religion=shinto
+capital="Hitachi"
+trade_goods=silver
+hre=no
+base_tax=3
+manpower=2
+citysize=10650
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+discovered_by=DGY
+discovered_by=GOG
+discovered_by=SLY
+discovered_by=YEE
+discovered_by=MAH
+discovered_by=BJE
+discovered_by=YAM
+discovered_by=EMI
+
+812.7.1={owner=YAM controller=YAM religion=shinto}
+815.6.1={owner=FUJ controller=FUJ add_core=FUJ remove_core=YAM}
+1192.6.1={owner=YAM controller=YAM add_core=YAM remove_core=FUJ}
+1350.1.1={owner=JAP controller=JAP add_core=JAP remove_core=YAM remove_core=EMI}
+1478.1.1={owner=HOJ controller=HOJ add_core=HOJ}
+1542.1.1={discovered_by=POR}
+1590.7.5={owner=TUW controller=TUW add_core=TUW remove_core=HOJ}
+1600.10.16={owner=JAP controller=JAP add_core=JAP remove_core=TYT}
+1603.1.1={capital="Mito"}

@@ -1,0 +1,63 @@
+government=duchy
+aristocracy_plutocracy=-4
+centralization_decentralization=2
+innovative_narrowminded=2
+mercantilism_freetrade=-5
+offensive_defensive=-1
+land_naval=0
+quality_quantity=-4
+serfdom_freesubjects=-5
+primary_culture=japanese
+religion=shinto
+technology_group=chinese
+capital=1669	# Fukushima
+
+
+1453.1.1={
+	monarch={
+		name="Narimune"
+		dynasty="Date"
+		adm=5
+		dip=6
+		mil=5}}
+
+1487.1.1={
+	monarch={
+		name="Naomune"
+		dynasty="Date"
+		adm=5
+		dip=5
+		mil=6}}
+
+1514.1.1={
+	monarch={
+		name="Tanemune"
+		dynasty="Date"
+		adm=7
+		dip=5
+		mil=6}}
+
+1548.1.1={
+	monarch={
+		name="Harumune"
+		dynasty="Date"
+		adm=6
+		dip=5
+		mil=5}}
+
+1578.1.1={
+	monarch={
+		name="Terumune"
+		dynasty="Date"
+		adm=5
+		dip=6
+		mil=5}}
+
+1584.1.1={
+	monarch={
+		name="Masamune"
+		dynasty="Date"
+		adm=7
+		dip=7
+		mil=8
+		leader={name="Date Masamune" type=general	rank=0	fire=2	shock=2	manuever=2	siege=2}}}

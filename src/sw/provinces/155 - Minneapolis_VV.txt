@@ -1,0 +1,22 @@
+culture=dakota
+religion=ind_pagan
+capital="Mineapolis"
+trade_goods=wood
+hre=no
+base_tax=2
+manpower=1
+native_size=25
+native_ferocity=2
+native_hostileness=9
+discovered_by=OSA
+discovered_by=ILL
+discovered_by=OJI
+
+1684.1.1={discovered_by=FRA} # Nicolas Perrot
+1727.1.1={fort1=yes owner=FRA controller=FRA citysize=500 religion=catholic	culture=cosmopolitan_french} # Construction of Fort Beauharnois
+1752.1.1={add_core=FRA}
+1760.1.1={controller=GBR citysize=1045} # The government of New France capitulate at Montreal
+1763.2.10={owner=GBR controller=GBR remove_core=FRA culture=english	religion=protestant}
+1783.9.3={owner=USA controller=USA add_core=USA culture=american}
+1800.1.1={citysize=1580}
+1900.1.1={fort2=yes}

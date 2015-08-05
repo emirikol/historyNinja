@@ -1,0 +1,41 @@
+owner=PHT
+controller=PHT
+add_core=PHT
+add_core=PER
+culture=parthian
+religion=zoro
+capital="Kerbala"
+trade_goods=spices
+hre=no
+base_tax=3
+manpower=3
+citysize=3540
+fort1=yes
+discovered_by=RMP
+discovered_by=RME
+discovered_by=muslim
+discovered_by=BYZ
+discovered_by=PHT
+discovered_by=PER
+
+224.6.1={owner=PER controller=PER culture=persian remove_core=PHT}
+638.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni remove_core=PER}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+1258.6.1={owner=IKH controller=IKH add_core=IKH remove_core=ABB}
+1335.6.1={owner=TIM controller=TIM add_core=TIM remove_core=IKH remove_core=SEJ culture=al_iraqiya_arabic religion=shiite}
+1405.1.1={owner=JAI	controller=JAI remove_core=TIM add_core=JAI} # The Jalayirids retake their provinces
+1411.1.1={owner=QAR	controller=QAR add_core=QAR remove_core=JAI} # Qara Koyunlu
+1450.1.1={citysize=3900}
+1469.1.1={owner=AKK	controller=AKK add_core=AKK	remove_core=QAR}
+1500.1.1={citysize=4207}
+1507.1.1={owner=PER	controller=PER add_core=PER	remove_core=AKK} # The Safavids took over
+1534.11.28={controller=TUR}
+1536.1.1={owner=TUR	add_core=TUR remove_core=PER} # Conquered by the Ottomans
+1550.1.1={citysize=5317}
+1600.1.1={citysize=5970}
+1624.1.1={controller=PER}
+1638.12.24={controller=TUR}
+1650.1.1={citysize=6855}
+1801.1.1={citysize=9500} # Attacked by an Wahhabi army
+1919.1.1={trade_goods=gas}
+1920.1.1={owner=IRQ controller=IRQ add_core=IRQ remove_core=TUR}

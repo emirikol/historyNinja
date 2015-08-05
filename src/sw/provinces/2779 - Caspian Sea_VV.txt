@@ -1,0 +1,14 @@
+discovered_by=RMP
+discovered_by=RME
+discovered_by=AOS
+discovered_by=PER
+discovered_by=PHT
+discovered_by=AAR
+discovered_by=SIR
+discovered_by=SRM
+discovered_by=PHU
+discovered_by=GBG
+
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+1850.6.1={discovered_by=latin}

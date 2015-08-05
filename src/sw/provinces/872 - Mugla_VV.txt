@@ -1,0 +1,51 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Megisti"
+trade_goods=wood
+hre=no
+base_tax=3
+manpower=3
+citysize=5900
+fort1=yes
+discovered_by=RMP
+discovered_by=RME
+discovered_by=latin
+discovered_by=PHT
+discovered_by=PER
+discovered_by=ODR
+discovered_by=CAP
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP fort2=yes} 
+630.6.1={discovered_by=muslim}
+1204.4.12={owner=NII controller=NII add_core=NII}
+1240.6.1={owner=OGZ controller=OGZ add_core=OGZ}
+1261.12.23={add_core=BYZ remove_core=NII owner=MEN controller=MEN add_core=MEN}
+1299.6.1={culture=turkish religion=sunni remove_core=OGZ}
+1402.8.1={add_core=TUR}
+1421.6.1={owner=TUR controller=TUR remove_core=MEN}
+1481.6.1={revolt={type=pretender_rebels size=0} controller=REB} # Civil war, Bayezid & Jem
+1482.7.26={revolt={} controller=TUR} # Jem escapes to Rhodes
+1502.1.1={remove_core=BYZ}
+1509.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Civil war
+1510.1.1={regimental_camp=yes}
+1513.1.1={revolt={} controller=TUR}
+1560.1.1={constable=yes marketplace=yes} # Reign of Suleyman the magnificent, organizes the state
+1615.1.1={base_tax=8} #The Decentralizing Effect of the Provincial System
+1621.1.1={revolt_risk=6} # Osman II's reforms against the Janissaries
+1622.5.20={revolt_risk=7} # Osman II is murdered
+1622.6.1={controller=TUR revolt_risk=0} # Mustafa I, estimated
+1623.1.1={revolt={type=revolutionary_rebels size=2} controller=REB} # The empire fell into anarchy, Janissaries stormed the palace
+1625.1.1={revolt={} controller=TUR} # Murad tries to quell the corruption
+1632.1.1={courthouse=yes}
+1700.1.1={tax_assessor=yes}
+1718.1.1={revolt_risk=3 base_tax=10} # Lale Devri (the tulip age), not appreciated by everyone  
+1720.1.1={revolt_risk=0}
+1795.1.1={revolt_risk=6} # Reforms by Sultan Selim III, tried to replace the Janissary corps
+1807.5.30={revolt={type=revolutionary_rebels size=2} controller=REB} # Janissary revolt
+1808.6.29={revolt={} controller=TUR} # Mahmud II takes the throne
+1923.10.29={owner=TRK controller=TRK add_core=TRK remove_core=TUR} # Republic of Turkey gets founded

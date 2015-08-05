@@ -1,0 +1,22 @@
+government=despotic_monarchy
+aristocracy_plutocracy=-2
+centralization_decentralization=-2
+innovative_narrowminded=-1
+mercantilism_freetrade=-5
+offensive_defensive=2
+land_naval=2
+quality_quantity=-2
+serfdom_freesubjects=2
+technology_group=e_latin
+primary_culture=mauretanian
+religion=groman
+capital=1705
+
+
+1.1.1={
+	monarch={
+		name="Ptolemy"
+		dynasty="Mauretania"
+		dip=6
+		adm=7
+		mil=6}}

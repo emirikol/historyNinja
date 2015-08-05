@@ -1,0 +1,13 @@
+discovered_by=HUR
+discovered_by=IRO
+discovered_by=new_world
+discovered_by=SHA
+discovered_by=ILL
+discovered_by=MIA
+discovered_by=PWT
+discovered_by=ERA
+discovered_by=OJI
+
+1679.1.1={discovered_by=FRA}
+1700.6.1={discovered_by=ENG discovered_by=GBR}
+1800.6.1={discovered_by=latin}

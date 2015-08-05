@@ -1,0 +1,40 @@
+government=constitutional_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=1
+mercantilism_freetrade=-3
+offensive_defensive=1
+land_naval=-1
+quality_quantity=1
+serfdom_freesubjects=-5
+technology_group=african
+religion=sunni
+primary_culture=somali
+capital=1209	# Hageisa
+
+1991.1.1={
+	monarch={
+		name="Abdurahman Ahmad Ali"
+		adm=4
+		dip=3
+		mil=4
+	}
+}
+
+1993.5.16={
+	monarch={
+		name="Muhammad Haji Ibrahim Egal"
+		adm=5
+		dip=3
+		mil=5
+	}
+}
+
+2002.5.3={
+	monarch={
+		name="Dahir Riyale Kahin"
+		adm=5
+		dip=3
+		mil=5
+	}
+}

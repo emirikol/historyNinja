@@ -1,0 +1,19 @@
+culture=amazonian
+religion=ind_pagan
+capital="Curitiba"
+trade_goods=corn
+hre=no
+base_tax=3
+manpower=1
+native_size=5
+native_ferocity=1
+native_hostileness=2
+
+1519.1.1={discovered_by=POR} # Ferdinand Magellan
+1565.3.1={owner=POR controller=POR culture=portugese citysize=1300 remove_core=SPA fort1=yes}
+1700.1.1={citysize=1850}
+1718.1.1={add_core=POR}
+1750.1.1={citysize=2100}
+1800.1.1={citysize=3200}
+1822.10.12={add_core=BRZ owner=BRZ controller=BRZ remove_core=POR} # Brazilian Empire claimed
+1900.1.1={fort2=yes}

@@ -1,0 +1,224 @@
+government=parliamentary_monarchy
+aristocracy_plutocracy=-3
+centralization_decentralization=2
+innovative_narrowminded=3
+mercantilism_freetrade=-1
+offensive_defensive=0
+land_naval=0
+quality_quantity=-2
+serfdom_freesubjects=-2
+technology_group=latin
+primary_culture=new_zeland
+religion=protestant
+capital=2512	# Wellington
+
+1906.1.1={
+	monarch={
+		name="Joseph Ward"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1912.1.1={
+	monarch={
+		name="Thomas Mackenzie"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1912.7.1={
+	monarch={
+		name="William Massey"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1925.1.1={
+	monarch={
+		name="Francis Bell"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1925.7.1={
+	monarch={
+		name="Gordon Coates"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1925.11.1={
+	monarch={
+		name="Joseph Ward"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1930.1.1={
+	monarch={
+		name="George Forbes"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1935.1.1={
+	monarch={
+		name="Michael Joseph Savage"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1940.1.1={
+	monarch={
+		name="Peter Fraser"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1949.1.1={
+	monarch={
+		name="Sydney Holland"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1950.1.1={ religion=religious_tolerance }
+
+1957.1.1={
+	monarch={
+		name="Keith Holyoake"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1957.7.1={
+	monarch={
+		name="Walter Nash"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1960.7.1={
+	monarch={
+		name="Keith Holyoake"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1972.1.1={
+	monarch={
+		name="Jack Marshall"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1972.7.1={
+	monarch={
+		name="Norman Kirk"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1974.1.1={
+	monarch={
+		name="Bill Rowling"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1975.1.1={
+	monarch={
+		name="Robert Muldoon"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1984.1.1={
+	monarch={
+		name="David Lange"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1989.1.1={
+	monarch={
+		name="Geoffrey Palmer"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1990.1.1={
+	monarch={
+		name="Mike Moore"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1990.7.1={
+	monarch={
+		name="Jim Bolger"
+		adm=8
+		dip=9
+		mil=8
+	}
+}
+
+1997.1.1={
+	monarch={
+		name="Jenny Shipley"
+		adm=8
+		dip=9
+		mil=8
+                female=yes
+	}
+}
+
+1999.1.1={
+	monarch={
+		name="Helen Clark"
+		adm=8
+		dip=9
+		mil=8
+                female=yes
+	}
+}

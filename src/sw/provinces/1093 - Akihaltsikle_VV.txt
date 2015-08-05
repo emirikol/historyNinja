@@ -1,0 +1,58 @@
+owner=PNO
+controller=PNO
+add_core=PNO
+culture=pontic
+religion=groman
+capital="Rustavi"
+trade_goods=iron
+hre=no
+base_tax=3
+manpower=2
+citysize=4530
+fort1=yes
+discovered_by=RMP
+discovered_by=RME
+discovered_by=latin
+discovered_by=PER
+discovered_by=PHT
+discovered_by=PNO
+discovered_by=AAR
+discovered_by=SIR
+discovered_by=SRM
+
+62.6.1={owner=RME controller=RME add_core=RME}
+313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP culture=greek remove_core=PNO}
+630.6.1={discovered_by=muslim}
+638.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
+754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
+885.1.1={owner=AAR controller=AAR add_core=AAR culture=old_armenian remove_core=ABB}
+1045.1.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=AAR culture=greek}
+1065.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
+1090.1.1={owner=GEO controller=GEO add_core=GEO religion=orthodox culture=georgian remove_core=SEJ remove_core=BYZ}
+1236.6.1={owner=KHA controller=KHA}
+1242.6.1={owner=GOL controller=GOL}
+1404.1.1={owner=GEO controller=GEO add_core=GEO}
+1450.1.1={citysize=4900}
+1458.1.1={revolt_risk=5} # Safavid campaign against Georgia
+1460.1.1={revolt_risk=0} # Defeated by Shirwan Shah
+1500.1.1={citysize=5020}
+1550.1.1={citysize=6344}
+1555.5.29={owner=TUR controller=TUR add_core=TUR fort2=yes} # Peace of Amasia, under Turkish suzerainty
+1600.1.1={citysize=8900}
+1614.1.1={revolt_risk=6} # Overrun several times by Persian troops
+1617.1.1={revolt_risk=2 citysize=5240} # Thousands were killed or resettled in Iran
+1625.1.1={revolt_risk=8} # Insurrection, headed by Giorgi Saakadze
+1630.1.1={revolt_risk=0}
+1650.1.1={citysize=6500}
+1659.1.1={revolt_risk=4} # Anti-Ottoman revolts
+1665.1.1={revolt_risk=0}
+1700.1.1={citysize=8560}
+1750.1.1={citysize=10287}
+1810.2.20={owner=RUS controller=RUS	add_core=RUS remove_core=TUR} # Annexed by Russia
+1890.6.1={trade_goods=steel}
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1918.5.26={owner=GEO controller=GEO} # first Georgian Republic
+1921.3.18={owner=SOV controller=SOV} # occupiet by the Sovjets
+1991.4.9={owner=GEO controller=GEO remove_core=SOV} # independence of Georgia

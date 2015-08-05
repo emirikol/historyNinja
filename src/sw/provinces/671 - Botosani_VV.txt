@@ -1,0 +1,65 @@
+owner=GEH
+controller=GEH
+add_core=GEH
+culture=getaen
+religion=orfi
+capital="Botosani"
+trade_goods=fur
+hre=no
+base_tax=4
+manpower=2
+citysize=5950
+fort1=yes
+discovered_by=eastern
+discovered_by=FRE
+discovered_by=LOM
+discovered_by=SUE
+discovered_by=MCR
+discovered_by=BUR
+discovered_by=TEV
+discovered_by=RUG
+discovered_by=GHT
+discovered_by=NAV
+discovered_by=SAT
+discovered_by=VNA
+discovered_by=GEH
+discovered_by=DAC
+discovered_by=BAO
+
+290.6.1={owner=VIS controller=VIS culture=visigothic religion=odin remove_core=GEH}
+300.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
+451.6.1={owner=ATE controller=ATE add_core=ATE culture=proto_slavic religion=perun}
+580.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism remove_core=GEH}
+630.6.1={discovered_by=BGK}
+805.8.1={owner=BGK controller=BGK add_core=BGK remove_core=AVE remove_core=HSL culture=bulgarian religion=tangra}
+866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
+996.6.1={owner=KIV controller=KIV}
+1015.1.1={owner=PEC controller=PEC remove_core=KIV add_core=PEC culture=pecheneg}
+1018.9.1={owner=HUN controller=HUN add_core=HUN}
+1150.6.1={culture=wallachian}
+1450.1.1={citysize=6220}
+1487.1.1={temple=yes} # Cathedral of Saint Michael
+1506.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Szekely rebellion
+1506.8.1={revolt={} controller=HUN}
+1514.4.1={revolt={type=anti_tax_rebels size=0} controller=REB} # Peasant rebellion against Hungary's magnates
+1514.8.1={revolt={} controller=HUN}
+1520.1.1={fort2=yes} # Rural fortress Biertan (15-16th century)
+1528.1.1={add_core=TUR}
+1530.1.1={constable=yes}
+1550.1.1={citysize=7822 marketplace=yes}
+1562.1.1={revolt={type=nationalist_rebels size=1} controller=REB} # Szekely rebellion
+1562.6.1={remove_core=HAB} # End of Ottoman-Habsburg War
+1571.6.1={owner=TRA controller=TRA add_core=TRA}
+1600.1.1={citysize=6904 courthouse=yes}
+1620.1.1={fine_arts_academy=yes} # Reached a high point culturaly
+1650.1.1={citysize=6982}
+1699.1.1={owner=HAB controller=HAB}
+1718.1.1={owner=HAB controller=HAB add_core=HAB remove_core=TUR} # Ceded to Austria
+1739.1.1={owner=WAL controller=WAL remove_core=HAB add_core=TUR} # The Ottomans regained Wallachia
+1755.1.1={tax_assessor=yes}
+1784.1.1={revolt={type=anti_tax_rebels size=2} controller=REB} # Peasant rebellion against the nobles
+1785.6.1={revolt={}}
+1800.1.1={citysize=9670}
+1806.1.1={controller=RUS} # Occupied by Russian troops
+1812.5.28={controller=WAL} # Treaty of Bucharest
+1859.1.1={owner=ROM controller=ROM add_core=ROM remove_core=WAL add_core=HUN} # united Romania

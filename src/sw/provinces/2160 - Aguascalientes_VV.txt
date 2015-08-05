@@ -1,0 +1,36 @@
+owner=MET
+controller=MET
+add_core=MET
+culture=metztitlan 
+religion=teotl_azt
+capital="Aguascalientes" 
+fort1=yes
+trade_goods=wood
+citysize=2000
+hre=no
+base_tax=1 
+manpower=3 
+discovered_by=TER
+discovered_by=MET
+discovered_by=TOT
+discovered_by=TXC
+discovered_by=AZT
+discovered_by=TLX
+discovered_by=ZAP
+discovered_by=MAY
+discovered_by=MIX
+discovered_by=QUI
+discovered_by=CAK
+discovered_by=PUT
+discovered_by=TLP
+
+1428.1.1={owner=AZT controller=AZT add_core=AZT citysize=2500 remove_core=MET} # The Aztec Triple Alliance
+1450.1.1={citysize=2850}
+1500.1.1={citysize=3100}
+1546.1.1={discovered_by=SPA owner=SPA controller=SPA culture=castillian religion=catholic} # First discoveries of silver 
+1550.1.1={citysize=6150} # Silver rush 
+1571.1.1={add_core=SPA remove_core=AZT}
+1600.1.1={citysize=8700} 
+1650.1.1={citysize=10504} 
+1750.1.1={add_core=MEX} 
+1810.9.16={owner=MEX controller=MEX remove_core=SPA} # Mexican War of Independence

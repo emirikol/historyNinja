@@ -1,0 +1,25 @@
+#1062 - Kachinsk
+
+culture = yakut
+religion = shamanism
+capital = "Kachinsk"
+trade_goods = unknown
+hre = no
+base_tax = 5
+manpower = 1
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1618.1.1 = { discovered_by = RUS }
+1632.1.1 = {	owner = RUS
+		controller = RUS
+	   	religion = orthodox
+	   	culture = russian
+		citysize = 400
+		trade_goods = fur
+	   }
+1657.1.1 = {	add_core = RUS
+	   	citysize = 1100
+	   }
+1750.1.1 = { citysize = 1240 }

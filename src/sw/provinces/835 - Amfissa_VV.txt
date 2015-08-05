@@ -1,0 +1,49 @@
+owner=RME
+controller=RME
+add_core=RME
+culture=old_greek
+religion=groman
+capital="Amfiklia"
+trade_goods=grain
+hre=no
+base_tax=3
+manpower=2
+citysize=5040
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=PER
+discovered_by=PHT
+discovered_by=ODR
+
+313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
+350.5.1={discovered_by=eastern discovered_by=BYZ}
+395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
+630.6.1={discovered_by=muslim discovered_by=BGK}
+843.6.1={discovered_by=latin}
+1204.4.12={owner=KSL controller=KSL}
+1224.1.1={owner=EPI controller=EPI add_core=EPI remove_core=KSL}
+1246.1.1={owner=NII controller=NII add_core=NII culture=greek remove_core=EPI}
+1261.12.23={owner=BIZ controller=BIZ add_core=BIZ remove_core=NII remove_core=BYZ remove_core=EPI culture=greek}
+1319.4.1={owner=NEP controller=NEP add_core=NEP}
+1390.6.1={owner=TUS controller=TUS remove_core=NEP add_core=TUS}
+1399.1.1={add_core=BYZ add_core=SIC}
+1401.5.26={remove_core=SIC}
+1402.1.1={owner=ATH controller=ATH remove_core=VEN}
+1453.5.30={add_core=TUR} # The fall of the Byzantine Empire
+1458.1.1={owner=TUR controller=TUR}
+1500.1.1={citysize=9000}
+1502.1.1={remove_core=BIZ}
+1550.1.1={citysize=9500 marketplace=yes}
+1555.1.1={revolt_risk=5 constable=yes} # General discontent with the Janissaries' dominance
+1556.1.1={revolt_risk=0}
+1600.1.1={citysize=9800} # Long era of decline, both military and internally
+1620.1.1={revolt_risk=5} # General discontent and occasional rebellions
+1640.1.1={revolt_risk=2}
+1650.1.1={citysize=9900 culture=neo_greek}
+1660.1.1={revolt_risk=0}
+1690.1.1={base_tax=3} #The Decentralizing Effect of the Provincial System
+1750.1.1={citysize=10000 tax_assessor=yes add_core=GRE}
+1827.10.20={controller=GRE owner=GRE remove_core=TUR} # independence of Greece
+1941.4.23={owner=ITA controller=ITA} # occupied by Italy
+1944.1.1={owner=GRE controller=GRE} # Italians leave Greece

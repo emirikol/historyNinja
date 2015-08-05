@@ -1,0 +1,60 @@
+government=parliamentary_monarchy
+aristocracy_plutocracy=0
+centralization_decentralization=-1
+innovative_narrowminded=-1
+mercantilism_freetrade=-3
+offensive_defensive=-1
+land_naval=-2
+quality_quantity=0
+serfdom_freesubjects=3
+technology_group=latin
+religion=protestant
+primary_culture=english
+capital=495	# Basseterre
+
+1950.1.1={religion=religious_tolerance}
+
+1966.7.1={
+	monarch={
+		name="Robert Llewellyn Bradshaw"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+1978.5.23={
+	monarch={
+		name="Paul Southwell"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+1979.1.1={
+	monarch={
+		name="Lee Llewellyn Moore"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+1995.7.7={
+	monarch={
+		name="Denzil Llewellyn Douglas"
+		adm=4
+		dip=5
+		mil=4
+	}
+}
+
+2006.7.1={
+	monarch={
+		name="Joseph Parry"
+		adm=4
+		dip=5
+		mil=4
+	}
+}

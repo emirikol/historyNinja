@@ -1,0 +1,21 @@
+culture=sulawesi
+religion=hinduism
+capital="Kalapa"
+trade_goods=spices
+hre=no
+base_tax=3
+manpower=2
+native_size=20
+native_ferocity=8.5
+native_hostileness=7
+discovered_by=MAJ
+
+1527.6.22={capital="Jayakarta"} # The city's name is changed
+1552.1.1={discovered_by=BAN owner=BAN controller=BAN add_core=BAN fort1=yes citysize=1100}  # Banten became an independent sultanate
+1613.1.1={discovered_by=NED} # The Dutch arrived
+1619.1.1={owner=NED	controller=NED capital="Batavia"} # Conquered by the Dutch
+1644.1.1={add_core=NED}
+1750.1.1={cot=yes}
+1942.2.1={controller=JAP owner=JAP}
+1944.1.1={controller=NED owner=NED}
+1949.12.27={owner=IDO controller=IDO add_core=IDO remove_core=NED}

@@ -1,0 +1,72 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 154  69  116 }
+
+historical_ideas={
+	smithian_economics
+	national_conscripts
+	battlefield_commisions
+	patron_of_art
+	espionage
+	military_drill
+	glorious_arms
+	national_trade_policy
+	merchant_adventures
+	engineer_corps
+}
+
+historical_units={
+	
+	south_american_spearmen
+	zapotec_tribal_warfare
+	zapotec_plains_warfare
+	zapotec_gunpowder_warfare
+	westernized_zapotec
+	mexican_guerilla_warfare
+}
+
+monarch_names={
+	"Cuitlatecs #0"=20
+	"Iréchecua #0"=20 
+	"Tzintzuntzáni #0"=20 
+	"Uacúsecha #0"=20
+	"Taríacuri #0"=20
+	"Hiquingaje #0"=20
+	"Hiripan #0"=20
+	"Tangáxuan #0"=20
+	"Tzitzipandáquare #0"=20
+	"Zuangua #0"=20
+	"Huitziméngari #0"=20
+	"Cuinierángari #0"=20
+	"Yácata #0"=20
+}
+
+leader_names={
+	Characu Chicuangua Hiripan Zuangua
+	P'urhépecha P'orhépecha Michhuàquê 
+	Michoacán Iréchecua Tzintzuntzáni Nahua 
+	Otomi Matlatzinca  Chichimec Caconzi Pátzcuaro 
+	Chupicuaro Jarácuaro
+	Toluca Guanajuato Chontales
+}
+
+ship_names={
+	Acambaro
+	Cuerauaperi Cuitzeo Curicaueri
+	Ihuatzio Itziparamucu
+	Patzcuaro Purepecha Pechataro
+	Tepalcatepec TzinTzunTzan
+	Uacusecha Urichu Uayaneo
+	Zacatula
+	Tarascan P'urhépecha P'orhépecha Michhuàquê 
+	Michoacán Iréchecua Tzintzuntzáni Nahua 
+	Otomi Matlatzinca  Chichimec Caconzi Pátzcuaro 
+	Chupicuaro Jarácuaro
+	Toluca Guanajuato Chontales
+}
+
+
+
+

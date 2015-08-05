@@ -1,0 +1,60 @@
+owner=ORD
+controller=ORD
+add_core=ORD
+culture=ordovices
+religion=droid
+hre=no
+base_tax=3
+trade_goods=iron
+manpower=3
+capital="York"
+citysize=6000
+fort1=yes
+discovered_by=RME
+discovered_by=RMP
+discovered_by=ORD
+discovered_by=CEL
+discovered_by=BIR
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=BLE
+discovered_by=DUM
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+43.6.1={owner=RME controller=RME add_core=RME}
+70.9.1={revolt={type=nationalist_rebels size=5}}
+70.9.15={revolt={}}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+410.6.1={owner=ELM controller=ELM add_core=ELM remove_core=RMP culture=elmet religion=early}
+616.6.1={owner=NOL controller=NOL add_core=NOL culture=northumberlandian remove_core=ORD}
+843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
+878.1.1={owner=VIK controller=VIK}
+878.5.1={owner=WSS controller=WSS}
+927.1.1={owner=ENG controller=ENG add_core=ENG temple=yes}  #York Cathedral
+1066.1.1={owner=VIK controller=VIK}
+1080.1.1={owner=NRM controller=NRM}
+1100.1.1={fort2=yes owner=ENG controller=ENG culture=english}
+1453.1.1={revolt_risk=5} # Start of the War of the Roses
+1459.9.23={revolt_risk=0 revolt={type=pretender_rebels size=3 leader="Richard Plantagenet"} controller=REB} # The Battle of Blore Heath
+1459.10.12={revolt={} revolt_risk=5} # The Lancastrians are back in control after the battle of Ludford Bridge
+1461.4.1={revolt_risk=0 revolt={type=pretender_rebels size=3 leader="Edward of York"} controller=REB} # Capture of York after Battle of Towton
+1461.6.28={revolt={} revolt_risk=2 controller=ENG} # Coronation of Edward IV
+1467.1.1={revolt_risk=5} # Rivalry between Edward IV & Warwick
+1470.3.1={revolt_risk=0 revolt={type=revolutionary_rebels size=2 leader="Richard Neville"} controller=REB}
+1470.10.6={revolt={} controller=ENG} # Readeption of Henry VI
+1471.1.1={revolt_risk=8} # Unpopularity of Warwick & War with Burgundy
+1471.3.1={revolt_risk=0 revolt={type=revolutionary_rebels size=2 leader="Edward of York"} controller=REB}
+1471.5.4={revolt={} revolt_risk=2 controller=ENG} # Murder of Henry VI & Restoration of Edward IV
+1483.6.26={revolt_risk=8} # Revulsion at Supposed Murder of the Princes in the Tower
+1485.8.23={revolt_risk=0} # Battle of Bosworth Field & the End of the War of the Roses
+1600.1.1={religion=anglican constable=yes} # Constable Estimated
+1644.7.2={revolt={type=revolutionary_rebels size=2} controller=REB} # Battle of Marston Moor
+1646.5.5={revolt={} controller=ENG} # End of First English Civil War
+1707.5.12={owner=GBR controller=GBR add_core=GBR remove_core=ENG}
+1750.1.1={tax_assessor=yes} # Tax Assessor Estimated
+1858.1.1={trade_goods=steel}

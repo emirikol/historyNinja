@@ -1,0 +1,31 @@
+owner=YAM
+controller=YAM
+add_core=YAM
+culture=japanese
+religion=shinto
+capital="Kochi"
+trade_goods=rice
+hre=no
+base_tax=3
+manpower=2
+citysize=8630
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+discovered_by=DGY
+discovered_by=GOG
+discovered_by=SLY
+discovered_by=YEE
+discovered_by=MAH
+discovered_by=BJE
+
+893.6.1={owner=TAC controller=TAC add_core=TAC}
+1192.6.1={owner=YAM controller=YAM}
+1350.1.1={owner=JAP controller=JAP add_core=JAP remove_core=YAM}
+1450.1.1={citysize=9100}
+1478.1.1={owner=ICJ controller=ICJ add_core=ICJ}
+1500.1.1={citysize=9500}
+1542.1.1={discovered_by=POR}
+1560.7.1={owner=ODA controller=ODA add_core=ODA remove_core=ICJ}
+1585.8.6={owner=TYT controller=TYT add_core=TYT remove_core=ODA}
+1600.10.16={owner=JAP controller=JAP add_core=JAP remove_core=TYT}

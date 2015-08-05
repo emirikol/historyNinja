@@ -1,0 +1,48 @@
+owner=BIR
+controller=BIR
+add_core=BIR
+culture=brigantes
+religion=droid
+hre=no
+base_tax=2
+trade_goods=iron
+manpower=2
+capital="Ayr"
+fort1=yes
+citysize=1300
+discovered_by=RME
+discovered_by=RMP
+discovered_by=BIR
+discovered_by=CEL
+discovered_by=ORD
+discovered_by=ERT
+discovered_by=ICC
+discovered_by=DUM
+discovered_by=BLE
+discovered_by=SLI
+discovered_by=ELB
+discovered_by=NAG
+discovered_by=AEG
+discovered_by=KUN
+discovered_by=VES
+
+57.6.1={owner=RME controller=RME add_core=RME}
+69.9.1={revolt={type=nationalist_rebels size=5}}
+70.9.15={revolt={}}
+313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
+410.6.1={owner=STD controller=STD add_core=STD culture=scottish religion=early remove_core=BIR}
+843.1.1={owner=SCO controller=SCO add_core=SCO religion=catholic discovered_by=latin discovered_by=eastern discovered_by=muslim}
+878.1.1={owner=VIK controller=VIK}
+900.1.1={owner=SCO controller=SCO}
+1450.1.1={citysize=1500}
+1560.8.1={religion=reformed}
+1600.1.1={citysize=2000 capital="Glasgow" marketplace=yes fort2=yes} # Marketplace Estimated
+1645.8.1={revolt={type=revolutionary_rebels size=2} controller=REB} # Estimated
+1645.9.13={revolt={} controller=SCO} # Battle of Philiphaugh
+1651.4.1={controller=ENG}
+1652.4.21={controller=SCO}
+1707.5.12={owner=GBR controller=GBR add_core=GBR}
+1750.1.1={workshop=yes tax_assessor=yes} # Workshop, Tax Assessor Estimated
+1775.1.1={constable=yes customs_house=yes} # Estimated
+1780.1.1={shipyard=yes}
+1858.1.1={trade_goods=steel}

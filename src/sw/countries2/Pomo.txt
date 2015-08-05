@@ -1,0 +1,61 @@
+#Country Name: Please see filename.
+
+graphical_culture=northamericagfx
+
+color={ 160 160 255 } 
+
+historical_ideas={
+	humanist_tolerance
+	national_conscripts
+	battlefield_commisions
+	grand_army
+	national_trade_policy
+	military_drill
+	cabinet
+	engineer_corps
+	bill_of_rights
+	patron_of_art
+}
+
+historical_units={
+	native_indian_archer
+	native_indian_tribal_warfare
+	algonkin_tomahawk_charge
+	commanche_swarm
+	native_indian_mountain_warfare
+	sioux_dragoon
+	american_western_franchise_warfare
+}
+
+monarch_names={
+	"Tato #0"=20
+	"Kali #0"=20
+	"Cha #0"=20
+	"Kaw #0"=20
+	"Xotc #0"=20
+	"Ko #0"=20
+	"Sibo #0"=20
+	"Xomka #0"=20
+	"Subu #0"=20
+	"Dukaw #0"=20
+	"Dol #0"=20
+	"Tak #0"=20
+	"Kili #0"=20
+	"Gili #0"=20
+	"Katse #0"=20
+	"Kuksu #0"=20
+	"Amacha #0"=20
+}
+
+leader_names={
+	Natsu'i Lema Shal Baiya 
+	Gauk Ba Mata Da 
+	Mata Hayu Haiu Hayu 
+}
+
+ship_names={
+	Iweda Duwela Diweda 
+	Kale Pit'au Kale 
+	Tsakat Xosili Tsakat 
+	Tas G'ida Ta'ts 
+}

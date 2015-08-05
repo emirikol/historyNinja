@@ -1,0 +1,39 @@
+owner=ETO
+controller=ETO
+add_core=ETO
+culture=ethiopian 
+religion=cophtic
+capital="Aselia"
+fort1=yes
+citysize=4000
+manpower=2
+trade_goods=grain
+hre=no
+base_tax=1
+discovered_by=ETO
+discovered_by=ADA
+discovered_by=NUB
+discovered_by=muslim
+discovered_by=NBU
+discovered_by=AKE
+
+750.6.1={religion=sunni}
+1450.1.1={citysize=5000}
+1486.1.1={revolt_risk=5 add_core=ADA} #Raids by Mahfuz Of Zayla
+1510.1.1={revolt_risk=9} #Raids by Mahfuz Of Zayla
+1514.1.1={owner=ADA controller=ADA revolt_risk=6} #Mahfuz drives Ethiopians out of Ifat religion
+1517.7.1={fort1=yes	owner=ETO controller=ETO} #Lebna Dengel occupies religion during campaign that defeats Mahfuz
+1527.1.1={revolt_risk=5} #Raids by Ahmad Gran
+1529.1.1={revolt_risk=7} #Raids by Ahmad Gran
+1532.1.1={owner=ADA controller=ADA revolt_risk=6} #Lebna Dengel defeated by Ahmad Gran at Ayfars
+1545.1.1={owner=ETO controller=ETO remove_core=ADA} #Adal collapse in highlands in wake of Ahmad Gran's death
+1549.1.1={revolt_risk=5} #Invasion by Oromo
+1550.1.1={discovered_by=TUR}
+1564.1.1={revolt={type=revolutionary_rebels size=1} controller=REB} #Oromo seize control of religion
+1566.1.1={revolt={} controller=ETO} #Sarsa Dengel defeats Oromo invaders
+1573.1.1={revolt_risk=5} #Invasion by Oromo
+1590.1.1={native_size=50 native_ferocity=4.5 native_hostileness=9 owner=XXX controller=XXX religion=animism revolt_risk=0 citysize=35 fort1=no} #oromo expansion ends direct Ethiopian overlordship in religion
+1891.1.1={add_core=ETO owner=ETO controller=ETO trade_goods=wool religion=cophtic citysize=1200 fort1=yes}
+1936.1.1={owner=ITA controller=ITA} # occupied by Italy
+1942.12.1={owner=ETO controller=ETO} # freed itself
+1975.3.1={owner=ETH controller=ETH add_core=ETH}

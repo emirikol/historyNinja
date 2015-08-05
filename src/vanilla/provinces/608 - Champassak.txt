@@ -1,0 +1,38 @@
+#608 - Champassak
+
+owner = LXA
+controller = LXA
+culture = lao
+religion = buddhism
+capital = "Champassak"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 4500
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian
+
+1450.1.1 = { citysize = 5100 }
+1500.1.1 = { citysize = 6310 }
+1550.1.1 = { citysize = 7122 }
+1574.1.1 = { add_core = TAU }
+1600.1.1 = { citysize = 8975 }
+1603.1.1 = { remove_core = TAU }
+1650.1.1 = { citysize = 10500 }
+1694.1.1 = {	owner = DAI
+		controller = DAI
+		add_core = DAI
+	   } # After Soulingna Vongsa's death, Lan Xang came under vietnamese rule
+1700.1.1 = { citysize = 12580 }
+1707.1.1 = {	owner = CHK
+		controller = CHK
+		add_core = CHK
+	   	remove_core = LXA
+	   	remove_core = DAI
+	   } # Lan Xangs declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+1750.1.1 = { citysize = 14100 }
+1758.1.1 = { revolt_risk = 5 } # Rebellion
+1759.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 15899 }

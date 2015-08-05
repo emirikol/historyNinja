@@ -1,0 +1,32 @@
+owner=KHE
+controller=KHE
+add_core=KHE
+culture=chihan
+religion=taoist
+capital="Luzhou"
+trade_goods=tea
+hre=no
+base_tax=9
+manpower=3
+citysize=9900
+fort1=yes
+discovered_by=chinese
+discovered_by=KHE
+
+220.6.1={owner=EWU controller=EWU add_core=EWU remove_core=KHE}
+265.6.1={owner=CJI controller=CJI add_core=CJI remove_core=EWU}
+550.6.1={owner=NQI controller=NQI add_core=NQI remove_core=CJI}
+570.6.1={owner=SUI controller=SUI add_core=SUI remove_core=NQI}
+618.6.1={owner=TNG controller=TNG add_core=TNG culture=chihan}
+960.6.1={owner=SOG controller=SOG add_core=SOG remove_core=TNG}
+1232.6.1={owner=KHA controller=KHA remove_core=SOG}
+1271.6.1={owner=YUN controller=YUN add_core=YUN remove_core=KHA}
+1368.1.1={owner=MNG controller=MNG add_core=MNG remove_core=YUN add_core=WUU}
+1510.1.1={marketplace=yes}
+1583.6.1={religion=confucianism}
+1644.1.1={controller=MCH}
+1646.1.1={owner=MCH	add_core=MCH remove_core=MNG} # The Qing Dynasty
+1912.1.1={owner=CHN controller=CHN add_core=CHN} # Republic of China
+1941.12.1={owner=JAP controller=JAP} # occupied by Japan
+1945.8.15={owner=CHN controller=CHN}
+1949.10.1={owner=RCH controller=RCH add_core=RCH} # People's Republic of China

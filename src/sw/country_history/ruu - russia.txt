@@ -1,0 +1,45 @@
+government=federal_republic
+aristocracy_plutocracy=-3
+centralization_decentralization=3
+innovative_narrowminded=3
+mercantilism_freetrade=-3
+offensive_defensive=0
+land_naval=-3
+quality_quantity=3
+serfdom_freesubjects=-5
+primary_culture=russian
+religion=religious_tolerance
+technology_group=eastern
+unit_type=eastern
+capital=1008	# Moskva
+
+1950.1.1={ religion=religious_tolerance }
+
+1991.1.1={ government=federal_republic }
+
+1991.1.2={
+	monarch={
+		name="Boris Yeltsin"
+		adm=5
+		dip=7
+		mil=7
+	}
+}
+
+1999.12.31={
+	monarch={
+		name="Vladimir Putin"
+		adm=5
+		dip=7
+		mil=7
+	}
+}
+
+2008.5.7={
+	monarch={
+		name="Dmitry Medvedev"
+		adm=5
+		dip=7
+		mil=7
+	}
+}

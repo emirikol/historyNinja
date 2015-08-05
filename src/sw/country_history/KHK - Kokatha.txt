@@ -1,0 +1,13 @@
+government=tribal_despotism
+aristocracy_plutocracy=-5
+centralization_decentralization=5
+innovative_narrowminded=5
+mercantilism_freetrade=0
+offensive_defensive=-5
+land_naval=-5
+quality_quantity=4
+serfdom_freesubjects=-5
+primary_culture=aboriginal
+religion=australian_pagan
+technology_group=aboriginals
+capital=2495	# Pera-Pera

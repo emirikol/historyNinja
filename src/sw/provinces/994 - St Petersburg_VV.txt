@@ -1,0 +1,31 @@
+religion=baltik
+culture=normand
+hre=no
+base_tax=1
+trade_goods=grain
+manpower=1
+capital="Noteborg"
+discovered_by=FTP
+
+415.1.1={discovered_by=VIK}
+810.1.1={citysize=1000 owner=VIK controller=VIK add_core=VIK fort1=yes}
+843.1.1={discovered_by=muslim discovered_by=eastern discovered_by=latin culture=proto_finnish}
+1200.4.1={owner=SWE controller=SWE add_core=SWE add_core=FIN religion=catholic}
+1450.1.1={citysize=1200 culture=finnish}
+1478.1.14={owner=MOS controller=MOS add_core=MOS remove_core=NOV} 
+1500.1.1={citysize=1350}
+1503.3.22={owner=RUS controller=RUS	add_core=RUS remove_core=MOS}
+1550.1.1={citysize=1560}
+1560.1.1={marketplace=yes}
+1600.1.1={citysize=1822}
+1612.4.10={controller=SWE} # The Ingermanian War-Captured by Evert Horn
+1617.2.17={owner=SWE add_core=SWE remove_core=RUS} # The Peace of Stolbova
+1617.2.17={religion=protestant}
+1650.1.1={citysize=2100}
+1700.1.1={citysize=2654}
+1703.5.4={fort2=yes controller=RUS} # The Great Nordic War-Captured both N?teborg and Nyen
+1712.1.1={owner=RUS	add_core=RUS capital="St.Petersburg" culture=russian religion=orthodox} # Unknown date
+1717.1.1={citysize=25000}
+1721.8.30={remove_core=SWE} # The Peace of Nystad
+1917.10.1={owner=SOV add_core=SOV controller=SOV remove_core=RUS} # October Revolution in Moscow
+1991.12.8={owner=RUU controller=RUU add_core=RUU remove_core=SOV} # Russian Federation

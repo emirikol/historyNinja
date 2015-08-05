@@ -1,0 +1,43 @@
+#305 - Perm (formerly Simbirsk)
+
+owner = GOL
+controller = GOL        
+culture = tartar
+religion = sunni
+hre = no
+base_tax = 9
+trade_goods = iron
+manpower = 5
+capital = "Perm"
+citysize = 3250
+add_core = GOL
+discovered_by = SIB
+discovered_by = NOG
+discovered_by = KAZ
+discovered_by = GOL
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+
+1438.1.1 = {	owner = KAZ
+		controller = KAZ
+		discovered_by = KAZ
+		remove_core = GOL
+	   } # Khanate of Kazan
+1450.1.1 = { citysize = 3500 }
+1500.1.1 = { citysize = 3955 }
+1550.1.1 = { citysize = 4822 }
+1552.1.1 = {	owner = RUS
+		controller = RUS
+		add_core = RUS
+		remove_core = KAZ
+		fort2 = yes
+	   } # Conquered by Russia
+1553.1.1 = { culture = russian religion = orthodox } # Most Tatars were christianized or killed
+1600.1.1 = { citysize = 4165 }
+1650.1.1 = { citysize = 3800 }
+1700.1.1 = { citysize = 4670 }
+1750.1.1 = { citysize = 5800 }
+1773.1.1 = { revolt_risk = 5 } # Peasant uprising, Pugachev
+1774.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 6780 }

@@ -1,0 +1,81 @@
+government=khaganate
+aristocracy_plutocracy=-2
+centralization_decentralization=1
+innovative_narrowminded=0
+mercantilism_freetrade=-2
+offensive_defensive=-1
+land_naval=-1
+quality_quantity=-2
+serfdom_freesubjects=0
+primary_culture=turkish
+religion=sunni
+technology_group=nomad_group
+capital=1126	# Ray
+
+1037.6.1={
+monarch={
+name="Togrül"
+dynasty="Seljuk"
+adm=7
+dip=7
+mil=8}
+capital=1127}
+
+1063.4.27={
+monarch={
+name="Alp Arslan"
+dynasty="Seljuk"
+adm=7
+dip=7
+mil=8}}
+
+1072.6.1={
+monarch={
+name="Malik Shah"
+dynasty="Seljuk"
+adm=7
+dip=7
+mil=7}
+capital=1126
+technology_group=muslim}
+
+
+1092.6.1={
+monarch={
+name="Mahmud I"
+dynasty="Seljuk"
+adm=6
+dip=7
+mil=7}}
+
+1094.6.1={
+monarch={
+name="Barkiyaruq"
+dynasty="Seljuk"
+adm=6
+dip=6
+mil=7}}
+
+1105.6.1={
+monarch={
+name="Malik-Shah II"
+dynasty="Seljuk"
+adm=5
+dip=5
+mil=6}}
+
+1105.11.1={
+monarch={
+name="Mehmed I"
+dynasty="Seljuk"
+adm=5
+dip=5
+mil=6}}
+
+1118.6.1={
+monarch={
+name="Ahmed Sanjar"
+dynasty="Seljuk"
+adm=5
+dip=5
+mil=5}}
