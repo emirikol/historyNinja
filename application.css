@@ -11,7 +11,10 @@
  a {
    color: #39FFF6;
  }
- body:not(.edit) .editor {
+ body:not(.edit) .editor, body:not(.edit) .off {
+   display: none;
+ }
+ body:not(.edit) .side-panel.closed .table, body:not(.edit) .side-panel.closed .body {
    display: none;
  }
  body.edit [data-value] {
@@ -76,9 +79,6 @@
  .side-panel .table {
    margin-bottom: 0;
  }
- .side-panel.closed .table, .side-panel.closed .body {
-   display: none;
- }
  svg {
    width: 100%;
    height: 100%;
@@ -95,4 +95,7 @@
     font-size: 12px;
     font-family: verdana;
     letter-spacing: initial;
+ }
+ #templates {
+  display: none;
  }

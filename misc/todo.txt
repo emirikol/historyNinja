@@ -11,6 +11,7 @@ V performance II
 - refactor js
 - refactor html
 - show rebellions types?
+- update displayed data when events change it...
 - show HRE, vassalage
 - highlight selection
 - moar data?

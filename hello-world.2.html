@@ -10,11 +10,12 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/application.css">
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 <script type="text/javascript" src="/svg-pan-zoom.min.js" ></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js" ></script>
 <script type="text/javascript" src="/hammer.min.js" ></script>
+<script type="text/javascript" src="/o_O.js" ></script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" type="text/css" />
 </head>
@@ -48,32 +49,12 @@
           </div>
           <div class='side-panel country-info closed'>
             <div class='header'>
-              <label class="foo">-----</label>
+              <label class="foo" data-value='country.name'>-----</label>
+              <label class="editor">Country</label>
             </div>
             <table class='table'>
-              <tr>
-                <th>wiki</th>
-                <td><a href='#' data-value='country.link' target="_blank">link</a></td>
-              </tr>
-              <tr>
-                <th>Govt</th>
-                <td data-value='country.gov'></td>
-                <td class="editor"></td>
-              </tr>
-              <tr>
-                <th>Leader</th>
-                <td data-value='country.leader'></td>
-                <td class="editor">
-                  <div class="btn-group" data-toggle="buttons">
-                  <label class="btn btn-xs btn-default">
-                    <input type="radio" name="foo" checked> Show
-                  </label>
-                  <label class="btn btn-xs btn-default">
-                    <input type="radio" name="foo"> Hide
-                  </label>
-                  </div>
-                </td>
-              </tr>
+              <tr data-template="data_row" data-path="country.ruler" />
+              <tr data-template="data_row" data-path="country.gov" />
             </table>
           </div>
         
@@ -114,6 +95,27 @@
       
     </div>
   </div>
+  <div id="templates" style="display:none">
+    <table>
+      <tbody id="data_row">
+        <tr data-bind="class: state()">
+          <th data-bind="text: name()"></th>
+          <td data-bind='data-value: path()'></td>
+          <td class="editor">
+            <div class="btn-group" data-toggle="buttons">
+              <label data-bind="class: (state() == 'on' ? 'active' : '') + ' btn btn-xs btn-default'" >
+                <input type="radio" data-bind="name: path(); value: state" value="on"> Show
+              </label>
+              <label data-bind="class: (state() == 'off' ? 'active' : '') + ' btn btn-xs btn-default'">
+                <input type="radio" data-bind="name: path(); value: state" value="off"> Hide
+              </label>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <script type="text/javascript" src="application.js" ></script>
 </body>
 </html>

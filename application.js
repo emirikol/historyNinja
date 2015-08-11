@@ -84,11 +84,12 @@
             $('.foo').text(c ? c.name : 'There be dragons');
             if(c) {
               $('.side-panel.country-info').removeClass('closed');
-              $('[data-value="country.link"]').attr('href', 'https://en.wikipedia.org?search=' + c.name);
+              $('.foo').html($('<a>').attr('target', '_blank').text(c.name).attr('href', 'https://en.wikipedia.org?search=' + c.name));
               $('[data-value="country.gov"]').text(c.gov);
-              $('[data-value="country.leader"]').text(c.monarch || 'N/A');
+              $('[data-value="country.ruler"]').text(c.monarch || 'N/A');
             } else {
               $('.side-panel.country-info').addClass('closed');
+              $('.foo').text('There be dragons');
             }
             
           })
@@ -191,16 +192,48 @@
      $('body').toggleClass('edit');
      $(this).toggleClass('active', $('body').is('.edit'));
    });
+   
+   
 
-   var settings = JSON.parse(localStorage['settings'] || '{"show_slider_hint":true}');
+  settings = [
+    o_O.model({
+      path: 'country.ruler',
+      name: 'Ruler',
+      state: "on"
+    }),
+    o_O.model({
+      path: 'country.gov',
+      name: 'Govt',
+      state: "off"
+    })
+  ];
 
-   function apply_settings() {
-     $('.hinter').toggle(settings.show_slider_hint);
-     $('[name=show_slider_hint]').prop('checked', settings.show_slider_hint); //initial load
-   };
-   $('[name=show_slider_hint]').change(function() {
-     settings.show_slider_hint = $(this).is(':checked');
-     localStorage['settings'] = JSON.stringify(settings);
-     apply_settings();
-   });
-   apply_settings();
+  $.each(settings, function(i, s){
+    o_O.bind(s, $('#templates #data_row > *').clone().replaceAll('[data-path='+s.path+']') )
+  });
+
+
+
+  // function apply_settings() {
+  //   $('.hinter').toggle(settings.show_slider_hint);
+  //   $('[name=show_slider_hint]').prop('checked', settings.show_slider_hint); //initial load
+  //   $.each(settings,function(k,v){
+  //     $('[data-value="'+k+'"]').closest('tr').toggleClass('off', !v)
+  //   });
+  // };
+  // $('[name=show_slider_hint]').change(function() {
+  //   settings.show_slider_hint = $(this).is(':checked');
+  //   localStorage['settings'] = JSON.stringify(settings);
+  //   apply_settings();
+  // });
+  // $('[name*=settings]').change(function() {
+  //     var name = $(this).attr('name');
+  //     var test = $('[name="'+name+'"][value=on]').is(':checked');
+  //     var key = name.split(':')[1]
+  //     settings[key] = test;
+  //     apply_settings();
+  // });
+  // apply_settings();
+   
+   
+   
