@@ -1,106 +1,102 @@
-    provinces = {};
-    map = null;
-    countries = $.getJSON(source+'/countries.json?7').then(function(d){ return d });
-    annals = $.getJSON(source+'/zipped_history.json?3').then(function(d){ return d });
-    current_time = parseInt($('#date').val());
-    $('label[for=date]').html(seconds_to_date(current_time)); 
-    
-    function cache_provinces(list){
-      var i = 0;
-      for(var pid = list.pop();i < 25 && list.length > 0; pid = list.pop()) {
-        if(!provinces[parseInt(pid)].path) {
-          provinces[parseInt(pid)].path =  $('path[data-province='+pid+']', map);
-          i += 1;
-        }
-      }
-      // console.info(list.length);
-      if(list.length > 0) {
-        setTimeout(function(){ cache_provinces(list)  }, 20);
-      } else {
-        $('#loader').remove();
-      }
+provinces = {};
+map = null;
+countries = $.getJSON(source+'/countries.json?7').then(function(d){ return d });
+annals = $.getJSON(source+'/zipped_history.json?4').then(function(d){ return d });
+current_time = parseInt($('#date').val());
+$('label[for=date]').html(seconds_to_date(current_time)); 
+
+function cache_provinces(list){
+  var i = 0;
+  for(var pid = list.pop();i < 25 && list.length > 0; pid = list.pop()) {
+    if(!provinces[parseInt(pid)].path) {
+      provinces[parseInt(pid)].path =  $('path[data-province='+pid+']', map);
+      i += 1;
     }
+  }
+  // console.info(list.length);
+  if(list.length > 0) {
+    setTimeout(function(){ cache_provinces(list)  }, 20);
+  } else {
+    $('#loader').remove();
+  }
+}
     
     
-    var pan_zoom_options = {
-      zoomScaleSensitivity: 0.5,
-      minZoom: 0.75,
-      maxZoom: 10,
-      onPan: function(){
-        if(zooming) {
-          zooming = false;
-        } else {
-          pan = true;
-        }
-      },
-      onZoom: function(){
-        zooming = true;
-        pan = false;
-      },
-      customEventsHandler: window.panZoomHandler
-    };
-    
+var pan_zoom_options = {
+  zoomScaleSensitivity: 0.5,
+  minZoom: 0.75,
+  maxZoom: 10,
+  onPan: function(){
+    if(zooming) {
+      zooming = false;
+    } else {
+      pan = true;
+    }
+  },
+  onZoom: function(){
+    zooming = true;
     pan = false;
-    zooming = false;
-    map_loaded.then(function(){
-        // map = this;//.contentDocument
-        map  = $('svg');
-        //$('path[fill="#fefefe"]', map).remove();
-        svgPanZoom('svg',pan_zoom_options);
-      
-        $.getJSON(source+'/provinces.json?2').then(function(data){
-          provinces = data;
-          test = Object.keys(provinces);
-          cache_provinces(test);
-          // $('path:not([data-province])', map).remove();
-          // $.each(provinces, function(id,provnice){
-          // provnice.path = $('path[data-province='+id+']', map);
-          // provnice.path.attr('owner', provnice.owner);
-          // });
-          // $('path:not([owner])', map).css('fill', '#999999'); //rgb(200,200,200)
-          // countries.done(function(cs){
-          //   $.each(cs, function(code,country){
-          //     $('path[owner='+code+']', map).css('fill', country.color)
-          //   });
-          // });
-          update();
-          if(window.location.href.match(/dev/)) {
-            annals.then(function(){ $('#loader').remove()   });  
-          }
-          annals.then(function(events){ 
-            var min = parseInt(events.filter(function(e){ return e.owner })[0].time);
-            $('#date').attr('min', min).val(min).attr('max', parseInt(events.slice(0).reverse()[0].time));
-          });  
-        });
-        
-        
-        // $('svg').css({height: '2000px'});
-        
-        $(map).on('click , touchend', 'path', function() {
-          if (pan) return;
-          var el = this;
-          countries.then(function(cs) {
-            var c = cs[$(el).attr('owner')];
-            $('.foo').text(c ? c.name : 'There be dragons');
-            if(c) {
-              $('.side-panel.country-info').removeClass('closed');
-              $('.foo').html($('<a>').attr('target', '_blank').text(c.name).attr('href', 'https://en.wikipedia.org?search=' + c.name));
-              $('[data-value="country.gov"]').text(c.gov);
-              $('[data-value="country.ruler"]').text(c.monarch || 'N/A');
-            } else {
-              $('.side-panel.country-info').addClass('closed');
-              $('.foo').text('There be dragons');
-            }
-            
-          })
-        }).on('click , touchend', function(e) {
-          if (!pan && !$(e.target).is('path')) {
-            $('.side-panel.country-info').addClass('closed');
-            $('.foo').text('-----');
-          }
-          pan = false;
-        });
-      });
+  },
+  customEventsHandler: window.panZoomHandler
+};
+
+pan = false;
+zooming = false;
+map_loaded.then(function(){
+    // map = this;//.contentDocument
+    map  = $('svg');
+    //$('path[fill="#fefefe"]', map).remove();
+    svgPanZoom('svg',pan_zoom_options);
+  
+    $.getJSON(source+'/provinces.json?3').then(function(data){
+      provinces = data;
+      console.info('foobar');
+      test = Object.keys(provinces);
+      cache_provinces(test);
+      update();
+      if(window.location.href.match(/dev/)) {
+        annals.then(function(){ $('#loader').remove()   });  
+      }
+      annals.then(function(events){ 
+        var min = parseInt(events.filter(function(e){ return e.owner })[0].time);
+        $('#date').attr('min', min).val(min).attr('max', parseInt(events.slice(0).reverse()[0].time));
+      });  
+    });
+    
+    
+    // $('svg').css({height: '2000px'});
+    
+    $(map).on('click , touchend', 'path', function() {
+      if (pan) return;
+      var el = this;
+      countries.then(function(cs) {
+        var c = cs[$(el).attr('owner')];
+        var p = provinces[$(el).data('province')];
+        // $('.foo').text(c ? c.name : 'There be dragons');
+        if(c) {
+          $('.side-panel.country-info').removeClass('closed');
+          $('.foo').html($('<a>').attr('target', '_blank').text(c.name).attr('href', 'https://en.wikipedia.org?search=' + c.name));
+          $('[data-value="country.gov"]').text(c.gov);
+          $('[data-value="country.suzerain"]').text(c.suzerain ? cs[c.suzerain].name : '');
+          $('[data-value="country.ruler"]').text(c.monarch || 'N/A');
+        } else {
+          // $('.side-panel.country-info').addClass('closed');
+          $('.foo').text('------');
+          $('[data-value="country.gov"]').text('------');
+          $('[data-value="country.suzerain"]').text('------');
+          $('[data-value="country.ruler"]').text('------');
+        }
+        $('[data-value="province.culture"]').text(p ? p.culture.replace(/_/g, ' ') : '');
+        $('[data-value="province.religion"]').text(p ? p.religion.replace(/_/g, ' ') : '');
+      })
+    }).on('click , touchend', function(e) {
+      if (!pan && !$(e.target).is('path')) {
+        $('.side-panel.country-info').addClass('closed');
+        $('.foo').text('-----');
+      }
+      pan = false;
+    });
+  });
     
     
     function update() {
@@ -144,15 +140,28 @@
             $.each(event.id, function(i, e) {
               var id = parseInt(e);
               if (!provinces[id].path) provinces[parseInt(id)].path = $('path[data-province=' + id + ']', map);
-              var province = provinces[parseInt(id)].path
-              province
-                .attr('owner', owner_code)
-                .css('fill', owner.color || '#999999');
+              var province = provinces[parseInt(id)];
+              if(event.culture) province.culture = event.culture[index];
+              if(event.religion) province.religion = event.religion[index];
+              if(event.owner) province.path.attr('owner', owner_code).css('fill', owner.color || '#999999');
             });
           } else {
             var country = cs[event.code];
             if(event.gov) country['gov'] = event.gov[index];
             if(event.monarch) country['monarch'] = event.monarch[index];
+            if(event.suzerain) {
+             country['suzerain'] = event.suzerain[index];
+             var color = country['suzerain'] ? cs[country['suzerain']].color : country.color;
+             $('path[owner='+event.code+']').css('fill', color);
+            }
+            if(event.client) {
+              if(!country.client) country.client = [];
+              if(event.client[index]) {
+                country.client.push(event.client[index]) 
+              } else {
+                country.client = country.client.filter(function(c){ return c != event.client[index + delta] })
+              }
+            }
           }
         };
 
@@ -194,6 +203,7 @@
    });
    
    
+  
 
   settings = [
     o_O.model({
@@ -205,6 +215,21 @@
       path: 'country.gov',
       name: 'Govt',
       state: "off"
+    }),
+    o_O.model({
+      path: 'country.suzerain',
+      name: 'Suzerain',
+      state: "off"
+    }),
+    o_O.model({
+      path: 'province.culture',
+      name: 'Culture',
+      state: "off"
+    }),
+    o_O.model({
+      path: 'province.religion',
+      name: 'Religion',
+      state: "on"
     })
   ];
 
@@ -234,6 +259,5 @@
   //     apply_settings();
   // });
   // apply_settings();
-   
    
    

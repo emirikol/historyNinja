@@ -1,5 +1,5 @@
 culture=teremembe
-religion=ind_pagan
+religion=pagan
 capital="Alegrete"
 trade_goods=corn
 hre=no

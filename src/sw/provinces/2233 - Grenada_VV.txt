@@ -1,5 +1,5 @@
 culture=carib
-religion=ind_pagan
+religion=pagan
 capital="Grenada"
 trade_goods=spices 
 hre=no

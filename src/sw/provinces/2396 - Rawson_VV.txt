@@ -1,5 +1,5 @@
 culture=patagonian
-religion=ind_pagan
+religion=pagan
 capital="Rawson"
 trade_goods=fish
 hre=no

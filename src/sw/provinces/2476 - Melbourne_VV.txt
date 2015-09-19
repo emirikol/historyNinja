@@ -1,5 +1,5 @@
 culture=aboriginal
-religion=australian_pagan
+religion=pagan
 capital="Melbourne"
 hre=no
 trade_goods=gold

@@ -2,7 +2,7 @@ owner=SIR
 controller=SIR
 add_core=SIR
 culture=sarmathian
-religion=groman
+religion=roman
 capital="Aqwa"
 fort1=yes
 trade_goods=wine
@@ -27,7 +27,7 @@ remove_core=AVE discovered_by=BGK}
 665.6.1={manpower=1 owner=KHZ controller=KHZ add_core=KHZ culture=khazarian religion=shamanism}
 820.4.1={religion=jewish}
 843.6.1={discovered_by=latin}
-885.1.1={manpower=2 owner=AAR controller=AAR add_core=AAR culture=old_armenian remove_core=KHZ religion=orthodox}
+885.1.1={manpower=2 owner=AAR controller=AAR add_core=AAR culture=armenian remove_core=KHZ religion=orthodox}
 1027.6.2={manpower=3 owner=GEO controller=GEO add_core=GEO remove_core=AAR culture=georgian}
 1236.6.1={manpower=2 owner=KHA controller=KHA}
 1242.6.1={owner=GOL controller=GOL}

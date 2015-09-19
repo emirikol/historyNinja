@@ -1,5 +1,5 @@
 culture=teremembe
-religion=ind_pagan
+religion=pagan
 capital="Posadas"
 trade_goods=fur
 hre=no

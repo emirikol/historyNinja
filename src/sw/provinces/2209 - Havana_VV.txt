@@ -1,5 +1,5 @@
 culture=arawak
-religion=ind_pagan
+religion=pagan
 capital="Havana"
 trade_goods=tobacco
 hre=no
@@ -12,7 +12,7 @@ discovered_by=CAL
 discovered_by=TMC
 
 1492.10.24={discovered_by=CAS} # Christopher Columbus's arrival
-1515.1.1={owner=CAS controller=CAS culture=castillian religion=catholic citysize=600} # Founded by Diego Velázquez de Cuéllar
+1515.1.1={owner=CAS controller=CAS culture=castillian religion=catholic citysize=600} # Founded by Diego Velï¿½zquez de Cuï¿½llar
 1516.1.23={discovered_by=SPA owner=SPA controller=SPA}
 1517.1.1={add_core=SPA}
 1522.1.1={revolt_risk=2} # Guama lead a relatively small attack against the conquistadors 

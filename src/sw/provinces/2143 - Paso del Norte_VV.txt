@@ -1,5 +1,5 @@
 culture=navajo
-religion=ind_pagan
+religion=pagan
 capital="Paso"
 trade_goods=corn
 hre=no

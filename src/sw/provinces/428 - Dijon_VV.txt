@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Dijon"
 citysize=5000
 hre=no
@@ -18,7 +18,7 @@ discovered_by=SUE
 discovered_by=GLA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+461.8.7={owner=GLA controller=GLA religion=christian remove_core=RMP}
 476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian}
 534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
 799.12.24={hre=yes religion=catholic}
@@ -27,7 +27,7 @@ discovered_by=GLA
 1399.1.1={add_core=FRA}
 1477.1.5={owner=FRA controller=FRA} # Charles the Bold dies and transfers Bourgogne to France
 1525.1.1={fort2=yes}
-1526.1.14={add_core=HAB} # Treaty of Madrid, Austria claims Burgundy, but François I refuses to hand it over subsequently
+1526.1.14={add_core=HAB} # Treaty of Madrid, Austria claims Burgundy, but Franï¿½ois I refuses to hand it over subsequently
 1529.8.3={remove_core=HAB} # Peace of Cambrai (Ladies' Peace): Charles V renounces his claims on Bourgogne
 1550.1.1={constable=yes}
 1588.12.1={revolt_risk=5} # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
@@ -37,9 +37,9 @@ discovered_by=GLA
 1632.1.1={revolt_risk=0}
 1636.8.30={controller=HAB} # Habsburg forces ravage the religion in the Thirty Years War
 1636.10.1={controller=FRA} # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
-1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condï¿½, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1={revolt_risk=4} # An unstable peace is concluded
-1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condï¿½ sides with Spain, situation heats up again
 1652.10.21={revolt_risk=0} # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 1690.1.1={tax_assessor=yes}
 1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille

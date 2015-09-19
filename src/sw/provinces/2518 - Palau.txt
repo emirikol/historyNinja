@@ -1,5 +1,5 @@
 culture=polynesian
-religion=australian_pagan
+religion=pagan
 capital="Palau"
 trade_goods=fish
 hre=no

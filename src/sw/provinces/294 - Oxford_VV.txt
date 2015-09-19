@@ -2,7 +2,7 @@ owner=ERT
 controller=ERT
 add_core=ERT
 culture=trinobantes
-religion=droid
+religion=druid
 hre=no
 base_tax=3
 trade_goods=horses
@@ -40,7 +40,7 @@ discovered_by=VES
 61.9.1={revolt={type=nationalist_rebels size=5}} # Boudiccia revolt
 61.9.15={revolt={}}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-410.6.1={owner=WSS controller=WSS add_core=WSS culture=wessex religion=early remove_core=RMP remove_core=ERT}
+410.6.1={owner=WSS controller=WSS add_core=WSS culture=wessex religion=christian remove_core=RMP remove_core=ERT}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
 878.1.1={owner=DAN controller=DAN}
 878.5.1={owner=WSS controller=WSS}

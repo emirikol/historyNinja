@@ -1,0 +1,285 @@
+# Muscovy pays tribute to Golden Horde
+nomad_tribute={
+	first=GOL
+	second=MOS
+	start_date=1408.1.1
+	end_date=1437.1.31
+	amount=1.0
+}
+
+# Muscovy pays tribute to Kazan
+nomad_tribute={
+	first=KAZ
+	second=MOS
+	start_date=1438.1.1
+	end_date=1476.1.1
+	amount=1.0
+}
+
+# Novgorod pays tribute to Golden Horde
+nomad_tribute={
+	first=GOL
+	second=NOV
+	start_date=1399.1.1
+	end_date=1437.12.31
+	amount=1.0
+}
+
+# Novgorod pays tribute to Kazan
+nomad_tribute={
+	first=KAZ
+	second=NOV
+	start_date=1438.1.1
+	end_date=1477.12.31
+	amount=1.0
+}
+
+# Ryazan pays tribute to Golden Horde
+nomad_tribute={
+	first=GOL
+	second=RYA
+	start_date=1399.1.1
+	end_date=1440.12.31
+	amount=1.0
+}
+
+# Novgorod pays tribute to Kazan
+nomad_tribute={
+	first=KAZ
+	second=RYA
+	start_date=1438.1.1
+	end_date=1451.12.31
+	amount=1.0
+}
+
+# Peter III of Russia, Holstein-Gottorp
+union={
+	first=RUS
+	second=SHL
+	start_date=1761.12.27
+	end_date=1773.1.1
+	}
+
+# Russian vassal - Qasim khanate
+vassal={
+	first=MOS
+	second=QAS
+	start_date=1452.1.1
+	end_date=1503.3.21
+}
+
+# Russian vassal - Qasim khanate
+vassal={
+	first=RUS
+	second=QAS
+	start_date=1503.3.22
+	end_date=1681.1.1
+}
+
+# Russian vassal
+vassal={
+	first=RUS
+	second=ZAZ
+	start_date=1654.1.1
+	end_date=1735.1.1
+}
+
+# Russian vassal
+vassal={
+	first=RUS
+	second=KUR
+	start_date=1710.11.11
+	end_date=1795.3.28
+}
+
+# Union under Anna I
+union={
+	first=RUS
+	second=KUR
+	start_date=1710.11.11
+	end_date=1740.10.19
+}
+
+# Muscovy and Denmark
+alliance={
+	first=MOS
+	second=DAN
+	start_date=1493.11.4
+	end_date=1503.1.1
+}
+
+# Russia and Sweden
+alliance={
+	first=RUS
+	second=SWE
+	start_date=1567.2.16
+	end_date=1568.9.29 
+}
+
+# Russia and Sweden
+alliance={
+	first=RUS 
+	second=SWE
+	start_date=1609.2.28
+	end_date=1610.7.19
+}
+
+# Russia and Poland (the Eternal Peace)
+alliance={
+	first=RUS
+	second=POL
+	start_date=1686.5.6
+	end_date=1699.1.26
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=POL
+	start_date=1699.11.22
+	end_date=1706.9.24
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=POL
+	start_date=1709.8.8
+	end_date=1721.1.1
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=SAX
+	start_date=1699.11.22
+	end_date=1706.9.24
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=SAX
+	start_date=1709.8.8
+	end_date=1721.1.1
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=DAN
+	start_date=1699.11.22
+	end_date=1700.8.18
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=DAN
+	start_date=1709.10.28
+	end_date=1721.1.1
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=PRU
+	start_date=1715.1.1
+	end_date=1721.1.1
+}
+
+# Anti-Swedish alliance
+alliance={
+	first=RUS
+	second=HAN
+	start_date=1715.1.1
+	end_date=1721.1.1
+}
+
+# Treaty of Hamburg, Russia & Prussia
+alliance={
+	first=RUS
+	second=PRU
+	start_date=1762.5.22
+	end_date=1762.7.17
+}
+
+# Russia and Prussia
+alliance={
+	first=RUS
+	second=PRU
+	start_date=1764.4.11
+	end_date=1781.5.1
+}
+
+# Treaty of Georgievsk
+alliance={
+	first=RUS
+	second=GEO
+	start_date=1783.7.24
+	end_date=1801.1.18
+}
+
+# The Second Coalition, led by Paul I
+alliance={
+	first=RUS
+	second=GBR
+	start_date=1798.12.24
+	end_date=1801.10.8
+}
+
+# The Second Coalition, Treaty of Lunéville
+alliance={
+	first=RUS
+	second=HAB
+	start_date=1798.12.24
+	end_date=1801.2.9
+}
+
+# The Second Coalition, Treaty of Florence
+alliance={
+	first=RUS
+	second=NAP
+	start_date=1798.12.24
+	end_date=1801.3.18
+}
+
+# The Second Coalition, led by Paul I
+alliance={
+	first=RUS
+	second=POR
+	start_date=1798.12.24
+	end_date=1801.9.1
+}
+
+# The Second Coalition, led by Paul I
+alliance={
+	first=RUS
+	second=TUR
+	start_date=1798.12.24
+	end_date=1801.2.9
+}
+
+# Bavaria joins the Second Coalition, led by Paul I
+alliance={
+	first=RUS
+	second=BAV
+	start_date=1799.1.1
+	end_date=1801.2.9
+}
+
+# The Sixth Coalition, Saxony switches side
+alliance={
+	first=RUS
+	second=SAX
+	start_date=1813.10.18
+	end_date=1814.11.10
+}
+
+# Ivan III and Maria of Tver
+royal_marriage={
+	first=MOS
+	second=TVE
+	start_date=1452.1.1
+	end_date=1467.1.1
+}

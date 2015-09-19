@@ -2,7 +2,7 @@ owner=MET
 controller=MET
 add_core=MET
 culture=metztitlan 
-religion=teotl_azt
+religion=aztec
 capital="Guanajuato" 
 fort1=yes
 trade_goods=corn
@@ -27,7 +27,7 @@ discovered_by=TLP
 1428.1.1={owner=AZT controller=AZT add_core=AZT citysize=2000 remove_core=MET} # The Aztec Triple Alliance
 1450.1.1={citysize=2450}
 1500.1.1={citysize=2740}
-1530.1.1={manpower=2 discovered_by=SPA} # Pedro Alm’ndez Chirinos 
+1530.1.1={manpower=2 discovered_by=SPA} # Pedro Almï¿½ndez Chirinos 
 1546.1.1={owner=SPA controller=SPA culture=castillian religion=catholic} # Juan de Tolosa
 1550.1.1={citysize=3150} 
 1571.1.1={add_core=SPA remove_core=AZT}

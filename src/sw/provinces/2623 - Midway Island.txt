@@ -1,5 +1,5 @@
 culture=polynesian
-religion=ind_pagan
+religion=pagan
 capital="Middlebrooks"
 trade_goods=fish
 hre=no

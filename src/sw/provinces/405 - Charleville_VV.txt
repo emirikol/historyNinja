@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Charleviller"
 citysize=3000
 hre=no
@@ -18,7 +18,7 @@ discovered_by=SUE
 discovered_by=GLA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+461.8.7={owner=GLA controller=GLA religion=christian remove_core=RMP}
 486.2.1={owner=HFR controller=HFR add_core=HFR culture=frankish remove_core=GLA}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=wallonian}
@@ -38,7 +38,7 @@ discovered_by=GLA
 1580.1.1={revolt_risk=4 religion=reformed} # The Calvinist people of Valenciennes are restless
 1582.1.1={revolt_risk=0} # Peace returns
 1635.1.1={controller=FRA} # French troops capture parts of the Lowlands
-1648.1.30={controller=SPA religion=catholic} # Peace of Münster/Westphalia
+1648.1.30={controller=SPA religion=catholic} # Peace of Mï¿½nster/Westphalia
 1650.1.1={constable=yes}
 1659.10.28={owner=FRA controller=FRA remove_core=SPA} # Peace of the Pyrennees
 1670.10.15={regimental_camp=yes} # Vauban's forts in the North finished, earlier than generic fort4, troops aimed at the Lowlands based there

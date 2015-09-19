@@ -16,7 +16,7 @@ discovered_by=ODR
 discovered_by=GEH
 discovered_by=DAC
 
-290.6.1={owner=BAO controller=BAO culture=roxolanian religion=zoro remove_core=GEH}
+290.6.1={owner=BAO controller=BAO culture=roxolanian religion=zoroastrian remove_core=GEH}
 300.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
 350.5.1={discovered_by=eastern discovered_by=BYZ}
 451.6.1={owner=ATE controller=ATE add_core=ATE culture=proto_slavic religion=perun}
@@ -33,7 +33,7 @@ discovered_by=DAC
 1514.4.1={revolt={type=anti_tax_rebels size=0} controller=REB} # Peasant rebellion against Hungary's magnates
 1514.8.1={revolt={} controller=HUN}
 1520.1.1={fort2=yes} # Rural fortress Biertan (15-16th century)
-1526.8.30={owner=TUR controller=TUR	add_core=TUR} # Battle of Mohács
+1526.8.30={owner=TUR controller=TUR	add_core=TUR} # Battle of Mohï¿½cs
 1562.6.1={owner=TUR add_core=TUR remove_core=HAB} # End of Ottoman-Habsburg War
 1678.1.1={revolt={type=nationalist_rebels size=2} controller=REB} # Kuruc rebellion
 1684.1.1={revolt={} controller=TUR}

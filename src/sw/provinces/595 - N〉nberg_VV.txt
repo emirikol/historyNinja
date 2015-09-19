@@ -7,7 +7,7 @@ hre=no
 base_tax=12
 trade_goods=wine
 manpower=3
-capital="Nürnberg"
+capital="Nï¿½rnberg"
 fort1=yes
 citysize=9000
 discovered_by=eastern
@@ -28,7 +28,7 @@ discovered_by=VNA
 290.6.1={owner=BUR controller=BUR culture=burgundian religion=odin}
 350.6.1={owner=LOM controller=LOM culture=langobardian religion=odin}
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
-451.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+451.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={owner=PAL controller=PAL add_core=PAL culture=upper_palatinian remove_core=EHF discovered_by=latin

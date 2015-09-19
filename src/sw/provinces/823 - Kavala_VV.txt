@@ -16,7 +16,7 @@ discovered_by=RME
 discovered_by=RMP
 discovered_by=ODR
 
-260.6.1={culture=old_greek}
+260.6.1={culture=greek}
 313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
 350.5.1={discovered_by=eastern discovered_by=BYZ}
 395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}
@@ -34,8 +34,8 @@ discovered_by=ODR
 1331.5.1={owner=MOM	controller=MOM add_core=MOM}
 1345.7.7={owner=BIZ controller=BIZ}
 1357.1.1={owner=TUR controller=TUR remove_core=MOM remove_core=RME}
-1402.1.1={revolt={type=pretender_rebels size=2 leader="Süleyman Osmanli"} controller=REB} # Interregnum
-1410.1.1={revolt={} revolt={type=pretender_rebels size=2 leader="Mûsa Osmanli"} controller=REB}
+1402.1.1={revolt={type=pretender_rebels size=2 leader="Sï¿½leyman Osmanli"} controller=REB} # Interregnum
+1410.1.1={revolt={} revolt={type=pretender_rebels size=2 leader="Mï¿½sa Osmanli"} controller=REB}
 1413.1.1={revolt={} controller=TUR}
 1459.1.1={culture=turkish religion=sunni}
 1480.1.1={marketplace=yes}

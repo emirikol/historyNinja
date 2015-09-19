@@ -1,5 +1,5 @@
 culture=aztek 
-religion=teotl_azt
+religion=aztec
 capital="Huastec" 
 trade_goods=gold 
 hre=no 
@@ -31,4 +31,4 @@ discovered_by=TLP
 1750.1.1={citysize=7100 add_core=MEX} 
 1800.1.1={citysize=8230}
 1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
-1812.8.10={controller=MEX remove_core=SPA} # Conquered by José María Morelos
+1812.8.10={controller=MEX remove_core=SPA} # Conquered by Josï¿½ Marï¿½a Morelos

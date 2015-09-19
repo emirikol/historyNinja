@@ -1,5 +1,5 @@
 culture=arawak
-religion=ind_pagan
+religion=pagan
 capital="Tortuga"
 trade_goods=sugar 
 hre=no
@@ -18,7 +18,7 @@ native_hostileness=2
 1650.1.1={citysize=1420} # French pirates established a colony, Spain still retained its formal claim to the religion 
 1697.1.1={owner=FRA controller=FRA remove_core=SPA culture=cosmopolitan_french} # Spain tried to retake the area, ended in dissaster. Treaty of Ryswick
 1700.1.1={citysize=4690}
-1707.1.1={revolt_risk=3} # Choiseul-Beaupré sought to get rid of the French pirates, when it became a French colony
+1707.1.1={revolt_risk=3} # Choiseul-Beauprï¿½ sought to get rid of the French pirates, when it became a French colony
 1708.1.1={revolt_risk=0} # Many of them became the first European inhabitants of the religion
 1722.1.1={add_core=FRA}
 1750.1.1={citysize=5520} # Earthquake in 1751

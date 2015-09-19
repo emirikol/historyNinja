@@ -1,5 +1,5 @@
 culture=creek
-religion=ind_pagan
+religion=pagan
 capital="Augusta"
 trade_goods=cotton
 hre=no

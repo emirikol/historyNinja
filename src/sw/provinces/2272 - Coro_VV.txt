@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital="Coro"
 trade_goods=fur
 hre=no

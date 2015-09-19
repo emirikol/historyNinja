@@ -2,7 +2,7 @@ owner=TLP
 controller=TLP
 add_core=TLP
 culture=tepanecs
-religion=teotl_azt
+religion=aztec
 capital="Colima" 
 fort1=yes
 trade_goods=iron 
@@ -37,4 +37,4 @@ discovered_by=TLP
 1700.1.1={citysize=5600} 
 1750.1.1={citysize=10440 add_core=MEX} 
 1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
-1810.10.17={controller=MEX remove_core=SPA} # Conquered by José María Morelos
+1810.10.17={controller=MEX remove_core=SPA} # Conquered by Josï¿½ Marï¿½a Morelos

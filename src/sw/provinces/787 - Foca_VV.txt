@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Zenitza"
 trade_goods=grain
 hre=no
@@ -26,7 +26,7 @@ discovered_by=PER
 1018.9.1={owner=BYZ controller=BYZ} # Decline of Bulgarian Tzardom
 1059.6.1={owner=ECR controller=ECR}
 1074.6.1={owner=BOO controller=BOO add_core=BOO}
-1082.6.1={owner=RAS controller=RAS culture=old_serbian}
+1082.6.1={owner=RAS controller=RAS culture=serbian}
 1101.6.1={owner=BOO controller=BOO}
 1168.6.1={owner=BYZ controller=BYZ}
 1180.6.1={owner=BOO controller=BOO}

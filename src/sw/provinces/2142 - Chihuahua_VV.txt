@@ -1,5 +1,5 @@
 culture=navajo
-religion=ind_pagan
+religion=pagan
 capital="Suma"
 trade_goods=wool
 hre=no

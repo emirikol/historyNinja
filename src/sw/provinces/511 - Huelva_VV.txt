@@ -2,8 +2,8 @@ owner=RME
 controller=RME
 add_core=RME
 add_core=CEO
-culture=old_phoenicians
-religion=groman
+culture=phoenicians
+religion=roman
 hre=no
 base_tax=4
 trade_goods=wine 
@@ -17,7 +17,7 @@ discovered_by=RMP
 
 150.6.1={remove_core=CEO}
 313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
-455.6.1={owner=VIS controller=VIS add_core=VIS religion=early remove_core=RMP}
+455.6.1={owner=VIS controller=VIS add_core=VIS religion=christian remove_core=RMP}
 630.6.1={discovered_by=muslim}
 711.1.1={owner=ACA controller=ACA add_core=ACA remove_core=VIS culture=saracen religion=sunni}
 756.6.1={owner=ORC controller=ORC add_core=ORC remove_core=ACA culture=andalucian}
@@ -27,7 +27,7 @@ discovered_by=RMP
 1502.2.1={religion=catholic}
 1516.1.23={controller=SPA owner=SPA	add_core=SPA} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
 1600.1.1={customs_house=yes}
-1610.1.12={culture=castillian courthouse=yes} # Decree for the expulsion of the morisques in Andalucía, which is speedily and uneventfully performed
+1610.1.12={culture=castillian courthouse=yes} # Decree for the expulsion of the morisques in Andalucï¿½a, which is speedily and uneventfully performed
 1713.4.11={remove_core=CAS}
 1730.1.1={tax_assessor=yes}
 1808.6.6={revolt={type=nationalist_rebels size=1} controller=REB}

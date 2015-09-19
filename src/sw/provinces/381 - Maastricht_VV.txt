@@ -26,7 +26,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 290.6.1={manpower=2 owner=HFR controller=HFR culture=frankish remove_core=LOM}
-451.6.1={manpower=3 religion=early}
+451.6.1={manpower=3 religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=limburgian}
 870.6.1={remove_core=LHT manpower=4 owner=BRB controller=BRB add_core=BRB}

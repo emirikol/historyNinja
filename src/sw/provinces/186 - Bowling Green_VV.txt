@@ -1,7 +1,7 @@
 owner=SHA
 controller=SHA
 culture=shawnee
-religion=ind_pagan
+religion=pagan
 capital="Bowling Green"
 fort1=yes
 trade_goods=fur

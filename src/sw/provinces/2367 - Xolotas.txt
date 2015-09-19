@@ -1,5 +1,5 @@
 culture=mataco
-religion=ind_pagan
+religion=pagan
 capital="Xolotas"
 trade_goods=wood
 hre=no

@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=helvetii
-religion=groman
+religion=roman
 capital="Lucern"
 trade_goods=wood
 hre=no
@@ -26,7 +26,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=early remove_core=RMP}
+476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=christian remove_core=RMP}
 790.1.1={owner=HFR controller=HFR add_core=HFR culture=langobardian remove_core=LOM}
 800.1.1={religion=catholic   capital="Luciaria"}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}

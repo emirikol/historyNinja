@@ -2,7 +2,7 @@ owner=TOT
 controller=TOT 
 add_core=TOT
 culture=totonac
-religion=teotl_azt
+religion=aztec
 capital="Matamoros"
 fort1=yes
 trade_goods=fur
@@ -27,7 +27,7 @@ discovered_by=AZT
 1428.1.1={owner=AZT	controller=AZT add_core=AZT citysize=2000 remove_core=TOT} # The Aztec Triple Alliance
 1450.1.1={citysize=3800}
 1500.1.1={citysize=4102}
-1519.3.13={discovered_by=SPA} # Hernán Cortés
+1519.3.13={discovered_by=SPA} # Hernï¿½n Cortï¿½s
 1554.1.1={owner=SPA controller=SPA citysize=4850 culture=castillian religion=catholic} # First permanent settlement
 1579.1.1={add_core=SPA}
 1600.1.1={citysize=5344}

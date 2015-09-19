@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Tunja"
 trade_goods=fur
 hre=no

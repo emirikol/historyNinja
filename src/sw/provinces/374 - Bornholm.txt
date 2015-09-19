@@ -8,7 +8,7 @@ capital="Bornholm"
 
 400.1.1={discovered_by=VIK}
 415.6.1={owner=VIK controller=VIK add_core=VIK citysize=5000}
-698.6.1={religion=early}
+698.6.1={religion=christian}
 800.1.1={religion=catholic}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim marketplace=yes}
 965.1.1={owner=DAN controller=DAN add_core=DAN remove_core=VIK fort1=yes}

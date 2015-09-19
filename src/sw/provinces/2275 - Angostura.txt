@@ -1,6 +1,6 @@
 capital="Angostura" 
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 trade_goods=wool
 hre=no
 base_tax=1

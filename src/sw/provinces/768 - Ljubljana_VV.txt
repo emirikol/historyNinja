@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=south_bavarian
-religion=groman
+religion=roman
 base_tax=9
 trade_goods=gold
 manpower=2
@@ -17,9 +17,9 @@ discovered_by=PER
 discovered_by=PHT
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-395.5.1={religion=early}
+395.5.1={religion=christian}
 451.6.1={owner=OST controller=OST culture=ostrogothic}
-553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=south_bavarian religion=early remove_core=RMP}
+553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=south_bavarian religion=christian remove_core=RMP}
 805.1.1={owner=HFR controller=HFR add_core=HFR religion=catholic hre=yes remove_core=HSL culture=frankish}
 843.1.1={owner=WCR controller=WCR add_core=WCR culture=white_croats discovered_by=latin discovered_by=muslim}
 925.5.1={owner=ECR controller=ECR add_core=ECR remove_core=BYZ remove_core=HFR remove_core=WCR culture=croatian hre=no}

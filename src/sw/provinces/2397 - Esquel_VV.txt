@@ -1,5 +1,5 @@
 culture=patagonian
-religion=ind_pagan
+religion=pagan
 capital="Esquel"
 trade_goods=silver
 hre=no

@@ -1,5 +1,5 @@
 culture=teremembe
-religion=ind_pagan
+religion=pagan
 capital="Snta Espiritu"
 trade_goods=corn
 hre=no

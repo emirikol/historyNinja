@@ -3,7 +3,7 @@ controller=WIC
 add_core=WIC
 fort1=yes
 culture=caddo
-religion=ind_pagan
+religion=pagan
 capital="Oklahoma"
 citysize=1000
 trade_goods=corn
@@ -14,7 +14,7 @@ discovered_by=WIC
 discovered_by=CAD
 discovered_by=OSA
 
-1541.1.1={discovered_by=SPA} # Francisco Vásquez de Coronado
+1541.1.1={discovered_by=SPA} # Francisco Vï¿½squez de Coronado
 1682.1.1={owner=SPA controller=SPA citysize=400 culture=castillian religion=catholic trade_goods=grain}
 1707.1.1={add_core=SPA citysize=1240}
 1732.1.1={citysize=1500}

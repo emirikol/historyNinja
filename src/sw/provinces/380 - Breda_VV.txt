@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=gallic
-religion=groman
+religion=roman
 capital="Breda"
 citysize=5000
 hre=no
@@ -34,7 +34,7 @@ discovered_by=SUE
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 355.6.1={owner=FRE controller=FRE remove_core=RMP}
 371.6.1={owner=HFR controller=HFR culture=frankish religion=odin}
-451.6.1={owner=HFR controller=HFR add_core=HFR culture=langobardian religion=early}
+451.6.1={owner=HFR controller=HFR add_core=HFR culture=langobardian religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR}
 870.6.1={remove_core=LHT owner=HAI controller=HAI add_core=HAI culture=zealandic}

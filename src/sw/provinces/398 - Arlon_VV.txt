@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=gallic
-religion=groman
+religion=roman
 capital="Arlon"
 citysize=4500
 hre=no
@@ -27,7 +27,7 @@ discovered_by=VNA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 354.6.1={owner=HFR controller=HFR culture=frankish religion=odin remove_core=RMP}
-476.5.1={add_core=HFR religion=early}
+476.5.1={add_core=HFR religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=wallonian}
 870.6.1={remove_core=LHT owner=HAI controller=HAI add_core=HAI}
@@ -58,7 +58,7 @@ discovered_by=VNA
 1648.1.30={controller=SPA} # Peace of Munster/Westphalia
 1650.1.1={trade_goods=iron textile=no} # Focus more and more on iron & coal industry
 1665.9.17={add_core=FRA} # Louis XIV's father-in-law, Philip IV of Spain, dies
-1667.9.25={controller=FRA} # Maréchal captures alot of cities in the religion for Louis XIV
+1667.9.25={controller=FRA} # Marï¿½chal captures alot of cities in the religion for Louis XIV
 1668.5.2={controller=SPA} # Peace of Aachen
 1672.5.5={controller=FRA} # France blitzes through the Lowlands in the Franco-Dutch War
 1678.9.19={controller=SPA} # Peace of Nijmegen (France-Spain)

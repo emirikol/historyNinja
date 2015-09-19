@@ -1,5 +1,5 @@
 culture=guarani
-religion=ind_pagan
+religion=pagan
 capital="Rio Cuarto"
 trade_goods=fur
 hre=no

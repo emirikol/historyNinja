@@ -1,5 +1,5 @@
 culture=aimara
-religion=ind_pagan
+religion=pagan
 capital="Catamarca"
 trade_goods=silver
 hre=no

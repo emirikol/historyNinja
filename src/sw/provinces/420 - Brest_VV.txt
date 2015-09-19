@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Brest"
 citysize=3500
 hre=no
@@ -31,7 +31,7 @@ discovered_by=GLA
 discovered_by=SUE
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-461.8.7={owner=DUM controller=DUM add_core=DUM remove_core=RMP culture=breton religion=early}
+461.8.7={owner=DUM controller=DUM add_core=DUM remove_core=RMP culture=breton religion=christian}
 476.5.1={manpower=2}
 785.1.1={manpower=3 owner=HFR controller=HFR add_core=HFR hre=yes remove_core=DUM} 
 799.12.24={religion=catholic}

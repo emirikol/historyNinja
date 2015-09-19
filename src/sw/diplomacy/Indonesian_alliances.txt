@@ -1,0 +1,136 @@
+
+#Vietnamese vassal
+vassal={
+	first=ANN
+	second=CHA
+	start_date=1697.1.1
+	end_date=1822.1.1
+}
+
+#Burmese vassal
+vassal={
+	first=TAU
+	second=AYU
+	start_date=1564.2.1
+	end_date=1584.5.3
+}
+
+#Burmese vassal
+vassal={
+	first=TAU
+	second=LNA
+	start_date=1558.1.1
+	end_date=1578.1.1
+}
+
+#Burmese vassal
+vassal={
+	first=TAU
+	second=LNA
+	start_date=1663.1.1
+	end_date=1771.1.1
+}
+
+# Burmese vassal
+vassal={
+	first=TAU
+	second=LUA
+	start_date=1771.1.1
+	end_date=1778.1.1
+}
+
+# Burmese vassal
+vassal={
+	first=TAU
+	second=LUA
+	start_date=1771.1.1
+	end_date=1778.1.1
+}
+
+# Siamese vassal
+vassal={
+	first=AYU
+	second=LUA
+	start_date=1779.1.1
+	end_date=1795.1.1
+}
+
+# Vassal of Siam
+vassal={
+	first=AYU
+	second=KHM
+	start_date=1431.1.1
+	end_date=1618.1.1
+}
+
+# Siamese vassal
+vassal={
+	first=AYU
+	second=PAT
+	start_date=1500.1.1
+	end_date=1632.1.1
+}
+
+# Vassal of Siam
+vassal={
+	first=AYU
+	second=PAT
+	start_date=1636.1.1
+	end_date=1902.1.1
+}
+
+# Annam vassal
+vassal={
+	first=ANN
+	second=KHM
+	start_date=1658.1.1
+	end_date=1673.1.1
+}
+
+# Vietnamese vassal
+vassal={
+	first=ANN
+	second=KHM
+	start_date=1710.1.1
+	end_date=1720.1.1
+}
+
+# Vassal of Siam
+vassal={
+	first=AYU
+	second=KHM
+	start_date=1720.1.1
+	end_date=1834.1.1
+}
+
+# Siamese vassal
+vassal={
+	first=AYU
+	second=KHM
+	start_date=1697.1.1
+	end_date=1710.1.1
+}
+
+# Siamese vassal
+vassal={
+	first=AYU
+	second=CHK
+	start_date=1772.1.1
+	end_date=1899.1.1
+}
+
+# Vassal of Siam
+vassal={
+	first=AYU
+	second=VIE
+	start_date=1778.1.1
+	end_date=1828.1.1
+}
+
+# Chey Chettha II and Sai Vuong's daughter
+royal_marriage={
+	first=KHM
+	second=ANN
+	start_date=1620.1.1
+	end_date=1628.1.1
+}

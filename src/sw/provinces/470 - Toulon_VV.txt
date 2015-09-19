@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 capital="Toulon"
 trade_goods=fur
 hre=no
@@ -15,8 +15,8 @@ discovered_by=RME
 discovered_by=RMP
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.6.1={owner=VIS controller=VIS add_core=VIS remove_core=RMP culture=visigothic religion=early}
-534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early remove_core=VIS}
+476.6.1={owner=VIS controller=VIS add_core=VIS remove_core=RMP culture=visigothic religion=christian}
+534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=christian remove_core=VIS}
 630.6.1={discovered_by=muslim}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR}
@@ -27,7 +27,7 @@ discovered_by=RMP
 1481.1.1={owner=FRA controller=FRA} # Provence added to France after the death of Duke Charles
 1500.1.1={refinery=yes} # Jacques Coeur's factories in Marseille (est. 1450)
 1501.1.1={courthouse=yes} # Le Parlement d'Aix
-1513.1.1={temple=yes} # La Cathédrale Saint-Sauveur finished
+1513.1.1={temple=yes} # La Cathï¿½drale Saint-Sauveur finished
 1526.2.1={controller=HAB} # Austria invades the Provence during the Franco-Habsburg war (1521-1529)
 1529.8.3={controller=FRA} # Treaty of Cambrai (Ladies' Peace): Back to status quo
 1530.1.1={fort2=yes}
@@ -47,9 +47,9 @@ discovered_by=RMP
 1633.1.1={revolt_risk=0}
 1649.1.1={revolt_risk=5}
 1650.1.1={capital="Marseille"} # Marseille becomes the primary city in the religion
-1650.1.14 ={revolt_risk=7} # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.1.14 ={revolt_risk=7} # Mazarin arrests the Princes Condï¿½, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1={revolt_risk=4} # An unstable peace is concluded
-1651.12.1 ={revolt_risk=7} # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1651.12.1 ={revolt_risk=7} # Mazarin returns from exile, Condï¿½ sides with Spain, situation heats up again
 1652.10.21={revolt_risk=0} # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 1659.1.1={revolt_risk=5}
 1662.1.1={revolt_risk=0}

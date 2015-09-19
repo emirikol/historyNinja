@@ -1,5 +1,5 @@
 culture=navajo 
-religion=teotl_azt
+religion=aztec
 capital="Sinaloa" 
 trade_goods=corn 
 hre=no 
@@ -15,7 +15,7 @@ discovered_by=YKT
 
 1428.1.1={discovered_by=AZT}
 1531.3.1={discovered_by=SPA}
-1531.9.1={owner=SPA controller=SPA capital="Culiacán" citysize=450 culture=castillian religion=catholic}
+1531.9.1={owner=SPA controller=SPA capital="Culiacï¿½n" citysize=450 culture=castillian religion=catholic}
 1550.1.1={citysize=1400 fort1=yes}
 1556.1.1={add_core=SPA}
 1578.1.1={discovered_by=ENG} # Drake

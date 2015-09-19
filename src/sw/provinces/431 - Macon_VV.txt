@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=gallic
-religion=groman
+religion=roman
 capital="Macon"
 citysize=4500
 hre=no
@@ -16,7 +16,7 @@ discovered_by=RMP
 discovered_by=SUE
 
 313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox remove_core=RME}
-455.6.1={owner=VIS controller=VIS add_core=VIS religion=early remove_core=RMP}
+455.6.1={owner=VIS controller=VIS add_core=VIS religion=christian remove_core=RMP}
 476.5.1={owner=BUR controller=BUR add_core=BUR remove_core=VIS}
 508.5.1={owner=AUI controller=AUI add_core=AUI culture=occitain}
 534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
@@ -35,9 +35,9 @@ discovered_by=SUE
 1639.1.1={revolt_risk=3}
 1641.1.1={revolt_risk=0}
 1650.1.1={citysize=10000 constable=yes}
-1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condï¿½, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1={revolt_risk=4} # An unstable peace is concluded
-1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condï¿½ sides with Spain, situation heats up again
 1652.10.21={revolt_risk=0} # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 1750.1.1={courthouse=yes tax_assessor=yes}
 1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille

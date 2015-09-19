@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital="Macapa"
 trade_goods=wood
 hre=no
@@ -9,7 +9,7 @@ native_size=15
 native_ferocity=1
 native_hostileness=2
 
-1500.1.1={discovered_by=CAS discovered_by=POR} # Pinzón, Pedro Álvares Cabral
+1500.1.1={discovered_by=CAS discovered_by=POR} # Pinzï¿½n, Pedro ï¿½lvares Cabral
 1516.1.23={discovered_by=SPA}
 1637.1.1={discovered_by=POR owner=POR controller=POR citysize=560 culture=portugese religion=catholic}
 1650.1.1={citysize=1005 fort1=yes}

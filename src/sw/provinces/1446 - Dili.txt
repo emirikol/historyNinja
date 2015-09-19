@@ -1,5 +1,5 @@
 culture=papuan
-religion=australian_pagan
+religion=pagan
 capital="Dili"
 trade_goods=spices
 hre=no

@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital="Ouro Preto"
 trade_goods=coffee
 hre=no

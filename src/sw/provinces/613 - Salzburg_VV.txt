@@ -26,8 +26,8 @@ discovered_by=SAT
 discovered_by=VNA
 
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
-451.6.1={owner=BAV controller=BAV add_core=BAV culture=south_bavarian religion=early}
-790.1.1={owner=HFR controller=HFR add_core=HFR culture=langobardian religion=early remove_core=BAV}
+451.6.1={owner=BAV controller=BAV add_core=BAV culture=south_bavarian religion=christian}
+790.1.1={owner=HFR controller=HFR add_core=HFR culture=langobardian religion=christian remove_core=BAV}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR}
 918.12.24={owner=HAB controller=HAB add_core=HAB remove_core=EHF culture=south_bavarian}
@@ -45,7 +45,7 @@ discovered_by=VNA
 1803.1.1={owner=ETR controller=ETR add_core=ETR} # Given to Ferdinand III of Tuscany
 1805.12.26={owner=HAB controller=HAB add_core=HAB remove_core=ETR} # Treaty of Pressburg, annexed by Habsburg
 1806.7.12={hre=no} # The Holy Roman Empire is dissolved
-1809.10.14={owner=BAV controller=BAV add_core=BAV remove_core=HAB} # Treaty of Schönbrunn
+1809.10.14={owner=BAV controller=BAV add_core=BAV remove_core=HAB} # Treaty of Schï¿½nbrunn
 1814.5.30={owner=HAB controller=HAB add_core=HAB remove_core=BAV} # Treaty of Paris
 1938.3.15={owner=NAZ controller=NAZ add_core=NAZ} # Austria annexed by Nazi-Germany
 1945.5.4={owner=HAB controller=HAB remove_core=NAZ} # end of the 2. WW - Austria gets independent again

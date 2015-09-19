@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Aulon"
 trade_goods=wool
 hre=no
@@ -27,16 +27,16 @@ discovered_by=ODR
 866.1.1={owner=BUL controller=BUL add_core=BUL remove_core=BGK religion=orthodox}
 1018.9.1={owner=BYZ controller=BYZ culture=greek}
 1081.10.18={owner=NAP controller=NAP capital="Valona"}
-1085.6.1={owner=BYZ controller=BYZ capital="Aulón"}
+1085.6.1={owner=BYZ controller=BYZ capital="Aulï¿½n"}
 1185.7.11={owner=SIC controller=SIC capital="Valona"}
-1185.9.7={owner=BYZ controller=BYZ capital="Aulón"}
+1185.9.7={owner=BYZ controller=BYZ capital="Aulï¿½n"}
 1204.4.12={owner=EPI controller=EPI add_core=EPI remove_core=BYZ}
 1230.8.1={owner=BUL controller=BUL add_core=BUL remove_core=EPI}
 1242.3.1={owner=NII controller=NII}
 1261.12.23={owner=BIZ controller=BIZ add_core=BIZ remove_core=NII remove_core=BYZ remove_core=EPI}
 1300.6.1={culture=albanian}
 1330.9.8={owner=SER controller=SER}
-1335.1.1={owner=MUZ controller=MUZ add_core=MUZ capital="Vlorë"}
+1335.1.1={owner=MUZ controller=MUZ add_core=MUZ capital="Vlorï¿½"}
 1443.3.4={owner=LOL controller=LOL add_core=LOL remove_core=MUZ} # Skanderbeg's rebellion. The League of Lezhe
 1450.1.1={citysize=7300}
 1453.5.29={remove_core=BIZ}
@@ -59,4 +59,4 @@ discovered_by=ODR
 1900.1.1={add_core=ALB}
 1912.11.28={remove_core=TUR controller=ALB owner=ALB} # independence of Albania
 1939.3.20={owner=ITA controller=ITA capital="Valona"} # occupied by Italy
-1944.11.29={owner=ALB controller=ALB capital="Vlorë"}
+1944.11.29={owner=ALB controller=ALB capital="Vlorï¿½"}

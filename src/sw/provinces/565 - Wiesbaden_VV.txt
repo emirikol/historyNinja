@@ -26,7 +26,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 290.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish remove_core=LOM}
-451.6.1={religion=early}
+451.6.1={religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={owner=TRI controller=TRI add_core=TRI culture=moselle_franconian 

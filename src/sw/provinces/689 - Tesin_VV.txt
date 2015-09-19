@@ -25,7 +25,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 110.6.1={owner=GEP controller=GEP culture=gepids remove_core=MCR}
-290.6.1={owner=NAV controller=NAV culture=basque religion=droid}
+290.6.1={owner=NAV controller=NAV culture=basque religion=druid}
 355.6.1={owner=BES controller=BES culture=bastarnic}
 370.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
 451.6.1={owner=HSL controller=HSL culture=proto_slavic religion=perun}

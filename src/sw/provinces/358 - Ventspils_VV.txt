@@ -1,4 +1,4 @@
-culture=old_prussian
+culture=prussian
 religion=baltik
 hre=no
 base_tax=4

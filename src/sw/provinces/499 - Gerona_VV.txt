@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 hre=no
 base_tax=4
 trade_goods=fish 
@@ -18,7 +18,7 @@ discovered_by=VES
 discovered_by=SUE
 
 313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
-455.6.1={owner=VIS controller=VIS add_core=VIS religion=early remove_core=RMP}
+455.6.1={owner=VIS controller=VIS add_core=VIS religion=christian remove_core=RMP}
 630.6.1={discovered_by=muslim}
 714.1.1={owner=HFR controller=HFR add_core=HFR remove_core=VIS culture=frankish religion=catholic}
 814.1.1={owner=BVR controller=BVR add_core=BVR remove_core=HFR culture=catalan}
@@ -29,12 +29,12 @@ discovered_by=SUE
 1413.8.31={revolt={} controller=ARA}
 1450.1.1={citysize=4500}
 1461.9.23={revolt={type=revolutionary_rebels size=0} controller=REB} # Catalan nobility revolts against King Joan, later the "Remensa" peasant revolt erupts, which is used by the King to erode the Catalan nobility. 
-1462.4.11={revolt={} controller=CAS} # Catalan nobility revolts against King Joan, later the Remença peasant revolt erupts.
+1462.4.11={revolt={} controller=CAS} # Catalan nobility revolts against King Joan, later the Remenï¿½a peasant revolt erupts.
 1463.1.1={revolt={type=pretender_rebels size=1} controller=REB} # Jaime de Urgell Uprising
 1466.6.30={revolt={} controller=PRO citysize=3300} # census of 1473 (population lost due to the war). Succession war against Provence
 1469.1.1={controller=ARA}
-1484.1.1={revolt_risk=3} # Second Remença revolt
-1486.4.21={revolt_risk=0} # King Ferràn arbit rates a resolution between the revolted peasants and the catalan nobles. 
+1484.1.1={revolt_risk=3} # Second Remenï¿½a revolt
+1486.4.21={revolt_risk=0} # King Ferrï¿½n arbit rates a resolution between the revolted peasants and the catalan nobles. 
 1497.1.1={citysize=6000 temple=yes} # census of 1497 
 1506.1.1={citysize=4500} # Epidemic
 1515.1.1={citysize=6000} # census of 1515, population stagnated due to epidemics

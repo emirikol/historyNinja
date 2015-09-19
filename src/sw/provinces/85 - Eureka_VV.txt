@@ -2,7 +2,7 @@ owner=PEO
 controller=PEO
 add_core=PEO
 culture=hokan
-religion=ind_pagan
+religion=pagan
 capital="Eureka"
 fort1=yes
 citysize=1000
@@ -17,7 +17,7 @@ discovered_by=YKT
 discovered_by=CHU
 discovered_by=MOJ
 
-1542.1.1={discovered_by=SPA} # Juan Rodríguez Cabrillo
+1542.1.1={discovered_by=SPA} # Juan Rodrï¿½guez Cabrillo
 1579.6.16={discovered_by=ENG} # Sir Francis Drake
 1786.1.1={discovered_by=FRA} # Jean Francois la Perouse
 1814.12.24={owner=GBR controller=GBR citysize=200 culture=english religion=protestant trade_goods=grain} # British control after the War of 1812

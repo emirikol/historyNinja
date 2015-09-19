@@ -27,7 +27,7 @@ discovered_by=VNA
 
 350.6.1={owner=VNA controller=VNA culture=vandals religion=odin remove_core=LOM} 
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
-451.6.1={owner=SAT controller=SAT add_core=SAT culture=saxon religion=early}
+451.6.1={owner=SAT controller=SAT add_core=SAT culture=saxon religion=christian}
 770.1.1={owner=HFR controller=HFR add_core=HFR remove_core=SAT}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
@@ -35,7 +35,7 @@ discovered_by=VNA
 discovered_by=eastern discovered_by=muslim}
 1450.1.1={citysize=6500}
 1500.1.1={fort2=yes citysize=7000}
-1527.1.1={marketplace=yes} # # Philipp der Grossmütige
+1527.1.1={marketplace=yes} # # Philipp der Grossmï¿½tige
 1536.1.1={religion=protestant}
 1547.1.1={fort2=no} # Kassel's fortifications destroyed by catholics
 1550.1.1={citysize=9000}

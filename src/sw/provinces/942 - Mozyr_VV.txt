@@ -28,7 +28,7 @@ discovered_by=SRM
 discovered_by=HSL
 
 290.6.1={owner=HSL controller=HSL add_core=HSL culture=proto_slavic religion=perun remove_core=GHT}
-355.6.1={owner=BAO controller=BAO add_core=BAO remove_core=HSL culture=roxolanian religion=zoro discovered_by=BAO}
+355.6.1={owner=BAO controller=BAO add_core=BAO remove_core=HSL culture=roxolanian religion=zoroastrian discovered_by=BAO}
 370.6.1={culture=huns religion=tangra owner=HNU controller=HNU add_core=HNU remove_core=BAO discovered_by=HNU}
 451.6.1={owner=DRE controller=DRE add_core=DRE culture=dregovichi religion=perun remove_core=HNU discovered_by=DRE}
 882.1.1={owner=KIV controller=KIV add_core=KIV religion=orthodox culture=kievan_rus remove_core=DRE discovered_by=KIV}

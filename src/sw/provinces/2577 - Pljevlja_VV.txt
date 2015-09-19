@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Pljevlja"
 fort1=yes
 trade_goods=iron
@@ -28,7 +28,7 @@ discovered_by=ODR
 931.5.1={owner=ZET controller=ZET culture=zetian} # Serbian Rebelation
 1018.9.1={owner=BYZ controller=BYZ} # Decline of Bulgarian Tzardom
 1101.6.1={owner=ZET controller=ZET}
-1189.6.1={owner=RAS controller=RAS add_core=RAS culture=old_serbian}
+1189.6.1={owner=RAS controller=RAS add_core=RAS culture=serbian}
 1330.9.8={owner=SER controller=SER add_core=SER remove_core=RAS remove_core=ZET}
 1371.9.1={owner=MON controller=MON add_core=MON culture=montenegrin remove_core=RAS}
 1421.1.1={owner=SER controller=SER add_core=SER} # Annexed to Serbia

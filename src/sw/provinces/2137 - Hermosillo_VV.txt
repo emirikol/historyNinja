@@ -1,5 +1,5 @@
 culture=navajo 
-religion=ind_pagan
+religion=pagan
 capital="Hermosillo" 
 trade_goods=fur 
 hre=no 

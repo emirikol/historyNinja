@@ -1,5 +1,5 @@
 culture=papuan
-religion=australian_pagan
+religion=pagan
 capital="Lae"
 trade_goods=wood
 hre=no

@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 hre=no
 base_tax=3
 trade_goods=wine
@@ -16,7 +16,7 @@ discovered_by=RMP
 
 313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
 400.6.1={discovered_by=nomad_group}
-476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian religion=early capital="Torino" remove_core=RMP}
+476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian religion=christian capital="Torino" remove_core=RMP}
 534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}

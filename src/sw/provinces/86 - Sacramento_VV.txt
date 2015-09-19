@@ -2,7 +2,7 @@ owner=PEO
 controller=PEO
 add_core=PEO
 culture=hokan
-religion=ind_pagan
+religion=pagan
 capital="Sacramento"
 fort1=yes
 citysize=1000
@@ -17,7 +17,7 @@ discovered_by=YKT
 discovered_by=CHU
 discovered_by=MOJ
 
-1770.1.1={discovered_by=SPA owner=SPA controller=SPA citysize=300 culture=castillian religion=catholic} # Don Gaspar de Portolá
+1770.1.1={discovered_by=SPA owner=SPA controller=SPA citysize=300 culture=castillian religion=catholic} # Don Gaspar de Portolï¿½
 1792.1.1={discovered_by=GBR citysize=1240} # British settlement
 1795.1.1={add_core=SPA discovered_by=MEX add_core=MEX}
 1800.1.1={citysize=1358}

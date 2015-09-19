@@ -1,5 +1,5 @@
 culture=tupinamba
-religion=ind_pagan
+religion=pagan
 capital="Maceio"
 trade_goods=sugar
 hre=no

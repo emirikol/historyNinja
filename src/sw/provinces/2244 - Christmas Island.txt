@@ -1,5 +1,5 @@
 culture=aboriginal
-religion=australian_pagan
+religion=pagan
 capital="Christmas Islands"
 trade_goods=fish
 hre=no

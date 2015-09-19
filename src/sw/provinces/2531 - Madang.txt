@@ -1,5 +1,5 @@
 culture=papuan
-religion=australian_pagan
+religion=pagan
 capital="Madang"
 trade_goods=rice
 hre=no

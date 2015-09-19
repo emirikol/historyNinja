@@ -36,7 +36,7 @@ discovered_by=VNA
 discovered_by=AEG
 
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra remove_core=FRE}
-451.6.1={owner=SAT controller=SAT add_core=SAT culture=saxon religion=early}
+451.6.1={owner=SAT controller=SAT add_core=SAT culture=saxon religion=christian}
 770.1.1={owner=HFR controller=HFR add_core=HFR remove_core=SAT}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}

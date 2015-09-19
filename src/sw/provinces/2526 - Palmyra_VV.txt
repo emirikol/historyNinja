@@ -1,5 +1,5 @@
 culture=polynesian
-religion=ind_pagan
+religion=pagan
 capital="Palmyra"
 trade_goods=fish
 hre=no

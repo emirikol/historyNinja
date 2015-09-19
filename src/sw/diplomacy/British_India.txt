@@ -1,0 +1,55 @@
+# Britain Rajputana
+vassal={
+	first=GBR
+	second=RAJ
+	start_date=1825.1.1
+	end_date=1947.8.13}
+
+# Britain Sind
+vassal={
+	first=GBR
+	second=SND
+	start_date=1825.1.1
+	end_date=1947.8.13}
+	
+# Britain Gakwar
+vassal={
+	first=GBR
+	second=GAK
+	start_date=1825.1.1
+	end_date=1947.8.13}
+
+# Britain Maharashtra
+vassal={
+	first=GBR
+	second=MAR
+	start_date=1825.1.1
+	end_date=1947.8.13}
+	
+# Britain Bhonsle
+vassal={
+	first=GBR
+	second=BHO
+	start_date=1825.1.1
+	end_date=1947.8.13}
+	
+# Britain Hyderabad
+vassal={
+	first=GBR
+	second=HYD
+	start_date=1825.1.1
+	end_date=1947.8.13}
+	
+# Britain Mysore
+vassal={
+	first=GBR
+	second=MYS
+	start_date=1825.1.1
+	end_date=1947.8.13}
+	
+# Britain Travanacore
+vassal={
+	first=GBR
+	second=TRV
+	start_date=1825.1.1
+	end_date=1947.8.13}

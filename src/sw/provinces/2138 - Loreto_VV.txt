@@ -1,5 +1,5 @@
 culture=navajo 
-religion=ind_pagan
+religion=pagan
 capital="Loreto" 
 trade_goods=fish 
 hre=no 
@@ -12,7 +12,7 @@ discovered_by=MOJ
 discovered_by=YKT
 
 1533.1.1={discovered_by=SPA}
-1535.5.3={owner=SPA controller=SPA capital="La Paz" citysize=1320 culture=castillian religion=catholic} # Hernán Cortés claimed the peninsula & founded the city
+1535.5.3={owner=SPA controller=SPA capital="La Paz" citysize=1320 culture=castillian religion=catholic} # Hernï¿½n Cortï¿½s claimed the peninsula & founded the city
 1550.1.1={citysize=1587 fort1=yes}
 1560.1.1={add_core=SPA}
 1578.1.1={discovered_by=ENG} # Drake 

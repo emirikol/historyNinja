@@ -2,7 +2,7 @@ owner=MIX
 controller=MIX
 add_core=MIX
 culture=zapotek
-religion=teotl_azt
+religion=aztec
 capital="Acapulco"
 fort1=yes
 trade_goods=corn
@@ -40,4 +40,4 @@ discovered_by=TLP
 1783.1.1={fort1=yes} # Rebuilt again
 1800.1.1={citysize=4560}
 1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
-1813.4.12={controller=MEX remove_core=SPA} # Conquered by José María Morelos
+1813.4.12={controller=MEX remove_core=SPA} # Conquered by Josï¿½ Marï¿½a Morelos

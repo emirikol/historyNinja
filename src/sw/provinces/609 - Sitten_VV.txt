@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 capital="Sedunum"
 trade_goods=copper
 hre=no
@@ -18,7 +18,7 @@ discovered_by=SUE
 166.6.1={culture=suevi}
 313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
 410.6.1={culture=burgundian}
-443.6.1={owner=BUR controller=BUR add_core=BUR culture=burgundian religion=early remove_core=RMP capital="Sitten"}
+443.6.1={owner=BUR controller=BUR add_core=BUR culture=burgundian religion=christian remove_core=RMP capital="Sitten"}
 534.6.1={owner=HFR controller=HFR add_core=HFR remove_core=BUR culture=frankish}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}

@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=celts
-religion=groman
+religion=roman
 hre=no
 base_tax=4
 trade_goods=fish
@@ -19,7 +19,7 @@ discovered_by=SUE
 
 220.6.1={culture=roman}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-410.6.1={owner=SUE controller=SUE add_core=SUE remove_core=RMP culture=suevi religion=early}
+410.6.1={owner=SUE controller=SUE add_core=SUE remove_core=RMP culture=suevi religion=christian}
 630.6.1={discovered_by=muslim}
 712.1.1={owner=GAL controller=GAL add_core=GAL remove_core=SUE culture=galician temple=yes} 
 718.6.1={owner=AUT controller=AUT add_core=AUT}
@@ -29,8 +29,8 @@ discovered_by=SUE
 1037.3.1={owner=LEZ controller=LEZ add_core=LEZ remove_core=GAL}
 1301.1.1={owner=CAS controller=CAS add_core=CAS remove_core=LEZ}
 1450.1.1={citysize=5000 culture=galician} 
-1467.1.1={revolt_risk=4} # Second war of the "irmandiños"
-1470.1.1={revolt_risk=0} # End of the Second war of the "irmandiños"
+1467.1.1={revolt_risk=4} # Second war of the "irmandiï¿½os"
+1470.1.1={revolt_risk=0} # End of the Second war of the "irmandiï¿½os"
 1475.6.2={controller=POR}
 1476.3.2={controller=CAS}
 1500.1.1={citysize=6800}

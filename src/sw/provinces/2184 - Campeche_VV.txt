@@ -2,7 +2,7 @@ owner=PUT
 controller=PUT 
 add_core=PUT
 culture=mayan 
-religion=teotl_azt
+religion=aztec
 capital="Campeche" 
 fort1=yes
 trade_goods=wood 
@@ -26,7 +26,7 @@ discovered_by=TLP
 
 1450.1.1={citysize=3900}
 1500.1.1={citysize=4560}
-1519.1.1={discovered_by=SPA} # Hernán Cortés 
+1519.1.1={discovered_by=SPA} # Hernï¿½n Cortï¿½s 
 1540.1.1={manpower=2 owner=SPA controller=SPA citysize=5250 culture=castillian religion=catholic} # First settlers 
 1550.1.1={citysize=6870} 
 1565.1.1={add_core=SPA}
@@ -34,7 +34,7 @@ discovered_by=TLP
 1650.1.1={citysize=8132} 
 1700.1.1={citysize=8620} 
 1750.1.1={citysize=10800 add_core=MEX} 
-1762.1.1={fort2=yes} # San José el Alto 
+1762.1.1={fort2=yes} # San Josï¿½ el Alto 
 1800.1.1={citysize=9708}
 1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
 1821.10.24={controller=MEX remove_core=SPA} # end of war

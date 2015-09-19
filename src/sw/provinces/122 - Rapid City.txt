@@ -1,5 +1,5 @@
 culture=dakota
-religion=ind_pagan
+religion=pagan
 capital="Rapidovo"
 trade_goods=corn
 hre=no

@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Split"
 trade_goods=fish
 hre=no
@@ -18,7 +18,7 @@ discovered_by=PHT
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 395.5.1={culture=greek}
-476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=early}
+476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=christian}
 493.6.1={owner=OST controller=OST add_core=OST culture=ostrogothic remove_core=GHT}
 553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=white_croats religion=perun add_core=WCR remove_core=RMP}
 630.6.1={discovered_by=muslim}

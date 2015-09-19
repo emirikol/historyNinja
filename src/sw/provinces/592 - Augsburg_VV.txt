@@ -29,7 +29,7 @@ discovered_by=VNA
 290.6.1={culture=langobardian owner=LOM controller=LOM capital="Augusta Vindelicorum" remove_core=SUE}
 371.6.1={owner=HNU controller=HNU add_core=HNU culture=huns religion=tangra}
 400.6.1={discovered_by=nomad_group}
-451.6.1={capital="Augsburg"  owner=BAV controller=BAV add_core=BAV culture=danube_bavarian religion=early remove_core=HNU}
+451.6.1={capital="Augsburg"  owner=BAV controller=BAV add_core=BAV culture=danube_bavarian religion=christian remove_core=HNU}
 788.1.1={owner=HFR controller=HFR add_core=HFR}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}

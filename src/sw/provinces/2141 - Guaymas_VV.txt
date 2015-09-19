@@ -1,5 +1,5 @@
 culture=navajo 
-religion=ind_pagan
+religion=pagan
 capital="Guayamas" 
 trade_goods=fur 
 hre=no 

@@ -1,5 +1,5 @@
 culture=penutian 
-religion=ind_pagan
+religion=pagan
 capital="Walla Walla" 
 trade_goods=wood 
 hre=no 

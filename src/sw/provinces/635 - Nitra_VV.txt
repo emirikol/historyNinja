@@ -25,7 +25,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 110.6.1={owner=GEP controller=GEP add_core=GEP remove_core=MCR culture=gepids}
-290.6.1={owner=NAV controller=NAV add_core=NAV remove_core=GEP culture=basque religion=droid}
+290.6.1={owner=NAV controller=NAV add_core=NAV remove_core=GEP culture=basque religion=druid}
 300.6.1={owner=HNU controller=HNU add_core=HNU remove_core=NAV culture=huns religion=tangra}
 451.6.1={owner=HSL controller=HSL add_core=HSL remove_core=HNU culture=proto_slavic religion=perun}
 580.6.1={owner=AVE controller=AVE add_core=AVE remove_core=HSL}
@@ -42,7 +42,7 @@ discovered_by=VNA
 1480.1.1={marketplace=yes}
 1490.1.1={controller=HAB} # Occupied
 1491.11.7={controller=HUN}
-1526.8.30={owner=HAB controller=HAB	add_core=HAB} # Battle of Mohács, the end of the independent Kingdom of Hungary
+1526.8.30={owner=HAB controller=HAB	add_core=HAB} # Battle of Mohï¿½cs, the end of the independent Kingdom of Hungary
 1604.1.1={revolt={type=nationalist_rebels size=0} controller=REB} # The nobility in Royal Hungary rebelled against Habsburg & Jesuit repression
 1606.1.1={revolt={} controller=HAB religion=reformed} # Peace treaty, guaranteed religious toleration
 1619.1.1={revolt={type=nationalist_rebels size=0} controller=REB} # Bethlen uprisings

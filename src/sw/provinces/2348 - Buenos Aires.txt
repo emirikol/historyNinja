@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Rio de la Plata"
 trade_goods=fish
 hre=no
@@ -9,7 +9,7 @@ native_size=5
 native_ferocity=1
 native_hostileness=1
 
-1516.1.23={discovered_by=SPA} # Juan Díaz de Solís
+1516.1.23={discovered_by=SPA} # Juan Dï¿½az de Solï¿½s
 1535.1.1={owner=SPA	controller=SPA religion=catholic culture=castillian citysize=375} # Pedro de Mendoza established a permanent colony
 1536.2.2={capital="Santa Maria del Buen Ayre" revolt_risk=5	citysize=1100 fort1=yes} # Founded by Pedro Mendoza. The Indian population became increasingly hostile
 1550.1.1={revolt_risk=0}

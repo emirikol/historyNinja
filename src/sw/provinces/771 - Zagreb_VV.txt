@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Zagreb"
 trade_goods=wood
 hre=no
@@ -15,7 +15,7 @@ discovered_by=RME
 discovered_by=RMP
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-395.5.1={religion=early culture=greek}
+395.5.1={religion=christian culture=greek}
 451.6.1={owner=OST controller=OST culture=ostrogothic}
 500.1.1={discovered_by=nomad_group}
 553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=white_croats religion=perun remove_core=RMP}
@@ -25,7 +25,7 @@ discovered_by=RMP
 1102.6.1={owner=HUN controller=HUN}
 1450.1.1={citysize=7400}
 1500.1.1={citysize=8765}
-1526.8.30={owner=TUR controller=TUR	add_core=TUR} # Battle of Mohács, west area under Habsburg rule while a large part is occupied by the Ottomans.
+1526.8.30={owner=TUR controller=TUR	add_core=TUR} # Battle of Mohï¿½cs, west area under Habsburg rule while a large part is occupied by the Ottomans.
 1550.1.1={citysize=8341}
 1560.1.1={marketplace=yes}
 1573.1.20={revolt={type=anti_tax_rebels size=2} controller=REB} # Peasant uprising against Habsburg rule & the feudal system

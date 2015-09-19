@@ -1,5 +1,5 @@
 culture=inuit
-religion=ind_pagan
+religion=pagan
 trade_goods=iron
 capital="Keewatin"
 hre=no

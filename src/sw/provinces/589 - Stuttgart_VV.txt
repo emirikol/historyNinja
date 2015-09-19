@@ -29,7 +29,7 @@ discovered_by=VNA
 350.6.1={owner=BUR controller=BUR culture=burgundian religion=odin}
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
 400.6.1={discovered_by=nomad_group}
-451.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+451.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={owner=WUR controller=WUR add_core=WUR culture=swabian remove_core=EHF 

@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Choco"
 trade_goods=corn
 hre=no
@@ -14,11 +14,11 @@ discovered_by=TAE
 
 1502.1.1={discovered_by=CAS} # Christopher Columbus
 1516.1.23={discovered_by=SPA}
-1525.1.1={fort1=yes owner=SPA controller=SPA capital="Santa María la Antigua del Darién" culture=castillian religion=catholic	citysize=1250 trade_goods=horses} # Spanish conquest, Francisco Pizarro
+1525.1.1={fort1=yes owner=SPA controller=SPA capital="Santa Marï¿½a la Antigua del Dariï¿½n" culture=castillian religion=catholic	citysize=1250 trade_goods=horses} # Spanish conquest, Francisco Pizarro
 1550.1.1={add_core=SPA citysize=1488}
 1600.1.1={citysize=1900}
 1650.1.1={citysize=2580}
-1690.1.1={capital="Quibdó"}
+1690.1.1={capital="Quibdï¿½"}
 1700.1.1={citysize=2854}
 1750.1.1={citysize=3150 add_core=COL}
 1800.1.1={citysize=4300}

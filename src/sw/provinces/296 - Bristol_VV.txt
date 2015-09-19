@@ -2,7 +2,7 @@ owner=BLE
 controller=BLE
 add_core=BLE
 culture=belgae
-religion=droid
+religion=druid
 hre=no
 base_tax=2
 trade_goods=fish
@@ -28,7 +28,7 @@ discovered_by=VES
 
 43.6.1={owner=RME controller=RME add_core=RME}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-410.6.1={owner=WSS controller=WSS add_core=WSS remove_core=RMP culture=wessex religion=early remove_core=BLE}
+410.6.1={owner=WSS controller=WSS add_core=WSS remove_core=RMP culture=wessex religion=christian remove_core=BLE}
 800.1.1={religion=catholic}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
 927.1.1={owner=ENG controller=ENG add_core=ENG remove_core=WSS}

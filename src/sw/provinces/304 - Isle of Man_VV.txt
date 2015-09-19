@@ -1,5 +1,5 @@
 culture=wessex
-religion=droid
+religion=druid
 hre=no
 base_tax=1
 trade_goods=fish
@@ -21,7 +21,7 @@ discovered_by=AEG
 discovered_by=KUN
 discovered_by=VES
 
-410.6.1={owner=RHE controller=RHE add_core=RHE culture=rheged religion=early citysize=1000 fort1=yes discovered_by=RHE}
+410.6.1={owner=RHE controller=RHE add_core=RHE culture=rheged religion=christian citysize=1000 fort1=yes discovered_by=RHE}
 730.6.1={owner=NOL controller=NOL add_core=NOL remove_core=RHE}
 800.1.1={religion=catholic}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}

@@ -1,5 +1,5 @@
 culture=aleutian
-religion=ind_pagan
+religion=pagan
 capital="Unalakleet"
 trade_goods=whale
 hre=no

@@ -1,0 +1,206 @@
+# Venetian League Members
+trade_agreement={
+	first=VEN
+	second=HUN
+	start_date=1399.1.1
+	end_date=1525.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=HAB
+	start_date=1399.1.1
+	end_date=1525.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=BYZ 
+	start_date=1399.1.1
+	end_date=1453.5.29
+}
+
+trade_agreement={
+	first=VEN
+	second=AQU 
+	start_date=1399.1.1
+	end_date=1419.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=ATH
+	start_date=1399.1.1
+	end_date=1458.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=NAX
+	start_date=1399.1.1
+	end_date=1479.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=RAG
+	start_date=1399.1.1
+	end_date=1479.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=NAP
+	start_date=1399.1.1
+	end_date=1501.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=MAN
+	start_date=1399.1.1
+	end_date=1708.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=URB
+	start_date=1399.1.1
+	end_date=1408.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=URB
+	start_date=1414.8.6
+	end_date=1626.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=KNI
+	start_date=1399.1.1
+	end_date=1522.12.21
+}
+
+trade_agreement={
+	first=VEN
+	second=BOS
+	start_date=1399.1.1
+	end_date=1521.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=SER
+	start_date=1399.1.1
+	end_date=1459.6.20
+}
+
+trade_agreement={
+	first=VEN
+	second=ACH
+	start_date=1399.1.1
+	end_date=1432.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=CYP
+	start_date=1399.1.1
+	end_date=1489.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=MON
+	start_date=1515.1.1
+	end_date=1750.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=MON
+	start_date=1399.1.1
+	end_date=1421.1.1
+}
+
+trade_agreement={
+	first=VEN
+	second=FER
+	start_date=1399.1.1
+	end_date=1597.10.28
+}
+
+vassal={
+	first=VEN
+	second=CEP
+	start_date=1399.1.1
+	end_date=1460.1.1
+}
+alliance={
+	first=VEN
+	second=CEP
+	start_date=1399.1.1
+	end_date=1460.1.1
+}
+
+vassal={
+	first=VEN
+	second=NAX
+	start_date=1399.1.1
+	end_date=1579.1.1
+}
+alliance={
+	first=VEN
+	second=NAX
+	start_date=1399.1.1
+	end_date=1579.1.1
+}
+
+sphere={
+	first=VEN
+	second=ACH
+	start_date=1399.1.1
+	end_date=1432.1.1
+}
+guarantee={
+	first=VEN
+	second=ACH
+	start_date=1399.1.1
+	end_date=1432.1.1
+}
+
+guarantee={
+	first=VEN
+	second=ACH
+	start_date=1453.5.29
+	end_date=1455.1.1
+}
+
+guarantee={
+	first=VEN
+	second=CYP
+	start_date=1399.1.1
+	end_date=1489.1.1
+}
+
+guarantee={
+	first=VEN
+	second=KNI
+	start_date=1399.1.1
+	end_date=1522.12.21
+}
+
+sphere={
+	first=VEN
+	second=ATH
+	start_date=1402.1.1
+	end_date=1458.1.1
+}
+guarantee={
+	first=VEN
+	second=ATH
+	start_date=1402.1.1
+	end_date=1458.1.1
+}

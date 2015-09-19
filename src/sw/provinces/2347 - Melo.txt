@@ -1,5 +1,5 @@
 culture=guarani
-religion=ind_pagan
+religion=pagan
 capital="Melo"
 trade_goods=corn
 hre=no
@@ -10,7 +10,7 @@ native_ferocity=1
 native_hostileness=2
 
 1516.1.23={discovered_by=SPA} # Juan Diaz de Solis
-1680.1.1={owner=POR	controller=POR culture=portugese religion=catholic citysize=450 trade_goods=grain} # Portugese colony, Nova Colônia do Sacramento
+1680.1.1={owner=POR	controller=POR culture=portugese religion=catholic citysize=450 trade_goods=grain} # Portugese colony, Nova Colï¿½nia do Sacramento
 1700.1.1={citysize=4605 fort1=yes}
 1705.1.1={add_core=POR}
 1724.1.1={owner=SPA	controller=SPA culture=castillian remove_core=POR} # The portugese are chased out

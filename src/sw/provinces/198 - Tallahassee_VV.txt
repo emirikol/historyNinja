@@ -1,5 +1,5 @@
 culture=creek
-religion=ind_pagan
+religion=pagan
 capital="Apalachee"
 trade_goods=cotton
 hre=no
@@ -16,7 +16,7 @@ discovered_by=CHO
 804.1.1={owner=CRE controller=CRE add_core=CRE citysize=1000 fort1=yes}
 1450.1.1={citysize=1300}
 1500.1.1={citysize=1578}
-1519.1.1={discovered_by=SPA} # Alvarez de Piñeda explored the Gulf Coast
+1519.1.1={discovered_by=SPA} # Alvarez de Piï¿½eda explored the Gulf Coast
 1550.1.1={citysize=2800}
 1600.1.1={citysize=3650}
 1650.1.1={citysize=4215}

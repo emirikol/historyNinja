@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Casanare"
 trade_goods=wood
 hre=no

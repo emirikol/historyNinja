@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital="Cabrobo"
 trade_goods=cotton
 hre=no

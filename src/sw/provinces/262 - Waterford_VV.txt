@@ -1,5 +1,5 @@
 culture=irish
-religion=droid
+religion=druid
 hre=no
 base_tax=1
 trade_goods=fish
@@ -22,7 +22,7 @@ discovered_by=KUN
 discovered_by=VES
 
 356.6.1={owner=BIR controller=BIR add_core=BIR fort1=yes culture=brigantes discovered_by=BIR}
-600.6.1={owner=LEI controller=LEI add_core=LEI religion=early citysize=1800 culture=irish remove_core=BIR}
+600.6.1={owner=LEI controller=LEI add_core=LEI religion=christian citysize=1800 culture=irish remove_core=BIR}
 799.12.24={religion=catholic}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
 1168.1.1={owner=NRM controller=NRM}

@@ -1,5 +1,5 @@
 culture=delaware
-religion=ind_pagan
+religion=pagan
 capital="Unami"
 trade_goods=corn
 hre=no

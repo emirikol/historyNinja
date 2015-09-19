@@ -2,7 +2,7 @@ owner=TER
 controller=TER 
 add_core=TER
 culture=taraskan
-religion=teotl_azt
+religion=aztec
 capital="Vallarta" 
 fort1=yes
 citysize=2000
@@ -28,7 +28,7 @@ discovered_by=TLP
 1450.1.1={citysize=3100}
 1500.1.1={citysize=3643}
 1522.1.1={discovered_by=SPA} # Saavedra 
-1542.1.1={owner=SPA controller=SPA religion=catholic culture=castillian capital="Puerto Vallarta"} # Founded by Cristóbal de Oñate 
+1542.1.1={owner=SPA controller=SPA religion=catholic culture=castillian capital="Puerto Vallarta"} # Founded by Cristï¿½bal de Oï¿½ate 
 1550.1.1={citysize=4870} 
 1567.1.1={add_core=SPA remove_core=AZT}
 1578.1.1={discovered_by=ENG} # Drake 

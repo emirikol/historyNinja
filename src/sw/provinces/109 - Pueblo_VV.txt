@@ -2,7 +2,7 @@ owner=WIC
 controller=WIC
 add_core=WIC
 culture=caddo
-religion=ind_pagan
+religion=pagan
 capital="Pueblo"
 citysize=1391
 fort1=yes
@@ -15,7 +15,7 @@ discovered_by=CAD
 discovered_by=MOJ
 discovered_by=YKT
 
-1541.1.1={discovered_by=SPA} # Francisco Vásquez de Coronado
+1541.1.1={discovered_by=SPA} # Francisco Vï¿½squez de Coronado
 1610.1.1={native_size=25 native_ferocity=3 native_hostileness=9 owner=SPA controller=SPA citysize=240 religion=catholic culture=castillian}
 1635.1.1={citysize=1800 add_core=SPA fort1=yes}
 1680.1.1={revolt={type=nationalist_rebels size=1} controller=REB} # Pueblo revolt

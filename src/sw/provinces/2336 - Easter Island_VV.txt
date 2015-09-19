@@ -1,5 +1,5 @@
 culture=melanesian
-religion=ind_pagan
+religion=pagan
 capital="Eastern Island"
 trade_goods=stone
 hre=no

@@ -25,7 +25,7 @@ discovered_by=VNA
 
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
 420.6.1={culture=thuringian}
-451.6.1={owner=THU controller=THU add_core=THU culture=thuringian religion=early}
+451.6.1={owner=THU controller=THU add_core=THU culture=thuringian religion=christian}
 769.1.1={owner=HFR controller=HFR add_core=HFR remove_core=THU}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}

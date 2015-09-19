@@ -5,11 +5,20 @@ grammar EuConf
       def foo
         elements.select{|e| FooNode === e }.each_with_object({}){|f,h| 
           key, value = f.term.text_value, f.value.bar
-          if value.kind_of?(Hash)
-            h[key] = (h[key]||{}).merge(value)
+          if h[key]
+            if h[key].kind_of?(Array)
+              h[key] << value
+            else
+              h[key] = [h[key], value]
+            end
           else
             h[key] = value
           end
+          #if value.kind_of?(Hash)
+          #  h[key] = (h[key]||{}).merge(value)
+          #else
+          #  h[key] = value
+          #end
         }
       end
     }

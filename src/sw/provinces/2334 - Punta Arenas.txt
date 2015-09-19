@@ -1,5 +1,5 @@
 culture=patagonian
-religion=ind_pagan
+religion=pagan
 capital="Punta Arenas"
 trade_goods=wool
 hre=no

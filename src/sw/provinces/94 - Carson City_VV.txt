@@ -1,5 +1,5 @@
 culture=navajo
-religion=ind_pagan
+religion=pagan
 trade_goods=iron
 capital="Timpahute"
 hre=no
@@ -13,7 +13,7 @@ discovered_by=YKT
 discovered_by=PEO
 discovered_by=COK
 
-1541.1.1={discovered_by=SPA} # Francisco Vásquez de Coronado
+1541.1.1={discovered_by=SPA} # Francisco Vï¿½squez de Coronado
 1598.1.1={fort1=yes	owner=SPA controller=SPA citysize=1000 religion=catholic culture=castillian} # First Spanish colonists
 1610.1.1={capital="Carson" citysize=1280} # Pedro de Peralta
 1623.1.1={add_core=SPA}

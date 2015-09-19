@@ -2,7 +2,7 @@ owner=BIR
 controller=BIR
 add_core=BIR
 culture=brigantes
-religion=droid
+religion=druid
 hre=no
 base_tax=2
 trade_goods=iron
@@ -30,7 +30,7 @@ discovered_by=VES
 69.9.1={revolt={type=nationalist_rebels size=5}}
 70.9.15={revolt={}}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-410.6.1={owner=STD controller=STD add_core=STD culture=scottish religion=early remove_core=BIR}
+410.6.1={owner=STD controller=STD add_core=STD culture=scottish religion=christian remove_core=BIR}
 843.1.1={owner=SCO controller=SCO add_core=SCO religion=catholic discovered_by=latin discovered_by=eastern discovered_by=muslim}
 878.1.1={owner=VIK controller=VIK}
 900.1.1={owner=SCO controller=SCO}

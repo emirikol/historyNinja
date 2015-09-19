@@ -1,5 +1,5 @@
 culture=melanesian
-religion=australian_pagan
+religion=pagan
 capital="Santa Cruz"
 trade_goods=fish
 hre=no

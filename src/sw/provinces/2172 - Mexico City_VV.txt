@@ -1,5 +1,5 @@
 culture=aztek 
-religion=teotl_azt
+religion=aztec
 capital="Tenochtitlan" 
 trade_goods=gold
 hre=no 

@@ -1,5 +1,5 @@
 culture=tupinamba
-religion=ind_pagan
+religion=pagan
 capital="Aracaju"
 trade_goods=tobacco
 hre=no

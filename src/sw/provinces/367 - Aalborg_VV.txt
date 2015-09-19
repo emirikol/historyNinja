@@ -31,7 +31,7 @@ discovered_by=VNA
 371.6.1={owner=HNU controller=HNU add_core=HNU culture=huns religion=tangra citysize=1000 fort1=yes}
 400.1.1={discovered_by=VIK}
 451.6.1={owner=VIK controller=VIK add_core=VIK religion=odin remove_core=HNU culture=normand}
-698.6.1={religion=early}
+698.6.1={religion=christian}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
 870.6.1={religion=catholic}
 965.1.1={owner=DAN controller=DAN add_core=DAN remove_core=VIK culture=danish}
@@ -43,7 +43,7 @@ discovered_by=VNA
 1550.1.1={citysize=2300}
 1600.1.1={citysize=2600}
 1644.1.25={controller=SWE} # Torstenssons War- Captured by Lennart Torstensson
-1645.8.13={controller=DAN} # The Peace of Brömsebro
+1645.8.13={controller=DAN} # The Peace of Brï¿½msebro
 1650.1.1={citysize=2800}
 1700.1.1={citysize=3100 tax_assessor=yes}
 1750.1.1={citysize=3500}

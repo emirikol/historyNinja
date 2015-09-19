@@ -1,5 +1,5 @@
 culture=aleutian
-religion=ind_pagan
+religion=pagan
 capital="Nootka"
 trade_goods=naval_supplies
 hre=no

@@ -28,7 +28,7 @@ discovered_by=ODR
 1206.6.1={owner=BUL controller=BUL add_core=BUL}
 1209.1.1={owner=RAS controller=RAS}
 1218.1.1={owner=BUL controller=BUL}
-1242.3.1={owner=RAS controller=RAS culture=old_serbian}
+1242.3.1={owner=RAS controller=RAS culture=serbian}
 1275.6.1={culture=serbian}
 1330.9.8={owner=SER controller=SER add_core=SER remove_core=RAS}
 1410.9.1={owner=SER controller=TUR}

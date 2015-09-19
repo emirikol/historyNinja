@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Colmar"
 citysize=4000
 hre=no
@@ -28,7 +28,7 @@ discovered_by=VNA
 
 166.6.1={culture=langobardian}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+461.8.7={owner=GLA controller=GLA religion=christian remove_core=RMP}
 476.5.1={owner=HFR controller=HFR add_core=HFR culture=langobardian remove_core=GLA}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}

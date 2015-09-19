@@ -1,5 +1,5 @@
 culture=creek
-religion=ind_pagan
+religion=pagan
 capital="Wilmington"
 trade_goods=tobacco
 hre=no

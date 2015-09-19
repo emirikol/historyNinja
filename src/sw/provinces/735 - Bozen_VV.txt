@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 hre=no 
 base_tax=3     
 trade_goods=iron
@@ -27,11 +27,11 @@ discovered_by=SAT
 discovered_by=VNA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=early}
+476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=christian}
 493.6.1={owner=OST controller=OST add_core=OST culture=ostrogothic remove_core=GHT}
 553.6.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=OST}
 751.6.1={owner=LOM controller=LOM add_core=LOM remove_core=RMP remove_core=BYZ culture=langobardian}
-790.1.1={owner=HFR controller=HFR add_core=HFR religion=early remove_core=LOM}
+790.1.1={owner=HFR controller=HFR add_core=HFR religion=christian remove_core=LOM}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={discovered_by=latin owner=HAB controller=HAB add_core=HAB 

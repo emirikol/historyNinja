@@ -1,5 +1,5 @@
 culture=aztek
-religion=teotl_azt
+religion=aztec
 capital="Liberia"
 trade_goods=sugar
 hre=no

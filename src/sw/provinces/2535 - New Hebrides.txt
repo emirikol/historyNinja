@@ -1,5 +1,5 @@
 culture=melanesian
-religion=australian_pagan
+religion=pagan
 capital="Vanuatu"
 trade_goods=fish
 hre=no
@@ -9,6 +9,6 @@ native_size=20
 native_ferocity=2
 native_hostileness=9
 
-1606.1.1={discovered_by=SPA} # Pedro Fernández de Quiros (portuguese but for Spain)
+1606.1.1={discovered_by=SPA} # Pedro Fernï¿½ndez de Quiros (portuguese but for Spain)
 1839.1.1={owner=GBR controller=GBR add_core=GBR add_core=RFR citysize=1000 fort1=yes religion=protestant} # british-french control
 1980.7.30={owner=VAN controller=VAN add_core=VAN remove_core=GBR remove_core=RFR}

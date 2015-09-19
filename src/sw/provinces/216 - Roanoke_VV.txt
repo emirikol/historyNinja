@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Roanoke"
 trade_goods=coal
 hre=no

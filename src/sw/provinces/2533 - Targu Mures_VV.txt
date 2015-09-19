@@ -16,7 +16,7 @@ discovered_by=RMP
 discovered_by=GEH
 discovered_by=DAC
 
-290.6.1={owner=BAO controller=BAO culture=roxolanian religion=zoro remove_core=GEH}
+290.6.1={owner=BAO controller=BAO culture=roxolanian religion=zoroastrian remove_core=GEH}
 300.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
 451.6.1={owner=ATE controller=ATE add_core=ATE culture=proto_slavic religion=perun}
 580.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism}

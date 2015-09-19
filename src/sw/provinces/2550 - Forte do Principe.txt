@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital="Forte de Principe"
 trade_goods=tobacco
 hre= no
@@ -9,7 +9,7 @@ native_size=30
 native_ferocity=8
 native_hostileness=12
 
-1680.4.23={discovered_by=POR owner=POR controller=POR citysize=560 culture=portugese religion=catholic} # Pedro Álvares Cabral
+1680.4.23={discovered_by=POR owner=POR controller=POR citysize=560 culture=portugese religion=catholic} # Pedro ï¿½lvares Cabral
 1705.1.1={add_core=POR}
 1740.1.1={citysize=1100 fort1=yes}
 1790.1.1={citysize=2255 add_core=BRZ}

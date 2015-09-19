@@ -1,5 +1,5 @@
 culture=guarani
-religion=ind_pagan
+religion=pagan
 capital="Cordoba de Argentina"
 trade_goods=silver
 hre=no
@@ -9,7 +9,7 @@ native_size=5
 native_ferocity=1
 native_hostileness=1
 
-1527.1.1={discovered_by=SPA owner=SPA controller=SPA citysize=266 culture=castillian religion=catholic} # Established by Sebastián Gaboto, Sancti Spiritu
+1527.1.1={discovered_by=SPA owner=SPA controller=SPA citysize=266 culture=castillian religion=catholic} # Established by Sebastiï¿½n Gaboto, Sancti Spiritu
 1552.1.1={add_core=SPA}
 1573.1.1={citysize=400} # Juan de Garay
 1650.1.1={citysize=687}

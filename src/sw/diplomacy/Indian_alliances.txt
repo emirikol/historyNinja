@@ -1,0 +1,72 @@
+
+# Suri Empire
+union={
+	first=MUG
+	second=BNG
+	start_date=1540.6.1
+	end_date=1553.1.1
+}
+
+alliance={
+	first=MUG
+	second=RAJ
+	start_date=1556.1.1
+	end_date=1658.1.1
+}
+
+# Battle of Talikota, Ahmednagar, Berar, Bijapur & Golconda
+alliance={
+	first=BAS
+	second=BRR
+	start_date=1564.1.1
+	end_date=1565.7.26
+}
+
+# Battle of Talikota, Ahmednagar, Berar, Bijapur & Golconda
+alliance={
+	first=BAS
+	second=BIJ 
+	start_date=1564.1.1
+	end_date=1565.7.26
+}
+
+# Battle of Talikota, Ahmednagar, Berar, Bijapur & Golconda
+alliance={
+	first=BAS
+	second=GOC 
+	start_date=1564.1.1
+	end_date=1565.7.26
+}
+
+# The battle of Buxar
+alliance={
+	first=MUG
+	second=ODH
+	start_date=1764.1.1
+	end_date=1764.10.1
+}
+
+# The battle of Buxar
+alliance={
+	first=MUG
+	second=BNG
+	start_date=1764.1.1
+	end_date=1764.10.1
+}
+
+#Vassal of Vijayanagar
+vassal={
+	first=VIJ
+	second=MYS
+	start_date=1399.1.1
+	end_date=1565.1.1
+}
+
+#Vassal of Vijayanagar
+vassal={
+	first=VIJ
+	second=TRV
+	start_date=1399.1.1
+	end_date=1565.1.1
+}
+

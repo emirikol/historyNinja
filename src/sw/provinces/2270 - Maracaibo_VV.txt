@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Maracaibo"
 trade_goods=coffee
 hre=no

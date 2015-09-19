@@ -1,0 +1,8 @@
+
+#Ottoman vassal
+vassal={
+	first=TUR
+	second=TUN
+	start_date=1531.1.1
+	end_date=1574.9.13
+}

@@ -1,5 +1,5 @@
 culture=cherokee
-religion=ind_pagan
+religion=pagan
 capital="Asheville"
 trade_goods=tobacco
 hre=no

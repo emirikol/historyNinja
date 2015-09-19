@@ -1,5 +1,5 @@
 culture=carib
-religion=ind_pagan
+religion=pagan
 capital="Tortola"
 trade_goods=tobacco 
 hre=no

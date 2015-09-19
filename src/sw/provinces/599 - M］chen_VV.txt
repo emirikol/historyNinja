@@ -7,7 +7,7 @@ cot=no
 base_tax=14
 trade_goods=coal
 manpower=3
-capital="München"
+capital="Mï¿½nchen"
 fort1=yes
 citysize=6000
 discovered_by=RME  
@@ -26,7 +26,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
-451.6.1={owner=BAV controller=BAV add_core=BAV culture=danube_bavarian religion=early}
+451.6.1={owner=BAV controller=BAV add_core=BAV culture=danube_bavarian religion=christian}
 788.1.1={owner=HFR controller=HFR add_core=HFR}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
@@ -37,7 +37,7 @@ remove_core=EHF discovered_by=latin discovered_by=eastern discovered_by=muslim}
 1520.1.1={constable=yes}
 1525.1.1={temple=yes} # Completion of the Frauenkirche (Tower tops/Welsche Hauben)
 1565.1.1={regimental_camp=yes}
-1592.1.1={workshop=yes} # Hofbräuhaus München 
+1592.1.1={workshop=yes} # Hofbrï¿½uhaus Mï¿½nchen 
 1620.1.1={courthouse=yes}
 1704.8.13={controller=HAB owner=HAB} # Bavaria is conquered by the Emperor, is however 10 years later restored for the balance of power
 1714.9.7={controller=BAV owner=BAV}

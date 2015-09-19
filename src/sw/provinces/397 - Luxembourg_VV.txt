@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=gallic
-religion=groman
+religion=roman
 capital="Luxemburg"
 citysize=9000
 hre=no
@@ -28,7 +28,7 @@ discovered_by=VNA
 313.6.1={manpower=3 religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
 354.6.1={owner=HFR controller=HFR culture=frankish religion=odin remove_core=RMP}
 400.6.1={discovered_by=nomad_group}
-476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={owner=LUX controller=LUX add_core=LUX culture=luxembourgish

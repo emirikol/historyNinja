@@ -1,7 +1,7 @@
 owner=ZAP
 controller=ZAP
 culture=zapotek
-religion=teotl_azt
+religion=aztec
 capital="Zapotec"
 fort1=yes
 trade_goods=sugar

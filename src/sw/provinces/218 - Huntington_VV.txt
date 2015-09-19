@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Kanawha"
 trade_goods=iron
 hre=no

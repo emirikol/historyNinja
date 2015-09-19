@@ -2,7 +2,7 @@ owner=MIX
 controller=MIX
 add_core=MIX
 culture=zapotek
-religion=teotl_azt
+religion=aztec
 capital="Oaaca" 
 fort1=yes
 trade_goods=corn 
@@ -35,4 +35,4 @@ discovered_by=TLP
 1700.1.1={citysize=7333} 
 1750.1.1={citysize=10424 add_core=MEX} 
 1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
-1812.11.25={controller=MEX remove_core=SPA} # Conquered by José María Morelos
+1812.11.25={controller=MEX remove_core=SPA} # Conquered by Josï¿½ Marï¿½a Morelos

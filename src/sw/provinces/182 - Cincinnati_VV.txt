@@ -1,7 +1,7 @@
 owner=SHA
 controller=SHA
 culture=shawnee
-religion=ind_pagan
+religion=pagan
 capital="Cincinati"
 fort1=yes
 trade_goods=corn
@@ -22,7 +22,7 @@ discovered_by=PWT
 1550.1.1={citysize=2058}
 1600.1.1={citysize=2570}
 1650.1.1={citysize=2900}
-1679.1.1={discovered_by=FRA} # René-Robert Cavelier
+1679.1.1={discovered_by=FRA} # Renï¿½-Robert Cavelier
 1700.1.1={citysize=3240}
 1750.1.1={citysize=3844} # Became an attractive area for landseekers & fur traders
 1763.2.10={owner=GBR controller=GBR culture=english religion=protestant} # Treaty of Paris, ceded to Britain

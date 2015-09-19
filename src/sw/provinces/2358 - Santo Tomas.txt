@@ -1,5 +1,5 @@
 culture=teremembe
-religion=ind_pagan
+religion=pagan
 capital="Santo Tomas"
 trade_goods=silver
 hre=no

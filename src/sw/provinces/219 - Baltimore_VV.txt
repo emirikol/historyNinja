@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Conoy"
 trade_goods=tobacco
 hre=no
@@ -11,7 +11,7 @@ native_hostileness=7
 discovered_by=SUS
 
 1607.1.1={discovered_by=ENG} # John Smith
-1615.1.1={discovered_by=FRA} # Étienne Brûlé
+1615.1.1={discovered_by=FRA} # ï¿½tienne Brï¿½lï¿½
 1634.3.24={fort1=yes owner=ENG controller=ENG culture=english religion=protestant capital="St. Mary's city" citysize=358} # Founding of St. Mary's city
 1707.5.12={owner=GBR controller=GBR} 
 1721.1.1={add_core=GBR}

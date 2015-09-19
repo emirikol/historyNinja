@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 capital="Edessa"
 trade_goods=cloth
 hre=no
@@ -27,7 +27,7 @@ discovered_by=AAR
 630.6.1={discovered_by=muslim}
 638.6.1={owner=ACA controller=ACA add_core=ACA culture=greek}
 754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA religion=sunni}
-1055.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB culture=old_armenian}
+1055.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB culture=armenian}
 1098.3.1={owner=JER controller=JER add_core=JER}
 1132.3.1={owner=EDE controller=EDE add_core=EDE}
 1144.6.1={owner=ABB controller=ABB add_core=ABB}

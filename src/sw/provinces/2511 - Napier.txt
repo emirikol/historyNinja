@@ -1,5 +1,5 @@
 culture=polynesian
-religion=australian_pagan
+religion=pagan
 hre=no
 capital="Napier"
 trade_goods=wool

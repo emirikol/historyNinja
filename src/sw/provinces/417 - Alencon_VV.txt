@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Alencon"
 citysize=9500
 hre=no
@@ -31,7 +31,7 @@ discovered_by=GLA
 discovered_by=SUE
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+461.8.7={owner=GLA controller=GLA religion=christian remove_core=RMP}
 486.2.1={manpower=3 owner=HFR controller=HFR add_core=HFR remove_core=GLA culture=frankish}
 799.12.24={religion=catholic}
 843.1.1={owner=FRA controller=FRA add_core=FRA culture=cosmopolitan_french remove_core=HFR hre=no discovered_by=eastern discovered_by=muslim discovered_by=latin}

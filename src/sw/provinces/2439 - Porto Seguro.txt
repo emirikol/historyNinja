@@ -1,5 +1,5 @@
 culture=tupinamba
-religion=ind_pagan
+religion=pagan
 capital="Espirito Santo"
 trade_goods=coffee
 hre=no

@@ -1,8 +1,8 @@
 owner=RME
 controller=RME
 add_core=RME
-culture=old_greek
-religion=groman
+culture=greek
+religion=roman
 capital="Florina"
 trade_goods=wood
 hre=no

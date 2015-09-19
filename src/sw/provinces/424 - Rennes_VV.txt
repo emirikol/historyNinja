@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Rennes"
 citysize=7000
 hre=no
@@ -31,7 +31,7 @@ discovered_by=GLA
 discovered_by=SUE
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+461.8.7={owner=GLA controller=GLA religion=christian remove_core=RMP}
 476.5.1={manpower=3 owner=DUM controller=DUM add_core=DUM culture=breton}
 785.1.1={owner=HFR controller=HFR add_core=HFR remove_core=DUM} 
 799.12.24={religion=catholic}

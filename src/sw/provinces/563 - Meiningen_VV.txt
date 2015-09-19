@@ -25,14 +25,14 @@ discovered_by=VNA
 
 350.6.1={owner=VNA controller=VNA culture=vandals religion=odin remove_core=LOM}
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
-451.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+451.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={owner=THU controller=THU add_core=THU culture=thuringian remove_core=EHF
 discovered_by=latin discovered_by=muslim}
 1450.1.1={citysize=6500}
 1500.1.1={fort2=yes citysize=7000}
-1527.1.1={marketplace=yes} # # Philipp der Grossmütige
+1527.1.1={marketplace=yes} # # Philipp der Grossmï¿½tige
 1536.1.1={religion=protestant}
 1550.1.1={citysize=9000}
 1620.1.1={regimental_camp=yes constable=yes}

@@ -1,5 +1,5 @@
 culture=guarani
-religion=ind_pagan
+religion=pagan
 capital="San Pedro"
 trade_goods=corn
 hre=no

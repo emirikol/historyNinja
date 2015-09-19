@@ -1,5 +1,5 @@
 culture=sulawesi
-religion=australian_pagan
+religion=pagan
 capital="Makassar"
 trade_goods=wood
 hre=no

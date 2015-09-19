@@ -1,5 +1,5 @@
 culture=aztek 
-religion=teotl_azt
+religion=aztec
 capital="Bluefields" 
 trade_goods=fur
 hre=no 

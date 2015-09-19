@@ -1,5 +1,5 @@
 culture=mayan 
-religion=teotl_azt
+religion=aztec
 capital="Comayagua"
 trade_goods=sugar 
 hre=no 

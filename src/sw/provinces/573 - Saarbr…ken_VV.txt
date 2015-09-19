@@ -3,7 +3,7 @@ controller=LOM
 add_core=LOM
 culture=langobardian
 religion=odin
-capital="Saarbrücken"
+capital="Saarbrï¿½cken"
 fort1=yes
 trade_goods=copper
 base_tax=7
@@ -26,7 +26,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 290.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish remove_core=LOM}
-451.6.1={religion=early}
+451.6.1={religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={owner=PAL controller=PAL add_core=PAL culture=palatinian remove_core=EHF

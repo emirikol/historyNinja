@@ -2,7 +2,7 @@ owner=OSR
 controller=OSR
 add_core=OSR
 culture=assyrian
-religion=groman
+religion=roman
 capital="Mus"
 trade_goods=cloth
 hre=no
@@ -27,7 +27,7 @@ discovered_by=AAR
 350.5.1={discovered_by=eastern discovered_by=BYZ}
 395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP}
 630.6.1={discovered_by=muslim}
-638.6.1={owner=ACA controller=ACA add_core=ACA culture=old_armenian}
+638.6.1={owner=ACA controller=ACA add_core=ACA culture=armenian}
 754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
 1055.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
 1200.8.1={owner=AKK controller=AKK add_core=AKK remove_core=SEJ}

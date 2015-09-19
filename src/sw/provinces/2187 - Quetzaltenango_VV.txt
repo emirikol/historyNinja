@@ -1,7 +1,7 @@
 owner=QUI 
 controller=QUI 
 culture=mayan 
-religion=teotl_azt
+religion=aztec
 capital="Quetzaltenango" 
 fort1=yes
 trade_goods=iron 

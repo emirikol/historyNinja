@@ -2,7 +2,7 @@ owner=SUS
 controller=SUS
 add_core=SUS
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Susquehanna"
 fort1=yes
 citysize=1000
@@ -14,7 +14,7 @@ discovered_by=IRO
 discovered_by=SUS
 discovered_by=ERA
 
-1615.1.1={discovered_by=FRA} # Étienne Brûlé
+1615.1.1={discovered_by=FRA} # ï¿½tienne Brï¿½lï¿½
 1733.1.1={owner=GBR controller=GBR culture=english religion=protestant capital="Harrisburg" citysize=100 remove_core=SUS} 
 1750.1.1={citysize=1100}
 1758.1.1={add_core=GBR}

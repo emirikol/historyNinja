@@ -3,6 +3,13 @@ require 'ostruct'
 require 'json'
 require 'treetop'
 
+=begin
+  usage:
+  > irb
+  > load 'convert.rb'
+  > f = Foobar.new('sw')
+=end
+
 class Foobar
   attr_accessor :source
   attr_reader   :svg, :parser, :mt
@@ -29,17 +36,22 @@ class Foobar
   end
   def province_json
     File.open(out_path('provinces.json'), 'w+') do |out|
+      count = Dir.glob(src_path('provinces/*')).size
       out << "{\n"
       Dir.glob(src_path('provinces/*')).each_with_index do |file, i|
         next if File.stat(file).size == 0
-        print "\r#{i}"
+        print "\r#{i}/#{count}"
         prov = parse(file) 
         id, name = file.split('-',2).map{|x|  File.basename(x,'.*').strip }
         hash = {name: name}
         owner = prov['controller']
         hash[:owner] = owner if owner
+        hash[:culture] = prov['culture'] if prov['culture']
+        hash[:religion] = prov['religion'] if prov['religion']
+        # hash[:city] = prov['capital'] if prov['capital']
         out << %Q{"#{id}": #{JSON.dump(hash)},\n}
       end
+      out.seek(-2, IO::SEEK_END)
       out << "\n}"
     end
     puts "\ndone\a"
@@ -72,9 +84,10 @@ class Foobar
       next if File.stat(file).size == 0
       code = File.basename(file).split('-')[0].strip.upcase
       parse(file).each do |key, val|
-        countries[code]['gov'] = val.gsub('_', ' ') if key == 'government'
+        countries[code]['gov'] = val.gsub('_', ' ') if key == 'government' # should be in countries_json ?
         country_cache[code]['gov'] = countries[code]['gov']
         next unless key =~ /^\d+\.\d\d?\.\d\d?/
+        val = val[0] if val.kind_of?(Array)
         if val['monarch']
           mon = val['monarch']['name'].strip
           arr << {time: key_to_time(key), code: code, monarch: [mon, country_cache[code]['monarch']]} 
@@ -88,32 +101,64 @@ class Foobar
         
       end
     end
-    File.write(out_path('countries.json'), JSON.dump(countries))
+    gen_vassal_history(res)
+    File.write(out_path('countries.json'), JSON.dump(countries)) 
     res
+  end
+  
+  def gen_vassal_history(array)
+    Dir.glob(src_path('diplomacy/*')).each do |file|
+      vassalages = parse(file)['vassal']
+      vassalages = [vassalages].compact unless vassalages.respond_to?(:to_ary)
+      vassalages.each do |vassalage|
+        #puts  vassalage.inspect
+        array << {time: key_to_time(vassalage['start_date']), code: vassalage['first'], client: [vassalage['second'], nil]}
+        array << {time: key_to_time(vassalage['end_date']), code: vassalage['first'], client: [nil, vassalage['second']]}
+        array << {time: key_to_time(vassalage['start_date']), code: vassalage['second'], suzerain: [vassalage['first'], nil]}
+        array << {time: key_to_time(vassalage['end_date']), code: vassalage['second'], suzerain: [nil, vassalage['first']]}
+      end
+    end
+    array
   end
   
   def gen_province_history()
     provinces = JSON.parse(File.read(out_path('provinces.json')))
+    count, i = Dir.glob(src_path('provinces/*')).size, 0
     history = Dir.glob(src_path('provinces/*')).each_with_object([]) do |file, arr|
+      i += 1
+      print "\r#{i}/#{count}"
       next if File.stat(file).size == 0
       id = file.scan(/\d+/)[0]
-      puts id 
+      # puts id 
       parse(file).each do |key, val|
         next unless key =~ /^\d+\.\d\d?\.\d\d?/
+        val = val.inject(&:merge) if val.kind_of?(Array)
         new_owner = val['controller']
         new_owner =  provinces[id]['owner'] if new_owner.nil? && provinces[id]['controller'] == 'REB' && val['revolt'] == 'null' #owner get back province if revolt goes away
-        next unless new_owner 
+        next unless new_owner || val['culture']  || val['religion']
         
         time = key_to_time(key)
-        arr << {time: time, id: [id], owner: new_owner, pre_owner: provinces[id]['controller'] || provinces[id]['owner']}
-        provinces[id]['controller'] = new_owner
-        provinces[id]['owner'] = val['owner'] if val['owner']
+        arr << { time: time, id: [id] }
+        if new_owner
+          arr[-1][:owner] = new_owner
+          arr[-1][:pre_owner] = provinces[id]['controller'] || provinces[id]['owner']
+          provinces[id]['controller'] = new_owner
+          provinces[id]['owner'] = val['owner'] if val['owner']
+        end
+        if val['culture']
+          arr[-1][:culture] = [val['culture'], provinces[id]['culture']]
+          provinces[id]['culture'] = val['culture'] 
+        end
+        if val['religion']
+          arr[-1][:religion] = [val['religion'], provinces[id]['religion']]
+          provinces[id]['religion'] = val['religion'] 
+        end
       end
     end
     history.sort_by!{|h| [h[:time] , h[:owner] || '0', h[:pre_owner]  || '0']  }
     zipped = [{}]
     history.each do |event|
-      if zipped[-1].values_at(:date, :owner, :pre_owner) == event.values_at(:date, :owner, :pre_owner)
+      if zipped[-1].values_at(:date, :owner, :pre_owner, :culture, :religion) == event.values_at(:date, :owner, :pre_owner, :culture, :religion)
         zipped[-1][:id] << event[:id][0]
       else
         zipped << event
@@ -129,6 +174,7 @@ class Foobar
   
   def history_json
     write_history(gen_country_history.concat(gen_province_history))
+    puts "\ndone\a"
   end
   
   def key_to_time(key)

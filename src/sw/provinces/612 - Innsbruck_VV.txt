@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 base_tax=8
 trade_goods=gold
 manpower=2
@@ -26,7 +26,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=early remove_core=RMP}
+476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=christian remove_core=RMP}
 790.1.1={owner=HFR controller=HFR add_core=HFR remove_core=LOM}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR}
@@ -43,7 +43,7 @@ discovered_by=muslim}
 1570.1.1={fine_arts_academy=yes}
 1577.1.1={base_tax=7} # Minting moves from Meran to Hall
 1602.1.1={base_tax=8} # Maximilian's economic reforms
-1627.1.1={workshop=yes} # Kramsacher Glashütte
+1627.1.1={workshop=yes} # Kramsacher Glashï¿½tte
 1646.1.1={fort2=yes}
 1665.6.25={manpower=1} # Manpower decreased as Landslibell is still in effect under foreign governance
 1669.1.1={fine_arts_academy=no university=yes} # University Leopoldina

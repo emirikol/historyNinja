@@ -1,5 +1,5 @@
 culture=arawak
-religion=ind_pagan
+religion=pagan
 capital="La Vega"
 trade_goods=tobacco 
 hre=no

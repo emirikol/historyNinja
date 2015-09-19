@@ -1,5 +1,5 @@
 culture=navajo 
-religion=teotl_azt
+religion=aztec
 capital="Tepehuan" 
 trade_goods=fur 
 hre=no 

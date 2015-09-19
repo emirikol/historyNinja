@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital="Vitoria da Conquista"
 trade_goods=gold
 hre=no
@@ -9,7 +9,7 @@ native_size=10
 native_ferocity=1
 native_hostileness=7
 
-1500.4.23={discovered_by=POR owner=POR controller=POR citysize=460 religion=catholic culture=portugese} # Pedro Álvares Cabral
+1500.4.23={discovered_by=POR owner=POR controller=POR citysize=460 religion=catholic culture=portugese} # Pedro ï¿½lvares Cabral
 1525.1.1={add_core=POR citysize=1200 fort1=yes}
 1550.1.1={citysize=1480}
 1600.1.1={citysize=2600}

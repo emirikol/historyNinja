@@ -2,7 +2,7 @@ owner=SRM
 controller=SRM
 add_core=SRM
 culture=sarmathian
-religion=zoro
+religion=zoroastrian
 hre=no
 base_tax=3
 trade_goods=iron  
@@ -49,7 +49,7 @@ discovered_by=PHU
 1650.1.1={fort2=yes} # Military and territorial unit at the time
 1654.1.1={revolt={} controller=POL remove_core=ZAZ}
 1657.1.1={owner=RUS controller=RUS add_core=RUS remove_core=POL}
-1680.1.1={regimental_camp=yes} # Ivan Mazeppa’s baroque army building.
+1680.1.1={regimental_camp=yes} # Ivan Mazeppaï¿½s baroque army building.
 1794.3.24={revolt_risk=5} # Kosciuszko uprising, minimize the Russian influence
 1794.11.16={revolt_risk=0}
 1892.1.1={trade_goods=steel}

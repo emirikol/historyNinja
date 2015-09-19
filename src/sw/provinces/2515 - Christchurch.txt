@@ -1,5 +1,5 @@
 culture=polynesian
-religion=australian_pagan
+religion=pagan
 capital="Aorangi"
 trade_goods=wool
 hre=no

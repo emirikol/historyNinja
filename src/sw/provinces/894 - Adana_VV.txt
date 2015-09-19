@@ -1,8 +1,8 @@
 owner=RME
 controller=RME
 add_core=RME
-culture=old_greek
-religion=groman
+culture=greek
+religion=roman
 capital="Alexandretta"
 trade_goods=fish
 hre=no
@@ -30,7 +30,7 @@ discovered_by=AAR
 660.6.1={owner=ACA controller=ACA add_core=ACA}
 754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA religion=sunni}
 1018.6.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=ABB}
-1080.1.1={owner=AAR controller=AAR add_core=AAR remove_core=BYZ culture=old_armenian}
+1080.1.1={owner=AAR controller=AAR add_core=AAR remove_core=BYZ culture=armenian}
 1375.1.1={owner=RAM controller=RAM add_core=RAM remove_core=TIM culture=turkish} 
 1408.1.1={add_core=TUR}
 1450.1.1={citysize=2600}  

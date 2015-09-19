@@ -1,5 +1,5 @@
 culture=aimara
-religion=ind_pagan
+religion=pagan
 capital="Rivadavia"
 trade_goods=wood
 hre=no

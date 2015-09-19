@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 capital="Locarno"
 trade_goods=iron
 hre=no
@@ -16,7 +16,7 @@ discovered_by=RMP
 discovered_by=SUE
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=early remove_core=RMP}
+476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=christian remove_core=RMP}
 790.1.1={owner=HFR controller=HFR add_core=HFR remove_core=LOM}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}

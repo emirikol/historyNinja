@@ -26,7 +26,7 @@ discovered_by=VNA
 
 350.6.1={owner=LOM controller=LOM culture=langobardian religion=odin}
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
-451.6.1={owner=BAV controller=BAV add_core=BAV culture=upper_palatinian religion=early}
+451.6.1={owner=BAV controller=BAV add_core=BAV culture=upper_palatinian religion=christian}
 788.1.1={owner=HFR controller=HFR add_core=HFR}
 799.12.24={religion=catholic}
 843.1.1={owner=GMV controller=GMV add_core=GMV remove_core=HFR culture=moravian religion=catholic discovered_by=eastern discovered_by=latin discovered_by=muslim}

@@ -1,5 +1,5 @@
 culture=aleutian
-religion=ind_pagan
+religion=pagan
 capital="Yakutat"
 trade_goods=gold
 hre=no

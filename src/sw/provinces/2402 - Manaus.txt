@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital= "Manaus"
 trade_goods=wood
 hre=no

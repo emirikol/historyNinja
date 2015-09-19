@@ -1,5 +1,5 @@
 culture=creek
-religion=ind_pagan
+religion=pagan
 capital="Santee"
 trade_goods=copper
 hre=no

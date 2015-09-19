@@ -1,8 +1,8 @@
 owner=AAR
 controller=AAR
 add_core=AAR
-culture=old_armenian
-religion=groman
+culture=armenian
+religion=roman
 capital="Manzikert"
 trade_goods=copper
 hre=no

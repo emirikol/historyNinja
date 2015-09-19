@@ -21,7 +21,7 @@ discovered_by=FTP
 
 400.1.1={discovered_by=VIK}
 415.6.1={owner=VIK controller=VIK add_core=VIK cot=yes citysize=1500 fort1=yes}
-698.6.1={religion=early}
+698.6.1={religion=christian}
 800.1.1={religion=catholic}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim temple=yes}
 965.1.1={owner=DAN controller=DAN add_core=DAN remove_core=VIK marketplace=yes}
@@ -29,7 +29,7 @@ discovered_by=FTP
 1450.1.1={citysize=1250 add_core=GOT}
 1500.1.1={citysize=1400} # Estimated
 1512.1.1={fort2=yes} 
-1523.4.14={revolt={type=revolutionary_rebels size=1} controller=REB} # Prelude to 'Grevefejden'(Sören Norrby)
+1523.4.14={revolt={type=revolutionary_rebels size=1} controller=REB} # Prelude to 'Grevefejden'(Sï¿½ren Norrby)
 1525.6.1={revolt={} controller=DAN} # Recaptured after Soren Norrby left (date unknown)
 1536.1.1={religion=protestant} # Unknown date
 1570.1.1={citysize=1600}

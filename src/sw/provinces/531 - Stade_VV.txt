@@ -38,7 +38,7 @@ discovered_by=AEG
 290.6.1={owner=SAT controller=SAT culture=saxon remove_core=TEV add_core=SAT}
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra add_core=HNU}
 415.1.1={discovered_by=VIK}
-451.6.1={owner=SAT controller=SAT culture=saxon religion=early remove_core=HNU}
+451.6.1={owner=SAT controller=SAT culture=saxon religion=christian remove_core=HNU}
 770.1.1={owner=HFR controller=HFR add_core=HFR remove_core=SAT}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}

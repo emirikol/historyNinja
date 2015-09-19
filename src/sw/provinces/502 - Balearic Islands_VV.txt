@@ -2,8 +2,8 @@ owner=RME
 controller=RME
 add_core=RME
 add_core=CEO
-culture=old_phoenicians
-religion=groman
+culture=phoenicians
+religion=roman
 hre=no
 base_tax=3
 trade_goods=fish
@@ -17,8 +17,8 @@ discovered_by=RMP
 150.6.1={remove_core=CEO}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 350.5.1={discovered_by=eastern discovered_by=BYZ}
-429.6.1={owner=VNA controller=VNA culture=vandals religion=early remove_core=RMP}
-533.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=lombard religion=early}
+429.6.1={owner=VNA controller=VNA culture=vandals religion=christian remove_core=RMP}
+533.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=lombard religion=christian}
 630.6.1={discovered_by=muslim}
 717.1.1={owner=ACA controller=ACA add_core=ACA culture=lombard}
 754.1.1={religion=sunni owner=ABB controller=ABB add_core=ABB remove_core=ACA}
@@ -26,13 +26,13 @@ discovered_by=RMP
 1040.6.1={owner=ARV controller=ARV add_core=ARV remove_core=ABB}
 1099.1.1={owner=ARA controller=ARA add_core=ARA remove_core=ARV religion=catholic}     
 1450.1.1={citysize=5000}
-1462.1.1={revolt_risk=2} # Remença peasant revolt, in parallel with the Catalan civil war.
-1472.1.1={revolt_risk=0} # End of the First Remença revolt
+1462.1.1={revolt_risk=2} # Remenï¿½a peasant revolt, in parallel with the Catalan civil war.
+1472.1.1={revolt_risk=0} # End of the First Remenï¿½a revolt
 1500.1.1={citysize=10554}
 1516.1.23={controller=SPA owner=SPA	add_core=SPA} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
 1521.3.16={revolt={type=revolutionary_rebels size=0} controller=REB} # The Germanies movement reaches the archipelago, the viceroy is deposed by the revolters
 1523.3.8={revolt={} controller=SPA} # The royal army retakes the city of Palma
 1705.10.9={controller=HAB} # Balearic isles side with the Austrian cause
-1713.4.11={revolt={type=revolutionary_rebels size=1} controller=REB} # The pro-Austrian forces in Mallorca and Eïvissa ignore the Treaty of Utrecht.
+1713.4.11={revolt={type=revolutionary_rebels size=1} controller=REB} # The pro-Austrian forces in Mallorca and Eï¿½vissa ignore the Treaty of Utrecht.
 1713.7.13={revolt={} remove_core=ARA}
-1714.9.14={controller=SPA} # Mallorca and Eïvissa surrender shortly after the fall of Barcelona
+1714.9.14={controller=SPA} # Mallorca and Eï¿½vissa surrender shortly after the fall of Barcelona

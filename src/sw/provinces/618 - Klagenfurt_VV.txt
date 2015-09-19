@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 base_tax=5
 trade_goods=iron  
 manpower=2
@@ -27,8 +27,8 @@ discovered_by=VNA
 
 166.6.1={culture=macromani}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-451.6.1={owner=OST controller=OST culture=ostrogothic religion=early}
-553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=langobardian religion=early remove_core=RMP add_core=WCR}
+451.6.1={owner=OST controller=OST culture=ostrogothic religion=christian}
+553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=langobardian religion=christian remove_core=RMP add_core=WCR}
 595.5.1={owner=AVE controller=AVE add_core=AVE}
 805.1.1={owner=HFR controller=HFR add_core=HFR religion=catholic remove_core=AVE culture=frankish}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}

@@ -1,5 +1,5 @@
 culture=cara
-religion=ind_pagan
+religion=pagan
 capital="Galapagos"
 trade_goods=corn
 hre=no

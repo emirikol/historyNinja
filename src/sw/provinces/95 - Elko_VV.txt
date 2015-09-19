@@ -2,7 +2,7 @@ owner=NAO
 controller=NAO
 add_core=NAO
 culture=navajo 
-religion=ind_pagan
+religion=pagan
 trade_goods=salt
 capital="Elko"
 citysize=1812
@@ -16,7 +16,7 @@ discovered_by=YKT
 discovered_by=PEO
 discovered_by=COK
 
-1541.1.1={discovered_by=SPA} # Francisco Vásquez de Coronado
+1541.1.1={discovered_by=SPA} # Francisco Vï¿½squez de Coronado
 1598.1.1={native_size=15 native_ferocity=1 native_hostileness=4 owner=SPA controller=SPA citysize=400
 religion=catholic culture=castillian} # First Spanish colonists
 1610.1.1={citysize=1280} # Pedro de Peralta

@@ -1,3 +1,17 @@
+- province / country panels + better binding (current province + settings)
+  - current X changes with time
+- better slider / mobile slider
+- progress bar
+- vassalage...
+- edit events
+  - edit view
+  - set up real server...
+  - users??
+  - create patch or pull request
+  - split events into files for easier merging, merge after every patch
+  - what about maps???
+
+
 V bi-directionality
 V better farking parsing
 V pan & zoom
@@ -12,12 +26,17 @@ V performance II
 - refactor html
 - show rebellions types?
 - update displayed data when events change it...
-- show HRE, vassalage
+- show HRE
+- vassalage
+- color by...
 - highlight selection
 - moar data?
+- separate panels
 V ios support
 - progress bar
 - find country (in time in addition to place??
+- share view
+- share buttons?
 
 
 
@@ -71,22 +90,23 @@ color by:
   controller - hist/province
   suzerain - hist/diplomacy
   hre  - hist/province
-  religion - hist/province + religion.txt + heresys?
-  culture - hist/province (+cultures.txt for culture groups)
+  religion - 
+  culture - 
   
 
 data:
   province:
-   capital - hist/country
+   x city
    revolt type - rebel_types.txt
-   normalized(?) population - hist/province. ignored in SW
-   culture - hist/province
-   religion - hist/province
+   V culture - hist/province
+   V religion - hist/province
    hre.  - hist/province
+   normalized(?) population - hist/province. ignored in SW
   country 
     V link - wing it
     V ruler (dynasty?) - hist/country
     V govt. type - hist/country
+    religion - hist/country
     capital? - hist/country + hist/province
     wars - wars
     alliances - hist/dimplomacy

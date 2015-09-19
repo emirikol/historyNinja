@@ -1,5 +1,5 @@
 culture= amazonian
-religion=ind_pagan
+religion=pagan
 capital="Cuiaba"
 trade_goods=corn
 hre=no

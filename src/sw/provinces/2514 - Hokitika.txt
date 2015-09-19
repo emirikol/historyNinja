@@ -1,5 +1,5 @@
 culture=polynesian
-religion=australian_pagan
+religion=pagan
 trade_goods=fish
 capital="Wanaka"
 hre=no

@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Staunton"
 trade_goods=corn
 hre=no

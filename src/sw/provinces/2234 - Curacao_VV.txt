@@ -1,5 +1,5 @@
 culture=arawak
-religion=ind_pagan
+religion=pagan
 capital="Curacao"
 trade_goods=sugar
 hre=no

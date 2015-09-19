@@ -1,5 +1,5 @@
 culture=carib
-religion=ind_pagan
+religion=pagan
 capital="Tobago"
 trade_goods=sugar
 hre=no 

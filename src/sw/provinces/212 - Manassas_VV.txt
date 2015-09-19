@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Manassas"
 trade_goods=tobacco
 hre=no
@@ -8,7 +8,7 @@ manpower=2
 discovered_by=IRO
 discovered_by=SUS
 
-1615.1.1={discovered_by=FRA} # Étienne Brûlé
+1615.1.1={discovered_by=FRA} # ï¿½tienne Brï¿½lï¿½
 1733.1.1={owner=GBR	controller=GBR culture=english religion=protestant citysize=1000 fort1=yes} 
 1750.1.1={citysize=1100}
 1758.1.1={add_core=GBR}

@@ -1,5 +1,5 @@
 culture=mayan 
-religion=teotl_azt
+religion=aztec
 capital="Bacalar" 
 trade_goods=fish 
 hre=no 

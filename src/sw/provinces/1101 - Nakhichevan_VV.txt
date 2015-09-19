@@ -1,8 +1,8 @@
 owner=AAR
 controller=AAR
 add_core=AAR
-culture=old_armenian
-religion=groman
+culture=armenian
+religion=roman
 capital="Nakhichevan"
 fort1=yes
 trade_goods=iron

@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 hre=no
 base_tax=2
 trade_goods=wool
@@ -16,7 +16,7 @@ discovered_by=RMP
 discovered_by=SUE
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian remove_core=RMP religion=early}
+476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian remove_core=RMP religion=christian}
 534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}

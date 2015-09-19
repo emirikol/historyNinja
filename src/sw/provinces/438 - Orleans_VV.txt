@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Orleans"
 citysize=5500
 hre=no
@@ -18,7 +18,7 @@ discovered_by=SUE
 discovered_by=GLA
 
 313.6.1={remove_core=RME manpower=3 religion=orthodox owner=RMP controller=RMP add_core=RMP}
-461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+461.8.7={owner=GLA controller=GLA religion=christian remove_core=RMP}
 486.2.1={manpower=4 owner=HFR controller=HFR add_core=HFR remove_core=GLA culture=frankish}
 799.12.24={religion=catholic}
 843.1.1={owner=FRA controller=FRA add_core=FRA remove_core=HFR hre=no}
@@ -29,7 +29,7 @@ discovered_by=GLA
 1550.1.1={constable=yes}
 1560.1.1={religion=reformed}
 1562.3.1={revolt_risk=5}
-1562.3.20={revolt={type=heretic_rebels size=2} controller=REB} # Huguenot rebels garrison Orléans & Dreux
+1562.3.20={revolt={type=heretic_rebels size=2} controller=REB} # Huguenot rebels garrison Orlï¿½ans & Dreux
 1563.3.19={revolt={} controller=ORL revolt_risk=3} # Temporary truce negotiated after the assassination of de Guise
 1565.1.1={revolt_risk=8} # France is restless once again as ultra-catholic intentions become clear
 1568.9.1={revolt_risk=15} # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
@@ -46,10 +46,10 @@ discovered_by=GLA
 1598.4.13={revolt_risk=3} # Edict of Nantes, alot more freedom to the protestants
 1598.5.2={revolt_risk=0} # Peace of Vervins, formal end to the Wars of Religion
 1600.1.1={courthouse=yes}
-1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.1.14={revolt_risk=7} # Mazarin arrests the Princes Condï¿½, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1={revolt_risk=4} # An unstable peace is concluded
-1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-1652.7.2={revolt_risk=0 revolt={type=revolutionary_rebels size=1} controller=REB} # Condé takes Orléannais
+1651.12.1={revolt_risk=7} # Mazarin returns from exile, Condï¿½ sides with Spain, situation heats up again
+1652.7.2={revolt_risk=0 revolt={type=revolutionary_rebels size=1} controller=REB} # Condï¿½ takes Orlï¿½annais
 1652.10.21={revolt={} controller=FRA} # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 1670.1.1={tax_assessor=yes}
 1685.10.18={revolt_risk=8} # Edict of Nantes revoked by Louis XIV

@@ -1,5 +1,5 @@
 culture=dakota
-religion=ind_pagan
+religion=pagan
 trade_goods=coal
 capital="Bismarck"
 hre=no
@@ -8,7 +8,7 @@ manpower=2
 discovered_by=OSA
 discovered_by=OJI
 
-1732.1.1={discovered_by=FRA} # La Vérendrye
+1732.1.1={discovered_by=FRA} # La Vï¿½rendrye
 1751.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic citysize=1310} # Construction
 1760.1.1={controller=GBR} # The government of New France capitulate at Montreal
 1763.2.10={owner=GBR controller=GBR remove_core=FRA culture=english religion=protestant fort1=yes

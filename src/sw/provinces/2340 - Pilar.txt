@@ -1,5 +1,5 @@
 culture=guarani
-religion=ind_pagan
+religion=pagan
 capital="Pilar"
 trade_goods=wood
 hre=no

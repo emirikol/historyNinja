@@ -1,5 +1,5 @@
 culture=aboriginal
-religion=australian_pagan
+religion=pagan
 capital="Robe"
 trade_goods=coal
 hre=no

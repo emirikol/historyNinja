@@ -1,5 +1,5 @@
 culture=navajo
-religion=teotl_azt
+religion=aztec
 capital="San Antonio"
 trade_goods=fur
 hre=no
@@ -14,7 +14,7 @@ discovered_by=TOT
 discovered_by=WIC
 
 1428.1.1={discovered_by=AZT}
-1519.1.1={discovered_by=SPA} # Alvarez de Piñeda explored the Gulf Coast
+1519.1.1={discovered_by=SPA} # Alvarez de Piï¿½eda explored the Gulf Coast
 1598.1.1={owner=SPA	controller=SPA citysize=350	religion=catholic culture=castillian fort1=yes}
 1715.1.1={add_core=SPA citysize=1244}
 1750.1.1={citysize=2435 add_core=MEX}

@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=roman
-religion=groman
+religion=roman
 hre=no
 base_tax=4        
 trade_goods=salt
@@ -17,7 +17,7 @@ discovered_by=eastern
 discovered_by=VNA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=early remove_core=RME}
+476.6.1={owner=GHT controller=GHT add_core=GHT culture=goths religion=christian remove_core=RME}
 493.6.1={owner=OST controller=OST add_core=OST culture=ostrogothic remove_core=GHT}
 553.6.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=OST}
 560.6.1={discovered_by=nomad_group}

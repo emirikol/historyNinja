@@ -1,5 +1,5 @@
 culture=navajo 
-religion=teotl_azt
+religion=aztec
 capital="Monclova" 
 trade_goods=wool 
 hre=no 

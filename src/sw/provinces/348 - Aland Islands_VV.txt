@@ -11,7 +11,7 @@ discovered_by=FTP
 
 400.1.1={discovered_by=VIK}
 415.6.1={owner=VIK controller=VIK add_core=VIK citysize=1000 fort1=yes}
-698.6.1={religion=early}
+698.6.1={religion=christian}
 800.1.1={religion=catholic}
 1200.1.1={owner=SWE controller=SWE add_core=SWE remove_core=VIK culture=swedish}
 1480.1.1={owner=DAN controller=DAN add_core=DAN discovered_by=muslim} #Svante Nilsson conquers the island

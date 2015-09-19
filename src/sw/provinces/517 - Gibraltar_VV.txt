@@ -2,8 +2,8 @@ owner=RME
 controller=RME
 add_core=RME
 add_core=CEO
-culture=old_phoenicians
-religion=groman
+culture=phoenicians
+religion=roman
 hre=no
 base_tax=5
 trade_goods=fish 
@@ -18,7 +18,7 @@ discovered_by=RMP
 150.6.1={remove_core=CEO}
 220.6.1={culture=roman}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-455.6.1={owner=VIS controller=VIS add_core=VIS culture=visigothic religion=early}
+455.6.1={owner=VIS controller=VIS add_core=VIS culture=visigothic religion=christian}
 554.6.1={owner=BYZ controller=BYZ}
 574.6.1={owner=VIS controller=VIS remove_core=RMP}
 630.6.1={discovered_by=muslim}
@@ -36,7 +36,7 @@ discovered_by=RMP
 1516.1.23={religion=catholic controller=SPA	owner=SPA add_core=SPA} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
 1550.1.1={citysize=3890 marketplace=yes}
 1600.1.1={citysize=4300}
-1610.1.12={culture=castillian} # Decree for the expulsion of the morisques in Andalucía, which is speedily and uneventfully performed
+1610.1.12={culture=castillian} # Decree for the expulsion of the morisques in Andalucï¿½a, which is speedily and uneventfully performed
 1650.1.1={citysize=4780}
 1700.1.1={citysize=5580}
 1704.8.3={controller=ENG} # England occupies Gibraltar

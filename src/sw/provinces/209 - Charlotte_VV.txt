@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Charlotte"
 trade_goods=tobacco
 hre=no

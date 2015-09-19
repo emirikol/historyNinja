@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Panama City"
 trade_goods=naval_supplies
 hre=no

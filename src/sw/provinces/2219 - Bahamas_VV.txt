@@ -1,5 +1,5 @@
 culture=arawak
-religion=ind_pagan
+religion=pagan
 capital="Bahamas"
 trade_goods=cotton
 hre=no

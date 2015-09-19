@@ -1,5 +1,5 @@
 culture=penutian 
-religion=ind_pagan
+religion=pagan
 capital="Klamath" 
 trade_goods=fish 
 hre=no 

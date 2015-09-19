@@ -1,5 +1,5 @@
 culture=carib
-religion=ind_pagan
+religion=pagan
 capital="Trinidad"
 trade_goods=sugar
 hre=no 

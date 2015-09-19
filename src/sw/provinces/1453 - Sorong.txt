@@ -1,5 +1,5 @@
 culture=papuan
-religion=australian_pagan
+religion=pagan
 capital="Sorong"
 trade_goods=fish
 hre=no

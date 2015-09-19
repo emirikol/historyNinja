@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=helvetii
-religion=groman
+religion=roman
 capital="Genevra"
 trade_goods=stone
 hre=no
@@ -18,7 +18,7 @@ discovered_by=SUE
 290.6.1={culture=suevi religion=odin}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 410.6.1={culture=frankish}
-443.6.1={owner=BUR controller=BUR add_core=BUR culture=burgundian remove_core=RMP religion=early capital="Geneve"}
+443.6.1={owner=BUR controller=BUR add_core=BUR culture=burgundian remove_core=RMP religion=christian capital="Geneve"}
 534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}

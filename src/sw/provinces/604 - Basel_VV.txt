@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=helvetii
-religion=groman
+religion=roman
 capital="Basilea"         
 trade_goods=copper
 hre=no
@@ -27,7 +27,7 @@ discovered_by=VNA
 
 166.6.1={culture=suevi}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian remove_core=RMP religion=early}
+476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian remove_core=RMP religion=christian}
 534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish capital="Basel"}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=burgundian}

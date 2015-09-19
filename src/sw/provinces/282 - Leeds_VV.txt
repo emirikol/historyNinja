@@ -2,7 +2,7 @@ owner=ORD
 controller=ORD
 add_core=ORD
 culture=ordovices
-religion=droid
+religion=druid
 hre=no
 base_tax=1
 trade_goods=copper
@@ -30,7 +30,7 @@ discovered_by=VES
 70.9.1={revolt={type=nationalist_rebels size=5}}
 70.9.15={revolt={}}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-410.6.1={owner=ELM controller=ELM add_core=ELM remove_core=RMP culture=elmet religion=early}
+410.6.1={owner=ELM controller=ELM add_core=ELM remove_core=RMP culture=elmet religion=christian}
 616.6.1={owner=NOL controller=NOL add_core=NOL culture=northumberlandian remove_core=ORD}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
 878.1.1={owner=VIK controller=VIK}

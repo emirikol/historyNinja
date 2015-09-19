@@ -15,7 +15,7 @@ discovered_by=KJU
 discovered_by=KUS
 
 86.8.2={owner=KUS controller=KUS add_core=KUS}
-262.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=zoro remove_core=KJU}
+262.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=zoroastrian remove_core=KJU}
 410.6.1={owner=CIX controller=CIX add_core=CIX remove_core=PER culture=chionites religion=tangra}
 630.6.1={discovered_by=muslim}
 650.6.1={religion=shiite}

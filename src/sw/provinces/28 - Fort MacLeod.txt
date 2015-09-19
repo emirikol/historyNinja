@@ -1,5 +1,5 @@
 culture=cree
-religion=ind_pagan
+religion=pagan
 trade_goods=fur
 capital="Alexander Fol"
 hre=no

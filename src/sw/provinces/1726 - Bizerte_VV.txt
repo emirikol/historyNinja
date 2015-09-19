@@ -2,8 +2,8 @@ owner=RME
 controller=RME
 add_core=RME
 add_core=CEO
-culture=old_phoenicians
-religion=groman
+culture=phoenicians
+religion=roman
 hre=no
 capital="Bizerte"
 trade_goods=grain
@@ -21,7 +21,7 @@ discovered_by=CEO
 150.6.1={remove_core=CEO}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 350.5.1={discovered_by=eastern discovered_by=BYZ}
-429.6.1={owner=VNA controller=VNA culture=vandals religion=early}
+429.6.1={owner=VNA controller=VNA culture=vandals religion=christian}
 533.6.1={owner=BYZ controller=BYZ remove_core=RMP}
 630.6.1={discovered_by=muslim}
 680.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni remove_core=BYZ capital="Tunis"}

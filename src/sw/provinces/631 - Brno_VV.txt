@@ -24,7 +24,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 110.6.1={owner=GEP controller=GEP add_core=GEP culture=gepids remove_core=MCR}
-290.6.1={owner=NAV controller=NAV add_core=NAV culture=basque religion=droid}
+290.6.1={owner=NAV controller=NAV add_core=NAV culture=basque religion=druid}
 355.6.1={owner=BES controller=BES add_core=BES culture=bastarnic religion=odin remove_core=NAV}
 370.6.1={owner=HNU controller=HNU add_core=HNU culture=huns religion=tangra remove_core=BES}
 451.6.1={owner=GEP controller=GEP add_core=GEP remove_core=HNU culture=gepids religion=odin}
@@ -38,7 +38,7 @@ discovered_by=VNA
 1457.1.1={revolt_risk=5 regimental_camp=yes} # George of Podiebrand had to secure recognition from the German and Catholic towns
 1464.1.1={revolt_risk=1} # The Catholic nobility is still undermines the crown.
 1471.1.1={revolt_risk=0}
-1526.8.30={owner=HAB controller=HAB	add_core=HAB remove_core=BOH capital="Brünn"} # Battle of Mohac where Lajos II dies -> Habsburg succession
+1526.8.30={owner=HAB controller=HAB	add_core=HAB remove_core=BOH capital="Brï¿½nn"} # Battle of Mohac where Lajos II dies -> Habsburg succession
 1550.1.1={marketplace=yes}
 1576.1.1={religion=reformed}
 1600.1.1={fort2=yes}
@@ -50,6 +50,6 @@ discovered_by=VNA
 1778.1.1={university=yes} # Transfered from Olmutz
 1806.7.12={hre=no} # The Holy Roman Empire is dissolved
 1918.10.28={owner=CSL controller=CSL add_core=CSL remove_core=HAB culture=czech capital="Brno"} # independence of Czechoslovakia
-1939.3.15={owner=NAZ controller=NAZ add_core=NAZ capital="Brünn"} # protectorate Bohemia and Moravia
+1939.3.15={owner=NAZ controller=NAZ add_core=NAZ capital="Brï¿½nn"} # protectorate Bohemia and Moravia
 1945.5.4={owner=CSL controller=CSL remove_core=NAZ capital="Brno"} # end of the 2nd WW
 1993.1.1={owner=CZC controller=CZC remove_core=CSL add_core=CZC} # independence of Slovakia

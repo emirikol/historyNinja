@@ -2,7 +2,7 @@ owner=VES
 controller=VES
 add_core=VES
 culture=vascon
-religion=groman
+religion=roman
 hre=no
 base_tax=5
 trade_goods=wool
@@ -21,7 +21,7 @@ discovered_by=VES
 
 14.6.1={owner=RME controller=RME add_core=RME}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-455.6.1={owner=VIS controller=VIS add_core=VIS culture=visigothic religion=early remove_core=RMP}
+455.6.1={owner=VIS controller=VIS add_core=VIS culture=visigothic religion=christian remove_core=RMP}
 714.1.1={owner=HFR controller=HFR add_core=HFR remove_core=VIS}
 800.1.1={religion=catholic}
 814.1.1={owner=ARA controller=ARA add_core=ARA remove_core=HFR culture=catalan}

@@ -1,4 +1,4 @@
-religion=ind_pagan
+religion=pagan
 capital="Cape Verde"
 trade_goods=slaves
 hre=no

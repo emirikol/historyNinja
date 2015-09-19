@@ -1,8 +1,8 @@
 owner=RME
 controller=RME
 add_core=RME
-culture=old_iberian
-religion=groman
+culture=iberian
+religion=roman
 hre=no
 base_tax=5 
 trade_goods=iron
@@ -16,7 +16,7 @@ discovered_by=RMP
 
 180.6.1={culture=roman}
 313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
-455.6.1={owner=VIS controller=VIS add_core=VIS religion=early}
+455.6.1={owner=VIS controller=VIS add_core=VIS religion=christian}
 554.6.1={owner=BYZ controller=BYZ}
 574.6.1={owner=VIS controller=VIS remove_core=RMP}
 630.6.1={discovered_by=muslim}

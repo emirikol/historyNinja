@@ -1,5 +1,5 @@
 culture=aztek 
-religion=teotl_azt
+religion=aztec
 capital="Toluca" 
 trade_goods=corn
 hre=no 

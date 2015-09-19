@@ -2,7 +2,7 @@ owner=NAO
 controller=NAO
 add_core=NAO
 culture=navajo 
-religion=ind_pagan
+religion=pagan
 capital="Loa" 
 fort1=yes
 citysize=1000
@@ -19,7 +19,7 @@ discovered_by=MOJ
 discovered_by=YKT
 discovered_by=PEO
 
-1541.1.1={discovered_by=SPA} # Francisco Vásquez de Coronado
+1541.1.1={discovered_by=SPA} # Francisco Vï¿½squez de Coronado
 1598.1.1={owner=SPA	controller=SPA citysize=350	religion=catholic culture=castillian}
 1731.1.1={citysize=1065 trade_goods=wood}
 1750.1.1={citysize=1420}

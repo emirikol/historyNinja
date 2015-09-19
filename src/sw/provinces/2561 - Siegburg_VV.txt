@@ -25,7 +25,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 290.6.1={owner=HFR controller=HFR culture=frankish remove_core=LOM}
-451.6.1={religion=early}
+451.6.1={religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR hre=yes}
 918.12.24={owner=KOL controller=KOL add_core=KOL remove_core=EHF culture=ripuarian discovered_by=latin
@@ -36,7 +36,7 @@ discovered_by=eastern discovered_by=muslim}
 1553.1.1={tax_assessor=yes} # Stock Exchange Founded
 1750.1.1={war_college=yes}
 1798.1.1={controller=RFR}
-1801.2.9={war_college=no owner=RFR add_core=RFR} # Treaty of Lunéville
+1801.2.9={war_college=no owner=RFR add_core=RFR} # Treaty of Lunï¿½ville
 1806.7.12={hre=no} # The Holy Roman Empire is dissolved
 1814.4.11={owner=FRA controller=FRA add_core=FRA remove_core=RFR} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
 1815.3.20={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # Napoleon enters Paris

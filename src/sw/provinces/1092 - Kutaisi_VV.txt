@@ -2,7 +2,7 @@ owner=PNO
 controller=PNO
 add_core=PNO
 culture=pontic
-religion=groman
+religion=roman
 capital="Batumi"
 trade_goods=wool
 hre=no
@@ -28,7 +28,7 @@ discovered_by=SRM
 630.6.1={discovered_by=muslim discovered_by=BGK}
 638.6.1={owner=ACA controller=ACA add_core=ACA culture=saracen religion=sunni}
 754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}
-885.1.1={owner=AAR controller=AAR add_core=AAR culture=old_armenian remove_core=ABB}
+885.1.1={owner=AAR controller=AAR add_core=AAR culture=armenian remove_core=ABB}
 1045.1.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=AAR culture=greek}
 1065.6.1={owner=SEJ controller=SEJ add_core=SEJ remove_core=ABB}
 1090.1.1={owner=GEO controller=GEO add_core=GEO religion=orthodox culture=georgian remove_core=SEJ remove_core=BYZ}

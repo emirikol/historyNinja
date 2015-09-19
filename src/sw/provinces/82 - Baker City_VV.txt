@@ -1,5 +1,5 @@
 culture=penutian 
-religion=ind_pagan
+religion=pagan
 capital="Bakarovo" 
 trade_goods=fur 
 hre=no 

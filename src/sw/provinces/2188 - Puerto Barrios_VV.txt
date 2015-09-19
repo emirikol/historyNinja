@@ -1,7 +1,7 @@
 owner=QUI 
 controller=QUI 
 culture=mayan 
-religion=teotl_azt
+religion=aztec
 capital="Puerto Barrios" 
 fort1=yes
 trade_goods=sugar 

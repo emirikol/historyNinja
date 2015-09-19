@@ -1,5 +1,5 @@
 culture=teremembe
-religion=ind_pagan
+religion=pagan
 capital="Passo Fundo"
 trade_goods=corn
 hre=no

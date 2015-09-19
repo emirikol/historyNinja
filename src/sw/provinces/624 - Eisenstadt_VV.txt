@@ -27,7 +27,7 @@ discovered_by=VNA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=MCR religion=orthodox}
 371.6.1={owner=HNU controller=HNU add_core=HNU culture=huns religion=tangra remove_core=RMP}
-395.5.1={religion=early}
+395.5.1={religion=christian}
 451.6.1={owner=GEP controller=GEP add_core=GEP remove_core=HNU culture=gepids religion=odin}
 553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=blatnentzi religion=perun remove_core=GEP}
 580.6.1={owner=AVE controller=AVE add_core=AVE culture=avarian religion=shamanism}

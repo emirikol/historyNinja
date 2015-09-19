@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=gallic
-religion=groman
+religion=roman
 capital="Brussel"
 citysize=9000
 hre=no
@@ -39,7 +39,7 @@ discovered_by=GLA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 354.6.1={manpower=2 owner=HFR controller=HFR culture=frankish religion=odin remove_core=RMP}
-476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=christian}
 799.12.24={manpower=3 religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR culture=brabantian}
 870.6.1={remove_core=LHT manpower=4 owner=BRB controller=BRB add_core=BRB}
@@ -65,7 +65,7 @@ discovered_by=GLA
 1569.1.1={revolt_risk=9} # The Duke of Alba reforms the taxation system ('tiende penning')
 1570.1.1={revolt_risk=12 constable=yes} # The Duke of Alba reforms the penal procedure, 'Blood Council' (Bloedraad) established
 1572.6.5={revolt_risk=0 revolt={type=nationalist_rebels size=1} controller=REB} # Louis of Nassau captures Mechelen
-1572.8.15={revolt={} controller=SPA revolt_risk=12} # Don Felipé lays waste to Mechelen
+1572.8.15={revolt={} controller=SPA revolt_risk=12} # Don Felipï¿½ lays waste to Mechelen
 1577.2.12={revolt_risk=10} # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
 1577.9.23={revolt_risk=0 revolt={type=nationalist_rebels size=2} controller=REB} # William of Orange enters Brussels triumphating
 1579.1.23={revolt={} controller=NED}

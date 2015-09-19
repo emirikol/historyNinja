@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=celts
-religion=groman
+religion=roman
 trade_goods=grain
 hre=no
 base_tax=5
@@ -17,7 +17,7 @@ discovered_by=SUE
 
 220.6.1={culture=roman}
 313.6.1={religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
-455.6.1={owner=VIS controller=VIS add_core=VIS religion=early remove_core=RMP}
+455.6.1={owner=VIS controller=VIS add_core=VIS religion=christian remove_core=RMP}
 630.6.1={discovered_by=muslim}
 712.1.1={owner=ACA controller=ACA add_core=ACA remove_core=VIS culture=saracen religion=sunni}
 756.6.1={owner=ORC controller=ORC add_core=ORC remove_core=ACA culture=andalucian}
@@ -28,9 +28,9 @@ discovered_by=SUE
 1500.1.1={citysize=5477}
 1550.1.1={citysize=6000}
 1600.1.1={citysize=6850 marketplace=yes}
-1640.1.1={revolt_risk=8} # Revolt headed by John of Bragança
+1640.1.1={revolt_risk=8} # Revolt headed by John of Braganï¿½a
 1640.12.1={revolt_risk=0}
 1650.1.1={citysize=7900}
 1700.1.1={citysize=7000}
 1807.11.30={controller=SPA} # Occupied by Spanish troops led by Manuel Godoy
-1808.6.18={controller=POR} # Revolt in Olhão
+1808.6.18={controller=POR} # Revolt in Olhï¿½o

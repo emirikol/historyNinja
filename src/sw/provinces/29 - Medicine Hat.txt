@@ -1,5 +1,5 @@
 culture=cree
-religion=ind_pagan
+religion=pagan
 trade_goods=fur
 capital="Anastassia Ignatova"  # After my sister
 hre=no

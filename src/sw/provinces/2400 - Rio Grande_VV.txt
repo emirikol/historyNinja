@@ -1,5 +1,5 @@
 culture=patagonian
-religion=ind_pagan
+religion=pagan
 capital="Rio Grande"
 trade_goods=whale
 hre=no

@@ -1,5 +1,5 @@
 culture=cherokee
-religion=ind_pagan
+religion=pagan
 capital="Chiaha"
 trade_goods=cotton
 hre=no

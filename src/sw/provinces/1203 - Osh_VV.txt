@@ -16,7 +16,7 @@ discovered_by=GUT
 discovered_by=KUS
 discovered_by=KJU
 
-262.6.1={owner=PER controller=PER add_core=PER remove_core=KUS culture=east_persian religion=zoro}
+262.6.1={owner=PER controller=PER add_core=PER remove_core=KUS culture=east_persian religion=zoroastrian}
 410.6.1={owner=CIX controller=CIX add_core=CIX remove_core=PER culture=chionites religion=tangra}
 700.1.1={owner=ACA controller=ACA add_core=ACA religion=sunni remove_core=CIX}
 748.6.1={owner=UYG controller=UYG add_core=UYG culture=uyghurish religion=tangra discovered_by=UYG}

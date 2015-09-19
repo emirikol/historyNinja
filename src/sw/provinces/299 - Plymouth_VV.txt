@@ -2,7 +2,7 @@ owner=DUM
 controller=DUM
 add_core=DUM
 culture=breton
-religion=droid
+religion=druid
 hre=no
 base_tax=1
 trade_goods=copper
@@ -29,7 +29,7 @@ discovered_by=VES
 43.6.1={owner=RME controller=RME add_core=RME}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME}
 410.6.1={owner=DUM controller=DUM culture=breton remove_core=RMP}
-600.6.1={owner=CRN controller=CRN add_core=CRN culture=cornwallian religion=early remove_core=DUM}
+600.6.1={owner=CRN controller=CRN add_core=CRN culture=cornwallian religion=christian remove_core=DUM}
 700.1.1={owner=WSS controller=WSS add_core=WSS religion=catholic remove_core=CRN culture=wessex}
 829.1.1={owner=CRN controller=CRN}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}

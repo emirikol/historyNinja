@@ -1,5 +1,5 @@
 culture=patagonian
-religion=ind_pagan
+religion=pagan
 capital="Rio Gallegos"
 trade_goods=whale
 hre=no

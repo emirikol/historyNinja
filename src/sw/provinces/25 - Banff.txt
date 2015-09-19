@@ -1,5 +1,5 @@
 culture=cree
-religion=ind_pagan
+religion=pagan
 trade_goods=copper
 capital="Banff"
 hre=no

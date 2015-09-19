@@ -2,7 +2,7 @@ owner=SLI
 controller=SLI
 add_core=SLI
 culture=silures
-religion=droid
+religion=druid
 hre=no
 base_tax=2
 trade_goods=stone
@@ -28,7 +28,7 @@ discovered_by=VES
 
 48.6.1={owner=RME controller=RME add_core=RME}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-410.6.1={owner=CER controller=CER add_core=CER culture=welsh religion=early remove_core=RMP}
+410.6.1={owner=CER controller=CER add_core=CER culture=welsh religion=christian remove_core=RMP}
 700.1.1={owner=WSS controller=WSS add_core=WSS}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
 927.1.1={owner=CER controller=CER}

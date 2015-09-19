@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=helvetii
-religion=groman
+religion=roman
 base_tax=6
 trade_goods=wood
 manpower=3
@@ -26,7 +26,7 @@ discovered_by=SAT
 discovered_by=VNA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=early remove_core=RMP}
+476.6.1={owner=LOM controller=LOM add_core=LOM culture=langobardian religion=christian remove_core=RMP}
 790.1.1={owner=HFR controller=HFR add_core=HFR remove_core=LOM}
 799.12.24={religion=catholic}
 843.1.1={owner=EHF controller=EHF add_core=EHF remove_core=HFR}
@@ -35,7 +35,7 @@ remove_core=EHF culture=danube_bavarian discovered_by=latin discovered_by=easter
 discovered_by=muslim}
 1450.1.1={citysize=24000 add_core=TIR}
 1500.1.1={customs_house=yes} # The Brennerpass is a key position for trading over the Alps
-1504.10.17={citysize=28000} #Maximilian gains Kitzbühl, Kufstein, Rattenberg from Bavaria
+1504.10.17={citysize=28000} #Maximilian gains Kitzbï¿½hl, Kufstein, Rattenberg from Bavaria
 1511.6.23={manpower=1} # Landslibell - Tyrolean's only military duty is the defense of their homeland. 
 1511.7.1={regimental_camp=yes} # With the Landslibell came the duty to be prepared for defense -> Schutzen
 1525.3.1={revolt_risk=6} # Peasant Revolts
@@ -44,7 +44,7 @@ discovered_by=muslim}
 1570.1.1={fine_arts_academy=yes}
 1577.1.1={base_tax=7} # Minting moves from Meran to Hall
 1602.1.1={base_tax=8} # Maximilian's economic reforms
-1627.1.1={workshop=yes} # Kramsacher Glashütte
+1627.1.1={workshop=yes} # Kramsacher Glashï¿½tte
 1646.1.1={fort2=yes}
 1665.6.25={manpower=1} # Manpower decreased as Landslibell is still in effect under foreign governance
 1669.1.1={fine_arts_academy=no university=yes} # University Leopoldina

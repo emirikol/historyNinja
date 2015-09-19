@@ -1,5 +1,5 @@
 culture=polynesian
-religion=australian_pagan
+religion=pagan
 capital= "Matong"
 trade_goods=spices
 hre=no

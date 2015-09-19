@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Salem"
 trade_goods=tobacco
 hre=no

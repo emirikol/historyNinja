@@ -1,5 +1,5 @@
 culture=delaware
-religion=ind_pagan
+religion=pagan
 capital="Dover"
 trade_goods=tobacco
 hre=no

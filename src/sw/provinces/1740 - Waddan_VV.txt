@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=tuareg
-religion=groman
+religion=roman
 trade_goods=stone
 capital="Zaltan"
 hre=no
@@ -16,7 +16,7 @@ discovered_by=VNA
 
 313.6.1={manpower=2 religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
 350.5.1={discovered_by=eastern discovered_by=BYZ}
-429.6.1={manpower=1 owner=VNA controller=VNA culture=vandals religion=early}
+429.6.1={manpower=1 owner=VNA controller=VNA culture=vandals religion=christian}
 500.6.1={remove_core=RMP}
 533.6.1={manpower=2 owner=BYZ controller=BYZ}
 630.6.1={discovered_by=muslim}

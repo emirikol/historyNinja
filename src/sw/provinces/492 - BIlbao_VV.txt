@@ -2,7 +2,7 @@ owner=KUN
 controller=KUN
 add_core=KUN
 culture=cantabrian
-religion=droid
+religion=druid
 hre=no
 base_tax=3
 trade_goods=horses
@@ -19,7 +19,7 @@ discovered_by=SUE
 
 14.6.1={owner=RME controller=RME add_core=RME}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-455.6.1={owner=KUN controller=KUN remove_core=RMP culture=cantabrian religion=early}
+455.6.1={owner=KUN controller=KUN remove_core=RMP culture=cantabrian religion=christian}
 630.6.1={discovered_by=muslim}
 718.6.1={owner=AUT controller=AUT add_core=AUT}
 800.1.1={religion=catholic}

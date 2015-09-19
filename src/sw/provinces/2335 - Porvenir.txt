@@ -1,5 +1,5 @@
 culture=patagonian
-religion=ind_pagan
+religion=pagan
 capital="Porvenir"
 trade_goods=whale
 hre=no

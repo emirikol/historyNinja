@@ -1,5 +1,5 @@
 culture=guarani
-religion=ind_pagan
+religion=pagan
 capital="Assis"
 trade_goods=coffee
 hre=no

@@ -1,7 +1,7 @@
 owner=SHA
 controller=SHA
 culture=delaware 
-religion=ind_pagan
+religion=pagan
 capital="Wea" 
 fort1=yes
 trade_goods=corn
@@ -23,7 +23,7 @@ discovered_by=PWT
 1550.1.1={citysize=2640}
 1600.1.1={citysize=3240}
 1650.1.1={citysize=3980}
-1670.1.1={discovered_by=FRA} # René-Robert Cavelier claimed the territory
+1670.1.1={discovered_by=FRA} # Renï¿½-Robert Cavelier claimed the territory
 1699.1.1={owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic remove_core=SHA}
 1700.1.1={citysize=4335}
 1732.1.1={capital="Indianapolis"} # French settlers

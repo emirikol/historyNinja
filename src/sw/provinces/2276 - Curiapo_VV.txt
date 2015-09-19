@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Curiapo"
 trade_goods=coffee
 hre=no
@@ -23,7 +23,7 @@ discovered_by=TAE
 1750.1.1={citysize= 5680 add_core=VNZ}
 1795.1.1={revolt_risk=4} # Uprisings against Spanish control
 1800.1.1={citysize=6400}
-1810.4.9={revolt_risk=0 revolt={type=colonial_rebels size=2} controller=REB} # Vicente Emparán is overthrown
+1810.4.9={revolt_risk=0 revolt={type=colonial_rebels size=2} controller=REB} # Vicente Emparï¿½n is overthrown
 1811.7.5={revolt={}	owner=VNZ controller=VNZ} # Venezuela declared its independence
 1812.7.25={controller=SPA} # The revolutionary army is defeated
 1813.8.7={controller=VNZ} # The Second Republic of Venezuela is established

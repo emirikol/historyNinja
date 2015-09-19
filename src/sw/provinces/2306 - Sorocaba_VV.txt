@@ -1,5 +1,5 @@
 culture=guarani
-religion=ind_pagan
+religion=pagan
 capital="Sorocaba"
 trade_goods=fur
 hre=no

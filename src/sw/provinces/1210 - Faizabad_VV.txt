@@ -18,8 +18,8 @@ discovered_by=PAH
 discovered_by=TIB
 discovered_by=KSH
 
-262.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=zoro}
-565.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=zoro}
+262.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=zoroastrian}
+565.6.1={owner=PER controller=PER add_core=PER culture=east_persian religion=zoroastrian}
 630.6.1={discovered_by=muslim}
 700.1.1={owner=ACA controller=ACA add_core=ACA religion=sunni remove_core=PER}
 754.1.1={owner=ABB controller=ABB add_core=ABB remove_core=ACA}

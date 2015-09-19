@@ -1,5 +1,5 @@
 culture=dakota
-religion=ind_pagan
+religion=pagan
 trade_goods=corn
 capital="Moyie"
 hre=no
@@ -10,7 +10,7 @@ native_ferocity=2
 native_hostileness=5
 discovered_by=COK
 
-1732.1.1={discovered_by=FRA} # La Vérendrye
+1732.1.1={discovered_by=FRA} # La Vï¿½rendrye
 1760.1.1={capital="Coeur D'Alene" owner=FRA controller=FRA culture=cosmopolitan_french religion=catholic
 citysize=100} # Construction of Fort Orleans
 1762.1.1={owner=SPA controller=SPA culture=castillian citysize=400 remove_core=FRA} # Treaty of Fontainebleau, secretely ceded to Spain

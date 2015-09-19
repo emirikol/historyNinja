@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=gallic
-religion=groman
+religion=roman
 capital="Tournai"
 citysize=5000
 hre=no
@@ -29,7 +29,7 @@ discovered_by=SUE
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 354.6.1={owner=HFR controller=HFR culture=frankish religion=odin remove_core=RMP}
-476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=early}
+476.5.1={owner=HFR controller=HFR add_core=HFR culture=frankish religion=christian}
 799.12.24={religion=catholic}
 843.1.1={owner=LHT controller=LHT add_core=LHT remove_core=HFR  hre=no}
 870.6.1={remove_core=LHT owner=FLA controller=FLA add_core=FLA culture=zealandic}
@@ -63,7 +63,7 @@ discovered_by=SUE
 1600.7.2={controller=NED} # Maurice of Nassau beats the Spanish at Nieuwpoort, but has to retreat soon after
 1604.1.1={controller=SPA} # Spinola retakes Ostend and most of Flanders
 1630.1.1={customs_house=yes}
-1648.1.30={remove_core=NED revolt_risk=0} # Peace of Münster/Westphalia
+1648.1.30={remove_core=NED revolt_risk=0} # Peace of Mï¿½nster/Westphalia
 1665.9.17={add_core=FRA} # Louis XIV's father-in-law, Philip IV of Spain, dies
 1672.5.1={controller=FRA} # France blitzes through the Lowlands in the Franco-Dutch War
 1678.9.19={controller=SPA} # Treaty of Nijmegen (France-Spain)

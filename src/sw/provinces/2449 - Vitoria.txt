@@ -1,6 +1,6 @@
 culture=tupinamba
-religion=ind_pagan
-capital="Vitória"
+religion=pagan
+capital="Vitï¿½ria"
 trade_goods=sugar
 hre=no
 base_tax=1

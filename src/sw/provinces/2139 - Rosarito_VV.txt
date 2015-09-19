@@ -1,5 +1,5 @@
 culture=navajo 
-religion=ind_pagan
+religion=pagan
 capital="Rosarito" 
 trade_goods=fish 
 hre=no 

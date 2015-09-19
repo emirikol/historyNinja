@@ -2,7 +2,7 @@ owner=TLX
 controller=TLX
 add_core=TLX
 culture=tlaxcala
-religion=teotl_azt
+religion=aztec
 capital="Tlaxcala"
 fort1=yes
 trade_goods=stone
@@ -27,8 +27,8 @@ discovered_by=TLP
 
 1450.1.1={citysize=1350}
 1500.1.1={citysize=1564}
-1519.1.1={discovered_by=SPA} # Hernán Cortés
-1520.1.1={manpower=2 owner=SPA controller=SPA citysize=2215 culture=castillian religion=catholic} # Founded by Hernán Cortés
+1519.1.1={discovered_by=SPA} # Hernï¿½n Cortï¿½s
+1520.1.1={manpower=2 owner=SPA controller=SPA citysize=2215 culture=castillian religion=catholic} # Founded by Hernï¿½n Cortï¿½s
 1545.1.1={add_core=SPA remove_core=TLX}
 1550.1.1={citysize=2940}
 1600.1.1={citysize=3555}
@@ -37,4 +37,4 @@ discovered_by=TLP
 1750.1.1={citysize=5008 add_core=MEX}
 1800.1.1={citysize=6500}
 1810.9.16={owner=MEX controller=SPA} # Mexican War of Independence
-1812.8.10={controller=MEX remove_core=SPA} # Conquered by José María Morelos
+1812.8.10={controller=MEX remove_core=SPA} # Conquered by Josï¿½ Marï¿½a Morelos

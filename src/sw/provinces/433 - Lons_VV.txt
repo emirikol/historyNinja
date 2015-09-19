@@ -3,7 +3,7 @@ controller=RME
 add_core=RME
 add_core=GLA
 culture=gallic
-religion=groman
+religion=roman
 capital="Lons"
 citysize=5500
 hre=yes
@@ -19,7 +19,7 @@ discovered_by=GLA
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
 400.6.1={discovered_by=nomad_group}
-461.8.7={owner=GLA controller=GLA religion=early remove_core=RMP}
+461.8.7={owner=GLA controller=GLA religion=christian remove_core=RMP}
 476.5.1={owner=BUR controller=BUR add_core=BUR culture=burgundian}
 534.6.1={owner=HFR controller=HFR add_core=HFR culture=frankish}
 799.12.24={religion=catholic}
@@ -27,19 +27,19 @@ discovered_by=GLA
 870.6.1={owner=BUR controller=BUR culture=burgundian}
 1034.1.1={hre=yes}
 1450.1.1={citysize=6500}
-1477.1.5={owner=FRA controller=FRA add_core=FRA} # Charles the Bold dies and Louis XII of France takes Franche-Comté
-1493.8.19={owner=HAB controller=HAB add_core=HAB remove_core=FRA} # Frederick III dies and Charles VII cedes Franch-Comté to Maximilian I von Habsburg
+1477.1.5={owner=FRA controller=FRA add_core=FRA} # Charles the Bold dies and Louis XII of France takes Franche-Comtï¿½
+1493.8.19={owner=HAB controller=HAB add_core=HAB remove_core=FRA} # Frederick III dies and Charles VII cedes Franch-Comtï¿½ to Maximilian I von Habsburg
 1500.1.1={citysize=8000}
 1519.1.14={owner=SPA controller=SPA add_core=SPA remove_core=HAB} # Karl V gets total control over his Burgundian inheritance
 1540.1.1={fort2=yes}
 1580.1.1={marketplace=yes}
 1650.1.1={constable=yes}
-1668.2.20={controller=FRA} # The Prince de Condé swiftly takes Franche-Comté in the War of Devolution
-1668.5.2={controller=SPA} # Treaty of Aachen: Franche-Comté returned to Spain
-1670.1.1={add_core=FRA} # Louis XIV lays claims through the Chambres de Réunion
-1674.9.1={controller=FRA} # France captures Franche-Comté 
+1668.2.20={controller=FRA} # The Prince de Condï¿½ swiftly takes Franche-Comtï¿½ in the War of Devolution
+1668.5.2={controller=SPA} # Treaty of Aachen: Franche-Comtï¿½ returned to Spain
+1670.1.1={add_core=FRA} # Louis XIV lays claims through the Chambres de Rï¿½union
+1674.9.1={controller=FRA} # France captures Franche-Comtï¿½ 
 1678.9.19={owner=FRA remove_core=SPA} # Treaty of Nijmegen (FRA-SPA)
-1691.1.1={university=yes} # University of Dole transferred to Besançon by Louis XIV
+1691.1.1={university=yes} # University of Dole transferred to Besanï¿½on by Louis XIV
 1710.1.1={courthouse=yes}
 1740.1.1={tax_assessor=yes}
 1789.7.14={owner=RFR controller=RFR add_core=RFR remove_core=FRA} # The storming of the Bastille

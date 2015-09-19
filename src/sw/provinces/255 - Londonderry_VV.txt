@@ -1,5 +1,5 @@
 culture=irish
-religion=droid
+religion=druid
 hre=no
 base_tax=1
 trade_goods=wool

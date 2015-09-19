@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Capedunum"
 trade_goods=coal
 hre=no
@@ -23,12 +23,12 @@ discovered_by=DAC
 395.5.1={owner=BYZ controller=BYZ add_core=BYZ remove_core=RMP}
 480.6.1={culture=moravtzi religion=perun}
 630.6.1={discovered_by=BGK}
-800.1.1={culture=old_serbian}
-840.1.1={owner=RAS controller=RAS add_core=RAS remove_core=BYZ capital="Užice"}
+800.1.1={culture=serbian}
+840.1.1={owner=RAS controller=RAS add_core=RAS remove_core=BYZ capital="Uï¿½ice"}
 843.6.1={discovered_by=latin}
 872.6.1={religion=orthodox}
 917.2.1={owner=BUL controller=BUL add_core=BUL remove_core=BYZ culture=bulgarian}
-931.5.1={owner=RAS controller=RAS culture=old_serbian} # Serbian Rebelation
+931.5.1={owner=RAS controller=RAS culture=serbian} # Serbian Rebelation
 970.1.1={owner=BUL controller=BUL add_core=BUL}
 1018.9.1={owner=BYZ controller=BYZ} # Decline of Bulgarian Tzardom
 1083.9.1={owner=RAS controller=RAS}

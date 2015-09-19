@@ -1,5 +1,5 @@
 culture=welsh
-religion=droid
+religion=druid
 hre=no
 base_tax=2
 trade_goods=horses
@@ -24,7 +24,7 @@ discovered_by=VES
 43.6.1={owner=RME controller=RME add_core=RME citysize=1000}
 50.6.1={fort1=yes}
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-410.6.1={owner=GWY controller=GWY add_core=GWY remove_core=RMP culture=welsh religion=early discovered_by=GWY}
+410.6.1={owner=GWY controller=GWY add_core=GWY remove_core=RMP culture=welsh religion=christian discovered_by=GWY}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim religion=catholic}
 927.1.1={owner=GWY controller=GWY}
 1197.6.1={owner=WLS controller=WLS add_core=WLS}

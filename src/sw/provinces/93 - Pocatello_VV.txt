@@ -2,7 +2,7 @@ owner=APA
 controller=APA
 add_core=APA
 culture=apache 
-religion=ind_pagan
+religion=pagan
 trade_goods=fur
 capital="Pocatello"
 fort1=yes
@@ -13,7 +13,7 @@ citysize=1500
 discovered_by=MOJ
 discovered_by=APA
 
-1541.1.1={discovered_by=SPA} # Francisco Vásquez de Coronado
+1541.1.1={discovered_by=SPA} # Francisco Vï¿½squez de Coronado
 1598.1.1={owner=SPA controller=SPA citysize=400 religion=catholic culture=castillian trade_goods=fur} # First Spanish colonists
 1610.1.1={citysize=1280} # Pedro de Peralta
 1623.1.1={add_core=SPA remove_core=APA}

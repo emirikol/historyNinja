@@ -1,5 +1,5 @@
 culture=guajiro
-religion=ind_pagan
+religion=pagan
 capital="Bogota"
 trade_goods=fur
 hre=no
@@ -12,7 +12,7 @@ discovered_by=QTO
 discovered_by=CBC
 discovered_by=TAE
 
-1538.9.6={discovered_by=SPA owner=SPA controller=SPA citysize=500 religion=catholic culture=castillian} # Founded by Gonzalo Jiménez de Quesada
+1538.9.6={discovered_by=SPA owner=SPA controller=SPA citysize=500 religion=catholic culture=castillian} # Founded by Gonzalo Jimï¿½nez de Quesada
 1563.1.1={add_core=SPA}
 1600.1.1={citysize=2320 fort1=yes}
 1650.1.1={citysize=4900}

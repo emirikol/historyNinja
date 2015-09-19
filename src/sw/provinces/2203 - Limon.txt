@@ -1,5 +1,5 @@
 culture=carib
-religion=ind_pagan
+religion=pagan
 capital="Limon"
 trade_goods=coffee
 hre=no
@@ -13,7 +13,7 @@ native_hostileness=5
 1516.1.23={discovered_by=SPA}
 1522.1.1={owner=SPA controller=SPA citysize=550 culture=castillian religion=catholic}
 1547.1.1={add_core=SPA}
-1563.1.1={citysize=1300 fort1=yes} # Founded by Juan Vásquez de Coronado
+1563.1.1={citysize=1300 fort1=yes} # Founded by Juan Vï¿½squez de Coronado
 1600.1.1={citysize=1760} 
 1650.1.1={citysize=2070} 
 1700.1.1={citysize=2840} 

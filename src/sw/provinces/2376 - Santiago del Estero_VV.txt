@@ -1,5 +1,5 @@
 culture=mataco
-religion=ind_pagan
+religion=pagan
 capital="Santiago del Estero"
 trade_goods=wood
 hre=no

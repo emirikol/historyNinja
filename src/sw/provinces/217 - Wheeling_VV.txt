@@ -1,5 +1,5 @@
 culture=iroquis
-religion=ind_pagan
+religion=pagan
 capital="Wheeling"
 trade_goods=copper
 hre=no

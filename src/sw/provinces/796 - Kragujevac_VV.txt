@@ -30,7 +30,7 @@ discovered_by=DAC
 931.5.1={owner=RAS controller=RAS} # Serbian Rebelation
 970.1.1={owner=BUL controller=BUL add_core=BUL}
 1018.9.1={owner=BYZ controller=BYZ} # Decline of Bulgarian Tzardom
-1083.9.1={owner=RAS controller=RAS culture=old_serbian}
+1083.9.1={owner=RAS controller=RAS culture=serbian}
 1168.6.1={owner=BYZ controller=BYZ}
 1180.6.1={owner=RAS controller=RAS}
 1260.6.1={culture=serbian}

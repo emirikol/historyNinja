@@ -1,5 +1,5 @@
 culture=amazonian
-religion=ind_pagan
+religion=pagan
 capital="Uberaba"
 trade_goods=corn
 hre=no
@@ -16,6 +16,6 @@ native_hostileness=7
 1710.1.1={revolt={} controller=POR} # The Paulistas were defeated
 1750.1.1={citysize=9433 add_core=BRZ}
 1789.1.1={revolt={type=colonial_rebels size=2} controller=REB} # War of Emboabas
-1792.4.21={revolt={} controller=POR} # Joaquim José da Silva Xavier is captured
+1792.4.21={revolt={} controller=POR} # Joaquim Josï¿½ da Silva Xavier is captured
 1822.10.12={owner=BRZ controller=BRZ remove_core=POR} # Brazilian Empire claimed
 1900.1.1={fort2=yes}

@@ -27,11 +27,11 @@ discovered_by=VNA
 290.6.1={owner=VNA controller=VNA culture=vandals religion=odin}
 371.6.1={owner=HNU controller=HNU culture=huns religion=tangra}
 420.6.1={culture=thuringian}
-451.6.1={owner=THU controller=THU add_core=THU religion=early}
+451.6.1={owner=THU controller=THU add_core=THU religion=christian}
 769.1.1={owner=HFR controller=HFR add_core=HFR remove_core=THU}
 799.12.24={religion=catholic}
 843.1.1={owner=GMV controller=GMV add_core=GMV remove_core=HFR culture=moravian discovered_by=eastern discovered_by=latin discovered_by=muslim}
-894.1.1={owner=BOH controller=BOH add_core=BOH remove_core=GMV culture=czech capital="Ústí nad Labem"}
+894.1.1={owner=BOH controller=BOH add_core=BOH remove_core=GMV culture=czech capital="ï¿½stï¿½ nad Labem"}
 1034.1.1={hre=yes}
 1300.1.1={culture=thuringian}
 1419.12.1={revolt={type=heretic_rebels size=1} controller=REB} # Hussite Wars, Battle of Nekmir

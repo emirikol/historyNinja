@@ -18,7 +18,7 @@ discovered_by=ODR
 discovered_by=GEH
 discovered_by=DAC
 
-260.6.1={culture=old_greek}
+260.6.1={culture=greek}
 313.6.1={owner=RMP controller=RMP add_core=RMP religion=orthodox}
 350.5.1={discovered_by=eastern discovered_by=BYZ}
 395.5.1={owner=BYZ controller=BYZ add_core=BYZ culture=greek remove_core=RMP}

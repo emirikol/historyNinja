@@ -1,8 +1,8 @@
 owner=RME
 controller=RME
 add_core=RME
-culture=old_greek
-religion=groman
+culture=greek
+religion=roman
 hre=no
 base_tax=5
 trade_goods=fish
@@ -19,7 +19,7 @@ discovered_by=RMP
 313.6.1={manpower=4 religion=orthodox owner=RMP controller=RMP add_core=RMP remove_core=RME}
 395.5.1={manpower=5}
 400.6.1={discovered_by=nomad_group}
-476.6.1={manpower=4 owner=VIS controller=VIS add_core=VIS culture=visigothic religion=early cot=no remove_core=RMP}
+476.6.1={manpower=4 owner=VIS controller=VIS add_core=VIS culture=visigothic religion=christian cot=no remove_core=RMP}
 534.6.1={manpower=3 owner=HFR controller=HFR add_core=HFR remove_core=VIS culture=frankish}
 630.6.1={discovered_by=muslim}
 799.12.24={religion=catholic}

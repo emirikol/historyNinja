@@ -1,5 +1,5 @@
 culture=patagonian
-religion=ind_pagan
+religion=pagan
 capital="Puerto Asien"
 trade_goods=fish
 hre=no

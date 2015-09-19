@@ -1,5 +1,5 @@
 culture=aboriginal
-religion=australian_pagan
+religion=pagan
 trade_goods=fur
 capital="Tenant Creek"
 hre=no

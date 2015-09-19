@@ -1,5 +1,5 @@
 culture=dakota
-religion=ind_pagan
+religion=pagan
 trade_goods=corn
 capital="Missoula"
 hre=no

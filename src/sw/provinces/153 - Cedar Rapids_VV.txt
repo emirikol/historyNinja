@@ -1,5 +1,5 @@
 culture=dakota
-religion=ind_pagan
+religion=pagan
 capital="Cedar Rapids"
 trade_goods=fur
 hre=no

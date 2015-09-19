@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Epidamnus"
 trade_goods=wool
 hre=no
@@ -33,7 +33,7 @@ discovered_by=RMP
 1443.3.4={owner=LOL controller=LOL add_core=LOL remove_core=KAS} # Skanderbeg's rebellion. The League of Lezhe
 1450.1.1={citysize=7300}
 1453.5.29={remove_core=BIZ}
-1478.6.16={owner=TUR controller=TUR remove_core=LOL add_core=ALB capital="Diraç"}
+1478.6.16={owner=TUR controller=TUR remove_core=LOL add_core=ALB capital="Diraï¿½"}
 1481.1.1={remove_core=NAP}
 1500.1.1={citysize=10254}
 1520.1.1={religion=sunni} # Predominant religion under Turkish rule

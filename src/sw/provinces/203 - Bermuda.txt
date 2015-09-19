@@ -1,4 +1,4 @@
-religion=ind_pagan
+religion=pagan
 capital="Bermuda"
 trade_goods=fish
 hre=no

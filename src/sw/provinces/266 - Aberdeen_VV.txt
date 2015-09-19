@@ -2,7 +2,7 @@ owner=CEL
 controller=CEL
 add_core=CEL
 culture=caledonii
-religion=droid
+religion=druid
 hre=no
 base_tax=1
 trade_goods=wool
@@ -24,7 +24,7 @@ discovered_by=AEG
 discovered_by=KUN
 discovered_by=VES
 
-356.6.1={owner=PIC controller=PIC add_core=PIC culture=scottish religion=droid}
+356.6.1={owner=PIC controller=PIC add_core=PIC culture=scottish religion=druid}
 600.6.1={remove_core=CEL}
 843.1.1={owner=SCO controller=SCO add_core=SCO religion=catholic remove_core=PIC discovered_by=latin discovered_by=eastern discovered_by=muslim}
 1450.1.1={citysize=4000}

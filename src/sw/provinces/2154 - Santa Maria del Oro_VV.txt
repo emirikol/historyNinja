@@ -1,5 +1,5 @@
 culture=navajo 
-religion=teotl_azt
+religion=aztec
 capital="Oro" 
 trade_goods=corn 
 hre=no 

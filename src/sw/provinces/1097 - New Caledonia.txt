@@ -1,5 +1,5 @@
 culture=polynesian
-religion=australian_pagan
+religion=pagan
 capital="New Caledonia"
 trade_goods=coffee
 hre=no

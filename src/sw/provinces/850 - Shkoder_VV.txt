@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Scutarion"
 trade_goods=wool
 hre=no
@@ -52,4 +52,4 @@ discovered_by=PHT
 1900.1.1={add_core=ALB}
 1912.11.28={remove_core=TUR controller=ALB owner=ALB} # independence of Albania
 1939.3.20={owner=ITA controller=ITA capital="Scutari"} # occupied by Italy
-1944.11.29={owner=ALB controller=ALB capital="Shkodër"}
+1944.11.29={owner=ALB controller=ALB capital="Shkodï¿½r"}

@@ -2,7 +2,7 @@ owner=RME
 controller=RME
 add_core=RME
 culture=illyrian
-religion=groman
+religion=roman
 capital="Mostar"
 fort1=yes	
 trade_goods=grain
@@ -17,9 +17,9 @@ discovered_by=PER
 discovered_by=PHT
 
 313.6.1={owner=RMP controller=RMP add_core=RMP remove_core=RME religion=orthodox}
-395.5.1={religion=early culture=greek}
+395.5.1={religion=christian culture=greek}
 451.6.1={owner=OST controller=OST culture=ostrogothic}
-500.1.1={culture=old_greek}
+500.1.1={culture=greek}
 553.6.1={owner=BYZ controller=BYZ add_core=BYZ culture=white_croats religion=orthodox remove_core=RME}
 843.6.1={discovered_by=latin}
 900.1.1={owner=BOO controller=BOO culture=bosnian add_core=BOO remove_core=RMP}

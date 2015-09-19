@@ -18,7 +18,7 @@ discovered_by=NAG
 discovered_by=KUN
 discovered_by=VES
 
-356.6.1={owner=BIR controller=BIR add_core=BIR culture=brigantes religion=droid citysize=1800 fort1=yes}
+356.6.1={owner=BIR controller=BIR add_core=BIR culture=brigantes religion=druid citysize=1800 fort1=yes}
 843.1.1={discovered_by=latin discovered_by=eastern discovered_by=muslim}
 880.1.1={owner=VIK controller=VIK}
 1014.6.1={owner=MNS controller=MNS add_core=MNS religion=catholic remove_core=BIR culture=irish}

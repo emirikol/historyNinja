@@ -13,7 +13,7 @@ fort1=yes
 discovered_by=KUS
 discovered_by=KJU
 
-262.6.1={owner=PER controller=PER add_core=PER remove_core=KUS culture=east_persian religion=zoro}
+262.6.1={owner=PER controller=PER add_core=PER remove_core=KUS culture=east_persian religion=zoroastrian}
 410.6.1={owner=CIX controller=CIX add_core=CIX remove_core=PER culture=chionites religion=tangra}
 630.6.1={discovered_by=muslim}
 650.6.1={religion=shiite}
