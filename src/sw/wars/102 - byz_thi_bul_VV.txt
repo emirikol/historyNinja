@@ -1,0 +1,81 @@
+name="Byzantine Conquest of Bulgaria"
+casus_belli=cb_core
+
+# Byzantine army attack Bulgarian
+970.6.1={
+	add_attacker=BYZ
+	add_defender=BUL
+}
+
+977.3.1={
+	battle={
+		name="Pliska"
+		location=159
+		attacker={
+			commander="Vasilus II"
+			infantry=60000
+			cavalry=20000
+			losses=19	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Samuil"
+			infantry=35000
+			cavalry=42000
+			losses=2	# percent
+			country=BUL
+		}
+		result=loss
+	}
+}
+
+1001.4.1={
+	battle={
+		name="Pliska"
+		location=159
+		attacker={
+			commander="Vasilus II"
+			infantry=60000
+			cavalry=20000
+			losses=2 # percent
+			country=BYZ
+		}
+		defender={
+			commander="Samuil"
+			infantry=35000
+			cavalry=42000
+			losses=5	# percent
+			country=BUL
+		}
+		result=win
+	}
+}
+
+# Battle of viallage Kluch
+1014.10.4={
+	battle={
+		name="Kluch"
+		location=1962
+		attacker={
+			commander="Vasilus II"
+			infantry=60000
+			cavalry=20000
+			losses=2 # percent
+			country=BYZ
+		}
+		defender={
+			commander="Samuil"
+			infantry=15000
+			cavalry=2000
+			losses=99	# percent
+			country=BUL
+		}
+		result=win
+	}
+}
+
+# Treaty of Constantinopole
+1018.9.1={
+	rem_attacker=BYZ
+	rem_defender=BUL	
+}

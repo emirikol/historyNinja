@@ -1,0 +1,10 @@
+name="Nineth Roman Invasion in Persian Empire"
+casus_belli=cb_core
+540.3.1={
+	add_attacker=PER
+	add_defender=RME
+}
+545.5.30={
+	rem_attacker=PER
+	rem_defender=RME
+}

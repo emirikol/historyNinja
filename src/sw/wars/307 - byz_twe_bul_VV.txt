@@ -1,0 +1,38 @@
+name="Byzantine agression"
+casus_belli=cb_core
+
+# Byzantine army attack Bulgarian
+970.6.1={
+	add_attacker=BYZ
+	add_defender=BUL
+}
+
+970.6.2={
+	add_defender=KIV
+	}
+970.8.1={
+	battle={
+		name="Pliska"
+		location=159
+		attacker={
+			commander="Constamtine VII"
+			infantry=60000
+			cavalry=20000
+			losses=15	# percent
+			country=BYZ
+			}
+		defender={
+			commander="Boil"
+			infantry=35000
+			cavalry=42000
+			losses=45	# percent
+			country=BGK
+		}
+		result=win
+	}
+}
+# Treaty of Constantinopole
+970.9.1={
+	rem_attacker=BYZ
+	rem_defender=BUL
+}

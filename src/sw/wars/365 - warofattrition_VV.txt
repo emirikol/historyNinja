@@ -1,0 +1,12 @@
+name="War of Attrition"
+casus_belli=cb_core
+1968.6.1={
+	add_attacker=EGY
+	add_attacker=SYR
+	add_defender=ISR
+}
+1970.8.7={
+	rem_attacker=EGY
+	rem_attacker=SYR
+	rem_defender=ISR
+}

@@ -1,0 +1,10 @@
+name="Ottoman Conquest of Dobrudza"
+casus_belli=cb_fabricated_claims
+1395.1.1={
+	add_attacker=TUR
+	add_defender=BDD
+}
+1395.3.1={
+	rem_attacker=TUR
+	rem_attacker=BDD
+}	

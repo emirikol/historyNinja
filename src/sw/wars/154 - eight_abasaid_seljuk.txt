@@ -1,0 +1,7 @@
+name="Abbasid-Seljuk War"
+casus_belli=cb_conquest
+1097.2.1={add_attacker=SEJ
+		add_defender=ABB}
+
+1098.11.1={rem_attacker=SEJ
+		rem_defender=ABB}

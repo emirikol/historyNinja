@@ -1,0 +1,37 @@
+name="Battle of Anhialo"
+casus_belli=cb_core
+
+# Battle of Anchialus
+763.6.1={
+	add_attacker=BYZ
+	add_defender=BGK
+}
+
+# Second Battle of Anchialus
+763.6.16={
+	battle={
+		name="Anchialus"
+		location=814
+		attacker={
+			commander="Constantine V"
+			infantry=50000
+			cavalry=10000
+			losses=75	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Telets"
+			infantry=10000
+			cavalry=50000
+			losses=70	# percent
+			country=BGK
+		}
+		result=win
+	}
+}
+
+# Treaty of Constantinopole
+763.7.2={
+	rem_attacker=BYZ
+	rem_defender=BGK
+}

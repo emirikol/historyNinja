@@ -1,0 +1,15 @@
+name="Fall Of Jerusalem"
+casus_belli=cb_crusade
+
+#Start
+1139.3.1={
+	add_attacker=ABB
+	add_defender=JER
+	add_defender=TPE
+}
+#End
+1140.6.1={
+	rem_attacker=ABB
+	rem_defender=JER
+	rem_defender=TPE
+}

@@ -1,0 +1,12 @@
+name="Bulgarian Liberation War Against Nicean Empire"
+casus_belli=cb_core
+
+1254.1.1={
+	add_attacker=BUL
+	add_defender=NII
+}
+
+1256.5.1={
+	rem_attacker=BUL
+	rem_defender=NII
+}

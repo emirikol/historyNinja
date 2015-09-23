@@ -1,0 +1,9 @@
+name="Ottoman - Theodoro Conquest war"
+casus_belli=cb_conquest
+
+1475.5.1={add_attacker=TUR
+add_defender=THO}
+
+# Conquest of Crimea
+1475.11.10={rem_attacker=TUR
+rem_defender=THO}

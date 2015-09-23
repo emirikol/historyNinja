@@ -1,0 +1,32 @@
+name="The Fifth Crusade"
+casus_belli=cb_crusade
+
+#Start
+1218.3.1={add_attacker=HAB
+	add_attacker=HUN
+	add_defender=SAL}
+
+1218.9.1={add_attacker=KOL
+		add_attacker=HAI
+		add_attacker=FRI
+		add_attacker=EFR
+		add_attacker=FRA
+		add_attacker=PAP
+		add_attacker=KNI
+		add_attacker=TEU
+		add_attacker=LIC
+}
+
+#End
+1221.6.1={
+	rem_attacker=LIC
+	rem_attacker=HAB
+	rem_attacker=HUN
+	rem_attacker=KOL
+	rem_attacker=FRI
+	rem_attacker=EFR
+	rem_attacker=FRA
+	rem_attacker=PAP
+	rem_attacker=KNI
+	rem_attacker=TEU
+	rem_defender=SAL}

@@ -1,0 +1,16 @@
+name="Second Umayad Aggression"
+casus_belli=cb_crusade
+
+659.6.1={
+	add_attacker=ACA
+	add_defender=BYZ
+}
+
+717.6.1={add_defender=BGK
+}
+
+718.9.1={
+	rem_attacker=ACA
+	rem_defender=BGK
+	rem_defender=BYZ
+}

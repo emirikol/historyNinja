@@ -1,0 +1,11 @@
+name="Frankish Crusade Against Moraves Tribes"
+casus_belli=cb_crusade
+
+710.1.1={
+	add_attacker=HFR
+	add_defender=HSL
+	}
+710.5.1={
+	rem_attacker=HFR	
+	rem_defender=HSL
+	}

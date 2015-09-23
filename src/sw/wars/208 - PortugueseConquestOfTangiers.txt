@@ -1,0 +1,13 @@
+name="Portuguese Conquest of Tangiers"
+casus_belli=cb_colonial
+
+1471.1.1={
+	add_attacker=POR
+	add_defender=MOR
+}
+
+#Peace and end of war
+1471.12.30={
+	rem_attacker=POR
+	rem_defender=MOR
+}

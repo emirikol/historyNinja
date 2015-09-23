@@ -1,0 +1,14 @@
+name="Suez Crisis"
+casus_belli=cb_core
+1956.10.1={
+	add_attacker=GBR
+	add_attacker=RFR
+	add_attacker=ISR
+	add_defender=EGY
+}
+1957.3.1={
+	rem_attacker=GBR
+	rem_attacker=RFR
+	rem_attacker=ISR
+	rem_defender=EGY
+}

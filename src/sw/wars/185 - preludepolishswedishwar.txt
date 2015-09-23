@@ -1,0 +1,13 @@
+name="Prelude to the Polish-Swedish War"
+casus_belli=cb_claim_throne
+
+1598.8.1={
+	add_attacker=POL
+	add_defender=SWE
+}
+
+#Peace and end of war
+1599.9.17={
+	rem_attacker=POL
+	rem_defender=SWE
+}

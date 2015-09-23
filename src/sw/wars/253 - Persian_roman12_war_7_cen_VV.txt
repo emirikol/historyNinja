@@ -1,0 +1,10 @@
+name="Twelveth Roman Invasion in Persian Empire"
+casus_belli=cb_core
+622.3.1={
+	add_attacker=PER
+	add_defender=RME
+	}
+628.5.30={
+	rem_attacker=PER
+	rem_defender=RME
+	}

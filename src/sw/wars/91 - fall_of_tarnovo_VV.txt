@@ -1,0 +1,11 @@
+name="Ottoman Conquest of Tarnovo"
+casus_belli=cb_disloyal_vassal
+
+1393.3.1={
+	add_attacker=TUR
+	add_defender=TAR
+}
+1393.7.1={
+	rem_attacker=TUR
+	rem_attacker=TAR
+}

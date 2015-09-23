@@ -1,0 +1,12 @@
+name="Second Mysore War"
+casus_belli=cb_colonial
+
+1780.7.1={
+	add_attacker=GBR
+	add_defender=MYS
+}
+
+1784.1.1={
+	rem_attacker=GBR
+	rem_defender=MYS
+}

@@ -1,0 +1,39 @@
+name="Balkan Wars"
+casus_belli=cb_core
+
+1912.10.9={
+	add_attacker=RBU
+	add_attacker=GRE
+	add_attacker=SER
+	add_attacker=MON
+	add_defender=TUR
+}
+
+# Peace
+1913.5.30={
+	rem_attacker=RBU
+	rem_attacker=GRE
+	rem_attacker=SER
+	rem_attacker=MON
+	rem_defender=TUR
+}
+
+1913.6.16={
+	add_attacker=RBU
+	add_defender=GRE
+	add_defender=SER
+	add_defender=MON
+}
+1913.6.28={add_defender=ROM}
+1913.7.1={add_defender=TUR}
+
+# Peace
+1913.8.10={	
+	rem_defender=GRE
+	rem_defender=SER
+	rem_defender=MON
+	rem_defender=ROM }
+1913.9.16={
+	rem_attacker=RBU
+	rem_defender=TUR
+}

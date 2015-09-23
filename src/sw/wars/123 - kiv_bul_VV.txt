@@ -1,0 +1,56 @@
+name="Battle of Silistra"
+casus_belli=cb_core
+
+# Kievan hordes attack Bulgarian castle in Silistra
+968.10.1={
+	add_attacker=KIV
+	add_defender=BUL
+}
+968.8.1={
+	battle={
+		name="Silistra"
+		location=159
+		attacker={
+			commander="Svetoslav"
+			infantry=60000
+			cavalry=20000
+			losses=10	# percent
+			country=KIV
+		}
+		defender={
+			commander="Petar"
+			infantry=35000
+			cavalry=42000
+			losses=67	# percent
+			country=BUL
+		}
+		result=win
+	}
+}
+
+970.4.1={
+	battle={
+		name="Silistra"
+		location=159
+		attacker={
+			commander="Svetoslav"
+			infantry=50000
+			cavalry=10000
+			losses=85	# percent
+			country=KIV
+		}
+		defender={
+			commander="Petar"
+			infantry=30000
+			cavalry=50000
+			losses=1	# percent
+			country=BUL
+		}
+		result=win
+	}
+}
+# Peace
+970.5.1={
+	rem_attacker=KIV
+	rem_defender=BUL
+}

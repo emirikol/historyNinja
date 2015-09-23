@@ -1,0 +1,10 @@
+name="Second Roman Invasion in Persian Empire"
+casus_belli=cb_core
+283.3.1={
+	add_attacker=RME
+	add_defender=PER
+}
+294.5.30={
+	rem_attacker=RME
+	rem_defender=PER
+}

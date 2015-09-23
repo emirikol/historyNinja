@@ -1,0 +1,10 @@
+name="Nicean Conquest of Thrace"
+casus_belli=cb_core
+1246.1.1={
+	add_attacker=NII
+	add_defender=BUL
+}
+1246.9.1={
+	rem_attacker=NII
+	rem_defender=BUL
+}

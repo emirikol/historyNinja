@@ -1,0 +1,56 @@
+name="Saladin Jihad in Asia Minor"
+casus_belli=cb_crusade
+
+1187.6.1={
+	add_attacker=SAL
+	add_defender=BYZ
+}
+
+1188.6.1={
+	battle={
+		name="Siege of Bursa"
+		location=317
+		attacker={
+			commander="Saladin"	# Saladin
+			infantry=1000
+			cavalry=20000
+			losses=45	
+			country=SAL
+		}
+		defender={
+			commander="Isak II Angel"
+			infantry=30000
+			cavalry=1000
+			losses=15
+			country=BYZ
+		}
+		result=loss
+	}
+}
+
+1189.4.1={
+	battle={
+		name="Battle of Kastamon"
+		location=325
+		attacker={
+			commander="Saladin"	# Saladin
+			infantry=20000
+			cavalry=10000
+			artillery=1000
+			losses=44
+			country=SAL
+		}
+		defender={
+			commander="Isak II Angel"
+			infantry=6000
+			losses=30
+			country=BYZ
+		}
+		result=loss
+	}
+}
+
+1190.2.1={
+	rem_attacker=SAL
+	rem_defender=BYZ
+}

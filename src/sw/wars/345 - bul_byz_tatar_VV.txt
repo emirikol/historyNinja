@@ -1,0 +1,16 @@
+name="Tartar invasion in Bulgaria"
+casus_belli=cb_conquest
+
+1262.1.1={
+	add_attacker=BYZ	
+	add_defender=BUL
+}
+
+1265.2.1={add_defender=GOL
+}
+
+1264.7.1={
+	rem_attacker=BYZ
+	rem_defender=BUL
+	rem_defender=GOL
+}

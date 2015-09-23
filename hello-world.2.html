@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/application.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" ></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 <script type="text/javascript" src="/svg-pan-zoom.min.js" ></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js" ></script>
@@ -32,10 +33,34 @@
   <div class="container">
     <div class='row' style='height:100%;overflow:hidden'>
       
-      <div style="color: black;position: absolute;bottom: 7px;width: 100%;text-align: center;z-index:1">
-        <div style="  display: inline-block;  background-color: rgba(0, 0, 0, 0.21);border: rgb(134, 134, 134) solid 1px; width: 90%;">
-          <div class="hinter">shift: decade | ctrl: month | alt: century</div>
-          <input id="date" type="range" step=372 style='width: 98%;display:inline-block;margin:7px'/>
+      <div class="slider">
+        <div>
+          <!--<div class="hinter">shift: decade | ctrl: month | alt: century</div>-->
+          <div class="preview">
+            <div class='century' style="width:4.4%">0</div>
+            <div class='century'>100</div>
+            <div class='century'>200</div>
+            <div class="century">300</div>
+            <div class="century">400</div>
+            <div class="century">500</div>
+            <div class="century">600</div>
+            <div class="century">700</div>
+            <div class="century">800</div>
+            <div class="century">900</div>
+            <div class="century">1000</div>
+            <div class="century">1100</div>
+            <div class="century">1200</div>
+            <div class="century">1300</div>
+            <div class="century">1400</div>
+            <div class="century">1500</div>
+            <div class="century">1600</div>
+            <div class="century">1700</div>
+            <div class="century">1900</div>
+            <div class="century">2000</div>
+            <div class="marker"></div>
+            <div class='selection'></div>
+          </div>
+          <input id="date" type="range" step=372 />
         </div>
       </div>
       
@@ -55,7 +80,9 @@
             <table class='table'>
               <tr data-template="data_row" data-path="country.ruler" />
               <tr data-template="data_row" data-path="country.gov" />
+              <tr data-template="data_row" data-path="country.wars" />
               <tr data-template="data_row" data-path="country.suzerain" />
+              <tr data-template="data_row" data-path="country.clients" />
               <tr data-template="data_row" data-path="province.culture" />
               <tr data-template="data_row" data-path="province.religion" />
             </table>
@@ -120,5 +147,7 @@
   </div>
 
   <script type="text/javascript" src="application.js" ></script>
+  <script type="text/coffeescript" src="slider.coffee" ></script>
+  <script type="text/javascript" src="coffee-script.js"></script>
 </body>
 </html>

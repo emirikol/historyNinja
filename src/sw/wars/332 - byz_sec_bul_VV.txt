@@ -1,0 +1,35 @@
+name="Second Byzantine Agression Against Bulgarian Khanate"
+casus_belli=cb_core
+
+708.6.1={
+	add_attacker=BYZ
+	add_defender=BGK
+}
+
+708.8.1={
+	battle={
+		name="Anchialus"
+		location=1961
+		attacker={
+			commander="Justinian II"
+			infantry=40000
+			cavalry=20000
+			losses=95	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Tervel"
+			infantry=10000
+			cavalry=50000
+			losses=7	# percent
+			country=BGK
+		}
+		result=loss
+	}
+}
+
+# Treaty of Constantinopole
+708.9.1={
+	rem_attacker=BYZ
+	rem_defender=BGK
+}

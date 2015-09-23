@@ -1,0 +1,15 @@
+name="Second Franco-Habsburg War"
+casus_belli=cb_sphere_of_influence
+
+1536.4.1={
+	add_attacker=HAB
+	add_attacker=SAV
+	add_defender=FRA
+}
+
+# Treaty of Nice
+1538.6.17={
+	rem_attacker=HAB
+	rem_attacker=SAV
+	rem_defender=FRA
+}

@@ -1,0 +1,15 @@
+name="Liberation of Black Sea"
+casus_belli=cb_core
+
+1341.1.1={
+		add_attacker=BUL
+		add_defender=BYZ
+		}
+1343.1.1={
+		add_defender=TUR
+		}
+1344.4.1={
+	rem_attacker=BUL
+	rem_defender=BYZ
+	rem_defender=TUR
+}

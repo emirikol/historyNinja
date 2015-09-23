@@ -1,0 +1,32 @@
+name="Romano-Capadocian War"
+casus_belli=cb_conquest
+17.6.4={
+	add_attacker=RME
+	add_defender=CAP
+}
+# Invasion in Capaddocia
+17.6.5={
+	battle={
+		name="Siege of Cappaddocia"
+		location=2099
+		attacker={
+			commander="Flavio"
+			infantry=10000
+			cavalry=2000
+			losses=10	# percent
+			country=RME
+		}
+		defender={
+			commander="Capadocios"
+			infantry=3000
+			cavalry=1000
+			losses=100	# percent
+			country=CAP
+		}
+		result=win
+	}
+}
+17.6.6={
+	rem_attacker=RME
+	rem_defender=CAP
+}

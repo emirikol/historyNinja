@@ -1,0 +1,14 @@
+name="War of the Cambodian Succession"
+casus_belli=cb_claim_throne
+
+1714.1.1={
+	add_attacker=ANN
+	add_attacker=KHM
+	add_defender=AYU
+}
+
+1717.1.1={
+	rem_attacker=ANN
+	rem_attacker=KHM
+	rem_defender=AYU
+}

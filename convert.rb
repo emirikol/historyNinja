@@ -85,7 +85,7 @@ class Foobar
       code = File.basename(file).split('-')[0].strip.upcase
       parse(file).each do |key, val|
         countries[code]['gov'] = val.gsub('_', ' ') if key == 'government' # should be in countries_json ?
-        country_cache[code]['gov'] = countries[code]['gov']
+        country_cache[code]['gov'] ||= countries[code]['gov']
         next unless key =~ /^\d+\.\d\d?\.\d\d?/
         val = val[0] if val.kind_of?(Array)
         if val['monarch']
@@ -96,12 +96,14 @@ class Foobar
         if val['government']
           gov = val['government'].strip.gsub('_', ' ')
           arr << {time: key_to_time(key), code: code, gov: [gov, country_cache[code]['gov']]}
+
           country_cache[code]['gov'] = gov
         end
         
       end
     end
     gen_vassal_history(res)
+    gen_war_history(res)
     File.write(out_path('countries.json'), JSON.dump(countries)) 
     res
   end
@@ -109,8 +111,7 @@ class Foobar
   def gen_vassal_history(array)
     Dir.glob(src_path('diplomacy/*')).each do |file|
       vassalages = parse(file)['vassal']
-      vassalages = [vassalages].compact unless vassalages.respond_to?(:to_ary)
-      vassalages.each do |vassalage|
+      wrap(vassalages).each do |vassalage|
         #puts  vassalage.inspect
         array << {time: key_to_time(vassalage['start_date']), code: vassalage['first'], client: [vassalage['second'], nil]}
         array << {time: key_to_time(vassalage['end_date']), code: vassalage['first'], client: [nil, vassalage['second']]}
@@ -118,6 +119,34 @@ class Foobar
         array << {time: key_to_time(vassalage['end_date']), code: vassalage['second'], suzerain: [nil, vassalage['first']]}
       end
     end
+    array
+  end
+  
+  def gen_war_history(array)
+    wars = {}
+    Dir.glob(src_path('wars/*')).each do |file|
+      id = File.basename(file).scan(/\d+/)[0].to_i
+      #puts id
+      war = parse(file)
+      wars[id] = {name: war['name']}
+      war.each do |key, val|
+        next unless key =~ /^\d+\.\d\d?\.\d\d?/
+        time = key_to_time(key)
+        wrap(val).each do |inner_val|
+          inner_val.each do |action, countries|
+            action.match(/^((add)|(rem))_/)
+            action = $1
+            next unless ['add', 'rem'].include?(action)
+            event = [id, nil]
+            event.reverse! if action == 'rem'
+            wrap(countries).each do |country|
+              array << {time: time, code: country, war: event}
+            end
+          end
+        end
+      end
+    end
+    File.write(out_path('wars.json'), JSON.dump(wars)) 
     array
   end
   
@@ -200,6 +229,9 @@ class Foobar
   
   def rgb2hex(rgb)
     rgb.each_with_object('#') {|c,s| s << c.to_s(16).rjust(2,'0')}
+  end
+  def wrap(arg)
+    arg.respond_to?(:to_ary) ? arg : [arg].compact 
   end
   
 end

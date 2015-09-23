@@ -1,0 +1,22 @@
+name="Arab-Israeli War"
+casus_belli=cb_core
+1948.5.1={
+	add_attacker=EGY
+	add_attacker=SYR
+	add_attacker=JOR
+	add_attacker=LEB
+	add_attacker=IRQ
+	add_attacker=SAB
+	add_attacker=ADR
+	add_defender=ISR
+}
+1949.3.1={
+	rem_attacker=EGY
+	rem_attacker=SYR
+	rem_attacker=JOR
+	rem_attacker=LEB
+	rem_attacker=IRQ
+	rem_attacker=SAB
+	rem_attacker=ADR
+	rem_defender=ISR
+}

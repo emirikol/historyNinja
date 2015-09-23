@@ -1,0 +1,11 @@
+name="Second Japanese-Chinese War"
+casus_belli=cb_conquest
+1937.7.7={
+	add_attacker=JAP
+	add_defender=CHN
+}
+# Peace
+1945.9.9={
+	rem_attacker=JAP
+	rem_defender=CHN
+}

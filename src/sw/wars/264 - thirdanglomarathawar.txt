@@ -1,0 +1,13 @@
+name="Third Anglo-Maratha War"
+casus_belli=cb_colonial
+
+1817.1.1={
+	add_attacker=GBR
+	add_defender=MAR
+}
+
+# Truce
+1818.6.3={
+	rem_attacker=GBR
+	rem_defender=MAR
+}

@@ -1,0 +1,61 @@
+name="Byzantine Agression Against Bulgaria"
+casus_belli=cb_core
+
+836.3.15={
+	add_attacker=BYZ
+	add_defender=BGK
+}
+
+# Battle of Macedonia
+836.6.20={
+	battle={
+		name="Macedonia"
+		location=807
+		attacker={
+			commander="Teofil"
+			infantry=55000
+			cavalry=17000
+			artillery=8000
+			losses=2	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Malamir"
+			infantry=11000
+			cavalry=1000
+			losses=79	# percent
+			country=BGK
+		}
+		result=win
+	}
+}
+
+# Battle of Macedonia
+838.1.1={
+	battle={
+		name="Macedonia"
+		location=1962
+		attacker={
+			commander="Teofil"
+			infantry=55000
+			cavalry=17000
+			artillery=8000
+			losses=75	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Presian"
+			infantry=11000
+			cavalry=1000
+			losses=3	# percent
+			country=BGK
+		}
+		result=loss
+	}
+}
+
+# Treaty of Constantinopole
+839.2.25={
+	rem_attacker=BYZ
+	rem_defender=BGK
+}

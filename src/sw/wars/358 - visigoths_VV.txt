@@ -1,0 +1,10 @@
+name="Franco-Visigothic War"
+casus_belli=cb_conquest
+710.1.1={
+	add_attacker=HFR
+	add_defender=VIS
+}
+714.1.1={
+	rem_attacker=HFR	
+	rem_defender=VIS
+}	

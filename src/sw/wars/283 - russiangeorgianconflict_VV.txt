@@ -1,0 +1,14 @@
+name="Russia-Georgia Conflict"
+casus_belli=cb_core
+2008.8.7={
+	add_attacker=GEO
+	add_defender=OSS
+    add_defender=ABK
+    add_defender=RUS
+}
+2008.8.16={
+	rem_defender=RUS
+	rem_defender=ABK
+	rem_defender=OSS
+	rem_attacker=GEO
+}

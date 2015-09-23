@@ -1,0 +1,14 @@
+name="Second Vandalian Invasion in Roman Empire"
+casus_belli=cb_conquest
+439.6.1={
+	add_attacker=VNA
+	add_defender=RMP
+}
+441.6.1={
+	add_defender=BYZ
+}	
+442.6.1={
+	rem_attacker=VNA
+	rem_defender=RMP
+	rem_defender=BYZ
+}

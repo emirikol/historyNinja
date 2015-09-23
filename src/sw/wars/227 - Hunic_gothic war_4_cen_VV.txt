@@ -1,0 +1,12 @@
+name="Hunic Invasion in Gothic Lands"
+casus_belli=cb_crusade
+
+370.3.1={
+	add_attacker=HNU
+	add_defender=GHT
+}
+
+370.5.30={
+	rem_attacker=HNU
+	rem_defender=GHT
+}

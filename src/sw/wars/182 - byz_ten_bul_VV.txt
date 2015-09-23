@@ -1,0 +1,132 @@
+name="Byzantine agression against Bulgaria"
+casus_belli=cb_core
+
+860.3.1={
+	add_attacker=BYZ
+	add_defender=BGK
+}
+
+# Battle of Plovdiv
+860.4.6={	
+	battle={
+		name="Plovdiv"
+		location=1962
+		attacker={
+			commander="Emperor Michael III"
+			infantry=65000
+			cavalry=5000
+			artillery=1000
+			losses=20	
+			country=BYZ
+		}
+		defender={
+			commander="Han Boris"
+			infantry=40000
+			cavalry=30000
+			artillery=2000
+			losses=20	
+			country=BGK
+		}
+		result=win
+	}
+}
+
+861.1.1={
+	add_attacker=GMV
+	add_attacker=WCR
+}
+
+862.1.15={
+	add_defender=HAB
+	add_defender=BRA
+}
+
+# Battle of Krakow
+863.3.12={
+	
+	battle={
+		name="Krakow"
+		location=262
+		attacker={
+			commander="Slavic chief"
+			infantry=40000
+			cavalry=30000
+			artillery=2000
+			losses=35	# percent
+			country=GMV
+		}
+		defender={
+			commander="Holy Roman Emperor & Han Boris"
+			infantry=65000
+			cavalry=5000
+			artillery=2000
+			losses=4		# percent
+			country=BGK
+		}
+		result=loss
+	}
+}
+
+863.4.1={add_attacker=RAS}
+
+# Battle of Plovdiv
+863.6.1={
+	
+	battle={
+		name="Plovdiv"
+		location=1962
+		attacker={
+			commander="Serbian chief"
+			infantry=65000
+			cavalry=5000
+			artillery=1000
+			losses=20	# percent
+			country=RAS
+		}
+		defender={
+			commander="Han Boris"
+			infantry=40000
+			cavalry=30000
+			artillery=2000
+			losses=20	# percent
+			country=BGK
+		}
+		result=win
+	}
+}
+
+# Battle of Osijek
+864.5.6={
+	
+	battle={
+		name="Osijek"
+		location=1964
+		attacker={
+			commander="Croatian chief"
+			infantry=65000
+			cavalry=5000
+			artillery=1000
+			losses=20	# percent
+			country=WCR
+		}
+		defender={
+			commander="Han Boris"
+			infantry=40000
+			cavalry=30000
+			artillery=2000
+			losses=20	# percent
+			country=BGK
+		}
+		result=win
+	}
+}
+
+# Peace
+864.5.30={	
+	rem_attacker=BYZ
+	rem_attacker=WCR
+	rem_attacker=RAS
+	rem_attacker=GMV
+	rem_defender=HAB
+	rem_defender=BGK
+}

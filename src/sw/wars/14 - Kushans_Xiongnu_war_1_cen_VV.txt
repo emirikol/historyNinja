@@ -1,0 +1,34 @@
+name="Kushit Invasion in Xiongnu"
+casus_belli=cb_core
+
+# Kushans Xiongnu War
+98.6.1={
+	add_attacker=KUS
+	add_defender=XIO
+}
+# Invasion in Gobi
+98.6.2={
+	battle={
+		name="Siege of Gobi"
+		location=1250
+		attacker={
+			commander="Kushit Leader"
+			infantry=10000
+			cavalry=2000
+			losses=5	# percent
+			country=KUS
+		}
+		defender={
+			commander="Xiongnu Leader"
+			infantry=3000
+			cavalry=1000
+			losses=50	# percent
+			country=XIO
+		}
+		result=win
+	}
+}
+98.6.2={
+	rem_attacker=KUS
+	rem_defender=XIO
+}

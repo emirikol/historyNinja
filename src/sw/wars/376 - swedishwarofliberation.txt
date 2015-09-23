@@ -1,0 +1,13 @@
+name="Swedish War of Liberation"
+casus_belli=cb_liberation
+
+1521.6.6={
+	add_attacker=SWE
+	add_defender=DAN
+}
+
+# Treaty of Malmö
+1524.9.1={
+	rem_attacker=SWE
+	rem_defender=DAN
+}

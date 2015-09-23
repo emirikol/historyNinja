@@ -1,0 +1,15 @@
+name="Neapolitan Succession War"
+casus_belli=cb_core
+succession=NAP
+1435.2.3={
+	add_attacker=NAP
+	add_attacker=PRO
+	add_attacker=LOR
+	add_defender=ARA
+}
+1442.3.3={
+	rem_attacker=NAP
+	rem_attacker=PRO
+	rem_attacker=LOR
+	rem_defender=ARA
+}

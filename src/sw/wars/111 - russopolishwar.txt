@@ -1,0 +1,12 @@
+name="Russo-Polish War"
+casus_belli=cb_conquest
+
+1792.5.18={
+	add_attacker=RUS
+	add_defender=POL
+}
+
+1792.12.1={
+	rem_attacker=RUS
+	rem_defender=POL
+}

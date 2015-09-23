@@ -1,0 +1,15 @@
+name="Fulani War"
+casus_belli=cb_conquest
+
+1804.1.1 ={
+	add_attacker=SOK
+	add_defender=HAU
+	add_defender=KBO
+}
+
+# Peace
+1810.1.1={
+	rem_attacker=SOK
+	rem_defender=HAU
+	rem_defender=KBO
+}

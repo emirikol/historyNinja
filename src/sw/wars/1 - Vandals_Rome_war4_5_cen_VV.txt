@@ -1,0 +1,10 @@
+name="Forth Vandalian Invasion in Roman Empire"
+casus_belli=cb_conquest
+460.6.1={
+	add_attacker=VNA
+	add_defender=RMP
+}
+470.6.1={
+	rem_attacker=VNA
+	rem_defender=RMP
+}

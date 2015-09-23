@@ -1,0 +1,13 @@
+name="Ming-Manchu War"
+casus_belli=cb_conquest
+
+1618.1.1={
+	add_attacker=MNG
+	add_defender=MCH
+}
+
+# Truce
+1628.1.1={
+	rem_attacker=MNG
+	rem_defender=MCH
+}

@@ -1,0 +1,15 @@
+name="Second Polish-Swedish War"
+casus_belli=cb_conquest
+
+1620.11.1={
+	add_attacker=SWE
+	add_defender=POL
+	add_defender=KUR
+}
+
+# Truce of Mitau
+1622.11.1={
+	rem_attacker=SWE
+	rem_defender=POL
+	rem_defender=KUR
+}

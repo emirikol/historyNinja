@@ -1,0 +1,14 @@
+name="Manchu Conquest"
+casus_belli=cb_conquest
+
+
+1633.1.1={
+	add_attacker=MCH
+	add_defender=MNG
+}
+
+# Truce
+1646.1.1={
+	rem_attacker=MCH
+	rem_defender=MNG
+}

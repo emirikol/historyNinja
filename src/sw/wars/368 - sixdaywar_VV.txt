@@ -1,0 +1,16 @@
+name="Six-Day War"
+casus_belli=cb_core
+1967.6.5={
+	add_attacker=ISR
+	add_defender=EGY
+	add_defender=SYR
+	add_defender=JOR
+	add_defender=IRQ
+}
+1967.6.10={
+	rem_attacker=ISR
+	rem_defender=EGY
+	rem_defender=SYR
+	rem_defender=JOR
+	rem_defender=IRQ
+}

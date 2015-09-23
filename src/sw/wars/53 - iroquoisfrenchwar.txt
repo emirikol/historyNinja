@@ -1,0 +1,12 @@
+name="Iroquois-French War"
+casus_belli=cb_colonial
+
+1642.1.1={
+	add_attacker=IRO
+	add_defender=FRA
+}
+
+1701.1.1={
+	rem_attacker=IRO
+	rem_defender=FRA
+}

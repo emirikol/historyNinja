@@ -1,0 +1,10 @@
+name="First Serbian Agression Against Bulgaria"
+casus_belli=cb_conquest
+1885.11.2={
+	add_attacker=SER
+	add_defender=RBU
+}
+1885.12.7={
+	rem_attacker=SER
+	rem_defender=RBU
+}

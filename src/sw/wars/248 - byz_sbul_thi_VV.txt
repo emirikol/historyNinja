@@ -1,0 +1,11 @@
+name="Byzantine Intervantion Into Dynastic Strugles of Bulgaria"
+casus_belli=cb_core
+
+1278.1.1={
+	add_attacker=BYZ	
+	add_defender=BUL
+}
+1279.7.1={
+	rem_attacker=BYZ
+	rem_defender=BUL
+}

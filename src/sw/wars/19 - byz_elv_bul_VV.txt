@@ -1,0 +1,37 @@
+name="Byzantine agression"
+casus_belli=cb_core
+
+# Byzantine army attack Bulgarian
+968.1.1={
+	add_attacker=BYZ
+	add_defender=BUL
+}
+
+968.8.1={
+	battle={
+		name="Thrace"
+		location=1961
+		attacker={
+			commander="Constamtine VII"
+			infantry=60000
+			cavalry=20000
+			losses=15	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Roman"
+			infantry=35000
+			cavalry=42000
+			losses=45	# percent
+			country=BUL
+		}
+		result=win
+	}
+}
+
+
+# Treaty of Constantinopole
+968.9.1={
+	rem_attacker=BYZ
+	rem_defender=BUL
+}

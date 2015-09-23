@@ -1,0 +1,32 @@
+name="Romano-Brigantes War"
+casus_belli=cb_conquest
+57.5.1={
+	add_attacker=RME
+	add_defender=BIR
+}
+# Invasion in Cumbria
+57.5.2={
+	battle={
+		name="Siege of Cumbria"
+		location=247
+		attacker={
+			commander="Flavio"
+			infantry=10000
+			cavalry=2000
+			losses=10	# percent
+			country=RME
+		}
+		defender={
+			commander="Teres"
+			infantry=3000
+			cavalry=1000
+			losses=100	# percent
+			country=BIR
+		}
+		result=win
+	}
+}
+57.6.1={
+	rem_attacker=RME
+	rem_defender=BIR
+}

@@ -1,0 +1,15 @@
+name="Third Polish-Swedish War"
+casus_belli=cb_conquest
+
+1625.3.1={
+	add_attacker=SWE
+	add_defender=POL
+	add_defender=KUR
+}
+
+# Truce of Altmark
+1629.10.26={
+	rem_attacker=SWE
+	rem_defender=POL
+	rem_defender=KUR
+}

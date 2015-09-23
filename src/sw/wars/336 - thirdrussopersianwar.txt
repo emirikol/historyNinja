@@ -1,0 +1,14 @@
+name="Third Russo-Persian War"
+casus_belli=cb_conquest
+
+1804.1.1={
+	add_attacker=RUS
+	add_defender=PER
+}
+
+# Treaty of Gulistan
+1813.10.24={
+	rem_attacker=RUS
+	rem_defender=PER
+}
+

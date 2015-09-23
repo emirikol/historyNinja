@@ -1,0 +1,35 @@
+name="Third Invasion of Byzanty in Bulgaria"
+casus_belli=cb_core
+
+756.3.1={
+	add_attacker=BYZ
+	add_defender=BGK
+}
+
+756.4.1={
+	battle={
+		name="Marcellae"
+		location=1961
+		attacker={
+			commander="Constantine V"
+			infantry=40000
+			cavalry=20000
+			losses=25	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Vinekh"
+			infantry=10000
+			cavalry=50000
+			losses=70	# percent
+			country=BGK
+		}
+		result=win
+	}
+}
+
+# Treaty of Constantinopole
+756.4.2={
+	rem_attacker=BYZ
+	rem_defender=BGK
+}

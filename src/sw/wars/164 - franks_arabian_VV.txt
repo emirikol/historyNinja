@@ -1,0 +1,9 @@
+name="Umayadian Agression Against Franks"
+casus_belli=cb_crusade
+
+725.1.1={
+	add_attacker=ACA
+	add_defender=HFR}
+733.5.1={
+	rem_attacker=ACA	
+	rem_defender=HFR}

@@ -1,0 +1,59 @@
+name="Liberation of Second Bulgarian State"
+casus_belli=cb_nationalist
+
+# Ivan Asen and Isak II Angel wars
+1186.6.1={
+	add_attacker=BYZ
+	add_defender=BUL
+}
+
+# Invasion in Tarnovo
+1186.7.1={
+	battle={
+		name="Siege of Tarnovo"
+		location=813
+		attacker={
+			commander="Isak II Angel"
+			infantry=1000
+			cavalry=20000
+			losses=45	# percent
+			country=BYZ
+		}
+		defender={
+			commander ="Ivan Asen"
+			infantry=30000
+			cavalry=1000
+			losses=6	# percent
+			country=BUL
+		}
+		result=loss
+	}
+}
+
+# Siege of Lovech
+1187.4.1={
+	battle={
+		name="Siege of Lovech"
+		location=812
+		attacker={
+			commander="Isak II Angel"
+			infantry=20000
+			cavalry=10000
+			artillery=1000
+			losses=49	# percent
+			country=BYZ
+		}
+		defender={
+			commander="Ivan Asen"
+			infantry=6000
+			losses=2	# percent
+			country=BUL
+		}
+		result=loss
+	}
+}
+
+1187.4.2={
+	rem_attacker=BYZ
+	rem_defender=BUL
+}

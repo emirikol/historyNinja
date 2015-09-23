@@ -1,0 +1,24 @@
+name="Invasion of Grenada"
+casus_belli=cb_core
+1983.10.25={
+	add_attacker=USA
+	add_attacker=ANT
+	add_attacker=BAR
+	add_attacker=DMC
+	add_attacker=JMC
+	add_attacker=STL
+	add_attacker=STV
+    add_defender=GRN
+    add_defender=CUB
+}
+1983.12.15={
+	rem_attacker=USA
+	rem_attacker=ANT
+	rem_attacker=BAR
+	rem_attacker=DMC
+	rem_attacker=JMC
+	rem_attacker=STL
+	rem_attacker=STV
+    rem_defender=GRN
+    rem_defender=CUB
+}

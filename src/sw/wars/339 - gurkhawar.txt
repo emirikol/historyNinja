@@ -1,0 +1,13 @@
+name="Gurkha War"
+casus_belli=cb_colonial
+
+1814.11.1={
+	add_attacker=GBR
+	add_defender=NPL
+}
+
+# The Sugauli Treaty
+1816.12.2={
+	rem_attacker=GBR
+	rem_defender=NPL
+}

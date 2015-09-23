@@ -1,0 +1,149 @@
+name="Macromanian Invasion in Rome"
+casus_belli=cb_crusade
+
+# Macromanni Invasion
+166.6.1={
+	add_attacker=MCR
+	add_attacker=LOM
+	add_attacker=SUE
+	add_attacker=SRM
+	add_attacker=BAO
+	add_attacker=BES
+	add_defender=RME}
+
+# Invasion in Germania Superior
+166.6.2={
+	battle={
+		name="Siege of Steinmark"
+		location=132
+		attacker={
+			commander="Germanius"
+			infantry=10000
+			cavalry=2000
+			losses=60	# percent
+			country=MCR
+		}
+		defender={
+			commander="Marc Aurelius"
+			infantry=30000
+			cavalry=5000
+			losses=40	# percent
+			country=RME
+			}
+		result=loss}}
+		
+# Invasion in Elsasse
+166.6.5={
+	battle={
+		name="Siege of Elsasse"
+		location=75
+		attacker={
+			commander="Langobardi"
+			infantry=10000
+			cavalry=2000
+			losses=60	# percent
+			country=LOM
+		}
+		defender={
+			commander="Marc Aurelius"
+			infantry=3000
+			cavalry=1000
+			losses=40	# percent
+			country=RME
+			}
+		result=loss}}
+
+# Invasion in Bassel
+166.6.8={
+	battle={
+		name="Siege of Bassel"
+		location=2104
+		attacker={
+			commander="Langobardi"
+			infantry=10000
+			cavalry=2000
+			losses=60	# percent
+			country=LOM
+		}
+		defender={
+			commander="Marc Aurelius"
+			infantry=3000
+			cavalry=1000
+			losses=40	# percent
+			country=RME
+			}
+		result=loss}}
+
+		
+# Invasion in Germania Superior
+166.7.2={
+	battle={
+		name="Siege of Karten"
+		location=128
+		attacker={
+			commander="Germanius"
+			infantry=4000
+			cavalry=800
+			losses=60	# percent
+			country=MCR
+		}
+		defender={
+			commander="Marc Aurelius"
+			infantry=18000
+			cavalry=3000
+			losses=40	# percent
+			country=RME}
+		result=loss}}
+
+# Invasion in Skythia
+166.7.6={
+	battle={
+		name="Siege of Skythia"
+		location=2061
+		attacker={
+			commander="Sarmatius"
+			infantry=4000
+			cavalry=20000
+			losses=15	# percent
+			country=SRM
+		}
+		defender={
+			commander="Marc Aurelius"
+			infantry=8000
+			cavalry=3000
+			losses=90	# percent
+			country=RME
+			}
+		result=win}}
+
+166.8.3={
+	rem_attacker=MCR
+	rem_attacker=LOM
+	rem_attacker=SUE}
+	
+# Reconquest of Skythia
+167.7.6={
+	battle={
+		name="Siege of Skythia"
+		location=2061
+		attacker={
+			commander="Sarmatius"
+			infantry=4000
+			cavalry=20000
+			losses=40	# percent
+			country=SRM
+		}
+		defender={
+			commander="Marc Aurelius"
+			infantry=80000
+			cavalry=3000
+			losses=10	# percent
+			country=RME
+			}
+		result=loss}}
+		
+169.6.1={
+rem_attacker=SRM
+rem_attacker=BAO
+rem_attacker=BES
+rem_defender=RME}

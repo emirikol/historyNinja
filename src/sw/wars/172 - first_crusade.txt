@@ -1,0 +1,30 @@
+name="First Crusade"
+casus_belli=cb_crusade
+
+1096.3.1={
+	add_attacker=GEN
+	add_attacker=LOR
+	add_attacker=AUI
+	add_attacker=PRO
+	add_attacker=FRA
+	add_attacker=FLA
+	add_attacker=NRM
+	add_attacker=NAP
+	add_attacker=BYZ
+	add_attacker=AAR
+	add_defender=ABB
+add_defender=SEJ}
+
+1099.11.1={
+	rem_attacker=GEN
+	rem_attacker=LOR
+	rem_attacker=AUI
+	rem_attacker=PRO
+	rem_attacker=FRA
+	rem_attacker=FLA
+	rem_attacker=NRM
+	rem_attacker=NAP
+	rem_attacker=BYZ
+	rem_attacker=AAR
+	rem_defender=ABB
+rem_defender=SEJ}

@@ -1,0 +1,33 @@
+name="Fourth Anglo-Mysore War"
+casus_belli=cb_colonial
+
+1798.1.1={
+	add_attacker=GBR
+	add_defender=MYS
+}
+
+1799.5.4={
+	battle={
+		name="Srirangapatna"
+		location=533
+		attacker={
+			commander="George Harris"	# George Harris
+			infantry=50000
+			losses=3	# percent
+			country=MYS
+		}
+		defender={
+			commander="Tipu Sultan"	# Tipu Sultan
+			infantry=30000
+			losses=20	# percent
+			country=GBR
+		}
+		result=win
+	}
+}
+
+# Truce
+1799.5.5={
+	rem_attacker=GBR
+	rem_defender=MYS
+}

@@ -1,0 +1,10 @@
+name="Afghanistan War"
+casus_belli=cb_sphere_of_influence
+2001.9.11={
+	add_attacker=AFG
+	add_defender=USA
+}
+2001.12.22={
+	rem_attacker=AFG
+	rem_defender=USA
+}

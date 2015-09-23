@@ -1,0 +1,12 @@
+name="Khazarian Invasion in Pechenegian Lands"
+casus_belli=cb_core
+
+# Khazarian wars
+700.1.1= {
+	add_attacker=KHZ
+	add_defender=PEC
+}
+705.2.1={
+	rem_attacker=KHZ
+	rem_defender=PEC
+}

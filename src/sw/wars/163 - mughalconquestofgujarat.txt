@@ -1,0 +1,13 @@
+name="Mughal Conquest of Gujarat"
+casus_belli=cb_conquest
+
+1572.1.1={
+	add_attacker=MUG
+	add_defender=GUJ
+}
+
+# Annexation of Gujarat
+1573.6.1={
+	rem_attacker=MUG
+	rem_defender=GUJ
+}

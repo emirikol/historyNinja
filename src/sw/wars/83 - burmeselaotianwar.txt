@@ -1,0 +1,12 @@
+name="Burmese-Laotian War"
+casus_belli=cb_sphere_of_influence
+
+1570.1.1={
+	add_attacker=TAU
+	add_defender=LXA
+}
+
+1575.1.1={
+	rem_attacker=TAU
+	rem_defender=LXA
+}

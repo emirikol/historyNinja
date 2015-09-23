@@ -1,0 +1,160 @@
+name="Imjin War"
+casus_belli=cb_conquest
+
+1592.1.1={
+	add_attacker=JAP
+	add_defender=KOR
+}
+
+1592.4.24={
+	battle={
+		name="Sangju"
+		location=736
+		attacker={
+			commander="Konishi Yukinaga"	# Konishi Yukinaga
+			infantry=8500
+			losses=1	# percent
+			country=JAP
+		}
+		defender={
+			commander="Yi Il"	# Yi Il
+			infantry=900
+			losses=34	# percent
+			country=KOR
+		}
+		result=win
+	}
+}
+
+1592.4.28={
+	battle={
+		name="Ch'ungju"
+		location=735
+		attacker={
+			commander="Konishi Yukinaga"	# Konishi Yukinaga
+			infantry=17000
+			losses=3	# percent
+			country=JAP
+		}
+		defender={
+			commander="Sin Lip"	# Sin Lip
+			infantry=8000
+			losses=38	# percent
+			country=KOR
+		}
+		result=win
+	}
+}
+
+1592.8.14={
+	battle={
+		name="Hanan"
+		location=1376
+		attacker={
+			commander="Wakizaka"	# Wakizaka
+			big_ship=60
+			light_ship=13
+			losses=64	# percent
+			country=JAP
+		}
+		defender={
+			commander="Yi Sun-sin"	# Yi Sun-sin
+			big_ship=56
+			losses=0	# percent
+			country=KOR
+		}
+		result=loss
+	}
+}
+
+1593.1.1={
+	add_defender=MNG
+}
+
+1593.2.12={
+	battle={
+		name="Haengju"
+		location=737
+		attacker={
+			commander="Ukita Hideie"	# Ukita Hideie
+			infantry=30000
+			losses=33	# percent
+			country=JAP
+		}
+		defender={
+			commander="Gwon Yul"	# Gwon Yul
+			infantry=2300
+			losses=0	# percent
+			country=KOR
+		}
+		result=loss
+	}
+}
+
+1597.7.16={
+	battle={
+		name="Chilcheollyang"
+		location=1376
+		attacker={
+			commander="Todo Takatora"	# Todo Takatora
+			big_ship=750
+			losses=1	# percent
+			country=JAP
+		}
+		defender={
+			commander="Won Gyan"	# Won Gyan
+			big_ship=169
+			losses=93	# percent
+			country=KOR
+		}
+		result=win
+	}
+}
+
+1597.8.16={
+	battle={
+		name="Nanwon"
+		location=737
+		attacker={
+			commander="Ukita Hideie"	# Ukita Hideie
+			infantry=56800
+			losses=1	# percent
+			country=JAP
+		}
+		defender={
+			commander="Yang Yuan"	# Yang Yuan
+			infantry=4300
+			losses=87	# percent
+			country=KOR
+		}
+		result=win
+	}
+}
+
+1597.10.26={
+	battle={
+		name="Myeongnyang"
+		location=1376
+		attacker={
+			commander="Todo Takatora"	# Todo Takatora
+			big_ship=133
+			light_ship=200
+			losses=9	# percent
+			country=JAP
+		}
+		defender={
+			commander="Yi Sun-sin"	# Yi Sun-sin
+			big_ship=13
+			losses=0	# percent
+			country=KOR
+		}
+		result=loss
+	}
+}
+
+# The Japanese troops withdraw
+1598.10.1={
+	rem_attacker=JAP
+	rem_defender=KOR
+	rem_defender=MNG
+}

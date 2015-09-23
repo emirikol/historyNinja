@@ -1,0 +1,10 @@
+name="Ilkhanate-Mameluks War"
+casus_belli=cb_conquest
+
+1256.7.1={
+	add_attacker=IKH
+	add_defender=MAM}
+
+1335.4.1={
+	rem_attacker=IKH
+	rem_defender=MAM}

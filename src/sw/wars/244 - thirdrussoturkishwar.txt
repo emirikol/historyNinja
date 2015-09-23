@@ -1,0 +1,14 @@
+name="Third Russo-Turkish War"
+casus_belli=cb_conquest
+
+1768.9.25={
+	add_attacker=TUR
+	add_attacker=MOL
+	add_defender=RUS
+}
+
+1774.7.21={
+	rem_attacker=TUR
+	rem_attacker=MOL
+	rem_defender=RUS
+}

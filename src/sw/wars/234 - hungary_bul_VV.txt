@@ -1,0 +1,12 @@
+name="Magyar Agression Against Bulgaria"
+casus_belli=cb_core
+ 
+1246.1.1={
+	add_attacker=HUN
+	add_defender=BUL
+}
+
+1246.9.1={
+	rem_attacker=HUN
+	rem_defender=BUL
+}

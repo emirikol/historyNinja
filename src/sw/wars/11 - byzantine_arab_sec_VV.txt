@@ -1,0 +1,12 @@
+name="First Abbasyd War Against Byzanty"
+casus_belli=cb_crusade
+
+876.5.1={
+	add_attacker=BYZ
+	add_defender=ABB
+}
+	  
+902.8.1={
+	rem_attacker=BYZ
+	rem_defender=ABB
+}

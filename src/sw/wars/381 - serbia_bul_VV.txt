@@ -1,0 +1,10 @@
+name="Serbian Agression Against Bulgaria"
+casus_belli=cb_conquest
+1246.1.1={
+	add_attacker=RAS
+	add_defender=BUL
+}
+1246.9.1={	
+	rem_attacker=RAS
+	rem_defender=BUL
+}

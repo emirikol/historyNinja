@@ -1,0 +1,13 @@
+name="Hannibal War"
+casus_belli=cb_conquest
+
+1642.1.12={
+	add_attacker=SWE
+	add_defender=DAN
+}
+
+# Peace of Brömsebro
+1645.8.13={
+	rem_attacker=SWE
+	rem_defender=DAN
+}

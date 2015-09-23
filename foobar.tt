@@ -52,7 +52,16 @@ grammar EuConf
      open_paren body:(statement/empty_line/(space* comment))+ end_paren {
       def bar
         body.elements.select{|e| FooNode === e}.each_with_object({}) do |f,h|
-          h[f.term.text_value] = f.value.bar
+          key, value = f.term.text_value, f.value.bar
+          if h[key]
+            if h[key].kind_of?(Array)
+              h[key] << value
+            else
+              h[key] = [h[key], value]
+            end
+          else
+            h[key] = value
+          end        
         end
       end
     }

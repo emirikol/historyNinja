@@ -1,6 +1,7 @@
 provinces = {};
 map = null;
 countries = $.getJSON(source+'/countries.json?7').then(function(d){ return d });
+wars = $.getJSON(source+'/wars.json').then(function(d){ return d });
 annals = $.getJSON(source+'/zipped_history.json?4').then(function(d){ return d });
 current_time = parseInt($('#date').val());
 $('label[for=date]').html(seconds_to_date(current_time)); 
@@ -69,7 +70,7 @@ map_loaded.then(function(){
     $(map).on('click , touchend', 'path', function() {
       if (pan) return;
       var el = this;
-      countries.then(function(cs) {
+      $.when(countries, wars).done(function(cs, ws) {
         var c = cs[$(el).attr('owner')];
         var p = provinces[$(el).data('province')];
         // $('.foo').text(c ? c.name : 'There be dragons');
@@ -78,12 +79,16 @@ map_loaded.then(function(){
           $('.foo').html($('<a>').attr('target', '_blank').text(c.name).attr('href', 'https://en.wikipedia.org?search=' + c.name));
           $('[data-value="country.gov"]').text(c.gov);
           $('[data-value="country.suzerain"]').text(c.suzerain ? cs[c.suzerain].name : '');
+          $('[data-value="country.clients"]').text(c.client ? c.client.map(function(s){ return cs[s].name }).join(', ') : '');
+          $('[data-value="country.wars"]').text(c.war ? c.war.map(function(s){ return ws[s].name }).join(', ') : '');
           $('[data-value="country.ruler"]').text(c.monarch || 'N/A');
         } else {
           // $('.side-panel.country-info').addClass('closed');
           $('.foo').text('------');
           $('[data-value="country.gov"]').text('------');
           $('[data-value="country.suzerain"]').text('------');
+          $('[data-value="country.clients"]').text('------');
+          $('[data-value="country.wars"]').text('------');
           $('[data-value="country.ruler"]').text('------');
         }
         $('[data-value="province.culture"]').text(p ? p.culture.replace(/_/g, ' ') : '');
@@ -114,6 +119,7 @@ map_loaded.then(function(){
         var month = Math.floor(target % 372 / 31 + 1);
         if (month < 10) month = '0' + month;
         $('label[for=date]').html(month + '.' + year);
+        $('#date').trigger('change')
         setTimeout(update, 0)
       }
       else {
@@ -132,8 +138,16 @@ map_loaded.then(function(){
       $.when(countries, annals).done(function(cs, an) {
         var delta = current_time < target_time ? 1 : -1;
         var index = current_time < target_time ? 0 : 1;
+        var update_country_array_attr = function(country, attr, event){
+          if(!event[attr]) return;
+          if(!country[attr]) country[attr] = [];
+          if(event[attr][index]) {
+            country[attr].push(event[attr][index]) 
+          } else {
+            country[attr] = country[attr].filter(function(c){ return c != event[attr][index + delta] })
+          }
+        }
         var apply_event = function(event) {
-          
           if(event.id) {
             var owner_code = delta > 0 ? event.owner : event.pre_owner;
             var owner = cs[owner_code] || {};
@@ -154,14 +168,8 @@ map_loaded.then(function(){
              var color = country['suzerain'] ? cs[country['suzerain']].color : country.color;
              $('path[owner='+event.code+']').css('fill', color);
             }
-            if(event.client) {
-              if(!country.client) country.client = [];
-              if(event.client[index]) {
-                country.client.push(event.client[index]) 
-              } else {
-                country.client = country.client.filter(function(c){ return c != event.client[index + delta] })
-              }
-            }
+            update_country_array_attr(country, 'client', event);
+            update_country_array_attr(country, 'war', event);
           }
         };
 
@@ -213,12 +221,22 @@ map_loaded.then(function(){
     }),
     o_O.model({
       path: 'country.gov',
-      name: 'Govt',
+      name: 'Goverment',
+      state: "off"
+    }),
+    o_O.model({
+      path: 'country.wars',
+      name: 'Wars',
       state: "off"
     }),
     o_O.model({
       path: 'country.suzerain',
       name: 'Suzerain',
+      state: "off"
+    }),
+    o_O.model({
+      path: 'country.clients',
+      name: 'Client States',
       state: "off"
     }),
     o_O.model({

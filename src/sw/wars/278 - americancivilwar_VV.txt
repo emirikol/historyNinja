@@ -1,0 +1,10 @@
+name="American Civil War"
+casus_belli=cb_core
+1861.4.12={
+	add_attacker=SUC
+	add_defender=USA
+}
+1865.6.23={
+	rem_attacker=SUC
+	rem_defender=USA
+}

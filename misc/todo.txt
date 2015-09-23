@@ -2,7 +2,8 @@
   - current X changes with time
 - better slider / mobile slider
 - progress bar
-- vassalage...
+V vassalage...
+V wars
 - edit events
   - edit view
   - set up real server...
@@ -27,7 +28,7 @@ V performance II
 - show rebellions types?
 - update displayed data when events change it...
 - show HRE
-- vassalage
+V vassalage
 - color by...
 - highlight selection
 - moar data?
@@ -110,8 +111,8 @@ data:
     capital? - hist/country + hist/province
     wars - wars
     alliances - hist/dimplomacy
-    suzerain - hist/dimplomacy
-    client states - hist/dimplomacy
+    V suzerain - hist/dimplomacy
+    V client states - hist/dimplomacy
     
   
   

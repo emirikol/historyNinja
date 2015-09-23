@@ -1,0 +1,11 @@
+name="Byzantine Conquest of Bulgaria"
+casus_belli=cb_core
+ 
+971.6.1={
+	add_attacker=BYZ
+	add_defender=BUL
+}
+1018.6.1={
+	rem_attacker=BYZ
+	rem_defender=BUL
+}

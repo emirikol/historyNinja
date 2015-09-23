@@ -1,0 +1,25 @@
+name="Abassydian War Against Crusaders"
+casus_belli=cb_crusade
+
+#Start
+1098.3.10={		
+	add_attacker=ABB
+	add_defender=JER
+}
+	
+#County of Tripoli
+1102.4.1={
+	add_defender=TRC
+}		
+	
+#County of Eddessa	
+1132.6.1={
+	add_defender=EDE
+}	
+	
+#End
+1150.6.1={	
+	rem_attacker=ABB
+	rem_defender=EDE
+}
+

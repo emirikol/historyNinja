@@ -1,0 +1,16 @@
+name="Bulgarian Trade war against Byzantine Empire"
+casus_belli=cb_core
+
+
+1272.1.1={
+	add_attacker=BUL	
+	add_attacker=MON
+	add_attacker=NAP
+	add_defender=BYZ
+}
+1273.7.1={
+	rem_attacker=BUL
+	rem_attacker=MON
+	rem_attacker=NAP
+	rem_defender=BYZ
+}
