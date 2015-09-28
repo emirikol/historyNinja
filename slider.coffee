@@ -6,7 +6,7 @@ class Slider
       scroll: 'false'
       drag: @selection_changed
     )
-    [@scale, @position] = [0.25, 0]
+    [@scale, @position] = [1.0, 0]
     @input.on('change', @set_marker)#@set_preview)
     @preview.on('wheel', @set_scale)
     @set_preview()
@@ -21,7 +21,10 @@ class Slider
     @input.css(width: "#{100 / @scale}%")
     
   selection_changed: (event, ui) =>
-    offset = ui.position.left / @preview.width() * 100 * (1/@scale)
+    @set_input ui.position.left
+    
+  set_input: (left) =>
+    offset = left / @preview.width() * 100 * (1/@scale)
     @input.css('margin-left', "-#{offset}%")
     
   set_marker: =>
@@ -30,11 +33,10 @@ class Slider
     @marker().css(left: "#{percent}%")
   
   set_scale: (event) => 
-    #console.info event.originalEvent.wheelDeltaY * 0.01
-    scale = @scale + event.originalEvent.wheelDeltaY * 0.0001
-    
+    scale = @scale + event.originalEvent.wheelDeltaY * -0.0001
     @scale = Math.max(Math.min(scale , 1), 0.1)
     @set_preview()
+    @set_input @selection().position().left 
     
 window.Slider = Slider
 window.slider = new Slider($('.slider'));

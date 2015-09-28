@@ -1,9 +1,10 @@
 - province / country panels + better binding (current province + settings)
   - current X changes with time
-- better slider / mobile slider
-- progress bar
+V better slider
+V progress bar, or two
 V vassalage...
 V wars
+- mobile slider
 - edit events
   - edit view
   - set up real server...

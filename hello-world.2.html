@@ -60,12 +60,18 @@
             <div class="marker"></div>
             <div class='selection'></div>
           </div>
-          <input id="date" type="range" step=372 />
+          <input id="date" type="range" step=31 />
         </div>
       </div>
       
       <div class='col-md-12' style='padding:0;height:100%'>
-        <div id='loader' style='position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999;background: url(loading.gif) center no-repeat rgb(25, 31, 38);'></div>
+        <div id='loader'>
+          <div>
+            <div>Loading Map</div>
+            <div class='progress map'><div class='progress-bar'></div></div>
+            <div class='progress cache' data-value=0 ><div class='progress-bar'></div></div>
+          </div>
+        </div>
         <div class="side-bar">
           <div class='side-panel'>
             <div class='header'>
@@ -117,9 +123,16 @@
         </div>
         <div class='placeholder'>
         <script type="text/javascript">
-          var map_loaded = $.get(source+'/after.svg?3333').then(function(x, s){ 
-            $('.placeholder').replaceWith(x.childNodes[0])
-          })
+          var map_loaded = $.ajax({
+             url: source+'/after.svg?3333', /*global source*/
+             xhr: function(x) { 
+               var x = new window.XMLHttpRequest();
+               $(x).on('progress', function (e){ 
+                 $('.map .progress-bar').css({width: e.originalEvent.loaded / e.originalEvent.total * 100 + '%'});
+               });
+               return x  
+             }
+            }).then(function(x, s){ $('.placeholder').replaceWith(x.childNodes[0]) })
           </script>
       </div>
       

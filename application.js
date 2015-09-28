@@ -16,7 +16,11 @@ function cache_provinces(list){
   }
   // console.info(list.length);
   if(list.length > 0) {
-    setTimeout(function(){ cache_provinces(list)  }, 20);
+    var $progress  = $('#loader .cache');
+    var c = parseInt($progress.data('value')) + 25;
+    $progress.data('value', c);
+    $progress.find('.progress-bar').css({width: (c / parseInt($progress.data('max')) * 100).toFixed(2) + '%'});
+    setTimeout(function(){ cache_provinces(list)  }, 30);
   } else {
     $('#loader').remove();
   }
@@ -53,6 +57,8 @@ map_loaded.then(function(){
       provinces = data;
       console.info('foobar');
       test = Object.keys(provinces);
+      $('#loader > div > div:first-child').text('caching provinces');
+      $('#loader .cache').data('max', test.length);
       cache_provinces(test);
       update();
       if(window.location.href.match(/dev/)) {
@@ -199,10 +205,10 @@ map_loaded.then(function(){
   // });
    $('#date').on('keydown', function(e) {
      if (e.shiftKey) $(this).attr('step', 3720);
-     if (e.ctrlKey) $(this).attr('step', 31);
+     if (e.ctrlKey) $(this).attr('step', 372);
      if (e.altKey) $(this).attr('step', 37200);
    }).on('keyup', function(e) {
-     $(this).attr('step', 372)
+     $(this).attr('step', 31)
    }).focus();
 
    $('[data-toggle=editor]').click(function() {
