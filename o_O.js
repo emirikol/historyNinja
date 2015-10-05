@@ -688,8 +688,10 @@ function model(o, proto) {
   o = o || {}
   this.properties = []
   for(var name in o) {
-    model.addProperty(this, name, o[name])
-    model.observeProperty(this, name)
+    if (typeof o[name] != "function") { //TODO: add functions diffirently
+      model.addProperty(this, name, o[name])
+      model.observeProperty(this, name)
+    }
   }
   
   var defaults = this.constructor.defaults

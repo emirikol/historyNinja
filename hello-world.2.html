@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
 <html lang="en-us">
 
 <head>
@@ -78,21 +77,19 @@
               <label for='date'></label>
             </div>
           </div>
+          
+          <div data-template="data_panel" />
+          
           <div class='side-panel country-info closed'>
             <div class='header'>
               <label class="foo" data-value='country.name'>-----</label>
               <label class="editor">Country</label>
             </div>
             <table class='table'>
-              <tr data-template="data_row" data-path="country.ruler" />
-              <tr data-template="data_row" data-path="country.gov" />
-              <tr data-template="data_row" data-path="country.wars" />
-              <tr data-template="data_row" data-path="country.suzerain" />
-              <tr data-template="data_row" data-path="country.clients" />
-              <tr data-template="data_row" data-path="province.culture" />
-              <tr data-template="data_row" data-path="province.religion" />
             </table>
           </div>
+          
+          
         
           <div class='side-panel editor'>
             <div class='header'>
@@ -140,27 +137,28 @@
   </div>
   <div id="templates" style="display:none">
     <table>
-      <tbody id="data_row">
-        <tr data-bind="class: state()">
-          <th data-bind="text: name()"></th>
-          <td data-bind='data-value: path()'></td>
-          <td class="editor">
-            <div class="btn-group" data-toggle="buttons">
-              <label data-bind="class: (state() == 'on' ? 'active' : '') + ' btn btn-xs btn-default'" >
-                <input type="radio" data-bind="name: path(); value: state" value="on"> Show
-              </label>
-              <label data-bind="class: (state() == 'off' ? 'active' : '') + ' btn btn-xs btn-default'">
-                <input type="radio" data-bind="name: path(); value: state" value="off"> Hide
-              </label>
-            </div>
-          </td>
-        </tr>
-      </tbody>
+  <tbody id="data_row">
+    <tr data-bind="class: state()">
+      <th data-bind="text: name()"></th>
+      <td data-value="grr" data-bind='text: foobar'></td>
+      <td class="editor">
+        <div class="btn-group" data-toggle="buttons">
+          <label data-bind="class: (state() == 'on' ? 'active' : '') + ' btn btn-xs btn-default'" >
+            <input type="radio" data-bind="name: path(); value: state" value="on"> Show
+          </label>
+          <label data-bind="class: (state() == 'off' ? 'active' : '') + ' btn btn-xs btn-default'">
+            <input type="radio" data-bind="name: path(); value: state" value="off"> Hide
+          </label>
+        </div>
+      </td>
+    </tr>
+  </tbody>
     </table>
   </div>
 
   <script type="text/javascript" src="application.js" ></script>
   <script type="text/coffeescript" src="slider.coffee" ></script>
+  <script type="text/coffeescript" src="data_row.coffee" ></script>
   <script type="text/javascript" src="coffee-script.js"></script>
 </body>
 </html>

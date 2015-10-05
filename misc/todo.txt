@@ -1,5 +1,8 @@
 - province / country panels + better binding (current province + settings)
   - current X changes with time
+  - possibilities
+    - tranfer data into setting hashes, so that same object is synched
+    - calculated porperties, delegate to current_province (or current_province which delegates to province & settings )
 V better slider
 V progress bar, or two
 V vassalage...
@@ -10,6 +13,7 @@ V wars
   - set up real server...
   - users??
   - create patch or pull request
+  - data sources
   - split events into files for easier merging, merge after every patch
   - what about maps???
 
@@ -53,10 +57,9 @@ V ios support
   V working pan/zoom
   - no scale tips
 - other data sources
-  - flexible converter
-    - progress reporting for conversions
   - side by side sources
   - calculate events range
+  - slider support
 - design
   - loading screen
 - performace
@@ -125,3 +128,46 @@ timeout =>
     update current time
     update date display?
   set timeout
+  
+  
+  
+  
+model
+attribute
+record
+settings
+
+settings->model->attribute->VALUE
+model->record->attribute->VALUE
+
+# single model approach
+Settings | global
+ 
+Box
+  *record
+  ?model
+
+Attribute
+  name
+  current_record
+  settings
+  #setting_value
+  #record_value
+  
+current_province = Box.new('province')
+current_province.attribute_watcher('foobar')
+
+#two-model approach
+function meta_template(model, attribute) {
+  return function template(box) {
+    ...
+  } 
+}
+
+meta('province', 'foobar')(current_provice)
+
+#but I could theortically create a box register and be fine with
+meta('province', 'foobar') =>
+  template('province', 'foobar').bind(Register['province'])
+  
+# I kind of wonder how it would look explicitly written...

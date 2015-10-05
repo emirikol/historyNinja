@@ -1,7 +1,10 @@
-provinces = {};
+provinces = {}; $countries = {}; $wars = {};
 map = null;
-countries = $.getJSON(source+'/countries.json?7').then(function(d){ return d });
-wars = $.getJSON(source+'/wars.json').then(function(d){ return d });
+country_ds = $.getJSON(source+'/countries.json?7').then(function(data){
+  var country_defaults = {monarch: null, war: [], client: [], suzerain: null};
+  $.each(Object.keys(data), function(i,k){ $countries[k] = o_O.model($.extend({}, country_defaults, data[k])) });
+});
+war_ds = $.getJSON(source+'/wars.json').then(function(data){ $wars = data; });
 annals = $.getJSON(source+'/zipped_history.json?4').then(function(d){ return d });
 current_time = parseInt($('#date').val());
 $('label[for=date]').html(seconds_to_date(current_time)); 
@@ -9,8 +12,8 @@ $('label[for=date]').html(seconds_to_date(current_time));
 function cache_provinces(list){
   var i = 0;
   for(var pid = list.pop();i < 25 && list.length > 0; pid = list.pop()) {
-    if(!provinces[parseInt(pid)].path) {
-      provinces[parseInt(pid)].path =  $('path[data-province='+pid+']', map);
+    if(!provinces[parseInt(pid)].path()) {
+      provinces[parseInt(pid)].path( $('path[data-province='+pid+']', map) );
       i += 1;
     }
   }
@@ -54,7 +57,8 @@ map_loaded.then(function(){
     svgPanZoom('svg',pan_zoom_options);
   
     $.getJSON(source+'/provinces.json?3').then(function(data){
-      provinces = data;
+      $.each(Object.keys(data), function(i,k){ provinces[k] = o_O.model($.extend({path: null, culture: null, religion: null}, data[k])) });
+      
       console.info('foobar');
       test = Object.keys(provinces);
       $('#loader > div > div:first-child').text('caching provinces');
@@ -76,29 +80,19 @@ map_loaded.then(function(){
     $(map).on('click , touchend', 'path', function() {
       if (pan) return;
       var el = this;
-      $.when(countries, wars).done(function(cs, ws) {
-        var c = cs[$(el).attr('owner')];
+      $.when(country_ds, war_ds).done(function() {
+        var c = $countries[$(el).attr('owner')];
         var p = provinces[$(el).data('province')];
+        $current_record.province(p);
+        $current_record.country(c);
         // $('.foo').text(c ? c.name : 'There be dragons');
         if(c) {
           $('.side-panel.country-info').removeClass('closed');
           $('.foo').html($('<a>').attr('target', '_blank').text(c.name).attr('href', 'https://en.wikipedia.org?search=' + c.name));
-          $('[data-value="country.gov"]').text(c.gov);
-          $('[data-value="country.suzerain"]').text(c.suzerain ? cs[c.suzerain].name : '');
-          $('[data-value="country.clients"]').text(c.client ? c.client.map(function(s){ return cs[s].name }).join(', ') : '');
-          $('[data-value="country.wars"]').text(c.war ? c.war.map(function(s){ return ws[s].name }).join(', ') : '');
-          $('[data-value="country.ruler"]').text(c.monarch || 'N/A');
         } else {
           // $('.side-panel.country-info').addClass('closed');
           $('.foo').text('------');
-          $('[data-value="country.gov"]').text('------');
-          $('[data-value="country.suzerain"]').text('------');
-          $('[data-value="country.clients"]').text('------');
-          $('[data-value="country.wars"]').text('------');
-          $('[data-value="country.ruler"]').text('------');
         }
-        $('[data-value="province.culture"]').text(p ? p.culture.replace(/_/g, ' ') : '');
-        $('[data-value="province.religion"]').text(p ? p.religion.replace(/_/g, ' ') : '');
       })
     }).on('click , touchend', function(e) {
       if (!pan && !$(e.target).is('path')) {
@@ -141,37 +135,37 @@ map_loaded.then(function(){
     }
     
     function progress(target_time) {
-      $.when(countries, annals).done(function(cs, an) {
+      $.when(country_ds, annals).done(function(_, an) {
         var delta = current_time < target_time ? 1 : -1;
         var index = current_time < target_time ? 0 : 1;
         var update_country_array_attr = function(country, attr, event){
           if(!event[attr]) return;
-          if(!country[attr]) country[attr] = [];
+          if(!country[attr]() ) country[attr]( [] );
           if(event[attr][index]) {
-            country[attr].push(event[attr][index]) 
+            country[attr]().push(event[attr][index]) 
           } else {
-            country[attr] = country[attr].filter(function(c){ return c != event[attr][index + delta] })
+            country[attr]( country[attr]().filter(function(c){ return c != event[attr][index + delta] }) )
           }
         }
         var apply_event = function(event) {
           if(event.id) {
             var owner_code = delta > 0 ? event.owner : event.pre_owner;
-            var owner = cs[owner_code] || {};
+            var owner = $countries[owner_code] || {};
             $.each(event.id, function(i, e) {
               var id = parseInt(e);
-              if (!provinces[id].path) provinces[parseInt(id)].path = $('path[data-province=' + id + ']', map);
+              if (!provinces[id].path()) provinces[parseInt(id)].path( $('path[data-province=' + id + ']', map) );
               var province = provinces[parseInt(id)];
-              if(event.culture) province.culture = event.culture[index];
-              if(event.religion) province.religion = event.religion[index];
-              if(event.owner) province.path.attr('owner', owner_code).css('fill', owner.color || '#999999');
+              if(event.culture) province.culture( event.culture[index] );
+              if(event.religion) province.religion( event.religion[index] );
+              if(event.owner) province.path().attr('owner', owner_code).css('fill', owner.color || '#999999');
             });
           } else {
-            var country = cs[event.code];
-            if(event.gov) country['gov'] = event.gov[index];
-            if(event.monarch) country['monarch'] = event.monarch[index];
+            var country = $countries[event.code];
+            if(event.gov) country.gov( event.gov[index] );
+            if(event.monarch) country.monarch( event.monarch[index] );
             if(event.suzerain) {
-             country['suzerain'] = event.suzerain[index];
-             var color = country['suzerain'] ? cs[country['suzerain']].color : country.color;
+             country.suzerain( event.suzerain[index] );
+             var color = country.suzerain() ? $countries[country.suzerain()].color() : country.color();
              $('path[owner='+event.code+']').css('fill', color);
             }
             update_country_array_attr(country, 'client', event);
@@ -216,51 +210,6 @@ map_loaded.then(function(){
      $(this).toggleClass('active', $('body').is('.edit'));
    });
    
-   
-  
-
-  settings = [
-    o_O.model({
-      path: 'country.ruler',
-      name: 'Ruler',
-      state: "on"
-    }),
-    o_O.model({
-      path: 'country.gov',
-      name: 'Goverment',
-      state: "off"
-    }),
-    o_O.model({
-      path: 'country.wars',
-      name: 'Wars',
-      state: "off"
-    }),
-    o_O.model({
-      path: 'country.suzerain',
-      name: 'Suzerain',
-      state: "off"
-    }),
-    o_O.model({
-      path: 'country.clients',
-      name: 'Client States',
-      state: "off"
-    }),
-    o_O.model({
-      path: 'province.culture',
-      name: 'Culture',
-      state: "off"
-    }),
-    o_O.model({
-      path: 'province.religion',
-      name: 'Religion',
-      state: "on"
-    })
-  ];
-
-  $.each(settings, function(i, s){
-    o_O.bind(s, $('#templates #data_row > *').clone().replaceAll('[data-path='+s.path+']') )
-  });
-
 
 
   // function apply_settings() {
@@ -283,5 +232,4 @@ map_loaded.then(function(){
   //     apply_settings();
   // });
   // apply_settings();
-   
    
