@@ -1,5 +1,0 @@
-discovered_by=near_east
-discovered_by=indian
-discovered_by=african
-
-630.6.1={discovered_by=muslim}

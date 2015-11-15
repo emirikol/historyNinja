@@ -1,9 +1,0 @@
-name="Second Kiev Rus raid against Roman Empire Years War"
-casus_belli=cb_trade_war
-
-944.6.1={add_attacker=KIV
-add_defender=BYZ}
-
-# Peace of Constantinopol
-944.10.31={rem_attacker=KIV
-rem_defender=BYZ}

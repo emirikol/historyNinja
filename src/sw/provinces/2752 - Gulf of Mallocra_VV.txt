@@ -1,8 +1,0 @@
-discovered_by=RME
-discovered_by=eastern
-discovered_by=african
-discovered_by=RMP
-
-350.5.1={discovered_by=eastern discovered_by=BYZ}
-630.6.1={discovered_by=muslim}
-843.6.1={discovered_by=latin}

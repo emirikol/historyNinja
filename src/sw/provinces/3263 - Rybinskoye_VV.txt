@@ -1,3 +1,0 @@
-discovered_by=eastern
-discovered_by=FTP
-discovered_by=PHU

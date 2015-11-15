@@ -1,8 +1,0 @@
-discovered_by=eastern
-discovered_by=RME
-discovered_by=RMP
-discovered_by=KUN
-discovered_by=SUE
-discovered_by=VES
-
-843.6.1={discovered_by=latin}

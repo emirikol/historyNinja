@@ -1,5 +1,0 @@
-discovered_by=eastern
-discovered_by=FTP
-
-400.1.1={discovered_by=VIK}
-843.6.1={discovered_by=latin}

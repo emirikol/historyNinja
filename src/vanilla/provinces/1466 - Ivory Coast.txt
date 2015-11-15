@@ -1,2 +1,0 @@
-discovered_by = OYO
-1471.1.1 = { discovered_by = POR }

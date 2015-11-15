@@ -1,2 +1,0 @@
-discovered_by=new_world
-discovered_by=SUS

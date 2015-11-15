@@ -1,2 +1,0 @@
-discovered_by=CBC
-discovered_by=TAE

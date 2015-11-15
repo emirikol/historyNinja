@@ -1,3 +1,0 @@
-discovered_by = LOA
-discovered_by = KON
-1472.1.1 = { discovered_by = POR }

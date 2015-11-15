@@ -1,4 +1,0 @@
-discovered_by=chinese
-discovered_by=african
-
-950.6.1={discovered_by=muslim}

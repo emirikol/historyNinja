@@ -1,3 +1,0 @@
-#1781 - Karakoram
-
-discovered_by = nomad_group

@@ -1,7 +1,0 @@
-discovered_by=ABE
-discovered_by=ARR
-discovered_by=KHK
-discovered_by=WKY
-discovered_by=KOI
-discovered_by=WIR
-1890.1.1={discovered_by=latin}

@@ -1,1 +1,0 @@
-discovered_by=XIO1650.6.1={discovered_by=RUS}

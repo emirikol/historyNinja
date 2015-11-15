@@ -1,3 +1,0 @@
-#1781 - Western Siberia
-
-discovered_by = nomad_group

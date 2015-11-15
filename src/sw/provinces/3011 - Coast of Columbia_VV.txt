@@ -1,3 +1,0 @@
-discovered_by=new_world
-discovered_by=PEO
-discovered_by=COK

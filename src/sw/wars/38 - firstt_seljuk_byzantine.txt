@@ -1,7 +1,0 @@
-name="First Seljuk-Byzantine War"
-casus_belli=cb_conquest
-1065.2.1={add_attacker=SEJ
-		add_defender=BYZ}
-
-1065.11.1={rem_attacker=SEJ
-		rem_defender=BYZ}

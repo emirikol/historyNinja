@@ -1,7 +1,0 @@
-discovered_by=CEM
-discovered_by=MOJ
-discovered_by=YKT
-
-1679.1.1={discovered_by=SPA}
-1700.6.1={discovered_by=CAS discovered_by=MEX}
-1800.6.1={discovered_by=latin}

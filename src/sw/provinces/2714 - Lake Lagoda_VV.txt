@@ -1,4 +1,0 @@
-discovered_by=FTP
-discovered_by=eastern
-
-843.6.1={discovered_by=latin}
