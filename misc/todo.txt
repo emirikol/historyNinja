@@ -1,8 +1,5 @@
 - province / country panels + better binding (current province + settings)
   - current X changes with time
-  - possibilities
-    - tranfer data into setting hashes, so that same object is synched
-    - calculated porperties, delegate to current_province (or current_province which delegates to province & settings )
 V better slider
 V progress bar, or two
 V vassalage...

@@ -1,8 +1,11 @@
 provinces = {}; $countries = {}; $wars = {};
 map = null;
+$coffee = $.Deferred();
+$country_defaults = function() { return {monarch: null, war: [], client: [], suzerain: null, color: null, name: null} };
 country_ds = $.getJSON(source+'/countries.json?7').then(function(data){
-  var country_defaults = {monarch: null, war: [], client: [], suzerain: null};
-  $.each(Object.keys(data), function(i,k){ $countries[k] = o_O.model($.extend({}, country_defaults, data[k])) });
+  $.when($coffee).then(function(){
+    $.each(Object.keys(data), function(i,k){ $countries[k] = Model($.extend({}, $country_defaults(), data[k])) });
+  });
 });
 war_ds = $.getJSON(source+'/wars.json').then(function(data){ $wars = data; });
 annals = $.getJSON(source+'/zipped_history.json?4').then(function(d){ return d });
@@ -10,14 +13,17 @@ current_time = parseInt($('#date').val());
 $('label[for=date]').html(seconds_to_date(current_time)); 
 
 function cache_provinces(list){
-  var i = 0;
-  for(var pid = list.pop();i < 25 && list.length > 0; pid = list.pop()) {
-    if(!provinces[parseInt(pid)].path()) {
-      provinces[parseInt(pid)].path( $('path[data-province='+pid+']', map) );
-      i += 1;
+  list.each(function(){
+    var pid = $(this).data('province');
+    if(!pid) return;
+    pid = parseInt(pid);
+    if(provinces[pid]) {
+      var path = provinces[pid].path();
+      provinces[pid].path( path ? path.add(this) : $(this)  );
     }
-  }
-  // console.info(list.length);
+  });
+  $('#loader').remove();
+  /* console.info(list.length);
   if(list.length > 0) {
     var $progress  = $('#loader .cache');
     var c = parseInt($progress.data('value')) + 25;
@@ -26,7 +32,7 @@ function cache_provinces(list){
     setTimeout(function(){ cache_provinces(list)  }, 30);
   } else {
     $('#loader').remove();
-  }
+  }*/
 }
     
     
@@ -57,21 +63,23 @@ map_loaded.then(function(){
     svgPanZoom('svg',pan_zoom_options);
   
     $.getJSON(source+'/provinces.json?3').then(function(data){
-      $.each(Object.keys(data), function(i,k){ provinces[k] = o_O.model($.extend({path: null, culture: null, religion: null}, data[k])) });
-      
-      console.info('foobar');
-      test = Object.keys(provinces);
-      $('#loader > div > div:first-child').text('caching provinces');
-      $('#loader .cache').data('max', test.length);
-      cache_provinces(test);
-      update();
-      if(window.location.href.match(/dev/)) {
-        annals.then(function(){ $('#loader').remove()   });  
-      }
-      annals.then(function(events){ 
-        var min = parseInt(events.filter(function(e){ return e.owner })[0].time);
-        $('#date').attr('min', min).val(min).attr('max', parseInt(events.slice(0).reverse()[0].time));
-      });  
+      $.when($coffee).then(function(){
+        $.each(Object.keys(data), function(i,k){ provinces[k] = Model($.extend({path: null, culture: null, religion: null}, data[k])) });
+        
+        console.info('foobar');
+        test = $('path[data-province]', map);
+        $('#loader > div > div:first-child').text('caching provinces');
+        // $('#loader .cache').data('max', test.length);
+        cache_provinces(test);
+        update();
+        if(window.location.href.match(/dev/)) {
+          annals.then(function(){ $('#loader').remove()   });  
+        }
+        annals.then(function(events){ 
+          var min = parseInt(events.filter(function(e){ return e.owner })[0].time);
+          $('#date').attr('min', min).val(min).attr('max', parseInt(events.slice(0).reverse()[0].time));
+        });
+      });
     });
     
     
@@ -81,17 +89,16 @@ map_loaded.then(function(){
       if (pan) return;
       var el = this;
       $.when(country_ds, war_ds).done(function() {
-        var c = $countries[$(el).attr('owner')];
+        var c = $countries[$(el).attr('owner')] || $country_defaults();
         var p = provinces[$(el).data('province')];
         $current_record.province(p);
         $current_record.country(c);
         // $('.foo').text(c ? c.name : 'There be dragons');
         if(c) {
           $('.side-panel.country-info').removeClass('closed');
-          $('.foo').html($('<a>').attr('target', '_blank').text(c.name).attr('href', 'https://en.wikipedia.org?search=' + c.name));
+          //$('.foo').html($('<a>').attr('target', '_blank').text(c.name()).attr('href', 'https://en.wikipedia.org?search=' + c.name()));
         } else {
           // $('.side-panel.country-info').addClass('closed');
-          $('.foo').text('------');
         }
       })
     }).on('click , touchend', function(e) {
@@ -140,9 +147,10 @@ map_loaded.then(function(){
         var index = current_time < target_time ? 0 : 1;
         var update_country_array_attr = function(country, attr, event){
           if(!event[attr]) return;
-          if(!country[attr]() ) country[attr]( [] );
+          if(!country[attr]() ) country[attr]( new Array(0) ); // unused atm
           if(event[attr][index]) {
             country[attr]().push(event[attr][index]) 
+            country[attr]._dep.changed();
           } else {
             country[attr]( country[attr]().filter(function(c){ return c != event[attr][index + delta] }) )
           }
@@ -150,14 +158,14 @@ map_loaded.then(function(){
         var apply_event = function(event) {
           if(event.id) {
             var owner_code = delta > 0 ? event.owner : event.pre_owner;
-            var owner = $countries[owner_code] || {};
+            var owner = $countries[owner_code] || Model($country_defaults());
             $.each(event.id, function(i, e) {
               var id = parseInt(e);
               if (!provinces[id].path()) provinces[parseInt(id)].path( $('path[data-province=' + id + ']', map) );
               var province = provinces[parseInt(id)];
               if(event.culture) province.culture( event.culture[index] );
               if(event.religion) province.religion( event.religion[index] );
-              if(event.owner) province.path().attr('owner', owner_code).css('fill', owner.color || '#999999');
+              if(event.owner) province.path().attr('owner', owner_code).css('fill', owner.color() || '#999999');
             });
           } else {
             var country = $countries[event.code];
@@ -199,7 +207,7 @@ map_loaded.then(function(){
   // });
    $('#date').on('keydown', function(e) {
      if (e.shiftKey) $(this).attr('step', 3720);
-     if (e.ctrlKey) $(this).attr('step', 372);
+     if (e.ctrlKey || e.metaKey) $(this).attr('step', 372);
      if (e.altKey) $(this).attr('step', 37200);
    }).on('keyup', function(e) {
      $(this).attr('step', 31)
@@ -216,7 +224,7 @@ map_loaded.then(function(){
   //   $('.hinter').toggle(settings.show_slider_hint);
   //   $('[name=show_slider_hint]').prop('checked', settings.show_slider_hint); //initial load
   //   $.each(settings,function(k,v){
-  //     $('[data-value="'+k+'"]').closest('tr').toggleClass('off', !v)
+  //     $('[model="'+k+'"]').closest('tr').toggleClass('off', !v)
   //   });
   // };
   // $('[name=show_slider_hint]').change(function() {

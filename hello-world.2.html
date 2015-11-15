@@ -10,12 +10,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/application.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
-<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" ></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 <script type="text/javascript" src="/svg-pan-zoom.min.js" ></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js" ></script>
 <script type="text/javascript" src="/hammer.min.js" ></script>
-<script type="text/javascript" src="/o_O.js" ></script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" type="text/css" />
 </head>
@@ -24,6 +22,7 @@
   <script type="text/javascript" >window.source = 'sw';</script>
   <nav class="navbar navbar-inverse">
     <i class='item fa fa-wrench' data-toggle='editor'></i>
+    <i class='item fa fa-info' data-toggle='modal' data-target='#about'></i>
     <div class="container text-center">
       There Be Dragons
     </div>
@@ -54,8 +53,8 @@
             <div class="century">1500</div>
             <div class="century">1600</div>
             <div class="century">1700</div>
+            <div class="century">1800</div>
             <div class="century">1900</div>
-            <div class="century">2000</div>
             <div class="marker"></div>
             <div class='selection'></div>
           </div>
@@ -68,7 +67,7 @@
           <div>
             <div>Loading Map</div>
             <div class='progress map'><div class='progress-bar'></div></div>
-            <div class='progress cache' data-value=0 ><div class='progress-bar'></div></div>
+            <!--<div class='progress cache' data-value=0 ><div class='progress-bar'></div></div>-->
           </div>
         </div>
         <div class="side-bar">
@@ -77,47 +76,46 @@
               <label for='date'></label>
             </div>
           </div>
-          
-          <div data-template="data_panel" />
-          
-          <div class='side-panel country-info closed'>
-            <div class='header'>
-              <label class="foo" data-value='country.name'>-----</label>
-              <label class="editor">Country</label>
-            </div>
-            <table class='table'>
-            </table>
-          </div>
-          
-          
         
-          <div class='side-panel editor'>
-            <div class='header'>
-              <label>Settings</label>
-            </div>
-            <div class='body'>
-              <form class="form-horizontal">
-                <div class="form-group">
-                  <div class="col-sm-12">
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox" name="show_slider_hint" checked/> Show slider hint
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group ">
-                  <label class="col-sm-4">Data source</label>
-                  <div class="col-sm-8">
-                    <select class="form-control input-sm">
-                      <option>Default</option>
-                    </select>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+        
+          <!--<div class='side-panel country-info closed'>-->
+          <!--  <div class='header'>-->
+          <!--    <label class="foo" data-value='country.name'>-----</label>-->
+          <!--    <label class="editor">Country</label>-->
+          <!--  </div>-->
+          <!--  <table class='table'>-->
+          <!--    <tbody></tbody>-->
+          <!--  </table>-->
+          <!--</div>-->
+
+          <!--<div class='side-panel editor'>-->
+          <!--  <div class='header'>-->
+          <!--    <label>Settings</label>-->
+          <!--  </div>-->
+          <!--  <div class='body'>-->
+          <!--    <form class="form-horizontal">-->
+          <!--      <div class="form-group">-->
+          <!--        <div class="col-sm-12">-->
+          <!--          <div class="checkbox">-->
+          <!--            <label>-->
+          <!--              <input type="checkbox" name="show_slider_hint" checked/> Show slider hint-->
+          <!--            </label>-->
+          <!--          </div>-->
+          <!--        </div>-->
+          <!--      </div>-->
+          <!--      <div class="form-group ">-->
+          <!--        <label class="col-sm-4">Data source</label>-->
+          <!--        <div class="col-sm-8">-->
+          <!--          <select class="form-control input-sm">-->
+          <!--            <option>Default</option>-->
+          <!--          </select>-->
+          <!--        </div>-->
+          <!--      </div>-->
+          <!--    </form>-->
+          <!--  </div>-->
+          <!--</div>-->
         </div>
+        
         <div class='placeholder'>
         <script type="text/javascript">
           var map_loaded = $.ajax({
@@ -135,30 +133,94 @@
       
     </div>
   </div>
-  <div id="templates" style="display:none">
-    <table>
-  <tbody id="data_row">
-    <tr data-bind="class: state()">
-      <th data-bind="text: name()"></th>
-      <td data-value="grr" data-bind='text: foobar'></td>
-      <td class="editor">
-        <div class="btn-group" data-toggle="buttons">
-          <label data-bind="class: (state() == 'on' ? 'active' : '') + ' btn btn-xs btn-default'" >
-            <input type="radio" data-bind="name: path(); value: state" value="on"> Show
-          </label>
-          <label data-bind="class: (state() == 'off' ? 'active' : '') + ' btn btn-xs btn-default'">
-            <input type="radio" data-bind="name: path(); value: state" value="off"> Hide
-          </label>
+  <div class="modal" id="about">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="pull-right btn btn-xs btn-default" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">About</h4>
         </div>
-      </td>
-    </tr>
-  </tbody>
-    </table>
+        <div class="modal-body">
+          <p>
+            What you see before you is an interactive historical atlas.
+            It shows how the world looked at a certain point in time, displayed on at the top left. You can drag the map aroud or zoom in and out to a certain extent.<br />
+            Move the slider below to travel through time, once the slider is in focus the left and right arrow keys can be used to jump a single month per stroke.
+            combine with ctrl(or cmd), shift, alt to jump a year, a decade or century at a time instead. <br />
+            You can also use the mousewheel on the explorer at the top of the slider to focus in or out on specific eras.
+            When focused in, you can then drag around the selection.<br />
+            Click on the province to see information about it and the contry "currently" in control of it.<br />
+            Click on the wrenth icon to choose what information you wish displayed
+          </p>
+          <h3>How accurate is the info presented?</h3>
+          <p>
+            Much less than wikipedia, since this project is still in a beta phase I just took whatever data was available and threw it togather.
+            as can be expected, the more recent and more europe-centered the data is, the more precise it is likely to be.
+          </p>
+          <h3>What's the roadmap></h3>
+          in no particular order
+          <ul>
+            <li>Sharing & embedding: share a specific time and place, allowing time to auto-progress</li>
+            <li>Open things up: allow anyone to submit corrections. hopefully make it open enough to support variations; from a map focusing on an day-by-day progression of WWII in europe to a timeline of Middle-earth</li>
+            <li>More mobile friendliness</li>
+            <li>Flexible data model: maybe not complete freedom, but it should be easy to add new dimestions of metadata, or color the map according to anything one sees fit</li>
+            <li>Timeline: show at the bottom things that are more connected to time than place. lifetimes of artists, wars, artistic style periods, inventions, archiological findings, stuff like that.</li>
+          </ul>
+          <h3>Support?</h3>
+          <p>
+            factual corrections will be ignored at this point (see roadmap above)<br />
+            you may motivate me by sending feedback to [shoefish at gmail you-know-the-rest]<br />
+            or guilt me into developing quicker by <a target="blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=B97W9UNVLMTGS&lc=IL&item_name=history%20ninja&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted">donating</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
-
+  <script type="text/spacebars" name="data_row">
+   <tr class="{{state}}">
+     <th>{{name}}</th>
+     <td data-value="grr">{{formatted_value}}</td>
+     <td class="editor">
+      <div class="btn-group" data-toggle="buttons">
+        <label class="{{ string_if 'active' is_checked  }} btn btn-xs btn-default" >
+          <input type="radio" name="{{path}}" value="on" {{ string_if 'checked' is_checked  }}> Show
+        </label>
+        <label class="{{ string_unless 'active' is_checked }} btn btn-xs btn-default" >
+          <input type="radio" name="{{path}}" value="off" {{ string_unless 'checked' is_checked  }}> Hide
+        </label>
+      </div>
+     </td>
+   </tr>
+  </script>
+  <script type="text/spacebars" name="country_panel">
+    <div class='side-panel country-info {{ state }}'>
+      <div class='header'>
+        <label data-value="grr">{{ formatted_value }}</label>
+        <label class="editor">Country</label>
+      </div>
+      <table class='table'>
+        <tbody></tbody>
+      </table>
+    </div>
+  </script>
+  <script type="text/spacebars" name="province_panel">
+    <div class='side-panel province-info {{ state }}'>
+      <div class='header'>
+        <label>Province</label>
+      </div>
+      <table class='table'>
+        <tbody></tbody>
+      </table>
+    </div>
+  </script>
+  <script type="text/javascript" src="//meteor.github.io/blaze/blaze-0.1.js" ></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" ></script>
   <script type="text/javascript" src="application.js" ></script>
   <script type="text/coffeescript" src="slider.coffee" ></script>
   <script type="text/coffeescript" src="data_row.coffee" ></script>
   <script type="text/javascript" src="coffee-script.js"></script>
+  
 </body>
 </html>

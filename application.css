@@ -8,8 +8,14 @@
    font-family: "chintz" "Georgia" "sans-serif";
    letter-spacing: 0.2em;
  }
+ .modal-content {
+  background-color: rgba(0, 0, 0, 0.5); 
+ }
  a {
    color: #39FFF6;
+ }
+ p {
+  font-family: ve;
  }
  body:not(.edit) .editor, body:not(.edit) .off {
    display: none;

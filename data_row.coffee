@@ -1,70 +1,121 @@
 """
-<div id="data_panel">
-  <div data-bind="class: [state(), key(), 'side-panel'].join(' ')">
+-- province_panel
+  <div class='side-panel province-info {{ state }}'>
     <div class='header'>
-      <label data-bind="text: value()">-----</label>
-      <label class="editor" data-bind="text: name()"></label>
+      <label data-value="grr">Province</label>
+      <label class="editor">Country</label>
     </div>
     <table class='table'>
+      <tbody></tbody>
     </table>
   </div>
+-- country_panel
+  <div class='side-panel country-info {{ state }}'>
+    <div class='header'>
+      <label data-value="grr">{{ formatted_value }}</label>
+      <label class="editor">Country</label>
+    </div>
+    <table class='table'>
+      <tbody></tbody>
+    </table>
+  </div>
+-- 
+
+  
+-- data_row  
+ <tr class="{{state}}">
+   <th>{{name}}</th>
+   <td data-value="grr">{{formatted_value}}</td>
+   <td class="editor">
+    <div class="btn-group" data-toggle="buttons">
+      <label class="{{ string_if 'active' is_checked  }} btn btn-xs btn-default" >
+        <input type="radio" name="{{path}}" value="on" {{ string_if 'checked' is_checked  }}> Show
+      </label>
+      <label class="{{ string_unless 'active' is_checked }} btn btn-xs btn-default" >
+        <input type="radio" name="{{path}}" value="off" {{ string_unless 'checked' is_checked  }}> Hide
+      </label>
+    </div>
+   </td>
+ </tr>
 """
 
-"""
-  <tbody id="data_row">
-    <tr data-bind="class: this().state()">
-      <th data-bind="text: name()"></th>
-      <td data-bind='text: value()'></td>
-      <td class="editor">
-        <div class="btn-group" data-toggle="buttons">
-          <label data-bind="class: (this().state() == 'on' ? 'active' : '') + ' btn btn-xs btn-default'" >
-            <input type="radio" data-bind="name: path(); value: state" value="on"> Show
-          </label>
-          <label data-bind="class: (this().state() == 'off' ? 'active' : '') + ' btn btn-xs btn-default'">
-            <input type="radio" data-bind="name: path(); value: state" value="off"> Hide
-          </label>
-        </div>
-      </td>
-    </tr>
-  </tbody>
-"""
+Deps = Package.deps.Deps;
+bind = (fn, me) -> -> fn.apply me, arguments
 
-# box = o_O.model({prov: o_O.model({x: 6}), cou: o_O.model({x: 2})});
+UI.registerHelper 'string_unless', (string, bool) ->
+  if bool then '' else string
+UI.registerHelper 'string_if', (string, bool) ->
+  if bool then string else ''
+
+
+Model = (obj) ->
+   model = {} 
+   $.each(obj, (k,inital_val)->
+      if(typeof inital_val== "function") 
+       model[k] = inital_val
+       return
+      model[k] = attribute = (new_val)->
+        if(typeof new_val == "undefined") 
+          attribute._dep.depend()
+          attribute._value
+        else
+          return new_val if (attribute._value == new_val)
+          attribute._dep.changed();
+          attribute._value = new_val
+      attribute._dep = new Deps.Dependency
+      attribute._value = inital_val
+   )
+   $.each(obj.constructor.prototype, (k,v)->
+     model[k] = bind(v, model);
+   )
+   model
+window.Model = Model
 
 class Arrow
   constructor: ->
-    @province = o_O.model(path: null, id: null, culture: null, religion: null)
-    @country = o_O.model(ruler: null, name: null, code: null, gov: null, wars: null, suzerain: null, client: null)
+    @province = Model(path: null, id: null, culture: null, religion: null)
+    @country  = Model(monarch: null, name: null, code: null, gov: null, war: null, suzerain: null, client: null, color: null)
   current_country: ->
     this.country()
   current_province: ->
     this.province()
-window['$current_record'] =  o_O.model(new Arrow(), Arrow.prototype);
+window['$current_record'] =  Model(new Arrow());
 
 class Attribute
-  constructor: ({@model, @key, @name, @state}) ->
+  constructor: ({@model, @key, @name, @state, @format, @default}) ->
     @state ?= 'off'
-    @format = null
-  @model: (arg) ->
-    model = o_O.model(new @(arg), @.prototype)
-    model.format( arg.format ) if(arg.format)
-    return model
-  foobar: -> 
-    $current_record[@model()]()[@key()]
+    @format ?= (val)-> val;
+  value: -> 
+    @_current_record()[@key()]?() || @default()
+  formatted_value: ->
+    @format(@value())
   path: ->
     "#{@model()}.#{@key()}"
+  is_checked: -> 
+    @state() == 'on'
   _current_record: ->
     $current_record[@model()]()
 
 window.Attribute = Attribute
   
-settings = [
+
+country_panel = Model(new Attribute(model: 'country',    key: 'name', state: "on", default: "--------"))
+UI.insert(UI.renderWithData(Template.country_panel, country_panel), $('.side-bar')[0]) 
+
+province_panel = Model(state: 'on')
+UI.insert(UI.renderWithData(Template.province_panel, country_panel), $('.side-bar')[0]) 
+
+#{ (v||[]).map((s)->{ $wars[s].name }).join(', ') : '' } 
+row_settings = [
   {    model: 'country',    key: 'monarch',     name: 'Ruler', state: "on"  },
   {    model: 'country',    key: 'gov',       name: 'Government' },
-  {    model: 'country',    key: 'wars',      name: 'Wars', }, #format: -> { (@value()||[]).map((s)->{ $wars[s].name }).join(', ') : '' } },
+  {    
+       model: 'country',    key: 'war',      name: 'Wars',
+       format: (v)-> (v||[]).map((s)->$wars[s].name).join(', ')
+  },
   {    model: 'country',    key: 'suzerain',  name: 'Suzerain',  },
-  {    model: 'country',    key: 'clients',   name: 'Client States',  },
-  {    model: 'province',   key: 'culture',   name: 'Culture',  },
+  {    model: 'country',    key: 'client',   name: 'Client States',  },
+  {    model: 'province',   key: 'culture',   name: 'Culture',  state: "on"},
   {    model: 'province',   key: 'religion',  name: 'Religion',  }
 ];
 #$('[data-value="country.suzerain"]').text(c.suzerain ? cs[c.suzerain].name : '');
@@ -73,10 +124,17 @@ settings = [
 #$('[data-value="province.culture"]').text(p ? p.culture.replace(/_/g, ' ') : '');
 #$('[data-value="province.religion"]').text(p ? p.religion.replace(/_/g, ' ') : '');
 
-$.each(settings, (_, s) -> 
-  row = $('#templates #data_row > *').clone().appendTo('.side-panel.country-info table')
-  o_O.bind(Attribute.model(s), row )
+Template.data_row.events(
+  'click label': (evt, tmpl) -> 
+    tmpl.data.state( $(evt.target).find('input').val() ) 
+    true
 )
+
+$.each(row_settings, (_, s) -> 
+  target = $(".side-panel.#{s.model}-info tbody")[0]
+  UI.insert(UI.renderWithData(Template.data_row, Model(new Attribute(s))), target) 
+)
+$coffee.resolve()
 ###  
 $.each(settings, function(i, s){
   o_O.bind(s, $('#templates #data_row > *').clone().replaceAll('[data-path='+s.path+']') )
