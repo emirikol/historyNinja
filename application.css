@@ -14,8 +14,8 @@
  a {
    color: #39FFF6;
  }
- p {
-  font-family: ve;
+ p, ul, modal-body:not(h3) {
+  font-family: verdana;
  }
  body:not(.edit) .editor, body:not(.edit) .off {
    display: none;
@@ -43,8 +43,11 @@
     font-size: 12px;
     line-height: 18px;
     cursor: pointer;
+    text-align: center;
+    min-width: 20px;
+    border-right: 1px #666 dotted
  }
- .navbar .item.active {
+ .navbar .item.active, .navbar .item:hover {
    background-color: rgb(231, 231, 231);
    color: black;
  }
