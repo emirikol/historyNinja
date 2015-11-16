@@ -28,8 +28,8 @@
  }
  .navbar {
    min-height: 0;
-   line-height: 18px;
-   font-size: 10px;
+   line-height: 26px;
+   font-size: 12px;
    background: linear-gradient(to bottom, rgba(125,126,125,1) 1%,rgba(125,126,125,1) 1%,rgba(14,14,14,1) 73%);
    margin-bottom: 0;
    border-radius: 0;
@@ -41,10 +41,10 @@
     display: inline-block;
     padding: 0 4px;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 26px;
     cursor: pointer;
     text-align: center;
-    min-width: 20px;
+    min-width: 24px;
     border-right: 1px #666 dotted
  }
  .navbar .item.active, .navbar .item:hover {
@@ -58,8 +58,8 @@
  
  body > .container { 
   height: 100%;
-  margin-top: -18px;
-  padding-top: 18px;
+  margin-top: -26px;
+  padding-top: 26px;
  }
  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
    border-top: none;
