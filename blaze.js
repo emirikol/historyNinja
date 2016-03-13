@@ -7900,7 +7900,7 @@ $(document).ready(function() {
 Deps = Package.deps.Deps;
 Blaze = {};
 Blaze.Var = function(initVal) {
-    if (!(this instanceof Blaze.Var))
+    if (!(this instanceof Blaze.Var))
         return new Blaze.Var(initVal);
     this._dep = new Deps.Dependency;
     this._value = initVal;
